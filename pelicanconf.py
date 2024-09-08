@@ -6,7 +6,7 @@ PATH = 'content'
 OUTPUT_PATH = 'docs/'
 TIMEZONE = 'Asia/Taipei'
 
-DEFAULT_LANG = 'zh'
+DEFAULT_LANG = 'en'
 
 ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
