@@ -9,6 +9,7 @@ git add .
 echo "Enter commit message:"
 read commit_message
 git config --global user.name "Chris Hsu"
+git config --global user.email chris.cite@gmail.com
 git commit -m "$commit_message"
 git push origin main
 
