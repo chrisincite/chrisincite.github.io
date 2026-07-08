@@ -473,13 +473,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 22px;
+  padding-bottom: 96px;   /* 幫底部膠囊選單留位，避免文字重疊 */
   overflow: hidden;
   background: var(--paper);
 }
 .exit-mac { will-change: transform; }
-.exit-mac .macbook-bezel { width: min(60vw, 660px); }
-.exit-mac .macbook-base { width: min(69vw, 760px); }
+.exit-mac .macbook-bezel { width: min(52vw, 560px); }
+.exit-mac .macbook-base { width: min(60vw, 645px); }
 .exit-shot {
   width: 100%;
   height: 100%;
@@ -562,10 +563,7 @@ body {
 .goodbye .g-links a { color: var(--indigo); text-decoration: none; font-weight: 700; }
 .goodbye .g-links a:hover { text-decoration: underline; }
 .exit-footer {
-  position: absolute;
-  bottom: 14px;
-  left: 0;
-  right: 0;
+  margin-top: 6px;
   text-align: center;
   font-family: 'Fira Code', monospace;
   font-size: 10.5px;
@@ -1044,7 +1042,8 @@ body {
     return '<span class="out">&gt; ' + txt + '</span>';
   }
 
-  var autoBoot = /[?&]boot/.test(location.search);
+  var autoExit = /[?&]exit/.test(location.search);
+  var autoBoot = autoExit || /[?&]boot/.test(location.search);
 
   function finishTyping() {
     typingDone = true;
@@ -1127,9 +1126,10 @@ body {
       applyScrollLock();
       updatePillVisibility();
       window.scrollTo(0, 0);
-      requestAnimationFrame(function() {
+      setTimeout(function() {
         document.getElementById('page-home').classList.add('os-ready');
-      });
+        if (autoExit) window.scrollTo({ top: document.body.scrollHeight, left: 0, behavior: 'auto' });
+      }, 50);
     }, reducedMotion ? 0 : 750);
   }
 
