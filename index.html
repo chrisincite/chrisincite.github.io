@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CHRIS OS — 1 Person + AI = 1 Studio</title>
+<meta name="description" content="Chris・在 AI 時代重建工作流的人・室內設計 × 日本建築檔案庫 × LLM-Wiki・與 Claude 並肩工作中">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖥️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --paper: #faf7ef;
+  --paper-dark: #f2edde;
+  --ink: #20222e;
+  --ink-light: #565a6b;
+  --ink-faint: #9095a5;
+  --indigo: #3a5fa8;
+  --indigo-deep: #2b4880;
+  --vermilion: #d94f3d;
+  --gold: #d9a441;
+  --term-bg: #14161f;
+  --term-green: #4ade80;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html { overflow: hidden; scroll-behavior: smooth; }
+html.scroll-unlocked { overflow: auto; overflow-x: hidden; }
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+::selection { background: var(--gold); color: var(--ink); }
+
+/* ============================================
+   TAB SYSTEM
+   ============================================ */
+.tab-page { display: none; }
+.tab-page.active { display: block; }
+
+/* ============================================
+   PILL NAV（底部懸浮膠囊）
+   ============================================ */
+.pill-nav {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  gap: 4px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(32, 34, 46, 0.08);
+  border-radius: 999px;
+  padding: 5px;
+  box-shadow: 0 8px 32px rgba(32, 34, 46, 0.12);
+  transition: opacity 0.4s ease, transform 0.4s var(--ease-out);
+}
+.pill-nav.hidden-during-intro {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-50%) translateY(16px);
+}
+.pill-nav button {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-light);
+  background: transparent;
+  border: none;
+  border-radius: 999px;
+  padding: 9px 18px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+.pill-nav button:hover { color: var(--ink); }
+.pill-nav button.active { background: var(--indigo); color: #fff; }
+.pill-nav .pill-num {
+  font-family: 'Fira Code', monospace;
+  font-size: 10px;
+  opacity: 0.55;
+  margin-right: 5px;
+}
+
+/* ============================================
+   MACBOOK 外框（hero 與 exit 共用）
+   ============================================ */
+.macbook-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.9s var(--ease-out), opacity 0.6s ease;
+}
+.macbook-bezel {
+  width: min(78vw, 860px);
+  aspect-ratio: 16 / 10.4;
+  background: #0d0e14;
+  border-radius: 22px;
+  padding: 14px 14px 22px;
+  box-shadow:
+    0 30px 80px rgba(32, 34, 46, 0.28),
+    inset 0 0 0 1.5px rgba(255, 255, 255, 0.07);
+  position: relative;
+}
+.macbook-screen {
+  width: 100%;
+  height: 100%;
+  background: var(--term-bg);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.macbook-base {
+  width: min(90vw, 1000px);
+  height: 15px;
+  background: linear-gradient(180deg, #2c2e3a, #16171f);
+  border-radius: 0 0 16px 16px;
+  position: relative;
+}
+.macbook-base::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 7px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 0 0 10px 10px;
+}
+
+/* ============================================
+   TERMINAL
+   ============================================ */
+.term-titlebar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+.term-dot { width: 11px; height: 11px; border-radius: 50%; }
+.term-dot.r { background: #ff5f57; }
+.term-dot.y { background: #febc2e; }
+.term-dot.g { background: #28c840; }
+.term-title {
+  flex: 1;
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.35);
+}
+.term-body {
+  padding: 26px 30px;
+  font-family: 'Fira Code', monospace;
+  font-size: clamp(11px, 1.55vw, 15px);
+  line-height: 1.85;
+}
+.term-line { white-space: pre-wrap; word-break: break-all; }
+.term-line .prompt { color: var(--term-green); }
+.term-line .cmd { color: #e6e8f0; }
+.term-line .out { color: rgba(230, 232, 240, 0.62); }
+.term-line .gold { color: var(--gold); font-weight: 700; }
+.term-cursor {
+  display: inline-block;
+  width: 8px;
+  height: 1.1em;
+  background: var(--term-green);
+  vertical-align: text-bottom;
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+/* 進度條（開機） */
+.boot-progress {
+  display: none;
+  margin-top: 14px;
+  font-family: 'Fira Code', monospace;
+  color: var(--term-green);
+}
+
+/* ============================================
+   TAB 1 — SECTION A：TERMINAL HERO
+   ============================================ */
+#heroSection {
+  height: 100vh;
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  position: relative;
+  background:
+    radial-gradient(ellipse 80% 55% at 50% -12%, rgba(58, 95, 168, 0.09), transparent),
+    var(--paper);
+}
+#heroSection.zooming .macbook-wrapper {
+  transform: scale(2.6);
+  opacity: 0;
+}
+.hero-kicker {
+  font-family: 'Fira Code', monospace;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  color: var(--ink-faint);
+}
+.hero-cta {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition: opacity 0.5s ease, transform 0.5s var(--ease-out);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.hero-cta.show { opacity: 1; pointer-events: auto; transform: none; }
+.hero-cta button {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--ink);
+  border: none;
+  border-radius: 999px;
+  padding: 13px 34px;
+  cursor: pointer;
+  box-shadow: 0 6px 24px rgba(32, 34, 46, 0.25);
+  transition: transform 0.25s var(--ease-out), background 0.25s ease;
+}
+.hero-cta button:hover { transform: translateY(-2px); background: var(--indigo-deep); }
+.hero-cta .hint {
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  color: var(--ink-faint);
+}
+
+/* ============================================
+   TAB 1 — SECTION B：CHRIS OS 桌面
+   ============================================ */
+#osSection {
+  display: none;
+  height: 100vh;
+  height: 100svh;
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at var(--mx, 50%) var(--my, 40%), rgba(58, 95, 168, 0.10), transparent 42%),
+    radial-gradient(circle at 1px 1px, rgba(32, 34, 46, 0.10) 1px, transparent 0) 0 0 / 26px 26px,
+    var(--paper);
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+#osSection.on { display: block; }
+#osSection.visible { opacity: 1; }
+
+.menubar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(32, 34, 46, 0.07);
+  font-family: 'Fira Code', monospace;
+  font-size: 11.5px;
+  color: var(--ink-light);
+  z-index: 50;
+}
+.menubar .mb-brand { font-weight: 700; color: var(--ink); }
+.menubar .mb-brand::before { content: '⌘ '; color: var(--indigo); }
+
+.desktop-surface {
+  position: absolute;
+  inset: 34px 0 0 0;
+}
+
+/* 桌面大字浮水印 */
+.desktop-hello {
+  position: absolute;
+  top: 7%;
+  left: 5%;
+  z-index: 1;
+  pointer-events: none;
+}
+.desktop-hello h1 {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 900;
+  font-size: clamp(34px, 5.4vw, 72px);
+  line-height: 1.18;
+  letter-spacing: 0.01em;
+}
+.desktop-hello h1 em {
+  font-style: normal;
+  color: var(--indigo);
+}
+.desktop-hello p {
+  margin-top: 12px;
+  font-family: 'Fira Code', monospace;
+  font-size: 13px;
+  color: var(--ink-faint);
+}
+
+/* 視窗 */
+.os-window {
+  position: absolute;
+  width: 330px;
+  background: #fff;
+  border: 1px solid rgba(32, 34, 46, 0.10);
+  border-radius: 14px;
+  box-shadow: 0 14px 44px rgba(32, 34, 46, 0.13);
+  overflow: hidden;
+  z-index: 10;
+  opacity: 0;
+  transform: translateY(16px) scale(0.98);
+}
+.os-ready .os-window {
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.6s ease, transform 0.6s var(--ease-out), box-shadow 0.3s ease;
+}
+.os-ready .os-window:nth-of-type(2) { transition-delay: 0.1s; }
+.os-ready .os-window:nth-of-type(3) { transition-delay: 0.2s; }
+.os-ready .os-window:nth-of-type(4) { transition-delay: 0.3s; }
+.os-ready .os-window:nth-of-type(5) { transition-delay: 0.4s; }
+.os-window.dragging { box-shadow: 0 24px 64px rgba(32, 34, 46, 0.24); }
+.win-titlebar {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 12px;
+  background: var(--paper-dark);
+  border-bottom: 1px solid rgba(32, 34, 46, 0.07);
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.win-titlebar:active { cursor: grabbing; }
+.win-titlebar .term-dot { width: 10px; height: 10px; }
+.win-titlebar .win-name {
+  flex: 1;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink-light);
+}
+.win-body { padding: 16px 18px 18px; font-size: 13px; line-height: 1.75; color: var(--ink-light); }
+.win-body strong { color: var(--ink); }
+.win-stats {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+.win-stat {
+  flex: 1;
+  min-width: 82px;
+  background: var(--paper);
+  border: 1px solid rgba(32, 34, 46, 0.07);
+  border-radius: 9px;
+  padding: 9px 10px;
+  text-align: center;
+}
+.win-stat b {
+  display: block;
+  font-family: 'Fira Code', monospace;
+  font-size: 16px;
+  color: var(--indigo);
+}
+.win-stat span { font-size: 11px; color: var(--ink-faint); }
+.win-list { list-style: none; margin-top: 6px; }
+.win-list li {
+  padding: 7px 0;
+  border-bottom: 1px dashed rgba(32, 34, 46, 0.1);
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+}
+.win-list li:last-child { border-bottom: none; }
+.win-list .k {
+  font-family: 'Fira Code', monospace;
+  font-size: 11.5px;
+  color: var(--vermilion);
+  white-space: nowrap;
+}
+.win-tags { margin-top: 12px; display: flex; gap: 6px; flex-wrap: wrap; }
+.win-tag {
+  font-family: 'Fira Code', monospace;
+  font-size: 10.5px;
+  color: var(--indigo);
+  background: rgba(58, 95, 168, 0.09);
+  border-radius: 999px;
+  padding: 3px 10px;
+}
+.win-links { display: flex; gap: 10px; margin-top: 14px; }
+.win-links a {
+  flex: 1;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 9px;
+  padding: 10px 0;
+  transition: transform 0.2s var(--ease-out), opacity 0.2s ease;
+}
+.win-links a:hover { transform: translateY(-2px); opacity: 0.9; }
+.win-links .a-dark { background: var(--ink); color: #fff; }
+.win-links .a-line { border: 1.5px solid var(--ink); color: var(--ink); }
+
+/* 桌面便利貼 */
+.sticky-note {
+  position: absolute;
+  right: 6%;
+  top: 12%;
+  width: 168px;
+  padding: 14px 15px;
+  background: var(--gold);
+  color: var(--ink);
+  font-size: 12.5px;
+  line-height: 1.7;
+  border-radius: 3px 14px 14px 14px;
+  box-shadow: 0 10px 26px rgba(32, 34, 46, 0.18);
+  transform: rotate(3deg);
+  z-index: 9;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.sticky-note b { display: block; font-family: 'Fira Code', monospace; font-size: 11px; margin-bottom: 4px; }
+
+.scroll-hint {
+  position: absolute;
+  bottom: 76px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  color: var(--ink-faint);
+  z-index: 40;
+  animation: bob 2.2s ease-in-out infinite;
+}
+@keyframes bob { 50% { transform: translateX(-50%) translateY(5px); } }
+
+/* ============================================
+   TAB 1 — SECTION C：EXIT ZOOM-OUT（捲動驅動）
+   ============================================ */
+#exitSection { display: none; height: 240vh; position: relative; }
+#exitSection.on { display: block; }
+.exit-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  overflow: hidden;
+  background: var(--paper);
+}
+.exit-mac { will-change: transform; }
+.exit-mac .macbook-bezel { width: min(60vw, 660px); }
+.exit-mac .macbook-base { width: min(69vw, 760px); }
+.exit-shot {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background:
+    radial-gradient(circle at 1px 1px, rgba(32, 34, 46, 0.10) 1px, transparent 0) 0 0 / 18px 18px,
+    var(--paper);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.exit-shot .mini-menubar {
+  height: 14px;
+  background: rgba(255, 255, 255, 0.75);
+  border-bottom: 1px solid rgba(32, 34, 46, 0.08);
+}
+.exit-shot .mini-title {
+  position: absolute;
+  top: 18%;
+  left: 8%;
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 900;
+  font-size: clamp(14px, 2.4vw, 26px);
+}
+.exit-shot .mini-title em { font-style: normal; color: var(--indigo); }
+.exit-shot .mini-win {
+  position: absolute;
+  background: #fff;
+  border: 1px solid rgba(32, 34, 46, 0.1);
+  border-radius: 7px;
+  box-shadow: 0 6px 18px rgba(32, 34, 46, 0.12);
+}
+.exit-shot .mini-win::before {
+  content: '';
+  display: block;
+  height: 10px;
+  background: var(--paper-dark);
+  border-radius: 7px 7px 0 0;
+}
+.exit-shot .mw1 { width: 34%; height: 42%; left: 10%; bottom: 12%; }
+.exit-shot .mw2 { width: 26%; height: 30%; right: 14%; top: 26%; }
+.exit-shot .mini-note {
+  position: absolute;
+  right: 9%;
+  bottom: 16%;
+  width: 13%;
+  height: 16%;
+  background: var(--gold);
+  border-radius: 2px 6px 6px 6px;
+  transform: rotate(4deg);
+}
+.goodbye {
+  text-align: center;
+  opacity: 0;
+  transform: translateY(10px);
+  will-change: opacity;
+}
+.goodbye .g-mono {
+  font-family: 'Fira Code', monospace;
+  font-size: 12px;
+  color: var(--term-green);
+  background: var(--term-bg);
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 999px;
+  margin-bottom: 16px;
+}
+.goodbye h2 {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 900;
+  font-size: clamp(22px, 3.4vw, 36px);
+  line-height: 1.4;
+}
+.goodbye .g-links {
+  margin-top: 18px;
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  font-size: 14px;
+}
+.goodbye .g-links a { color: var(--indigo); text-decoration: none; font-weight: 700; }
+.goodbye .g-links a:hover { text-decoration: underline; }
+.exit-footer {
+  position: absolute;
+  bottom: 14px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+  font-size: 10.5px;
+  color: var(--ink-faint);
+}
+
+/* ============================================
+   TAB 2：專案
+   ============================================ */
+.page-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 84px 24px 140px;
+}
+.page-head { margin-bottom: 44px; }
+.page-head .ph-mono {
+  font-family: 'Fira Code', monospace;
+  font-size: 12px;
+  color: var(--vermilion);
+  letter-spacing: 0.18em;
+}
+.page-head h1 {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 900;
+  font-size: clamp(30px, 4.6vw, 52px);
+  margin-top: 10px;
+  line-height: 1.3;
+}
+.page-head p { margin-top: 12px; color: var(--ink-light); max-width: 560px; line-height: 1.8; }
+
+.works-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 18px;
+}
+.work-card {
+  background: #fff;
+  border: 1px solid rgba(32, 34, 46, 0.09);
+  border-radius: 16px;
+  padding: 22px 22px 20px;
+  transition: transform 0.3s var(--ease-out), box-shadow 0.3s ease;
+}
+.work-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(32, 34, 46, 0.10);
+}
+.work-card .wc-num {
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  color: var(--vermilion);
+}
+.work-card h3 {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 900;
+  font-size: 19px;
+  margin: 8px 0 8px;
+}
+.work-card p { font-size: 13.5px; line-height: 1.8; color: var(--ink-light); }
+.work-card .wc-tags { margin-top: 14px; display: flex; gap: 6px; flex-wrap: wrap; }
+
+/* ============================================
+   TAB 3：關於
+   ============================================ */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 44px;
+  align-items: start;
+}
+.about-main h2 {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 900;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.about-main h2 em { font-style: normal; color: var(--indigo); }
+.about-main p { line-height: 2; color: var(--ink-light); margin-bottom: 16px; }
+.about-main p strong { color: var(--ink); }
+.about-term {
+  background: var(--term-bg);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 16px 44px rgba(32, 34, 46, 0.18);
+}
+.about-term .term-body { font-size: 12.5px; padding: 20px 22px; }
+.about-contact { margin-top: 18px; display: flex; gap: 12px; }
+.about-contact a {
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 12px 0;
+  transition: transform 0.2s var(--ease-out);
+}
+.about-contact a:hover { transform: translateY(-2px); }
+.about-contact .a-dark { background: var(--ink); color: #fff; }
+.about-contact .a-line { border: 1.5px solid var(--ink); color: var(--ink); }
+
+/* ============================================
+   MOBILE
+   ============================================ */
+@media (max-width: 760px) {
+  .macbook-bezel { width: 92vw; border-radius: 14px; padding: 8px 8px 14px; }
+  .macbook-base { width: 98vw; }
+  .term-body { padding: 16px 14px; font-size: 10.5px; }
+  .desktop-hello { top: 5%; left: 6%; right: 6%; }
+  .os-window {
+    position: static !important;
+    width: auto;
+    margin: 12px 14px;
+  }
+  .desktop-surface {
+    overflow-y: auto;
+    padding-top: 26vh;
+    padding-bottom: 90px;
+  }
+  .win-titlebar { cursor: default; }
+  .sticky-note { display: none; }
+  .scroll-hint { display: none; }
+  #exitSection { height: 170vh; }
+  .exit-mac .macbook-bezel { width: 80vw; }
+  .exit-mac .macbook-base { width: 92vw; }
+  .about-grid { grid-template-columns: 1fr; }
+  .page-inner { padding: 56px 18px 130px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+
+<!-- ============ PILL NAV ============ -->
+<nav class="pill-nav hidden-during-intro" id="pillNav" aria-label="主選單">
+  <button data-tab="home" class="active"><span class="pill-num">01</span>桌面</button>
+  <button data-tab="works"><span class="pill-num">02</span>專案</button>
+  <button data-tab="about"><span class="pill-num">03</span>關於</button>
+</nav>
+
+<!-- ============ TAB 1：HOME ============ -->
+<main id="page-home" class="tab-page active">
+
+  <!-- SECTION A：TERMINAL HERO -->
+  <section id="heroSection">
+    <div class="hero-kicker">CHRIS · 1 PERSON + AI = 1 STUDIO</div>
+    <div class="macbook-wrapper" id="macbookWrapper">
+      <div class="macbook-bezel">
+        <div class="macbook-screen" id="macbookScreen">
+          <div class="term-titlebar">
+            <span class="term-dot r"></span><span class="term-dot y"></span><span class="term-dot g"></span>
+            <span class="term-title">chris@studio — zsh</span>
+          </div>
+          <div class="term-body" id="terminalLines"></div>
+        </div>
+      </div>
+      <div class="macbook-base"></div>
+    </div>
+    <div class="hero-cta" id="heroCta">
+      <button id="bootBtn" type="button">▶ 開機，進入 CHRIS OS</button>
+      <span class="hint">或按 Enter ⏎</span>
+    </div>
+  </section>
+
+  <!-- SECTION B：桌面 -->
+  <section id="osSection" aria-label="CHRIS OS 桌面">
+    <div class="menubar">
+      <span class="mb-brand">CHRIS OS</span>
+      <span>1 person ＋ AI ＝ 1 studio</span>
+      <span id="mbClock">--:--</span>
+    </div>
+    <div class="desktop-surface" id="desktopSurface">
+
+      <div class="desktop-hello">
+        <h1>一個人的工作室，<br>跑成<em>一個團隊</em>。</h1>
+        <p>// 拖拖看這些視窗</p>
+      </div>
+
+      <div class="os-window" id="win-archive" style="left: 6%; top: 40%;">
+        <div class="win-titlebar">
+          <span class="term-dot r"></span><span class="term-dot y"></span><span class="term-dot g"></span>
+          <span class="win-name">📚 日本建築檔案庫</span>
+        </div>
+        <div class="win-body">
+          把《新建築》《住宅特集》《商店建築》的掃描誌面，<strong>逐件翻譯改寫成繁體中文敘事</strong>，入庫本機 Weaviate 向量資料庫。
+          <div class="win-stats">
+            <div class="win-stat"><b>2,000+</b><span>作品入庫</span></div>
+            <div class="win-stat"><b>3</b><span>本雜誌</span></div>
+            <div class="win-stat"><b>12</b><span>年份跨度</span></div>
+          </div>
+          <div class="win-tags">
+            <span class="win-tag">Weaviate</span><span class="win-tag">PDF → 繁中</span><span class="win-tag">GPU OCR</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="os-window" id="win-wiki" style="left: 38%; top: 30%;">
+        <div class="win-titlebar">
+          <span class="term-dot r"></span><span class="term-dot y"></span><span class="term-dot g"></span>
+          <span class="win-name">🌱 LLM-Wiki 溫室</span>
+        </div>
+        <div class="win-body">
+          寫給 <strong>LLM 讀的維基</strong>：不是資料的堆放，而是跨案例的理解層。
+          <ul class="win-list">
+            <li><span class="k">archwiki</span><span>建築師、構法與空間概念的編譯頁</span></li>
+            <li><span class="k">drawing-wiki</span><span>教 LLM 讀懂平面図與断面図</span></li>
+            <li><span class="k">bussan-wiki</span><span>日本各地物產的風土誌</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="os-window" id="win-gpu" style="left: 64%; top: 52%;">
+        <div class="win-titlebar">
+          <span class="term-dot r"></span><span class="term-dot y"></span><span class="term-dot g"></span>
+          <span class="win-name">⚡ 即拋式 GPU</span>
+        </div>
+        <div class="win-body">
+          需要算力時在雲端開一台 GPU，<strong>跑完整台刪除</strong>，零閒置費。
+          <ul class="win-list">
+            <li><span class="k">ocr</span><span>掃描雜誌全本文字化</span></li>
+            <li><span class="k">tts</span><span>克隆自己的聲音唸文章</span></li>
+            <li><span class="k">video</span><span>讓照片開口說話</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="os-window" id="win-sayhi" style="left: 30%; top: 62%; width: 290px;">
+        <div class="win-titlebar">
+          <span class="term-dot r"></span><span class="term-dot y"></span><span class="term-dot g"></span>
+          <span class="win-name">👋 Say Hi</span>
+        </div>
+        <div class="win-body">
+          一人工作室，隨時開機。歡迎聊建築、檔案庫，或和 AI 一起工作的方法。
+          <div class="win-links">
+            <a class="a-dark" href="https://github.com/chrisincite" target="_blank" rel="noopener">GitHub ↗</a>
+            <a class="a-line" href="mailto:chris.cite@gmail.com">Email ✉</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sticky-note" id="stickyNote">
+        <b>TODO.txt</b>
+        今天也把一期雜誌<br>交給 Claude 入庫 ✅
+      </div>
+
+      <div class="scroll-hint">往下捲，闔上這台電腦 ↓</div>
+    </div>
+  </section>
+
+  <!-- SECTION C：EXIT ZOOM-OUT -->
+  <section id="exitSection">
+    <div class="exit-sticky">
+      <div class="macbook-wrapper exit-mac" id="exitMac">
+        <div class="macbook-bezel">
+          <div class="macbook-screen">
+            <div class="exit-shot">
+              <div class="mini-menubar"></div>
+              <div class="mini-title">一個人的工作室，<br>跑成<em>一個團隊</em>。</div>
+              <div class="mini-win mw1"></div>
+              <div class="mini-win mw2"></div>
+              <div class="mini-note"></div>
+            </div>
+          </div>
+        </div>
+        <div class="macbook-base"></div>
+      </div>
+      <div class="goodbye" id="goodbyeScreen">
+        <div class="g-mono">session saved ⏎</div>
+        <h2>今天先到這裡。<br>1 person ＋ AI，明天繼續。</h2>
+        <div class="g-links">
+          <a href="#works">看看專案 →</a>
+          <a href="#" id="backToTopLink">回到開機畫面 ↑</a>
+        </div>
+      </div>
+      <div class="exit-footer">© 2026 CHRIS — 手刻單一 HTML，零框架，與 Claude 一起寫成 · Hosted on GitHub Pages</div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ TAB 2：專案 ============ -->
+<main id="page-works" class="tab-page">
+  <div class="page-inner">
+    <header class="page-head">
+      <div class="ph-mono">02 / WORKS</div>
+      <h1>正在長大的東西</h1>
+      <p>每一個都是「一個人＋AI」跑起來的流程：從日本建築雜誌的向量檔案庫，到寫給 LLM 讀的維基，到即開即刪的雲端 GPU 工具。</p>
+    </header>
+    <div class="works-grid">
+      <article class="work-card">
+        <div class="wc-num">01</div>
+        <h3>日本建築檔案庫</h3>
+        <p>把《新建築》《住宅特集》《商店建築》十餘年的掃描誌面，逐件翻譯改寫成繁體中文敘事，入庫 Weaviate 向量資料庫，超過兩千件作品可語意檢索。</p>
+        <div class="wc-tags"><span class="win-tag">Weaviate</span><span class="win-tag">Claude Code</span><span class="win-tag">批次管線</span></div>
+      </article>
+      <article class="work-card">
+        <div class="wc-num">02</div>
+        <h3>archwiki</h3>
+        <p>建立在檔案庫之上的理解層：建築師、構法、空間概念、地域與年代的跨案例編譯頁——檢索給答案，wiki 給脈絡。</p>
+        <div class="wc-tags"><span class="win-tag">LLM-Wiki</span><span class="win-tag">繁中</span></div>
+      </article>
+      <article class="work-card">
+        <div class="wc-num">03</div>
+        <h3>arch-drawing-wiki</h3>
+        <p>教 LLM 讀懂日本建築設計圖面的教材：平面図、断面図、矩計図、通り芯……從裁圖到逐案讀圖筆記，再編成跨案主題頁。</p>
+        <div class="wc-tags"><span class="win-tag">讀圖識讀</span><span class="win-tag">JIS A 0150</span></div>
+      </article>
+      <article class="work-card">
+        <div class="wc-num">04</div>
+        <h3>japan-bussan-wiki</h3>
+        <p>日本各地特色物產的風土誌：関さば、大間まぐろ、廣島牡蠣……一級產品與加工品並重的 LLM-Wiki。</p>
+        <div class="wc-tags"><span class="win-tag">LLM-Wiki</span><span class="win-tag">風土</span></div>
+      </article>
+      <article class="work-card">
+        <div class="wc-num">05</div>
+        <h3>即拋式 GPU 工具箱</h3>
+        <p>RunPod 上即開即刪的 GPU 伺服器：整本掃描雜誌的雲端 OCR、零樣本聲音克隆 TTS、讓照片開口說話的影片生成。跑完整台刪除，零閒置費。</p>
+        <div class="wc-tags"><span class="win-tag">RunPod</span><span class="win-tag">OCR</span><span class="win-tag">TTS</span></div>
+      </article>
+      <article class="work-card">
+        <div class="wc-num">06</div>
+        <h3>聲音克隆工作流</h3>
+        <p>用自己的聲音把文章讀成語音檔，再接字幕影片一條龍：文字 → 克隆 TTS → 跑馬燈或卡拉 OK 逐字反白字幕。</p>
+        <div class="wc-tags"><span class="win-tag">Qwen3-TTS</span><span class="win-tag">ffmpeg</span></div>
+      </article>
+      <article class="work-card">
+        <div class="wc-num">07</div>
+        <h3>建築案例宣傳包</h3>
+        <p>把一個建築案例做成一整套社群宣傳：繁中行銷長文、Editorial 風圖卡輪播、直式 Reels 影片，一個指令生成。</p>
+        <div class="wc-tags"><span class="win-tag">gpt-image</span><span class="win-tag">Reels</span></div>
+      </article>
+      <article class="work-card">
+        <div class="wc-num">08</div>
+        <h3>每日工作記錄</h3>
+        <p>每天把和 Claude 協作的過程寫成 Facebook 貼文加一張情境插圖——為什麼做、怎麼做、成果如何，留下一人團隊的航海日誌。</p>
+        <div class="wc-tags"><span class="win-tag">自動化</span><span class="win-tag">MCP</span></div>
+      </article>
+    </div>
+  </div>
+</main>
+
+<!-- ============ TAB 3：關於 ============ -->
+<main id="page-about" class="tab-page">
+  <div class="page-inner">
+    <header class="page-head">
+      <div class="ph-mono">03 / ABOUT</div>
+      <h1>在 AI 時代重建工作流的人</h1>
+    </header>
+    <div class="about-grid">
+      <div class="about-main">
+        <h2>我相信一個人加上 AI，<br>可以是<em>一整個工作室</em>。</h2>
+        <p>我是 <strong>Chris</strong>，建築與室內設計背景。過去這段時間，我把日常工作一件一件改寫成「與 Claude 協作」的流程：日本建築雜誌的翻譯與入庫、寫給 LLM 讀的維基、需要算力時即開即刪的雲端 GPU。</p>
+        <p>方法很簡單：<strong>把重複的事交給管線，把判斷留給自己</strong>。每一條流程都先手動跑通一次，寫成 skill，之後就變成一句話能啟動的工作。</p>
+        <p>這個網站本身也是同一種做法的示範——沒有框架、沒有建站工具，就是一個和 Claude 一起手刻的 HTML 檔，放在 GitHub Pages 上。</p>
+        <div class="about-contact">
+          <a class="a-dark" href="https://github.com/chrisincite" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="a-line" href="mailto:chris.cite@gmail.com">寫信給我 ✉</a>
+        </div>
+      </div>
+      <aside class="about-term">
+        <div class="term-titlebar">
+          <span class="term-dot r"></span><span class="term-dot y"></span><span class="term-dot g"></span>
+          <span class="term-title">daily.sh</span>
+        </div>
+        <div class="term-body">
+          <div class="term-line"><span class="prompt">$ </span><span class="cmd">cat workflow.md</span></div>
+          <div class="term-line"><span class="out">&gt; 早上：和 Claude 排定今天的批次</span></div>
+          <div class="term-line"><span class="out">&gt; 白天：檔案庫入庫、wiki 鋪詞條</span></div>
+          <div class="term-line"><span class="out">&gt; 需要算力：GPU 開機 → 跑完 → 刪機</span></div>
+          <div class="term-line"><span class="out">&gt; 晚上：把過程寫成工作記錄</span></div>
+          <div class="term-line">&nbsp;</div>
+          <div class="term-line"><span class="prompt">$ </span><span class="cmd">echo "把重複交給管線"</span></div>
+          <div class="term-line"><span class="gold">&gt; 把判斷留給自己</span><span class="term-cursor"></span></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<script>
+(function() {
+  'use strict';
+
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  window.scrollTo(0, 0);
+
+  /* ===== 狀態 ===== */
+  var typingDone = false;
+  var launched = false;
+  var isMobile = window.matchMedia('(max-width: 760px)').matches;
+  var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ============================================
+     TAB ROUTER（hash-based）
+     ============================================ */
+  var TABS = ['home', 'works', 'about'];
+  var pillNav = document.getElementById('pillNav');
+
+  function currentTab() {
+    var h = location.hash.replace('#', '');
+    return TABS.indexOf(h) >= 0 ? h : 'home';
+  }
+
+  function applyScrollLock() {
+    var lock = currentTab() === 'home' && !launched;
+    document.documentElement.classList.toggle('scroll-unlocked', !lock);
+  }
+
+  function updatePillVisibility() {
+    var hide = currentTab() === 'home' && !launched;
+    pillNav.classList.toggle('hidden-during-intro', hide);
+  }
+
+  function switchTab(tab) {
+    TABS.forEach(function(t) {
+      document.getElementById('page-' + t).classList.toggle('active', t === tab);
+    });
+    pillNav.querySelectorAll('button').forEach(function(b) {
+      b.classList.toggle('active', b.dataset.tab === tab);
+    });
+    window.scrollTo(0, 0);
+    requestAnimationFrame(function() { window.scrollTo(0, 0); });
+    applyScrollLock();
+    updatePillVisibility();
+  }
+
+  pillNav.addEventListener('click', function(e) {
+    var btn = e.target.closest('button');
+    if (btn) location.hash = btn.dataset.tab;
+  });
+  window.addEventListener('hashchange', function() { switchTab(currentTab()); });
+
+  /* ============================================
+     選單列時鐘
+     ============================================ */
+  var mbClock = document.getElementById('mbClock');
+  function tickClock() {
+    var d = new Date();
+    mbClock.textContent = String(d.getHours()).padStart(2, '0') + ':' + String(d.getMinutes()).padStart(2, '0');
+  }
+  tickClock();
+  setInterval(tickClock, 30000);
+
+  /* ============================================
+     TERMINAL 打字（首訪）／略過（回訪）
+     ============================================ */
+  var VISITED_KEY = 'chris_os_visited';
+  var isReturnVisitor = false;
+  try { isReturnVisitor = !!localStorage.getItem(VISITED_KEY); } catch (e) {}
+
+  var terminalData = [
+    { type: 'cmd', text: 'whoami' },
+    { type: 'out', text: 'CHRIS' },
+    { type: 'blank' },
+    { type: 'cmd', text: 'cat about.md' },
+    { type: 'out', text: '在 AI 時代重建工作流的人' },
+    { type: 'out2', text: '室內設計 × 日本建築檔案 × LLM-Wiki' },
+    { type: 'out2', text: '與 Claude 並肩工作中' },
+    { type: 'blank' },
+    { type: 'cmd', text: 'echo "1 person + AI = 1 studio"' },
+    { type: 'gold', text: '1 person + AI = 1 studio' },
+    { type: 'blank' },
+    { type: 'cmd', text: 'open chris-os.app', cursor: true }
+  ];
+
+  var container = document.getElementById('terminalLines');
+  var heroCta = document.getElementById('heroCta');
+
+  function lineHTML(item, txt) {
+    if (item.type === 'blank') return '&nbsp;';
+    if (item.type === 'cmd') return '<span class="prompt">$ </span><span class="cmd">' + txt + '</span>';
+    if (item.type === 'gold') return '<span class="gold">&gt; ' + txt + '</span>';
+    if (item.type === 'out2') return '<span class="out">&nbsp;&nbsp;' + txt + '</span>';
+    return '<span class="out">&gt; ' + txt + '</span>';
+  }
+
+  var autoBoot = /[?&]boot/.test(location.search);
+
+  function finishTyping() {
+    typingDone = true;
+    heroCta.classList.add('show');
+    if (autoBoot) setTimeout(function() { launch(); }, 80);
+  }
+
+  function renderAllInstant() {
+    var html = '';
+    terminalData.forEach(function(item) {
+      html += '<div class="term-line">' + lineHTML(item, item.text || '') +
+        (item.cursor ? '<span class="term-cursor"></span>' : '') + '</div>';
+    });
+    container.innerHTML = html;
+    finishTyping();
+  }
+
+  function typeSequence(idx) {
+    if (idx >= terminalData.length) { finishTyping(); return; }
+    var item = terminalData[idx];
+    var div = document.createElement('div');
+    div.className = 'term-line';
+    container.appendChild(div);
+
+    if (item.type === 'cmd') {
+      var i = 0;
+      (function typeChar() {
+        i++;
+        div.innerHTML = lineHTML(item, item.text.slice(0, i)) +
+          (i >= item.text.length && item.cursor ? '<span class="term-cursor"></span>' : '');
+        if (i < item.text.length) setTimeout(typeChar, 34);
+        else setTimeout(function() { typeSequence(idx + 1); }, 260);
+      })();
+    } else {
+      div.innerHTML = lineHTML(item, item.text || '');
+      setTimeout(function() { typeSequence(idx + 1); }, item.type === 'blank' ? 60 : 130);
+    }
+  }
+
+  if (isReturnVisitor || reducedMotion) renderAllInstant();
+  else setTimeout(function() { typeSequence(0); }, 600);
+
+  /* ============================================
+     開機：終端機 → 進度條 → 放大進入桌面
+     ============================================ */
+  var heroSection = document.getElementById('heroSection');
+  var osSection = document.getElementById('osSection');
+  var exitSection = document.getElementById('exitSection');
+  var bootBtn = document.getElementById('bootBtn');
+
+  function launch() {
+    if (launched || !typingDone) return;
+    launched = true;
+    try { localStorage.setItem(VISITED_KEY, '1'); } catch (e) {}
+
+    var boot = document.createElement('div');
+    boot.className = 'term-line';
+    container.appendChild(boot);
+    var steps = 0;
+    var timer = setInterval(function() {
+      steps++;
+      boot.innerHTML = '<span class="out">booting </span><span class="gold">' +
+        '█'.repeat(steps) + '░'.repeat(10 - steps) + ' ' + steps * 10 + '%</span>';
+      if (steps >= 10) {
+        clearInterval(timer);
+        setTimeout(zoomIn, 200);
+      }
+    }, reducedMotion ? 10 : 90);
+
+    heroCta.classList.remove('show');
+  }
+
+  function zoomIn() {
+    heroSection.classList.add('zooming');
+    osSection.classList.add('on');
+    setTimeout(function() {
+      heroSection.style.display = 'none';
+      osSection.classList.add('visible');
+      exitSection.classList.add('on');
+      applyScrollLock();
+      updatePillVisibility();
+      window.scrollTo(0, 0);
+      requestAnimationFrame(function() {
+        document.getElementById('page-home').classList.add('os-ready');
+      });
+    }, reducedMotion ? 0 : 750);
+  }
+
+  bootBtn.addEventListener('click', launch);
+  document.getElementById('macbookScreen').addEventListener('click', launch);
+  window.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' && currentTab() === 'home') launch();
+  });
+
+  /* ============================================
+     桌面視窗管理（拖曳＋聚焦置頂）
+     ============================================ */
+  var zTop = 20;
+  var surface = document.getElementById('desktopSurface');
+
+  function makeDraggable(el, handle) {
+    if (isMobile) return;
+    el.addEventListener('mousedown', function() {
+      zTop++;
+      el.style.zIndex = zTop;
+    });
+    handle.addEventListener('pointerdown', function(e) {
+      e.preventDefault();
+      var rect = el.getBoundingClientRect();
+      var sRect = surface.getBoundingClientRect();
+      var offX = e.clientX - rect.left;
+      var offY = e.clientY - rect.top;
+      el.classList.add('dragging');
+      function onMove(ev) {
+        var x = ev.clientX - sRect.left - offX;
+        var y = ev.clientY - sRect.top - offY;
+        x = Math.max(-rect.width * 0.4, Math.min(x, sRect.width - rect.width * 0.3));
+        y = Math.max(0, Math.min(y, sRect.height - 44));
+        el.style.left = x + 'px';
+        el.style.top = y + 'px';
+      }
+      function onUp() {
+        el.classList.remove('dragging');
+        document.removeEventListener('pointermove', onMove);
+        document.removeEventListener('pointerup', onUp);
+      }
+      document.addEventListener('pointermove', onMove);
+      document.addEventListener('pointerup', onUp);
+    });
+  }
+
+  document.querySelectorAll('.os-window').forEach(function(w) {
+    makeDraggable(w, w.querySelector('.win-titlebar'));
+  });
+  var note = document.getElementById('stickyNote');
+  makeDraggable(note, note);
+
+  /* ============================================
+     桌面壁紙滑鼠光暈
+     ============================================ */
+  if (!isMobile) {
+    osSection.addEventListener('mousemove', function(e) {
+      var r = osSection.getBoundingClientRect();
+      osSection.style.setProperty('--mx', ((e.clientX - r.left) / r.width * 100) + '%');
+      osSection.style.setProperty('--my', ((e.clientY - r.top) / r.height * 100) + '%');
+    });
+  }
+
+  /* ============================================
+     EXIT ZOOM-OUT（捲動驅動）
+     ============================================ */
+  var exitMac = document.getElementById('exitMac');
+  var goodbye = document.getElementById('goodbyeScreen');
+  var ticking = false;
+
+  function updateExit() {
+    ticking = false;
+    if (!launched || currentTab() !== 'home') return;
+    var rect = exitSection.getBoundingClientRect();
+    var total = rect.height - window.innerHeight;
+    if (total <= 0) return;
+    var p = Math.max(0, Math.min(1, -rect.top / total));
+    var scale = 1.55 - p * 0.75;           /* 1.55 → 0.80 */
+    exitMac.style.transform = 'scale(' + scale + ')';
+    var gp = Math.max(0, (p - 0.55) / 0.45);
+    goodbye.style.opacity = gp;
+    goodbye.style.transform = 'translateY(' + (10 - gp * 10) + 'px)';
+  }
+
+  window.addEventListener('scroll', function() {
+    if (!ticking) {
+      ticking = true;
+      requestAnimationFrame(updateExit);
+    }
+  }, { passive: true });
+
+  document.getElementById('backToTopLink').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  /* ===== 初始化 ===== */
+  switchTab(currentTab());
+})();
+</script>
+</body>
+</html>
