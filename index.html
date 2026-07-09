@@ -917,7 +917,7 @@ body {
         <h2>今天先到這裡。<br>1 person ＋ AI，明天繼續。</h2>
         <div class="g-links">
           <a href="#works">看看專案 →</a>
-          <a href="#" id="backToTopLink">回到開機畫面 ↑</a>
+          <a href="#boot" id="backToTopLink">回到開機畫面 ↑</a>
         </div>
       </div>
       <div class="exit-footer">© 2026 CHRIS — 手刻單一 HTML，零框架，與 Claude 一起寫成 · Hosted on GitHub Pages</div>
@@ -1196,7 +1196,14 @@ body {
     var btn = e.target.closest('button');
     if (btn) location.hash = btn.dataset.tab;
   });
-  window.addEventListener('hashchange', function() { switchTab(currentTab()); });
+  window.addEventListener('hashchange', function() {
+    if (location.hash === '#boot') {
+      resetToBoot();
+      history.replaceState(null, '', '#home');
+      return;
+    }
+    switchTab(currentTab());
+  });
 
   /* ============================================
      選單列時鐘
@@ -1261,7 +1268,10 @@ body {
     finishTyping();
   }
 
-  function typeSequence(idx) {
+  var typeEpoch = 0;
+
+  function typeSequence(idx, epoch) {
+    if (epoch !== typeEpoch) return;
     if (idx >= terminalData.length) { finishTyping(); return; }
     var item = terminalData[idx];
     var div = document.createElement('div');
@@ -1271,20 +1281,21 @@ body {
     if (item.type === 'cmd') {
       var i = 0;
       (function typeChar() {
+        if (epoch !== typeEpoch) return;
         i++;
         div.innerHTML = lineHTML(item, item.text.slice(0, i)) +
           (i >= item.text.length && item.cursor ? '<span class="term-cursor"></span>' : '');
         if (i < item.text.length) setTimeout(typeChar, 34);
-        else setTimeout(function() { typeSequence(idx + 1); }, 260);
+        else setTimeout(function() { typeSequence(idx + 1, epoch); }, 260);
       })();
     } else {
       div.innerHTML = lineHTML(item, item.text || '');
-      setTimeout(function() { typeSequence(idx + 1); }, item.type === 'blank' ? 60 : 130);
+      setTimeout(function() { typeSequence(idx + 1, epoch); }, item.type === 'blank' ? 60 : 130);
     }
   }
 
   if (isReturnVisitor || reducedMotion) renderAllInstant();
-  else setTimeout(function() { typeSequence(0); }, 600);
+  else setTimeout(function() { typeSequence(0, ++typeEpoch); }, 600);
 
   /* ============================================
      開機：終端機 → 進度條 → 放大進入桌面
@@ -1421,10 +1432,27 @@ body {
     }
   }, { passive: true });
 
-  document.getElementById('backToTopLink').addEventListener('click', function(e) {
-    e.preventDefault();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
+  /* ============================================
+     重開機（#boot）：回復狀態、重跑打字動畫
+     ============================================ */
+  function resetToBoot() {
+    launched = false;
+    typingDone = false;
+    switchTab('home');
+    document.getElementById('page-home').classList.remove('os-ready');
+    heroSection.classList.remove('zooming');
+    heroSection.style.display = '';
+    osSection.classList.remove('on', 'visible');
+    exitSection.classList.remove('on');
+    exitMac.style.transform = '';
+    goodbye.style.opacity = '';
+    goodbye.style.transform = '';
+    heroCta.classList.remove('show');
+    container.innerHTML = '';
+    window.scrollTo(0, 0);
+    var epoch = ++typeEpoch;
+    setTimeout(function() { typeSequence(0, epoch); }, 350);
+  }
 
   /* ============================================
      工具 HUB：展開＋拖曳排序（localStorage 記憶）
