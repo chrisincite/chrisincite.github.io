@@ -625,7 +625,85 @@ body {
 .work-card .wc-tags { margin-top: 14px; display: flex; gap: 6px; flex-wrap: wrap; }
 
 /* ============================================
-   TAB 3：關於
+   TAB 3：工具 HUB
+   ============================================ */
+.hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+.hub-card {
+  background: #fff;
+  border: 1px solid rgba(32, 34, 46, 0.09);
+  border-radius: 16px;
+  padding: 18px 18px 14px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: transform 0.3s var(--ease-out), box-shadow 0.3s ease, opacity 0.2s ease;
+}
+.hub-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 36px rgba(32, 34, 46, 0.10);
+}
+.hub-card.dragging { opacity: 0.45; transform: scale(0.98); }
+.hub-tile {
+  width: 46px;
+  height: 46px;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 900;
+  font-size: 21px;
+  color: #fff;
+  margin-bottom: 12px;
+  box-shadow: 0 6px 14px rgba(32, 34, 46, 0.14);
+}
+.hub-tile.c1 { background: linear-gradient(135deg, #5b7fc7, #3a5fa8); }
+.hub-tile.c2 { background: linear-gradient(135deg, #e5705c, #d94f3d); }
+.hub-tile.c3 { background: linear-gradient(135deg, #55b06e, #3d8f55); }
+.hub-tile.c4 { background: linear-gradient(135deg, #9a6fc4, #7b4fa8); }
+.hub-tile.c5 { background: linear-gradient(135deg, #43a8a0, #2f8a82); }
+.hub-tile.c6 { background: linear-gradient(135deg, #d9689a, #c04a7f); }
+.hub-tile.c7 { background: linear-gradient(135deg, #e0b055, #c99432); }
+.hub-card h3 { font-size: 16.5px; font-weight: 700; }
+.hub-card .hc-desc {
+  margin-top: 6px;
+  font-size: 12.5px;
+  line-height: 1.7;
+  color: var(--ink-light);
+}
+.hub-meta {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  color: var(--ink-faint);
+}
+.hub-meta .hm-arrow { transition: transform 0.3s var(--ease-out); }
+.hub-card.open .hm-arrow { transform: rotate(180deg); }
+.hub-tools {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.45s var(--ease-out);
+}
+.hub-card.open .hub-tools { max-height: 420px; }
+.hub-tools .win-list { margin-top: 12px; padding-top: 4px; border-top: 1px solid rgba(32, 34, 46, 0.08); }
+.hub-note {
+  margin-top: 28px;
+  font-family: 'Fira Code', monospace;
+  font-size: 12px;
+  color: var(--ink-faint);
+  line-height: 1.9;
+}
+
+/* ============================================
+   TAB 4：關於
    ============================================ */
 .about-grid {
   display: grid;
@@ -704,7 +782,8 @@ body {
 <nav class="pill-nav hidden-during-intro" id="pillNav" aria-label="主選單">
   <button data-tab="home" class="active"><span class="pill-num">01</span>桌面</button>
   <button data-tab="works"><span class="pill-num">02</span>專案</button>
-  <button data-tab="about"><span class="pill-num">03</span>關於</button>
+  <button data-tab="hub"><span class="pill-num">03</span>工具</button>
+  <button data-tab="about"><span class="pill-num">04</span>關於</button>
 </nav>
 
 <!-- ============ TAB 1：HOME ============ -->
@@ -907,11 +986,132 @@ body {
   </div>
 </main>
 
-<!-- ============ TAB 3：關於 ============ -->
+<!-- ============ TAB 3：工具 HUB ============ -->
+<main id="page-hub" class="tab-page">
+  <div class="page-inner">
+    <header class="page-head">
+      <div class="ph-mono">03 / TOOL HUB</div>
+      <h1>工具棚</h1>
+      <p>一人工作室的工具總機：七個領域 Hub，每個 Hub 裡是實際在跑的工作流。點卡片展開、拖曳換位置（會記住你的排法）。這些不是網頁應用，是 Claude Code 的 skills——在本機用一句話啟動。</p>
+    </header>
+    <div class="hub-grid" id="hubGrid">
+
+      <article class="hub-card" data-hub="archive" draggable="true">
+        <div class="hub-tile c1">檔</div>
+        <h3>建築檔案管線</h3>
+        <p class="hc-desc">三本日本建築雜誌，從掃描 PDF 到向量資料庫的一條龍。</p>
+        <div class="hub-tools">
+          <ul class="win-list">
+            <li><span class="k">extractor</span><span>整期 PDF → 逐件繁中敘事 → Weaviate 入庫</span></li>
+            <li><span class="k">fetch</span><span>新建築／住宅特集整期誌面圖下載</span></li>
+            <li><span class="k">ocr-pipeline</span><span>雲端 OCR 全本文字化＋批次改寫</span></li>
+            <li><span class="k">backfill</span><span>作品データ數字視覺判讀回填</span></li>
+            <li><span class="k">db-sync</span><span>兩台 Mac 用隨身碟同步資料庫</span></li>
+          </ul>
+        </div>
+        <div class="hub-meta"><span>5 tools</span><span class="hm-arrow">▾</span></div>
+      </article>
+
+      <article class="hub-card" data-hub="drawing" draggable="true">
+        <div class="hub-tile c2">圖</div>
+        <h3>讀圖與設計理解</h3>
+        <p class="hc-desc">讓 LLM 看懂建築圖面，再把理解變成教材與分析圖。</p>
+        <div class="hub-tools">
+          <ul class="win-list">
+            <li><span class="k">crop</span><span>誌面設計圖精確裁切放大</span></li>
+            <li><span class="k">plan-report</span><span>平面圖 → 結構化繁中判讀報告</span></li>
+            <li><span class="k">drawing-wiki</span><span>教 LLM 讀圖的教材（錨定 JIS 製圖規範）</span></li>
+            <li><span class="k">archdesign</span><span>把設計拆成可檢核的 token 規格</span></li>
+            <li><span class="k">diagram</span><span>2.5D 剖切建築分析圖生成</span></li>
+          </ul>
+        </div>
+        <div class="hub-meta"><span>5 tools</span><span class="hm-arrow">▾</span></div>
+      </article>
+
+      <article class="hub-card" data-hub="wiki" draggable="true">
+        <div class="hub-tile c3">維</div>
+        <h3>LLM-Wiki 溫室</h3>
+        <p class="hc-desc">寫給 LLM 讀的維基群，共用同一套格式公約。</p>
+        <div class="hub-tools">
+          <ul class="win-list">
+            <li><span class="k">archwiki</span><span>建築師／構法／概念的跨案理解頁</span></li>
+            <li><span class="k">bussan</span><span>日本各地物產的風土誌</span></li>
+            <li><span class="k">ops-wiki</span><span>設計事務所運營知識庫</span></li>
+            <li><span class="k">format</span><span>三層架構＋雙連結的共用公約</span></li>
+          </ul>
+        </div>
+        <div class="hub-meta"><span>4 tools</span><span class="hm-arrow">▾</span></div>
+      </article>
+
+      <article class="hub-card" data-hub="gpu" draggable="true">
+        <div class="hub-tile c4">雲</div>
+        <h3>即拋式 GPU</h3>
+        <p class="hc-desc">需要算力才開機，跑完整台刪除，零閒置費。</p>
+        <div class="hub-tools">
+          <ul class="win-list">
+            <li><span class="k">ocr</span><span>整本掃描雜誌雲端文字化</span></li>
+            <li><span class="k">tts</span><span>零樣本聲音克隆合成</span></li>
+            <li><span class="k">longcat</span><span>圖生影片＋對嘴數字人</span></li>
+          </ul>
+        </div>
+        <div class="hub-meta"><span>3 tools</span><span class="hm-arrow">▾</span></div>
+      </article>
+
+      <article class="hub-card" data-hub="av" draggable="true">
+        <div class="hub-tile c5">音</div>
+        <h3>聲音與影像</h3>
+        <p class="hc-desc">用自己的聲音和鏡頭素材，量產聲音與影片內容。</p>
+        <div class="hub-tools">
+          <ul class="win-list">
+            <li><span class="k">voice-clone</span><span>本機克隆聲音把文章讀成語音檔</span></li>
+            <li><span class="k">caption</span><span>跑馬燈／卡拉 OK 逐字字幕影片</span></li>
+            <li><span class="k">news-drive</span><span>行車影片剪成新聞播報風</span></li>
+          </ul>
+        </div>
+        <div class="hub-meta"><span>3 tools</span><span class="hm-arrow">▾</span></div>
+      </article>
+
+      <article class="hub-card" data-hub="social" draggable="true">
+        <div class="hub-tile c6">社</div>
+        <h3>社群與發布</h3>
+        <p class="hc-desc">從內容生成到三平台發布的出口段。</p>
+        <div class="hub-tools">
+          <ul class="win-list">
+            <li><span class="k">meta</span><span>FB／IG／Threads 單一介面發文（含審核）</span></li>
+            <li><span class="k">promo</span><span>建築案例一鍵宣傳包：長文＋圖卡＋Reels</span></li>
+            <li><span class="k">card</span><span>雜誌風社群圖卡組生成</span></li>
+            <li><span class="k">worklog</span><span>每日協作日誌貼文＋情境插圖</span></li>
+            <li><span class="k">ogawa</span><span>以建築攝影家方法論寫圖說評論</span></li>
+          </ul>
+        </div>
+        <div class="hub-meta"><span>5 tools</span><span class="hm-arrow">▾</span></div>
+      </article>
+
+      <article class="hub-card" data-hub="intel" draggable="true">
+        <div class="hub-tile c7">讀</div>
+        <h3>情報與日常</h3>
+        <p class="hc-desc">對外的眼睛和手：調研、翻譯、收藏、通知。</p>
+        <div class="hub-tools">
+          <ul class="win-list">
+            <li><span class="k">reach</span><span>全平台調研路由：X／小紅書／B站／Reddit…</span></li>
+            <li><span class="k">article-zh</span><span>長文抓取＋繁中圖文對照翻譯</span></li>
+            <li><span class="k">restaurant</span><span>地圖連結 → 探店筆記口袋名單</span></li>
+            <li><span class="k">bark</span><span>長任務跑完推播到手機</span></li>
+          </ul>
+        </div>
+        <div class="hub-meta"><span>4 tools</span><span class="hm-arrow">▾</span></div>
+      </article>
+
+    </div>
+    <p class="hub-note">// 這是骨架不是全部——工具還在長。每一個都是先手動跑通一次，才寫成一句話能啟動的 skill。</p>
+  </div>
+</main>
+
+<!-- ============ TAB 4：關於 ============ -->
 <main id="page-about" class="tab-page">
   <div class="page-inner">
     <header class="page-head">
-      <div class="ph-mono">03 / ABOUT</div>
+      <div class="ph-mono">04 / ABOUT</div>
       <h1>在 AI 時代重建工作流的人</h1>
     </header>
     <div class="about-grid">
@@ -961,7 +1161,7 @@ body {
   /* ============================================
      TAB ROUTER（hash-based）
      ============================================ */
-  var TABS = ['home', 'works', 'about'];
+  var TABS = ['home', 'works', 'hub', 'about'];
   var pillNav = document.getElementById('pillNav');
 
   function currentTab() {
@@ -1224,6 +1424,52 @@ body {
   document.getElementById('backToTopLink').addEventListener('click', function(e) {
     e.preventDefault();
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  /* ============================================
+     工具 HUB：展開＋拖曳排序（localStorage 記憶）
+     ============================================ */
+  var hubGrid = document.getElementById('hubGrid');
+  var HUB_KEY = 'chris_hub_order';
+
+  try {
+    var saved = JSON.parse(localStorage.getItem(HUB_KEY) || 'null');
+    if (saved && saved.length) {
+      saved.forEach(function(id) {
+        var el = hubGrid.querySelector('[data-hub="' + id + '"]');
+        if (el) hubGrid.appendChild(el);
+      });
+    }
+  } catch (e) {}
+
+  function saveHubOrder() {
+    try {
+      var ids = [].map.call(hubGrid.children, function(c) { return c.dataset.hub; });
+      localStorage.setItem(HUB_KEY, JSON.stringify(ids));
+    } catch (e) {}
+  }
+
+  [].forEach.call(hubGrid.querySelectorAll('.hub-card'), function(card) {
+    card.addEventListener('click', function() {
+      card.classList.toggle('open');
+    });
+    card.addEventListener('dragstart', function(e) {
+      card.classList.add('dragging');
+      e.dataTransfer.effectAllowed = 'move';
+      try { e.dataTransfer.setData('text/plain', card.dataset.hub); } catch (err) {}
+    });
+    card.addEventListener('dragend', function() {
+      card.classList.remove('dragging');
+      saveHubOrder();
+    });
+    card.addEventListener('dragover', function(e) {
+      e.preventDefault();
+      var dragging = hubGrid.querySelector('.dragging');
+      if (!dragging || dragging === card) return;
+      var r = card.getBoundingClientRect();
+      var before = (e.clientX - r.left) / r.width + (e.clientY - r.top) / r.height < 1;
+      hubGrid.insertBefore(dragging, before ? card : card.nextSibling);
+    });
   });
 
   /* ===== 初始化 ===== */
