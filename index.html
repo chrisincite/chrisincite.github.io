@@ -623,6 +623,17 @@ body {
 }
 .work-card p { font-size: 13.5px; line-height: 1.8; color: var(--ink-light); }
 .work-card .wc-tags { margin-top: 14px; display: flex; gap: 6px; flex-wrap: wrap; }
+.go-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--vermilion);
+  text-decoration: none;
+  border-bottom: 1.5px solid var(--vermilion);
+  transition: opacity 0.2s ease;
+}
+.go-link:hover { opacity: 0.75; }
 
 /* ============================================
    TAB 3：工具 HUB
@@ -839,6 +850,7 @@ body {
           <div class="win-tags">
             <span class="win-tag">Weaviate</span><span class="win-tag">PDF → 繁中</span><span class="win-tag">GPU OCR</span>
           </div>
+          <a class="go-link" href="https://chrisincite.github.io/archfinder/" target="_blank" rel="noopener">逛逛公開版：日本建築 逆引き辭典 ↗</a>
         </div>
       </div>
 
@@ -939,6 +951,7 @@ body {
         <h3>日本建築檔案庫</h3>
         <p>把《新建築》《住宅特集》《商店建築》十餘年的掃描誌面，逐件翻譯改寫成繁體中文敘事，入庫 Weaviate 向量資料庫，超過七千件作品可語意檢索。</p>
         <div class="wc-tags"><span class="win-tag">Weaviate</span><span class="win-tag">Claude Code</span><span class="win-tag">批次管線</span></div>
+        <a class="go-link" href="https://chrisincite.github.io/archfinder/" target="_blank" rel="noopener">公開版：日本建築 逆引き辭典 ↗</a>
       </article>
       <article class="work-card">
         <div class="wc-num">02</div>
