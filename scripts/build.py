@@ -30,10 +30,12 @@ import sys
 CANONICAL_BASE = "https://chrisincite.github.io"
 MIRROR_BASE = "https://os.housearch.net"
 
-# 短連結的網域。鏡像（os.housearch.net/n/1 ＝ 28 字元）比 github.io
-# （/n/1.html ＝ 38 字元）短，但鏡像目前沒有自動部署，新筆記的短連結
-# 可能還沒上線就被貼出去。等自動部署修好再切成 MIRROR_BASE。
-SHORT_BASE = CANONICAL_BASE
+# 短連結用鏡像網域：os.housearch.net/n/1 ＝ 28 字元，比 github.io 的
+# /n/1.html（38 字元）短，而且是自己的網域。
+# 前提是鏡像會自動更新——workflow 的最後一步會觸發 Cloudflare 部署
+# （靠 CF_API_TOKEN secret），2026-08-15 實測通過。那步壞掉就要切回 CANONICAL_BASE，
+# 否則新筆記的短連結會在貼出去時還是 404。
+SHORT_BASE = MIRROR_BASE
 SHORT_SUFFIX = ".html" if "github.io" in SHORT_BASE else ""
 
 SITE_NAME = "CHRIS OS"

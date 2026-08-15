@@ -11,7 +11,7 @@ Chris 的讀書筆記全文串接，供 LLM 一次取用。共 1 則。
 > 讀書筆記 · 2026-08-15 · Chris Hsu
 > 原文連結：https://note.com/lifeisbeautiful/n/n058e3c105b7e?sub_rt=share_pb
 > 本頁 HTML：https://chrisincite.github.io/notes/20260815-japan-ai-adoption-slow.html
-> 短連結：https://chrisincite.github.io/n/1.html
+> 短連結：https://os.housearch.net/n/1
 
 日本其實一直都是後發先至思維的民族，不擅於破壞式創新，而是厚積薄發快速趕上。之前讀到一位評論家的文章，日本企業界其實是想讓AI跟實體世界產生關聯，用AI來改變優化現行工作的流程，慢慢地以最小衝擊的方式，讓人工智能融入社會體系。
 
