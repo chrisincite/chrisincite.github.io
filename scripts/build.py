@@ -2,7 +2,7 @@
 """
 CHRIS OS 讀書筆記產生器
 
-真相源：notes/src/<slug>.md（front-matter ＋ 三個固定 H2 區塊）
+真相源：notes/src/<slug>.md（front-matter ＋ 散文正文，可選 ## 摘要/Summary、## 重點/Keypoint）
 產出：
   notes/<slug>.html   語意化 HTML ＋ JSON-LD ＋ OG
   notes/<slug>.md     markdown 雙生檔（agent／tinyfish 直接取用）
@@ -40,8 +40,12 @@ SRC_DIR = os.path.join(ROOT, "notes", "src")
 NOTES_DIR = os.path.join(ROOT, "notes")
 
 # 區塊標題 → 穩定錨點 id（agent 可依錨點深連結與抽取）
+# 錨點名稱是對外契約，即使顯示標題改了也不要動；舊標題保留相容。
 SECTION_IDS = {
     "我的想法": "my-take",
+    "摘要/Summary": "summary",
+    "重點/Keypoint": "quotes",
+    # 舊標題（相容）
     "這篇在說什麼": "summary",
     "原文金句": "quotes",
 }
@@ -172,7 +176,7 @@ def split_sections(body):
 
     沒有任何 '##' 時（手機上直接寫散文的常態），整篇當作「我的想法」一段。
     第一個 '##' 之前的文字也一併歸進「我的想法」——這樣他可以直接開寫，
-    需要引用時才在後面補一個 '## 原文金句'。
+    需要引用時才在後面補一個 '## 重點/Keypoint'。
     """
     parts = re.split(r"^##\s+(.+)$", body, flags=re.M)
     sections = []
