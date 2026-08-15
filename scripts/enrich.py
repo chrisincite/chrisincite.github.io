@@ -194,8 +194,14 @@ def split_front_matter(text):
 
 
 def yaml_quote(v):
-    v = str(v)
-    return '"%s"' % v.replace('"', '\\"') if re.search(r'[:#\[\]{}"\']|^\s|\s$', v) else v
+    """一律加引號。
+
+    YAML 有一整組不能當純量開頭的指示字元（@ ` ! & * % > | - ? , { } [ ] # :），
+    逐一列舉遲早會漏。實際踩過的坑：Twitter 作者一律是 @handle 開頭，
+    未加引號會讓 GitHub 的 front-matter 渲染直接報錯
+    （found character '@' that cannot start any token）。
+    """
+    return '"%s"' % str(v).replace("\\", "\\\\").replace('"', '\\"')
 
 
 def enrich(path):

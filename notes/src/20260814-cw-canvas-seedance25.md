@@ -1,11 +1,12 @@
 ---
-title: Chris 筆記｜AiHUB的生成式AI工具「CW Canvas」對應ByteDance「Seedance 2.5」。可用IP權利證明解除濾鏡的「日本首創」工具，公開封閉β版候補名單
-source_author: @PRTIMES_JP
-source_site: prtimes.jp
+title: "Chris 筆記｜AiHUB的生成式AI工具「CW Canvas」對應ByteDance「Seedance 2.5」。可用IP權利證明解除濾鏡的「日本首創」工具，公開封閉β版候補名單"
+source_author: "@PRTIMES_JP"
+source_site: "prtimes.jp"
 source_url: "https://prtimes.jp/main/html/rd/p/000000054.000123123.html"
-source_published: 2026-08-14
-source_archive: 20260814/20260814-cw-canvas-seedance25
+source_published: "2026-08-14"
+source_archive: "20260814/20260814-cw-canvas-seedance25"
 ---
+
 
 我一直關注AiHUB株式会社的動態，沒想到他們的這則新聞，真的讓我看到什麼叫做反應迅速。
 
