@@ -1,4 +1,4 @@
 .DS_Store
 
-# 未完成的筆記草稿（等 Chris 的想法）
-notes/src/*.hold
+# 未完成的筆記草稿（build.py 不會掃這個資料夾）
+notes/drafts/
