@@ -20,6 +20,7 @@ import html
 import json
 import os
 import re
+import subprocess
 import sys
 
 # ============================================================
@@ -218,6 +219,26 @@ def first_sentence(body, limit=70):
     return ""
 
 
+def git_added_at(path):
+    """這個檔案第一次被提交的時間（ISO 8601，含時區）。
+
+    這才是「Chris 寫下這則筆記的時間」。不要拿 slug 前綴的日期當發佈時間——
+    那是原文**被抓取**的日期，跟他何時讀完、何時決定寫筆記無關，
+    會讓列表順序跟他的實際書寫順序對不上。
+
+    需要完整的 git 歷史：workflow 的 checkout 必須設 fetch-depth: 0，
+    否則淺層 clone 拿不到最初那個 commit，就會悄悄退回 slug 日期。
+    """
+    try:
+        out = subprocess.run(
+            ["git", "log", "--diff-filter=A", "--format=%aI", "--", path],
+            cwd=ROOT, capture_output=True, text=True, timeout=20)
+        lines = [x for x in out.stdout.strip().split("\n") if x.strip()]
+        return lines[-1] if lines else ""
+    except Exception:
+        return ""
+
+
 def is_note_file(name):
     """notes/src/ 裡不是筆記的檔案：說明文件、底線或點開頭的暫存檔。"""
     return (name.endswith(".md")
@@ -232,9 +253,13 @@ def build_note(path, short_url=""):
     # 手機上只會打 source ＋ title，其餘全部自動補
     slug = meta.get("slug") or os.path.splitext(os.path.basename(path))[0]
     meta["slug"] = slug
+    added_at = git_added_at(path)
     if not meta.get("date"):
-        m = re.match(r"^(\d{4})(\d{2})(\d{2})", slug)
-        meta["date"] = "-".join(m.groups()) if m else ""
+        if added_at:
+            meta["date"] = added_at[:10]
+        else:
+            m = re.match(r"^(\d{4})(\d{2})(\d{2})", slug)
+            meta["date"] = "-".join(m.groups()) if m else ""
     if not meta.get("title"):
         raise ValueError("front-matter 缺 title——標題是你的結論，不能自動生成")
     if not meta.get("hook"):
@@ -430,6 +455,8 @@ def build_note(path, short_url=""):
     return {
         "short": short_url,
         "slug": slug,
+        # 排序用的完整時間戳：同一天送出兩篇時，只有日期分不出先後
+        "published_at": added_at or meta["date"],
         "date": meta["date"],
         "title": meta["title"],
         "hook": meta.get("hook", ""),
@@ -748,7 +775,9 @@ def main():
 
     # 先配對再排序，避免 notes 就地排序後與 texts 錯位
     paired = sorted(
-        zip(notes, texts), key=lambda p: (p[0]["date"], p[0]["slug"]), reverse=True
+        zip(notes, texts),
+        key=lambda p: (p[0].get("published_at") or p[0]["date"], p[0]["slug"]),
+        reverse=True,
     )
     notes = [n for n, _ in paired]
     texts = [t for _, t in paired]

@@ -9,8 +9,8 @@
 
 格式固定為三段：**我的想法**（Chris 本人的評註，錨點 #my-take）、**這篇在說什麼**（重點整理，錨點 #summary）、**原文金句**（引用，錨點 #quotes）。
 
-- [Chris 筆記｜為什麼日本企業導入AI如此緩慢？](https://chrisincite.github.io/notes/20260815-japan-ai-adoption-slow.md)：日本其實一直都是後發先至思維的民族，不擅於破壞式創新，而是厚積薄發快速趕上。
 - [Chris 筆記｜AiHUB的生成式AI工具「CW Canvas」對應ByteDance「Seedance 2.5」。可用IP權利證明解除濾鏡的「日本首創」工具，公開封閉β版候補名單](https://chrisincite.github.io/notes/20260814-cw-canvas-seedance25.md)：我一直關注AiHUB株式会社的動態，沒想到他們的這則新聞，真的讓我看到什麼叫做反應迅速。
+- [Chris 筆記｜為什麼日本企業導入AI如此緩慢？](https://chrisincite.github.io/notes/20260815-japan-ai-adoption-slow.md)：日本其實一直都是後發先至思維的民族，不擅於破壞式創新，而是厚積薄發快速趕上。
 
 ## 其他
 

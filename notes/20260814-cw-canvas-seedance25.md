@@ -1,6 +1,6 @@
 # Chris 筆記｜AiHUB的生成式AI工具「CW Canvas」對應ByteDance「Seedance 2.5」。可用IP權利證明解除濾鏡的「日本首創」工具，公開封閉β版候補名單
 
-> 讀書筆記 · 2026-08-14 · Chris Hsu
+> 讀書筆記 · 2026-08-15 · Chris Hsu
 > 原文連結：https://prtimes.jp/main/html/rd/p/000000054.000123123.html
 > 本頁 HTML：https://chrisincite.github.io/notes/20260814-cw-canvas-seedance25.html
 > 短連結：https://os.housearch.net/n/2

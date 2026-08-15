@@ -24,7 +24,12 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      # fetch-depth: 0 = 完整歷史，不能用預設的 shallow clone——
+      # build.py 靠 git log 找每篇筆記最初被提交的時間來排序，
+      # depth 1 只看得到最新一次 commit，會悄悄退回 slug 日期。
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
