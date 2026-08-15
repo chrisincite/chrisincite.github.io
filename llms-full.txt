@@ -13,6 +13,8 @@ Chris 的讀書筆記全文串接，供 LLM 一次取用。共 2 則。
 > 本頁 HTML：https://chrisincite.github.io/notes/20260814-cw-canvas-seedance25.html
 > 短連結：https://os.housearch.net/n/2
 
+![Chris 筆記｜AiHUB的生成式AI工具「CW Canvas」對應ByteDance「Seedance 2.5」。可用IP權利證明解除濾鏡的「日本首創」工具，公開封閉β版候補名單](img/20260814-cw-canvas-seedance25-cover.jpg)
+
 我一直關注AiHUB株式会社的動態，沒想到他們的這則新聞，真的讓我看到什麼叫做反應迅速。
 
 按照目前影音模型的架構設計，他們要規避著作權侵害的方法，就是盡量避開與名人或者著名商標有關的圖片及影音內容生成。但是本身是權利人主體，也就沒辦法利用他們的機制來生成自己的影音內容，所以AiHUB株式会社這家公司非常聰明看到了中間的這個機會，站出來當所謂的權利人登記註冊機構。
