@@ -1,0 +1,17 @@
+# CHRIS OS
+
+> Chris（1 person ＋ AI ＝ 1 studio）的個人站：室內設計與日本建築背景，把日常工作改寫成「一個人＋AI」的流程。本站包含讀書筆記、專案介紹與工具清單，全部繁體中文。
+
+站點正本：https://chrisincite.github.io
+每則筆記都同時提供 HTML 與 markdown 兩種格式，markdown 版把 .html 換成 .md 即可取得。
+
+## 讀書筆記
+
+格式固定為三段：**我的想法**（Chris 本人的評註，錨點 #my-take）、**這篇在說什麼**（重點整理，錨點 #summary）、**原文金句**（引用，錨點 #quotes）。
+
+
+## 其他
+
+- [筆記索引 JSON](https://chrisincite.github.io/notes/index.json)：機器可讀的完整清單
+- [全文串接](https://chrisincite.github.io/llms-full.txt)：所有筆記的完整 markdown，一次取用
+- [網站首頁](https://chrisincite.github.io/)：專案、工具棚與關於頁（單頁式 OS 介面）

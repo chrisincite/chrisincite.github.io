@@ -5,6 +5,35 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CHRIS OS — 1 Person + AI = 1 Studio</title>
 <meta name="description" content="Chris・在 AI 時代重建工作流的人・室內設計 × 日本建築檔案庫 × LLM-Wiki・與 Claude 並肩工作中">
+<meta name="author" content="Chris Hsu">
+<link rel="canonical" href="https://chrisincite.github.io/">
+<!-- agent 探索：機器可讀的站點描述與內容索引 -->
+<link rel="describedby" type="text/plain" href="/llms.txt" title="llms.txt 站點概覽">
+<link rel="alternate" type="text/plain" href="/llms-full.txt" title="全部筆記的 markdown 全文">
+<link rel="alternate" type="application/json" href="/notes/index.json" title="讀書筆記索引">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "CHRIS OS",
+  "url": "https://chrisincite.github.io/",
+  "inLanguage": "zh-Hant",
+  "description": "Chris 的個人站：室內設計與日本建築背景，把日常工作改寫成「一個人＋AI」的流程。",
+  "author": {
+    "@type": "Person",
+    "name": "Chris Hsu",
+    "url": "https://chrisincite.github.io/",
+    "sameAs": ["https://github.com/chrisincite"]
+  },
+  "hasPart": {
+    "@type": "Blog",
+    "name": "讀書筆記",
+    "url": "https://chrisincite.github.io/#notes",
+    "description": "讀過的文章筆記：先寫自己的想法，再整理原文重點。"
+  }
+}
+</script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖥️</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -755,6 +784,75 @@ body {
 .about-contact .a-line { border: 1.5px solid var(--ink); color: var(--ink); }
 
 /* ============================================
+   讀書筆記列表
+   ============================================ */
+.notes-list { display: flex; flex-direction: column; gap: 14px; }
+.notes-empty { color: var(--ink-faint); font-size: 14px; }
+
+.note-card {
+  display: grid;
+  grid-template-columns: 128px 1fr;
+  gap: 20px;
+  align-items: start;
+  background: #fff;
+  border: 1px solid rgba(32, 34, 46, 0.08);
+  border-radius: 12px;
+  padding: 18px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.25s var(--ease-out), box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.note-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(58, 95, 168, 0.3);
+  box-shadow: 0 12px 32px rgba(32, 34, 46, 0.1);
+}
+.note-card .nc-thumb {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px;
+  background: var(--paper-dark);
+  display: block;
+}
+.note-card .nc-thumb.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+.note-card .nc-date {
+  font-family: 'Fira Code', monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  color: var(--ink-faint);
+  margin-bottom: 6px;
+}
+.note-card h3 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.45;
+  margin-bottom: 8px;
+}
+.note-card .nc-hook {
+  font-size: 13.5px;
+  color: var(--ink-light);
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+.note-card .nc-src {
+  font-size: 11.5px;
+  color: var(--ink-faint);
+  line-height: 1.6;
+}
+.note-card .nc-tags { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 5px; }
+
+@media (max-width: 640px) {
+  .note-card { grid-template-columns: 1fr; gap: 12px; }
+}
+
+/* ============================================
    MOBILE
    ============================================ */
 @media (max-width: 760px) {
@@ -794,7 +892,8 @@ body {
   <button data-tab="home" class="active"><span class="pill-num">01</span>桌面</button>
   <button data-tab="works"><span class="pill-num">02</span>專案</button>
   <button data-tab="hub"><span class="pill-num">03</span>工具</button>
-  <button data-tab="about"><span class="pill-num">04</span>關於</button>
+  <button data-tab="notes"><span class="pill-num">04</span>筆記</button>
+  <button data-tab="about"><span class="pill-num">05</span>關於</button>
 </nav>
 
 <!-- ============ TAB 1：HOME ============ -->
@@ -881,6 +980,20 @@ body {
             <li><span class="k">tts</span><span>克隆自己的聲音唸文章</span></li>
             <li><span class="k">video</span><span>讓照片開口說話</span></li>
           </ul>
+        </div>
+      </div>
+
+      <div class="os-window" id="win-notes" style="left: 60%; top: 16%; width: 310px;">
+        <div class="win-titlebar">
+          <span class="term-dot r"></span><span class="term-dot y"></span><span class="term-dot g"></span>
+          <span class="win-name">📖 讀書筆記</span>
+        </div>
+        <div class="win-body">
+          讀到好文章就寫成筆記：<strong>先寫自己的想法</strong>，再整理原文重點。
+          <ul class="win-list" id="deskNotes">
+            <li><span>載入中…</span></li>
+          </ul>
+          <a class="go-link" href="#notes">看全部筆記 →</a>
         </div>
       </div>
 
@@ -1120,11 +1233,26 @@ body {
   </div>
 </main>
 
-<!-- ============ TAB 4：關於 ============ -->
+<!-- ============ TAB 4：讀書筆記 ============ -->
+<main id="page-notes" class="tab-page">
+  <div class="page-inner">
+    <header class="page-head">
+      <div class="ph-mono">04 / NOTES</div>
+      <h1>讀了，然後想了什麼</h1>
+      <p>把讀過的文章寫成筆記：先寫我自己的想法，再整理原文重點。每一則都同時提供 <a href="./llms.txt">markdown 版本</a>，方便 AI agent 直接取用。</p>
+    </header>
+    <div id="notesList" class="notes-list">
+      <p class="notes-empty">載入中…</p>
+    </div>
+    <p class="hub-note">// 筆記來自平常在讀的 X 長文、部落格與簡報，先翻成中文再消化成筆記。</p>
+  </div>
+</main>
+
+<!-- ============ TAB 5：關於 ============ -->
 <main id="page-about" class="tab-page">
   <div class="page-inner">
     <header class="page-head">
-      <div class="ph-mono">04 / ABOUT</div>
+      <div class="ph-mono">05 / ABOUT</div>
       <h1>在 AI 時代重建工作流的人</h1>
     </header>
     <div class="about-grid">
@@ -1174,7 +1302,7 @@ body {
   /* ============================================
      TAB ROUTER（hash-based）
      ============================================ */
-  var TABS = ['home', 'works', 'hub', 'about'];
+  var TABS = ['home', 'works', 'hub', 'notes', 'about'];
   var pillNav = document.getElementById('pillNav');
 
   function currentTab() {
@@ -1512,6 +1640,70 @@ body {
       hubGrid.insertBefore(dragging, before ? card : card.nextSibling);
     });
   });
+
+  /* ============================================
+     讀書筆記列表（讀 notes/index.json）
+     ============================================ */
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"]/g, function(c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  }
+
+  function renderNotes(notes) {
+    var list = document.getElementById('notesList');
+    if (!notes.length) {
+      list.innerHTML = '<p class="notes-empty">還沒有筆記。</p>';
+      return;
+    }
+    list.innerHTML = notes.map(function(n) {
+      var src = n.source || {};
+      var thumb = n.cover
+        ? '<img class="nc-thumb" src="notes/' + esc(n.cover) + '" alt="" loading="lazy">'
+        : '<div class="nc-thumb placeholder">📖</div>';
+      var srcLine = src.title
+        ? '原文：' + esc(src.title) + (src.author ? ' — ' + esc(src.author) : '')
+        : '';
+      var tags = (n.tags || []).map(function(t) {
+        return '<span class="win-tag">' + esc(t) + '</span>';
+      }).join('');
+      return '<a class="note-card" href="' + esc(n.url) + '">' +
+        '<div>' + thumb + '</div>' +
+        '<div>' +
+          '<div class="nc-date">' + esc(n.date) + '</div>' +
+          '<h3>' + esc(n.title) + '</h3>' +
+          '<p class="nc-hook">' + esc(n.hook) + '</p>' +
+          '<p class="nc-src">' + srcLine + '</p>' +
+          (tags ? '<div class="nc-tags">' + tags + '</div>' : '') +
+        '</div>' +
+      '</a>';
+    }).join('');
+  }
+
+  function renderDeskNotes(notes) {
+    var box = document.getElementById('deskNotes');
+    if (!box) return;
+    if (!notes.length) {
+      box.innerHTML = '<li><span>還沒有筆記</span></li>';
+      return;
+    }
+    box.innerHTML = notes.slice(0, 3).map(function(n) {
+      return '<li><span class="k">' + esc(n.date.slice(5)) + '</span>' +
+             '<span><a href="' + esc(n.url) + '">' + esc(n.title) + '</a></span></li>';
+    }).join('');
+  }
+
+  fetch('notes/index.json')
+    .then(function(r) { return r.ok ? r.json() : Promise.reject(r.status); })
+    .then(function(data) {
+      var notes = data.notes || [];
+      renderNotes(notes);
+      renderDeskNotes(notes);
+    })
+    .catch(function() {
+      var list = document.getElementById('notesList');
+      if (list) list.innerHTML = '<p class="notes-empty">筆記載入失敗——若是本機直接開啟檔案，請改用 http 伺服器檢視。</p>';
+    });
 
   /* ===== 初始化 ===== */
   switchTab(currentTab());

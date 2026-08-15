@@ -1,0 +1,23 @@
+# Cloudflare Pages 專用的回應標頭設定
+# GitHub Pages 會忽略這個檔案（靜態託管無法設定自訂標頭），
+# 所以 Link headers 這一項只會在 Cloudflare 鏡像上通過。
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# 首頁指向機器可讀的站點描述（RFC 8288 Link header）
+/
+  Link: </llms.txt>; rel="describedby"; type="text/plain"
+  Link: </sitemap.xml>; rel="sitemap"; type="application/xml"
+  Link: </notes/index.json>; rel="alternate"; type="application/json"
+
+# markdown 雙生檔明確標示 content type，方便 agent 直接取用
+/notes/*.md
+  Content-Type: text/markdown; charset=utf-8
+
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+
+/llms-full.txt
+  Content-Type: text/plain; charset=utf-8

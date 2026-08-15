@@ -1,0 +1,592 @@
+#!/usr/bin/env python3
+"""
+CHRIS OS 讀書筆記產生器
+
+真相源：notes/src/<slug>.md（front-matter ＋ 三個固定 H2 區塊）
+產出：
+  notes/<slug>.html   語意化 HTML ＋ JSON-LD ＋ OG
+  notes/<slug>.md     markdown 雙生檔（agent／tinyfish 直接取用）
+  notes/index.json    列表頁與機器可讀索引
+  sitemap.xml         首頁 ＋ 每則筆記的 html 與 md
+  llms.txt            站點概覽（llmstxt.org）
+  llms-full.txt       全部筆記完整 markdown 串接
+  robots.txt          AI bot 規則 ＋ Content Signals ＋ Sitemap
+
+只用標準函式庫，任何 python3 都跑得起來。
+用法：python3 scripts/build.py
+"""
+
+import html
+import json
+import os
+import re
+import sys
+from datetime import datetime, timezone
+
+# ============================================================
+# 設定
+# ============================================================
+# canonical 正本網址。Cloudflare 鏡像（os.housearch.net）上線後改成鏡像網址，
+# 再重跑一次 build.py 即可全站更新。在鏡像就緒前指向 github.io，避免 canonical 404。
+CANONICAL_BASE = "https://chrisincite.github.io"
+MIRROR_BASE = "https://os.housearch.net"
+
+SITE_NAME = "CHRIS OS"
+SITE_TAGLINE = "1 person ＋ AI ＝ 1 studio"
+AUTHOR_NAME = "Chris Hsu"
+AUTHOR_URL = "https://chrisincite.github.io"
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SRC_DIR = os.path.join(ROOT, "notes", "src")
+NOTES_DIR = os.path.join(ROOT, "notes")
+
+# 區塊標題 → 穩定錨點 id（agent 可依錨點深連結與抽取）
+SECTION_IDS = {
+    "我的想法": "my-take",
+    "這篇在說什麼": "summary",
+    "原文金句": "quotes",
+}
+
+
+# ============================================================
+# front-matter 解析（YAML 子集，免相依）
+# 支援：key: value ／ key: [a, b] ／ key: 後跟兩格縮排的子鍵
+# ============================================================
+def parse_front_matter(text):
+    if not text.startswith("---"):
+        raise ValueError("缺少 front-matter（檔案必須以 --- 開頭）")
+    end = text.index("\n---", 3)
+    raw = text[3:end].strip("\n")
+    body = text[end + 4:].lstrip("\n")
+
+    data, current_key = {}, None
+    for line in raw.split("\n"):
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        indented = line.startswith("  ")
+        key, _, value = line.strip().partition(":")
+        key, value = key.strip(), value.strip()
+
+        if indented and current_key:
+            data.setdefault(current_key, {})
+            if isinstance(data[current_key], dict):
+                data[current_key][key] = _scalar(value)
+            continue
+
+        if value == "":
+            data[key] = {}
+            current_key = key
+        else:
+            data[key] = _scalar(value)
+            current_key = None
+    return data, body
+
+
+def _scalar(v):
+    if v.startswith("[") and v.endswith("]"):
+        inner = v[1:-1].strip()
+        if not inner:
+            return []
+        return [x.strip().strip("\"'") for x in inner.split(",")]
+    return v.strip().strip("\"'")
+
+
+# ============================================================
+# 極簡 markdown 渲染（段落／有序清單／無序清單／引言／行內）
+# ============================================================
+def inline(text):
+    out = html.escape(text, quote=False)
+    out = re.sub(r"`([^`]+)`", r"<code>\1</code>", out)
+    out = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", out)
+    out = re.sub(
+        r"\[([^\]]+)\]\(([^)\s]+)\)",
+        r'<a href="\2" rel="noopener">\1</a>',
+        out,
+    )
+    return out
+
+
+def render_blocks(body):
+    """把一個區塊的 markdown 內文轉成 HTML。"""
+    lines = body.split("\n")
+    out, buf, mode = [], [], None
+
+    def flush():
+        nonlocal buf, mode
+        if not buf:
+            mode = None
+            return
+        if mode == "ol":
+            items = "".join("<li>%s</li>" % inline(x) for x in buf)
+            out.append("<ol>%s</ol>" % items)
+        elif mode == "ul":
+            items = "".join("<li>%s</li>" % inline(x) for x in buf)
+            out.append("<ul>%s</ul>" % items)
+        elif mode == "quote":
+            out.append("<blockquote><p>%s</p></blockquote>" % inline(" ".join(buf).strip()))
+        else:
+            out.append("<p>%s</p>" % inline(" ".join(buf).strip()))
+        buf, mode = [], None
+
+    # pending_blank 記住「剛剛有空行」，用來區分：
+    #   清單條目之間的空行 → 同一個清單繼續（loose list）
+    #   引言之間的空行     → 切成兩個獨立 blockquote
+    #   段落之間的空行     → 切成兩段
+    pending_blank = False
+    for line in lines:
+        s = line.strip()
+        if not s:
+            pending_blank = True
+            continue
+
+        if re.match(r"^\d+[.)]\s+", s):
+            if mode != "ol":
+                flush()
+                mode = "ol"
+            buf.append(re.sub(r"^\d+[.)]\s+", "", s))
+        elif s.startswith("- ") or s.startswith("* "):
+            if mode != "ul":
+                flush()
+                mode = "ul"
+            buf.append(s[2:])
+        elif s.startswith(">"):
+            if mode != "quote" or pending_blank:
+                flush()
+                mode = "quote"
+            buf.append(s.lstrip(">").strip())
+        else:
+            if mode in ("ol", "ul") and not pending_blank:
+                buf[-1] += " " + s          # 清單條目的折行接續
+            elif mode == "p" and not pending_blank:
+                buf.append(s)               # 段落內的折行
+            else:
+                flush()
+                mode = "p"
+                buf.append(s)
+        pending_blank = False
+    flush()
+    return "\n".join(out)
+
+
+def split_sections(body):
+    """依 '## 標題' 切段，回傳 [(標題, 內文), ...]"""
+    parts = re.split(r"^##\s+(.+)$", body, flags=re.M)
+    sections = []
+    for i in range(1, len(parts), 2):
+        sections.append((parts[i].strip(), parts[i + 1].strip()))
+    return sections
+
+
+# ============================================================
+# 產生單則筆記
+# ============================================================
+def build_note(path):
+    with open(path, encoding="utf-8") as f:
+        meta, body = parse_front_matter(f.read())
+
+    slug = meta["slug"]
+    src = meta.get("source", {}) or {}
+    tags = meta.get("tags", []) or []
+    sections = split_sections(body)
+
+    note_url = "%s/notes/%s.html" % (CANONICAL_BASE, slug)
+    md_url = "%s/notes/%s.md" % (CANONICAL_BASE, slug)
+    cover = meta.get("cover", "")
+    cover_url = "%s/notes/%s" % (CANONICAL_BASE, cover) if cover else ""
+
+    # ---------- JSON-LD ----------
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": meta["title"],
+        "abstract": meta.get("hook", ""),
+        "datePublished": meta["date"],
+        "dateModified": meta["date"],
+        "inLanguage": "zh-Hant",
+        "url": note_url,
+        "mainEntityOfPage": {"@type": "WebPage", "@id": note_url},
+        "author": {"@type": "Person", "name": AUTHOR_NAME, "url": AUTHOR_URL},
+        "publisher": {"@type": "Person", "name": AUTHOR_NAME, "url": AUTHOR_URL},
+        "keywords": tags,
+        "genre": "讀書筆記",
+        "encoding": {
+            "@type": "MediaObject",
+            "encodingFormat": "text/markdown",
+            "contentUrl": md_url,
+        },
+    }
+    if cover_url:
+        ld["image"] = cover_url
+    if src.get("url"):
+        ld["isBasedOn"] = src["url"]
+        citation = {"@type": "Article", "url": src["url"]}
+        if src.get("title"):
+            citation["headline"] = src["title"]
+        if src.get("author"):
+            citation["author"] = {"@type": "Person", "name": src["author"]}
+        if src.get("published"):
+            citation["datePublished"] = src["published"]
+        ld["citation"] = citation
+
+    # ---------- 區塊 HTML ----------
+    body_html = []
+    for idx, (heading, content) in enumerate(sections, start=1):
+        sid = SECTION_IDS.get(heading, "sec-%d" % idx)
+        body_html.append(
+            '<section id="{sid}" aria-labelledby="h-{sid}">\n'
+            '  <h2 id="h-{sid}" data-num="{num}">{heading}</h2>\n'
+            "  {content}\n"
+            "</section>".format(
+                sid=sid,
+                num="%02d" % idx,
+                heading=html.escape(heading),
+                content=render_blocks(content),
+            )
+        )
+
+    # ---------- 來源列 ----------
+    source_bits = []
+    if src.get("title"):
+        if src.get("url"):
+            source_bits.append(
+                '原文：<cite><a href="%s" rel="external noopener">%s</a></cite>'
+                % (html.escape(src["url"], quote=True), html.escape(src["title"]))
+            )
+        else:
+            source_bits.append("原文：<cite>%s</cite>" % html.escape(src["title"]))
+    if src.get("author"):
+        source_bits.append(html.escape(src["author"]))
+    if src.get("site"):
+        source_bits.append(html.escape(src["site"]))
+    if src.get("published"):
+        source_bits.append(
+            '<time datetime="%s">%s</time>'
+            % (html.escape(src["published"], quote=True), html.escape(src["published"]))
+        )
+    source_line = " · ".join(source_bits)
+
+    cover_html = ""
+    if cover:
+        cover_html = (
+            '<figure class="note-cover">\n'
+            '  <img src="%s" alt="%s" loading="lazy">\n'
+            "  <figcaption>%s</figcaption>\n"
+            "</figure>"
+            % (
+                html.escape(cover, quote=True),
+                html.escape(src.get("title", meta["title"])),
+                html.escape(meta.get("cover_credit", "圖片取自原文")),
+            )
+        )
+
+    tags_html = ""
+    if tags:
+        tags_html = '<div class="note-tags">%s</div>' % "".join(
+            '<span class="note-tag">%s</span>' % html.escape(t) for t in tags
+        )
+
+    foot_links = []
+    if src.get("url"):
+        foot_links.append(
+            '<a class="primary" href="%s" rel="external noopener">讀原文 ↗</a>'
+            % html.escape(src["url"], quote=True)
+        )
+    foot_links.append('<a href="./%s.md">Markdown 版</a>' % slug)
+    foot_links.append('<a href="../index.html#notes">← 回筆記列表</a>')
+
+    page = NOTE_TEMPLATE.format(
+        title=html.escape(meta["title"]),
+        title_attr=html.escape(meta["title"], quote=True),
+        hook=html.escape(meta.get("hook", ""), quote=True),
+        date=html.escape(meta["date"], quote=True),
+        canonical=note_url,
+        md_rel="./%s.md" % slug,
+        og_image=cover_url,
+        og_image_tag=(
+            '<meta property="og:image" content="%s">\n'
+            '<meta name="twitter:card" content="summary_large_image">' % cover_url
+        )
+        if cover_url
+        else '<meta name="twitter:card" content="summary">',
+        jsonld=json.dumps(ld, ensure_ascii=False, indent=2),
+        source_line=source_line,
+        cover=cover_html,
+        sections="\n".join(body_html),
+        tags=tags_html,
+        foot="\n    ".join(foot_links),
+        site_name=SITE_NAME,
+    )
+
+    with open(os.path.join(NOTES_DIR, slug + ".html"), "w", encoding="utf-8") as f:
+        f.write(page)
+
+    # ---------- markdown 雙生檔 ----------
+    md = ["# %s\n" % meta["title"]]
+    head = ["> 讀書筆記 · %s · %s" % (meta["date"], AUTHOR_NAME)]
+    if src.get("title"):
+        who = src.get("author", "")
+        site = src.get("site", "")
+        pub = src.get("published", "")
+        head.append(
+            "> 原文：%s%s%s"
+            % (
+                src["title"],
+                " — %s" % who if who else "",
+                "（%s%s）" % (site, "，" + pub if pub else "") if site or pub else "",
+            )
+        )
+    if src.get("url"):
+        head.append("> 原文連結：%s" % src["url"])
+    head.append("> 本頁 HTML：%s" % note_url)
+    if tags:
+        head.append("> 標籤：%s" % "、".join(tags))
+    md.append("\n".join(head) + "\n")
+    if cover:
+        md.append("![%s](%s)\n" % (src.get("title", meta["title"]), cover))
+    md.append(body.strip() + "\n")
+    md_text = "\n".join(md)
+
+    with open(os.path.join(NOTES_DIR, slug + ".md"), "w", encoding="utf-8") as f:
+        f.write(md_text)
+
+    return {
+        "slug": slug,
+        "date": meta["date"],
+        "title": meta["title"],
+        "hook": meta.get("hook", ""),
+        "tags": tags,
+        "cover": cover,
+        "url": "notes/%s.html" % slug,
+        "markdown": "notes/%s.md" % slug,
+        "source": src,
+    }, md_text
+
+
+# ============================================================
+# 站台層檔案
+# ============================================================
+def write_index_json(notes):
+    payload = {
+        "site": SITE_NAME,
+        "description": "Chris 的讀書筆記——先寫自己的想法，再整理原文重點。",
+        "canonical_base": CANONICAL_BASE,
+        "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "count": len(notes),
+        "notes": notes,
+    }
+    with open(os.path.join(NOTES_DIR, "index.json"), "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+
+def write_sitemap(notes):
+    urls = [(CANONICAL_BASE + "/", None, "1.0")]
+    for n in notes:
+        urls.append(("%s/%s" % (CANONICAL_BASE, n["url"]), n["date"], "0.8"))
+        urls.append(("%s/%s" % (CANONICAL_BASE, n["markdown"]), n["date"], "0.5"))
+    urls.append((CANONICAL_BASE + "/llms.txt", None, "0.5"))
+
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for loc, lastmod, prio in urls:
+        lines.append("  <url>")
+        lines.append("    <loc>%s</loc>" % html.escape(loc, quote=True))
+        if lastmod:
+            lines.append("    <lastmod>%s</lastmod>" % lastmod)
+        lines.append("    <priority>%s</priority>" % prio)
+        lines.append("  </url>")
+    lines.append("</urlset>")
+    with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+
+
+AI_BOTS = [
+    "GPTBot", "OAI-SearchBot", "ChatGPT-User",
+    "ClaudeBot", "Claude-Web", "anthropic-ai", "Claude-SearchBot",
+    "Google-Extended", "Applebot-Extended", "Amazonbot",
+    "PerplexityBot", "Bytespider", "CCBot", "meta-externalagent",
+]
+
+
+def write_robots():
+    lines = [
+        "# %s — %s" % (SITE_NAME, SITE_TAGLINE),
+        "# 這個站歡迎 AI agent 檢索與取用內容。",
+        "",
+        "User-agent: *",
+        "Allow: /",
+        "Content-Signal: ai-train=yes, search=yes, ai-input=yes",
+        "",
+    ]
+    for bot in AI_BOTS:
+        lines += [
+            "User-agent: %s" % bot,
+            "Allow: /",
+            "Content-Signal: ai-train=yes, search=yes, ai-input=yes",
+            "",
+        ]
+    lines += [
+        "Sitemap: %s/sitemap.xml" % CANONICAL_BASE,
+        "",
+    ]
+    with open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+
+
+def write_llms(notes):
+    lines = [
+        "# %s" % SITE_NAME,
+        "",
+        "> Chris（%s）的個人站：室內設計與日本建築背景，把日常工作改寫成「一個人＋AI」的流程。"
+        "本站包含讀書筆記、專案介紹與工具清單，全部繁體中文。" % SITE_TAGLINE,
+        "",
+        "站點正本：%s" % CANONICAL_BASE,
+        "每則筆記都同時提供 HTML 與 markdown 兩種格式，markdown 版把 .html 換成 .md 即可取得。",
+        "",
+        "## 讀書筆記",
+        "",
+        "格式固定為三段：**我的想法**（Chris 本人的評註，錨點 #my-take）、"
+        "**這篇在說什麼**（重點整理，錨點 #summary）、**原文金句**（引用，錨點 #quotes）。",
+        "",
+    ]
+    for n in notes:
+        s = n.get("source", {}) or {}
+        lines.append(
+            "- [%s](%s/%s)：%s%s"
+            % (
+                n["title"],
+                CANONICAL_BASE,
+                n["markdown"],
+                n.get("hook", ""),
+                "（原文：%s）" % s.get("title", "") if s.get("title") else "",
+            )
+        )
+    lines += [
+        "",
+        "## 其他",
+        "",
+        "- [筆記索引 JSON](%s/notes/index.json)：機器可讀的完整清單" % CANONICAL_BASE,
+        "- [全文串接](%s/llms-full.txt)：所有筆記的完整 markdown，一次取用" % CANONICAL_BASE,
+        "- [網站首頁](%s/)：專案、工具棚與關於頁（單頁式 OS 介面）" % CANONICAL_BASE,
+        "",
+    ]
+    with open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+
+
+def write_llms_full(notes, texts):
+    parts = [
+        "# %s — 全文" % SITE_NAME,
+        "",
+        "Chris 的讀書筆記全文串接，供 LLM 一次取用。共 %d 則。" % len(notes),
+        "產生時間：%s" % datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+        "正本網址：%s" % CANONICAL_BASE,
+        "",
+        "---",
+        "",
+    ]
+    for text in texts:
+        parts.append(text.strip())
+        parts.append("")
+        parts.append("---")
+        parts.append("")
+    with open(os.path.join(ROOT, "llms-full.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(parts))
+
+
+NOTE_TEMPLATE = """<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{title} — 讀書筆記 · {site_name}</title>
+<meta name="description" content="{hook}">
+<meta name="author" content="Chris Hsu">
+<link rel="canonical" href="{canonical}">
+<link rel="alternate" type="text/markdown" href="{md_rel}" title="Markdown 版本">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{title_attr}">
+<meta property="og:description" content="{hook}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="{date}">
+{og_image_tag}
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/note.css">
+<script type="application/ld+json">
+{jsonld}
+</script>
+</head>
+<body>
+
+<nav class="note-topbar">
+  <a class="tb-brand" href="../index.html">CHRIS OS</a>
+  <a href="../index.html#notes">讀書筆記</a>
+  <span class="tb-spacer"></span>
+  <a href="{md_rel}">.md</a>
+</nav>
+
+<article class="note">
+  <header class="note-head">
+    <p class="note-kicker">讀書筆記 · <time datetime="{date}">{date}</time></p>
+    <h1>{title}</h1>
+    <p class="note-source">{source_line}</p>
+  </header>
+
+  {cover}
+
+{sections}
+
+  {tags}
+
+  <footer class="note-foot">
+    {foot}
+  </footer>
+</article>
+
+</body>
+</html>
+"""
+
+
+def main():
+    if not os.path.isdir(SRC_DIR):
+        print("找不到 %s" % SRC_DIR, file=sys.stderr)
+        return 1
+
+    files = sorted(f for f in os.listdir(SRC_DIR) if f.endswith(".md"))
+    notes, texts = [], []
+    for name in files:
+        try:
+            meta, text = build_note(os.path.join(SRC_DIR, name))
+        except Exception as e:
+            print("✗ %s：%s" % (name, e), file=sys.stderr)
+            return 1
+        notes.append(meta)
+        texts.append(text)
+        print("✓ %s" % meta["slug"])
+
+    # 先配對再排序，避免 notes 就地排序後與 texts 錯位
+    paired = sorted(
+        zip(notes, texts), key=lambda p: (p[0]["date"], p[0]["slug"]), reverse=True
+    )
+    notes = [n for n, _ in paired]
+    texts = [t for _, t in paired]
+
+    write_index_json(notes)
+    write_sitemap(notes)
+    write_robots()
+    write_llms(notes)
+    write_llms_full(notes, texts)
+
+    print("\n共 %d 則筆記" % len(notes))
+    print("已更新：notes/index.json、sitemap.xml、robots.txt、llms.txt、llms-full.txt")
+    print("canonical：%s" % CANONICAL_BASE)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

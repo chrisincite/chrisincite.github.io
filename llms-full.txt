@@ -1,0 +1,7 @@
+# CHRIS OS — 全文
+
+Chris 的讀書筆記全文串接，供 LLM 一次取用。共 0 則。
+產生時間：2026-08-15 01:11 UTC
+正本網址：https://chrisincite.github.io
+
+---
