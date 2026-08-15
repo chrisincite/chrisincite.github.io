@@ -30,6 +30,12 @@ import sys
 CANONICAL_BASE = "https://chrisincite.github.io"
 MIRROR_BASE = "https://os.housearch.net"
 
+# 短連結的網域。鏡像（os.housearch.net/n/1 ＝ 28 字元）比 github.io
+# （/n/1.html ＝ 38 字元）短，但鏡像目前沒有自動部署，新筆記的短連結
+# 可能還沒上線就被貼出去。等自動部署修好再切成 MIRROR_BASE。
+SHORT_BASE = CANONICAL_BASE
+SHORT_SUFFIX = ".html" if "github.io" in SHORT_BASE else ""
+
 SITE_NAME = "CHRIS OS"
 SITE_TAGLINE = "1 person ＋ AI ＝ 1 studio"
 AUTHOR_NAME = "Chris Hsu"
@@ -217,7 +223,7 @@ def is_note_file(name):
             and not name.startswith(("_", ".")))
 
 
-def build_note(path):
+def build_note(path, short_url=""):
     with open(path, encoding="utf-8") as f:
         meta, body = parse_front_matter(f.read())
 
@@ -353,6 +359,14 @@ def build_note(path):
     foot_links.append('<a href="./%s.md">Markdown 版</a>' % slug)
     foot_links.append('<a href="../index.html#notes">← 回筆記列表</a>')
 
+    short_html = ""
+    if short_url:
+        short_html = (
+            '<p class="note-short">分享用短連結：'
+            '<a href="%s"><code>%s</code></a></p>'
+            % (html.escape(short_url, quote=True), html.escape(short_url))
+        )
+
     page = NOTE_TEMPLATE.format(
         title=html.escape(meta["title"]),
         title_attr=html.escape(meta["title"], quote=True),
@@ -373,6 +387,7 @@ def build_note(path):
         sections="\n".join(body_html),
         tags=tags_html,
         foot="\n    ".join(foot_links),
+        short=short_html,
         site_name=SITE_NAME,
     )
 
@@ -397,6 +412,8 @@ def build_note(path):
     if src.get("url"):
         head.append("> 原文連結：%s" % src["url"])
     head.append("> 本頁 HTML：%s" % note_url)
+    if short_url:
+        head.append("> 短連結：%s" % short_url)
     if tags:
         head.append("> 標籤：%s" % "、".join(tags))
     md.append("\n".join(head) + "\n")
@@ -409,6 +426,7 @@ def build_note(path):
         f.write(md_text)
 
     return {
+        "short": short_url,
         "slug": slug,
         "date": meta["date"],
         "title": meta["title"],
@@ -424,6 +442,92 @@ def build_note(path):
 # ============================================================
 # 站台層檔案
 # ============================================================
+BASE36 = "0123456789abcdefghijklmnopqrstuvwxyz"
+
+
+def base36(n):
+    out = ""
+    while True:
+        n, r = divmod(n, 36)
+        out = BASE36[r] + out
+        if not n:
+            return out
+
+
+def load_shortlinks():
+    """slug → 短碼。一旦指派就永不變動——短連結會被貼到 Facebook，
+    改掉等於讓已經發出去的貼文全部失效。"""
+    path = os.path.join(NOTES_DIR, "shortlinks.json")
+    if os.path.isfile(path):
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_shortlinks(mapping):
+    path = os.path.join(NOTES_DIR, "shortlinks.json")
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(mapping, f, ensure_ascii=False, indent=2, sort_keys=True)
+        f.write("\n")
+
+
+def assign_short(mapping, slug):
+    if slug in mapping:
+        return mapping[slug]
+    used = set(mapping.values())
+    n = 1
+    while base36(n) in used:
+        n += 1
+    mapping[slug] = base36(n)
+    return mapping[slug]
+
+
+# 轉址頁要自己帶 OG 標籤：meta-refresh 不是 HTTP 轉址，Facebook 的爬蟲
+# 不保證會跟過去抓最終頁，沒有 OG 就沒有預覽卡片——而短連結存在的目的
+# 就是拿去貼 FB，沒預覽等於白做。
+REDIRECT_TEMPLATE = """<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="{target}">
+<meta http-equiv="refresh" content="0; url={target}">
+<title>{title}</title>
+<meta property="og:type" content="article">
+<meta property="og:title" content="{title}">
+<meta property="og:description" content="{hook}">
+<meta property="og:url" content="{target}">
+<meta property="og:locale" content="zh_TW">
+{og_image}
+</head>
+<body>
+<p>正在前往：<a href="{target}">{title}</a></p>
+<script>location.replace("{target}");</script>
+</body>
+</html>
+"""
+
+
+def write_redirects(notes, mapping):
+    d = os.path.join(ROOT, "n")
+    os.makedirs(d, exist_ok=True)
+    for n in notes:
+        code = mapping[n["slug"]]
+        target = "%s/%s" % (CANONICAL_BASE, n["url"])
+        cover = n.get("cover", "")
+        og_image = (
+            '<meta property="og:image" content="%s/notes/%s">\n'
+            '<meta name="twitter:card" content="summary_large_image">'
+            % (CANONICAL_BASE, cover)
+        ) if cover else '<meta name="twitter:card" content="summary">'
+        with open(os.path.join(d, "%s.html" % code), "w", encoding="utf-8") as f:
+            f.write(REDIRECT_TEMPLATE.format(
+                target=target,
+                title=html.escape(n["title"], quote=True),
+                hook=html.escape(n.get("hook", ""), quote=True),
+                og_image=og_image))
+
+
 def latest_date(notes):
     """最新一則筆記的日期。用它當「更新時間」而不是 now()——
     產出必須是 deterministic，否則 GitHub Actions 每次建置都會產生
@@ -611,6 +715,7 @@ NOTE_TEMPLATE = """<!DOCTYPE html>
   <footer class="note-foot">
     {foot}
   </footer>
+  {short}
 </article>
 
 </body>
@@ -624,10 +729,14 @@ def main():
         return 0
 
     files = sorted(f for f in os.listdir(SRC_DIR) if is_note_file(f))
+    shortlinks = load_shortlinks()
     notes, texts = [], []
     for name in files:
+        slug = os.path.splitext(name)[0]
+        code = assign_short(shortlinks, slug)
+        short_url = "%s/n/%s%s" % (SHORT_BASE, code, SHORT_SUFFIX)
         try:
-            meta, text = build_note(os.path.join(SRC_DIR, name))
+            meta, text = build_note(os.path.join(SRC_DIR, name), short_url)
         except Exception as e:
             print("✗ %s：%s" % (name, e), file=sys.stderr)
             return 1
@@ -642,6 +751,8 @@ def main():
     notes = [n for n, _ in paired]
     texts = [t for _, t in paired]
 
+    write_redirects(notes, shortlinks)
+    save_shortlinks(shortlinks)
     write_index_json(notes)
     write_sitemap(notes)
     write_robots()
@@ -649,7 +760,8 @@ def main():
     write_llms_full(notes, texts)
 
     print("\n共 %d 則筆記" % len(notes))
-    print("已更新：notes/index.json、sitemap.xml、robots.txt、llms.txt、llms-full.txt")
+    print("已更新：notes/index.json、notes/shortlinks.json、n/*.html、"
+          "sitemap.xml、robots.txt、llms.txt、llms-full.txt")
     print("canonical：%s" % CANONICAL_BASE)
     return 0
 
