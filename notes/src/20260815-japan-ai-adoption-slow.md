@@ -1,5 +1,5 @@
 ---
-title: "Chris's 筆記｜為什麼日本企業導入AI如此緩慢？"
+title: "Chris 筆記｜為什麼日本企業導入AI如此緩慢？"
 source_author: 中島聰
 source_site: note.com
 source_url: "https://note.com/lifeisbeautiful/n/n058e3c105b7e?sub_rt=share_pb"
