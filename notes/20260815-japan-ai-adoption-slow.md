@@ -1,4 +1,4 @@
-# Chris's 筆記｜為什麼日本企業導入AI如此緩慢？
+# Chris 筆記｜為什麼日本企業導入AI如此緩慢？
 
 > 讀書筆記 · 2026-08-15 · Chris Hsu
 > 原文連結：https://note.com/lifeisbeautiful/n/n058e3c105b7e?sub_rt=share_pb
