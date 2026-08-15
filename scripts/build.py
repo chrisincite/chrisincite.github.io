@@ -294,18 +294,22 @@ def build_note(path):
         )
 
     # ---------- 來源列 ----------
+    # 原文標題通常已經寫在筆記標題裡（「Chris's 筆記｜原標題」），
+    # 所以 source_title 一般不填；沒有的話退而用站名當連結文字，不要留空連結。
     source_bits = []
-    if src.get("title"):
+    label = src.get("title") or src.get("site") or src.get("url", "")
+    used_site_as_label = not src.get("title") and bool(src.get("site"))
+    if label:
         if src.get("url"):
             source_bits.append(
                 '原文：<cite><a href="%s" rel="external noopener">%s</a></cite>'
-                % (html.escape(src["url"], quote=True), html.escape(src["title"]))
+                % (html.escape(src["url"], quote=True), html.escape(label))
             )
         else:
-            source_bits.append("原文：<cite>%s</cite>" % html.escape(src["title"]))
+            source_bits.append("原文：<cite>%s</cite>" % html.escape(label))
     if src.get("author"):
         source_bits.append(html.escape(src["author"]))
-    if src.get("site"):
+    if src.get("site") and not used_site_as_label:
         source_bits.append(html.escape(src["site"]))
     if src.get("published"):
         source_bits.append(
