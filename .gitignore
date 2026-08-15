@@ -2,3 +2,6 @@
 
 # 未完成的筆記草稿（build.py 不會掃這個資料夾）
 notes/drafts/
+
+# Python 快取
+__pycache__/

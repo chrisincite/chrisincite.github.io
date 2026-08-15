@@ -31,6 +31,11 @@ import sys
 import urllib.error
 import urllib.request
 
+class MissingToken(Exception):
+    """CI 上沒有 SOURCE_REPO_TOKEN。不是致命錯誤——出處 metadata 現在由
+    twitter_article 那邊的「寫成讀書筆記」連結預先填好了，缺 token 只會少一張封面圖。"""
+
+
 SOURCE_REPO = "chrisincite/twitter_article"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC_DIR = os.path.join(ROOT, "notes", "src")
@@ -61,11 +66,10 @@ def read_source_file(path):
         return base64.b64decode(payload["content"])
 
     if os.environ.get("CI"):
-        raise RuntimeError(
-            "缺少 SOURCE_REPO_TOKEN。\n"
-            "    這個 repo 的 Actions 需要一把能『讀取』private repo %s 的 token，\n"
-            "    才能自動補上原文作者、網址、發表日與封面圖。\n"
-            "    設定方式（手機也能做）：\n"
+        raise MissingToken(
+            "缺少 SOURCE_REPO_TOKEN，跳過封面圖下載。\n"
+            "    筆記本身會照常發佈（出處已由連結預填），只是沒有封面圖。\n"
+            "    想要封面的話，給一把能讀 private repo %s 的 token：\n"
             "      1. github.com/settings/personal-access-tokens → Generate new token\n"
             "         Repository access 選 %s，Permissions 給 Contents: Read-only\n"
             "      2. 本 repo → Settings → Secrets and variables → Actions → New secret\n"
@@ -251,6 +255,9 @@ def main():
         try:
             if enrich(t):
                 changed += 1
+        except MissingToken as e:
+            print("⚠ %s" % e)
+            continue
         except Exception as e:
             print("✗ %s：%s" % (t, e), file=sys.stderr)
             return 1
