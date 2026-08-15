@@ -60,6 +60,19 @@ def read_source_file(path):
             raise RuntimeError("讀不到 %s（HTTP %s）" % (path, e.code))
         return base64.b64decode(payload["content"])
 
+    if os.environ.get("CI"):
+        raise RuntimeError(
+            "缺少 SOURCE_REPO_TOKEN。\n"
+            "    這個 repo 的 Actions 需要一把能『讀取』private repo %s 的 token，\n"
+            "    才能自動補上原文作者、網址、發表日與封面圖。\n"
+            "    設定方式（手機也能做）：\n"
+            "      1. github.com/settings/personal-access-tokens → Generate new token\n"
+            "         Repository access 選 %s，Permissions 給 Contents: Read-only\n"
+            "      2. 本 repo → Settings → Secrets and variables → Actions → New secret\n"
+            "         Name 填 SOURCE_REPO_TOKEN，值貼上剛才那把 token"
+            % (SOURCE_REPO, SOURCE_REPO)
+        )
+
     out = subprocess.run(
         ["gh", "api", "repos/%s/contents/%s" % (SOURCE_REPO, path), "--jq", ".content"],
         capture_output=True, text=True,
