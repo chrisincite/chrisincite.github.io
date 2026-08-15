@@ -370,6 +370,10 @@ def build_note(path, short_url=""):
                 html.escape(meta.get("cover_credit", "圖片取自原文")),
             )
         )
+        # 插在他自己的評論（第一段，通常是「我的想法」）後面，不放在最上面——
+        # 圖片是佐證不是門面，讀者要先看到他寫了什麼。沒有任何段落時退回最前面。
+        insert_at = 1 if body_html else 0
+        body_html.insert(insert_at, cover_html)
 
     tags_html = ""
     if tags:
@@ -410,7 +414,6 @@ def build_note(path, short_url=""):
         else '<meta name="twitter:card" content="summary">',
         jsonld=json.dumps(ld, ensure_ascii=False, indent=2),
         source_line=source_line,
-        cover=cover_html,
         sections="\n".join(body_html),
         tags=tags_html,
         foot="\n    ".join(foot_links),
@@ -444,9 +447,17 @@ def build_note(path, short_url=""):
     if tags:
         head.append("> 標籤：%s" % "、".join(tags))
     md.append("\n".join(head) + "\n")
-    if cover:
+    if cover and sections and sections[0][0] == "我的想法":
+        # 圖片放在他自己的評論後面，跟 HTML 版一致——不是門面，是佐證。
+        md.append(sections[0][1] + "\n")
         md.append("![%s](%s)\n" % (src.get("title", meta["title"]), cover))
-    md.append(body.strip() + "\n")
+        for heading, content in sections[1:]:
+            md.append("## %s\n\n%s\n" % (heading, content))
+    else:
+        # 沒有前言可插（少見：直接以 ## 開頭）就退回放最前面
+        if cover:
+            md.append("![%s](%s)\n" % (src.get("title", meta["title"]), cover))
+        md.append(body.strip() + "\n")
     md_text = "\n".join(md)
 
     with open(os.path.join(NOTES_DIR, slug + ".md"), "w", encoding="utf-8") as f:
@@ -734,8 +745,6 @@ NOTE_TEMPLATE = """<!DOCTYPE html>
     <h1>{title}</h1>
     <p class="note-source">{source_line}</p>
   </header>
-
-  {cover}
 
 {sections}
 
