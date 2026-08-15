@@ -21,7 +21,6 @@ import json
 import os
 import re
 import sys
-from datetime import datetime, timezone
 
 # ============================================================
 # 設定
@@ -169,9 +168,19 @@ def render_blocks(body):
 
 
 def split_sections(body):
-    """依 '## 標題' 切段，回傳 [(標題, 內文), ...]"""
+    """依 '## 標題' 切段，回傳 [(標題, 內文), ...]
+
+    沒有任何 '##' 時（手機上直接寫散文的常態），整篇當作「我的想法」一段。
+    第一個 '##' 之前的文字也一併歸進「我的想法」——這樣他可以直接開寫，
+    需要引用時才在後面補一個 '## 原文金句'。
+    """
     parts = re.split(r"^##\s+(.+)$", body, flags=re.M)
     sections = []
+
+    preamble = parts[0].strip()
+    if preamble:
+        sections.append(("我的想法", preamble))
+
     for i in range(1, len(parts), 2):
         sections.append((parts[i].strip(), parts[i + 1].strip()))
     return sections
@@ -180,11 +189,36 @@ def split_sections(body):
 # ============================================================
 # 產生單則筆記
 # ============================================================
+def first_sentence(body, limit=70):
+    """從正文抓第一句當列表卡片的摘要（手機上只打 title 時的 fallback）。"""
+    for line in body.split("\n"):
+        s = line.strip()
+        if not s or s.startswith(("#", ">", "-", "*", "!")) or re.match(r"^\d+[.)]", s):
+            continue
+        s = re.sub(r"[*`\[\]]|\(https?://[^)]+\)", "", s)
+        for stop in ("。", "！", "？"):
+            if stop in s:
+                s = s.split(stop)[0] + stop
+                break
+        return s[:limit]
+    return ""
+
+
 def build_note(path):
     with open(path, encoding="utf-8") as f:
         meta, body = parse_front_matter(f.read())
 
-    slug = meta["slug"]
+    # 手機上只會打 source ＋ title，其餘全部自動補
+    slug = meta.get("slug") or os.path.splitext(os.path.basename(path))[0]
+    meta["slug"] = slug
+    if not meta.get("date"):
+        m = re.match(r"^(\d{4})(\d{2})(\d{2})", slug)
+        meta["date"] = "-".join(m.groups()) if m else ""
+    if not meta.get("title"):
+        raise ValueError("front-matter 缺 title——標題是你的結論，不能自動生成")
+    if not meta.get("hook"):
+        meta["hook"] = first_sentence(body)
+
     src = meta.get("source", {}) or {}
     tags = meta.get("tags", []) or []
     sections = split_sections(body)
@@ -365,12 +399,19 @@ def build_note(path):
 # ============================================================
 # 站台層檔案
 # ============================================================
+def latest_date(notes):
+    """最新一則筆記的日期。用它當「更新時間」而不是 now()——
+    產出必須是 deterministic，否則 GitHub Actions 每次建置都會產生
+    只有時間戳不同的 commit，觸發自己、變成無限迴圈。"""
+    return max((n["date"] for n in notes), default="")
+
+
 def write_index_json(notes):
     payload = {
         "site": SITE_NAME,
-        "description": "Chris 的讀書筆記——先寫自己的想法，再整理原文重點。",
+        "description": "Chris 的讀書筆記——讀完之後自己想了什麼。",
         "canonical_base": CANONICAL_BASE,
-        "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "updated": latest_date(notes),
         "count": len(notes),
         "notes": notes,
     }
@@ -479,7 +520,7 @@ def write_llms_full(notes, texts):
         "# %s — 全文" % SITE_NAME,
         "",
         "Chris 的讀書筆記全文串接，供 LLM 一次取用。共 %d 則。" % len(notes),
-        "產生時間：%s" % datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+        "最後更新：%s" % latest_date(notes),
         "正本網址：%s" % CANONICAL_BASE,
         "",
         "---",
