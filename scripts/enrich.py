@@ -110,11 +110,30 @@ def normalize_date(raw):
 
 
 def parse_header(text):
-    meta = {"title": "", "url": "", "author": "", "site": "", "published": "", "cover_rel": ""}
+    """回傳 title（已去掉「｜作者」後綴）、title_full、author、site、url、published、cover_rel。
+
+    作者的判定按可信度排序，高的覆蓋低的：
+      1. 獨立成行的 `> 記者：X` / `> 作者：X`——最明確
+      2. Twitter handle（來源是 x.com 時，link text 就是作者）
+      3. 標題結尾的「｜X」——note.com、デジタル庁 等日系媒體慣例
+         （實測 30 篇有 3 篇，後綴都是作者或發布機構）
+      4. 原文那行裡的「作者　X」——note.com 這裡放的是平台名不是人，所以排在標題後綴之後
+      5. link text／網域——最後的退路，通常只是站名
+    """
+    meta = {"title": "", "title_full": "", "url": "", "author": "",
+            "site": "", "published": "", "cover_rel": ""}
 
     m = re.search(r"^#\s+(.+)$", text, re.M)
     if m:
-        meta["title"] = m.group(1).strip()
+        meta["title_full"] = m.group(1).strip()
+        meta["title"] = meta["title_full"]
+
+    # 標題結尾的「｜作者」：切下來當作者候選，標題本身去掉後綴
+    title_author = ""
+    tm = re.match(r"^(.*?[^｜])｜([^｜]{1,15})$", meta["title"])
+    if tm:
+        meta["title"] = tm.group(1).strip()
+        title_author = tm.group(2).strip()
 
     m = re.search(r"^>\s*原文：(.+)$", text, re.M)
     if m:
@@ -131,18 +150,31 @@ def parse_header(text):
         if am:
             meta["author"] = am.group(1).strip()
 
+        inline_author = meta["author"]      # 原文那行裡的「作者　X」
+        meta["author"] = ""
+
         if "x.com" in meta["url"] or "twitter.com" in meta["url"]:
             meta["site"] = "X"
-            meta["author"] = meta["author"] or link_text
+            # Twitter：link text 就是 @handle（真名），比標題後綴可信
+            meta["author"] = link_text or title_author
         else:
             dm2 = re.match(r"https?://([^/]+)", meta["url"])
             meta["site"] = (dm2.group(1) if dm2 else link_text).replace("www.", "")
-            meta["author"] = meta["author"] or link_text
+            meta["author"] = title_author or inline_author or link_text
 
-    # 獨立成行的「> 記者：」「> 作者：」優先（一般網頁常見）
+    if not meta["author"]:
+        meta["author"] = title_author
+
+    # 獨立成行的「> 記者：」「> 作者：」最明確，覆蓋以上全部
     m = re.search(r"^>\s*(?:記者|作者)[：:]\s*(.+)$", text, re.M)
     if m:
         meta["author"] = m.group(1).strip()
+
+    # 作者跟站名同一個東西就不算作者（note（ノート） vs note.com）
+    if meta["author"] and meta["site"]:
+        a = re.sub(r"[（(].*", "", meta["author"]).strip().lower()
+        if a and (a == meta["site"].lower() or meta["site"].lower().startswith(a + ".")):
+            meta["author"] = title_author
 
     m = re.search(r"!\[[^\]]*\]\((images/[^)]+)\)", text)
     if m:
