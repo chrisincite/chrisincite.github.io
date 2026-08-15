@@ -300,7 +300,7 @@ def build_note(path):
         )
 
     # ---------- 來源列 ----------
-    # 原文標題通常已經寫在筆記標題裡（「Chris's 筆記｜原標題」），
+    # 原文標題通常已經寫在筆記標題裡（「Chris 筆記｜原標題」），
     # 所以 source_title 一般不填；沒有的話退而用站名當連結文字，不要留空連結。
     source_bits = []
     label = src.get("title") or src.get("site") or src.get("url", "")
