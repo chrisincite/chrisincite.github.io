@@ -226,7 +226,15 @@ def build_note(path):
     if not meta.get("hook"):
         meta["hook"] = first_sentence(body)
 
-    src = meta.get("source", {}) or {}
+    src = dict(meta.get("source", {}) or {})
+    # 也接受攤平的 source_* 欄位。手機上 GitHub 的 Preview 會把 front-matter
+    # 渲染成表格，巢狀 mapping 會變成「表格裡再包一層表格」而爆版，
+    # 所以預填一律用攤平寫法；巢狀寫法保留相容。
+    for k in ("title", "author", "site", "url", "published", "archive"):
+        v = meta.get("source_" + k)
+        if v and not src.get(k):
+            src[k] = v
+
     tags = meta.get("tags", []) or []
     sections = split_sections(body)
 

@@ -225,11 +225,12 @@ def enrich(path):
     if cover:
         lines.append("cover: %s" % cover)
         lines.append("cover_credit: 圖片取自原文")
-    lines.append("source:")
+    # 攤平寫法：手機上 GitHub Preview 把 front-matter 渲染成表格，
+    # 巢狀 mapping 會變成表格裡再包表格而爆版
     for k in ("title", "author", "site", "url", "published"):
         if src.get(k):
-            lines.append("  %s: %s" % (k, yaml_quote(src[k])))
-    lines.append("  archive: %s" % archive)
+            lines.append("source_%s: %s" % (k, yaml_quote(src[k])))
+    lines.append("source_archive: %s" % archive)
     lines += ["---", "", body.rstrip(), ""]
 
     with open(path, "w", encoding="utf-8") as f:
