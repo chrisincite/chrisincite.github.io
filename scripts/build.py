@@ -204,6 +204,13 @@ def first_sentence(body, limit=70):
     return ""
 
 
+def is_note_file(name):
+    """notes/src/ 裡不是筆記的檔案：說明文件、底線或點開頭的暫存檔。"""
+    return (name.endswith(".md")
+            and name != "README.md"
+            and not name.startswith(("_", ".")))
+
+
 def build_note(path):
     with open(path, encoding="utf-8") as f:
         meta, body = parse_front_matter(f.read())
@@ -595,10 +602,10 @@ NOTE_TEMPLATE = """<!DOCTYPE html>
 
 def main():
     if not os.path.isdir(SRC_DIR):
-        print("找不到 %s" % SRC_DIR, file=sys.stderr)
-        return 1
+        print("尚無 %s，沒有筆記可處理" % SRC_DIR)
+        return 0
 
-    files = sorted(f for f in os.listdir(SRC_DIR) if f.endswith(".md"))
+    files = sorted(f for f in os.listdir(SRC_DIR) if is_note_file(f))
     notes, texts = [], []
     for name in files:
         try:

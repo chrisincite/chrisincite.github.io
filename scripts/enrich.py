@@ -226,10 +226,12 @@ def main():
     targets = sys.argv[1:]
     if not targets:
         if not os.path.isdir(SRC_DIR):
-            print("找不到 %s" % SRC_DIR, file=sys.stderr)
-            return 1
+            print("尚無 %s，沒有筆記可處理" % SRC_DIR)
+            return 0
         targets = [os.path.join(SRC_DIR, f)
-                   for f in sorted(os.listdir(SRC_DIR)) if f.endswith(".md")]
+                   for f in sorted(os.listdir(SRC_DIR))
+                   if f.endswith(".md") and f != "README.md"
+                   and not f.startswith(("_", "."))]
 
     changed = 0
     for t in targets:
