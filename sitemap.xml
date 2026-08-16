@@ -5,6 +5,16 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/notes/20260817-polipoli-public-fde-camp.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/notes/20260817-polipoli-public-fde-camp.md</loc>
+    <lastmod>2026-08-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/notes/20260816-maximizing-the-value-of-your-claude-code-sessions.html</loc>
     <lastmod>2026-08-16</lastmod>
     <priority>0.8</priority>
