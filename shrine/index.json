@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "48 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 2,
+  "count": 3,
   "planned": 48,
   "shrines": [
     {
@@ -64,6 +64,35 @@
       ],
       "url": "shrine/16-amanoiwato-jinja.html",
       "markdown": "shrine/16-amanoiwato-jinja.md"
+    },
+    {
+      "no": "17",
+      "slug": "17-takachiho-jinja",
+      "title": "高千穗神社",
+      "title_ja": "高千穂神社",
+      "kana": "たかちほじんじゃ",
+      "type": "神社",
+      "prefecture": "宮崎縣",
+      "city": "西臼杵郡高千穗町三田井",
+      "lat": "32.706447",
+      "lng": "131.302009",
+      "enshrined": "高千穗皇神・十社大明神",
+      "rank": "高千穗鄉八十八社總社・國史見在社・別表神社",
+      "trip": "T3",
+      "series": [
+        "S1"
+      ],
+      "visited": "2025-04",
+      "hook": "三田井是高千穗町的中心，一條街兩排店，早上還沒開門。",
+      "cover": "img/17-takachiho-jinja-01.webp",
+      "photos": 8,
+      "related": [
+        "16-amanoiwato-jinja",
+        "15-kamishikimi-kumanoimasu-jinja",
+        "14-aso-jinja"
+      ],
+      "url": "shrine/17-takachiho-jinja.html",
+      "markdown": "shrine/17-takachiho-jinja.md"
     }
   ]
 }
