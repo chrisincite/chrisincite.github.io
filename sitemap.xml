@@ -5,6 +5,16 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/notes/20260816-the-human-is-the-loop.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/notes/20260816-the-human-is-the-loop.md</loc>
+    <lastmod>2026-08-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/notes/20260814-cw-canvas-seedance25.html</loc>
     <lastmod>2026-08-15</lastmod>
     <priority>0.8</priority>

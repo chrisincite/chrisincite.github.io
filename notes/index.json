@@ -2,9 +2,28 @@
   "site": "CHRIS OS",
   "description": "Chris 的讀書筆記——讀完之後自己想了什麼。",
   "canonical_base": "https://chrisincite.github.io",
-  "updated": "2026-08-15",
-  "count": 2,
+  "updated": "2026-08-16",
+  "count": 3,
   "notes": [
+    {
+      "short": "https://os.housearch.net/n/3",
+      "slug": "20260816-the-human-is-the-loop",
+      "published_at": "2026-08-16T08:48:38+08:00",
+      "date": "2026-08-16",
+      "title": "Chris 筆記｜人才是那個迴圈",
+      "hook": "這篇文章在 X 上引發很多關注與討論，的確每個人都應該有慢下來的時候，尤其是像你我這樣很熱衷於AI Agents 的能力同輩們。",
+      "tags": [],
+      "cover": "",
+      "url": "notes/20260816-the-human-is-the-loop.html",
+      "markdown": "notes/20260816-the-human-is-the-loop.md",
+      "source": {
+        "author": "Brent",
+        "site": "brentfitzgerald.com",
+        "url": "https://brentfitzgerald.com/posts/the-human-is-the-loop/",
+        "published": "2026-08-11",
+        "archive": "20260816/20260816-the-human-is-the-loop"
+      }
+    },
     {
       "short": "https://os.housearch.net/n/2",
       "slug": "20260814-cw-canvas-seedance25",
