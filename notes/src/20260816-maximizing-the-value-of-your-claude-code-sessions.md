@@ -1,6 +1,6 @@
 ---
 title: "Chris 筆記｜如何讓你的 Claude Code 工作階段（session）發揮最大價值｜Claude by Anthropic"
-cover: "img/20260816-maximizing-the-value-of-your-claude-code-sessions-cover.svg"
+cover: "img/IMG_1567.jpeg"
 cover_credit: "圖片取自原文"
 source_author: "@claudeai"
 source_site: "claude.com"
