@@ -13,7 +13,7 @@
 	
 	•	長對話中檔案會變動：@ 是你按送出當下的快照；Read 是 Claude 執行當下讀，拿到的是最新版。如果剛改完檔案、你要 Claude 接著看，講路徑比 @ 安全。
 
-![Chris 筆記｜如何讓你的 Claude Code 工作階段（session）發揮最大價值｜Claude by Anthropic](/img/IMG_1567.jpeg)
+![Chris 筆記｜如何讓你的 Claude Code 工作階段（session）發揮最大價值｜Claude by Anthropic](img/IMG_1567.jpeg)
 
 ## 摘要 / Summary
 
