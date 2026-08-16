@@ -121,6 +121,20 @@ body {
   opacity: 0.55;
   margin-right: 5px;
 }
+/* 手機：六顆膠囊連編號會超出螢幕寬度，收掉編號並縮排距 */
+@media (max-width: 560px) {
+  .pill-nav {
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    gap: 2px;
+    padding: 4px;
+    max-width: calc(100vw - 20px);
+  }
+  .pill-nav button {
+    font-size: 12px;
+    padding: 8px 11px;
+  }
+  .pill-nav .pill-num { display: none; }
+}
 
 /* ============================================
    MACBOOK 外框（hero 與 exit 共用）
