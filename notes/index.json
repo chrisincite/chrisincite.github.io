@@ -3,8 +3,26 @@
   "description": "Chris 的讀書筆記——讀完之後自己想了什麼。",
   "canonical_base": "https://chrisincite.github.io",
   "updated": "2026-08-16",
-  "count": 3,
+  "count": 4,
   "notes": [
+    {
+      "short": "https://os.housearch.net/n/4",
+      "slug": "20260816-maximizing-the-value-of-your-claude-code-sessions",
+      "published_at": "2026-08-16T21:52:49+08:00",
+      "date": "2026-08-16",
+      "title": "Chris 筆記｜如何讓你的 Claude Code 工作階段（session）發揮最大價值｜Claude by Anthropic",
+      "hook": "對我來說，這個提及文件的@，以及sub-agent的用法都是很有用的。",
+      "tags": [],
+      "cover": "img/20260816-maximizing-the-value-of-your-claude-code-sessions-cover.svg",
+      "url": "notes/20260816-maximizing-the-value-of-your-claude-code-sessions.html",
+      "markdown": "notes/20260816-maximizing-the-value-of-your-claude-code-sessions.md",
+      "source": {
+        "author": "@claudeai",
+        "site": "claude.com",
+        "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+        "archive": "20260816/20260816-maximizing-the-value-of-your-claude-code-sessions"
+      }
+    },
     {
       "short": "https://os.housearch.net/n/3",
       "slug": "20260816-the-human-is-the-loop",
