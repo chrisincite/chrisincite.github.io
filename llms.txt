@@ -13,8 +13,18 @@
 - [Chris 筆記｜AiHUB的生成式AI工具「CW Canvas」對應ByteDance「Seedance 2.5」。可用IP權利證明解除濾鏡的「日本首創」工具，公開封閉β版候補名單](https://chrisincite.github.io/notes/20260814-cw-canvas-seedance25.md)：我一直關注AiHUB株式会社的動態，沒想到他們的這則新聞，真的讓我看到什麼叫做反應迅速。
 - [Chris 筆記｜為什麼日本企業導入AI如此緩慢？](https://chrisincite.github.io/notes/20260815-japan-ai-adoption-slow.md)：日本其實一直都是後發先至思維的民族，不擅於破壞式創新，而是厚積薄發快速趕上。
 
+## 神社寺廟散策地圖
+
+走過的日本神社寺廟，一座一篇（規劃 48 座，已發佈 1 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
+
+每篇的區塊錨點固定：`#lead`（導言）、`#origin`（創祀與祭神之認定）、`#geography`（立地）、`#architecture`（參道形制與空間效果）、`#community`（與地方的關係）、`#festival`（祭儀與授与品）、`#walk`（晨間散策路線）。其中 `#origin` 與 `#community` 的**標題每篇量身**，錨點不變。
+
+- [上色見熊野座神社](https://chrisincite.github.io/shrine/15-kamishikimi-kumanoimasu-jinja.md)：早上出門，從一所廢校開始走。（熊本県・阿蘇郡高森町上色見）
+
 ## 其他
 
 - [筆記索引 JSON](https://chrisincite.github.io/notes/index.json)：機器可讀的完整清單
-- [全文串接](https://chrisincite.github.io/llms-full.txt)：所有筆記的完整 markdown，一次取用
+- [散策索引 JSON](https://chrisincite.github.io/shrine/index.json)：已發佈的篇章與座標
+- [全 48 座名錄 JSON](https://chrisincite.github.io/shrine/registry.json)：含未發佈的規劃清單
+- [全文串接](https://chrisincite.github.io/llms-full.txt)：所有內容的完整 markdown，一次取用
 - [網站首頁](https://chrisincite.github.io/)：專案、工具棚與關於頁（單頁式 OS 介面）

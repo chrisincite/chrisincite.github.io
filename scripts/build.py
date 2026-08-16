@@ -1,16 +1,22 @@
 #!/usr/bin/env python3
 """
-CHRIS OS 讀書筆記產生器
+CHRIS OS 站台產生器（兩個 collection：讀書筆記 ＋ 神社寺廟散策地圖）
 
-真相源：notes/src/<slug>.md（front-matter ＋ 散文正文，可選 ## 摘要 / Summary、## 重點 / Keypoint）
+真相源：
+  notes/src/<slug>.md         讀書筆記（front-matter ＋ 散文，可選 ## 摘要 / Summary、## 重點 / Keypoint）
+  shrine/src/<no>-<slug>.md   神社寺廟散策（front-matter ＋ 我的想法／導言＋六節，見私有 repo 的 撰稿規範.md）
+
 產出：
-  notes/<slug>.html   語意化 HTML ＋ JSON-LD ＋ OG
-  notes/<slug>.md     markdown 雙生檔（agent／tinyfish 直接取用）
-  notes/index.json    列表頁與機器可讀索引
-  sitemap.xml         首頁 ＋ 每則筆記的 html 與 md
-  llms.txt            站點概覽（llmstxt.org）
-  llms-full.txt       全部筆記完整 markdown 串接
-  robots.txt          AI bot 規則 ＋ Content Signals ＋ Sitemap
+  notes/<slug>.html    notes/<slug>.md    notes/index.json
+  shrine/<slug>.html   shrine/<slug>.md   shrine/index.json
+  sitemap.xml          首頁 ＋ 兩個 collection 的 html 與 md
+  llms.txt             站點概覽（llmstxt.org）
+  llms-full.txt        全部內容的完整 markdown 串接
+  robots.txt           AI bot 規則 ＋ Content Signals ＋ Sitemap
+
+⚠️ 加 shrine 時的鐵則：**既有 notes 的產出必須 byte-identical**。
+   所以 notes 那條路徑一行都沒動，shrine 是另一組函式，只共用最底層的
+   parse_front_matter／render_blocks／split_sections，站台層檔案才合併兩者。
 
 只用標準函式庫，任何 python3 都跑得起來。
 用法：python3 scripts/build.py
@@ -47,6 +53,12 @@ AUTHOR_URL = "https://chrisincite.github.io"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC_DIR = os.path.join(ROOT, "notes", "src")
 NOTES_DIR = os.path.join(ROOT, "notes")
+
+SHRINE_SRC_DIR = os.path.join(ROOT, "shrine", "src")
+SHRINE_DIR = os.path.join(ROOT, "shrine")
+
+# 只有 ready / published 會上站。draft / research 可以先進 repo 不出現在網站上。
+SHRINE_PUBLISH_STATUS = ("ready", "published")
 
 # 區塊標題 → 穩定錨點 id（agent 可依錨點深連結與抽取）
 # 錨點名稱是對外契約，即使顯示標題改了也不要動；舊標題保留相容。
@@ -480,6 +492,428 @@ def build_note(path, short_url=""):
 
 
 # ============================================================
+# 神社寺廟散策地圖
+# ============================================================
+# 六節的順序是固定的（見私有 repo 的 撰稿規範.md），但 origin 與 community
+# 兩節的**標題每篇量身**，所以錨點不能靠標題文字對應——改用出現順序指派。
+# 錨點一經發佈就是對外契約，不要再動。
+SHRINE_SECTION_ORDER = [
+    "origin", "geography", "architecture", "community", "festival", "walk",
+]
+SHRINE_FIXED_IDS = {"我的想法": "my-take", "導言": "lead"}
+
+SHRINE_TYPE_ICON = {"神社": "⛩", "寺院": "卍", "神仏習合": "⛩"}
+
+
+def load_registry():
+    """48 座的名稱索引（shrine/registry.json，由私有 repo 的 地點清單.csv 產）。
+
+    用途有二：解析 [[slug]] 互連時要拿得到中文名（大部分篇還沒寫，
+    但文章裡已經連過去了），以及日後全國分佈圖要一次拿到所有點位。
+    """
+    path = os.path.join(SHRINE_DIR, "registry.json")
+    if not os.path.isfile(path):
+        return {}
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    return {p["slug"]: p for p in data.get("places", [])}
+
+
+def shrine_inline(text, links):
+    """行內語法。links: slug → (顯示文字, 連結或 None)。"""
+    out = html.escape(text, quote=False)
+
+    def wiki(m):
+        slug = m.group(1).strip()
+        label, href = links.get(slug, (None, None))
+        if not label:
+            return ""                       # 索引裡查不到就整個拿掉，不要吐出 [[slug]]
+        if href:
+            return '<a href="%s">%s</a>' % (html.escape(href, quote=True), html.escape(label))
+        # 還沒寫的篇：顯示名字但不給連結，免得讀者點到 404
+        return '<span class="sh-pending" title="這一篇還沒寫">%s</span>' % html.escape(label)
+
+    out = re.sub(r"\[\[([^\]]+)\]\]", wiki, out)
+    out = re.sub(r"`([^`]+)`", r"<code>\1</code>", out)
+    out = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", out)
+    out = re.sub(r"\*([^*\n]+)\*", r"<em>\1</em>", out)
+    out = re.sub(
+        r"\[([^\]]+)\]\(([^)\s]+)\)",
+        r'<a href="\2" rel="noopener">\1</a>',
+        out,
+    )
+    return out
+
+
+IMG_RE = re.compile(r"^!\[(.*?)\]\((.+?)\)$")
+CAPTION_RE = re.compile(r"^\*(.+)\*$")
+
+
+def shrine_img_src(path):
+    """源檔寫的是 ../img/xxx.webp（相對 shrine/src/），產出頁在 shrine/ 底下。"""
+    return path.replace("../img/", "img/")
+
+
+def render_shrine_blocks(body, links, images):
+    """散策文的區塊渲染。
+
+    比 notes 多四種東西：圖片＋緊接其後的斜體圖說要合成 <figure>、
+    `▲` 小標、`・` 條列（續行用全形空白縮排）、以及 [[ ]] 互連。
+    """
+    lines = body.split("\n")
+    out, buf, mode = [], [], None
+
+    def flush():
+        nonlocal buf, mode
+        if not buf:
+            mode = None
+            return
+        if mode == "ol":
+            out.append("<ol>%s</ol>" % "".join(
+                "<li>%s</li>" % shrine_inline(x, links) for x in buf))
+        elif mode == "dots":
+            out.append('<ul class="sh-dots">%s</ul>' % "".join(
+                "<li>%s</li>" % shrine_inline(x, links) for x in buf))
+        else:
+            out.append("<p>%s</p>" % shrine_inline(" ".join(buf).strip(), links))
+        buf, mode = [], None
+
+    i = 0
+    while i < len(lines):
+        raw = lines[i]
+        s = raw.strip()
+        if not s or s.startswith("<!--"):
+            flush()
+            i += 1
+            continue
+
+        m = IMG_RE.match(s)
+        if m:
+            flush()
+            alt, src = m.group(1), shrine_img_src(m.group(2))
+            images.append(src)
+            caption = ""
+            j = i + 1
+            while j < len(lines) and not lines[j].strip():
+                j += 1
+            if j < len(lines):
+                c = CAPTION_RE.match(lines[j].strip())
+                if c:
+                    caption = c.group(1)
+                    i = j
+            fig = ['<figure class="sh-fig">',
+                   '  <img src="%s" alt="%s" loading="lazy" decoding="async">'
+                   % (html.escape(src, quote=True), html.escape(alt, quote=True))]
+            if caption:
+                fig.append("  <figcaption>%s</figcaption>" % shrine_inline(caption, links))
+            fig.append("</figure>")
+            out.append("\n".join(fig))
+            i += 1
+            continue
+
+        if s.startswith("▲"):
+            flush()
+            out.append('<p class="sh-sub">%s</p>'
+                       % shrine_inline(s.lstrip("▲").strip(), links))
+        elif s.startswith("・"):
+            if mode != "dots":
+                flush()
+                mode = "dots"
+            buf.append(s[1:].strip())
+        elif raw.startswith("　") and mode == "dots" and buf:
+            # 全形空白縮排＝上一個 ・ 條目的續行。
+            # ⚠️ 一定要看未 strip 的 raw——U+3000 是 Unicode 空白，
+            #    s = raw.strip() 已經把它吃掉了，用 s 判斷永遠不會成立。
+            buf[-1] += " " + s
+        elif re.match(r"^\d+[.)]\s+", s):
+            if mode != "ol":
+                flush()
+                mode = "ol"
+            buf.append(re.sub(r"^\d+[.)]\s+", "", s))
+        else:
+            if mode in ("ol", "dots"):
+                flush()
+            mode = "p"
+            buf.append(s)
+        i += 1
+    flush()
+    return "\n".join(out)
+
+
+def strip_comments(text):
+    return re.sub(r"<!--.*?-->", "", text, flags=re.S).strip()
+
+
+def is_shrine_file(name):
+    return (name.endswith(".md")
+            and name != "README.md"
+            and not name.startswith(("_", ".")))
+
+
+def shrine_hook(sections, limit=64):
+    """列表卡片的一句話：取導言的第一句。"""
+    for heading, content in sections:
+        if heading != "導言":
+            continue
+        for line in strip_comments(content).split("\n"):
+            s = line.strip()
+            if not s or s.startswith(("!", "*", "▲", "・")):
+                continue
+            s = re.sub(r"\[\[[^\]]+\]\]|[*`]", "", s)
+            if "。" in s:
+                s = s.split("。")[0] + "。"
+            return s[:limit]
+    return ""
+
+
+def build_shrine(path, registry, published_slugs):
+    with open(path, encoding="utf-8") as f:
+        meta, body = parse_front_matter(f.read())
+
+    slug = meta.get("slug") or ""
+    no = str(meta.get("no", "")).strip()
+    # front-matter 的 slug 不含編號（沿用 outlines 的寫法），檔名才是完整 slug
+    full_slug = os.path.splitext(os.path.basename(path))[0]
+    if not meta.get("title"):
+        raise ValueError("front-matter 缺 title")
+
+    links = {}
+    for s, p in registry.items():
+        links[s] = (p.get("title", ""),
+                    "%s.html" % s if s in published_slugs else None)
+
+    sections = split_sections(body)
+    hook = meta.get("hook") or shrine_hook(sections)
+
+    page_url = "%s/shrine/%s.html" % (CANONICAL_BASE, full_slug)
+    md_url = "%s/shrine/%s.md" % (CANONICAL_BASE, full_slug)
+
+    # ---------- 區塊 HTML ----------
+    images, body_html, num = [], [], 0
+    for heading, content in sections:
+        content = strip_comments(content)
+        sid = SHRINE_FIXED_IDS.get(heading)
+        if sid is None:
+            sid = (SHRINE_SECTION_ORDER[num] if num < len(SHRINE_SECTION_ORDER)
+                   else "sec-%d" % (num + 1))
+            num += 1
+        if sid == "my-take" and not content:
+            continue                        # 空的評註佔位不輸出（他日後自己填）
+        rendered = render_shrine_blocks(content, links, images)
+        if sid == "lead":
+            # 導言沒有可見標題（撰稿規範），但保留錨點供深連結
+            body_html.append('<section id="lead" class="sh-lead">\n%s\n</section>' % rendered)
+            continue
+        body_html.append(
+            '<section id="{sid}" aria-labelledby="h-{sid}">\n'
+            '  <h2 id="h-{sid}" data-num="{n}">{heading}</h2>\n'
+            "  {content}\n"
+            "</section>".format(sid=sid, n="%02d" % num,
+                                heading=html.escape(heading), content=rendered)
+        )
+
+    cover = images[0] if images else ""
+    cover_url = "%s/shrine/%s" % (CANONICAL_BASE, cover) if cover else ""
+
+    series = meta.get("series", []) or []
+    related = meta.get("related", []) or []
+    place = "・".join(x for x in (meta.get("prefecture", ""), meta.get("city", "")) if x)
+
+    # ---------- 事實列（front-matter 就是資料，不必在正文重寫一次） ----------
+    facts = []
+    for label, key in (("祭神", "enshrined"), ("本尊", "honzon"), ("宗派", "sect"),
+                       ("社格", "rank")):
+        v = meta.get(key)
+        if isinstance(v, str) and v.strip():
+            facts.append((label, v.strip()))
+    facts_html = ""
+    if facts:
+        facts_html = '<dl class="sh-facts">%s</dl>' % "".join(
+            "<dt>%s</dt><dd>%s</dd>" % (html.escape(k), html.escape(v))
+            for k, v in facts)
+
+    # ---------- JSON-LD ----------
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": meta["title"],
+        "abstract": hook,
+        "inLanguage": "zh-Hant",
+        "url": page_url,
+        "mainEntityOfPage": {"@type": "WebPage", "@id": page_url},
+        "author": {"@type": "Person", "name": AUTHOR_NAME, "url": AUTHOR_URL},
+        "publisher": {"@type": "Person", "name": AUTHOR_NAME, "url": AUTHOR_URL},
+        "genre": "旅行見學",
+        "encoding": {"@type": "MediaObject", "encodingFormat": "text/markdown",
+                     "contentUrl": md_url},
+        "about": {
+            "@type": "LandmarksOrHistoricalBuildings",
+            "name": meta.get("title_ja", meta["title"]),
+            "alternateName": meta["title"],
+            "address": {"@type": "PostalAddress",
+                        "addressCountry": "JP",
+                        "addressRegion": meta.get("prefecture", ""),
+                        "addressLocality": meta.get("city", "")},
+        },
+    }
+    if meta.get("lat") and meta.get("lng"):
+        ld["about"]["geo"] = {"@type": "GeoCoordinates",
+                              "latitude": meta["lat"], "longitude": meta["lng"]}
+    if cover_url:
+        ld["image"] = cover_url
+
+    meta_line = " · ".join(x for x in (place, meta.get("visited", "")) if x)
+    foot_links = ['<a href="./%s.md">Markdown 版</a>' % full_slug,
+                  '<a href="../index.html#shrine">← 回散策地圖</a>']
+
+    page = SHRINE_TEMPLATE.format(
+        title=html.escape(meta["title"]),
+        title_attr=html.escape(meta["title"], quote=True),
+        title_ja=html.escape(meta.get("title_ja", "")),
+        kana=html.escape(meta.get("kana", "")),
+        hook=html.escape(hook, quote=True),
+        canonical=page_url,
+        md_rel="./%s.md" % full_slug,
+        og_image_tag=(
+            '<meta property="og:image" content="%s">\n'
+            '<meta name="twitter:card" content="summary_large_image">' % cover_url)
+        if cover_url else '<meta name="twitter:card" content="summary">',
+        jsonld=json.dumps(ld, ensure_ascii=False, indent=2),
+        kicker=html.escape(meta_line),
+        icon=SHRINE_TYPE_ICON.get(meta.get("type", ""), "⛩"),
+        facts=facts_html,
+        sections="\n".join(body_html),
+        foot="\n    ".join(foot_links),
+        site_name=SITE_NAME,
+    )
+    with open(os.path.join(SHRINE_DIR, full_slug + ".html"), "w", encoding="utf-8") as f:
+        f.write(page)
+
+    # ---------- markdown 雙生檔 ----------
+    def md_wiki(m):
+        s = m.group(1).strip()
+        p = registry.get(s)
+        if not p:
+            return ""
+        return ("[%s](%s.md)" % (p["title"], s) if s in published_slugs else p["title"])
+
+    md_body = re.sub(r"\[\[([^\]]+)\]\]", md_wiki, body)
+    md_body = md_body.replace("../img/", "img/")
+    md_body = strip_comments(md_body)
+    # 空的「我的想法」佔位在 markdown 版也不輸出
+    md_body = re.sub(r"^##\s*我的想法\s*\n+(?=##)", "", md_body, flags=re.M)
+    md_body = re.sub(r"^##\s*導言\s*\n+", "", md_body, flags=re.M)
+
+    head = ["> 神社寺廟散策 · %s" % meta_line if meta_line else "> 神社寺廟散策"]
+    if meta.get("title_ja"):
+        head.append("> 日文名：%s%s"
+                    % (meta["title_ja"],
+                       "（%s）" % meta["kana"] if meta.get("kana") else ""))
+    for label, key in (("祭神", "enshrined"), ("本尊", "honzon"), ("社格", "rank")):
+        if isinstance(meta.get(key), str) and meta[key].strip():
+            head.append("> %s：%s" % (label, meta[key].strip()))
+    if meta.get("lat") and meta.get("lng"):
+        head.append("> 座標：%s, %s" % (meta["lat"], meta["lng"]))
+    head.append("> 本頁 HTML：%s" % page_url)
+
+    md_text = "# %s\n\n%s\n\n%s\n" % (meta["title"], "\n".join(head), md_body.strip())
+    with open(os.path.join(SHRINE_DIR, full_slug + ".md"), "w", encoding="utf-8") as f:
+        f.write(md_text)
+
+    return {
+        "no": no,
+        "slug": full_slug,
+        "title": meta["title"],
+        "title_ja": meta.get("title_ja", ""),
+        "kana": meta.get("kana", ""),
+        "type": meta.get("type", ""),
+        "prefecture": meta.get("prefecture", ""),
+        "city": meta.get("city", ""),
+        "lat": meta.get("lat", ""),
+        "lng": meta.get("lng", ""),
+        "enshrined": meta.get("enshrined", "") if isinstance(meta.get("enshrined"), str) else "",
+        "rank": meta.get("rank", "") if isinstance(meta.get("rank"), str) else "",
+        "trip": meta.get("trip", ""),
+        "series": series,
+        "visited": meta.get("visited", ""),
+        "hook": hook,
+        "cover": cover,
+        "photos": len([x for x in images if not x.endswith("-map.webp")]),
+        "related": related,
+        "url": "shrine/%s.html" % full_slug,
+        "markdown": "shrine/%s.md" % full_slug,
+    }, md_text
+
+
+def write_shrine_index_json(shrines, registry):
+    payload = {
+        "site": SITE_NAME,
+        "description": "48 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
+        "canonical_base": CANONICAL_BASE,
+        "count": len(shrines),
+        "planned": len(registry),
+        "shrines": shrines,
+    }
+    with open(os.path.join(SHRINE_DIR, "index.json"), "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+
+SHRINE_TEMPLATE = """<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{title} — 神社寺廟散策 · {site_name}</title>
+<meta name="description" content="{hook}">
+<meta name="author" content="Chris Hsu">
+<link rel="canonical" href="{canonical}">
+<link rel="alternate" type="text/markdown" href="{md_rel}" title="Markdown 版本">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{title_attr}">
+<meta property="og:description" content="{hook}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:locale" content="zh_TW">
+{og_image_tag}
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⛩️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/shrine.css">
+<script type="application/ld+json">
+{jsonld}
+</script>
+</head>
+<body>
+
+<nav class="note-topbar">
+  <a class="tb-brand" href="../index.html">CHRIS OS</a>
+  <a href="../index.html#shrine">神社寺廟散策地圖</a>
+  <span class="tb-spacer"></span>
+  <a href="{md_rel}">.md</a>
+</nav>
+
+<article class="note shrine">
+  <header class="note-head">
+    <p class="note-kicker">{icon} 神社寺廟散策 · {kicker}</p>
+    <h1>{title}</h1>
+    <p class="sh-ja">{title_ja}<span>{kana}</span></p>
+    {facts}
+  </header>
+
+{sections}
+
+  <footer class="note-foot">
+    {foot}
+  </footer>
+</article>
+
+</body>
+</html>
+"""
+
+
+# ============================================================
 # 站台層檔案
 # ============================================================
 BASE36 = "0123456789abcdefghijklmnopqrstuvwxyz"
@@ -589,11 +1023,16 @@ def write_index_json(notes):
         f.write("\n")
 
 
-def write_sitemap(notes):
+def write_sitemap(notes, shrines=()):
     urls = [(CANONICAL_BASE + "/", None, "1.0")]
     for n in notes:
         urls.append(("%s/%s" % (CANONICAL_BASE, n["url"]), n["date"], "0.8"))
         urls.append(("%s/%s" % (CANONICAL_BASE, n["markdown"]), n["date"], "0.5"))
+    for s in shrines:
+        # 散策文沒有「發佈日期」的概念——寫的是一趟走過的路，不是時事，
+        # 所以不給 lastmod，只給優先度。
+        urls.append(("%s/%s" % (CANONICAL_BASE, s["url"]), None, "0.8"))
+        urls.append(("%s/%s" % (CANONICAL_BASE, s["markdown"]), None, "0.5"))
     urls.append((CANONICAL_BASE + "/llms.txt", None, "0.5"))
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
@@ -643,7 +1082,7 @@ def write_robots():
         f.write("\n".join(lines))
 
 
-def write_llms(notes):
+def write_llms(notes, shrines=(), planned=0):
     lines = [
         "# %s" % SITE_NAME,
         "",
@@ -671,12 +1110,42 @@ def write_llms(notes):
                 "（原文：%s）" % s.get("title", "") if s.get("title") else "",
             )
         )
+    if shrines:
+        lines += [
+            "",
+            "## 神社寺廟散策地圖",
+            "",
+            "走過的日本神社寺廟，一座一篇（規劃 %d 座，已發佈 %d 篇）。"
+            "不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，"
+            "事實只採日文一次資料。" % (planned or len(shrines), len(shrines)),
+            "",
+            "每篇的區塊錨點固定：`#lead`（導言）、`#origin`（創祀與祭神之認定）、"
+            "`#geography`（立地）、`#architecture`（參道形制與空間效果）、"
+            "`#community`（與地方的關係）、`#festival`（祭儀與授与品）、"
+            "`#walk`（晨間散策路線）。其中 `#origin` 與 `#community` 的**標題每篇量身**，"
+            "錨點不變。",
+            "",
+        ]
+        for s in shrines:
+            where = "・".join(x for x in (s.get("prefecture", ""), s.get("city", "")) if x)
+            lines.append(
+                "- [%s](%s/%s)：%s%s"
+                % (s["title"], CANONICAL_BASE, s["markdown"], s.get("hook", ""),
+                   "（%s）" % where if where else ""))
+
     lines += [
         "",
         "## 其他",
         "",
         "- [筆記索引 JSON](%s/notes/index.json)：機器可讀的完整清單" % CANONICAL_BASE,
-        "- [全文串接](%s/llms-full.txt)：所有筆記的完整 markdown，一次取用" % CANONICAL_BASE,
+    ]
+    if shrines:
+        lines += [
+            "- [散策索引 JSON](%s/shrine/index.json)：已發佈的篇章與座標" % CANONICAL_BASE,
+            "- [全 48 座名錄 JSON](%s/shrine/registry.json)：含未發佈的規劃清單" % CANONICAL_BASE,
+        ]
+    lines += [
+        "- [全文串接](%s/llms-full.txt)：所有內容的完整 markdown，一次取用" % CANONICAL_BASE,
         "- [網站首頁](%s/)：專案、工具棚與關於頁（單頁式 OS 介面）" % CANONICAL_BASE,
         "",
     ]
@@ -684,7 +1153,7 @@ def write_llms(notes):
         f.write("\n".join(lines))
 
 
-def write_llms_full(notes, texts):
+def write_llms_full(notes, texts, shrine_texts=()):
     parts = [
         "# %s — 全文" % SITE_NAME,
         "",
@@ -700,6 +1169,20 @@ def write_llms_full(notes, texts):
         parts.append("")
         parts.append("---")
         parts.append("")
+    if shrine_texts:
+        parts += [
+            "# 神社寺廟散策地圖 — 全文",
+            "",
+            "走過的日本神社寺廟，一座一篇。共 %d 篇。" % len(shrine_texts),
+            "",
+            "---",
+            "",
+        ]
+        for text in shrine_texts:
+            parts.append(text.strip())
+            parts.append("")
+            parts.append("---")
+            parts.append("")
     with open(os.path.join(ROOT, "llms-full.txt"), "w", encoding="utf-8") as f:
         f.write("\n".join(parts))
 
@@ -791,19 +1274,53 @@ def main():
     notes = [n for n, _ in paired]
     texts = [t for _, t in paired]
 
+    shrines, shrine_texts, registry = build_shrines()
+
     write_redirects(notes, shortlinks)
     save_shortlinks(shortlinks)
     write_index_json(notes)
-    write_sitemap(notes)
+    if os.path.isdir(SHRINE_SRC_DIR):
+        write_shrine_index_json(shrines, registry)
+    write_sitemap(notes, shrines)
     write_robots()
-    write_llms(notes)
-    write_llms_full(notes, texts)
+    write_llms(notes, shrines, len(registry))
+    write_llms_full(notes, texts, shrine_texts)
 
-    print("\n共 %d 則筆記" % len(notes))
+    print("\n共 %d 則筆記、%d 篇散策" % (len(notes), len(shrines)))
     print("已更新：notes/index.json、notes/shortlinks.json、n/*.html、"
-          "sitemap.xml、robots.txt、llms.txt、llms-full.txt")
+          "shrine/index.json、sitemap.xml、robots.txt、llms.txt、llms-full.txt")
     print("canonical：%s" % CANONICAL_BASE)
     return 0
+
+
+def build_shrines():
+    """散策篇。沒有 shrine/src/ 就整段跳過，不影響既有的筆記建置。"""
+    if not os.path.isdir(SHRINE_SRC_DIR):
+        return [], [], {}
+
+    registry = load_registry()
+    files = sorted(f for f in os.listdir(SHRINE_SRC_DIR) if is_shrine_file(f))
+
+    # 先掃一遍決定誰會上站——[[ ]] 互連要知道連過去的那篇存不存在，
+    # 才能決定給連結還是只給名字。
+    published = set()
+    for name in files:
+        with open(os.path.join(SHRINE_SRC_DIR, name), encoding="utf-8") as f:
+            meta, _ = parse_front_matter(f.read())
+        if str(meta.get("status", "")).strip() in SHRINE_PUBLISH_STATUS:
+            published.add(os.path.splitext(name)[0])
+
+    shrines, shrine_texts = [], []
+    for name in sorted(published):
+        meta, text = build_shrine(
+            os.path.join(SHRINE_SRC_DIR, name + ".md"), registry, published)
+        shrines.append(meta)
+        shrine_texts.append(text)
+        print("⛩ %s" % meta["slug"])
+
+    # 依編號排序：這是走訪的時間序，也是永久編號，比日期穩定
+    paired = sorted(zip(shrines, shrine_texts), key=lambda p: p[0]["slug"])
+    return [s for s, _ in paired], [t for _, t in paired], registry
 
 
 if __name__ == "__main__":

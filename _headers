@@ -11,9 +11,13 @@
   Link: </llms.txt>; rel="describedby"; type="text/plain"
   Link: </sitemap.xml>; rel="sitemap"; type="application/xml"
   Link: </notes/index.json>; rel="alternate"; type="application/json"
+  Link: </shrine/index.json>; rel="alternate"; type="application/json"
 
 # markdown 雙生檔明確標示 content type，方便 agent 直接取用
 /notes/*.md
+  Content-Type: text/markdown; charset=utf-8
+
+/shrine/*.md
   Content-Type: text/markdown; charset=utf-8
 
 /llms.txt

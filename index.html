@@ -11,6 +11,7 @@
 <link rel="describedby" type="text/plain" href="/llms.txt" title="llms.txt 站點概覽">
 <link rel="alternate" type="text/plain" href="/llms-full.txt" title="全部筆記的 markdown 全文">
 <link rel="alternate" type="application/json" href="/notes/index.json" title="讀書筆記索引">
+<link rel="alternate" type="application/json" href="/shrine/index.json" title="神社寺廟散策索引">
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 <script type="application/ld+json">
 {
@@ -853,6 +854,102 @@ body {
 }
 
 /* ============================================
+   神社寺廟散策地圖
+   ============================================ */
+.note-card .nc-where {
+  font-family: 'Fira Code', monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+  margin-bottom: 6px;
+}
+.note-card .nc-ja {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 12.5px;
+  color: var(--ink-faint);
+  margin-bottom: 8px;
+}
+
+/* 全部 48 座的名錄——已寫的可以點，沒寫的只列出來 */
+.sh-roster { margin-top: 46px; }
+.sh-roster-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-bottom: 12px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid rgba(32, 34, 46, 0.12);
+}
+.sh-roster-head h2 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.sh-toggle { display: flex; gap: 6px; }
+.sh-toggle button {
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(32, 34, 46, 0.15);
+  background: transparent;
+  color: var(--ink-light);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.sh-toggle button:hover { border-color: var(--indigo); color: var(--indigo); }
+.sh-toggle button.active { background: var(--indigo); color: #fff; border-color: var(--indigo); }
+
+.sh-group { margin-bottom: 26px; }
+.sh-group-title {
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--ink-faint);
+  margin-bottom: 10px;
+}
+.sh-group-title b { color: var(--indigo); font-weight: 700; margin-right: 8px; }
+.sh-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 6px 14px;
+}
+.sh-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13.5px;
+  color: var(--ink-faint);
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+.sh-item .sh-no {
+  font-family: 'Fira Code', monospace;
+  font-size: 10px;
+  color: var(--ink-faint);
+  min-width: 18px;
+}
+.sh-item .sh-place {
+  font-family: 'Fira Code', monospace;
+  font-size: 10px;
+  margin-left: auto;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+a.sh-item {
+  color: var(--ink);
+  background: #fff;
+  border-color: rgba(32, 34, 46, 0.1);
+  font-weight: 500;
+}
+a.sh-item:hover { border-color: rgba(58, 95, 168, 0.4); color: var(--indigo); }
+a.sh-item .sh-no { color: var(--vermilion); }
+
+/* ============================================
    MOBILE
    ============================================ */
 @media (max-width: 760px) {
@@ -893,7 +990,8 @@ body {
   <button data-tab="works"><span class="pill-num">02</span>專案</button>
   <button data-tab="hub"><span class="pill-num">03</span>工具</button>
   <button data-tab="notes"><span class="pill-num">04</span>筆記</button>
-  <button data-tab="about"><span class="pill-num">05</span>關於</button>
+  <button data-tab="shrine"><span class="pill-num">05</span>散策</button>
+  <button data-tab="about"><span class="pill-num">06</span>關於</button>
 </nav>
 
 <!-- ============ TAB 1：HOME ============ -->
@@ -1248,11 +1346,39 @@ body {
   </div>
 </main>
 
-<!-- ============ TAB 5：關於 ============ -->
+<!-- ============ TAB 5：神社寺廟散策地圖 ============ -->
+<main id="page-shrine" class="tab-page">
+  <div class="page-inner">
+    <header class="page-head">
+      <div class="ph-mono">05 / SHRINE</div>
+      <h1>走過的鳥居與山門</h1>
+      <p>48 座實地走過的日本神社寺廟，一座一篇。不是旅遊攻略——每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。每篇最後是一條方圓三到五公里的晨間散步路線：神社是這條路上最重的一站，但不是目的地。</p>
+    </header>
+
+    <div id="shrineList" class="notes-list">
+      <p class="notes-empty">載入中…</p>
+    </div>
+
+    <section class="sh-roster">
+      <div class="sh-roster-head">
+        <h2>全部 48 座</h2>
+        <div class="sh-toggle" id="shrineToggle" role="group" aria-label="分組方式">
+          <button data-group="trip" class="active">依行程</button>
+          <button data-group="series">依系列</button>
+        </div>
+      </div>
+      <div id="shrineRoster"></div>
+    </section>
+
+    <p class="hub-note">// 走訪期間 2024-10 至 2026-07，共七趟。編號是走訪的時間序，一經發佈不再變動。</p>
+  </div>
+</main>
+
+<!-- ============ TAB 6：關於 ============ -->
 <main id="page-about" class="tab-page">
   <div class="page-inner">
     <header class="page-head">
-      <div class="ph-mono">05 / ABOUT</div>
+      <div class="ph-mono">06 / ABOUT</div>
       <h1>在 AI 時代重建工作流的人</h1>
     </header>
     <div class="about-grid">
@@ -1302,7 +1428,7 @@ body {
   /* ============================================
      TAB ROUTER（hash-based）
      ============================================ */
-  var TABS = ['home', 'works', 'hub', 'notes', 'about'];
+  var TABS = ['home', 'works', 'hub', 'notes', 'shrine', 'about'];
   var pillNav = document.getElementById('pillNav');
 
   function currentTab() {
@@ -1704,6 +1830,110 @@ body {
       var list = document.getElementById('notesList');
       if (list) list.innerHTML = '<p class="notes-empty">筆記載入失敗——若是本機直接開啟檔案，請改用 http 伺服器檢視。</p>';
     });
+
+  /* ============================================
+     神社寺廟散策地圖（讀 shrine/index.json ＋ shrine/registry.json）
+
+     index.json 是已發佈的篇；registry.json 是全部 48 座的名錄。
+     兩份分開的理由：名錄要在一篇都還沒寫的時候就能列出全貌，
+     而已發佈的篇會長出封面、導言、座標這些 registry 沒有的東西。
+     ============================================ */
+  var TRIP_LABELS = {
+    T1: '島根・石見銀山與出雲', T2: '長野→福井→三重→静岡',
+    T3: '九州大縱走→長崎', T4: '奈良・三輪與吉野',
+    T5: '瀬戶內＋近畿＋天橋立', T6: '兵庫＋山陰', T7: '四國・徳島'
+  };
+  var SERIES_LABELS = {
+    S1: '記紀神話的現場', S2: '熊野與修驗', S3: '出雲・山陰的神',
+    S4: '山門與總本山', S5: '海の神・港の神', S6: '水と湯の神',
+    S7: '王權・都市・學問', S8: '里の社・在地信仰'
+  };
+
+  function shrineIcon(type) { return type === '寺院' ? '卍' : '⛩'; }
+
+  function renderShrines(shrines) {
+    var list = document.getElementById('shrineList');
+    if (!list) return;
+    if (!shrines.length) {
+      list.innerHTML = '<p class="notes-empty">還沒有發佈的散策篇。</p>';
+      return;
+    }
+    list.innerHTML = shrines.map(function(s) {
+      var thumb = s.cover
+        ? '<img class="nc-thumb" src="shrine/' + esc(s.cover) + '" alt="" loading="lazy">'
+        : '<div class="nc-thumb placeholder">' + shrineIcon(s.type) + '</div>';
+      var where = [s.prefecture, s.city].filter(Boolean).join('・');
+      var meta = [where, s.visited].filter(Boolean).join(' · ');
+      var ja = s.title_ja + (s.kana ? '　' + s.kana : '');
+      return '<a class="note-card" href="' + esc(s.url) + '">' +
+        '<div>' + thumb + '</div>' +
+        '<div>' +
+          '<div class="nc-where">' + esc(meta) + '</div>' +
+          '<h3>' + esc(s.title) + '</h3>' +
+          '<p class="nc-ja">' + esc(ja) + '</p>' +
+          '<p class="nc-hook">' + esc(s.hook) + '</p>' +
+          (s.enshrined ? '<p class="nc-src">祭神：' + esc(s.enshrined) + '</p>' : '') +
+        '</div>' +
+      '</a>';
+    }).join('');
+  }
+
+  function renderRoster(places, publishedBySlug, groupBy) {
+    var box = document.getElementById('shrineRoster');
+    if (!box) return;
+    var labels = groupBy === 'series' ? SERIES_LABELS : TRIP_LABELS;
+    var groups = {};
+    places.forEach(function(p) {
+      var keys = groupBy === 'series' ? (p.series || []) : [p.trip];
+      if (!keys.length) keys = ['—'];
+      keys.forEach(function(k) { (groups[k] = groups[k] || []).push(p); });
+    });
+    box.innerHTML = Object.keys(groups).sort().map(function(k) {
+      var items = groups[k].map(function(p) {
+        var pub = publishedBySlug[p.slug];
+        var inner =
+          '<span class="sh-no">' + esc(p.no) + '</span>' +
+          '<span>' + shrineIcon(p.type) + ' ' + esc(p.title) + '</span>' +
+          '<span class="sh-place">' + esc(p.prefecture) + '</span>';
+        return pub
+          ? '<a class="sh-item" href="' + esc(pub.url) + '">' + inner + '</a>'
+          : '<span class="sh-item">' + inner + '</span>';
+      }).join('');
+      return '<div class="sh-group">' +
+        '<div class="sh-group-title"><b>' + esc(k) + '</b>' + esc(labels[k] || '') +
+        '　' + groups[k].length + ' 座</div>' +
+        '<div class="sh-items">' + items + '</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  Promise.all([
+    fetch('shrine/index.json').then(function(r) { return r.ok ? r.json() : { shrines: [] }; }),
+    fetch('shrine/registry.json').then(function(r) { return r.ok ? r.json() : { places: [] }; })
+  ]).then(function(res) {
+    var shrines = res[0].shrines || [];
+    var places = res[1].places || [];
+    var bySlug = {};
+    shrines.forEach(function(s) { bySlug[s.slug] = s; });
+
+    renderShrines(shrines);
+    renderRoster(places, bySlug, 'trip');
+
+    var toggle = document.getElementById('shrineToggle');
+    if (toggle) {
+      toggle.addEventListener('click', function(e) {
+        var btn = e.target.closest('button');
+        if (!btn) return;
+        [].forEach.call(toggle.querySelectorAll('button'), function(b) {
+          b.classList.toggle('active', b === btn);
+        });
+        renderRoster(places, bySlug, btn.dataset.group);
+      });
+    }
+  }).catch(function() {
+    var list = document.getElementById('shrineList');
+    if (list) list.innerHTML = '<p class="notes-empty">散策資料載入失敗——若是本機直接開啟檔案，請改用 http 伺服器檢視。</p>';
+  });
 
   /* ===== 初始化 ===== */
   switchTab(currentTab());

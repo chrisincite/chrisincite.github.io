@@ -1,0 +1,39 @@
+{
+  "site": "CHRIS OS",
+  "description": "48 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
+  "canonical_base": "https://chrisincite.github.io",
+  "count": 1,
+  "planned": 48,
+  "shrines": [
+    {
+      "no": "15",
+      "slug": "15-kamishikimi-kumanoimasu-jinja",
+      "title": "上色見熊野座神社",
+      "title_ja": "上色見熊野座神社",
+      "kana": "かみしきみくまのざじんじゃ",
+      "type": "神社",
+      "prefecture": "熊本県",
+      "city": "阿蘇郡高森町上色見",
+      "lat": "32.853848",
+      "lng": "131.158438",
+      "enshrined": "伊邪那岐命・伊邪那美命・石君大将軍",
+      "rank": "旧村社・南郷谷総鎮守",
+      "trip": "T3",
+      "series": [
+        "S2"
+      ],
+      "visited": "2025-04",
+      "hook": "早上出門，從一所廢校開始走。",
+      "cover": "img/15-kamishikimi-kumanoimasu-jinja-01.webp",
+      "photos": 8,
+      "related": [
+        "14-aso-jinja",
+        "16-amanoiwato-jinja",
+        "17-takachiho-jinja",
+        "35-kumano-hongu-taisha"
+      ],
+      "url": "shrine/15-kamishikimi-kumanoimasu-jinja.html",
+      "markdown": "shrine/15-kamishikimi-kumanoimasu-jinja.md"
+    }
+  ]
+}

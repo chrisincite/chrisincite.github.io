@@ -1,0 +1,280 @@
+/* ============================================
+   CHRIS OS — 神社寺廟散策頁樣式
+   沿用 note.css 的設計 token 與骨架，只加散策文才有的東西：
+   日文社名、事實列、大圖＋圖說、▲ 小標、未發佈的互連。
+   ============================================ */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --paper: #faf7ef;
+  --paper-dark: #f2edde;
+  --ink: #20222e;
+  --ink-light: #565a6b;
+  --ink-faint: #9095a5;
+  --indigo: #3a5fa8;
+  --indigo-deep: #2b4880;
+  --vermilion: #d94f3d;
+  --gold: #d9a441;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.85;
+}
+
+::selection { background: var(--gold); color: var(--ink); }
+
+a { color: var(--indigo); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--indigo-deep); }
+
+/* ===== 頂列 ===== */
+.note-topbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 24px;
+  background: rgba(250, 247, 239, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(32, 34, 46, 0.08);
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+}
+.note-topbar a { color: var(--ink-light); text-decoration: none; }
+.note-topbar a:hover { color: var(--indigo); }
+.note-topbar .tb-brand { font-weight: 700; color: var(--ink); }
+.note-topbar .tb-spacer { flex: 1; }
+
+/* ===== 文章容器 ===== */
+.note {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 56px 24px 120px;
+}
+
+.note-kicker {
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--ink-faint);
+  margin-bottom: 14px;
+}
+
+.note h1 {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 900;
+  font-size: clamp(28px, 5vw, 42px);
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+}
+
+/* 日文社名＋讀音 */
+.sh-ja {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 15px;
+  color: var(--ink-light);
+  margin-bottom: 22px;
+}
+.sh-ja span {
+  font-family: 'Fira Code', monospace;
+  font-size: 11.5px;
+  color: var(--ink-faint);
+  margin-left: 10px;
+  letter-spacing: 0.06em;
+}
+
+/* 事實列：祭神・社格這類 front-matter 就有的資料，不在正文重寫一次 */
+.sh-facts {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 6px 16px;
+  padding: 16px 18px;
+  background: var(--paper-dark);
+  border-left: 3px solid var(--ink-faint);
+  border-radius: 0 6px 6px 0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.sh-facts dt {
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--ink-faint);
+  padding-top: 0.35em;
+}
+.sh-facts dd { color: var(--ink-light); }
+
+/* ===== 導言：沒有標題，但要看得出是引子 ===== */
+.sh-lead { margin-top: 40px; }
+.sh-lead > p {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 17.5px;
+  line-height: 1.95;
+}
+/* 導言的第一段常常只有一句話（「早上出門，從一所廢校開始走。」），
+   首字放大會變成一個巨大的字配半行字，所以改成整段放大＋朱線收邊。 */
+.sh-lead > p:first-child {
+  font-size: 19px;
+  font-weight: 500;
+  padding-left: 16px;
+  border-left: 3px solid var(--vermilion);
+}
+
+/* ===== 區塊 ===== */
+.note section { margin-top: 52px; }
+
+.note h2 {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 700;
+  font-size: 21px;
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(32, 34, 46, 0.1);
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.note h2::before {
+  content: attr(data-num);
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--indigo);
+  letter-spacing: 0.08em;
+}
+
+.note p { margin-bottom: 18px; font-size: 16px; }
+.note p:last-child { margin-bottom: 0; }
+.note strong { font-weight: 700; }
+.note em { font-style: normal; color: var(--ink-light); }
+.note code {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.88em;
+  background: var(--paper-dark);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* 我的想法：他自己填的那塊，填了才會出現 */
+#my-take {
+  background: #fff;
+  border: 1px solid rgba(32, 34, 46, 0.08);
+  border-radius: 12px;
+  padding: 28px 30px;
+  box-shadow: 0 4px 20px rgba(32, 34, 46, 0.05);
+}
+#my-take h2 { border-bottom-color: rgba(58, 95, 168, 0.2); }
+#my-take h2::before { color: var(--vermilion); }
+
+/* ===== 圖與圖說 ===== */
+.sh-fig { margin: 30px 0; }
+.sh-fig img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  background: var(--paper-dark);
+}
+.sh-fig figcaption {
+  font-size: 13px;
+  line-height: 1.75;
+  color: var(--ink-light);
+  margin-top: 10px;
+  padding-left: 12px;
+  border-left: 2px solid var(--gold);
+}
+
+/* ===== ▲ 實務小標與 ・ 條列 ===== */
+.sh-sub {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 26px 0 10px !important;
+  padding-left: 14px;
+  border-left: 3px solid var(--indigo);
+  color: var(--ink);
+}
+.sh-dots { list-style: none; padding-left: 0; margin-bottom: 18px; }
+.sh-dots > li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 10px;
+  font-size: 15.5px;
+  line-height: 1.8;
+}
+.sh-dots > li::before {
+  content: "・";
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+}
+.note ol { padding-left: 0; list-style: none; counter-reset: st; margin-bottom: 18px; }
+.note ol > li {
+  counter-increment: st;
+  position: relative;
+  padding-left: 38px;
+  margin-bottom: 12px;
+  font-size: 15.5px;
+}
+.note ol > li::before {
+  content: counter(st, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--indigo);
+  background: var(--paper-dark);
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* 連到還沒寫的那幾篇：顯示名字但不給連結，讀者不會點到 404 */
+.sh-pending {
+  color: var(--ink-light);
+  border-bottom: 1px dotted var(--ink-faint);
+  cursor: help;
+}
+
+/* ===== 頁尾 ===== */
+.note-foot {
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(32, 34, 46, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.note-foot a {
+  font-size: 13px;
+  text-decoration: none;
+  padding: 9px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(32, 34, 46, 0.15);
+  color: var(--ink-light);
+  transition: all 0.2s ease;
+}
+.note-foot a:hover { border-color: var(--indigo); color: var(--indigo); }
+
+@media (max-width: 640px) {
+  .note { padding: 36px 18px 90px; }
+  #my-take { padding: 22px 20px; }
+  .note-topbar { padding: 10px 16px; gap: 12px; }
+  .sh-facts { grid-template-columns: 1fr; gap: 2px 0; }
+  .sh-facts dt { padding-top: 8px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

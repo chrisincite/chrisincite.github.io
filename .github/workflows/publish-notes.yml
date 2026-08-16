@@ -1,14 +1,19 @@
-name: 建置並發佈讀書筆記
+name: 建置並發佈站台內容
 
 # 手機流程：在 GitHub 網頁編輯器新增 notes/src/<slug>.md（只要 source ＋ title ＋ 散文），
 # commit 之後這個 workflow 會補完 metadata、建置、把產出推回 main，
 # GitHub Pages 自動更新，並觸發 Cloudflare 鏡像部署。全程不需要回到電腦。
+#
+# 神社寺廟散策（shrine/src/**）走同一條路，差別是不經過 enrich.py——
+# 它的 metadata 全部手寫在 front-matter 裡，沒有外部來源可以撈。
 
 on:
   push:
     branches: [main]
     paths:
       - 'notes/src/**'
+      - 'shrine/src/**'
+      - 'shrine/registry.json'
       - 'scripts/build.py'
       - 'scripts/enrich.py'
   workflow_dispatch:
@@ -56,7 +61,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "沒有變更，不需要 commit"
           else
-            git commit -m "build: 更新讀書筆記產出 [skip ci]"
+            git commit -m "build: 更新站台產出 [skip ci]"
             git push
           fi
 
