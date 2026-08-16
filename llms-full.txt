@@ -16,7 +16,9 @@ Chris 的讀書筆記全文串接，供 LLM 一次取用。共 4 則。
 對我來說，這個提及文件的@，以及sub-agent的用法都是很有用的。尤其是我經常需要引用文件。
 
 用 @：「幫我改一下 @src/lib/config.ts」→ 按下 @ 時編輯器會跳出檔案清單讓你選，選完內容直接附在訊息裡送出。Claude一收到就已經看得到全文，省掉搜尋跟讀取那幾步。不過也有例外，幾個反而不加 @ 比較好的情況：
+
 	•	超大檔案：@ 是整份塞進來，Read 可以讓 Claude 自己判斷只讀某個範圍，反而更省。
+	
 	•	長對話中檔案會變動：@ 是你按送出當下的快照；Read 是 Claude 執行當下讀，拿到的是最新版。如果剛改完檔案、你要 Claude 接著看，講路徑比 @ 安全。
 
 ![Chris 筆記｜如何讓你的 Claude Code 工作階段（session）發揮最大價值｜Claude by Anthropic](img/20260816-maximizing-the-value-of-your-claude-code-sessions-cover.svg)
