@@ -44,10 +44,10 @@
     {
       "no": "04",
       "slug": "04-togakushi-jinja",
-      "title": "戸隱神社",
+      "title": "戶隱神社",
       "type": "神社",
       "prefecture": "長野県",
-      "city": "長野市戸隠",
+      "city": "長野市戶隱",
       "trip": "T2",
       "series": [
         "S4"
@@ -217,10 +217,10 @@
     {
       "no": "17",
       "slug": "17-takachiho-jinja",
-      "title": "高千穂神社",
+      "title": "高千穗神社",
       "type": "神社",
       "prefecture": "宮崎県",
-      "city": "西臼杵郡高千穂町",
+      "city": "西臼杵郡高千穗町",
       "trip": "T3",
       "series": [
         "S1"
