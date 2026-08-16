@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "48 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 1,
+  "count": 2,
   "planned": 48,
   "shrines": [
     {
@@ -34,6 +34,36 @@
       ],
       "url": "shrine/15-kamishikimi-kumanoimasu-jinja.html",
       "markdown": "shrine/15-kamishikimi-kumanoimasu-jinja.md"
+    },
+    {
+      "no": "16",
+      "slug": "16-amanoiwato-jinja",
+      "title": "天岩戸神社",
+      "title_ja": "天岩戸神社",
+      "kana": "あまのいわとじんじゃ",
+      "type": "神社",
+      "prefecture": "宮崎県",
+      "city": "西臼杵郡高千穂町岩戸",
+      "lat": "32.734487",
+      "lng": "131.350536",
+      "enshrined": "大日霎尊（西本宮）・天照皇大神（東本宮）・思兼神・八百萬神（天安河原宮）",
+      "rank": "一社三宮（西本宮・東本宮・天安河原宮）・別表神社",
+      "trip": "T3",
+      "series": [
+        "S1"
+      ],
+      "visited": "2025-04",
+      "hook": "岩戸是高千穂町北邊的一個地區，小學、農協、郵局、超市沿著一條縣道排成一列，",
+      "cover": "img/16-amanoiwato-jinja-01.webp",
+      "photos": 8,
+      "related": [
+        "15-kamishikimi-kumanoimasu-jinja",
+        "17-takachiho-jinja",
+        "14-aso-jinja",
+        "04-togakushi-jinja"
+      ],
+      "url": "shrine/16-amanoiwato-jinja.html",
+      "markdown": "shrine/16-amanoiwato-jinja.md"
     }
   ]
 }
