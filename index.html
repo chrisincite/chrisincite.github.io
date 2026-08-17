@@ -636,7 +636,18 @@ body {
   margin-top: 10px;
   line-height: 1.3;
 }
-.page-head p { margin-top: 12px; color: var(--ink-light); max-width: 560px; line-height: 1.8; }
+/* 導言跟著版面走，不寫死欄寬——原本固定 560px，在 1080px 的版面裡只佔一半，
+   h1 通欄而它縮一半，看起來像沒對齊。窄螢幕才需要上限（580px），
+   而手機視窗本來就比它窄，所以那個上限實際上只在平板尺寸附近生效。 */
+.page-head p {
+  margin-top: 12px;
+  color: var(--ink-light);
+  max-width: 580px;
+  line-height: 1.8;
+}
+@media (min-width: 720px) {
+  .page-head p { max-width: none; }
+}
 
 .works-grid {
   display: grid;
