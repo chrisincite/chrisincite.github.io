@@ -884,7 +884,7 @@ body {
   margin-bottom: 8px;
 }
 
-/* 全部 48 座的名錄——已寫的可以點，沒寫的只列出來 */
+/* 全部座數的名錄——已寫的可以點，沒寫的只列出來。座數由 registry.json 決定，不寫死 */
 .sh-roster { margin-top: 46px; }
 .sh-roster-head {
   display: flex;
@@ -1366,7 +1366,7 @@ a.sh-item .sh-no { color: var(--vermilion); }
     <header class="page-head">
       <div class="ph-mono">05 / SHRINE</div>
       <h1>走過的鳥居與山門</h1>
-      <p>48 座實地走過的日本神社寺廟，一座一篇。不是旅遊攻略——每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。每篇最後是一條方圓三到五公里的晨間散步路線：神社是這條路上最重的一站，但不是目的地。</p>
+      <p><span class="shrine-count">87</span> 座實地走過的日本神社寺廟，一座一篇。不是旅遊攻略——每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。每篇最後是一條方圓三到五公里的晨間散步路線：神社是這條路上最重的一站，但不是目的地。</p>
     </header>
 
     <div id="shrineList" class="notes-list">
@@ -1375,7 +1375,7 @@ a.sh-item .sh-no { color: var(--vermilion); }
 
     <section class="sh-roster">
       <div class="sh-roster-head">
-        <h2>全部 48 座</h2>
+        <h2>全部 <span class="shrine-count">87</span> 座</h2>
         <div class="sh-toggle" id="shrineToggle" role="group" aria-label="分組方式">
           <button data-group="trip" class="active">依行程</button>
           <button data-group="series">依系列</button>
@@ -1941,6 +1941,11 @@ a.sh-item .sh-no { color: var(--vermilion); }
     var places = res[1].places || [];
     var bySlug = {};
     shrines.forEach(function(s) { bySlug[s.slug] = s; });
+
+    // 頁面上寫著座數的地方一律以 registry 為準——寫死過三次，每次都漏掉一處
+    [].forEach.call(document.querySelectorAll('.shrine-count'), function(el) {
+      el.textContent = String(res[1].count || places.length);
+    });
 
     renderShrines(shrines);
     renderRoster(places, bySlug, 'trip');

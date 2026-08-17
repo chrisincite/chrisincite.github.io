@@ -857,7 +857,8 @@ def build_shrine(path, registry, published_slugs):
 def write_shrine_index_json(shrines, registry):
     payload = {
         "site": SITE_NAME,
-        "description": "48 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
+        "description": "%d 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。"
+        % len(registry),
         "canonical_base": CANONICAL_BASE,
         "count": len(shrines),
         "planned": len(registry),
