@@ -514,7 +514,8 @@ SHRINE_TYPE_ICON = {"神社": "⛩", "寺院": "卍", "神仏習合": "⛩"}
 
 
 def load_registry():
-    """48 座的名稱索引（shrine/registry.json，由私有 repo 的 地點清單.csv 產）。
+    """全部座數的名稱索引（shrine/registry.json，由私有 repo 的
+    scripts/make_registry.py 從 地點清單.csv 產）。
 
     用途有二：解析 [[slug]] 互連時要拿得到中文名（大部分篇還沒寫，
     但文章裡已經連過去了），以及日後全國分佈圖要一次拿到所有點位。
@@ -1150,7 +1151,8 @@ def write_llms(notes, shrines=(), planned=0):
     if shrines:
         lines += [
             "- [散策索引 JSON](%s/shrine/index.json)：已發佈的篇章與座標" % CANONICAL_BASE,
-            "- [全 48 座名錄 JSON](%s/shrine/registry.json)：含未發佈的規劃清單" % CANONICAL_BASE,
+            "- [全 %d 座名錄 JSON](%s/shrine/registry.json)：含未發佈的規劃清單"
+            % (planned or len(shrines), CANONICAL_BASE),
         ]
     lines += [
         "- [全文串接](%s/llms-full.txt)：所有內容的完整 markdown，一次取用" % CANONICAL_BASE,

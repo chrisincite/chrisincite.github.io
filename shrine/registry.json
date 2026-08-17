@@ -1,6 +1,6 @@
 {
-  "note": "48 座的名稱／所在地索引，由私有 repo 的 地點清單.csv 產出。build.py 讀它解析 [[ ]] 互連（連到還沒寫的篇時顯示名字但不給連結），日後的全國分佈圖也用它。A1／A2 兩座資料館翻拍屬附錄、不寫成文章，不列入。座標逐篇撰稿時補齊。",
-  "count": 48,
+  "note": "全部座數的名稱／所在地索引，由私有 repo 的 地點清單.csv 產出（scripts/make_registry.py）。build.py 讀它解析 [[ ]] 互連（連到還沒寫的篇時顯示名字但不給連結），日後的全國分佈圖也用它。A1／A2 兩座資料館翻拍屬附錄、不寫成文章，不列入。座標逐篇撰稿時補齊；lat/lng 是查日文一次資料得到的官方所在地，不是照片 EXIF 的拍攝點。",
+  "count": 87,
   "places": [
     {
       "no": "01",
@@ -52,7 +52,9 @@
       "series": [
         "S4"
       ],
-      "visited": "2025-01"
+      "visited": "2025-01",
+      "lat": 36.742509,
+      "lng": 138.085036
     },
     {
       "no": "05",
@@ -257,7 +259,9 @@
       "series": [
         "S1"
       ],
-      "visited": "2025-04"
+      "visited": "2025-04",
+      "lat": 31.753714,
+      "lng": 130.737861
     },
     {
       "no": "20",
@@ -635,6 +639,475 @@
         "S5"
       ],
       "visited": "2026-07"
+    },
+    {
+      "no": "49",
+      "slug": "49-takeda-jinja",
+      "title": "武田神社",
+      "type": "神社",
+      "prefecture": "山梨県",
+      "city": "甲府市",
+      "trip": "T8",
+      "series": [
+        "S7"
+      ],
+      "visited": "2023-10"
+    },
+    {
+      "no": "50",
+      "slug": "50-hanamatsu-jinja",
+      "title": "花松神社",
+      "type": "神社",
+      "prefecture": "青森県",
+      "city": "上北郡七戸町花松",
+      "trip": "T9",
+      "series": [],
+      "visited": "2024-08"
+    },
+    {
+      "no": "51",
+      "slug": "51-rokunohe-kumano-jinja",
+      "title": "熊野神社（六戸町）",
+      "type": "神社",
+      "prefecture": "青森県",
+      "city": "上北郡六戸町",
+      "trip": "T9",
+      "series": [
+        "S2"
+      ],
+      "visited": "2024-08"
+    },
+    {
+      "no": "52",
+      "slug": "52-towada-jinja",
+      "title": "十和田神社",
+      "type": "神社",
+      "prefecture": "青森県",
+      "city": "十和田市奥瀬十和田湖畔休屋",
+      "trip": "T9",
+      "series": [
+        "S2"
+      ],
+      "visited": "2024-08"
+    },
+    {
+      "no": "53",
+      "slug": "53-morioka-hachimangu",
+      "title": "盛岡八幡宮",
+      "type": "神社",
+      "prefecture": "岩手県",
+      "city": "盛岡市八幡町",
+      "trip": "T9",
+      "series": [],
+      "visited": "2024-08"
+    },
+    {
+      "no": "54",
+      "slug": "54-hachiman-akita-jinja",
+      "title": "八幡秋田神社",
+      "type": "神社",
+      "prefecture": "秋田県",
+      "city": "秋田市千秋公園",
+      "trip": "T9",
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-08"
+    },
+    {
+      "no": "55",
+      "slug": "55-kameido-katori-jinja",
+      "title": "龜戶香取神社",
+      "type": "神社",
+      "prefecture": "東京都",
+      "city": "江東区亀戸",
+      "trip": "T9",
+      "series": [],
+      "visited": "2024-08"
+    },
+    {
+      "no": "56",
+      "slug": "56-kameido-tenjinja",
+      "title": "龜戶天神社",
+      "type": "神社",
+      "prefecture": "東京都",
+      "city": "江東区亀戸",
+      "trip": "T9",
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-08"
+    },
+    {
+      "no": "57",
+      "slug": "57-hokkaido-jingu",
+      "title": "北海道神宮",
+      "type": "神社",
+      "prefecture": "北海道",
+      "city": "札幌市中央区宮ヶ丘",
+      "trip": "T1",
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-10"
+    },
+    {
+      "no": "58",
+      "slug": "58-toyohira-jinja",
+      "title": "豐平神社",
+      "type": "神社",
+      "prefecture": "北海道",
+      "city": "札幌市豊平区",
+      "trip": "T1",
+      "series": [],
+      "visited": "2024-10"
+    },
+    {
+      "no": "59",
+      "slug": "59-asahikawa-jinja",
+      "title": "旭川神社",
+      "type": "神社",
+      "prefecture": "北海道",
+      "city": "旭川市東旭川南一条",
+      "trip": "T1",
+      "series": [],
+      "visited": "2024-10",
+      "lat": 43.769302,
+      "lng": 142.443486
+    },
+    {
+      "no": "60",
+      "slug": "60-biei-jinja",
+      "title": "美瑛神社",
+      "type": "神社",
+      "prefecture": "北海道",
+      "city": "上川郡美瑛町",
+      "trip": "T1",
+      "series": [],
+      "visited": "2024-10"
+    },
+    {
+      "no": "61",
+      "slug": "61-chitose-jinja",
+      "title": "千歲神社",
+      "type": "神社",
+      "prefecture": "北海道",
+      "city": "千歳市春日町",
+      "trip": "T1",
+      "series": [],
+      "visited": "2024-10"
+    },
+    {
+      "no": "62",
+      "slug": "62-itsukushima-jinja",
+      "title": "嚴島神社",
+      "type": "神社",
+      "prefecture": "広島県",
+      "city": "廿日市市宮島町",
+      "trip": "T1",
+      "series": [
+        "S5"
+      ],
+      "visited": "2024-10"
+    },
+    {
+      "no": "63",
+      "slug": "63-izumo-oyashiro",
+      "title": "出雲大社",
+      "type": "神社",
+      "prefecture": "島根県",
+      "city": "出雲市大社町",
+      "trip": "T1",
+      "series": [
+        "S3"
+      ],
+      "visited": "2024-10"
+    },
+    {
+      "no": "64",
+      "slug": "64-hiroshima-shirakami-sha",
+      "title": "白神社",
+      "type": "神社",
+      "prefecture": "広島県",
+      "city": "広島市中区",
+      "trip": "T1",
+      "series": [],
+      "visited": "2024-10"
+    },
+    {
+      "no": "65",
+      "slug": "65-toyama-hie-jinja",
+      "title": "日枝神社（富山）",
+      "type": "神社",
+      "prefecture": "富山県",
+      "city": "富山市山王町",
+      "trip": "T2",
+      "series": [],
+      "visited": "2025-01"
+    },
+    {
+      "no": "66",
+      "slug": "66-imizu-kushida-jinja",
+      "title": "櫛田神社（射水）",
+      "type": "神社",
+      "prefecture": "富山県",
+      "city": "射水市串田",
+      "trip": "T2",
+      "series": [],
+      "visited": "2025-01"
+    },
+    {
+      "no": "67",
+      "slug": "67-shirayamahime-jinja",
+      "title": "白山比咩神社",
+      "type": "神社",
+      "prefecture": "石川県",
+      "city": "白山市三宮町",
+      "trip": "T2",
+      "series": [
+        "S2"
+      ],
+      "visited": "2025-02"
+    },
+    {
+      "no": "68",
+      "slug": "68-kehi-jingu",
+      "title": "氣比神宮",
+      "type": "神社",
+      "prefecture": "福井県",
+      "city": "敦賀市曙町",
+      "trip": "T2",
+      "series": [
+        "S5"
+      ],
+      "visited": "2025-02"
+    },
+    {
+      "no": "69",
+      "slug": "69-wakasahime-jinja",
+      "title": "若狹姬神社（若狹彥神社下社）",
+      "type": "神社",
+      "prefecture": "福井県",
+      "city": "小浜市遠敷",
+      "trip": "T2",
+      "series": [],
+      "visited": "2025-02",
+      "lat": 35.479058,
+      "lng": 135.780525
+    },
+    {
+      "no": "70",
+      "slug": "70-ise-jingu-naiku",
+      "title": "伊勢神宮内宮（皇大神宮）",
+      "type": "神社",
+      "prefecture": "三重県",
+      "city": "伊勢市宇治館町",
+      "trip": "T2",
+      "series": [
+        "S1"
+      ],
+      "visited": "2025-02"
+    },
+    {
+      "no": "71",
+      "slug": "71-ise-jingu-geku",
+      "title": "伊勢神宮外宮（豊受大神宮）",
+      "type": "神社",
+      "prefecture": "三重県",
+      "city": "伊勢市豊川町",
+      "trip": "T2",
+      "series": [
+        "S1"
+      ],
+      "visited": "2025-02"
+    },
+    {
+      "no": "72",
+      "slug": "72-munakata-taisha",
+      "title": "宗像大社",
+      "type": "神社",
+      "prefecture": "福岡県",
+      "city": "宗像市田島",
+      "trip": "T3",
+      "series": [
+        "S5"
+      ],
+      "visited": "2025-04"
+    },
+    {
+      "no": "73",
+      "slug": "73-hakata-kushida-jinja",
+      "title": "櫛田神社（博多）",
+      "type": "神社",
+      "prefecture": "福岡県",
+      "city": "福岡市博多区上川端町",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-04"
+    },
+    {
+      "no": "74",
+      "slug": "74-homangu-kamado-jinja",
+      "title": "寶滿宮竈門神社",
+      "type": "神社",
+      "prefecture": "福岡県",
+      "city": "太宰府市内山",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-04"
+    },
+    {
+      "no": "75",
+      "slug": "75-usa-jingu",
+      "title": "宇佐神宮",
+      "type": "神社",
+      "prefecture": "大分県",
+      "city": "宇佐市南宇佐",
+      "trip": "T3",
+      "series": [
+        "S7"
+      ],
+      "visited": "2025-04"
+    },
+    {
+      "no": "76",
+      "slug": "76-takeo-jinja",
+      "title": "武雄神社",
+      "type": "神社",
+      "prefecture": "佐賀県",
+      "city": "武雄市武雄町",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-04"
+    },
+    {
+      "no": "77",
+      "slug": "77-kotengu",
+      "title": "昊天宮",
+      "type": "神社",
+      "prefecture": "長崎県",
+      "city": "大村市宮小路",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-04"
+    },
+    {
+      "no": "78",
+      "slug": "78-nagasaki-sanno-jinja",
+      "title": "山王神社（長崎）",
+      "type": "神社",
+      "prefecture": "長崎県",
+      "city": "長崎市坂本",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-04"
+    },
+    {
+      "no": "79",
+      "slug": "79-nagasaki-suwa-jinja",
+      "title": "諏訪神社（長崎）",
+      "type": "神社",
+      "prefecture": "長崎県",
+      "city": "長崎市上西山町",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-05"
+    },
+    {
+      "no": "80",
+      "slug": "80-imari-jinja",
+      "title": "伊萬里神社",
+      "type": "神社",
+      "prefecture": "佐賀県",
+      "city": "伊万里市伊万里町乙",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-05"
+    },
+    {
+      "no": "81",
+      "slug": "81-iimori-jinja",
+      "title": "飯盛神社",
+      "type": "神社",
+      "prefecture": "福岡県",
+      "city": "福岡市西区",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-05"
+    },
+    {
+      "no": "82",
+      "slug": "82-fushimi-inari-taisha",
+      "title": "伏見稻荷大社",
+      "type": "神社",
+      "prefecture": "京都府",
+      "city": "京都市伏見区",
+      "trip": "T4",
+      "series": [],
+      "visited": "2025-06"
+    },
+    {
+      "no": "83",
+      "slug": "83-fujinomori-jinja",
+      "title": "藤森神社",
+      "type": "神社",
+      "prefecture": "京都府",
+      "city": "京都市伏見区",
+      "trip": "T4",
+      "series": [],
+      "visited": "2025-06"
+    },
+    {
+      "no": "84",
+      "slug": "84-isonokami-jingu",
+      "title": "石上神宮",
+      "type": "神社",
+      "prefecture": "奈良県",
+      "city": "天理市杣之内町",
+      "trip": "T4",
+      "series": [
+        "S7"
+      ],
+      "visited": "2025-06"
+    },
+    {
+      "no": "85",
+      "slug": "85-nankobo",
+      "title": "南光坊",
+      "type": "寺院",
+      "prefecture": "愛媛県",
+      "city": "今治市別宮町",
+      "trip": "T5",
+      "series": [
+        "S5"
+      ],
+      "visited": "2025-10"
+    },
+    {
+      "no": "86",
+      "slug": "86-kibitsu-jinja",
+      "title": "吉備津神社",
+      "type": "神社",
+      "prefecture": "岡山県",
+      "city": "岡山市北区吉備津",
+      "trip": "T5",
+      "series": [
+        "S1"
+      ],
+      "visited": "2025-10"
+    },
+    {
+      "no": "87",
+      "slug": "87-tofukuji",
+      "title": "東福寺",
+      "type": "寺院",
+      "prefecture": "京都府",
+      "city": "京都市東山区",
+      "trip": "T5",
+      "series": [
+        "S4"
+      ],
+      "visited": "2025-11"
     }
   ]
 }

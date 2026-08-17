@@ -1848,19 +1848,23 @@ a.sh-item .sh-no { color: var(--vermilion); }
   /* ============================================
      神社寺廟散策地圖（讀 shrine/index.json ＋ shrine/registry.json）
 
-     index.json 是已發佈的篇；registry.json 是全部 48 座的名錄。
+     index.json 是已發佈的篇；registry.json 是全部座數的名錄。
      兩份分開的理由：名錄要在一篇都還沒寫的時候就能列出全貌，
      而已發佈的篇會長出封面、導言、座標這些 registry 沒有的東西。
      ============================================ */
   var TRIP_LABELS = {
-    T1: '島根・石見銀山與出雲', T2: '長野→福井→三重→静岡',
-    T3: '九州大縱走→長崎', T4: '奈良・三輪與吉野',
+    T8: '山梨・甲府', T9: '青森→岩手→秋田→東京',
+    T1: '北海道→宮島→山陰→広島', T2: '長野→富山→石川→福井→三重→静岡',
+    T3: '九州大縱走→長崎', T4: '奈良・京都',
     T5: '瀬戶內＋近畿＋天橋立', T6: '兵庫＋山陰', T7: '四國・徳島'
   };
+  // 代號不照時序（T8/T9 是後來併入第二來源時才加的），所以另給一份顯示順序
+  var TRIP_ORDER = ['T8', 'T9', 'T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'];
   var SERIES_LABELS = {
     S1: '記紀神話的現場', S2: '熊野與修驗', S3: '出雲・山陰的神',
     S4: '山門與總本山', S5: '海の神・港の神', S6: '水と湯の神',
-    S7: '王權・都市・學問', S8: '里の社・在地信仰'
+    S7: '王權・都市・學問', S8: '里の社・在地信仰',
+    '—': '系列未定（撰稿時才歸類）'
   };
 
   function shrineIcon(type) { return type === '寺院' ? '卍' : '⛩'; }
@@ -1902,7 +1906,15 @@ a.sh-item .sh-no { color: var(--vermilion); }
       if (!keys.length) keys = ['—'];
       keys.forEach(function(k) { (groups[k] = groups[k] || []).push(p); });
     });
-    box.innerHTML = Object.keys(groups).sort().map(function(k) {
+    var order = groupBy === 'series' ? null : TRIP_ORDER;
+    var keys = Object.keys(groups).sort(function(x, y) {
+      if (!order) return x < y ? -1 : x > y ? 1 : 0;
+      var ix = order.indexOf(x), iy = order.indexOf(y);
+      if (ix < 0) ix = 99;
+      if (iy < 0) iy = 99;
+      return ix - iy;
+    });
+    box.innerHTML = keys.map(function(k) {
       var items = groups[k].map(function(p) {
         var pub = publishedBySlug[p.slug];
         var inner =
