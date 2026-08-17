@@ -2,9 +2,38 @@
   "site": "CHRIS OS",
   "description": "48 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 3,
+  "count": 5,
   "planned": 48,
   "shrines": [
+    {
+      "no": "14",
+      "slug": "14-aso-jinja",
+      "title": "阿蘇神社",
+      "title_ja": "阿蘇神社",
+      "kana": "あそじんじゃ",
+      "type": "神社",
+      "prefecture": "熊本縣",
+      "city": "阿蘇市一の宮町宮地",
+      "lat": "32.948033",
+      "lng": "131.115827",
+      "enshrined": "健磐龍命ほか家族神十二神",
+      "rank": "肥後國一の宮・全國約五百社の總本社・別表神社",
+      "trip": "T3",
+      "series": [
+        "S8"
+      ],
+      "visited": "2025-04",
+      "hook": "樓門是二〇二三年十二月才重新站起來的。",
+      "cover": "img/14-aso-jinja-01.webp",
+      "photos": 6,
+      "related": [
+        "15-kamishikimi-kumanoimasu-jinja",
+        "17-takachiho-jinja",
+        "16-amanoiwato-jinja"
+      ],
+      "url": "shrine/14-aso-jinja.html",
+      "markdown": "shrine/14-aso-jinja.md"
+    },
     {
       "no": "15",
       "slug": "15-kamishikimi-kumanoimasu-jinja",
@@ -93,6 +122,35 @@
       ],
       "url": "shrine/17-takachiho-jinja.html",
       "markdown": "shrine/17-takachiho-jinja.md"
+    },
+    {
+      "no": "18",
+      "slug": "18-aoshima-jinja",
+      "title": "青島神社",
+      "title_ja": "青島神社",
+      "kana": "あおしまじんじゃ",
+      "type": "神社",
+      "prefecture": "宮崎縣",
+      "city": "宮崎市青島",
+      "lat": "31.804566",
+      "lng": "131.474947",
+      "enshrined": "彦火火出見命・豐玉姫命・鹽筒大神",
+      "rank": "舊村社・別表神社",
+      "trip": "T3",
+      "series": [
+        "S1"
+      ],
+      "visited": "2025-04",
+      "hook": "從青島車站走出來，一條筆直的參道往海邊去，八百公尺，車子開不進來。",
+      "cover": "img/18-aoshima-jinja-01.webp",
+      "photos": 8,
+      "related": [
+        "16-amanoiwato-jinja",
+        "17-takachiho-jinja",
+        "15-kamishikimi-kumanoimasu-jinja"
+      ],
+      "url": "shrine/18-aoshima-jinja.html",
+      "markdown": "shrine/18-aoshima-jinja.md"
     }
   ]
 }

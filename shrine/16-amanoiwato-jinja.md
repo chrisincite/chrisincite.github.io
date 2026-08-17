@@ -370,4 +370,4 @@
 
 往南是高千穗的中心市街——官方記為從高千穗巴士總站到這裡車程約十三分鐘，
 那一頭是 [高千穗神社](17-takachiho-jinja.md)，鬼八傳說的終點，也是每晚上演夜神樂的那一座。
-往北回熊本方向，是 [上色見熊野座神社](15-kamishikimi-kumanoimasu-jinja.md) 與 阿蘇神社。
+往北回熊本方向，是 [上色見熊野座神社](15-kamishikimi-kumanoimasu-jinja.md) 與 [阿蘇神社](14-aso-jinja.md)。
