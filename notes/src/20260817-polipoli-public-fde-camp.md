@@ -1,7 +1,7 @@
 ---
 slug: 20260817-polipoli-public-fde-camp
 date: 2026-08-17
-title: "\"Chris 筆記｜政策領域的知識，關在會議室裡是裝不下的！開發合宿中討論的「公共FDE」\""
+title: "Chris 筆記｜政策領域的知識，關在會議室裡是裝不下的！開發合宿中討論的「公共FDE」"
 cover: img/20260817-polipoli-public-fde-camp-cover.png
 cover_credit: 圖片取自原文
 source_title: "政策領域的知識，關在會議室裡是裝不下的！開發合宿中討論的「公共FDE」"

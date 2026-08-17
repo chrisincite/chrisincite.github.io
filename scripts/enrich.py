@@ -204,6 +204,22 @@ def yaml_quote(v):
     return '"%s"' % str(v).replace("\\", "\\\\").replace('"', '\\"')
 
 
+def yaml_unquote(v):
+    """把 front-matter 讀進來的值還原成純文字（yaml_quote 的反向）。
+
+    非做不可的理由：手寫的 front-matter 幾乎一定帶引號——含全形字或冒號的值
+    本來就被要求用雙引號包起來。少了這一步，值會連引號一起被當成內容，
+    再經 yaml_quote 包一層就變成 title: "\\"Chris 筆記…\\""，
+    頁面標題與 index.json 會直接長出跳脫字元（2026-08-17 實際發生過）。
+    """
+    v = str(v).strip()
+    if len(v) >= 2 and v[0] == v[-1] and v[0] in "\"'":
+        v = v[1:-1]
+        if v[0:1] == "\"" or "\\" in v:
+            v = v.replace('\\"', '"').replace("\\\\", "\\")
+    return v
+
+
 def enrich(path):
     with open(path, encoding="utf-8") as f:
         text = f.read()
@@ -225,7 +241,7 @@ def enrich(path):
     for line in raw_fm.split("\n"):
         fm = re.match(r"^([a-z_]+):\s*(.*)$", line.strip())
         if fm and fm.group(1) != "source":
-            fields[fm.group(1)] = fm.group(2).strip()
+            fields[fm.group(1)] = yaml_unquote(fm.group(2))
 
     if not fields.get("title"):
         raise ValueError("%s 缺 title" % path)
