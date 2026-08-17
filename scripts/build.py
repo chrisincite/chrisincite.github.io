@@ -292,6 +292,14 @@ def build_note(path, short_url=""):
     note_url = "%s/notes/%s.html" % (CANONICAL_BASE, slug)
     md_url = "%s/notes/%s.md" % (CANONICAL_BASE, slug)
     cover = meta.get("cover", "")
+    # front-matter 寫了 cover 但圖檔沒進 repo 時，寧可整篇不放封面，也不要輸出破圖。
+    # 實際踩過：手機新增筆記時沿用「img/<slug>-cover.png」的命名慣例，但那張圖
+    # 是 enrich.py 負責下載的，而 enrich 只在 front-matter 有 `source: <slug>` 時才跑——
+    # 貼的是已補完格式的 front-matter，就沒有人去下載那張圖，頁面直接 404。
+    if cover and not os.path.exists(os.path.join(NOTES_DIR, cover)):
+        print("  ⚠ %s：cover 指向不存在的檔案（%s），本次不輸出封面" % (slug, cover),
+              file=sys.stderr)
+        cover = ""
     cover_url = "%s/notes/%s" % (CANONICAL_BASE, cover) if cover else ""
 
     # ---------- JSON-LD ----------
