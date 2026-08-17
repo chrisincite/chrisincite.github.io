@@ -1,6 +1,15 @@
 ---
-title: "Chris 筆記｜政策領域的知識，關在會議室裡是裝不下的！開發合宿中討論的「公共FDE」"
-source: 20260817/20260817-polipoli-public-fde-camp
+slug: 20260817-polipoli-public-fde-camp
+date: 2026-08-17
+title: "\"Chris 筆記｜政策領域的知識，關在會議室裡是裝不下的！開發合宿中討論的「公共FDE」\""
+cover: img/20260817-polipoli-public-fde-camp-cover.png
+cover_credit: 圖片取自原文
+source_title: "政策領域的知識，關在會議室裡是裝不下的！開發合宿中討論的「公共FDE」"
+source_author: "株式會社PoliPoli"
+source_site: "note.com"
+source_url: "https://note.com/polipoli_info/n/n3e5aa1b033c6"
+source_published: "2026-08-16"
+source_archive: 20260817/20260817-polipoli-public-fde-camp
 ---
 
 日本地方創生，已經從傳統建築空間改造，慢慢往服務改造的方向邁進了。這個所謂的"公共FDE"，其實已經不算是新名詞，日本已經在跑的實例，包括2024年1月能登半島地震，石川縣用 Palantir 整合分散的受災者資料，建成「被災者360」；2024年9月豪雨時重用既有 data model，24 小時內架出災害救援 App。還有"島嶼DX"，GovTech 東京派團隊進伊豆諸島・小笠原諸島這些人手極少的町村，與行政同一視角陪跑手續數位化。

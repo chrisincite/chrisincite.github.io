@@ -1,6 +1,7 @@
-# Chris 筆記｜政策領域的知識，關在會議室裡是裝不下的！開發合宿中討論的「公共FDE」
+# \"Chris 筆記｜政策領域的知識，關在會議室裡是裝不下的！開發合宿中討論的「公共FDE」\
 
 > 讀書筆記 · 2026-08-17 · Chris Hsu
+> 原文：政策領域的知識，關在會議室裡是裝不下的！開發合宿中討論的「公共FDE」 — 株式會社PoliPoli（note.com，2026-08-16）
 > 原文連結：https://note.com/polipoli_info/n/n3e5aa1b033c6
 > 本頁 HTML：https://chrisincite.github.io/notes/20260817-polipoli-public-fde-camp.html
 > 短連結：https://os.housearch.net/n/5
@@ -13,7 +14,7 @@
 從「能動的東西」到「被持續使用的東西」：不讓它止步於交付，對營運與紮根負起責任
 從「個別解決」到「會學習的產品」：把現場的學習做成型，交給下一次
 
-![Chris 筆記｜政策領域的知識，關在會議室裡是裝不下的！開發合宿中討論的「公共FDE」](img/20260817-polipoli-public-fde-camp-cover.png)
+![政策領域的知識，關在會議室裡是裝不下的！開發合宿中討論的「公共FDE」](img/20260817-polipoli-public-fde-camp-cover.png)
 
 ## 摘要 / Summary
 
