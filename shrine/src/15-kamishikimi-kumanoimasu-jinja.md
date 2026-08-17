@@ -214,7 +214,7 @@ status: ready
 
 ## 晨間路線之擬定及其限制
 
-這一帶有一條**官方已經做好的散步路線**：阿蘇地域振興デザインセンター
+這一帶有一條**官方已經做好的散步路線**：阿蘇地域振興デザインセンター（Aso Regional Design Center，阿蘇地域振興設計中心）
 （Aso Regional Design Center，阿蘇地域振興設計中心）規劃的
 「**フットパス 上色見コース**」（Footpath Kamishikimi Course，上色見散步路線），
 全長約 6 公里，起點是阿蘇フォークスクール（Aso Folk School）。
