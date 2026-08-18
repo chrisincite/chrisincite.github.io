@@ -2,9 +2,65 @@
   "site": "CHRIS OS",
   "description": "87 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 8,
+  "count": 10,
   "planned": 87,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/9",
+      "no": "10",
+      "slug": "10-miyajidake-jinja",
+      "title": "宮地嶽神社",
+      "title_ja": "宮地嶽神社",
+      "kana": "みやじだけじんじゃ",
+      "type": "神社",
+      "prefecture": "福岡縣",
+      "city": "福津市宮司元町",
+      "lat": "33.779664",
+      "lng": "130.485482",
+      "enshrined": "息長足比賣命（神功皇后）・勝村大神・勝頼大神",
+      "rank": "舊縣社・別表神社",
+      "trip": "T3",
+      "series": [
+        "S8"
+      ],
+      "visited": "2025-04",
+      "hook": "門前町的店還沒開，捲門一片一片拉下來，只有自動販賣機亮著。",
+      "cover": "img/10-miyajidake-jinja-03.webp",
+      "photos": 6,
+      "related": [
+        "11-dazaifu-tenmangu"
+      ],
+      "url": "shrine/10-miyajidake-jinja.html",
+      "markdown": "shrine/10-miyajidake-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/a",
+      "no": "11",
+      "slug": "11-dazaifu-tenmangu",
+      "title": "太宰府天滿宮",
+      "title_ja": "太宰府天満宮",
+      "kana": "だざいふてんまんぐう",
+      "type": "神社",
+      "prefecture": "福岡縣",
+      "city": "太宰府市宰府",
+      "lat": "33.520682",
+      "lng": "130.534972",
+      "enshrined": "菅原道真公",
+      "rank": "舊官幣中社・別表神社・全國天滿宮總本宮",
+      "trip": "T3",
+      "series": [
+        "S7"
+      ],
+      "visited": "2025-04",
+      "hook": "那天御本殿前面立著的不是御本殿，是一座屋頂上長滿植物的建築——曲面的黑色屋頂",
+      "cover": "img/11-dazaifu-tenmangu-02.webp",
+      "photos": 6,
+      "related": [
+        "10-miyajidake-jinja"
+      ],
+      "url": "shrine/11-dazaifu-tenmangu.html",
+      "markdown": "shrine/11-dazaifu-tenmangu.md"
+    },
     {
       "short": "https://os.housearch.net/s/1",
       "no": "14",
