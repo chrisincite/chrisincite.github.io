@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "87 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 5,
+  "count": 7,
   "planned": 87,
   "shrines": [
     {
@@ -151,6 +151,64 @@
       ],
       "url": "shrine/18-aoshima-jinja.html",
       "markdown": "shrine/18-aoshima-jinja.md"
+    },
+    {
+      "no": "19",
+      "slug": "19-kagoshima-jingu",
+      "title": "鹿兒島神宮",
+      "title_ja": "鹿児島神宮",
+      "kana": "かごしまじんぐう",
+      "type": "神社",
+      "prefecture": "鹿兒島縣",
+      "city": "霧島市隼人町內",
+      "lat": "31.753714",
+      "lng": "130.737861",
+      "enshrined": "彥火火出見尊（山幸彥）・豐玉比賣命／相殿：帶中津日子命（仲哀天皇）・息長帶比賣命（神功皇后）・品陀和氣命（應神天皇）・仲姬命",
+      "rank": "式內大社（延喜式・大社）・大隅國一宮・舊官幣大社・別表神社（舊稱大隅正八幡宮）",
+      "trip": "T3",
+      "series": [
+        "S1"
+      ],
+      "visited": "2025-04",
+      "hook": "從高千穗一路南下，這是鹿兒島神話帶上的最後一站。",
+      "cover": "img/19-kagoshima-jingu-01.webp",
+      "photos": 5,
+      "related": [
+        "20-kirishima-jingu",
+        "18-aoshima-jinja",
+        "14-aso-jinja"
+      ],
+      "url": "shrine/19-kagoshima-jingu.html",
+      "markdown": "shrine/19-kagoshima-jingu.md"
+    },
+    {
+      "no": "20",
+      "slug": "20-kirishima-jingu",
+      "title": "霧島神宮",
+      "title_ja": "霧島神宮",
+      "kana": "きりしまじんぐう",
+      "type": "神社",
+      "prefecture": "鹿兒島縣",
+      "city": "霧島市霧島田口",
+      "lat": "31.858898",
+      "lng": "130.871632",
+      "enshrined": "天饒石國饒石天津日高彥火瓊瓊杵尊／相殿：木花咲耶姬尊・彥火火出見尊・豐玉姬尊・鸕鷀草葺不合尊・玉依姬尊・神倭磐余彥尊",
+      "rank": "延喜式內社論社・舊官幣大社・別表神社（舊稱西御在所霧島權現，霧島六社權現之一）",
+      "trip": "T3",
+      "series": [
+        "S1"
+      ],
+      "visited": "2025-04",
+      "hook": "那天下著雨。",
+      "cover": "img/20-kirishima-jingu-01.webp",
+      "photos": 5,
+      "related": [
+        "19-kagoshima-jingu",
+        "18-aoshima-jinja",
+        "17-takachiho-jinja"
+      ],
+      "url": "shrine/20-kirishima-jingu.html",
+      "markdown": "shrine/20-kirishima-jingu.md"
     }
   ]
 }
