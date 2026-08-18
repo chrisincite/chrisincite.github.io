@@ -2,9 +2,28 @@
   "site": "CHRIS OS",
   "description": "Chris 的讀書筆記——讀完之後自己想了什麼。",
   "canonical_base": "https://chrisincite.github.io",
-  "updated": "2026-08-17",
-  "count": 5,
+  "updated": "2026-08-18",
+  "count": 6,
   "notes": [
+    {
+      "short": "https://os.housearch.net/n/6",
+      "slug": "20260817-ai-watermarking",
+      "published_at": "2026-08-18T08:06:31+08:00",
+      "date": "2026-08-18",
+      "title": "Chris 筆記｜我為什麼反對 AI 浮水印",
+      "hook": "有機器參與這個標籤，本身就代表著很多含義，有可能是AI全程思考自行撰寫生成，也有可能AI只是負責計算，但數學公式是人們準備的，更有可能AI只",
+      "tags": [],
+      "cover": "",
+      "url": "notes/20260817-ai-watermarking.html",
+      "markdown": "notes/20260817-ai-watermarking.md",
+      "source": {
+        "author": "@guillaumemeyer（Guillaume Meyer）",
+        "site": "X",
+        "url": "https://x.com/guillaumemeyer/status/2088779299667272150",
+        "published": "2026-08-16",
+        "archive": "20260817/20260817-ai-watermarking"
+      }
+    },
     {
       "short": "https://os.housearch.net/n/5",
       "slug": "20260817-polipoli-public-fde-camp",
