@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chris 筆記｜Tornike Gomareli 的推文 — 讀書筆記 · CHRIS OS</title>
+<meta name="description" content="終於在Claude Code CLI 中實現語音輸入自由了！">
+<meta name="author" content="Chris Hsu">
+<link rel="canonical" href="https://chrisincite.github.io/notes/20260819-talkify-macos-dictation.html">
+<link rel="alternate" type="text/markdown" href="./20260819-talkify-macos-dictation.md" title="Markdown 版本">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Chris 筆記｜Tornike Gomareli 的推文">
+<meta property="og:description" content="終於在Claude Code CLI 中實現語音輸入自由了！">
+<meta property="og:url" content="https://chrisincite.github.io/notes/20260819-talkify-macos-dictation.html">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2026-08-19">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/note.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Chris 筆記｜Tornike Gomareli 的推文",
+  "abstract": "終於在Claude Code CLI 中實現語音輸入自由了！",
+  "datePublished": "2026-08-19",
+  "dateModified": "2026-08-19",
+  "inLanguage": "zh-Hant",
+  "url": "https://chrisincite.github.io/notes/20260819-talkify-macos-dictation.html",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://chrisincite.github.io/notes/20260819-talkify-macos-dictation.html"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Chris Hsu",
+    "url": "https://chrisincite.github.io"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Chris Hsu",
+    "url": "https://chrisincite.github.io"
+  },
+  "keywords": [],
+  "genre": "讀書筆記",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "text/markdown",
+    "contentUrl": "https://chrisincite.github.io/notes/20260819-talkify-macos-dictation.md"
+  },
+  "isBasedOn": "https://x.com/tornikegomareli/status/2088524464224919700",
+  "citation": {
+    "@type": "Article",
+    "url": "https://x.com/tornikegomareli/status/2088524464224919700",
+    "author": {
+      "@type": "Person",
+      "name": "@tornikegomareli（Tornike Gomareli）"
+    },
+    "datePublished": "2026-08-15"
+  }
+}
+</script>
+</head>
+<body>
+
+<nav class="note-topbar">
+  <a class="tb-brand" href="../index.html">CHRIS OS</a>
+  <a href="../index.html#notes">讀書筆記</a>
+  <span class="tb-spacer"></span>
+  <a href="./20260819-talkify-macos-dictation.md">.md</a>
+</nav>
+
+<article class="note">
+  <header class="note-head">
+    <p class="note-kicker">讀書筆記 · <time datetime="2026-08-19">2026-08-19</time></p>
+    <h1>Chris 筆記｜Tornike Gomareli 的推文</h1>
+    <p class="note-source">原文：<cite><a href="https://x.com/tornikegomareli/status/2088524464224919700" rel="external noopener">X</a></cite> · @tornikegomareli（Tornike Gomareli） · <time datetime="2026-08-15">2026-08-15</time></p>
+  </header>
+
+<section id="my-take" aria-labelledby="h-my-take">
+  <h2 id="h-my-take" data-num="01">我的想法</h2>
+  <p>終於在Claude Code CLI 中實現語音輸入自由了！</p>
+<p>雖然MacOS有內建語音輸入的功能，但是被藏在系統設定內，每次開啟關閉都極為不便，而且這款 Talkify 有許多有進步的地方。</p>
+<ol><li>按住講，不是連按兩下 Control fn 按住 → 講 → 放開。這是 push-to-talk，直接解掉我上一輪點名的「Ctrl 誤觸」問題——終端裡 Ctrl 組合鍵用得兇，雙擊 Control 太容易誤觸發。另有 quick-tap 進免持模式、Esc 中途取消。快捷鍵可改。</li><li>雙語各綁一顆鍵 fn 講中文、右 ⌥ 講英文，兩個模型同時常駐，不用進選單切換。這解掉了「中英混講要中斷去換語言」那個痛點——雖然仍不能在同一句裡混講，但切換成本從「開設定面板」降到「換一根手指」。</li></ol>
+<p>它的說明還特別解釋了為什麼不做自動語言偵測：Apple Speech 一次只認一種語言，猜錯的結果不是報錯而是「流暢的胡話」。這個判斷是對的。</p>
+<ol><li>用貼上插入文字 這對你的 Claude Code 場景反而是關鍵優點。系統聽寫是把「未確定文字」（marked text）即時注入輸入欄位，跟 TUI 的畫面重繪會打架；Talkify 是講完一次貼進去，繞過了整個 marked text 機制，終端相容性會穩很多。</li><li>拖檔轉錄 把音訊／影片拖到瀏海處就轉逐字稿，背景跑不擋聽寫。這是內建聽寫完全沒有的功能。</li><li>完全離線、MIT、免費 不發網路請求、不存音檔。跟內建聽寫的離線模式同等隱私，但你可以讀原始碼。</li></ol>
+</section>
+<section id="summary" aria-labelledby="h-summary">
+  <h2 id="h-summary" data-num="02">摘要 / Summary</h2>
+  <p>Tornike Gomareli 想要 macOS 上有一個真正即時、原生體驗的語音聽寫工具，於是自己動手做了 Talkify——一款只有 8.2 MB 大小的聽寫 App，從放開按鍵到文字出現，中位延遲僅 123 毫秒。他把它拿去跟市面上幾款熱門聽寫 App（superwhisper、voiceink、wispr flow、macwhisper）比較，結果 Talkify 是其中速度最快的一個。</p>
+<p>這款 App 的介面設計貼著 macOS 的視覺語言：常駐在螢幕瀏海（notch）位置，搭配漂亮的 shader 動畫效果，並提供各種客製化選項，讓聽寫這件事融入日常操作而不突兀。</p>
+<p>技術上，Talkify 建立在 Apple 的 SpeechAnalyzer 之上，使用系統內建管理的語音模型做完全裝置端（on-device）轉錄，免費且開源。</p>
+</section>
+<section id="quotes" aria-labelledby="h-quotes">
+  <h2 id="h-quotes" data-num="03">重點 / Keypoint</h2>
+  <p>「從放開按鍵到文字出現的中位延遲只要 123 毫秒。」</p>
+<p>「在跟 superwhisper、voiceink、wispr flow 和 macwhisper 這五款 App 的測試中，它是速度最快的一個。」</p>
+<p>「Talkify 是建立在 Apple 的 SpeechAnalyzer 之上，用系統內建管理的語音模型進行完全裝置端（on-device）轉錄，免費且開源。」</p>
+</section>
+
+  
+
+  <footer class="note-foot">
+    <a class="primary" href="https://x.com/tornikegomareli/status/2088524464224919700" rel="external noopener">讀原文 ↗</a>
+    <a href="./20260819-talkify-macos-dictation.md">Markdown 版</a>
+    <a href="../index.html#notes">← 回筆記列表</a>
+  </footer>
+  <p class="note-short">分享用短連結：<a href="https://os.housearch.net/n/7"><code>https://os.housearch.net/n/7</code></a></p>
+</article>
+
+</body>
+</html>
