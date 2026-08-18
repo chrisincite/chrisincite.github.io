@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "87 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 7,
+  "count": 8,
   "planned": 87,
   "shrines": [
     {
@@ -209,6 +209,35 @@
       ],
       "url": "shrine/20-kirishima-jingu.html",
       "markdown": "shrine/20-kirishima-jingu.md"
+    },
+    {
+      "no": "21",
+      "slug": "21-aoi-aso-jinja",
+      "title": "青井阿蘇神社",
+      "title_ja": "青井阿蘇神社",
+      "kana": "あおいあそじんじゃ",
+      "type": "神社",
+      "prefecture": "熊本縣",
+      "city": "人吉市上青井町",
+      "lat": "32.213566",
+      "lng": "130.753355",
+      "enshrined": "建磐龍命・阿蘇津媛命・國造速甕玉神",
+      "rank": "舊縣社・別表神社",
+      "trip": "T3",
+      "series": [
+        "S5"
+      ],
+      "visited": "2025-04",
+      "hook": "雨一路沒停，樓門的茅葺屋簷把雨聲收成一片，落在紫幕上的家紋濕透了色。",
+      "cover": "img/21-aoi-aso-jinja-01.webp",
+      "photos": 7,
+      "related": [
+        "14-aso-jinja",
+        "19-kagoshima-jingu",
+        "20-kirishima-jingu"
+      ],
+      "url": "shrine/21-aoi-aso-jinja.html",
+      "markdown": "shrine/21-aoi-aso-jinja.md"
     }
   ]
 }
