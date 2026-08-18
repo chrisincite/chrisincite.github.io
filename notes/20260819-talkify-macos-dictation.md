@@ -1,4 +1,4 @@
-# 免費好用的Talkify 語音輸入系統
+# Chris 筆記｜免費好用的Talkify 語音輸入系統
 
 > 讀書筆記 · 2026-08-19 · Chris Hsu
 > 原文連結：https://x.com/tornikegomareli/status/2088524464224919700

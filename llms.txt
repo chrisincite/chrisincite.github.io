@@ -9,7 +9,7 @@
 
 格式固定為三段：**我的想法**（Chris 本人的評註，錨點 #my-take）、**這篇在說什麼**（重點整理，錨點 #summary）、**原文金句**（引用，錨點 #quotes）。
 
-- [免費好用的Talkify 語音輸入系統](https://chrisincite.github.io/notes/20260819-talkify-macos-dictation.md)：終於在Claude Code CLI 中實現語音輸入自由了！
+- [Chris 筆記｜免費好用的Talkify 語音輸入系統](https://chrisincite.github.io/notes/20260819-talkify-macos-dictation.md)：終於在Claude Code CLI 中實現語音輸入自由了！
 - [Chris 筆記｜我為什麼反對 AI 浮水印](https://chrisincite.github.io/notes/20260817-ai-watermarking.md)：有機器參與這個標籤，本身就代表著很多含義，有可能是AI全程思考自行撰寫生成，也有可能AI只是負責計算，但數學公式是人們準備的，更有可能AI只
 - [Chris 筆記｜政策領域的知識，關在會議室裡是裝不下的！開發合宿中討論的「公共FDE」](https://chrisincite.github.io/notes/20260817-polipoli-public-fde-camp.md)：日本地方創生，已經從傳統建築空間改造，慢慢往服務改造的方向邁進了。（原文：政策領域的知識，關在會議室裡是裝不下的！開發合宿中討論的「公共FDE」）
 - [Chris 筆記｜如何讓你的 Claude Code 工作階段（session）發揮最大價值｜Claude by Anthropic](https://chrisincite.github.io/notes/20260816-maximizing-the-value-of-your-claude-code-sessions.md)：對我來說，這個提及文件的@，以及sub-agent的用法都是很有用的。

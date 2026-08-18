@@ -1,5 +1,5 @@
 ---
-title: "免費好用的Talkify 語音輸入系統"
+title: "Chris 筆記｜免費好用的Talkify 語音輸入系統"
 cover: "img/20260819-talkify-macos-dictation-cover.jpg"
 cover_credit: "圖片取自原文"
 source_author: "@tornikegomareli（Tornike Gomareli）"
