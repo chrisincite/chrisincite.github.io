@@ -6,6 +6,7 @@
 > 社格：舊村社・南鄉谷總鎮守
 > 座標：32.853848, 131.158438
 > 本頁 HTML：https://chrisincite.github.io/shrine/15-kamishikimi-kumanoimasu-jinja.html
+> 短連結：https://os.housearch.net/s/2
 
 早上出門，從一所廢校開始走。
 

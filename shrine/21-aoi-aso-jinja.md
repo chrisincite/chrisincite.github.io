@@ -6,6 +6,7 @@
 > 社格：舊縣社・別表神社
 > 座標：32.213566, 130.753355
 > 本頁 HTML：https://chrisincite.github.io/shrine/21-aoi-aso-jinja.html
+> 短連結：https://os.housearch.net/s/8
 
 雨一路沒停，樓門的茅葺屋簷把雨聲收成一片，落在紫幕上的家紋濕透了色。
 這座神社的名字裡有「井」，境內外都是水——蓮池、球磨川、山田川，

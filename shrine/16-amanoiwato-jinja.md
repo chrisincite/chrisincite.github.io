@@ -6,6 +6,7 @@
 > 社格：一社三宮（西本宮・東本宮・天安河原宮）・別表神社
 > 座標：32.734487, 131.350536
 > 本頁 HTML：https://chrisincite.github.io/shrine/16-amanoiwato-jinja.html
+> 短連結：https://os.housearch.net/s/3
 
 岩戶是高千穗町北邊的一個地區，小學、農協、郵局、超市沿著一條縣道排成一列，
 路的東側就是岩戶川切出來的溪谷。

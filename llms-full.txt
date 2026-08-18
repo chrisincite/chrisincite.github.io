@@ -207,6 +207,7 @@ BBC 想弄清楚一件矛盾的事：日本明明最需要 AI——人力短缺�
 > 社格：肥後國一の宮・全國約五百社の總本社・別表神社
 > 座標：32.948033, 131.115827
 > 本頁 HTML：https://chrisincite.github.io/shrine/14-aso-jinja.html
+> 短連結：https://os.housearch.net/s/1
 
 樓門是二〇二三年十二月才重新站起來的。地震把它壓成一堆木頭，那是二〇一六年四月，
 中間隔了七年半。而整座神社的災害復舊事業宣告結束，是二〇二五年二月十七日；
@@ -402,6 +403,7 @@ BBC 想弄清楚一件矛盾的事：日本明明最需要 AI——人力短缺�
 > 社格：舊村社・南鄉谷總鎮守
 > 座標：32.853848, 131.158438
 > 本頁 HTML：https://chrisincite.github.io/shrine/15-kamishikimi-kumanoimasu-jinja.html
+> 短連結：https://os.housearch.net/s/2
 
 早上出門，從一所廢校開始走。
 
@@ -647,6 +649,7 @@ BBC 想弄清楚一件矛盾的事：日本明明最需要 AI——人力短缺�
 > 社格：一社三宮（西本宮・東本宮・天安河原宮）・別表神社
 > 座標：32.734487, 131.350536
 > 本頁 HTML：https://chrisincite.github.io/shrine/16-amanoiwato-jinja.html
+> 短連結：https://os.housearch.net/s/3
 
 岩戶是高千穗町北邊的一個地區，小學、農協、郵局、超市沿著一條縣道排成一列，
 路的東側就是岩戶川切出來的溪谷。
@@ -1035,6 +1038,7 @@ BBC 想弄清楚一件矛盾的事：日本明明最需要 AI——人力短缺�
 > 社格：高千穗鄉八十八社總社・國史見在社・別表神社
 > 座標：32.706447, 131.302009
 > 本頁 HTML：https://chrisincite.github.io/shrine/17-takachiho-jinja.html
+> 短連結：https://os.housearch.net/s/4
 
 三田井是高千穗町的中心，一條街兩排店，早上還沒開門。
 從巴士總站往西南走，路的名字叫神殿通り（Shinden-dōri），走十分鐘就到了。
@@ -1353,6 +1357,7 @@ BBC 想弄清楚一件矛盾的事：日本明明最需要 AI——人力短缺�
 > 社格：舊村社・別表神社
 > 座標：31.804566, 131.474947
 > 本頁 HTML：https://chrisincite.github.io/shrine/18-aoshima-jinja.html
+> 短連結：https://os.housearch.net/s/5
 
 從青島車站走出來，一條筆直的參道往海邊去，八百公尺，車子開不進來。
 走到底是沙灘，沙灘外面的海面上鋪著一片灰黑色的岩——
@@ -1549,6 +1554,7 @@ BBC 想弄清楚一件矛盾的事：日本明明最需要 AI——人力短缺�
 > 社格：式內大社（延喜式・大社）・大隅國一宮・舊官幣大社・別表神社（舊稱大隅正八幡宮）
 > 座標：31.753714, 130.737861
 > 本頁 HTML：https://chrisincite.github.io/shrine/19-kagoshima-jingu.html
+> 短連結：https://os.housearch.net/s/6
 
 從高千穗一路南下，這是鹿兒島神話帶上的最後一站。故事的主角換了人。
 
@@ -1732,6 +1738,7 @@ BBC 想弄清楚一件矛盾的事：日本明明最需要 AI——人力短缺�
 > 社格：延喜式內社論社・舊官幣大社・別表神社（舊稱西御在所霧島權現，霧島六社權現之一）
 > 座標：31.858898, 130.871632
 > 本頁 HTML：https://chrisincite.github.io/shrine/20-kirishima-jingu.html
+> 短連結：https://os.housearch.net/s/7
 
 那天下著雨。石段濕透，傘一把接一把撐開，紅漆社殿在灰白天色裡反而更醒目。
 
@@ -1910,6 +1917,7 @@ BBC 想弄清楚一件矛盾的事：日本明明最需要 AI——人力短缺�
 > 社格：舊縣社・別表神社
 > 座標：32.213566, 130.753355
 > 本頁 HTML：https://chrisincite.github.io/shrine/21-aoi-aso-jinja.html
+> 短連結：https://os.housearch.net/s/8
 
 雨一路沒停，樓門的茅葺屋簷把雨聲收成一片，落在紫幕上的家紋濕透了色。
 這座神社的名字裡有「井」，境內外都是水——蓮池、球磨川、山田川，

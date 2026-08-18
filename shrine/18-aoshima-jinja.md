@@ -6,6 +6,7 @@
 > 社格：舊村社・別表神社
 > 座標：31.804566, 131.474947
 > 本頁 HTML：https://chrisincite.github.io/shrine/18-aoshima-jinja.html
+> 短連結：https://os.housearch.net/s/5
 
 從青島車站走出來，一條筆直的參道往海邊去，八百公尺，車子開不進來。
 走到底是沙灘，沙灘外面的海面上鋪著一片灰黑色的岩——

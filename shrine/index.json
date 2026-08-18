@@ -6,6 +6,7 @@
   "planned": 87,
   "shrines": [
     {
+      "short": "https://os.housearch.net/s/1",
       "no": "14",
       "slug": "14-aso-jinja",
       "title": "阿蘇神社",
@@ -35,6 +36,7 @@
       "markdown": "shrine/14-aso-jinja.md"
     },
     {
+      "short": "https://os.housearch.net/s/2",
       "no": "15",
       "slug": "15-kamishikimi-kumanoimasu-jinja",
       "title": "上色見熊野座神社",
@@ -65,6 +67,7 @@
       "markdown": "shrine/15-kamishikimi-kumanoimasu-jinja.md"
     },
     {
+      "short": "https://os.housearch.net/s/3",
       "no": "16",
       "slug": "16-amanoiwato-jinja",
       "title": "天岩戶神社",
@@ -95,6 +98,7 @@
       "markdown": "shrine/16-amanoiwato-jinja.md"
     },
     {
+      "short": "https://os.housearch.net/s/4",
       "no": "17",
       "slug": "17-takachiho-jinja",
       "title": "高千穗神社",
@@ -124,6 +128,7 @@
       "markdown": "shrine/17-takachiho-jinja.md"
     },
     {
+      "short": "https://os.housearch.net/s/5",
       "no": "18",
       "slug": "18-aoshima-jinja",
       "title": "青島神社",
@@ -153,6 +158,7 @@
       "markdown": "shrine/18-aoshima-jinja.md"
     },
     {
+      "short": "https://os.housearch.net/s/6",
       "no": "19",
       "slug": "19-kagoshima-jingu",
       "title": "鹿兒島神宮",
@@ -182,6 +188,7 @@
       "markdown": "shrine/19-kagoshima-jingu.md"
     },
     {
+      "short": "https://os.housearch.net/s/7",
       "no": "20",
       "slug": "20-kirishima-jingu",
       "title": "霧島神宮",
@@ -211,6 +218,7 @@
       "markdown": "shrine/20-kirishima-jingu.md"
     },
     {
+      "short": "https://os.housearch.net/s/8",
       "no": "21",
       "slug": "21-aoi-aso-jinja",
       "title": "青井阿蘇神社",

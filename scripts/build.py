@@ -675,7 +675,7 @@ def shrine_hook(sections, limit=64):
     return ""
 
 
-def build_shrine(path, registry, published_slugs):
+def build_shrine(path, registry, published_slugs, short_url=""):
     with open(path, encoding="utf-8") as f:
         meta, body = parse_front_matter(f.read())
 
@@ -775,6 +775,14 @@ def build_shrine(path, registry, published_slugs):
     foot_links = ['<a href="./%s.md">Markdown 版</a>' % full_slug,
                   '<a href="../index.html#shrine">← 回散策地圖</a>']
 
+    short_html = ""
+    if short_url:
+        short_html = (
+            '<p class="note-short">分享用短連結：'
+            '<a href="%s"><code>%s</code></a></p>'
+            % (html.escape(short_url, quote=True), html.escape(short_url))
+        )
+
     page = SHRINE_TEMPLATE.format(
         title=html.escape(meta["title"]),
         title_attr=html.escape(meta["title"], quote=True),
@@ -793,6 +801,7 @@ def build_shrine(path, registry, published_slugs):
         facts=facts_html,
         sections="\n".join(body_html),
         foot="\n    ".join(foot_links),
+        short=short_html,
         site_name=SITE_NAME,
     )
     with open(os.path.join(SHRINE_DIR, full_slug + ".html"), "w", encoding="utf-8") as f:
@@ -824,12 +833,15 @@ def build_shrine(path, registry, published_slugs):
     if meta.get("lat") and meta.get("lng"):
         head.append("> 座標：%s, %s" % (meta["lat"], meta["lng"]))
     head.append("> 本頁 HTML：%s" % page_url)
+    if short_url:
+        head.append("> 短連結：%s" % short_url)
 
     md_text = "# %s\n\n%s\n\n%s\n" % (meta["title"], "\n".join(head), md_body.strip())
     with open(os.path.join(SHRINE_DIR, full_slug + ".md"), "w", encoding="utf-8") as f:
         f.write(md_text)
 
     return {
+        "short": short_url,
         "no": no,
         "slug": full_slug,
         "title": meta["title"],
@@ -916,6 +928,7 @@ SHRINE_TEMPLATE = """<!DOCTYPE html>
   <footer class="note-foot">
     {foot}
   </footer>
+  {short}
 </article>
 
 </body>
@@ -950,6 +963,24 @@ def load_shortlinks():
 
 def save_shortlinks(mapping):
     path = os.path.join(NOTES_DIR, "shortlinks.json")
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(mapping, f, ensure_ascii=False, indent=2, sort_keys=True)
+        f.write("\n")
+
+
+def load_shrine_shortlinks():
+    """slug → 短碼，散策篇專用的映射檔，跟筆記的 shortlinks.json 分開放——
+    兩個 collection 的短碼各自從 1 開始編，混在同一份檔案裡容易誤讀成
+    「同一個數字空間」。"""
+    path = os.path.join(SHRINE_DIR, "shortlinks.json")
+    if os.path.isfile(path):
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_shrine_shortlinks(mapping):
+    path = os.path.join(SHRINE_DIR, "shortlinks.json")
     with open(path, "w", encoding="utf-8") as f:
         json.dump(mapping, f, ensure_ascii=False, indent=2, sort_keys=True)
         f.write("\n")
@@ -1009,6 +1040,28 @@ def write_redirects(notes, mapping):
                 target=target,
                 title=html.escape(n["title"], quote=True),
                 hook=html.escape(n.get("hook", ""), quote=True),
+                og_image=og_image))
+
+
+def write_shrine_redirects(shrines, mapping):
+    """散策篇的短連結轉址頁，寫進頂層 s/（跟筆記的 n/ 平行、不同資料夾，
+    避免兩個 collection 的短碼在網址上混在一起看不出是哪個 collection）。"""
+    d = os.path.join(ROOT, "s")
+    os.makedirs(d, exist_ok=True)
+    for s in shrines:
+        code = mapping[s["slug"]]
+        target = "%s/%s" % (CANONICAL_BASE, s["url"])
+        cover = s.get("cover", "")
+        og_image = (
+            '<meta property="og:image" content="%s/shrine/%s">\n'
+            '<meta name="twitter:card" content="summary_large_image">'
+            % (CANONICAL_BASE, cover)
+        ) if cover else '<meta name="twitter:card" content="summary">'
+        with open(os.path.join(d, "%s.html" % code), "w", encoding="utf-8") as f:
+            f.write(REDIRECT_TEMPLATE.format(
+                target=target,
+                title=html.escape(s["title"], quote=True),
+                hook=html.escape(s.get("hook", ""), quote=True),
                 og_image=og_image))
 
 
@@ -1285,13 +1338,15 @@ def main():
     notes = [n for n, _ in paired]
     texts = [t for _, t in paired]
 
-    shrines, shrine_texts, registry = build_shrines()
+    shrines, shrine_texts, registry, shrine_shortlinks = build_shrines()
 
     write_redirects(notes, shortlinks)
     save_shortlinks(shortlinks)
     write_index_json(notes)
     if os.path.isdir(SHRINE_SRC_DIR):
         write_shrine_index_json(shrines, registry)
+        write_shrine_redirects(shrines, shrine_shortlinks)
+        save_shrine_shortlinks(shrine_shortlinks)
     write_sitemap(notes, shrines)
     write_robots()
     write_llms(notes, shrines, len(registry))
@@ -1299,7 +1354,8 @@ def main():
 
     print("\n共 %d 則筆記、%d 篇散策" % (len(notes), len(shrines)))
     print("已更新：notes/index.json、notes/shortlinks.json、n/*.html、"
-          "shrine/index.json、sitemap.xml、robots.txt、llms.txt、llms-full.txt")
+          "shrine/index.json、shrine/shortlinks.json、s/*.html、"
+          "sitemap.xml、robots.txt、llms.txt、llms-full.txt")
     print("canonical：%s" % CANONICAL_BASE)
     return 0
 
@@ -1307,9 +1363,10 @@ def main():
 def build_shrines():
     """散策篇。沒有 shrine/src/ 就整段跳過，不影響既有的筆記建置。"""
     if not os.path.isdir(SHRINE_SRC_DIR):
-        return [], [], {}
+        return [], [], {}, {}
 
     registry = load_registry()
+    shrine_shortlinks = load_shrine_shortlinks()
     files = sorted(f for f in os.listdir(SHRINE_SRC_DIR) if is_shrine_file(f))
 
     # 先掃一遍決定誰會上站——[[ ]] 互連要知道連過去的那篇存不存在，
@@ -1323,15 +1380,19 @@ def build_shrines():
 
     shrines, shrine_texts = [], []
     for name in sorted(published):
+        code = assign_short(shrine_shortlinks, name)
+        short_url = "%s/s/%s%s" % (SHORT_BASE, code, SHORT_SUFFIX)
         meta, text = build_shrine(
-            os.path.join(SHRINE_SRC_DIR, name + ".md"), registry, published)
+            os.path.join(SHRINE_SRC_DIR, name + ".md"), registry, published,
+            short_url)
         shrines.append(meta)
         shrine_texts.append(text)
         print("⛩ %s" % meta["slug"])
 
     # 依編號排序：這是走訪的時間序，也是永久編號，比日期穩定
     paired = sorted(zip(shrines, shrine_texts), key=lambda p: p[0]["slug"])
-    return [s for s, _ in paired], [t for _, t in paired], registry
+    return ([s for s, _ in paired], [t for _, t in paired], registry,
+            shrine_shortlinks)
 
 
 if __name__ == "__main__":

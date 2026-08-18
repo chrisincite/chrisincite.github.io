@@ -6,6 +6,7 @@
 > 社格：高千穗鄉八十八社總社・國史見在社・別表神社
 > 座標：32.706447, 131.302009
 > 本頁 HTML：https://chrisincite.github.io/shrine/17-takachiho-jinja.html
+> 短連結：https://os.housearch.net/s/4
 
 三田井是高千穗町的中心，一條街兩排店，早上還沒開門。
 從巴士總站往西南走，路的名字叫神殿通り（Shinden-dōri），走十分鐘就到了。

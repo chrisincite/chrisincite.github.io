@@ -6,6 +6,7 @@
 > 社格：延喜式內社論社・舊官幣大社・別表神社（舊稱西御在所霧島權現，霧島六社權現之一）
 > 座標：31.858898, 130.871632
 > 本頁 HTML：https://chrisincite.github.io/shrine/20-kirishima-jingu.html
+> 短連結：https://os.housearch.net/s/7
 
 那天下著雨。石段濕透，傘一把接一把撐開，紅漆社殿在灰白天色裡反而更醒目。
 

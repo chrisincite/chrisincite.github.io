@@ -6,6 +6,7 @@
 > 社格：式內大社（延喜式・大社）・大隅國一宮・舊官幣大社・別表神社（舊稱大隅正八幡宮）
 > 座標：31.753714, 130.737861
 > 本頁 HTML：https://chrisincite.github.io/shrine/19-kagoshima-jingu.html
+> 短連結：https://os.housearch.net/s/6
 
 從高千穗一路南下，這是鹿兒島神話帶上的最後一站。故事的主角換了人。
 
