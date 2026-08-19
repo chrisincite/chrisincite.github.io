@@ -1,6 +1,6 @@
 {
   "note": "全部座數的名稱／所在地索引，由私有 repo 的 地點清單.csv 產出（scripts/make_registry.py）。build.py 讀它解析 [[ ]] 互連（連到還沒寫的篇時顯示名字但不給連結），日後的全國分佈圖也用它。A1／A2 兩座資料館翻拍屬附錄、不寫成文章，不列入。座標逐篇撰稿時補齊；lat/lng 是查日文一次資料得到的官方所在地，不是照片 EXIF 的拍攝點。",
-  "count": 87,
+  "count": 103,
   "places": [
     {
       "no": "01",
@@ -150,7 +150,7 @@
     {
       "no": "12",
       "slug": "12-busshoji",
-      "title": "武蔵寺",
+      "title": "武藏寺",
       "type": "寺院",
       "prefecture": "福岡県",
       "city": "筑紫野市",
@@ -158,20 +158,24 @@
       "series": [
         "S8"
       ],
-      "visited": "2025-04"
+      "visited": "2025-04",
+      "lat": 33.489278,
+      "lng": 130.507944
     },
     {
       "no": "13",
-      "slug": "13-umi-hachimangu",
-      "title": "宇美八幡宮",
+      "slug": "13-torikai-hachimangu",
+      "title": "鳥飼八幡宮",
       "type": "神社",
       "prefecture": "福岡県",
-      "city": "糟屋郡宇美町",
+      "city": "福岡市中央区",
       "trip": "T3",
       "series": [
         "S7"
       ],
-      "visited": "2025-04"
+      "visited": "2025-04",
+      "lat": 33.587404,
+      "lng": 130.36598
     },
     {
       "no": "14",
@@ -1114,6 +1118,182 @@
         "S4"
       ],
       "visited": "2025-11"
+    },
+    {
+      "no": "88",
+      "slug": "88-ishiteji",
+      "title": "石手寺",
+      "type": "寺院",
+      "prefecture": "愛媛県",
+      "city": "松山市石手",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
+    },
+    {
+      "no": "89",
+      "slug": "89-mishima-jinja-nagahori",
+      "title": "三島神社（長堀）",
+      "type": "神社",
+      "prefecture": "愛媛県",
+      "city": "宇和島市長堀",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
+    },
+    {
+      "no": "90",
+      "slug": "90-zenjibuji",
+      "title": "禪師峰寺",
+      "type": "寺院",
+      "prefecture": "高知県",
+      "city": "南国市十市",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
+    },
+    {
+      "no": "91",
+      "slug": "91-tosa-jinja",
+      "title": "土佐神社",
+      "type": "神社",
+      "prefecture": "高知県",
+      "city": "高知市一宮しなね",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
+    },
+    {
+      "no": "92",
+      "slug": "92-oasahiko-jinja",
+      "title": "大麻比古神社",
+      "type": "神社",
+      "prefecture": "徳島県",
+      "city": "鳴門市大麻町板東",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
+    },
+    {
+      "no": "93",
+      "slug": "93-ryozenji",
+      "title": "靈山寺",
+      "type": "寺院",
+      "prefecture": "徳島県",
+      "city": "鳴門市大麻町板東",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
+    },
+    {
+      "no": "94",
+      "slug": "94-itakiso-jinja",
+      "title": "伊太祈曾神社",
+      "type": "神社",
+      "prefecture": "和歌山県",
+      "city": "和歌山市伊太祈曽",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
+    },
+    {
+      "no": "95",
+      "slug": "95-tamatsushima-jinja",
+      "title": "玉津島神社",
+      "type": "神社",
+      "prefecture": "和歌山県",
+      "city": "和歌山市和歌浦中",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
+    },
+    {
+      "no": "96",
+      "slug": "96-kamikura-jinja",
+      "title": "神倉神社",
+      "type": "神社",
+      "prefecture": "和歌山県",
+      "city": "新宮市神倉",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
+    },
+    {
+      "no": "97",
+      "slug": "97-hananoiwaya-jinja",
+      "title": "花之窟神社",
+      "type": "神社",
+      "prefecture": "三重県",
+      "city": "熊野市有馬町",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
+    },
+    {
+      "no": "98",
+      "slug": "98-owase-jinja",
+      "title": "尾鷲神社",
+      "type": "神社",
+      "prefecture": "三重県",
+      "city": "尾鷲市北浦町",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
+    },
+    {
+      "no": "99",
+      "slug": "99-iga-sugawara-jinja",
+      "title": "伊賀菅原神社",
+      "type": "神社",
+      "prefecture": "三重県",
+      "city": "伊賀市上野東町",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
+    },
+    {
+      "no": "100",
+      "slug": "100-aekuni-jinja",
+      "title": "敢國神社",
+      "type": "神社",
+      "prefecture": "三重県",
+      "city": "伊賀市一之宮",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
+    },
+    {
+      "no": "101",
+      "slug": "101-kashihara-jingu",
+      "title": "橿原神宮",
+      "type": "神社",
+      "prefecture": "奈良県",
+      "city": "橿原市久米町",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
+    },
+    {
+      "no": "102",
+      "slug": "102-ikuta-jinja",
+      "title": "生田神社",
+      "type": "神社",
+      "prefecture": "兵庫県",
+      "city": "神戸市中央区下山手通",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
+    },
+    {
+      "no": "103",
+      "slug": "103-nishinomiya-jinja",
+      "title": "西宮神社",
+      "type": "神社",
+      "prefecture": "兵庫県",
+      "city": "西宮市社家町",
+      "trip": "T7",
+      "series": [],
+      "visited": "2026-07"
     }
   ]
 }

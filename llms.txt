@@ -19,12 +19,14 @@
 
 ## 神社寺廟散策地圖
 
-走過的日本神社寺廟，一座一篇（規劃 87 座，已發佈 11 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
+走過的日本神社寺廟，一座一篇（規劃 103 座，已發佈 13 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（創祀與祭神之認定）、`#geography`（立地）、`#architecture`（參道形制與空間效果）、`#community`（與地方的關係）、`#festival`（祭儀與授与品）、`#walk`（晨間散策路線）。其中 `#origin` 與 `#community` 的**標題每篇量身**，錨點不變。
 
 - [宮地嶽神社](https://chrisincite.github.io/shrine/10-miyajidake-jinja.md)：四月的午後，下著雨。（福岡縣・福津市宮司元町）
 - [太宰府天滿宮](https://chrisincite.github.io/shrine/11-dazaifu-tenmangu.md)：那天御本殿前面立著的不是御本殿，是一座屋頂上長滿植物的建築——曲面的黑色屋頂（福岡縣・太宰府市宰府）
+- [武藏寺](https://chrisincite.github.io/shrine/12-busshoji.md)：四月下旬的午後，山門前立著一塊白底黑字的木牌，寫著法會從早上十點開始，（福岡縣・筑紫野市大字武藏）
+- [鳥飼八幡宮](https://chrisincite.github.io/shrine/13-torikai-hachimangu.md)：早上九點半，明治通北側的一個街廓裡，兩堵茅草牆從左右伸出來，（福岡縣・福岡市中央區今川）
 - [阿蘇神社](https://chrisincite.github.io/shrine/14-aso-jinja.md)：樓門是二〇二三年十二月才重新站起來的。（熊本縣・阿蘇市一の宮町宮地）
 - [上色見熊野座神社](https://chrisincite.github.io/shrine/15-kamishikimi-kumanoimasu-jinja.md)：早上出門，從一所廢校開始走。（熊本縣・阿蘇郡高森町上色見）
 - [天岩戶神社](https://chrisincite.github.io/shrine/16-amanoiwato-jinja.md)：岩戶是高千穗町北邊的一個地區，小學、農協、郵局、超市沿著一條縣道排成一列，（宮崎縣・西臼杵郡高千穗町岩戶）
@@ -39,6 +41,6 @@
 
 - [筆記索引 JSON](https://chrisincite.github.io/notes/index.json)：機器可讀的完整清單
 - [散策索引 JSON](https://chrisincite.github.io/shrine/index.json)：已發佈的篇章與座標
-- [全 87 座名錄 JSON](https://chrisincite.github.io/shrine/registry.json)：含未發佈的規劃清單
+- [全 103 座名錄 JSON](https://chrisincite.github.io/shrine/registry.json)：含未發佈的規劃清單
 - [全文串接](https://chrisincite.github.io/llms-full.txt)：所有內容的完整 markdown，一次取用
 - [網站首頁](https://chrisincite.github.io/)：專案、工具棚與關於頁（單頁式 OS 介面）

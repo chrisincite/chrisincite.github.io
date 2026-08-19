@@ -1,9 +1,9 @@
 {
   "site": "CHRIS OS",
-  "description": "87 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
+  "description": "103 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 11,
-  "planned": 87,
+  "count": 13,
+  "planned": 103,
   "shrines": [
     {
       "short": "https://os.housearch.net/s/9",
@@ -60,6 +60,63 @@
       ],
       "url": "shrine/11-dazaifu-tenmangu.html",
       "markdown": "shrine/11-dazaifu-tenmangu.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/c",
+      "no": "12",
+      "slug": "12-busshoji",
+      "title": "武藏寺",
+      "title_ja": "武蔵寺",
+      "kana": "ぶぞうじ",
+      "type": "寺院",
+      "prefecture": "福岡縣",
+      "city": "筑紫野市大字武藏",
+      "lat": "33.489278",
+      "lng": "130.507944",
+      "enshrined": "",
+      "rank": "椿花山成就院武藏寺",
+      "trip": "T3",
+      "series": [
+        "S8"
+      ],
+      "visited": "2025-04",
+      "hook": "四月下旬的午後，山門前立著一塊白底黑字的木牌，寫著法會從早上十點開始，",
+      "cover": "img/12-busshoji-01.webp",
+      "photos": 10,
+      "related": [
+        "11-dazaifu-tenmangu"
+      ],
+      "url": "shrine/12-busshoji.html",
+      "markdown": "shrine/12-busshoji.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/d",
+      "no": "13",
+      "slug": "13-torikai-hachimangu",
+      "title": "鳥飼八幡宮",
+      "title_ja": "鳥飼八幡宮",
+      "kana": "とりかいはちまんぐう",
+      "type": "神社",
+      "prefecture": "福岡縣",
+      "city": "福岡市中央區今川",
+      "lat": "33.587404",
+      "lng": "130.365980",
+      "enshrined": "應神天皇・神功皇后・玉依姬命",
+      "rank": "舊縣社",
+      "trip": "T3",
+      "series": [
+        "S7"
+      ],
+      "visited": "2025-04",
+      "hook": "早上九點半，明治通北側的一個街廓裡，兩堵茅草牆從左右伸出來，",
+      "cover": "img/13-torikai-hachimangu-01.webp",
+      "photos": 8,
+      "related": [
+        "10-miyajidake-jinja",
+        "11-dazaifu-tenmangu"
+      ],
+      "url": "shrine/13-torikai-hachimangu.html",
+      "markdown": "shrine/13-torikai-hachimangu.md"
     },
     {
       "short": "https://os.housearch.net/s/1",
