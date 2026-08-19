@@ -954,11 +954,13 @@
       "slug": "74-homangu-kamado-jinja",
       "title": "寶滿宮竈門神社",
       "type": "神社",
-      "prefecture": "福岡県",
-      "city": "太宰府市内山",
+      "prefecture": "福岡縣",
+      "city": "太宰府市內山",
       "trip": "T3",
       "series": [],
-      "visited": "2025-04"
+      "visited": "2025-04",
+      "lat": 33.5288381,
+      "lng": 130.5525313
     },
     {
       "no": "75",

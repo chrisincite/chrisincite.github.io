@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "87 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 10,
+  "count": 11,
   "planned": 87,
   "shrines": [
     {
@@ -302,6 +302,33 @@
       ],
       "url": "shrine/21-aoi-aso-jinja.html",
       "markdown": "shrine/21-aoi-aso-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/b",
+      "no": "74",
+      "slug": "74-homangu-kamado-jinja",
+      "title": "寶滿宮竈門神社",
+      "title_ja": "宝満宮竈門神社",
+      "kana": "ほうまんぐうかまどじんじゃ",
+      "type": "神社",
+      "prefecture": "福岡縣",
+      "city": "太宰府市內山",
+      "lat": "33.5288381",
+      "lng": "130.5525313",
+      "enshrined": "玉依姬命（配祀 神功皇后・應神天皇）",
+      "rank": "舊官幣小社",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-04",
+      "hook": "石楠花開在拜殿左側，粉色的一大叢壓著地面，白色的另一叢開在境內社的階梯旁。",
+      "cover": "img/74-homangu-kamado-jinja-01.webp",
+      "photos": 10,
+      "related": [
+        "11-dazaifu-tenmangu",
+        "16-amanoiwato-jinja"
+      ],
+      "url": "shrine/74-homangu-kamado-jinja.html",
+      "markdown": "shrine/74-homangu-kamado-jinja.md"
     }
   ]
 }
