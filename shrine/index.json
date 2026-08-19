@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "103 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 13,
+  "count": 14,
   "planned": 103,
   "shrines": [
     {
@@ -359,6 +359,36 @@
       ],
       "url": "shrine/21-aoi-aso-jinja.html",
       "markdown": "shrine/21-aoi-aso-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/e",
+      "no": "22",
+      "slug": "22-kinoe-kamo-jinja",
+      "title": "木上加茂神社",
+      "title_ja": "木上加茂神社",
+      "kana": "きのえかもじんじゃ",
+      "type": "神社",
+      "prefecture": "熊本縣",
+      "city": "球磨郡錦町木上西",
+      "lat": "32.2208762",
+      "lng": "130.8184123",
+      "enshrined": "別雷神・加茂御祖神（配祀 藤原長善命）",
+      "rank": "舊村社",
+      "trip": "T3",
+      "series": [
+        "S8"
+      ],
+      "visited": "2025-04",
+      "hook": "錦町的木上，是球磨盆地南緣一片緩坡上的聚落。",
+      "cover": "img/22-kinoe-kamo-jinja-01.webp",
+      "photos": 9,
+      "related": [
+        "21-aoi-aso-jinja",
+        "20-kirishima-jingu",
+        "19-kagoshima-jingu"
+      ],
+      "url": "shrine/22-kinoe-kamo-jinja.html",
+      "markdown": "shrine/22-kinoe-kamo-jinja.md"
     },
     {
       "short": "https://os.housearch.net/s/b",

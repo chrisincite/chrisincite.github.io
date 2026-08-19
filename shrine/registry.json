@@ -302,13 +302,15 @@
       "slug": "22-kinoe-kamo-jinja",
       "title": "木上加茂神社",
       "type": "神社",
-      "prefecture": "鹿児島県",
-      "city": "姶良市（要確認）",
+      "prefecture": "熊本県",
+      "city": "球磨郡錦町木上西",
       "trip": "T3",
       "series": [
         "S8"
       ],
-      "visited": "2025-04"
+      "visited": "2025-04",
+      "lat": 32.2208762,
+      "lng": 130.8184123
     },
     {
       "no": "23",
