@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "103 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 14,
+  "count": 15,
   "planned": 103,
   "shrines": [
     {
@@ -389,6 +389,36 @@
       ],
       "url": "shrine/22-kinoe-kamo-jinja.html",
       "markdown": "shrine/22-kinoe-kamo-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/f",
+      "no": "72",
+      "slug": "72-munakata-taisha",
+      "title": "宗像大社（邊津宮）",
+      "title_ja": "宗像大社 辺津宮",
+      "kana": "むなかたたいしゃ へつぐう",
+      "type": "神社",
+      "prefecture": "福岡縣",
+      "city": "宗像市田島",
+      "lat": "33.831059",
+      "lng": "130.514400",
+      "enshrined": "市杵島姫神（宗像三女神之一）",
+      "rank": "官幣大社（舊社格）",
+      "trip": "T3",
+      "series": [
+        "S5"
+      ],
+      "visited": "2025-04",
+      "hook": "宗像大社這個名字不指一座神社。",
+      "cover": "img/72-munakata-taisha-01.webp",
+      "photos": 8,
+      "related": [
+        "10-miyajidake-jinja",
+        "74-homangu-kamado-jinja",
+        "11-dazaifu-tenmangu"
+      ],
+      "url": "shrine/72-munakata-taisha.html",
+      "markdown": "shrine/72-munakata-taisha.md"
     },
     {
       "short": "https://os.housearch.net/s/b",
