@@ -1,7 +1,7 @@
 ---
 title: "Chris 筆記｜導入AI之前，先做這三步：把經濟產業省的「AI-Ready」落實到公司內部數據"
-cover: "img/20260820-ai-ready-data-steps-cover.jpg"
-cover_credit: "圖片取自原文"
+cover: "img/meti-journal.webp"
+cover_credit: "METI Journal ONLINE 首頁截圖（2026-08-20）"
 source_author: "@keitaro_aigc（けいたろう@Manusフェロー）"
 source_site: "X"
 source_url: "https://x.com/keitaro_aigc/status/2090202667574591772"
@@ -9,7 +9,7 @@ source_published: "2026-08-19"
 source_archive: "20260820/20260820-ai-ready-data-steps"
 ---
 
-METI Journal ONLINE⁠￼，不是一般的新聞網站，也不是單純的「經濟產業省公告欄」，而是日本經濟產業省（METI）自己經營的官方 Web Magazine／政策傳播媒體。
+METI Journal ONLINE，不是一般的新聞網站，也不是單純的「經濟產業省公告欄」，而是日本經濟產業省（METI）自己經營的官方 Web Magazine／政策傳播媒體。
 
 METI Journal 的前身是經濟產業省的廣報誌，2008 年重新改版成「METI Journal」。把經濟產業省的政策，重新包裝成一般人願意閱讀的新聞、專題、人物故事與知識內容。幾天前，它在網站上介紹了 AI-Ready 的概念，因為很多人都對這名詞有誤解。
 
