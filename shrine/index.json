@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "103 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 15,
+  "count": 16,
   "planned": 103,
   "shrines": [
     {
@@ -419,6 +419,36 @@
       ],
       "url": "shrine/72-munakata-taisha.html",
       "markdown": "shrine/72-munakata-taisha.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/g",
+      "no": "73",
+      "slug": "73-hakata-kushida-jinja",
+      "title": "櫛田神社（博多）",
+      "title_ja": "櫛田神社",
+      "kana": "くしだじんじゃ",
+      "type": "神社",
+      "prefecture": "福岡縣",
+      "city": "福岡市博多區上川端町",
+      "lat": "33.592955",
+      "lng": "130.410459",
+      "enshrined": "大幡主大神（正殿）・天照皇大神（左殿）・須佐之男大神（右殿）",
+      "rank": "博多總鎮守",
+      "trip": "T3",
+      "series": [
+        "S7"
+      ],
+      "visited": "2025-04",
+      "hook": "七點四十五分走到門口時，這座神社已經開了將近四個小時。",
+      "cover": "img/73-hakata-kushida-jinja-01.webp",
+      "photos": 9,
+      "related": [
+        "11-dazaifu-tenmangu",
+        "72-munakata-taisha",
+        "10-miyajidake-jinja"
+      ],
+      "url": "shrine/73-hakata-kushida-jinja.html",
+      "markdown": "shrine/73-hakata-kushida-jinja.md"
     },
     {
       "short": "https://os.housearch.net/s/b",
