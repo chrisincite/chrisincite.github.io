@@ -2,9 +2,27 @@
   "site": "CHRIS OS",
   "description": "Chris 的讀書筆記——讀完之後自己想了什麼。",
   "canonical_base": "https://chrisincite.github.io",
-  "updated": "2026-08-20",
-  "count": 8,
+  "updated": "2026-08-21",
+  "count": 9,
   "notes": [
+    {
+      "short": "https://os.housearch.net/n/9",
+      "slug": "20260821-apple-music-dj",
+      "published_at": "2026-08-21",
+      "date": "2026-08-21",
+      "title": "Chris 筆記｜看到別人用 Codex DJ Spotify，我讓 Claude 做了一個 Apple Music 版",
+      "hook": "看到那則推文的時候，我想到的是能不能用 Claude 在 macOS 上也做類似的開發，但是我是 Apple Music。",
+      "tags": [],
+      "cover": "img/20260821-apple-music-dj-cover.png",
+      "url": "notes/20260821-apple-music-dj.html",
+      "markdown": "notes/20260821-apple-music-dj.md",
+      "source": {
+        "author": "@nickbaumann_",
+        "site": "x.com",
+        "url": "https://x.com/nickbaumann_/status/2090551906657517876",
+        "published": "2026-08-20"
+      }
+    },
     {
       "short": "https://os.housearch.net/n/8",
       "slug": "20260820-ai-ready-data-steps",

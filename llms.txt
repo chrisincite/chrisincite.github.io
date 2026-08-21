@@ -9,6 +9,7 @@
 
 格式固定為三段：**我的想法**（Chris 本人的評註，錨點 #my-take）、**這篇在說什麼**（重點整理，錨點 #summary）、**原文金句**（引用，錨點 #quotes）。
 
+- [Chris 筆記｜看到別人用 Codex DJ Spotify，我讓 Claude 做了一個 Apple Music 版](https://chrisincite.github.io/notes/20260821-apple-music-dj.md)：看到那則推文的時候，我想到的是能不能用 Claude 在 macOS 上也做類似的開發，但是我是 Apple Music。
 - [Chris 筆記｜導入AI之前，先做這三步：把經濟產業省的「AI-Ready」落實到公司內部數據](https://chrisincite.github.io/notes/20260820-ai-ready-data-steps.md)：METI Journal ONLINE，不是一般的新聞網站，也不是單純的「經濟產業省公告欄」，而是日本經濟產業省（METI）自己經營的官方 
 - [Chris 筆記｜免費好用的Talkify 語音輸入系統](https://chrisincite.github.io/notes/20260819-talkify-macos-dictation.md)：終於在Claude Code CLI 中實現語音輸入自由了！
 - [Chris 筆記｜我為什麼反對 AI 浮水印](https://chrisincite.github.io/notes/20260817-ai-watermarking.md)：有機器參與這個標籤，本身就代表著很多含義，有可能是AI全程思考自行撰寫生成，也有可能AI只是負責計算，但數學公式是人們準備的，更有可能AI只
