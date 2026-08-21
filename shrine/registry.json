@@ -979,24 +979,28 @@
       "slug": "75-usa-jingu",
       "title": "宇佐神宮",
       "type": "神社",
-      "prefecture": "大分県",
+      "prefecture": "大分縣",
       "city": "宇佐市南宇佐",
       "trip": "T3",
       "series": [
         "S7"
       ],
-      "visited": "2025-04"
+      "visited": "2025-04",
+      "lat": 33.5266789,
+      "lng": 131.3753342
     },
     {
       "no": "76",
       "slug": "76-takeo-jinja",
       "title": "武雄神社",
       "type": "神社",
-      "prefecture": "佐賀県",
+      "prefecture": "佐賀縣",
       "city": "武雄市武雄町",
       "trip": "T3",
       "series": [],
-      "visited": "2025-04"
+      "visited": "2025-04",
+      "lat": 33.188129,
+      "lng": 130.020904
     },
     {
       "no": "77",

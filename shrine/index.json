@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "103 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 16,
+  "count": 18,
   "planned": 103,
   "shrines": [
     {
@@ -476,6 +476,61 @@
       ],
       "url": "shrine/74-homangu-kamado-jinja.html",
       "markdown": "shrine/74-homangu-kamado-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/h",
+      "no": "75",
+      "slug": "75-usa-jingu",
+      "title": "宇佐神宮",
+      "title_ja": "宇佐神宮",
+      "kana": "うさじんぐう",
+      "type": "神社",
+      "prefecture": "大分縣",
+      "city": "宇佐市南宇佐",
+      "lat": "33.5266789",
+      "lng": "131.3753342",
+      "enshrined": "八幡大神（應神天皇）・比賣大神・神功皇后",
+      "rank": "舊官幣大社・勅祭社",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-04",
+      "hook": "四月下旬的下午一點多，太陽正硬。",
+      "cover": "img/75-usa-jingu-01.webp",
+      "photos": 11,
+      "related": [
+        "74-homangu-kamado-jinja",
+        "76-takeo-jinja",
+        "11-dazaifu-tenmangu"
+      ],
+      "url": "shrine/75-usa-jingu.html",
+      "markdown": "shrine/75-usa-jingu.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/i",
+      "no": "76",
+      "slug": "76-takeo-jinja",
+      "title": "武雄神社",
+      "title_ja": "武雄神社",
+      "kana": "たけおじんじゃ",
+      "type": "神社",
+      "prefecture": "佐賀縣",
+      "city": "武雄市武雄町",
+      "lat": "33.188129",
+      "lng": "130.020904",
+      "enshrined": "武內宿禰（配祀 武雄心命・仲哀天皇・神功皇后・應神天皇）",
+      "rank": "舊縣社｜總稱武雄大明神",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-04",
+      "hook": "到武雄神社的時候是四月底的傍晚將近五點，太陽正掛在拜殿的屋脊上，",
+      "cover": "img/76-takeo-jinja-01.webp",
+      "photos": 11,
+      "related": [
+        "75-usa-jingu",
+        "10-miyajidake-jinja"
+      ],
+      "url": "shrine/76-takeo-jinja.html",
+      "markdown": "shrine/76-takeo-jinja.md"
     }
   ]
 }
