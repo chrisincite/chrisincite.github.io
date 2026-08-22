@@ -2,9 +2,27 @@
   "site": "CHRIS OS",
   "description": "Chris 的讀書筆記——讀完之後自己想了什麼。",
   "canonical_base": "https://chrisincite.github.io",
-  "updated": "2026-08-22",
-  "count": 10,
+  "updated": "2026-08-23",
+  "count": 11,
   "notes": [
+    {
+      "short": "https://os.housearch.net/n/b",
+      "slug": "20260822-ai-productivity-team-divide",
+      "published_at": "2026-08-23T07:52:32+08:00",
+      "date": "2026-08-23",
+      "title": "Chris 筆記｜我們用AI把生產力拉到三倍，卻把團隊留在了原地",
+      "hook": "最近讀到的文章，這一篇肯定是最讓我心有所感的。",
+      "tags": [],
+      "cover": "",
+      "url": "notes/20260822-ai-productivity-team-divide.html",
+      "markdown": "notes/20260822-ai-productivity-team-divide.md",
+      "source": {
+        "site": "zenn.dev",
+        "url": "https://zenn.dev/factory_dx_eng/articles/ai-productivity-team-divide",
+        "published": "2026-08-19",
+        "archive": "20260822/20260822-ai-productivity-team-divide"
+      }
+    },
     {
       "short": "https://os.housearch.net/n/a",
       "slug": "20260822-second-brain-compiler",
