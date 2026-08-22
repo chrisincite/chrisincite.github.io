@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "103 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 18,
+  "count": 20,
   "planned": 103,
   "shrines": [
     {
@@ -531,6 +531,62 @@
       ],
       "url": "shrine/76-takeo-jinja.html",
       "markdown": "shrine/76-takeo-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/j",
+      "no": "79",
+      "slug": "79-nagasaki-suwa-jinja",
+      "title": "諏訪神社（長崎）",
+      "title_ja": "鎮西大社諏訪神社",
+      "kana": "ちんぜいたいしゃすわじんじゃ",
+      "type": "神社",
+      "prefecture": "長崎縣",
+      "city": "長崎市上西山町",
+      "lat": "32.754049",
+      "lng": "129.882164",
+      "enshrined": "諏訪大神（建御名方神・八坂刀賣神）／森崎大神（伊邪那岐神・伊邪那美神）／住吉大神（表筒之男神・中筒之男神・底筒之男神）",
+      "rank": "長崎總氏神｜通稱鎮西大社",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-05",
+      "hook": "五月一日早上十點五十分，長崎的天是陰的。",
+      "cover": "img/79-nagasaki-suwa-jinja-01.webp",
+      "photos": 9,
+      "related": [
+        "78-nagasaki-sanno-jinja",
+        "23-sofukuji",
+        "11-dazaifu-tenmangu"
+      ],
+      "url": "shrine/79-nagasaki-suwa-jinja.html",
+      "markdown": "shrine/79-nagasaki-suwa-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/k",
+      "no": "81",
+      "slug": "81-iimori-jinja",
+      "title": "飯盛神社",
+      "title_ja": "飯盛神社",
+      "kana": "いいもりじんじゃ",
+      "type": "神社",
+      "prefecture": "福岡縣",
+      "city": "福岡市西區大字飯盛",
+      "lat": "33.538033",
+      "lng": "130.309447",
+      "enshrined": "主神 伊弉冉尊｜左神 玉依比賣命・右神 品陀和氣命｜東王子社 天照皇大御神・西王子社 月夜見尊",
+      "rank": "舊早良郡七箇村惣社｜傳早良郡一宮",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-05",
+      "hook": "同一天下午四點差三分，我人在福岡市西區。",
+      "cover": "img/81-iimori-jinja-01.webp",
+      "photos": 8,
+      "related": [
+        "74-homangu-kamado-jinja",
+        "72-munakata-taisha",
+        "10-miyajidake-jinja"
+      ],
+      "url": "shrine/81-iimori-jinja.html",
+      "markdown": "shrine/81-iimori-jinja.md"
     }
   ]
 }

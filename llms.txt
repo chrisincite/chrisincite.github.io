@@ -22,7 +22,7 @@
 
 ## 神社寺廟散策地圖
 
-走過的日本神社寺廟，一座一篇（規劃 103 座，已發佈 18 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
+走過的日本神社寺廟，一座一篇（規劃 103 座，已發佈 20 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（創祀與祭神之認定）、`#geography`（立地）、`#architecture`（參道形制與空間效果）、`#community`（與地方的關係）、`#festival`（祭儀與授与品）、`#walk`（晨間散策路線）。其中 `#origin` 與 `#community` 的**標題每篇量身**，錨點不變。
 
@@ -44,6 +44,8 @@
 - [寶滿宮竈門神社](https://chrisincite.github.io/shrine/74-homangu-kamado-jinja.md)：石楠花開在拜殿左側，粉色的一大叢壓著地面，白色的另一叢開在境內社的階梯旁。（福岡縣・太宰府市內山）
 - [宇佐神宮](https://chrisincite.github.io/shrine/75-usa-jingu.md)：四月下旬的下午一點多，太陽正硬。（大分縣・宇佐市南宇佐）
 - [武雄神社](https://chrisincite.github.io/shrine/76-takeo-jinja.md)：到武雄神社的時候是四月底的傍晚將近五點，太陽正掛在拜殿的屋脊上，（佐賀縣・武雄市武雄町）
+- [諏訪神社（長崎）](https://chrisincite.github.io/shrine/79-nagasaki-suwa-jinja.md)：五月一日早上十點五十分，長崎的天是陰的。（長崎縣・長崎市上西山町）
+- [飯盛神社](https://chrisincite.github.io/shrine/81-iimori-jinja.md)：同一天下午四點差三分，我人在福岡市西區。（福岡縣・福岡市西區大字飯盛）
 
 ## 其他
 

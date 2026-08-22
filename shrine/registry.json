@@ -1029,11 +1029,13 @@
       "slug": "79-nagasaki-suwa-jinja",
       "title": "諏訪神社（長崎）",
       "type": "神社",
-      "prefecture": "長崎県",
+      "prefecture": "長崎縣",
       "city": "長崎市上西山町",
       "trip": "T3",
       "series": [],
-      "visited": "2025-05"
+      "visited": "2025-05",
+      "lat": 32.754049,
+      "lng": 129.882164
     },
     {
       "no": "80",
@@ -1051,11 +1053,13 @@
       "slug": "81-iimori-jinja",
       "title": "飯盛神社",
       "type": "神社",
-      "prefecture": "福岡県",
-      "city": "福岡市西区",
+      "prefecture": "福岡縣",
+      "city": "福岡市西區大字飯盛",
       "trip": "T3",
       "series": [],
-      "visited": "2025-05"
+      "visited": "2025-05",
+      "lat": 33.538033,
+      "lng": 130.309447
     },
     {
       "no": "82",
