@@ -2,9 +2,28 @@
   "site": "CHRIS OS",
   "description": "Chris 的讀書筆記——讀完之後自己想了什麼。",
   "canonical_base": "https://chrisincite.github.io",
-  "updated": "2026-08-21",
-  "count": 9,
+  "updated": "2026-08-22",
+  "count": 10,
   "notes": [
+    {
+      "short": "https://os.housearch.net/n/a",
+      "slug": "20260822-second-brain-compiler",
+      "published_at": "2026-08-22T08:30:53+08:00",
+      "date": "2026-08-22",
+      "title": "Chris 筆記｜第二大腦不是儲存系統，是編譯器",
+      "hook": "我很久之前就做了 RAG，的確讓我的 RAW materials 看起來更加方便整理了，然後之前聽了 Karpathy 的分享，也開始建構多",
+      "tags": [],
+      "cover": "",
+      "url": "notes/20260822-second-brain-compiler.html",
+      "markdown": "notes/20260822-second-brain-compiler.md",
+      "source": {
+        "author": "@rvaniaaaa（rvaniaaa）",
+        "site": "X",
+        "url": "https://x.com/rvaniaaaa/status/2090512486738845784",
+        "published": "2026-08-20",
+        "archive": "20260822/20260822-second-brain-compiler"
+      }
+    },
     {
       "short": "https://os.housearch.net/n/9",
       "slug": "20260821-apple-music-dj",
