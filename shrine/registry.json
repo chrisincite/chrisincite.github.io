@@ -317,13 +317,15 @@
       "slug": "23-sofukuji",
       "title": "崇福寺",
       "type": "寺院",
-      "prefecture": "長崎県",
-      "city": "長崎市",
+      "prefecture": "長崎縣",
+      "city": "長崎市鍛冶屋町",
       "trip": "T3",
       "series": [
         "S4"
       ],
-      "visited": "2025-05"
+      "visited": "2025-05",
+      "lat": 32.7424466,
+      "lng": 129.8834506
     },
     {
       "no": "24",
@@ -1020,11 +1022,13 @@
       "slug": "78-nagasaki-sanno-jinja",
       "title": "山王神社（長崎）",
       "type": "神社",
-      "prefecture": "長崎県",
+      "prefecture": "長崎縣",
       "city": "長崎市坂本",
       "trip": "T3",
       "series": [],
-      "visited": "2025-04"
+      "visited": "2025-04",
+      "lat": 32.7675375,
+      "lng": 129.8682487
     },
     {
       "no": "79",

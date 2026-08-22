@@ -209,6 +209,14 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/shrine/23-sofukuji.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/23-sofukuji.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/shrine/72-munakata-taisha.html</loc>
     <priority>0.8</priority>
   </url>
@@ -254,6 +262,14 @@
   </url>
   <url>
     <loc>https://chrisincite.github.io/shrine/77-kotengu.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/78-nagasaki-sanno-jinja.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/78-nagasaki-sanno-jinja.md</loc>
     <priority>0.5</priority>
   </url>
   <url>

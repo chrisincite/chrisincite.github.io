@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "103 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 22,
+  "count": 24,
   "planned": 103,
   "shrines": [
     {
@@ -391,6 +391,34 @@
       "markdown": "shrine/22-kinoe-kamo-jinja.md"
     },
     {
+      "short": "https://os.housearch.net/s/n",
+      "no": "23",
+      "slug": "23-sofukuji",
+      "title": "崇福寺",
+      "title_ja": "聖寿山崇福寺",
+      "kana": "しょうじゅさんそうふくじ",
+      "type": "寺院",
+      "prefecture": "長崎縣",
+      "city": "長崎市鍛冶屋町",
+      "lat": "32.7424466",
+      "lng": "129.8834506",
+      "enshrined": "釋迦如來（大雄）／媽祖（天后聖母）／關帝・韋馱天",
+      "rank": "國寶二棟（大雄寶殿・第一峰門）｜國指定重要文化財四棟",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-05",
+      "hook": "五月一日早上十點二十五分，長崎的路面電車開到底，終點站的名字就叫崇福寺。",
+      "cover": "img/23-sofukuji-01.webp",
+      "photos": 9,
+      "related": [
+        "79-nagasaki-suwa-jinja",
+        "78-nagasaki-sanno-jinja",
+        "73-hakata-kushida-jinja"
+      ],
+      "url": "shrine/23-sofukuji.html",
+      "markdown": "shrine/23-sofukuji.md"
+    },
+    {
       "short": "https://os.housearch.net/s/f",
       "no": "72",
       "slug": "72-munakata-taisha",
@@ -558,6 +586,34 @@
       ],
       "url": "shrine/77-kotengu.html",
       "markdown": "shrine/77-kotengu.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/o",
+      "no": "78",
+      "slug": "78-nagasaki-sanno-jinja",
+      "title": "山王神社（長崎）",
+      "title_ja": "山王神社（山王日吉神社／浦上皇大神宮）",
+      "kana": "さんのうじんじゃ",
+      "type": "神社",
+      "prefecture": "長崎縣",
+      "city": "長崎市坂本",
+      "lat": "32.7675375",
+      "lng": "129.8682487",
+      "enshrined": "正殿 天照皇太御神・豐受比賣神・大山咋神／左座 大物主神・伊邪那岐神・伊邪那美神／右座 高皇産靈神・神皇産靈神・天御中主神・大年神",
+      "rank": "舊縣社（浦上皇太神宮）｜浦上地方鄉社",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-04",
+      "hook": "四月三十日下午兩點三十八分，長崎坂本町。",
+      "cover": "img/78-nagasaki-sanno-jinja-01.webp",
+      "photos": 8,
+      "related": [
+        "79-nagasaki-suwa-jinja",
+        "23-sofukuji",
+        "14-aso-jinja"
+      ],
+      "url": "shrine/78-nagasaki-sanno-jinja.html",
+      "markdown": "shrine/78-nagasaki-sanno-jinja.md"
     },
     {
       "short": "https://os.housearch.net/s/j",
