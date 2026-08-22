@@ -1007,11 +1007,13 @@
       "slug": "77-kotengu",
       "title": "昊天宮",
       "type": "神社",
-      "prefecture": "長崎県",
+      "prefecture": "長崎縣",
       "city": "大村市宮小路",
       "trip": "T3",
       "series": [],
-      "visited": "2025-04"
+      "visited": "2025-04",
+      "lat": 32.9497695,
+      "lng": 129.9456034
     },
     {
       "no": "78",
@@ -1042,11 +1044,13 @@
       "slug": "80-imari-jinja",
       "title": "伊萬里神社",
       "type": "神社",
-      "prefecture": "佐賀県",
-      "city": "伊万里市伊万里町乙",
+      "prefecture": "佐賀縣",
+      "city": "伊萬里市立花町",
       "trip": "T3",
       "series": [],
-      "visited": "2025-05"
+      "visited": "2025-05",
+      "lat": 33.2761607,
+      "lng": 129.8820631
     },
     {
       "no": "81",

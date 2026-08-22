@@ -249,11 +249,27 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/shrine/77-kotengu.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/77-kotengu.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/shrine/79-nagasaki-suwa-jinja.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://chrisincite.github.io/shrine/79-nagasaki-suwa-jinja.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/80-imari-jinja.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/80-imari-jinja.md</loc>
     <priority>0.5</priority>
   </url>
   <url>

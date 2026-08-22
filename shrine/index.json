@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "103 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 20,
+  "count": 22,
   "planned": 103,
   "shrines": [
     {
@@ -533,6 +533,33 @@
       "markdown": "shrine/76-takeo-jinja.md"
     },
     {
+      "short": "https://os.housearch.net/s/l",
+      "no": "77",
+      "slug": "77-kotengu",
+      "title": "昊天宮",
+      "title_ja": "昊天宮",
+      "kana": "こうてんぐう",
+      "type": "神社",
+      "prefecture": "長崎縣",
+      "city": "大村市宮小路",
+      "lat": "32.9497695",
+      "lng": "129.9456034",
+      "enshrined": "本殿六座 伊邪那岐神・伊邪那美神・瓊瓊杵神・木花咲耶姬神・鵜葺草葺不合神・玉依姬神｜相殿 天照皇大神・素戔嗚神｜副祭 大村遠江守藤原直澄神",
+      "rank": "大村藩總鎮守｜舊肥前國彼杵郡總鎮守",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-04",
+      "hook": "從昊天宮的石階下往北，是一條筆直的國道。",
+      "cover": "img/77-kotengu-01.webp",
+      "photos": 8,
+      "related": [
+        "79-nagasaki-suwa-jinja",
+        "80-imari-jinja"
+      ],
+      "url": "shrine/77-kotengu.html",
+      "markdown": "shrine/77-kotengu.md"
+    },
+    {
       "short": "https://os.housearch.net/s/j",
       "no": "79",
       "slug": "79-nagasaki-suwa-jinja",
@@ -559,6 +586,33 @@
       ],
       "url": "shrine/79-nagasaki-suwa-jinja.html",
       "markdown": "shrine/79-nagasaki-suwa-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/m",
+      "no": "80",
+      "slug": "80-imari-jinja",
+      "title": "伊萬里神社",
+      "title_ja": "伊萬里神社",
+      "kana": "いまりじんじゃ",
+      "type": "神社",
+      "prefecture": "佐賀縣",
+      "city": "伊萬里市立花町",
+      "lat": "33.2761607",
+      "lng": "129.8820631",
+      "enshrined": "難波王（敏達天皇皇子）・橘諸兄命・伊弉諾尊・伊弉冉尊・天忍骨尊・上筒男命・中筒男命・底筒男命・海津見神・彥太忍信命",
+      "rank": "舊縣社（明治五年鄉社、昭和十九年縣社）｜舊稱 香橘神社（香橘の宮）",
+      "trip": "T3",
+      "series": [],
+      "visited": "2025-05",
+      "hook": "從JR伊萬里站出來穿過商店街，第一件事是過橋。",
+      "cover": "img/80-imari-jinja-01.webp",
+      "photos": 10,
+      "related": [
+        "77-kotengu",
+        "76-takeo-jinja"
+      ],
+      "url": "shrine/80-imari-jinja.html",
+      "markdown": "shrine/80-imari-jinja.md"
     },
     {
       "short": "https://os.housearch.net/s/k",
