@@ -1377,7 +1377,7 @@ a.sh-item .sh-no { color: var(--vermilion); }
     <header class="page-head">
       <div class="ph-mono">05 / SHRINE</div>
       <h1>走過的鳥居與山門</h1>
-      <p><span class="shrine-count">87</span> 座實地走過的日本神社寺廟，一座一篇。不是旅遊攻略——每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。每篇最後是一條方圓三到五公里的晨間散步路線：神社是這條路上最重的一站，但不是目的地。</p>
+      <p><span class="shrine-count">138</span> 座實地走過的日本神社寺廟，一座一篇。不是旅遊攻略——每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。每篇最後是一條方圓三到五公里的晨間散步路線：神社是這條路上最重的一站，但不是目的地。</p>
     </header>
 
     <div id="shrineList" class="notes-list">
@@ -1386,7 +1386,7 @@ a.sh-item .sh-no { color: var(--vermilion); }
 
     <section class="sh-roster">
       <div class="sh-roster-head">
-        <h2>全部 <span class="shrine-count">87</span> 座</h2>
+        <h2>全部 <span class="shrine-count">138</span> 座</h2>
         <div class="sh-toggle" id="shrineToggle" role="group" aria-label="分組方式">
           <button data-group="trip" class="active">依行程</button>
           <button data-group="series">依系列</button>
@@ -1864,13 +1864,17 @@ a.sh-item .sh-no { color: var(--vermilion); }
      而已發佈的篇會長出封面、導言、座標這些 registry 沒有的東西。
      ============================================ */
   var TRIP_LABELS = {
-    T8: '山梨・甲府', T9: '青森→岩手→秋田→東京',
+    T13: '岩手→宮城→山形', T8: '山梨・甲府', T9: '青森→岩手→秋田→東京',
+    T10: '山梨・富士→長野', T11: '伊豆・靜岡→愛知',
+    T12: '茨城→宮城→山形→福島→栃木→埼玉→東京',
     T1: '北海道→宮島→山陰→広島', T2: '長野→富山→石川→福井→三重→静岡',
     T3: '九州大縱走→長崎', T4: '奈良・京都',
     T5: '瀬戶內＋近畿＋天橋立', T6: '兵庫＋山陰', T7: '四國・徳島'
   };
-  // 代號不照時序（T8/T9 是後來併入第二來源時才加的），所以另給一份顯示順序
-  var TRIP_ORDER = ['T8', 'T9', 'T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'];
+  // 代號不照時序（T8/T9 是併入第二來源時加的，T10–T12 是第三來源、T13 是第四來源），
+  // 所以另給一份顯示順序——這裡照實際走訪的年份由舊到新排
+  var TRIP_ORDER = ['T13', 'T8', 'T10', 'T11', 'T12', 'T9',
+                    'T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'];
   var SERIES_LABELS = {
     S1: '記紀神話的現場', S2: '熊野與修驗', S3: '出雲・山陰的神',
     S4: '山門與總本山', S5: '海の神・港の神', S6: '水と湯の神',
