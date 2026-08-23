@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 26,
+  "count": 28,
   "planned": 140,
   "shrines": [
     {
@@ -63,6 +63,68 @@
       ],
       "url": "shrine/26-kinpusenji.html",
       "markdown": "shrine/26-kinpusenji.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/s",
+      "no": "25",
+      "slug": "25-yoshino-jingu",
+      "title": "吉野神宮",
+      "title_ja": "吉野神宮",
+      "kana": "よしのじんぐう",
+      "type": "神社",
+      "prefecture": "奈良縣",
+      "city": "吉野郡吉野町吉野山",
+      "lat": "34.3851476",
+      "lng": "135.8456291",
+      "enshrined": "後醍醐天皇",
+      "rank": "舊官幣大社・別表神社（舊社名：吉野宮）",
+      "trip": "T4",
+      "series": [
+        "S2"
+      ],
+      "visited": "2025-06",
+      "published": "2026-08-23",
+      "hook": "",
+      "cover": "https://chrisincite.github.io/shrine-img/img/25-yoshino-jingu-01.webp",
+      "photos": 6,
+      "related": [
+        "24-omiwa-jinja",
+        "26-kinpusenji",
+        "101-kashihara-jingu"
+      ],
+      "url": "shrine/25-yoshino-jingu.html",
+      "markdown": "shrine/25-yoshino-jingu.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/r",
+      "no": "24",
+      "slug": "24-omiwa-jinja",
+      "title": "大神神社",
+      "title_ja": "大神神社",
+      "kana": "おおみわじんじゃ",
+      "type": "神社",
+      "prefecture": "奈良縣",
+      "city": "櫻井市三輪",
+      "lat": "34.5288096",
+      "lng": "135.8524414",
+      "enshrined": "大物主大神（配神：大己貴神・少彥名神）",
+      "rank": "大和國一之宮・延喜式內大社・二十二社・舊官幣大社",
+      "trip": "T4",
+      "series": [
+        "S7"
+      ],
+      "visited": "2025-06",
+      "published": "2026-08-23",
+      "hook": "",
+      "cover": "https://chrisincite.github.io/shrine-img/img/24-omiwa-jinja-01.webp",
+      "photos": 9,
+      "related": [
+        "25-yoshino-jingu",
+        "26-kinpusenji",
+        "84-isonokami-jingu"
+      ],
+      "url": "shrine/24-omiwa-jinja.html",
+      "markdown": "shrine/24-omiwa-jinja.md"
     },
     {
       "short": "https://os.housearch.net/s/k",
