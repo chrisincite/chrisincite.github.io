@@ -1,10 +1,69 @@
 {
   "site": "CHRIS OS",
-  "description": "138 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
+  "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 24,
-  "planned": 138,
+  "count": 26,
+  "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/q",
+      "no": "83",
+      "slug": "83-fujinomori-jinja",
+      "title": "藤森神社",
+      "title_ja": "藤森神社",
+      "kana": "ふじのもりじんじゃ",
+      "type": "神社",
+      "prefecture": "京都府",
+      "city": "京都市伏見區深草鳥居崎町",
+      "lat": "34.9513617",
+      "lng": "135.7717092",
+      "enshrined": "中座 素盞嗚尊等七柱／東座 舍人親王・天武天皇／西座 早良親王・伊豫親王・井上內親王",
+      "rank": "深草一帶的產土神｜舊府社",
+      "trip": "T4",
+      "series": [],
+      "visited": "2025-06",
+      "published": "2026-08-23",
+      "hook": "早上從藤森神社的南參道進去，出來的時候會在伏見稻荷。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/83-fujinomori-jinja-01.webp",
+      "photos": 6,
+      "related": [
+        "82-fushimi-inari-taisha",
+        "26-kinpusenji"
+      ],
+      "url": "shrine/83-fujinomori-jinja.html",
+      "markdown": "shrine/83-fujinomori-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/p",
+      "no": "26",
+      "slug": "26-kinpusenji",
+      "title": "金峯山寺",
+      "title_ja": "金峯山寺",
+      "kana": "きんぷせんじ",
+      "type": "寺院",
+      "prefecture": "奈良縣",
+      "city": "吉野郡吉野町吉野山",
+      "lat": "34.3684636",
+      "lng": "135.8587085",
+      "enshrined": "",
+      "rank": "國寶二棟（本堂・仁王門）｜世界遺產「紀伊山地的靈場與參詣道」核心資產",
+      "trip": "T4",
+      "series": [
+        "S2"
+      ],
+      "visited": "2025-06",
+      "published": "2026-08-23",
+      "hook": "從近鐵吉野驛出來，路是往上的。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/26-kinpusenji-01.webp",
+      "photos": 9,
+      "related": [
+        "25-yoshino-jingu",
+        "24-omiwa-jinja",
+        "83-fujinomori-jinja"
+      ],
+      "url": "shrine/26-kinpusenji.html",
+      "markdown": "shrine/26-kinpusenji.md"
+    },
     {
       "short": "https://os.housearch.net/s/k",
       "no": "81",

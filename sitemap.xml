@@ -115,6 +115,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/shrine/83-fujinomori-jinja.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/83-fujinomori-jinja.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/26-kinpusenji.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/26-kinpusenji.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/shrine/81-iimori-jinja.html</loc>
     <priority>0.8</priority>
   </url>
