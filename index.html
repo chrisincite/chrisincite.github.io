@@ -1893,7 +1893,7 @@ a.sh-item .sh-no { color: var(--vermilion); }
     }
     list.innerHTML = shrines.map(function(s) {
       var thumb = s.cover
-        ? '<img class="nc-thumb" src="shrine/' + esc(s.cover) + '" alt="" loading="lazy">'
+        ? '<img class="nc-thumb" src="' + esc(/^https?:\/\//.test(s.cover) ? s.cover : 'shrine/' + s.cover) + '" alt="" loading="lazy">'
         : '<div class="nc-thumb placeholder">' + shrineIcon(s.type) + '</div>';
       var where = [s.prefecture, s.city].filter(Boolean).join('・');
       var meta = [where, s.visited].filter(Boolean).join(' · ');

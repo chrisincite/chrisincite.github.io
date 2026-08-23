@@ -24,7 +24,7 @@
       "visited": "2025-05",
       "published": "2026-08-22",
       "hook": "同一天下午四點差三分，我人在福岡市西區。",
-      "cover": "img/81-iimori-jinja-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/81-iimori-jinja-01.webp",
       "photos": 8,
       "related": [
         "74-homangu-kamado-jinja",
@@ -53,7 +53,7 @@
       "visited": "2025-05",
       "published": "2026-08-22",
       "hook": "從JR伊萬里站出來穿過商店街，第一件事是過橋。",
-      "cover": "img/80-imari-jinja-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/80-imari-jinja-01.webp",
       "photos": 10,
       "related": [
         "77-kotengu",
@@ -81,7 +81,7 @@
       "visited": "2025-05",
       "published": "2026-08-22",
       "hook": "五月一日早上十點五十分，長崎的天是陰的。",
-      "cover": "img/79-nagasaki-suwa-jinja-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/79-nagasaki-suwa-jinja-01.webp",
       "photos": 9,
       "related": [
         "78-nagasaki-sanno-jinja",
@@ -110,7 +110,7 @@
       "visited": "2025-04",
       "published": "2026-08-22",
       "hook": "四月三十日下午兩點三十八分，長崎坂本町。",
-      "cover": "img/78-nagasaki-sanno-jinja-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/78-nagasaki-sanno-jinja-01.webp",
       "photos": 8,
       "related": [
         "79-nagasaki-suwa-jinja",
@@ -139,7 +139,7 @@
       "visited": "2025-04",
       "published": "2026-08-22",
       "hook": "從昊天宮的石階下往北，是一條筆直的國道。",
-      "cover": "img/77-kotengu-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/77-kotengu-01.webp",
       "photos": 8,
       "related": [
         "79-nagasaki-suwa-jinja",
@@ -167,7 +167,7 @@
       "visited": "2025-05",
       "published": "2026-08-22",
       "hook": "五月一日早上十點二十五分，長崎的路面電車開到底，終點站的名字就叫崇福寺。",
-      "cover": "img/23-sofukuji-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/23-sofukuji-01.webp",
       "photos": 9,
       "related": [
         "79-nagasaki-suwa-jinja",
@@ -196,7 +196,7 @@
       "visited": "2025-04",
       "published": "2026-08-21",
       "hook": "到武雄神社的時候是四月底的傍晚將近五點，太陽正掛在拜殿的屋脊上，",
-      "cover": "img/76-takeo-jinja-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/76-takeo-jinja-01.webp",
       "photos": 11,
       "related": [
         "75-usa-jingu",
@@ -224,7 +224,7 @@
       "visited": "2025-04",
       "published": "2026-08-21",
       "hook": "四月下旬的下午一點多，太陽正硬。",
-      "cover": "img/75-usa-jingu-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/75-usa-jingu-01.webp",
       "photos": 11,
       "related": [
         "74-homangu-kamado-jinja",
@@ -255,7 +255,7 @@
       "visited": "2025-04",
       "published": "2026-08-20",
       "hook": "七點四十五分走到門口時，這座神社已經開了將近四個小時。",
-      "cover": "img/73-hakata-kushida-jinja-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/73-hakata-kushida-jinja-01.webp",
       "photos": 9,
       "related": [
         "11-dazaifu-tenmangu",
@@ -286,7 +286,7 @@
       "visited": "2025-04",
       "published": "2026-08-20",
       "hook": "宗像大社這個名字不指一座神社。",
-      "cover": "img/72-munakata-taisha-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/72-munakata-taisha-01.webp",
       "photos": 8,
       "related": [
         "10-miyajidake-jinja",
@@ -315,7 +315,7 @@
       "visited": "2025-04",
       "published": "2026-08-19",
       "hook": "石楠花開在拜殿左側，粉色的一大叢壓著地面，白色的另一叢開在境內社的階梯旁。",
-      "cover": "img/74-homangu-kamado-jinja-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/74-homangu-kamado-jinja-01.webp",
       "photos": 10,
       "related": [
         "11-dazaifu-tenmangu",
@@ -345,7 +345,7 @@
       "visited": "2025-04",
       "published": "2026-08-19",
       "hook": "錦町的木上，是球磨盆地南緣一片緩坡上的聚落。",
-      "cover": "img/22-kinoe-kamo-jinja-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/22-kinoe-kamo-jinja-01.webp",
       "photos": 9,
       "related": [
         "21-aoi-aso-jinja",
@@ -376,7 +376,7 @@
       "visited": "2025-04",
       "published": "2026-08-19",
       "hook": "早上九點半，明治通北側的一個街廓裡，兩堵茅草牆從左右伸出來，",
-      "cover": "img/13-torikai-hachimangu-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/13-torikai-hachimangu-01.webp",
       "photos": 8,
       "related": [
         "10-miyajidake-jinja",
@@ -406,7 +406,7 @@
       "visited": "2025-04",
       "published": "2026-08-19",
       "hook": "四月下旬的午後，山門前立著一塊白底黑字的木牌，寫著法會從早上十點開始，",
-      "cover": "img/12-busshoji-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/12-busshoji-01.webp",
       "photos": 10,
       "related": [
         "11-dazaifu-tenmangu"
@@ -435,7 +435,7 @@
       "visited": "2025-04",
       "published": "2026-08-18",
       "hook": "雨一路沒停，樓門的茅葺屋簷把雨聲收成一片，落在紫幕上的家紋濕透了色。",
-      "cover": "img/21-aoi-aso-jinja-11.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/21-aoi-aso-jinja-11.webp",
       "photos": 18,
       "related": [
         "14-aso-jinja",
@@ -466,7 +466,7 @@
       "visited": "2025-04",
       "published": "2026-08-18",
       "hook": "那天下著雨。",
-      "cover": "img/20-kirishima-jingu-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/20-kirishima-jingu-01.webp",
       "photos": 5,
       "related": [
         "19-kagoshima-jingu",
@@ -497,7 +497,7 @@
       "visited": "2025-04",
       "published": "2026-08-18",
       "hook": "從高千穗一路南下，這是鹿兒島神話帶上的最後一站。",
-      "cover": "img/19-kagoshima-jingu-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/19-kagoshima-jingu-01.webp",
       "photos": 5,
       "related": [
         "20-kirishima-jingu",
@@ -528,7 +528,7 @@
       "visited": "2025-04",
       "published": "2026-08-18",
       "hook": "那天御本殿前面立著的不是御本殿，是一座屋頂上長滿植物的建築——曲面的黑色屋頂",
-      "cover": "img/11-dazaifu-tenmangu-04.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/11-dazaifu-tenmangu-04.webp",
       "photos": 13,
       "related": [
         "10-miyajidake-jinja"
@@ -557,7 +557,7 @@
       "visited": "2025-04",
       "published": "2026-08-18",
       "hook": "四月的午後，下著雨。",
-      "cover": "img/10-miyajidake-jinja-03.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/10-miyajidake-jinja-03.webp",
       "photos": 12,
       "related": [
         "11-dazaifu-tenmangu"
@@ -586,7 +586,7 @@
       "visited": "2025-04",
       "published": "2026-08-17",
       "hook": "從青島車站走出來，一條筆直的參道往海邊去，八百公尺，車子開不進來。",
-      "cover": "img/18-aoshima-jinja-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/18-aoshima-jinja-01.webp",
       "photos": 12,
       "related": [
         "16-amanoiwato-jinja",
@@ -617,7 +617,7 @@
       "visited": "2025-04",
       "published": "2026-08-17",
       "hook": "三田井是高千穗町的中心，一條街兩排店，早上還沒開門。",
-      "cover": "img/17-takachiho-jinja-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/17-takachiho-jinja-01.webp",
       "photos": 11,
       "related": [
         "16-amanoiwato-jinja",
@@ -648,7 +648,7 @@
       "visited": "2025-04",
       "published": "2026-08-17",
       "hook": "樓門是二〇二三年十二月才重新站起來的。",
-      "cover": "img/14-aso-jinja-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/14-aso-jinja-01.webp",
       "photos": 6,
       "related": [
         "15-kamishikimi-kumanoimasu-jinja",
@@ -679,7 +679,7 @@
       "visited": "2025-04",
       "published": "2026-08-16",
       "hook": "岩戶是高千穗町北邊的一個地區，小學、農協、郵局、超市沿著一條縣道排成一列，",
-      "cover": "img/16-amanoiwato-jinja-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/16-amanoiwato-jinja-01.webp",
       "photos": 15,
       "related": [
         "15-kamishikimi-kumanoimasu-jinja",
@@ -711,7 +711,7 @@
       "visited": "2025-04",
       "published": "2026-08-16",
       "hook": "早上出門，從一所廢校開始走。",
-      "cover": "img/15-kamishikimi-kumanoimasu-jinja-01.webp",
+      "cover": "https://chrisincite.github.io/shrine-img/img/15-kamishikimi-kumanoimasu-jinja-01.webp",
       "photos": 8,
       "related": [
         "14-aso-jinja",

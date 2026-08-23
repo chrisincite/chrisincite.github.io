@@ -45,6 +45,12 @@ MIRROR_BASE = "https://os.housearch.net"
 SHORT_BASE = MIRROR_BASE
 SHORT_SUFFIX = ".html" if "github.io" in SHORT_BASE else ""
 
+# 散策篇的照片放在獨立 repo chrisincite/shrine-img，用它自己的 GitHub Pages 站台。
+# 為什麼分出去：Pages 的 1 GB 是「每個站台」算的，主 repo 那 1 GB 要給全站共用，
+# 而神社照片 139 座跑完約 550 MB，留在主 repo 會吃掉一半以上。
+# 之後若改投 Cloudflare R2，只要換這一行（結尾一定要有斜線）。
+IMG_BASE = "https://chrisincite.github.io/shrine-img/img/"
+
 SITE_NAME = "CHRIS OS"
 SITE_TAGLINE = "1 person ＋ AI ＝ 1 studio"
 AUTHOR_NAME = "Chris Hsu"
@@ -558,9 +564,20 @@ IMG_RE = re.compile(r"^!\[(.*?)\]\((.+?)\)$")
 CAPTION_RE = re.compile(r"^\*(.+)\*$")
 
 
+def absolutize(path, base):
+    """已經是絕對 URL 就原樣回傳，否則接在 base 後面。base 結尾要有斜線。"""
+    if not path:
+        return ""
+    return path if path.startswith(("http://", "https://", "//")) else base + path
+
+
 def shrine_img_src(path):
-    """源檔寫的是 ../img/xxx.webp（相對 shrine/src/），產出頁在 shrine/ 底下。"""
-    return path.replace("../img/", "img/")
+    """源檔寫的是 ../img/xxx.webp（相對 shrine/src/），實際檔案在 shrine-img repo。
+
+    回傳絕對 URL。下游凡是要再拼 CANONICAL_BASE 的地方（og:image）都得先問
+    is_absolute_url()，否則會拼成 github.io/shrine/https://... 那種壞網址。
+    """
+    return path.replace("../img/", IMG_BASE)
 
 
 def render_shrine_blocks(body, links, images):
@@ -728,7 +745,8 @@ def build_shrine(path, registry, published_slugs, short_url=""):
         )
 
     cover = images[0] if images else ""
-    cover_url = "%s/shrine/%s" % (CANONICAL_BASE, cover) if cover else ""
+    # images 裡已經是 shrine_img_src() 產的絕對 URL，不能再拼 CANONICAL_BASE。
+    cover_url = absolutize(cover, "%s/shrine/" % CANONICAL_BASE)
 
     series = meta.get("series", []) or []
     related = meta.get("related", []) or []
@@ -822,7 +840,7 @@ def build_shrine(path, registry, published_slugs, short_url=""):
         return ("[%s](%s.md)" % (p["title"], s) if s in published_slugs else p["title"])
 
     md_body = re.sub(r"\[\[([^\]]+)\]\]", md_wiki, body)
-    md_body = md_body.replace("../img/", "img/")
+    md_body = md_body.replace("../img/", IMG_BASE)
     md_body = strip_comments(md_body)
     # 空的「我的想法」佔位在 markdown 版也不輸出
     md_body = re.sub(r"^##\s*我的想法\s*\n+(?=##)", "", md_body, flags=re.M)
@@ -1058,12 +1076,13 @@ def write_shrine_redirects(shrines, mapping):
     for s in shrines:
         code = mapping[s["slug"]]
         target = "%s/%s" % (CANONICAL_BASE, s["url"])
-        cover = s.get("cover", "")
+        # cover 已是 shrine-img 的絕對 URL，不能再拼 CANONICAL_BASE。
+        cover_url = absolutize(s.get("cover", ""), "%s/shrine/" % CANONICAL_BASE)
         og_image = (
-            '<meta property="og:image" content="%s/shrine/%s">\n'
+            '<meta property="og:image" content="%s">\n'
             '<meta name="twitter:card" content="summary_large_image">'
-            % (CANONICAL_BASE, cover)
-        ) if cover else '<meta name="twitter:card" content="summary">'
+            % cover_url
+        ) if cover_url else '<meta name="twitter:card" content="summary">'
         with open(os.path.join(d, "%s.html" % code), "w", encoding="utf-8") as f:
             f.write(REDIRECT_TEMPLATE.format(
                 target=target,

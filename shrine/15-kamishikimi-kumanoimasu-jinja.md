@@ -22,7 +22,7 @@
 石燈籠、鳥居、拜殿——整條路都是為了把人送到這塊石頭下面。
 而那塊石頭，比它們任何一個都老。
 
-![杉林參道的石段與夾道石燈籠](img/15-kamishikimi-kumanoimasu-jinja-01.webp)
+![杉林參道的石段與夾道石燈籠](https://chrisincite.github.io/shrine-img/img/15-kamishikimi-kumanoimasu-jinja-01.webp)
 
 *從石段中段往上看。兩側是苔痕遍布的石燈籠，杉木一路頂到畫面外，盡頭才是拜殿的屋頂。這條參道的密度不是幾百年堆出來的——多數燈籠是昭和三十年以後，當地的後藤漬物一年一基奉納累積的。*
 
@@ -35,7 +35,7 @@
 那塊岩叫**穿戶岩**（Ugeto-iwa，被踢穿一個大洞的岩壁），縱橫都超過十公尺。它怎麼來的，
 當地的說法跟阿蘇最有名的一則神話綁在一起。
 
-![穿戶岩的貫穿大洞與橫過岩下的注連繩](img/15-kamishikimi-kumanoimasu-jinja-02.webp)
+![穿戶岩的貫穿大洞與橫過岩下的注連繩](https://chrisincite.github.io/shrine-img/img/15-kamishikimi-kumanoimasu-jinja-02.webp)
 
 *穿戶岩。整片岩壁被貫穿，右側透出的天光就是洞的另一頭；岩腳橫拉著掛紙垂的注連繩，界線只用一條繩子畫出來，前面沒有社殿。站在下面的人是這塊岩的比例尺。*
 
@@ -82,7 +82,7 @@
 現在的神殿座落在**月形山（Tsukigata-yama）的八合目**，而穿戶岩在神殿上方——
 整個配置是沿著山坡往上疊的，人在爬升的過程中一路走向那塊岩。
 
-![從社殿一帶往上望，穿戶岩的洞開在杉林上方的岩壁上](img/15-kamishikimi-kumanoimasu-jinja-03.webp)
+![從社殿一帶往上望，穿戶岩的洞開在杉林上方的岩壁上](https://chrisincite.github.io/shrine-img/img/15-kamishikimi-kumanoimasu-jinja-03.webp)
 
 *社殿與岩的高低關係。杉木筆直站滿整片斜坡，人沿著坡上苔痕覆蓋的舊階梯往上走，而那個洞就開在坡頂的岩壁上——社殿在下、岩在上，這座神社是照著這個順序排的。*
 
@@ -114,11 +114,11 @@
 兩次心理上的過門。鳥居的建立年代則說法不一：現有記載裡「明治三十年」與元治元年（1864）並存，
 兩者相差三十餘年。
 
-![縣道邊的石造一之鳥居與起點石段](img/15-kamishikimi-kumanoimasu-jinja-04.webp)
+![縣道邊的石造一之鳥居與起點石段](https://chrisincite.github.io/shrine-img/img/15-kamishikimi-kumanoimasu-jinja-04.webp)
 
 *一之鳥居。石造，橫著一條注連繩，兩側的石燈籠從這裡就開始排。從路邊看不出後面還有三百公尺的爬升；停車場只有十台的空間。*
 
-![杉林深處的二之鳥居，扁額刻著熊野宮](img/15-kamishikimi-kumanoimasu-jinja-05.webp)
+![杉林深處的二之鳥居，扁額刻著熊野宮](https://chrisincite.github.io/shrine-img/img/15-kamishikimi-kumanoimasu-jinja-05.webp)
 
 *二之鳥居。同樣是石造，笠木上長滿了苔，大注連繩垂著三束藁與紙垂（shide，鋸齒狀的白紙垂飾）。額束的扁額刻著「熊野宮」——這座神社的舊稱之一，就掛在半路上。*
 
@@ -127,7 +127,7 @@
 站在拜殿裡，杉林和石段都還在視野中，
 建築沒有把外面關掉，只是給了一個頂。它像一個框，不像一個房間。
 
-![四面無牆的拜殿正面](img/15-kamishikimi-kumanoimasu-jinja-06.webp)
+![四面無牆的拜殿正面](https://chrisincite.github.io/shrine-img/img/15-kamishikimi-kumanoimasu-jinja-06.webp)
 
 *拜殿正面。四面沒有牆，只有柱子撐起屋頂，穿過柱間就看得見後方的石垣與杉林。大注連繩橫過正面，三條鈴緒垂下，上方吊著三個鐘。左側是掲示板，右側掛著「おみくじ」「各種お守り」木牌的就是授与所。*
 
@@ -135,7 +135,7 @@
 現在的神殿建於**享保七年（1722）**，昭和五十四年（1979）改修過。
 在這之前的建物在**天正年間（1573〜1593）毀於兵火**。
 
-![沿山腹通往穿戶岩的窄路，洞已在前方](img/15-kamishikimi-kumanoimasu-jinja-07.webp)
+![沿山腹通往穿戶岩的窄路，洞已在前方](https://chrisincite.github.io/shrine-img/img/15-kamishikimi-kumanoimasu-jinja-07.webp)
 
 *社殿之後的最後一段。石段沒有了，路收窄成沿著山腹整出來的一條小徑；杉木擋在左邊，而穿戶岩的洞已經出現在右前方，注連繩拉在洞口下面，天光從洞裡透出來。*
 
@@ -144,7 +144,7 @@
 拜的對象就是岩本身——這是**無社殿的磐座信仰**，比拜殿和神殿都更古老的那一層。
 一路爬上來的人最後會站在洞下面，抬頭看一塊有洞的石頭。
 
-![從穿戶岩的洞內往外看](img/15-kamishikimi-kumanoimasu-jinja-08.webp)
+![從穿戶岩的洞內往外看](https://chrisincite.github.io/shrine-img/img/15-kamishikimi-kumanoimasu-jinja-08.webp)
 
 *走進洞裡往外看。岩頂整片壓在頭上，開口的另一側是亮得發白的天空與樹。地面拉著注連繩與紙垂圍出一圈——沒有拜所、沒有本殿，被圍起來的就是這塊岩本身。*
 
@@ -209,7 +209,7 @@
 走進杉林，最後站在一塊有洞的岩壁下面。這條路的層次不是設計出來的，
 是這個地區本來的樣子。
 
-![上色見熊野座神社散策路線手繪示意圖](img/15-kamishikimi-kumanoimasu-jinja-map.webp)
+![上色見熊野座神社散策路線手繪示意圖](https://chrisincite.github.io/shrine-img/img/15-kamishikimi-kumanoimasu-jinja-map.webp)
 
 *散策路線示意圖（短環）。實線是去程、虛線是回程的農道，灰色細線牽出的是路線周邊、不一定走到的點。排版只保留相對方位，不按實際距離。*
 
