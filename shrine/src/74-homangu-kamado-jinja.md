@@ -19,6 +19,7 @@ photo_count: 41
 photos_iphone: IMG_2516-IMG_2538
 iphone_count: 23
 related: [11-dazaifu-tenmangu, 16-amanoiwato-jinja]
+published: 2026-08-19
 status: ready
 ---
 ## 我的想法

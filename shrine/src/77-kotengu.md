@@ -17,6 +17,7 @@ visited: 2025-04
 photos_iphone: IMG_3701-IMG_3708
 iphone_count: 8
 related: [79-nagasaki-suwa-jinja, 80-imari-jinja]
+published: 2026-08-22
 status: ready
 ---
 ## 我的想法

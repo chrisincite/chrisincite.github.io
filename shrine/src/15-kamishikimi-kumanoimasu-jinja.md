@@ -18,6 +18,7 @@ visited: 2025-04
 photos: DSC02616-DSC02640
 photo_count: 25
 related: [14-aso-jinja, 16-amanoiwato-jinja, 17-takachiho-jinja, 35-kumano-hongu-taisha]
+published: 2026-08-16
 status: ready
 ---
 ## 我的想法

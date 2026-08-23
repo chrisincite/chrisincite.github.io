@@ -17,6 +17,7 @@ visited: 2025-05
 photos_iphone: IMG_3895-IMG_3922
 iphone_count: 24
 related: [78-nagasaki-sanno-jinja, 23-sofukuji, 11-dazaifu-tenmangu]
+published: 2026-08-22
 status: ready
 ---
 ## 我的想法

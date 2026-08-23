@@ -18,6 +18,7 @@ photos_iphone: IMG_3750-IMG_3772
 iphone_count: 23
 actual_count: 23
 related: [79-nagasaki-suwa-jinja, 23-sofukuji, 14-aso-jinja]
+published: 2026-08-22
 status: ready
 ---
 ## 我的想法

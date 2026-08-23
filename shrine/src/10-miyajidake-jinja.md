@@ -18,6 +18,7 @@ visited: 2025-04
 photos: DSC02034-DSC02066
 photo_count: 33
 related: [11-dazaifu-tenmangu]
+published: 2026-08-18
 status: ready
 ---
 

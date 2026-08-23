@@ -19,6 +19,7 @@ visited: 2025-04
 photos: DSC02339-DSC02355＋IMG_2652-IMG_2656
 photo_count: 22
 related: [11-dazaifu-tenmangu]
+published: 2026-08-19
 status: ready
 ---
 ## 我的想法

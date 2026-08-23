@@ -18,6 +18,7 @@ visited: 2025-04
 photos: DSC02356-DSC02362
 photo_count: 7
 related: [10-miyajidake-jinja, 11-dazaifu-tenmangu]
+published: 2026-08-19
 status: ready
 ---
 ## 我的想法

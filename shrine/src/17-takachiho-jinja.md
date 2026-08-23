@@ -18,6 +18,7 @@ visited: 2025-04
 photos: DSC02782-DSC02811
 photo_count: 30
 related: [16-amanoiwato-jinja, 15-kamishikimi-kumanoimasu-jinja, 14-aso-jinja]
+published: 2026-08-17
 status: ready
 ---
 

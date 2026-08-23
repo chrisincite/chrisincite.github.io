@@ -20,6 +20,7 @@ photo_count: 0
 photos_iphone: IMG_2394-IMG_2413
 iphone_count: 20
 related: [10-miyajidake-jinja, 74-homangu-kamado-jinja, 11-dazaifu-tenmangu]
+published: 2026-08-20
 status: ready
 ---
 

@@ -18,6 +18,7 @@ visited: 2025-04
 photos: IMG_2540-IMG_2617
 photo_count: 68
 related: [10-miyajidake-jinja]
+published: 2026-08-18
 status: ready
 ---
 ## 我的想法

@@ -19,6 +19,7 @@ photo_count: 32
 photos_iphone: IMG_2710-IMG_2728
 iphone_count: 19
 related: [74-homangu-kamado-jinja, 76-takeo-jinja, 11-dazaifu-tenmangu]
+published: 2026-08-21
 status: ready
 ---
 ## 我的想法

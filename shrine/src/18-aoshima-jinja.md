@@ -17,6 +17,7 @@ visited: 2025-04
 photos: DSC02830-DSC02850
 photo_count: 21
 related: [16-amanoiwato-jinja, 17-takachiho-jinja, 15-kamishikimi-kumanoimasu-jinja]
+published: 2026-08-17
 status: ready
 ---
 

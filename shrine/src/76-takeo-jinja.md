@@ -19,6 +19,7 @@ photo_count: 21
 photos_iphone: IMG_3626-IMG_3651
 iphone_count: 25
 related: [75-usa-jingu, 10-miyajidake-jinja]
+published: 2026-08-21
 status: ready
 ---
 ## 我的想法

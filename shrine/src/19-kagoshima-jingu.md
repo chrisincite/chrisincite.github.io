@@ -18,6 +18,7 @@ visited: 2025-04
 photos: DSC02865-DSC02868
 photo_count: 4
 related: [20-kirishima-jingu, 18-aoshima-jinja, 14-aso-jinja]
+published: 2026-08-18
 status: ready
 ---
 ## 我的想法

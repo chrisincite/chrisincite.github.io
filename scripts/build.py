@@ -653,6 +653,12 @@ def strip_comments(text):
     return re.sub(r"<!--.*?-->", "", text, flags=re.S).strip()
 
 
+def shrine_no_key(meta):
+    """編號當排序第二鍵：數字比數字，非數字的一律墊底。"""
+    no = str(meta.get("no", "")).strip()
+    return (1, int(no)) if no.isdigit() else (0, 0)
+
+
 def is_shrine_file(name):
     return (name.endswith(".md")
             and name != "README.md"
@@ -857,6 +863,7 @@ def build_shrine(path, registry, published_slugs, short_url=""):
         "trip": meta.get("trip", ""),
         "series": series,
         "visited": meta.get("visited", ""),
+        "published": str(meta.get("published", "")).strip(),
         "hook": hook,
         "cover": cover,
         "photos": len([x for x in images if not x.endswith("-map.webp")]),
@@ -1389,8 +1396,13 @@ def build_shrines():
         shrine_texts.append(text)
         print("⛩ %s" % meta["slug"])
 
-    # 依編號排序：這是走訪的時間序，也是永久編號，比日期穩定
-    paired = sorted(zip(shrines, shrine_texts), key=lambda p: p[0]["slug"])
+    # 依上線日期新→舊排序：清單要讓最近寫好的一篇排最上。
+    # 編號是走訪時間序、不是撰寫順序（23 崇福寺就比 72–81 晚寫），所以不能拿它當
+    # 「最新」的依據，只在同一天上線時當第二鍵（編號大的在前）。
+    # published 缺漏時退回編號排，不會炸。
+    paired = sorted(zip(shrines, shrine_texts),
+                    key=lambda p: (p[0].get("published", ""), shrine_no_key(p[0])),
+                    reverse=True)
     return ([s for s, _ in paired], [t for _, t in paired], registry,
             shrine_shortlinks)
 

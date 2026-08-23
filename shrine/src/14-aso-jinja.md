@@ -18,6 +18,7 @@ visited: 2025-04
 photos: DSC02599-DSC02615
 photo_count: 17
 related: [15-kamishikimi-kumanoimasu-jinja, 17-takachiho-jinja, 16-amanoiwato-jinja]
+published: 2026-08-17
 status: ready
 ---
 ## 我的想法

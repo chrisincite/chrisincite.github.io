@@ -20,6 +20,7 @@ photo_count: 44
 photos_iphone:
 iphone_count: 0
 related: [21-aoi-aso-jinja, 20-kirishima-jingu, 19-kagoshima-jingu]
+published: 2026-08-19
 status: ready
 ---
 

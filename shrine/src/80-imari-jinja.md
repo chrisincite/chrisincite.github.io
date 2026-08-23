@@ -17,6 +17,7 @@ visited: 2025-05
 photos_iphone: IMG_3925-IMG_3936
 iphone_count: 12
 related: [77-kotengu, 76-takeo-jinja]
+published: 2026-08-22
 status: ready
 ---
 ## 我的想法

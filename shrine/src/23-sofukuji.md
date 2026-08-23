@@ -21,6 +21,7 @@ photos_iphone: IMG_3890-IMG_3894
 iphone_count: 5
 actual_count: 22
 related: [79-nagasaki-suwa-jinja, 78-nagasaki-sanno-jinja, 73-hakata-kushida-jinja]
+published: 2026-08-22
 status: ready
 ---
 ## 我的想法

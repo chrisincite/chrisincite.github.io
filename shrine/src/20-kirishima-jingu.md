@@ -18,6 +18,7 @@ visited: 2025-04
 photos: DSC02904-DSC02911
 photo_count: 8
 related: [19-kagoshima-jingu, 18-aoshima-jinja, 17-takachiho-jinja]
+published: 2026-08-18
 status: ready
 ---
 ## 我的想法

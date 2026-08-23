@@ -17,6 +17,7 @@ visited: 2025-05
 photos_iphone: IMG_3938-IMG_3946
 iphone_count: 9
 related: [74-homangu-kamado-jinja, 72-munakata-taisha, 10-miyajidake-jinja]
+published: 2026-08-22
 status: ready
 ---
 ## 我的想法
