@@ -123,6 +123,14 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/shrine/133-tsutsukowake-jinja-baba.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/133-tsutsukowake-jinja-baba.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/shrine/84-isonokami-jingu.html</loc>
     <priority>0.8</priority>
   </url>

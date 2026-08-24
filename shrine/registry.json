@@ -1653,13 +1653,15 @@
     {
       "no": "133",
       "slug": "133-tsutsukowake-jinja-baba",
-      "title": "都々古別神社（馬場）",
+      "title": "馬場都々古別神社",
       "type": "神社",
-      "prefecture": "福島県",
-      "city": "東白川郡棚倉町棚倉水白田",
+      "prefecture": "福島縣",
+      "city": "東白川郡棚倉町棚倉字馬場",
       "trip": "T12",
       "series": [],
-      "visited": "2024-04"
+      "visited": "2024-04",
+      "lat": 37.0319877,
+      "lng": 140.3759945
     },
     {
       "no": "134",

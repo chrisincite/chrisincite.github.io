@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 31,
+  "count": 32,
   "planned": 140,
   "shrines": [
     {
@@ -33,6 +33,31 @@
       ],
       "url": "shrine/140-kamigamo-jinja.html",
       "markdown": "shrine/140-kamigamo-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/w",
+      "no": "133",
+      "slug": "133-tsutsukowake-jinja-baba",
+      "title": "馬場都々古別神社",
+      "title_ja": "馬場都々古別神社（都都古和氣神社）",
+      "kana": "ばばつつこわけじんじゃ",
+      "type": "神社",
+      "prefecture": "福島縣",
+      "city": "東白川郡棚倉町棚倉字馬場",
+      "lat": "37.0319877",
+      "lng": "140.3759945",
+      "enshrined": "味耜高彦根命（相殿 日本武尊）",
+      "rank": "延喜式內社（都都古和氣神社・名神大）論社｜陸奧國一宮｜舊國幣中社｜別表神社",
+      "trip": "T12",
+      "series": [],
+      "visited": "2024-04",
+      "published": "2026-08-24",
+      "hook": "磐城棚倉驛出來，半小時之內會走過三座寺、兩座神社和一整排城下町的街屋。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/133-tsutsukowake-jinja-baba-01.webp",
+      "photos": 5,
+      "related": [],
+      "url": "shrine/133-tsutsukowake-jinja-baba.html",
+      "markdown": "shrine/133-tsutsukowake-jinja-baba.md"
     },
     {
       "short": "https://os.housearch.net/s/v",
