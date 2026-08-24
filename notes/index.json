@@ -2,9 +2,27 @@
   "site": "CHRIS OS",
   "description": "Chris 的讀書筆記——讀完之後自己想了什麼。",
   "canonical_base": "https://chrisincite.github.io",
-  "updated": "2026-08-23",
-  "count": 11,
+  "updated": "2026-08-25",
+  "count": 12,
   "notes": [
+    {
+      "short": "https://os.housearch.net/n/c",
+      "slug": "20260825-fences-not-sandboxes",
+      "published_at": "2026-08-25T07:33:49+08:00",
+      "date": "2026-08-25",
+      "title": "Chris 筆記｜圍籬，而非沙盒——Steve Yegge",
+      "hook": "這位遊戲開發ㄓ商很有意思，做了常人難以模仿的事，就是用大量的 Fable5 模型當 Agent 團隊的隊長，搭配 sol 及 opus 的 ",
+      "tags": [],
+      "cover": "",
+      "url": "notes/20260825-fences-not-sandboxes.html",
+      "markdown": "notes/20260825-fences-not-sandboxes.md",
+      "source": {
+        "site": "yegge.ai",
+        "url": "https://yegge.ai/essays/fences-not-sandboxes/",
+        "published": "2026-08-24",
+        "archive": "20260825/20260825-fences-not-sandboxes"
+      }
+    },
     {
       "short": "https://os.housearch.net/n/b",
       "slug": "20260822-ai-productivity-team-divide",
