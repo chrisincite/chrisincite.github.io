@@ -23,5 +23,9 @@
 /llms.txt
   Content-Type: text/plain; charset=utf-8
 
+# PWA manifest（GitHub Pages 可能回 octet-stream，鏡像這邊明確標示）
+/site.webmanifest
+  Content-Type: application/manifest+json; charset=utf-8
+
 /llms-full.txt
   Content-Type: text/plain; charset=utf-8

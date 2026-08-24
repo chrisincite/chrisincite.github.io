@@ -1,0 +1,15 @@
+{
+  "name": "CHRIS OS — 1 Person + AI = 1 Studio",
+  "short_name": "CHRIS OS",
+  "description": "Chris・在 AI 時代重建工作流的人・室內設計 × 日本建築檔案庫 × LLM-Wiki・與 Claude 並肩工作中",
+  "lang": "zh-TW",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#faf7ef",
+  "background_color": "#f4f1e7",
+  "icons": [
+    { "src": "/icon/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
