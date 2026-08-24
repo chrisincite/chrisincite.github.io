@@ -1081,10 +1081,12 @@
       "title": "伏見稻荷大社",
       "type": "神社",
       "prefecture": "京都府",
-      "city": "京都市伏見区",
+      "city": "京都市伏見區深草藪之內町",
       "trip": "T4",
       "series": [],
-      "visited": "2025-06"
+      "visited": "2025-06",
+      "lat": 34.9671601,
+      "lng": 135.7731958
     },
     {
       "no": "83",
@@ -1104,13 +1106,15 @@
       "slug": "84-isonokami-jingu",
       "title": "石上神宮",
       "type": "神社",
-      "prefecture": "奈良県",
-      "city": "天理市杣之内町",
+      "prefecture": "奈良縣",
+      "city": "天理市布留町",
       "trip": "T4",
       "series": [
         "S7"
       ],
-      "visited": "2025-06"
+      "visited": "2025-06",
+      "lat": 34.59769,
+      "lng": 135.85206
     },
     {
       "no": "85",
@@ -1731,7 +1735,7 @@
       "title": "上賀茂神社",
       "type": "神社",
       "prefecture": "京都府",
-      "city": "京都市北区",
+      "city": "京都市北區上賀茂本山",
       "trip": "T4",
       "series": [],
       "visited": "2025-06",

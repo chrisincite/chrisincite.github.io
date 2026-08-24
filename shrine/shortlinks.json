@@ -4,6 +4,7 @@
   "12-busshoji": "c",
   "13-torikai-hachimangu": "d",
   "14-aso-jinja": "1",
+  "140-kamigamo-jinja": "u",
   "15-kamishikimi-kumanoimasu-jinja": "2",
   "16-amanoiwato-jinja": "3",
   "17-takachiho-jinja": "4",
@@ -26,5 +27,7 @@
   "79-nagasaki-suwa-jinja": "j",
   "80-imari-jinja": "m",
   "81-iimori-jinja": "k",
-  "83-fujinomori-jinja": "q"
+  "82-fushimi-inari-taisha": "t",
+  "83-fujinomori-jinja": "q",
+  "84-isonokami-jingu": "v"
 }
