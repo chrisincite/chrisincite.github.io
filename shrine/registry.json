@@ -61,28 +61,32 @@
     {
       "no": "05",
       "slug": "05-keya-kurotatsu-jinja",
-      "title": "毛谷黒龍神社",
+      "title": "毛谷黑龍神社",
       "type": "神社",
-      "prefecture": "福井県",
+      "prefecture": "福井縣",
       "city": "福井市",
       "trip": "T2",
       "series": [
         "S6"
       ],
-      "visited": "2025-02"
+      "visited": "2025-02",
+      "lat": 36.056806,
+      "lng": 136.212006
     },
     {
       "no": "06",
       "slug": "06-eiheiji",
       "title": "永平寺",
       "type": "寺院",
-      "prefecture": "福井県",
+      "prefecture": "福井縣",
       "city": "吉田郡永平寺町",
       "trip": "T2",
       "series": [
         "S4"
       ],
-      "visited": "2025-02"
+      "visited": "2025-02",
+      "lat": 36.055492,
+      "lng": 136.355867
     },
     {
       "no": "07",

@@ -2,9 +2,67 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 34,
+  "count": 36,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/10",
+      "no": "06",
+      "slug": "06-eiheiji",
+      "title": "永平寺",
+      "title_ja": "永平寺",
+      "kana": "えいへいじ",
+      "type": "寺院",
+      "prefecture": "福井縣",
+      "city": "吉田郡永平寺町志比",
+      "lat": "36.055492",
+      "lng": "136.355867",
+      "enshrined": "釋迦牟尼佛（佛殿三世如來）・聖觀世音菩薩（法堂）",
+      "rank": "曹洞宗大本山／敕額「日本曹洞宗第一道場」",
+      "trip": "T2",
+      "series": [
+        "S4"
+      ],
+      "visited": "2025-02",
+      "published": "2026-08-25",
+      "hook": "從門前的石畳走上去，兩側是店，中間是永平寺川，護岸砌著石頭。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/06-eiheiji-01.webp",
+      "photos": 10,
+      "related": [
+        "05-keya-kurotatsu-jinja"
+      ],
+      "url": "shrine/06-eiheiji.html",
+      "markdown": "shrine/06-eiheiji.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/z",
+      "no": "05",
+      "slug": "05-keya-kurotatsu-jinja",
+      "title": "毛谷黑龍神社",
+      "title_ja": "毛谷黒龍神社",
+      "kana": "けやくろたつじんじゃ",
+      "type": "神社",
+      "prefecture": "福井縣",
+      "city": "福井市毛矢",
+      "lat": "36.056806",
+      "lng": "136.212006",
+      "enshrined": "高龗神・闇龗神・男大迹天皇（繼體天皇）／相殿 聖德太子・兼務社二十三社分靈",
+      "rank": "舊鄉社・越前松平家祈願所",
+      "trip": "T2",
+      "series": [
+        "S6"
+      ],
+      "visited": "2025-02",
+      "published": "2026-08-25",
+      "hook": "足羽山東麓，一座石造鳥居，兩邊各立一塊社號標——左邊刻「西宮惠比須神社」，",
+      "cover": "https://chrisincite.github.io/shrine-img/img/05-keya-kurotatsu-jinja-01.webp",
+      "photos": 8,
+      "related": [
+        "06-eiheiji"
+      ],
+      "url": "shrine/05-keya-kurotatsu-jinja.html",
+      "markdown": "shrine/05-keya-kurotatsu-jinja.md"
+    },
     {
       "short": "https://os.housearch.net/s/y",
       "no": "04",
