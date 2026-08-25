@@ -2,9 +2,68 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 32,
+  "count": 34,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/y",
+      "no": "04",
+      "slug": "04-togakushi-jinja",
+      "title": "戶隱神社",
+      "title_ja": "戸隠神社",
+      "kana": "とがくしじんじゃ",
+      "type": "神社",
+      "prefecture": "長野縣",
+      "city": "長野市戶隱",
+      "lat": "36.742509",
+      "lng": "138.085036",
+      "enshrined": "天手力雄命（奧社）・天八意思兼命（中社）・天表春命（寶光社）・天鈿女命（火之御子社）・九頭龍大神（九頭龍社）",
+      "rank": "舊戶隱山勸修院顯光寺／五社",
+      "trip": "T2",
+      "series": [
+        "S4"
+      ],
+      "visited": "2025-01",
+      "published": "2026-08-25",
+      "hook": "一月底的戶隱，雪下到把屋頂的形狀抹平。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-01.webp",
+      "photos": 9,
+      "related": [
+        "03-zenkoji",
+        "16-amanoiwato-jinja"
+      ],
+      "url": "shrine/04-togakushi-jinja.html",
+      "markdown": "shrine/04-togakushi-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/x",
+      "no": "03",
+      "slug": "03-zenkoji",
+      "title": "善光寺",
+      "title_ja": "善光寺",
+      "kana": "ぜんこうじ",
+      "type": "寺院",
+      "prefecture": "長野縣",
+      "city": "長野市元善町",
+      "lat": "36.6622591",
+      "lng": "138.1882676",
+      "enshrined": "一光三尊阿彌陀如來（絕對秘佛）",
+      "rank": "無宗派・單立／天台宗大勸進與淨土宗大本願共同護持",
+      "trip": "T2",
+      "series": [
+        "S4"
+      ],
+      "visited": "2025-01",
+      "published": "2026-08-25",
+      "hook": "那天下著雪，我們是從長野縣立美術館開車過去的，車停在善光寺的停車場，",
+      "cover": "https://chrisincite.github.io/shrine-img/img/03-zenkoji-01.webp",
+      "photos": 9,
+      "related": [
+        "04-togakushi-jinja"
+      ],
+      "url": "shrine/03-zenkoji.html",
+      "markdown": "shrine/03-zenkoji.md"
+    },
     {
       "short": "https://os.housearch.net/s/u",
       "no": "140",
