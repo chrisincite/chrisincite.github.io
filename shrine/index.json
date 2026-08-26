@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 42,
+  "count": 44,
   "planned": 140,
   "shrines": [
     {
@@ -69,6 +69,67 @@
       "markdown": "shrine/68-kehi-jingu.md"
     },
     {
+      "short": "https://os.housearch.net/s/18",
+      "no": "67",
+      "slug": "67-shirayamahime-jinja",
+      "title": "白山比咩神社",
+      "title_ja": "白山比咩神社",
+      "kana": "しらやまひめじんじゃ",
+      "type": "神社",
+      "prefecture": "石川縣",
+      "city": "白山市三宮町",
+      "lat": "36.434859",
+      "lng": "136.636455",
+      "enshrined": "白山比咩大神（菊理媛尊）・伊弉諾尊・伊弉冉尊",
+      "rank": "加賀國一宮・舊國幣中社・全國白山神社總本宮",
+      "trip": "T2",
+      "series": [
+        "S2"
+      ],
+      "visited": "2025-02",
+      "published": "2026-08-26",
+      "hook": "手取川離開山的地方叫鶴來。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/67-shirayamahime-jinja-01.webp",
+      "photos": 13,
+      "related": [
+        "66-imizu-kushida-jinja",
+        "65-toyama-hie-jinja",
+        "06-eiheiji",
+        "05-keya-kurotatsu-jinja"
+      ],
+      "url": "shrine/67-shirayamahime-jinja.html",
+      "markdown": "shrine/67-shirayamahime-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/17",
+      "no": "66",
+      "slug": "66-imizu-kushida-jinja",
+      "title": "櫛田神社（射水）",
+      "title_ja": "櫛田神社",
+      "kana": "くしだじんじゃ",
+      "type": "神社",
+      "prefecture": "富山縣",
+      "city": "射水市串田",
+      "lat": "36.692407",
+      "lng": "137.044185",
+      "enshrined": "武素盞嗚尊・櫛稻田姬命（合祀 天照皇大神・少彥名命・豐玉姬命・底筒男命・八幡大神・天滿天神）",
+      "rank": "延喜式內社・舊縣社",
+      "trip": "T2",
+      "series": [],
+      "visited": "2025-01",
+      "published": "2026-08-26",
+      "hook": "一月的最後一天，射水的水田全在雪底下。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-01.webp",
+      "photos": 7,
+      "related": [
+        "65-toyama-hie-jinja",
+        "73-hakata-kushida-jinja",
+        "67-shirayamahime-jinja"
+      ],
+      "url": "shrine/66-imizu-kushida-jinja.html",
+      "markdown": "shrine/66-imizu-kushida-jinja.md"
+    },
+    {
       "short": "https://os.housearch.net/s/14",
       "no": "65",
       "slug": "65-toyama-hie-jinja",
@@ -92,7 +153,9 @@
       "related": [
         "05-keya-kurotatsu-jinja",
         "06-eiheiji",
-        "09-mishima-taisha"
+        "09-mishima-taisha",
+        "66-imizu-kushida-jinja",
+        "67-shirayamahime-jinja"
       ],
       "url": "shrine/65-toyama-hie-jinja.html",
       "markdown": "shrine/65-toyama-hie-jinja.md"
@@ -214,7 +277,8 @@
       "cover": "https://chrisincite.github.io/shrine-img/img/06-eiheiji-01.webp",
       "photos": 10,
       "related": [
-        "05-keya-kurotatsu-jinja"
+        "05-keya-kurotatsu-jinja",
+        "67-shirayamahime-jinja"
       ],
       "url": "shrine/06-eiheiji.html",
       "markdown": "shrine/06-eiheiji.md"
@@ -243,7 +307,8 @@
       "cover": "https://chrisincite.github.io/shrine-img/img/05-keya-kurotatsu-jinja-01.webp",
       "photos": 8,
       "related": [
-        "06-eiheiji"
+        "06-eiheiji",
+        "67-shirayamahime-jinja"
       ],
       "url": "shrine/05-keya-kurotatsu-jinja.html",
       "markdown": "shrine/05-keya-kurotatsu-jinja.md"
@@ -795,7 +860,8 @@
       "related": [
         "11-dazaifu-tenmangu",
         "72-munakata-taisha",
-        "10-miyajidake-jinja"
+        "10-miyajidake-jinja",
+        "66-imizu-kushida-jinja"
       ],
       "url": "shrine/73-hakata-kushida-jinja.html",
       "markdown": "shrine/73-hakata-kushida-jinja.md"

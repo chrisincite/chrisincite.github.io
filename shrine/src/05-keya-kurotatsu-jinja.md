@@ -19,7 +19,7 @@ photos: DSC01257-DSC01272
 photo_count: 16
 photos_iphone: IMG_1243-IMG_1253
 iphone_count: 9
-related: [06-eiheiji]
+related: [06-eiheiji, 67-shirayamahime-jinja]
 published: 2026-08-25
 status: ready
 ---

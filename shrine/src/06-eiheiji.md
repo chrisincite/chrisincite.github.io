@@ -19,7 +19,7 @@ photos: DSC01396-DSC01440
 photo_count: 45
 photos_iphone: IMG_1308-IMG_1358
 iphone_count: 44
-related: [05-keya-kurotatsu-jinja]
+related: [05-keya-kurotatsu-jinja, 67-shirayamahime-jinja]
 published: 2026-08-25
 status: ready
 ---

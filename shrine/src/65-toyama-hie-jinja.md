@@ -17,7 +17,7 @@ series: []
 visited: 2025-01
 photos_iphone: IMG_0889-IMG_0921
 photo_count: 31
-related: [05-keya-kurotatsu-jinja, 06-eiheiji, 09-mishima-taisha]
+related: [05-keya-kurotatsu-jinja, 06-eiheiji, 09-mishima-taisha, 66-imizu-kushida-jinja, 67-shirayamahime-jinja]
 published: 2026-08-26
 status: ready
 ---

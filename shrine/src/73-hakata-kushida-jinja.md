@@ -19,7 +19,7 @@ photos:
 photo_count: 0
 photos_iphone: IMG_2475-IMG_2495
 iphone_count: 18
-related: [11-dazaifu-tenmangu, 72-munakata-taisha, 10-miyajidake-jinja]
+related: [11-dazaifu-tenmangu, 72-munakata-taisha, 10-miyajidake-jinja, 66-imizu-kushida-jinja]
 published: 2026-08-20
 status: ready
 ---

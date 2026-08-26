@@ -882,24 +882,28 @@
       "slug": "66-imizu-kushida-jinja",
       "title": "櫛田神社（射水）",
       "type": "神社",
-      "prefecture": "富山県",
+      "prefecture": "富山縣",
       "city": "射水市串田",
       "trip": "T2",
       "series": [],
-      "visited": "2025-01"
+      "visited": "2025-01",
+      "lat": 36.692407,
+      "lng": 137.044185
     },
     {
       "no": "67",
       "slug": "67-shirayamahime-jinja",
       "title": "白山比咩神社",
       "type": "神社",
-      "prefecture": "石川県",
+      "prefecture": "石川縣",
       "city": "白山市三宮町",
       "trip": "T2",
       "series": [
         "S2"
       ],
-      "visited": "2025-02"
+      "visited": "2025-02",
+      "lat": 36.434859,
+      "lng": 136.636455
     },
     {
       "no": "68",
