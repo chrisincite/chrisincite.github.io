@@ -2,9 +2,72 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 40,
+  "count": 42,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/16",
+      "no": "69",
+      "slug": "69-wakasahime-jinja",
+      "title": "若狹姬神社",
+      "title_ja": "若狭姫神社",
+      "kana": "わかさひめじんじゃ",
+      "type": "神社",
+      "prefecture": "福井縣",
+      "city": "小濱市遠敷",
+      "lat": "35.478958",
+      "lng": "135.780211",
+      "enshrined": "豐玉姬命",
+      "rank": "若狹國一之宮（下社）・名神大社・舊國幣中社",
+      "trip": "T2",
+      "series": [
+        "S5"
+      ],
+      "visited": "2025-02",
+      "published": "2026-08-26",
+      "hook": "從東小濱驛往南走 10 分鐘，一條石造鳥居底下的直參道，兩側是杉。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/69-wakasahime-jinja-01.webp",
+      "photos": 11,
+      "related": [
+        "68-kehi-jingu",
+        "05-keya-kurotatsu-jinja",
+        "06-eiheiji",
+        "24-omiwa-jinja"
+      ],
+      "url": "shrine/69-wakasahime-jinja.html",
+      "markdown": "shrine/69-wakasahime-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/15",
+      "no": "68",
+      "slug": "68-kehi-jingu",
+      "title": "氣比神宮",
+      "title_ja": "氣比神宮",
+      "kana": "けひじんぐう",
+      "type": "神社",
+      "prefecture": "福井縣",
+      "city": "敦賀市曙町",
+      "lat": "35.654780",
+      "lng": "136.074722",
+      "enshrined": "伊奢沙別命（氣比大神）・仲哀天皇・神功皇后・應神天皇・日本武尊・玉姬命・武內宿禰命",
+      "rank": "越前國一之宮・名神大社・舊官幣大社",
+      "trip": "T2",
+      "series": [
+        "S5"
+      ],
+      "visited": "2025-02",
+      "published": "2026-08-26",
+      "hook": "冬天的敦賀，神宮六點才開門。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/68-kehi-jingu-01.webp",
+      "photos": 11,
+      "related": [
+        "05-keya-kurotatsu-jinja",
+        "06-eiheiji",
+        "69-wakasahime-jinja"
+      ],
+      "url": "shrine/68-kehi-jingu.html",
+      "markdown": "shrine/68-kehi-jingu.md"
+    },
     {
       "short": "https://os.housearch.net/s/14",
       "no": "65",

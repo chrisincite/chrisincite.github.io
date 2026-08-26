@@ -906,26 +906,30 @@
       "slug": "68-kehi-jingu",
       "title": "氣比神宮",
       "type": "神社",
-      "prefecture": "福井県",
+      "prefecture": "福井縣",
       "city": "敦賀市曙町",
       "trip": "T2",
       "series": [
         "S5"
       ],
-      "visited": "2025-02"
+      "visited": "2025-02",
+      "lat": 35.65478,
+      "lng": 136.074722
     },
     {
       "no": "69",
       "slug": "69-wakasahime-jinja",
-      "title": "若狹姬神社（若狹彥神社下社）",
+      "title": "若狹姬神社",
       "type": "神社",
-      "prefecture": "福井県",
-      "city": "小浜市遠敷",
+      "prefecture": "福井縣",
+      "city": "小濱市遠敷",
       "trip": "T2",
-      "series": [],
+      "series": [
+        "S5"
+      ],
       "visited": "2025-02",
-      "lat": 35.479058,
-      "lng": 135.780525
+      "lat": 35.478958,
+      "lng": 135.780211
     },
     {
       "no": "70",
