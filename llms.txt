@@ -24,10 +24,14 @@
 
 ## 神社寺廟散策地圖
 
-走過的日本神社寺廟，一座一篇（規劃 140 座，已發佈 36 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
+走過的日本神社寺廟，一座一篇（規劃 140 座，已發佈 40 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（創祀與祭神之認定）、`#geography`（立地）、`#architecture`（參道形制與空間效果）、`#community`（與地方的關係）、`#festival`（祭儀與授与品）、`#walk`（晨間散策路線）。其中 `#origin` 與 `#community` 的**標題每篇量身**，錨點不變。
 
+- [日枝神社（富山）](https://chrisincite.github.io/shrine/65-toyama-hie-jinja.md)：一月底的富山，前一晚下過雪。（富山縣・富山市山王町）
+- [三嶋大社](https://chrisincite.github.io/shrine/09-mishima-taisha.md)：早上九點的三島，天空剛放晴，參道兩側的枝垂櫻還是一片枯枝。（靜岡縣・三島市大宮町）
+- [月夜見宮](https://chrisincite.github.io/shrine/08-tsukiyomi-no-miya.md)：伊勢市站前有商店街、有旅館、有便利商店。（三重縣・伊勢市宮後）
+- [大村神社](https://chrisincite.github.io/shrine/07-omura-jinja.md)：近鐵大阪線的青山町站，特急停。（三重縣・伊賀市阿保）
 - [永平寺](https://chrisincite.github.io/shrine/06-eiheiji.md)：從門前的石畳走上去，兩側是店，中間是永平寺川，護岸砌著石頭。（福井縣・吉田郡永平寺町志比）
 - [毛谷黑龍神社](https://chrisincite.github.io/shrine/05-keya-kurotatsu-jinja.md)：足羽山東麓，一座石造鳥居，兩邊各立一塊社號標——左邊刻「西宮惠比須神社」，（福井縣・福井市毛矢）
 - [戶隱神社](https://chrisincite.github.io/shrine/04-togakushi-jinja.md)：一月底的戶隱，雪下到把屋頂的形狀抹平。（長野縣・長野市戶隱）
