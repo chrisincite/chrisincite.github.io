@@ -2,9 +2,27 @@
   "site": "CHRIS OS",
   "description": "Chris 的讀書筆記——讀完之後自己想了什麼。",
   "canonical_base": "https://chrisincite.github.io",
-  "updated": "2026-08-25",
-  "count": 12,
+  "updated": "2026-08-27",
+  "count": 13,
   "notes": [
+    {
+      "short": "https://os.housearch.net/n/d",
+      "slug": "20260827-gmap-route-map",
+      "published_at": "2026-08-27",
+      "date": "2026-08-27",
+      "title": "Chris 筆記｜自繪散策地圖的解法是圖文分離：Google 給底圖，路線自己畫",
+      "hook": "最近開始迷上了自繪散策地圖，試過很多種方法，包括在 Google Map 上直接操作，或者通過 Claude Code 利用 SVG 或 t",
+      "tags": [],
+      "cover": "img/20260827-gmap-route-map-cover.png",
+      "url": "notes/20260827-gmap-route-map.html",
+      "markdown": "notes/20260827-gmap-route-map.md",
+      "source": {
+        "title": "開始使用 Google 地圖平台",
+        "site": "developers.google.com",
+        "url": "https://developers.google.com/maps/get-started?hl=zh-tw",
+        "published": "2026-07-12"
+      }
+    },
     {
       "short": "https://os.housearch.net/n/c",
       "slug": "20260825-fences-not-sandboxes",

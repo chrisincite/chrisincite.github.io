@@ -9,6 +9,7 @@
 
 格式固定為三段：**我的想法**（Chris 本人的評註，錨點 #my-take）、**這篇在說什麼**（重點整理，錨點 #summary）、**原文金句**（引用，錨點 #quotes）。
 
+- [Chris 筆記｜自繪散策地圖的解法是圖文分離：Google 給底圖，路線自己畫](https://chrisincite.github.io/notes/20260827-gmap-route-map.md)：最近開始迷上了自繪散策地圖，試過很多種方法，包括在 Google Map 上直接操作，或者通過 Claude Code 利用 SVG 或 t（原文：開始使用 Google 地圖平台）
 - [Chris 筆記｜圍籬，而非沙盒——Steve Yegge](https://chrisincite.github.io/notes/20260825-fences-not-sandboxes.md)：這位遊戲開發ㄓ商很有意思，做了常人難以模仿的事，就是用大量的 Fable5 模型當 Agent 團隊的隊長，搭配 sol 及 opus 的 
 - [Chris 筆記｜我們用AI把生產力拉到三倍，卻把團隊留在了原地](https://chrisincite.github.io/notes/20260822-ai-productivity-team-divide.md)：最近讀到的文章，這一篇肯定是最讓我心有所感的。
 - [Chris 筆記｜第二大腦不是儲存系統，是編譯器](https://chrisincite.github.io/notes/20260822-second-brain-compiler.md)：我很久之前就做了 RAG，的確讓我的 RAW materials 看起來更加方便整理了，然後之前聽了 Karpathy 的分享，也開始建構多
