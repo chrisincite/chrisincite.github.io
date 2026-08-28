@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 46,
+  "count": 48,
   "planned": 140,
   "shrines": [
     {
@@ -66,6 +66,68 @@
       ],
       "url": "shrine/70-ise-jingu-naiku.html",
       "markdown": "shrine/70-ise-jingu-naiku.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/1c",
+      "no": "02",
+      "slug": "02-susa-jinja",
+      "title": "須佐神社",
+      "title_ja": "須佐神社",
+      "kana": "すさじんじゃ",
+      "type": "神社",
+      "prefecture": "島根縣",
+      "city": "出雲市佐田町須佐",
+      "lat": "35.23469",
+      "lng": "132.73693",
+      "enshrined": "須佐能袁命（須佐之男命）・稻田比賣命・足摩槌命・手摩槌命",
+      "rank": "式內社・舊國幣小社・別表神社",
+      "trip": "T1",
+      "series": [
+        "S3"
+      ],
+      "visited": "2024-10",
+      "published": "2026-08-28",
+      "hook": "須佐是一塊被山圍起來的小盆地。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/02-susa-jinja-01.webp",
+      "photos": 13,
+      "related": [
+        "01-kamigami-jinja",
+        "63-izumo-oyashiro",
+        "44-hinomisaki-jinja"
+      ],
+      "url": "shrine/02-susa-jinja.html",
+      "markdown": "shrine/02-susa-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/1b",
+      "no": "01",
+      "slug": "01-kamigami-jinja",
+      "title": "城上神社",
+      "title_ja": "城上神社",
+      "kana": "きがみじんじゃ",
+      "type": "神社",
+      "prefecture": "島根縣",
+      "city": "大田市大森町",
+      "lat": "35.1226068",
+      "lng": "132.4484662",
+      "enshrined": "大物主大神（倭大物主櫛瓱魂命）",
+      "rank": "式內社・舊縣社・島根縣特別神社",
+      "trip": "T1",
+      "series": [
+        "S3"
+      ],
+      "visited": "2024-10",
+      "published": "2026-08-28",
+      "hook": "大森是一條路。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/01-kamigami-jinja-01.webp",
+      "photos": 11,
+      "related": [
+        "02-susa-jinja",
+        "63-izumo-oyashiro",
+        "56-kameido-tenjinja"
+      ],
+      "url": "shrine/01-kamigami-jinja.html",
+      "markdown": "shrine/01-kamigami-jinja.md"
     },
     {
       "short": "https://os.housearch.net/s/16",
