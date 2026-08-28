@@ -25,10 +25,12 @@
 
 ## 神社寺廟散策地圖
 
-走過的日本神社寺廟，一座一篇（規劃 140 座，已發佈 44 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
+走過的日本神社寺廟，一座一篇（規劃 140 座，已發佈 46 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（創祀與祭神之認定）、`#geography`（立地）、`#architecture`（參道形制與空間效果）、`#community`（與地方的關係）、`#festival`（祭儀與授与品）、`#walk`（晨間散策路線）。其中 `#origin` 與 `#community` 的**標題每篇量身**，錨點不變。
 
+- [伊勢神宮外宮（豐受大神宮）](https://chrisincite.github.io/shrine/71-ise-jingu-geku.md)：伊勢市站出來往西南，前四百公尺是外宮參道，昭和初期這裡曾以日本三大旅館街之一而繁盛。（三重縣・伊勢市豐川町）
+- [伊勢神宮內宮（皇大神宮）](https://chrisincite.github.io/shrine/70-ise-jingu-naiku.md)：近鐵五十鈴川站出來往南，市街的柏油路走十三分鐘，右手邊出現一片樹。（三重縣・伊勢市宇治館町）
 - [若狹姬神社](https://chrisincite.github.io/shrine/69-wakasahime-jinja.md)：從東小濱驛往南走 11 分鐘，一條石造鳥居底下的直參道，兩側是杉。（福井縣・小濱市遠敷）
 - [氣比神宮](https://chrisincite.github.io/shrine/68-kehi-jingu.md)：冬天的敦賀，神宮六點才開門。（福井縣・敦賀市曙町）
 - [白山比咩神社](https://chrisincite.github.io/shrine/67-shirayamahime-jinja.md)：手取川離開山的地方叫鶴來。（石川縣・白山市三宮町）

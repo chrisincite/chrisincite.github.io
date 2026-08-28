@@ -18,7 +18,7 @@ visited: 2025-02
 photos: DSC01743-DSC01764
 photo_count: 22
 actual_count: 22
-related: [08-tsukiyomi-no-miya, 22-kinoe-kamo-jinja, 24-omiwa-jinja]
+related: [08-tsukiyomi-no-miya, 71-ise-jingu-geku, 22-kinoe-kamo-jinja, 24-omiwa-jinja]
 published: 2026-08-26
 status: ready
 ---

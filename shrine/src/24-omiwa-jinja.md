@@ -18,7 +18,7 @@ photos: DSC03543-DSC03555
 photo_count: 13
 photos_iphone: IMG_4675-IMG_4682
 iphone_count: 8
-related: [25-yoshino-jingu, 26-kinpusenji, 84-isonokami-jingu]
+related: [25-yoshino-jingu, 26-kinpusenji, 84-isonokami-jingu, 70-ise-jingu-naiku]
 published: 2026-08-23
 status: ready
 ---

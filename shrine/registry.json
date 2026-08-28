@@ -938,28 +938,32 @@
     {
       "no": "70",
       "slug": "70-ise-jingu-naiku",
-      "title": "伊勢神宮内宮（皇大神宮）",
+      "title": "伊勢神宮內宮（皇大神宮）",
       "type": "神社",
-      "prefecture": "三重県",
+      "prefecture": "三重縣",
       "city": "伊勢市宇治館町",
       "trip": "T2",
       "series": [
         "S1"
       ],
-      "visited": "2025-02"
+      "visited": "2025-02",
+      "lat": 34.45502,
+      "lng": 136.72519
     },
     {
       "no": "71",
       "slug": "71-ise-jingu-geku",
-      "title": "伊勢神宮外宮（豊受大神宮）",
+      "title": "伊勢神宮外宮（豐受大神宮）",
       "type": "神社",
-      "prefecture": "三重県",
-      "city": "伊勢市豊川町",
+      "prefecture": "三重縣",
+      "city": "伊勢市豐川町",
       "trip": "T2",
       "series": [
         "S1"
       ],
-      "visited": "2025-02"
+      "visited": "2025-02",
+      "lat": 34.48713,
+      "lng": 136.70327
     },
     {
       "no": "72",

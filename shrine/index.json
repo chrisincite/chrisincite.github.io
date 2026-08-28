@@ -2,9 +2,71 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 44,
+  "count": 46,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/1a",
+      "no": "71",
+      "slug": "71-ise-jingu-geku",
+      "title": "伊勢神宮外宮（豐受大神宮）",
+      "title_ja": "豊受大神宮",
+      "kana": "とようけだいじんぐう",
+      "type": "神社",
+      "prefecture": "三重縣",
+      "city": "伊勢市豐川町",
+      "lat": "34.48713",
+      "lng": "136.70327",
+      "enshrined": "豐受大御神",
+      "rank": "天照大御神的御饌都神｜雄略天皇二十二年（478）御鎮座",
+      "trip": "T2",
+      "series": [
+        "S1"
+      ],
+      "visited": "2025-02",
+      "published": "2026-08-28",
+      "hook": "伊勢市站出來往西南，前四百公尺是外宮參道，昭和初期這裡曾以日本三大旅館街之一而繁盛。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-01.webp",
+      "photos": 9,
+      "related": [
+        "70-ise-jingu-naiku",
+        "08-tsukiyomi-no-miya",
+        "07-omura-jinja"
+      ],
+      "url": "shrine/71-ise-jingu-geku.html",
+      "markdown": "shrine/71-ise-jingu-geku.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/19",
+      "no": "70",
+      "slug": "70-ise-jingu-naiku",
+      "title": "伊勢神宮內宮（皇大神宮）",
+      "title_ja": "皇大神宮",
+      "kana": "こうたいじんぐう",
+      "type": "神社",
+      "prefecture": "三重縣",
+      "city": "伊勢市宇治館町",
+      "lat": "34.45502",
+      "lng": "136.72519",
+      "enshrined": "天照大御神",
+      "rank": "神宮的中心｜全國神社的本宗｜垂仁天皇二十六年（紀元前四年）御鎮座",
+      "trip": "T2",
+      "series": [
+        "S1"
+      ],
+      "visited": "2025-02",
+      "published": "2026-08-28",
+      "hook": "近鐵五十鈴川站出來往南，市街的柏油路走十三分鐘，右手邊出現一片樹。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/70-ise-jingu-naiku-01.webp",
+      "photos": 9,
+      "related": [
+        "71-ise-jingu-geku",
+        "08-tsukiyomi-no-miya",
+        "24-omiwa-jinja"
+      ],
+      "url": "shrine/70-ise-jingu-naiku.html",
+      "markdown": "shrine/70-ise-jingu-naiku.md"
+    },
     {
       "short": "https://os.housearch.net/s/16",
       "no": "69",
@@ -216,6 +278,8 @@
       "photos": 7,
       "related": [
         "07-omura-jinja",
+        "70-ise-jingu-naiku",
+        "71-ise-jingu-geku",
         "24-omiwa-jinja",
         "140-kamigamo-jinja"
       ],
@@ -247,6 +311,7 @@
       "photos": 10,
       "related": [
         "08-tsukiyomi-no-miya",
+        "71-ise-jingu-geku",
         "22-kinoe-kamo-jinja",
         "24-omiwa-jinja"
       ],
@@ -600,7 +665,8 @@
       "related": [
         "25-yoshino-jingu",
         "26-kinpusenji",
-        "84-isonokami-jingu"
+        "84-isonokami-jingu",
+        "70-ise-jingu-naiku"
       ],
       "url": "shrine/24-omiwa-jinja.html",
       "markdown": "shrine/24-omiwa-jinja.md"

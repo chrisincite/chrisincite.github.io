@@ -20,7 +20,7 @@ photo_count: 2
 photos_iphone: IMG_1736-IMG_1737
 iphone_count: 2
 actual_count: 4
-related: [07-omura-jinja, 24-omiwa-jinja, 140-kamigamo-jinja]
+related: [07-omura-jinja, 70-ise-jingu-naiku, 71-ise-jingu-geku, 24-omiwa-jinja, 140-kamigamo-jinja]
 published: 2026-08-26
 status: ready
 ---
