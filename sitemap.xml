@@ -519,6 +519,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/shrine/all.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/llms.txt</loc>
     <priority>0.5</priority>
   </url>

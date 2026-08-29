@@ -1124,6 +1124,9 @@ def write_sitemap(notes, shrines=()):
         # 所以不給 lastmod，只給優先度。
         urls.append(("%s/%s" % (CANONICAL_BASE, s["url"]), None, "0.8"))
         urls.append(("%s/%s" % (CANONICAL_BASE, s["markdown"]), None, "0.5"))
+    if shrines:
+        # 全部散策篇的一覽頁（手寫的靜態頁，資料從 shrine/index.json 前端讀）
+        urls.append((CANONICAL_BASE + "/shrine/all.html", None, "0.6"))
     urls.append((CANONICAL_BASE + "/llms.txt", None, "0.5"))
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',

@@ -898,6 +898,38 @@ body {
   margin-bottom: 8px;
 }
 
+/* 列表預設只出十筆——散策篇會一路長到上百，一次全灌進 DOM 會拖慢首屏。
+   要一眼看全部的走 shrine/all.html（另開一頁，三欄卡片） */
+.sh-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.sh-more button {
+  font-family: 'Fira Code', monospace;
+  font-size: 11.5px;
+  letter-spacing: 0.04em;
+  padding: 9px 22px;
+  border-radius: 999px;
+  border: 1px solid rgba(32, 34, 46, 0.15);
+  background: transparent;
+  color: var(--ink-light);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.sh-more button:hover { border-color: var(--indigo); color: var(--indigo); }
+.sh-more .sh-more-all {
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--ink-faint);
+  text-decoration: none;
+}
+.sh-more .sh-more-all:hover { color: var(--indigo); }
+
 /* 全部座數的名錄——已寫的可以點，沒寫的只列出來。座數由 registry.json 決定，不寫死 */
 .sh-roster { margin-top: 46px; }
 .sh-roster-head {
@@ -1385,6 +1417,11 @@ a.sh-item .sh-no { color: var(--vermilion); }
 
     <div id="shrineList" class="notes-list">
       <p class="notes-empty">載入中…</p>
+    </div>
+
+    <div class="sh-more" id="shrineMore" hidden>
+      <button type="button" id="shrineMoreBtn">載入更多</button>
+      <a class="sh-more-all" href="shrine/all.html" target="_blank" rel="noopener">新頁看全部 ↗</a>
     </div>
 
     <section class="sh-roster">
@@ -1887,31 +1924,50 @@ a.sh-item .sh-no { color: var(--vermilion); }
 
   function shrineIcon(type) { return type === '寺院' ? '卍' : '⛩'; }
 
+  // 首屏只出十筆，之後每按一次「載入更多」再追加十筆。
+  var SHRINE_PAGE = 10;
+  var shrineShown = SHRINE_PAGE;
+
+  function shrineCard(s) {
+    var thumb = s.cover
+      ? '<img class="nc-thumb" src="' + esc(/^https?:\/\//.test(s.cover) ? s.cover : 'shrine/' + s.cover) + '" alt="" loading="lazy">'
+      : '<div class="nc-thumb placeholder">' + shrineIcon(s.type) + '</div>';
+    var where = [s.prefecture, s.city].filter(Boolean).join('・');
+    var meta = [where, s.visited].filter(Boolean).join(' · ');
+    var ja = s.title_ja + (s.kana ? '\u3000' + s.kana : '');
+    return '<a class="note-card" href="' + esc(s.url) + '">' +
+      '<div>' + thumb + '</div>' +
+      '<div>' +
+        '<div class="nc-where">' + esc(meta) + '</div>' +
+        '<h3>' + esc(s.title) + '</h3>' +
+        '<p class="nc-ja">' + esc(ja) + '</p>' +
+        '<p class="nc-hook">' + esc(s.hook) + '</p>' +
+        (s.enshrined ? '<p class="nc-src">祭神：' + esc(s.enshrined) + '</p>' : '') +
+      '</div>' +
+    '</a>';
+  }
+
   function renderShrines(shrines) {
     var list = document.getElementById('shrineList');
+    var more = document.getElementById('shrineMore');
+    var btn = document.getElementById('shrineMoreBtn');
     if (!list) return;
     if (!shrines.length) {
       list.innerHTML = '<p class="notes-empty">還沒有發佈的散策篇。</p>';
+      if (more) more.hidden = true;
       return;
     }
-    list.innerHTML = shrines.map(function(s) {
-      var thumb = s.cover
-        ? '<img class="nc-thumb" src="' + esc(/^https?:\/\//.test(s.cover) ? s.cover : 'shrine/' + s.cover) + '" alt="" loading="lazy">'
-        : '<div class="nc-thumb placeholder">' + shrineIcon(s.type) + '</div>';
-      var where = [s.prefecture, s.city].filter(Boolean).join('・');
-      var meta = [where, s.visited].filter(Boolean).join(' · ');
-      var ja = s.title_ja + (s.kana ? '　' + s.kana : '');
-      return '<a class="note-card" href="' + esc(s.url) + '">' +
-        '<div>' + thumb + '</div>' +
-        '<div>' +
-          '<div class="nc-where">' + esc(meta) + '</div>' +
-          '<h3>' + esc(s.title) + '</h3>' +
-          '<p class="nc-ja">' + esc(ja) + '</p>' +
-          '<p class="nc-hook">' + esc(s.hook) + '</p>' +
-          (s.enshrined ? '<p class="nc-src">祭神：' + esc(s.enshrined) + '</p>' : '') +
-        '</div>' +
-      '</a>';
-    }).join('');
+    var n = Math.min(shrineShown, shrines.length);
+    list.innerHTML = shrines.slice(0, n).map(shrineCard).join('');
+    if (more) {
+      // 全部都出來了就只留「新頁看全部」的入口，按鈕收起來
+      more.hidden = false;
+      if (btn) {
+        var rest = shrines.length - n;
+        btn.hidden = rest <= 0;
+        btn.textContent = '載入更多（還有 ' + rest + ' 篇）';
+      }
+    }
   }
 
   function renderRoster(places, publishedBySlug, groupBy) {
@@ -1967,6 +2023,14 @@ a.sh-item .sh-no { color: var(--vermilion); }
 
     renderShrines(shrines);
     renderRoster(places, bySlug, 'trip');
+
+    var moreBtn = document.getElementById('shrineMoreBtn');
+    if (moreBtn) {
+      moreBtn.addEventListener('click', function() {
+        shrineShown += SHRINE_PAGE;
+        renderShrines(shrines);
+      });
+    }
 
     var toggle = document.getElementById('shrineToggle');
     if (toggle) {

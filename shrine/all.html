@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全部散策篇 — 神社寺廟散策 · CHRIS OS</title>
+<meta name="description" content="已發佈的日本神社寺廟散策篇全覽——一頁列出全部，電腦版三欄卡片，手機版一欄。">
+<meta name="author" content="Chris Hsu">
+<link rel="canonical" href="https://chrisincite.github.io/shrine/all.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="全部散策篇 — 神社寺廟散策">
+<meta property="og:description" content="已發佈的日本神社寺廟散策篇全覽。">
+<meta property="og:url" content="https://chrisincite.github.io/shrine/all.html">
+<meta property="og:locale" content="zh_TW">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⛩️</text></svg>">
+<link rel="apple-touch-icon" sizes="180x180" href="/icon/icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="application/json" href="/shrine/index.json" title="神社寺廟散策索引">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/shrine.css">
+<style>
+/* ============================================
+   全部散策篇一覽
+   排版跟首頁那份十筆的列表刻意不同：首頁是橫式（縮圖在左），
+   這裡一欄放多筆、卡片改直式，電腦版最多三欄、手機版一欄。
+   ============================================ */
+.sa-wrap { max-width: 1180px; margin: 0 auto; padding: 52px 24px 110px; }
+
+.sa-head { margin-bottom: 34px; }
+.sa-kicker {
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--ink-faint);
+  margin-bottom: 14px;
+}
+.sa-head h1 {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 900;
+  font-size: clamp(26px, 4.2vw, 38px);
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  margin-bottom: 12px;
+}
+.sa-head p {
+  max-width: 720px;
+  font-size: 14.5px;
+  color: var(--ink-light);
+}
+.sa-bar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-bottom: 12px;
+  margin-bottom: 22px;
+  border-bottom: 1px solid rgba(32, 34, 46, 0.12);
+  font-family: 'Fira Code', monospace;
+  font-size: 11.5px;
+  letter-spacing: 0.04em;
+  color: var(--ink-faint);
+}
+.sa-bar a { color: var(--ink-light); text-decoration: none; }
+.sa-bar a:hover { color: var(--indigo); }
+
+.sa-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+@media (max-width: 1000px) { .sa-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 680px)  { .sa-grid { grid-template-columns: 1fr; gap: 16px; } }
+
+.sa-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid rgba(32, 34, 46, 0.08);
+  border-radius: 12px;
+  padding: 16px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.sa-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(58, 95, 168, 0.3);
+  box-shadow: 0 12px 32px rgba(32, 34, 46, 0.1);
+}
+.sa-card .sa-thumb {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px;
+  background: var(--paper-dark);
+  display: block;
+  margin-bottom: 14px;
+}
+.sa-card .sa-thumb.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: var(--ink-faint);
+}
+.sa-card .sa-where {
+  font-family: 'Fira Code', monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+  margin-bottom: 6px;
+}
+.sa-card .sa-where b { color: var(--vermilion); font-weight: 500; margin-right: 8px; }
+.sa-card h2 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.45;
+  margin-bottom: 6px;
+}
+.sa-card .sa-ja {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 12.5px;
+  color: var(--ink-faint);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.sa-card .sa-hook {
+  font-size: 13px;
+  color: var(--ink-light);
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+.sa-card .sa-god {
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px dashed rgba(32, 34, 46, 0.1);
+  font-size: 11.5px;
+  color: var(--ink-faint);
+  line-height: 1.6;
+}
+.sa-empty { color: var(--ink-faint); font-size: 14px; }
+.sa-foot {
+  margin-top: 40px;
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  color: var(--ink-faint);
+}
+</style>
+</head>
+<body>
+
+<nav class="note-topbar">
+  <a class="tb-brand" href="../index.html">CHRIS OS</a>
+  <a href="../index.html#shrine">神社寺廟散策地圖</a>
+  <span class="tb-spacer"></span>
+  <a href="./index.json">index.json</a>
+</nav>
+
+<div class="sa-wrap">
+  <header class="sa-head">
+    <p class="sa-kicker">⛩ 神社寺廟散策 · 全部篇章</p>
+    <h1>走過的鳥居與山門</h1>
+    <p>已發佈的散策篇一頁列全。每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料；篇末是一條方圓三到五公里的晨間散步路線。</p>
+  </header>
+
+  <div class="sa-bar">
+    <span id="saCount">載入中…</span>
+    <a href="../index.html#shrine">← 回散策地圖（含未發佈的全座名錄）</a>
+  </div>
+
+  <div class="sa-grid" id="saGrid">
+    <p class="sa-empty">載入中…</p>
+  </div>
+
+  <p class="sa-foot">// 走訪期間 2024-10 至 2026-07，共七趟。編號是走訪的時間序，一經發佈不再變動。</p>
+</div>
+
+<script>
+(function () {
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function icon(type) { return type === '寺院' ? '卍' : '⛩'; }
+
+  // index.json 裡的 url 是站台根目錄相對（shrine/xx.html），這頁自己就在 shrine/ 底下，
+  // 所以要把前綴剝掉；cover 已經是 shrine-img 的絕對網址，不能再拼相對路徑。
+  function href(url) { return String(url || '').replace(/^shrine\//, ''); }
+  function cover(src) { return /^https?:\/\//.test(src) ? src : href(src); }
+
+  var grid = document.getElementById('saGrid');
+  var countEl = document.getElementById('saCount');
+
+  fetch('./index.json')
+    .then(function (r) { return r.ok ? r.json() : { shrines: [] }; })
+    .then(function (data) {
+      var shrines = data.shrines || [];
+      if (!shrines.length) {
+        grid.innerHTML = '<p class="sa-empty">還沒有發佈的散策篇。</p>';
+        countEl.textContent = '0 篇';
+        return;
+      }
+      countEl.textContent = '已發佈 ' + shrines.length + ' 篇 / 全 ' +
+        (data.planned || shrines.length) + ' 座';
+      grid.innerHTML = shrines.map(function (s) {
+        var thumb = s.cover
+          ? '<img class="sa-thumb" src="' + esc(cover(s.cover)) + '" alt="" loading="lazy">'
+          : '<div class="sa-thumb placeholder">' + icon(s.type) + '</div>';
+        var where = [s.prefecture, s.city].filter(Boolean).join('・');
+        var meta = [where, s.visited].filter(Boolean).join(' · ');
+        var ja = s.title_ja + (s.kana ? '　' + s.kana : '');
+        return '<a class="sa-card" href="' + esc(href(s.url)) + '">' +
+          thumb +
+          '<div class="sa-where"><b>' + esc(s.no) + '</b>' + esc(meta) + '</div>' +
+          '<h2>' + icon(s.type) + ' ' + esc(s.title) + '</h2>' +
+          '<p class="sa-ja">' + esc(ja) + '</p>' +
+          '<p class="sa-hook">' + esc(s.hook) + '</p>' +
+          (s.enshrined ? '<p class="sa-god">祭神：' + esc(s.enshrined) + '</p>' : '') +
+        '</a>';
+      }).join('');
+    })
+    .catch(function () {
+      grid.innerHTML = '<p class="sa-empty">散策資料載入失敗——若是本機直接開啟檔案，請改用 http 伺服器檢視。</p>';
+      countEl.textContent = '';
+    });
+})();
+</script>
+</body>
+</html>
