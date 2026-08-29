@@ -25,10 +25,13 @@
 
 ## 神社寺廟散策地圖
 
-走過的日本神社寺廟，一座一篇（規劃 140 座，已發佈 50 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
+走過的日本神社寺廟，一座一篇（規劃 140 座，已發佈 53 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（創祀與祭神之認定）、`#geography`（立地）、`#architecture`（參道形制與空間效果）、`#community`（與地方的關係）、`#festival`（祭儀與授与品）、`#walk`（晨間散策路線）。其中 `#origin` 與 `#community` 的**標題每篇量身**，錨點不變。
 
+- [千歲神社](https://chrisincite.github.io/shrine/61-chitose-jinja.md)：千歲這個地名，是在這座神社的一只廚子背後被寫下來的。（北海道・千歲市真町）
+- [美瑛神社](https://chrisincite.github.io/shrine/60-biei-jinja.md)：從美瑛驛往東走一點二公里，地面慢慢抬高十公尺，（北海道・上川郡美瑛町東町）
+- [旭川神社](https://chrisincite.github.io/shrine/59-asahikawa-jinja.md)：從東旭川驛出來，先看到的是條丁目。（北海道・旭川市東旭川南一條）
 - [豐平神社](https://chrisincite.github.io/shrine/58-toyohira-jinja.md)：從地下鐵豐平公園驛出來，走三分鐘到一座公園——那塊地以前是農林水產省的林業試驗場。（北海道・札幌市豐平區豐平四條）
 - [北海道神宮](https://chrisincite.github.io/shrine/57-hokkaido-jingu.md)：地下鐵圓山公園驛出來，往北一條通走五百公尺，路口立著第一鳥居。（北海道・札幌市中央區宮ヶ丘）
 - [伊勢神宮外宮（豐受大神宮）](https://chrisincite.github.io/shrine/71-ise-jingu-geku.md)：伊勢市站出來往西南，前四百公尺是外宮參道，昭和初期這裡曾以日本三大旅館街之一而繁盛。（三重縣・伊勢市豐川町）
