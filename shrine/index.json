@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 59,
+  "count": 60,
   "planned": 140,
   "shrines": [
     {
@@ -87,6 +87,34 @@
       ],
       "url": "shrine/123-saihoji-fumeikaku.html",
       "markdown": "shrine/123-saihoji-fumeikaku.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/1o",
+      "no": "120",
+      "slug": "120-atama-daibutsu-den",
+      "title": "頭大佛殿（真駒內瀧野靈園）",
+      "title_ja": "頭大仏殿（真駒内滝野霊園）",
+      "kana": "あたまだいぶつでん",
+      "type": "寺院",
+      "prefecture": "北海道",
+      "city": "札幌市南區瀧野",
+      "lat": "42.920567",
+      "lng": "141.362788",
+      "enshrined": "石像大佛",
+      "rank": "公益社團法人經營的公園墓園內禮拜設施（非宗教法人）",
+      "trip": "T1",
+      "series": [],
+      "visited": "2024-10",
+      "published": "2026-08-31",
+      "hook": "從札幌市中心往南開四十幾分鐘，路一直在爬，最後停在一個叫瀧野峠的公車站。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/120-atama-daibutsu-den-01.webp",
+      "photos": 8,
+      "related": [
+        "57-hokkaido-jingu",
+        "58-toyohira-jinja"
+      ],
+      "url": "shrine/120-atama-daibutsu-den.html",
+      "markdown": "shrine/120-atama-daibutsu-den.md"
     },
     {
       "short": "https://os.housearch.net/s/1k",
