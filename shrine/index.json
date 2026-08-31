@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 60,
+  "count": 62,
   "planned": 140,
   "shrines": [
     {
@@ -87,6 +87,64 @@
       ],
       "url": "shrine/123-saihoji-fumeikaku.html",
       "markdown": "shrine/123-saihoji-fumeikaku.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/1q",
+      "no": "122",
+      "slug": "122-tarumaesan-jinja",
+      "title": "樽前山神社",
+      "title_ja": "樽前山神社",
+      "kana": "たるまえさんじんじゃ",
+      "type": "神社",
+      "prefecture": "北海道",
+      "city": "苫小牧市高丘",
+      "lat": "42.660989",
+      "lng": "141.604240",
+      "enshrined": "大山津見神・久久能智神・鹿屋野比賣神",
+      "rank": "舊縣社・別表神社（道內第六座）・苫小牧總鎮守",
+      "trip": "T1",
+      "series": [],
+      "visited": "2024-10",
+      "published": "2026-08-31",
+      "hook": "上午十點，天空是十月北海道那種很硬的藍。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/122-tarumaesan-jinja-01.webp",
+      "photos": 8,
+      "related": [
+        "11-dazaifu-tenmangu",
+        "57-hokkaido-jingu",
+        "61-chitose-jinja"
+      ],
+      "url": "shrine/122-tarumaesan-jinja.html",
+      "markdown": "shrine/122-tarumaesan-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/1p",
+      "no": "121",
+      "slug": "121-furano-jinja",
+      "title": "富良野神社",
+      "title_ja": "富良野神社",
+      "kana": "ふらのじんじゃ",
+      "type": "神社",
+      "prefecture": "北海道",
+      "city": "富良野市若松町",
+      "lat": "43.343922",
+      "lng": "142.381697",
+      "enshrined": "大國魂神・大己貴神・少彦名神",
+      "rank": "舊鄉社・上川南部的中心神社",
+      "trip": "T1",
+      "series": [],
+      "visited": "2024-10",
+      "published": "2026-08-31",
+      "hook": "從富良野驛往西南走，十分鐘就到了。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/121-furano-jinja-01.webp",
+      "photos": 8,
+      "related": [
+        "60-biei-jinja",
+        "59-asahikawa-jinja",
+        "57-hokkaido-jingu"
+      ],
+      "url": "shrine/121-furano-jinja.html",
+      "markdown": "shrine/121-furano-jinja.md"
     },
     {
       "short": "https://os.housearch.net/s/1o",
