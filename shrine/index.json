@@ -2,9 +2,76 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 62,
+  "count": 64,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/1s",
+      "no": "32",
+      "slug": "32-jonangu",
+      "title": "城南宮",
+      "title_ja": "城南宮",
+      "kana": "じょうなんぐう",
+      "type": "神社",
+      "prefecture": "京都府",
+      "city": "京都市伏見區中島鳥羽離宮町",
+      "lat": "34.950672",
+      "lng": "135.746859",
+      "enshrined": "國常立尊・八千矛神・息長帶日賣尊（城南大神）",
+      "rank": "方除の大社",
+      "trip": "T5",
+      "series": [
+        "S7"
+      ],
+      "visited": "2025-10",
+      "published": "2026-09-01",
+      "hook": "早上從一條叫「城南宮道」的路上出發。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/32-jonangu-01.webp",
+      "photos": 9,
+      "related": [
+        "35-kumano-hongu-taisha",
+        "33-kumano-nachi-taisha",
+        "82-fushimi-inari-taisha",
+        "83-fujinomori-jinja",
+        "87-tofukuji"
+      ],
+      "url": "shrine/32-jonangu.html",
+      "markdown": "shrine/32-jonangu.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/1r",
+      "no": "31",
+      "slug": "31-izanagi-jingu",
+      "title": "伊弉諾神宮",
+      "title_ja": "伊弉諾神宮",
+      "kana": "いざなぎじんぐう",
+      "type": "神社",
+      "prefecture": "兵庫縣",
+      "city": "淡路市多賀",
+      "lat": "34.460049",
+      "lng": "134.852495",
+      "enshrined": "伊弉諾大神・伊弉冉大神",
+      "rank": "式內名神大社・淡路國一宮・舊官幣大社",
+      "trip": "T5",
+      "series": [
+        "S1"
+      ],
+      "visited": "2025-10",
+      "published": "2026-09-01",
+      "hook": "早上從海邊出發。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-01.webp",
+      "photos": 9,
+      "related": [
+        "70-ise-jingu-naiku",
+        "63-izumo-oyashiro",
+        "33-kumano-nachi-taisha",
+        "17-takachiho-jinja",
+        "16-amanoiwato-jinja",
+        "107-suwa-taisha-kamisha-honmiya"
+      ],
+      "url": "shrine/31-izanagi-jingu.html",
+      "markdown": "shrine/31-izanagi-jingu.md"
+    },
     {
       "short": "https://os.housearch.net/s/1n",
       "no": "127",
