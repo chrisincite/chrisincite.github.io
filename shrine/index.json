@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 64,
+  "count": 67,
   "planned": 140,
   "shrines": [
     {
@@ -71,6 +71,98 @@
       ],
       "url": "shrine/31-izanagi-jingu.html",
       "markdown": "shrine/31-izanagi-jingu.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/1v",
+      "no": "29",
+      "slug": "29-innoshima-oyama-jinja",
+      "title": "因島大山神社",
+      "title_ja": "大山神社",
+      "kana": "おおやまじんじゃ",
+      "type": "神社",
+      "prefecture": "廣島縣",
+      "city": "尾道市因島土生町",
+      "lat": "34.293915",
+      "lng": "133.175518",
+      "enshrined": "大山積大神（主祭神）・須佐之男命・天兒屋根命（相殿神）",
+      "rank": "因島最古之神社",
+      "trip": "T5",
+      "series": [
+        "S5"
+      ],
+      "visited": "2025-10",
+      "published": "2026-09-01",
+      "hook": "從土生港往北走 1 公里多，路邊出現一座石鳥居，後面是一段石段。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/29-innoshima-oyama-jinja-01.webp",
+      "photos": 8,
+      "related": [
+        "28-oyamazumi-jinja",
+        "27-ishizuchi-jinja",
+        "62-itsukushima-jinja"
+      ],
+      "url": "shrine/29-innoshima-oyama-jinja.html",
+      "markdown": "shrine/29-innoshima-oyama-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/1u",
+      "no": "28",
+      "slug": "28-oyamazumi-jinja",
+      "title": "大山祇神社",
+      "title_ja": "大山祇神社",
+      "kana": "おおやまづみじんじゃ",
+      "type": "神社",
+      "prefecture": "愛媛縣",
+      "city": "今治市大三島町宮浦",
+      "lat": "34.247918",
+      "lng": "133.005726",
+      "enshrined": "大山積大神（一名 和多志大神）",
+      "rank": "式內名神大社・伊予國一之宮・舊國幣大社・別表神社",
+      "trip": "T5",
+      "series": [
+        "S5"
+      ],
+      "visited": "2025-10",
+      "published": "2026-09-01",
+      "hook": "從宮浦港往東走 1 公里就到參道口。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-01.webp",
+      "photos": 8,
+      "related": [
+        "27-ishizuchi-jinja",
+        "29-innoshima-oyama-jinja",
+        "62-itsukushima-jinja"
+      ],
+      "url": "shrine/28-oyamazumi-jinja.html",
+      "markdown": "shrine/28-oyamazumi-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/1t",
+      "no": "27",
+      "slug": "27-ishizuchi-jinja",
+      "title": "石鎚神社",
+      "title_ja": "石鎚神社",
+      "kana": "いしづちじんじゃ",
+      "type": "神社",
+      "prefecture": "愛媛縣",
+      "city": "西條市西田",
+      "lat": "33.889471",
+      "lng": "133.154381",
+      "enshrined": "石鎚大神（石土毘古大神）",
+      "rank": "舊縣社・別表神社・靈峰石鎚山總本宮",
+      "trip": "T5",
+      "series": [
+        "S2"
+      ],
+      "visited": "2025-10",
+      "published": "2026-09-01",
+      "hook": "從石鎚山驛出發往南走，800 公尺，海拔從 4 公尺升到 68 公尺。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/27-ishizuchi-jinja-01.webp",
+      "photos": 8,
+      "related": [
+        "28-oyamazumi-jinja",
+        "29-innoshima-oyama-jinja"
+      ],
+      "url": "shrine/27-ishizuchi-jinja.html",
+      "markdown": "shrine/27-ishizuchi-jinja.md"
     },
     {
       "short": "https://os.housearch.net/s/1n",
