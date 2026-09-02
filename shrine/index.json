@@ -2,9 +2,100 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 67,
+  "count": 70,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/1y",
+      "no": "35",
+      "slug": "35-kumano-hongu-taisha",
+      "title": "熊野本宮大社",
+      "title_ja": "熊野本宮大社",
+      "kana": "くまのほんぐうたいしゃ",
+      "type": "神社",
+      "prefecture": "和歌山縣",
+      "city": "田邊市本宮町本宮",
+      "lat": "33.8405706",
+      "lng": "135.7734753",
+      "enshrined": "家津美御子大神（素戔嗚尊）",
+      "rank": "延喜式內社（熊野坐神社・名神大社）・舊官幣大社・全國熊野神社總本宮",
+      "trip": "T5",
+      "series": [
+        "S2"
+      ],
+      "visited": "2025-10",
+      "published": "2026-09-02",
+      "hook": "從本宮大社前的巴士站走進參道，海拔六十一公尺。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/35-kumano-hongu-taisha-01.webp",
+      "photos": 8,
+      "related": [
+        "33-kumano-nachi-taisha",
+        "34-kumano-hayatama-taisha"
+      ],
+      "url": "shrine/35-kumano-hongu-taisha.html",
+      "markdown": "shrine/35-kumano-hongu-taisha.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/1x",
+      "no": "34",
+      "slug": "34-kumano-hayatama-taisha",
+      "title": "熊野速玉大社",
+      "title_ja": "熊野速玉大社",
+      "kana": "くまのはやたまたいしゃ",
+      "type": "神社",
+      "prefecture": "和歌山縣",
+      "city": "新宮市新宮",
+      "lat": "33.7322225",
+      "lng": "135.9835101",
+      "enshrined": "熊野速玉大神（伊弉諾命）・熊野夫須美大神（伊弉冉命）",
+      "rank": "舊官幣大社・別表神社・全國熊野神社總本宮",
+      "trip": "T5",
+      "series": [
+        "S2"
+      ],
+      "visited": "2025-10",
+      "published": "2026-09-02",
+      "hook": "從新宮驛出發往北，海拔八公尺；一路到熊野速玉大社，海拔十五公尺。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/34-kumano-hayatama-taisha-01.webp",
+      "photos": 8,
+      "related": [
+        "33-kumano-nachi-taisha",
+        "35-kumano-hongu-taisha",
+        "96-kamikura-jinja"
+      ],
+      "url": "shrine/34-kumano-hayatama-taisha.html",
+      "markdown": "shrine/34-kumano-hayatama-taisha.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/1w",
+      "no": "33",
+      "slug": "33-kumano-nachi-taisha",
+      "title": "熊野那智大社",
+      "title_ja": "熊野那智大社",
+      "kana": "くまのなちたいしゃ",
+      "type": "神社",
+      "prefecture": "和歌山縣",
+      "city": "東牟婁郡那智勝浦町那智山",
+      "lat": "33.668651",
+      "lng": "135.890133",
+      "enshrined": "熊野夫須美大神（伊弉冉尊）",
+      "rank": "舊官幣中社・別表神社・熊野三山之一",
+      "trip": "T5",
+      "series": [
+        "S2"
+      ],
+      "visited": "2025-10",
+      "published": "2026-09-02",
+      "hook": "從大門坂的停車場出發，海拔九十公尺。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/33-kumano-nachi-taisha-01.webp",
+      "photos": 8,
+      "related": [
+        "34-kumano-hayatama-taisha",
+        "35-kumano-hongu-taisha"
+      ],
+      "url": "shrine/33-kumano-nachi-taisha.html",
+      "markdown": "shrine/33-kumano-nachi-taisha.md"
+    },
     {
       "short": "https://os.housearch.net/s/1s",
       "no": "32",

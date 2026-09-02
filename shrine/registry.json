@@ -481,39 +481,45 @@
       "slug": "33-kumano-nachi-taisha",
       "title": "熊野那智大社",
       "type": "神社",
-      "prefecture": "和歌山県",
-      "city": "東牟婁郡那智勝浦町",
+      "prefecture": "和歌山縣",
+      "city": "東牟婁郡那智勝浦町那智山",
       "trip": "T5",
       "series": [
         "S2"
       ],
-      "visited": "2025-10"
+      "visited": "2025-10",
+      "lat": 33.668651,
+      "lng": 135.890133
     },
     {
       "no": "34",
       "slug": "34-kumano-hayatama-taisha",
       "title": "熊野速玉大社",
       "type": "神社",
-      "prefecture": "和歌山県",
-      "city": "新宮市",
+      "prefecture": "和歌山縣",
+      "city": "新宮市新宮",
       "trip": "T5",
       "series": [
         "S2"
       ],
-      "visited": "2025-10"
+      "visited": "2025-10",
+      "lat": 33.7322225,
+      "lng": 135.9835101
     },
     {
       "no": "35",
       "slug": "35-kumano-hongu-taisha",
       "title": "熊野本宮大社",
       "type": "神社",
-      "prefecture": "和歌山県",
-      "city": "田辺市本宮町",
+      "prefecture": "和歌山縣",
+      "city": "田邊市本宮町本宮",
       "trip": "T5",
       "series": [
         "S2"
       ],
-      "visited": "2025-10"
+      "visited": "2025-10",
+      "lat": 33.8405706,
+      "lng": 135.7734753
     },
     {
       "no": "36",
