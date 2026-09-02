@@ -2,9 +2,28 @@
   "site": "CHRIS OS",
   "description": "Chris 的讀書筆記——讀完之後自己想了什麼。",
   "canonical_base": "https://chrisincite.github.io",
-  "updated": "2026-08-27",
-  "count": 13,
+  "updated": "2026-09-02",
+  "count": 14,
   "notes": [
+    {
+      "short": "https://os.housearch.net/n/e",
+      "slug": "20260902-agent-first-company",
+      "published_at": "2026-09-02T08:06:35+08:00",
+      "date": "2026-09-02",
+      "title": "Chris 筆記｜如何打造一間「Agent-First」公司",
+      "hook": "這又是一篇超長文，作者其實不是真的倡議 Agent-first 的公司運營模式。",
+      "tags": [],
+      "cover": "",
+      "url": "notes/20260902-agent-first-company.html",
+      "markdown": "notes/20260902-agent-first-company.md",
+      "source": {
+        "author": "@Av1dlive（Avid）",
+        "site": "X",
+        "url": "https://x.com/Av1dlive/status/2094752801784201699",
+        "published": "2026-09-01",
+        "archive": "20260902/20260902-agent-first-company"
+      }
+    },
     {
       "short": "https://os.housearch.net/n/d",
       "slug": "20260827-gmap-route-map",
