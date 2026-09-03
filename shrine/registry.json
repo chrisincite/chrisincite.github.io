@@ -526,39 +526,45 @@
       "slug": "36-kongobuji",
       "title": "金剛峯寺",
       "type": "寺院",
-      "prefecture": "和歌山県",
-      "city": "伊都郡高野町",
+      "prefecture": "和歌山縣",
+      "city": "伊都郡高野町高野山",
       "trip": "T5",
       "series": [
         "S4"
       ],
-      "visited": "2025-10"
+      "visited": "2025-10",
+      "lat": 34.214028,
+      "lng": 135.584094
     },
     {
       "no": "37",
       "slug": "37-nanzenji",
-      "title": "南禅寺",
+      "title": "南禪寺",
       "type": "寺院",
       "prefecture": "京都府",
-      "city": "京都市左京区",
+      "city": "京都市左京區南禪寺福地町",
       "trip": "T5",
       "series": [
         "S4"
       ],
-      "visited": "2025-10"
+      "visited": "2025-10",
+      "lat": 35.011414,
+      "lng": 135.794484
     },
     {
       "no": "38",
       "slug": "38-omi-jingu",
       "title": "近江神宮",
       "type": "神社",
-      "prefecture": "滋賀県",
-      "city": "大津市",
+      "prefecture": "滋賀縣",
+      "city": "大津市神宮町",
       "trip": "T5",
       "series": [
         "S7"
       ],
-      "visited": "2025-10"
+      "visited": "2025-10",
+      "lat": 35.032239,
+      "lng": 135.85195
     },
     {
       "no": "39",

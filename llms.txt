@@ -26,10 +26,13 @@
 
 ## 神社寺廟散策地圖
 
-走過的日本神社寺廟，一座一篇（規劃 140 座，已發佈 70 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
+走過的日本神社寺廟，一座一篇（規劃 140 座，已發佈 73 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（創祀與祭神之認定）、`#geography`（立地）、`#architecture`（參道形制與空間效果）、`#community`（與地方的關係）、`#festival`（祭儀與授与品）、`#walk`（晨間散策路線）。其中 `#origin` 與 `#community` 的**標題每篇量身**，錨點不變。
 
+- [近江神宮](https://chrisincite.github.io/shrine/38-omi-jingu.md)：早上從京阪的近江神宮前驛出來，往西走兩分鐘就到了第一站。（滋賀縣・大津市神宮町）
+- [南禪寺](https://chrisincite.github.io/shrine/37-nanzenji.md)：從地下鐵蹴上驛出來，先鑽一個洞。（京都府・京都市左京區南禪寺福地町）
+- [金剛峯寺](https://chrisincite.github.io/shrine/36-kongobuji.md)：早上從壇上伽藍出發，往東走三點四公里，路就走完了。（和歌山縣・伊都郡高野町高野山）
 - [熊野本宮大社](https://chrisincite.github.io/shrine/35-kumano-hongu-taisha.md)：從本宮大社前的巴士站走進參道，海拔六十一公尺。（和歌山縣・田邊市本宮町本宮）
 - [熊野速玉大社](https://chrisincite.github.io/shrine/34-kumano-hayatama-taisha.md)：從新宮驛出發往北，海拔八公尺；一路到熊野速玉大社，海拔十五公尺。（和歌山縣・新宮市新宮）
 - [熊野那智大社](https://chrisincite.github.io/shrine/33-kumano-nachi-taisha.md)：從大門坂的停車場出發，海拔九十公尺。（和歌山縣・東牟婁郡那智勝浦町那智山）
