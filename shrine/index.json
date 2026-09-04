@@ -2,9 +2,72 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 75,
+  "count": 77,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/25",
+      "no": "42",
+      "slug": "42-osake-jinja",
+      "title": "大避神社",
+      "title_ja": "大避神社",
+      "kana": "おおさけじんじゃ",
+      "type": "神社",
+      "prefecture": "兵庫縣",
+      "city": "赤穗市坂越",
+      "lat": "34.768004",
+      "lng": "134.432094",
+      "enshrined": "秦河勝（大避大明神）・天照皇大神・春日大神",
+      "rank": "舊縣社／例祭「坂越の船祭」為國指定重要無形民俗文化財",
+      "trip": "T6",
+      "series": [
+        "S5"
+      ],
+      "visited": "2026-02",
+      "published": "2026-09-04",
+      "hook": "坂越只有一條主街，本地人叫它「大道」。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/42-osake-jinja-01.webp",
+      "photos": 9,
+      "related": [
+        "62-itsukushima-jinja",
+        "66-kushida-jinja-imizu",
+        "28-oyamazumi-jinja"
+      ],
+      "url": "shrine/42-osake-jinja.html",
+      "markdown": "shrine/42-osake-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/24",
+      "no": "41",
+      "slug": "41-nariaiji",
+      "title": "成相寺",
+      "title_ja": "成相寺",
+      "kana": "なりあいじ",
+      "type": "寺院",
+      "prefecture": "京都府",
+      "city": "宮津市成相寺",
+      "lat": "35.598053",
+      "lng": "135.187954",
+      "enshrined": "",
+      "rank": "西國三十三所第二十八番／本堂・鎮守堂・鐘樓為京都府指定有形文化財／舊境內為國指定史跡",
+      "trip": "T5",
+      "series": [
+        "S8"
+      ],
+      "visited": "2025-11",
+      "published": "2026-09-04",
+      "hook": "從府中的平地抬頭是看不見那座寺的，看得見的只有一面往上收的山坡，",
+      "cover": "https://chrisincite.github.io/shrine-img/img/41-nariaiji-01.webp",
+      "photos": 9,
+      "related": [
+        "40-chionji-monjudo",
+        "39-enryakuji",
+        "36-kongobuji",
+        "65-hie-jinja-toyama"
+      ],
+      "url": "shrine/41-nariaiji.html",
+      "markdown": "shrine/41-nariaiji.md"
+    },
     {
       "short": "https://os.housearch.net/s/23",
       "no": "40",
