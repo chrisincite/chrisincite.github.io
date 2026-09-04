@@ -2,9 +2,40 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 77,
+  "count": 78,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/26",
+      "no": "85",
+      "slug": "85-nankobo",
+      "title": "南光坊",
+      "title_ja": "別宮山 光明寺 金剛院 南光坊",
+      "kana": "なんこうぼう",
+      "type": "寺院",
+      "prefecture": "愛媛縣",
+      "city": "今治市別宮町",
+      "lat": "34.068240",
+      "lng": "132.995303",
+      "enshrined": "",
+      "rank": "四國八十八所靈場第五十五番札所",
+      "trip": "T5",
+      "series": [
+        "S5"
+      ],
+      "visited": "2025-10",
+      "published": "2026-09-04",
+      "hook": "今治的市中心是一片幾乎沒有起伏的低地。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/85-nankobo-01.webp",
+      "photos": 4,
+      "related": [
+        "28-oyamazumi-jinja",
+        "27-ishizuchi-jinja",
+        "29-innoshima-oyama-jinja"
+      ],
+      "url": "shrine/85-nankobo.html",
+      "markdown": "shrine/85-nankobo.md"
+    },
     {
       "short": "https://os.housearch.net/s/25",
       "no": "42",

@@ -1195,26 +1195,30 @@
       "slug": "85-nankobo",
       "title": "南光坊",
       "type": "寺院",
-      "prefecture": "愛媛県",
+      "prefecture": "愛媛縣",
       "city": "今治市別宮町",
       "trip": "T5",
       "series": [
         "S5"
       ],
-      "visited": "2025-10"
+      "visited": "2025-10",
+      "lat": 34.06824,
+      "lng": 132.995303
     },
     {
       "no": "86",
       "slug": "86-kibitsu-jinja",
       "title": "吉備津神社",
       "type": "神社",
-      "prefecture": "岡山県",
-      "city": "岡山市北区吉備津",
+      "prefecture": "岡山縣",
+      "city": "岡山市北區吉備津",
       "trip": "T5",
       "series": [
         "S1"
       ],
-      "visited": "2025-10"
+      "visited": "2025-10",
+      "lat": 34.670729,
+      "lng": 133.850597
     },
     {
       "no": "87",
@@ -1222,12 +1226,14 @@
       "title": "東福寺",
       "type": "寺院",
       "prefecture": "京都府",
-      "city": "京都市東山区",
+      "city": "京都市東山區本町十五丁目",
       "trip": "T5",
       "series": [
         "S4"
       ],
-      "visited": "2025-11"
+      "visited": "2025-11",
+      "lat": 34.97646,
+      "lng": 135.77337
     },
     {
       "no": "88",
