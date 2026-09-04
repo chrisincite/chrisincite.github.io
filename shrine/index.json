@@ -2,9 +2,73 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 78,
+  "count": 80,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/28",
+      "no": "87",
+      "slug": "87-tofukuji",
+      "title": "東福寺",
+      "title_ja": "東福寺",
+      "kana": "とうふくじ",
+      "type": "寺院",
+      "prefecture": "京都府",
+      "city": "京都市東山區本町十五丁目",
+      "lat": "34.976460",
+      "lng": "135.773370",
+      "enshrined": "",
+      "rank": "京都五山第四位／三門為國寶",
+      "trip": "T5",
+      "series": [
+        "S4"
+      ],
+      "visited": "2025-11",
+      "published": "2026-09-04",
+      "hook": "東福寺驛出來往南走，一路是住家與小店的本町通，看起來不像通往一座大寺的路。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/87-tofukuji-01.webp",
+      "photos": 10,
+      "related": [
+        "39-enryakuji",
+        "37-nanzenji",
+        "82-fushimi-inari-taisha",
+        "83-fujinomori-jinja"
+      ],
+      "url": "shrine/87-tofukuji.html",
+      "markdown": "shrine/87-tofukuji.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/27",
+      "no": "86",
+      "slug": "86-kibitsu-jinja",
+      "title": "吉備津神社",
+      "title_ja": "吉備津神社",
+      "kana": "きびつじんじゃ",
+      "type": "神社",
+      "prefecture": "岡山縣",
+      "city": "岡山市北區吉備津",
+      "lat": "34.670729",
+      "lng": "133.850597",
+      "enshrined": "大吉備津彥命（合祀若日子建吉備津日子命・吉備武彥命等一族共八柱）",
+      "rank": "備中國一宮・式內社（名神大社）・舊官幣中社／本殿及拜殿為國寶",
+      "trip": "T5",
+      "series": [
+        "S1"
+      ],
+      "visited": "2025-10",
+      "published": "2026-09-04",
+      "hook": "從吉備津站走出來是一片平的。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/86-kibitsu-jinja-01.webp",
+      "photos": 10,
+      "related": [
+        "63-izumo-taisha",
+        "62-itsukushima-jinja",
+        "28-oyamazumi-jinja",
+        "84-isonokami-jingu"
+      ],
+      "url": "shrine/86-kibitsu-jinja.html",
+      "markdown": "shrine/86-kibitsu-jinja.md"
+    },
     {
       "short": "https://os.housearch.net/s/26",
       "no": "85",

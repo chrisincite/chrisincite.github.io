@@ -259,7 +259,7 @@
 ▲ 接下來往哪走
 出立の地的另一端是熊野：[熊野本宮大社](35-kumano-hongu-taisha.md) 與 [熊野那智大社](33-kumano-nachi-taisha.md)。
 留在伏見的話，往東北是 [藤森神社](83-fujinomori-jinja.md) 與 [伏見稻荷大社](82-fushimi-inari-taisha.md)，
-再往北是 東福寺。
+再往北是 [東福寺](87-tofukuji.md)。
 
 ▲ 地圖
 城南宮自己那兩張周邊圖只有八百多像素寬，放進文章讀不出字，伏見區也沒有涵蓋鳥羽・竹田的官方徒步地圖，
