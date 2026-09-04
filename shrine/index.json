@@ -2,9 +2,71 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 73,
+  "count": 75,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/23",
+      "no": "40",
+      "slug": "40-chionji-monjudo",
+      "title": "智恩寺（文殊堂）",
+      "title_ja": "智恩寺",
+      "kana": "ちおんじ",
+      "type": "寺院",
+      "prefecture": "京都府",
+      "city": "宮津市字文珠",
+      "lat": "35.558751",
+      "lng": "135.184092",
+      "enshrined": "",
+      "rank": "日本三文殊第一靈場・多寶塔／鐵湯船 重要文化財・文殊堂／三門 京都府指定文化財",
+      "trip": "T5",
+      "series": [
+        "S8"
+      ],
+      "visited": "2025-11",
+      "published": "2026-09-04",
+      "hook": "從天橋立驛出來往東北走四分鐘，先看到的不是寺，是一整排茶屋。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/40-chionji-monjudo-01.webp",
+      "photos": 9,
+      "related": [
+        "39-enryakuji",
+        "70-ise-jingu-naiku",
+        "31-izanagi-jingu"
+      ],
+      "url": "shrine/40-chionji-monjudo.html",
+      "markdown": "shrine/40-chionji-monjudo.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/22",
+      "no": "39",
+      "slug": "39-enryakuji",
+      "title": "延曆寺",
+      "title_ja": "延暦寺",
+      "kana": "えんりゃくじ",
+      "type": "寺院",
+      "prefecture": "滋賀縣",
+      "city": "大津市坂本本町",
+      "lat": "35.070503",
+      "lng": "135.840960",
+      "enshrined": "",
+      "rank": "世界文化遺產「古都京都の文化財」・根本中堂國寶・廻廊重要文化財",
+      "trip": "T5",
+      "series": [
+        "S4"
+      ],
+      "visited": "2025-10",
+      "published": "2026-09-04",
+      "hook": "下午在雨裡上山，第一件看到的東西是一塊立體地圖：整座比叡山被做成綠色的山脈，",
+      "cover": "https://chrisincite.github.io/shrine-img/img/39-enryakuji-01.webp",
+      "photos": 9,
+      "related": [
+        "38-omi-jingu",
+        "37-nanzenji",
+        "36-kongobuji"
+      ],
+      "url": "shrine/39-enryakuji.html",
+      "markdown": "shrine/39-enryakuji.md"
+    },
     {
       "short": "https://os.housearch.net/s/21",
       "no": "38",
