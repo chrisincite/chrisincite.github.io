@@ -2,9 +2,27 @@
   "site": "CHRIS OS",
   "description": "Chris 的讀書筆記——讀完之後自己想了什麼。",
   "canonical_base": "https://chrisincite.github.io",
-  "updated": "2026-09-02",
-  "count": 14,
+  "updated": "2026-09-06",
+  "count": 15,
   "notes": [
+    {
+      "short": "https://os.housearch.net/n/f",
+      "slug": "20260906-openai-puts-1b-behind-ai-infrastructure-defense",
+      "published_at": "2026-09-06T07:14:26+08:00",
+      "date": "2026-09-06",
+      "title": "Chris 筆記｜OpenAI 砸 10 億美元投入 AI 基礎設施防禦",
+      "hook": "未來的建築很可能是真正的智慧建築，因為已經內建了人工智慧系統。",
+      "tags": [],
+      "cover": "",
+      "url": "notes/20260906-openai-puts-1b-behind-ai-infrastructure-defense.html",
+      "markdown": "notes/20260906-openai-puts-1b-behind-ai-infrastructure-defense.md",
+      "source": {
+        "author": "AI",
+        "site": "aiforcrecollective.com",
+        "url": "https://aiforcrecollective.com/stories/openai-puts-1b-behind-ai-infrastructure-defense",
+        "archive": "20260906/20260906-openai-puts-1b-behind-ai-infrastructure-defense"
+      }
+    },
     {
       "short": "https://os.housearch.net/n/e",
       "slug": "20260902-agent-first-company",
