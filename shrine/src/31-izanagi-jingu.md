@@ -19,7 +19,7 @@ photos: DSC04054-DSC04075
 photo_count: 22
 photos_iphone: IMG_5881-IMG_5883
 iphone_count: 3
-related: [70-ise-jingu-naiku, 63-izumo-oyashiro, 33-kumano-nachi-taisha, 17-takachiho-jinja, 16-amanoiwato-jinja, 107-suwa-taisha-kamisha-honmiya]
+related: [70-ise-jingu-naiku, 63-izumo-oyashiro, 33-kumano-nachi-taisha, 17-takachiho-jinja, 16-amanoiwato-jinja, 107-suwa-taisha-kamisha-honmiya, 97-hananoiwaya-jinja]
 published: 2026-09-01
 status: ready
 ---

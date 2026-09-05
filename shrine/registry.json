@@ -702,7 +702,9 @@
       "series": [
         "S5"
       ],
-      "visited": "2026-07"
+      "visited": "2026-07",
+      "lat": 33.894734,
+      "lng": 134.643808
     },
     {
       "no": "49",
@@ -1288,7 +1290,9 @@
       "city": "鳴門市大麻町板東",
       "trip": "T7",
       "series": [],
-      "visited": "2026-07"
+      "visited": "2026-07",
+      "lat": 34.170951,
+      "lng": 134.502618
     },
     {
       "no": "93",
@@ -1310,7 +1314,9 @@
       "city": "和歌山市伊太祈曽",
       "trip": "T7",
       "series": [],
-      "visited": "2026-07"
+      "visited": "2026-07",
+      "lat": 34.201729,
+      "lng": 135.250384
     },
     {
       "no": "95",
@@ -1328,33 +1334,45 @@
       "slug": "96-kamikura-jinja",
       "title": "神倉神社",
       "type": "神社",
-      "prefecture": "和歌山県",
+      "prefecture": "和歌山縣",
       "city": "新宮市神倉",
       "trip": "T7",
-      "series": [],
-      "visited": "2026-07"
+      "series": [
+        "S2"
+      ],
+      "visited": "2026-07",
+      "lat": 33.722334,
+      "lng": 135.982785
     },
     {
       "no": "97",
       "slug": "97-hananoiwaya-jinja",
       "title": "花之窟神社",
       "type": "神社",
-      "prefecture": "三重県",
+      "prefecture": "三重縣",
       "city": "熊野市有馬町",
       "trip": "T7",
-      "series": [],
-      "visited": "2026-07"
+      "series": [
+        "S2"
+      ],
+      "visited": "2026-07",
+      "lat": 33.879985,
+      "lng": 136.093541
     },
     {
       "no": "98",
       "slug": "98-owase-jinja",
       "title": "尾鷲神社",
       "type": "神社",
-      "prefecture": "三重県",
+      "prefecture": "三重縣",
       "city": "尾鷲市北浦町",
       "trip": "T7",
-      "series": [],
-      "visited": "2026-07"
+      "series": [
+        "S8"
+      ],
+      "visited": "2026-07",
+      "lat": 34.077336,
+      "lng": 136.195824
     },
     {
       "no": "99",

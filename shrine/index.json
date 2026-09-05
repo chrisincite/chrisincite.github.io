@@ -2,9 +2,103 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 80,
+  "count": 83,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/2b",
+      "no": "98",
+      "slug": "98-owase-jinja",
+      "title": "尾鷲神社",
+      "title_ja": "尾鷲神社",
+      "kana": "おわせじんじゃ",
+      "type": "神社",
+      "prefecture": "三重縣",
+      "city": "尾鷲市北浦町",
+      "lat": "34.077336",
+      "lng": "136.195824",
+      "enshrined": "武速須佐之男命（他二十一柱）",
+      "rank": "尾鷲七鄉總鎮守・大楠＝三重縣指定天然紀念物・獅子頭＝三重縣指定有形民俗文化財",
+      "trip": "T7",
+      "series": [
+        "S8"
+      ],
+      "visited": "2026-07",
+      "published": "2026-09-05",
+      "hook": "尾鷲市的官方健走地圖有二十條路線，第十三條叫「北浦コース」（Kitaura kōsu，北浦路線），三點三公里、",
+      "cover": "https://chrisincite.github.io/shrine-img/img/98-owase-jinja-01.webp",
+      "photos": 11,
+      "related": [
+        "69-wakasahime-jinja",
+        "97-hananoiwaya-jinja",
+        "96-kamikura-jinja"
+      ],
+      "url": "shrine/98-owase-jinja.html",
+      "markdown": "shrine/98-owase-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/2a",
+      "no": "97",
+      "slug": "97-hananoiwaya-jinja",
+      "title": "花之窟神社",
+      "title_ja": "花窟神社",
+      "kana": "はなのいわやじんじゃ",
+      "type": "神社",
+      "prefecture": "三重縣",
+      "city": "熊野市有馬町",
+      "lat": "33.879985",
+      "lng": "136.093541",
+      "enshrined": "伊弉冉尊・軻遇突智神",
+      "rank": "世界遺產「紀伊山地的靈場與參詣道」・熊野市指定史跡「花の窟神社祭祀遺跡」",
+      "trip": "T7",
+      "series": [
+        "S2"
+      ],
+      "visited": "2026-07",
+      "published": "2026-09-05",
+      "hook": "從熊野市驛往南走，右手邊是山，左手邊是七里御濱——熊野市到紀寶町之間連續二十二公里的",
+      "cover": "https://chrisincite.github.io/shrine-img/img/97-hananoiwaya-jinja-01.webp",
+      "photos": 13,
+      "related": [
+        "96-kamikura-jinja",
+        "31-izanagi-jingu",
+        "35-kumano-hongu-taisha"
+      ],
+      "url": "shrine/97-hananoiwaya-jinja.html",
+      "markdown": "shrine/97-hananoiwaya-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/29",
+      "no": "96",
+      "slug": "96-kamikura-jinja",
+      "title": "神倉神社",
+      "title_ja": "神倉神社",
+      "kana": "かみくらじんじゃ",
+      "type": "神社",
+      "prefecture": "和歌山縣",
+      "city": "新宮市神倉",
+      "lat": "33.722334",
+      "lng": "135.982785",
+      "enshrined": "高倉下命・天照大神",
+      "rank": "熊野速玉大社攝社・世界遺產「紀伊山地的靈場與參詣道」・國史跡「熊野三山」",
+      "trip": "T7",
+      "series": [
+        "S2"
+      ],
+      "visited": "2026-07",
+      "published": "2026-09-05",
+      "hook": "新宮的市街幾乎是平的。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/96-kamikura-jinja-01.webp",
+      "photos": 13,
+      "related": [
+        "34-kumano-hayatama-taisha",
+        "33-kumano-nachi-taisha",
+        "35-kumano-hongu-taisha",
+        "97-hananoiwaya-jinja"
+      ],
+      "url": "shrine/96-kamikura-jinja.html",
+      "markdown": "shrine/96-kamikura-jinja.md"
+    },
     {
       "short": "https://os.housearch.net/s/28",
       "no": "87",
@@ -344,7 +438,9 @@
       "photos": 8,
       "related": [
         "33-kumano-nachi-taisha",
-        "34-kumano-hayatama-taisha"
+        "34-kumano-hayatama-taisha",
+        "96-kamikura-jinja",
+        "97-hananoiwaya-jinja"
       ],
       "url": "shrine/35-kumano-hongu-taisha.html",
       "markdown": "shrine/35-kumano-hongu-taisha.md"
@@ -405,7 +501,8 @@
       "photos": 8,
       "related": [
         "34-kumano-hayatama-taisha",
-        "35-kumano-hongu-taisha"
+        "35-kumano-hongu-taisha",
+        "96-kamikura-jinja"
       ],
       "url": "shrine/33-kumano-nachi-taisha.html",
       "markdown": "shrine/33-kumano-nachi-taisha.md"
@@ -472,7 +569,8 @@
         "33-kumano-nachi-taisha",
         "17-takachiho-jinja",
         "16-amanoiwato-jinja",
-        "107-suwa-taisha-kamisha-honmiya"
+        "107-suwa-taisha-kamisha-honmiya",
+        "97-hananoiwaya-jinja"
       ],
       "url": "shrine/31-izanagi-jingu.html",
       "markdown": "shrine/31-izanagi-jingu.md"
@@ -1121,7 +1219,8 @@
         "68-kehi-jingu",
         "05-keya-kurotatsu-jinja",
         "06-eiheiji",
-        "24-omiwa-jinja"
+        "24-omiwa-jinja",
+        "98-owase-jinja"
       ],
       "url": "shrine/69-wakasahime-jinja.html",
       "markdown": "shrine/69-wakasahime-jinja.md"

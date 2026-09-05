@@ -19,7 +19,7 @@ photos: DSC04393-DSC04440
 photo_count: 48
 photos_iphone:
 iphone_count:
-related: [34-kumano-hayatama-taisha, 35-kumano-hongu-taisha]
+related: [34-kumano-hayatama-taisha, 35-kumano-hongu-taisha, 96-kamikura-jinja]
 published: 2026-09-02
 status: ready
 ---

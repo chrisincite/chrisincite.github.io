@@ -19,7 +19,7 @@ photos: DSC04471-DSC04533
 photo_count: 63
 photos_iphone:
 iphone_count:
-related: [33-kumano-nachi-taisha, 34-kumano-hayatama-taisha]
+related: [33-kumano-nachi-taisha, 34-kumano-hayatama-taisha, 96-kamikura-jinja, 97-hananoiwaya-jinja]
 published: 2026-09-02
 status: ready
 ---

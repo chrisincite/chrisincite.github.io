@@ -48,6 +48,7 @@
   "40-chionji-monjudo": "23",
   "41-nariaiji": "24",
   "42-osake-jinja": "25",
+  "48-tsunomine-jinja": "2c",
   "57-hokkaido-jingu": "1d",
   "58-toyohira-jinja": "1e",
   "59-asahikawa-jinja": "1f",
@@ -78,5 +79,10 @@
   "84-isonokami-jingu": "v",
   "85-nankobo": "26",
   "86-kibitsu-jinja": "27",
-  "87-tofukuji": "28"
+  "87-tofukuji": "28",
+  "92-oasahiko-jinja": "2d",
+  "94-itakiso-jinja": "2e",
+  "96-kamikura-jinja": "29",
+  "97-hananoiwaya-jinja": "2a",
+  "98-owase-jinja": "2b"
 }

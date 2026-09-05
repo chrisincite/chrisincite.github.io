@@ -19,7 +19,7 @@ photos: —
 photos_iphone: IMG_1564-IMG_1579（除 IMG_1571）
 photo_count: 0
 iphone_count: 15
-related: [68-kehi-jingu, 05-keya-kurotatsu-jinja, 06-eiheiji, 24-omiwa-jinja]
+related: [68-kehi-jingu, 05-keya-kurotatsu-jinja, 06-eiheiji, 24-omiwa-jinja, 98-owase-jinja]
 published: 2026-08-26
 status: ready
 ---
