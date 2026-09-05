@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 83,
+  "count": 86,
   "planned": 140,
   "shrines": [
     {
@@ -98,6 +98,102 @@
       ],
       "url": "shrine/96-kamikura-jinja.html",
       "markdown": "shrine/96-kamikura-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/2e",
+      "no": "94",
+      "slug": "94-itakiso-jinja",
+      "title": "伊太祈曾神社",
+      "title_ja": "伊太祁曽神社",
+      "kana": "いたきそじんじゃ",
+      "type": "神社",
+      "prefecture": "和歌山縣",
+      "city": "和歌山市伊太祈曽",
+      "lat": "34.201729",
+      "lng": "135.250384",
+      "enshrined": "五十猛命（大屋毘古神）／左脇殿 大屋都比賣命・右脇殿 都麻津比賣命",
+      "rank": "紀伊國一之宮・式內社（名神大社）・舊官幣中社・別表神社",
+      "trip": "T7",
+      "series": [
+        "S1"
+      ],
+      "visited": "2026-07",
+      "published": "2026-09-05",
+      "hook": "伊太祈曾驛只有一座島式月台，站體旁邊是車庫，貴志川線的電車在這裡過夜。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-01.webp",
+      "photos": 10,
+      "related": [
+        "92-oasahiko-jinja",
+        "84-isonokami-jingu",
+        "24-omiwa-jinja",
+        "33-kumano-nachi-taisha"
+      ],
+      "url": "shrine/94-itakiso-jinja.html",
+      "markdown": "shrine/94-itakiso-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/2d",
+      "no": "92",
+      "slug": "92-oasahiko-jinja",
+      "title": "大麻比古神社",
+      "title_ja": "大麻比古神社",
+      "kana": "おおあさひこじんじゃ",
+      "type": "神社",
+      "prefecture": "德島縣",
+      "city": "鳴門市大麻町板東",
+      "lat": "34.170951",
+      "lng": "134.502618",
+      "enshrined": "大麻比古大神（天太玉命）・猿田彥大神",
+      "rank": "阿波國一之宮・式內社（名神大社）・舊國幣中社",
+      "trip": "T7",
+      "series": [
+        "S1"
+      ],
+      "visited": "2026-07",
+      "published": "2026-09-05",
+      "hook": "從板東驛出來往北，是一條看不太出重點的鄉道。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/92-oasahiko-jinja-01.webp",
+      "photos": 10,
+      "related": [
+        "48-tsunomine-jinja",
+        "31-izanagi-jingu",
+        "27-ishizuchi-jinja",
+        "66-kushida-jinja-imizu"
+      ],
+      "url": "shrine/92-oasahiko-jinja.html",
+      "markdown": "shrine/92-oasahiko-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/2c",
+      "no": "48",
+      "slug": "48-tsunomine-jinja",
+      "title": "津峯神社",
+      "title_ja": "津峯神社",
+      "kana": "つのみねじんじゃ",
+      "type": "神社",
+      "prefecture": "德島縣",
+      "city": "阿南市津乃峰町",
+      "lat": "33.894734",
+      "lng": "134.643808",
+      "enshrined": "賀志波比賣大神",
+      "rank": "延喜式內社（阿波國那賀郡 賀志波比賣神社）・別表神社",
+      "trip": "T7",
+      "series": [
+        "S5"
+      ],
+      "visited": "2026-07",
+      "published": "2026-09-05",
+      "hook": "從阿波橘驛的月台上看不出這裡有一座山。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-01.webp",
+      "photos": 10,
+      "related": [
+        "92-oasahiko-jinja",
+        "18-aoshima-jinja",
+        "27-ishizuchi-jinja",
+        "28-oyamazumi-jinja"
+      ],
+      "url": "shrine/48-tsunomine-jinja.html",
+      "markdown": "shrine/48-tsunomine-jinja.md"
     },
     {
       "short": "https://os.housearch.net/s/28",
