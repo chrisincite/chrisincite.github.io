@@ -2,9 +2,105 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 89,
+  "count": 92,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/2k",
+      "no": "95",
+      "slug": "95-tamatsushima-jinja",
+      "title": "玉津島神社",
+      "title_ja": "玉津嶋神社",
+      "kana": "たまつしまじんじゃ",
+      "type": "神社",
+      "prefecture": "和歌山縣",
+      "city": "和歌山市和歌浦中",
+      "lat": "34.187928",
+      "lng": "135.171973",
+      "enshrined": "稚日女尊・息長足姫尊（神功皇后）・衣通姫尊・明光浦靈",
+      "rank": "和歌三神之一・小松天皇（光孝天皇）勅願所；境內屬國指定名勝「和歌の浦」、社殿為和歌山市指定文化財（建造物）",
+      "trip": "T7",
+      "series": [
+        "S7"
+      ],
+      "visited": "2026-07",
+      "published": "2026-09-06",
+      "hook": "和歌浦的巴士站不叫神社的名字，叫「不老橋」。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/95-tamatsushima-jinja-01.webp",
+      "photos": 13,
+      "related": [
+        "94-itakiso-jinja",
+        "40-chionji-monjudo",
+        "11-dazaifu-tenmangu",
+        "96-kamikura-jinja"
+      ],
+      "url": "shrine/95-tamatsushima-jinja.html",
+      "markdown": "shrine/95-tamatsushima-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/2j",
+      "no": "93",
+      "slug": "93-ryozenji",
+      "title": "靈山寺",
+      "title_ja": "霊山寺",
+      "kana": "りょうぜんじ",
+      "type": "寺院",
+      "prefecture": "德島縣",
+      "city": "鳴門市大麻町板東",
+      "lat": "34.159673",
+      "lng": "134.502527",
+      "enshrined": "",
+      "rank": "四國八十八所第一番・發願之寺；山號竺和山、院號一乘院",
+      "trip": "T7",
+      "series": [
+        "S4"
+      ],
+      "visited": "2026-07",
+      "published": "2026-09-06",
+      "hook": "從 JR 板東驛出來，走八百公尺會碰到一條路，Google 給它的名字是「舊撫養街道」。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/93-ryozenji-01.webp",
+      "photos": 10,
+      "related": [
+        "92-oasahiko-jinja",
+        "91-tosa-jinja",
+        "36-kongobuji",
+        "85-nankobo"
+      ],
+      "url": "shrine/93-ryozenji.html",
+      "markdown": "shrine/93-ryozenji.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/2i",
+      "no": "91",
+      "slug": "91-tosa-jinja",
+      "title": "土佐神社",
+      "title_ja": "土佐神社",
+      "kana": "とさじんじゃ",
+      "type": "神社",
+      "prefecture": "高知縣",
+      "city": "高知市一宮しなね",
+      "lat": "33.592627",
+      "lng": "133.576975",
+      "enshrined": "味鋤高彥根神・一言主神",
+      "rank": "土佐國一宮・式內社（大社）・舊國幣中社・別表神社；本殿、幣殿及拜殿・樓門・鼓樓＝國指定重要文化財",
+      "trip": "T7",
+      "series": [
+        "S1"
+      ],
+      "visited": "2026-07",
+      "published": "2026-09-06",
+      "hook": "JR 土佐一宮驛的站名唸「とさいっく」，不唸「いちのみや」。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/91-tosa-jinja-01.webp",
+      "photos": 11,
+      "related": [
+        "93-ryozenji",
+        "92-oasahiko-jinja",
+        "28-oyamazumi-jinja",
+        "94-itakiso-jinja"
+      ],
+      "url": "shrine/91-tosa-jinja.html",
+      "markdown": "shrine/91-tosa-jinja.md"
+    },
     {
       "short": "https://os.housearch.net/s/2h",
       "no": "90",
