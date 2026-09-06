@@ -21,7 +21,7 @@ photos:
 photo_count:
 photos_iphone: IMG_5437-IMG_5440
 iphone_count: 4
-related: [28-oyamazumi-jinja, 27-ishizuchi-jinja, 29-innoshima-oyama-jinja]
+related: [28-oyamazumi-jinja, 27-ishizuchi-jinja, 29-innoshima-oyama-jinja, 88-ishiteji, 90-zenjibuji]
 published: 2026-09-04
 status: ready
 ---

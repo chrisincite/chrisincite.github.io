@@ -19,7 +19,7 @@ photos: DSC03704-DSC03720
 photo_count: 17
 photos_iphone: IMG_5515-IMG_5526
 iphone_count: 12
-related: [27-ishizuchi-jinja, 29-innoshima-oyama-jinja, 62-itsukushima-jinja]
+related: [27-ishizuchi-jinja, 29-innoshima-oyama-jinja, 62-itsukushima-jinja, 89-mishima-jinja-nagahori]
 published: 2026-09-01
 status: ready
 ---

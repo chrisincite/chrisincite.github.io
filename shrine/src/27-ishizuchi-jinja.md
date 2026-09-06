@@ -19,7 +19,7 @@ photos: DSC03623-DSC03646
 photo_count: 24
 photos_iphone: IMG_5397-IMG_5409
 iphone_count: 13
-related: [28-oyamazumi-jinja, 29-innoshima-oyama-jinja]
+related: [28-oyamazumi-jinja, 29-innoshima-oyama-jinja, 88-ishiteji]
 published: 2026-09-01
 status: ready
 ---

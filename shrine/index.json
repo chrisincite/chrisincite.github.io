@@ -2,9 +2,101 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 86,
+  "count": 89,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/2h",
+      "no": "90",
+      "slug": "90-zenjibuji",
+      "title": "禪師峰寺",
+      "title_ja": "禅師峰寺",
+      "kana": "ぜんじぶじ",
+      "type": "寺院",
+      "prefecture": "高知縣",
+      "city": "南國市十市",
+      "lat": "33.526902",
+      "lng": "133.611567",
+      "enshrined": "",
+      "rank": "四國八十八所第三十二番札所",
+      "trip": "T7",
+      "series": [
+        "S5"
+      ],
+      "visited": "2026-07",
+      "published": "2026-09-06",
+      "hook": "早上先繞一圈池子。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/90-zenjibuji-01.webp",
+      "photos": 13,
+      "related": [
+        "88-ishiteji",
+        "85-nankobo"
+      ],
+      "url": "shrine/90-zenjibuji.html",
+      "markdown": "shrine/90-zenjibuji.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/2g",
+      "no": "89",
+      "slug": "89-mishima-jinja-nagahori",
+      "title": "三島神社（長堀）",
+      "title_ja": "三島神社",
+      "kana": "みしまじんじゃ",
+      "type": "神社",
+      "prefecture": "愛媛縣",
+      "city": "宇和島市長堀",
+      "lat": "33.209375",
+      "lng": "132.551370",
+      "enshrined": "大山津見神・石長比賣神・木花佐久夜比賣神",
+      "rank": "宇城南總鎮守",
+      "trip": "T7",
+      "series": [
+        "S5"
+      ],
+      "visited": "2026-07",
+      "published": "2026-09-06",
+      "hook": "從宇和島城的南邊出發，往南走一點四公里。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/89-mishima-jinja-nagahori-01.webp",
+      "photos": 4,
+      "related": [
+        "28-oyamazumi-jinja",
+        "88-ishiteji"
+      ],
+      "url": "shrine/89-mishima-jinja-nagahori.html",
+      "markdown": "shrine/89-mishima-jinja-nagahori.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/2f",
+      "no": "88",
+      "slug": "88-ishiteji",
+      "title": "石手寺",
+      "title_ja": "石手寺",
+      "kana": "いしてじ",
+      "type": "寺院",
+      "prefecture": "愛媛縣",
+      "city": "松山市石手",
+      "lat": "33.847896",
+      "lng": "132.796474",
+      "enshrined": "",
+      "rank": "四國八十八所第五十一番札所・二王門為國寶",
+      "trip": "T7",
+      "series": [
+        "S8"
+      ],
+      "visited": "2026-07",
+      "published": "2026-09-06",
+      "hook": "早上從溫泉街出門，往東走一公里。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/88-ishiteji-01.webp",
+      "photos": 11,
+      "related": [
+        "85-nankobo",
+        "90-zenjibuji",
+        "89-mishima-jinja-nagahori",
+        "27-ishizuchi-jinja"
+      ],
+      "url": "shrine/88-ishiteji.html",
+      "markdown": "shrine/88-ishiteji.md"
+    },
     {
       "short": "https://os.housearch.net/s/2b",
       "no": "98",
@@ -285,7 +377,9 @@
       "related": [
         "28-oyamazumi-jinja",
         "27-ishizuchi-jinja",
-        "29-innoshima-oyama-jinja"
+        "29-innoshima-oyama-jinja",
+        "88-ishiteji",
+        "90-zenjibuji"
       ],
       "url": "shrine/85-nankobo.html",
       "markdown": "shrine/85-nankobo.md"
@@ -728,7 +822,8 @@
       "related": [
         "27-ishizuchi-jinja",
         "29-innoshima-oyama-jinja",
-        "62-itsukushima-jinja"
+        "62-itsukushima-jinja",
+        "89-mishima-jinja-nagahori"
       ],
       "url": "shrine/28-oyamazumi-jinja.html",
       "markdown": "shrine/28-oyamazumi-jinja.md"
@@ -758,7 +853,8 @@
       "photos": 8,
       "related": [
         "28-oyamazumi-jinja",
-        "29-innoshima-oyama-jinja"
+        "29-innoshima-oyama-jinja",
+        "88-ishiteji"
       ],
       "url": "shrine/27-ishizuchi-jinja.html",
       "markdown": "shrine/27-ishizuchi-jinja.md"
