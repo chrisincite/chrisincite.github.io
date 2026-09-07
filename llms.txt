@@ -37,7 +37,7 @@
 - [伊賀菅原神社](https://chrisincite.github.io/shrine/99-iga-sugawara-jinja.md)：早上六點五十，城下町最東邊的那條街上沒有人。（三重縣・伊賀市上野東町）
 - [玉津島神社](https://chrisincite.github.io/shrine/95-tamatsushima-jinja.md)：和歌浦的巴士站不叫神社的名字，叫「不老橋」。（和歌山縣・和歌山市和歌浦中）
 - [靈山寺](https://chrisincite.github.io/shrine/93-ryozenji.md)：從 JR 板東驛出來，走八百公尺會碰到一條路，Google 給它的名字是「舊撫養街道」。（德島縣・鳴門市大麻町板東）
-- [土佐神社](https://chrisincite.github.io/shrine/91-tosa-jinja.md)：JR 土佐一宮驛的站名唸「とさいっく」，不唸「いちのみや」。（高知縣・高知市一宮しなね）
+- [土佐神社](https://chrisincite.github.io/shrine/91-tosa-jinja.md)：JR 土佐一宮驛的站名唸「とさいっく」（Tosa-ikku），不唸「いちのみや」。（高知縣・高知市一宮しなね）
 - [禪師峰寺](https://chrisincite.github.io/shrine/90-zenjibuji.md)：早上先繞一圈池子。（高知縣・南國市十市）
 - [三島神社（長堀）](https://chrisincite.github.io/shrine/89-mishima-jinja-nagahori.md)：從宇和島城的南邊出發，往南走一點四公里。（愛媛縣・宇和島市長堀）
 - [石手寺](https://chrisincite.github.io/shrine/88-ishiteji.md)：早上從溫泉街出門，往東走一公里。（愛媛縣・松山市石手）
@@ -67,12 +67,12 @@
 - [石鎚神社](https://chrisincite.github.io/shrine/27-ishizuchi-jinja.md)：從石鎚山驛出發往南走，800 公尺，海拔從 4 公尺升到 68 公尺。（愛媛縣・西條市西田）
 - [厚岸神社](https://chrisincite.github.io/shrine/127-akkeshi-jinja.md)：厚岸的市街被水切成兩半。（北海道・厚岸郡厚岸町灣月一丁目）
 - [屈斜路神社](https://chrisincite.github.io/shrine/126-kussharo-jinja.md)：從湖畔的路彎進林子，走不到一百公尺，落葉就厚到看不見土。（北海道・川上郡弟子屈町屈斜路（和琴半島））
-- [西方寺・普明閣](https://chrisincite.github.io/shrine/123-saihoji-fumeikaku.md)：從竹原驛走到本町通り要十二分鐘。（廣島縣・竹原市本町三丁目）
+- [西方寺・普明閣](https://chrisincite.github.io/shrine/123-saihoji-fumeikaku.md)：從竹原驛走到本町通り（Honmachi-dōri，本町通）要十二分鐘。（廣島縣・竹原市本町三丁目）
 - [樽前山神社](https://chrisincite.github.io/shrine/122-tarumaesan-jinja.md)：上午十點，天空是十月北海道那種很硬的藍。（北海道・苫小牧市高丘）
 - [富良野神社](https://chrisincite.github.io/shrine/121-furano-jinja.md)：從富良野驛往西南走，十分鐘就到了。（北海道・富良野市若松町）
 - [頭大佛殿（真駒內瀧野靈園）](https://chrisincite.github.io/shrine/120-atama-daibutsu-den.md)：從札幌市中心往南開四十幾分鐘，路一直在爬，最後停在一個叫瀧野峠的公車站。（北海道・札幌市南區瀧野）
-- [白神社](https://chrisincite.github.io/shrine/64-hiroshima-shirakami-sha.md)：平和大通り與鯉城通り交叉的那個路口，四個角都是辦公大樓。（廣島縣・廣島市中區中町）
-- [出雲大社](https://chrisincite.github.io/shrine/63-izumo-oyashiro.md)：早上八點半的神門通り還沒醒，光是斜的，路面比人多。（島根縣・出雲市大社町杵築東）
+- [白神社](https://chrisincite.github.io/shrine/64-hiroshima-shirakami-sha.md)：平和大通り（Heiwa-ōdōri，和平大道）與鯉城通り（Rijō-dōri，鯉城通）交叉的那個路口，四個角都是辦公大樓。（廣島縣・廣島市中區中町）
+- [出雲大社](https://chrisincite.github.io/shrine/63-izumo-oyashiro.md)：早上八點半的神門通り（Shinmon-dōri，通往神社正門的參道大街）還沒醒，光是斜的，路面比人多。（島根縣・出雲市大社町杵築東）
 - [嚴島神社](https://chrisincite.github.io/shrine/62-itsukushima-jinja.md)：傍晚四點的渡輪上，島先出現，鳥居後出現。（廣島縣・廿日市市宮島町）
 - [千歲神社](https://chrisincite.github.io/shrine/61-chitose-jinja.md)：千歲這個地名，是在這座神社的一只廚子背後被寫下來的。（北海道・千歲市真町）
 - [美瑛神社](https://chrisincite.github.io/shrine/60-biei-jinja.md)：從美瑛驛往東走一點二公里，地面慢慢抬高十公尺，（北海道・上川郡美瑛町東町）
@@ -124,7 +124,7 @@
 - [宮地嶽神社](https://chrisincite.github.io/shrine/10-miyajidake-jinja.md)：四月的午後，下著雨。（福岡縣・福津市宮司元町）
 - [青島神社](https://chrisincite.github.io/shrine/18-aoshima-jinja.md)：從青島車站走出來，一條筆直的參道往海邊去，八百公尺，車子開不進來。（宮崎縣・宮崎市青島）
 - [高千穗神社](https://chrisincite.github.io/shrine/17-takachiho-jinja.md)：三田井是高千穗町的中心，一條街兩排店，早上還沒開門。（宮崎縣・西臼杵郡高千穗町三田井）
-- [阿蘇神社](https://chrisincite.github.io/shrine/14-aso-jinja.md)：樓門是二〇二三年十二月才重新站起來的。（熊本縣・阿蘇市一の宮町宮地）
+- [阿蘇神社](https://chrisincite.github.io/shrine/14-aso-jinja.md)：樓門（兩層而只有下層通行的門）是二〇二三年十二月才重新站起來的。（熊本縣・阿蘇市一の宮町宮地）
 - [天岩戶神社](https://chrisincite.github.io/shrine/16-amanoiwato-jinja.md)：岩戶是高千穗町北邊的一個地區，小學、農協、郵局、超市沿著一條縣道排成一列，（宮崎縣・西臼杵郡高千穗町岩戶）
 - [上色見熊野座神社](https://chrisincite.github.io/shrine/15-kamishikimi-kumanoimasu-jinja.md)：早上出門，從一所廢校開始走。（熊本縣・阿蘇郡高森町上色見）
 
