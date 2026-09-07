@@ -28,10 +28,13 @@
 
 ## 神社寺廟散策地圖
 
-走過的日本神社寺廟，一座一篇（規劃 140 座，已發佈 92 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
+走過的日本神社寺廟，一座一篇（規劃 140 座，已發佈 95 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（創祀與祭神之認定）、`#geography`（立地）、`#architecture`（參道形制與空間效果）、`#community`（與地方的關係）、`#festival`（祭儀與授与品）、`#walk`（晨間散策路線）。其中 `#origin` 與 `#community` 的**標題每篇量身**，錨點不變。
 
+- [橿原神宮](https://chrisincite.github.io/shrine/101-kashihara-jingu.md)：從近鐵橿原神宮前驛出來往西北走一公里，先碰到的不是神宮，是一片水。（奈良縣・橿原市久米町）
+- [敢國神社](https://chrisincite.github.io/shrine/100-aekuni-jinja.md)：名阪國道的伊賀一之宮交流道下來，路邊就是那座朱紅色的大鳥居。（三重縣・伊賀市一之宮）
+- [伊賀菅原神社](https://chrisincite.github.io/shrine/99-iga-sugawara-jinja.md)：早上六點五十，城下町最東邊的那條街上沒有人。（三重縣・伊賀市上野東町）
 - [玉津島神社](https://chrisincite.github.io/shrine/95-tamatsushima-jinja.md)：和歌浦的巴士站不叫神社的名字，叫「不老橋」。（和歌山縣・和歌山市和歌浦中）
 - [靈山寺](https://chrisincite.github.io/shrine/93-ryozenji.md)：從 JR 板東驛出來，走八百公尺會碰到一條路，Google 給它的名字是「舊撫養街道」。（德島縣・鳴門市大麻町板東）
 - [土佐神社](https://chrisincite.github.io/shrine/91-tosa-jinja.md)：JR 土佐一宮驛的站名唸「とさいっく」，不唸「いちのみや」。（高知縣・高知市一宮しなね）
