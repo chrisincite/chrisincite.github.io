@@ -9,6 +9,7 @@
 
 格式固定為三段：**我的想法**（Chris 本人的評註，錨點 #my-take）、**這篇在說什麼**（重點整理，錨點 #summary）、**原文金句**（引用，錨點 #quotes）。
 
+- [Chris 筆記｜如果你有多重興趣，別再浪費接下來的兩三年](https://chrisincite.github.io/notes/20260906-multiple-interests-superpower.md)：我們早就不活在工業時代了，專精單一技能幾乎等於慢性死亡。
 - [Chris 筆記｜OpenAI 砸 10 億美元投入 AI 基礎設施防禦](https://chrisincite.github.io/notes/20260906-openai-puts-1b-behind-ai-infrastructure-defense.md)：未來的建築很可能是真正的智慧建築，因為已經內建了人工智慧系統。
 - [Chris 筆記｜如何打造一間「Agent-First」公司](https://chrisincite.github.io/notes/20260902-agent-first-company.md)：這又是一篇超長文，作者其實不是真的倡議 Agent-first 的公司運營模式。
 - [Chris 筆記｜自繪散策地圖的解法是圖文分離：Google 給底圖，路線自己畫](https://chrisincite.github.io/notes/20260827-gmap-route-map.md)：最近開始迷上了自繪散策地圖，試過很多種方法，包括在 Google Map 上直接操作，或者通過 Claude Code 利用 SVG 或 t（原文：開始使用 Google 地圖平台）
