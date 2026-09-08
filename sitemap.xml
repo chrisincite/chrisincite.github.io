@@ -165,6 +165,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/shrine/103-nishinomiya-jinja.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/103-nishinomiya-jinja.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/102-ikuta-jinja.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/102-ikuta-jinja.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/shrine/44-hinomisaki-jinja.html</loc>
     <priority>0.8</priority>
   </url>

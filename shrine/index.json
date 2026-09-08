@@ -2,9 +2,73 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 97,
+  "count": 99,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/2r",
+      "no": "103",
+      "slug": "103-nishinomiya-jinja",
+      "title": "西宮神社",
+      "title_ja": "西宮神社",
+      "kana": "にしのみやじんじゃ",
+      "type": "神社",
+      "prefecture": "兵庫縣",
+      "city": "西宮市社家町",
+      "lat": "34.735685",
+      "lng": "135.334607",
+      "enshrined": "えびす大神（蛭兒大神）・天照大御神・大國主大神・須佐之男大神",
+      "rank": "えびす宮總本社・舊縣社・別表神社；表大門與大練塀＝國指定重要文化財",
+      "trip": "T7",
+      "series": [
+        "S8"
+      ],
+      "visited": "2026-07",
+      "published": "2026-09-08",
+      "hook": "從阪神西宮驛往西南走六百五十公尺，那條路的名字叫えべっさん筋",
+      "cover": "https://chrisincite.github.io/shrine-img/img/103-nishinomiya-jinja-01.webp",
+      "photos": 10,
+      "related": [
+        "102-ikuta-jinja",
+        "31-izanagi-jingu",
+        "76-takeo-jinja",
+        "66-imizu-kushida-jinja"
+      ],
+      "url": "shrine/103-nishinomiya-jinja.html",
+      "markdown": "shrine/103-nishinomiya-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/2q",
+      "no": "102",
+      "slug": "102-ikuta-jinja",
+      "title": "生田神社",
+      "title_ja": "生田神社",
+      "kana": "いくたじんじゃ",
+      "type": "神社",
+      "prefecture": "兵庫縣",
+      "city": "神戶市中央區下山手通",
+      "lat": "34.694716",
+      "lng": "135.190724",
+      "enshrined": "稚日女尊",
+      "rank": "舊官幣中社・別表神社",
+      "trip": "T7",
+      "series": [
+        "S8"
+      ],
+      "visited": "2026-07",
+      "published": "2026-09-08",
+      "hook": "從三宮車站往西走六百多公尺，最後那一段路的名字叫東門筋，兩側是神戶最密的酒場之一。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/102-ikuta-jinja-01.webp",
+      "photos": 14,
+      "related": [
+        "103-nishinomiya-jinja",
+        "62-itsukushima-jinja",
+        "57-hokkaido-jingu",
+        "101-kashihara-jingu"
+      ],
+      "url": "shrine/102-ikuta-jinja.html",
+      "markdown": "shrine/102-ikuta-jinja.md"
+    },
     {
       "short": "https://os.housearch.net/s/2p",
       "no": "44",
