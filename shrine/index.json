@@ -2,9 +2,73 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 95,
+  "count": 97,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/2p",
+      "no": "44",
+      "slug": "44-hinomisaki-jinja",
+      "title": "日御碕神社",
+      "title_ja": "日御碕神社",
+      "kana": "ひのみさきじんじゃ",
+      "type": "神社",
+      "prefecture": "島根縣",
+      "city": "出雲市大社町日御碕",
+      "lat": "35.429503",
+      "lng": "132.629595",
+      "enshrined": "下之本社「日沉宮」＝天照大御神／上之本社「神の宮」＝神素盞嗚尊",
+      "rank": "國指定重要文化財（日沉宮本殿以下十四棟・鳥居二基）／日本遺產「日が沈む聖地出雲」構成文化財",
+      "trip": "T6",
+      "series": [
+        "S3"
+      ],
+      "visited": "2026-02",
+      "published": "2026-09-08",
+      "hook": "從樓門（rōmon，帶上層與腰簷的兩層門）前那條窄路走出去，繞這個岬一圈只要四公里多，",
+      "cover": "https://chrisincite.github.io/shrine-img/img/44-hinomisaki-jinja-01.webp",
+      "photos": 9,
+      "related": [
+        "43-ichibataji",
+        "63-izumo-oyashiro",
+        "70-ise-jingu-naiku",
+        "02-susa-jinja"
+      ],
+      "url": "shrine/44-hinomisaki-jinja.html",
+      "markdown": "shrine/44-hinomisaki-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/2o",
+      "no": "43",
+      "slug": "43-ichibataji",
+      "title": "醫王山一畑寺",
+      "title_ja": "一畑寺",
+      "kana": "いちばたじ",
+      "type": "寺院",
+      "prefecture": "島根縣",
+      "city": "出雲市小境町",
+      "lat": "35.496535",
+      "lng": "132.873990",
+      "enshrined": "",
+      "rank": "出雲國神佛靈場第三番・中國觀音靈場第二十六番・百八觀音靈場第三十一番・出雲觀音靈場特別札所",
+      "trip": "T6",
+      "series": [
+        "S3"
+      ],
+      "visited": "2026-02",
+      "published": "2026-09-08",
+      "hook": "早上從一畑口驛出發。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/43-ichibataji-01.webp",
+      "photos": 7,
+      "related": [
+        "44-hinomisaki-jinja",
+        "63-izumo-oyashiro",
+        "01-kamigami-jinja",
+        "02-susa-jinja"
+      ],
+      "url": "shrine/43-ichibataji.html",
+      "markdown": "shrine/43-ichibataji.md"
+    },
     {
       "short": "https://os.housearch.net/s/2m",
       "no": "101",

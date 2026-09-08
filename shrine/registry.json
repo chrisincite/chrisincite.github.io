@@ -637,7 +637,9 @@
       "series": [
         "S3"
       ],
-      "visited": "2026-02"
+      "visited": "2026-02",
+      "lat": 35.496535,
+      "lng": 132.87399
     },
     {
       "no": "44",
@@ -650,7 +652,9 @@
       "series": [
         "S3"
       ],
-      "visited": "2026-02"
+      "visited": "2026-02",
+      "lat": 35.429503,
+      "lng": 132.629595
     },
     {
       "no": "45",
@@ -1442,22 +1446,30 @@
       "slug": "102-ikuta-jinja",
       "title": "生田神社",
       "type": "神社",
-      "prefecture": "兵庫県",
-      "city": "神戸市中央区下山手通",
+      "prefecture": "兵庫縣",
+      "city": "神戶市中央區下山手通",
       "trip": "T7",
-      "series": [],
-      "visited": "2026-07"
+      "series": [
+        "S8"
+      ],
+      "visited": "2026-07",
+      "lat": 34.694716,
+      "lng": 135.190724
     },
     {
       "no": "103",
       "slug": "103-nishinomiya-jinja",
       "title": "西宮神社",
       "type": "神社",
-      "prefecture": "兵庫県",
+      "prefecture": "兵庫縣",
       "city": "西宮市社家町",
       "trip": "T7",
-      "series": [],
-      "visited": "2026-07"
+      "series": [
+        "S8"
+      ],
+      "visited": "2026-07",
+      "lat": 34.735685,
+      "lng": 135.334607
     },
     {
       "no": "104",
