@@ -658,21 +658,23 @@
     },
     {
       "no": "45",
-      "slug": "45-banshu-kiyomizudera",
-      "title": "播州清水寺",
+      "slug": "45-yasugi-kiyomizudera",
+      "title": "瑞光山清水寺",
       "type": "寺院",
-      "prefecture": "兵庫県",
-      "city": "加東市",
+      "prefecture": "島根県",
+      "city": "安来市清水町",
       "trip": "T6",
       "series": [
-        "S8"
+        "S3"
       ],
-      "visited": "2026-02"
+      "visited": "2026-02",
+      "lat": 35.402232,
+      "lng": 133.281907
     },
     {
       "no": "46",
       "slug": "46-arima-onsenji",
-      "title": "温泉寺",
+      "title": "溫泉寺",
       "type": "寺院",
       "prefecture": "兵庫県",
       "city": "神戸市北区有馬町",
@@ -693,7 +695,9 @@
       "series": [
         "S6"
       ],
-      "visited": "2026-02"
+      "visited": "2026-02",
+      "lat": 34.795006,
+      "lng": 135.248698
     },
     {
       "no": "48",
@@ -737,7 +741,7 @@
     {
       "no": "51",
       "slug": "51-rokunohe-kumano-jinja",
-      "title": "熊野神社（六戸町）",
+      "title": "熊野神社（六戶町）",
       "type": "神社",
       "prefecture": "青森県",
       "city": "上北郡六戸町",
@@ -1554,10 +1558,14 @@
       "title": "鹿島神宮",
       "type": "神社",
       "prefecture": "茨城県",
-      "city": "鹿嶋市",
+      "city": "鹿嶋市宮中",
       "trip": "T12",
-      "series": [],
-      "visited": "2024-04"
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-04",
+      "lat": 35.968947,
+      "lng": 140.631467
     },
     {
       "no": "112",
@@ -1565,10 +1573,14 @@
       "title": "常磐神社",
       "type": "神社",
       "prefecture": "茨城県",
-      "city": "水戸市",
+      "city": "水戸市常磐町",
       "trip": "T12",
-      "series": [],
-      "visited": "2024-04"
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-04",
+      "lat": 36.374942,
+      "lng": 140.455703
     },
     {
       "no": "113",
@@ -1595,7 +1607,7 @@
     {
       "no": "115",
       "slug": "115-nasu-yuzen-jinja",
-      "title": "那須温泉神社",
+      "title": "那須溫泉神社",
       "type": "神社",
       "prefecture": "栃木県",
       "city": "那須郡那須町湯本",

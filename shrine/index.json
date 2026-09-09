@@ -2,9 +2,75 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 99,
+  "count": 101,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/2t",
+      "no": "47",
+      "slug": "47-tosen-jinja",
+      "title": "湯泉神社",
+      "title_ja": "湯泉神社",
+      "kana": "とうせんじんじゃ",
+      "type": "神社",
+      "prefecture": "兵庫縣",
+      "city": "神戶市北區有馬町",
+      "lat": "34.795006",
+      "lng": "135.248698",
+      "enshrined": "大己貴命・少彥名命・熊野久須美命",
+      "rank": "式內大社（《延喜式神名帳》有馬郡）・明治六年列鄉社；有馬的氏神・溫泉守護神",
+      "trip": "T6",
+      "series": [
+        "S6"
+      ],
+      "visited": "2026-02",
+      "published": "2026-09-09",
+      "hook": "中午十二點整，站在溫泉寺門前那塊平台上，往旁邊一看就是石鳥居。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/47-tosen-jinja-01.webp",
+      "photos": 4,
+      "related": [
+        "46-arima-onsenji",
+        "102-ikuta-jinja",
+        "103-nishinomiya-jinja",
+        "35-kumano-hongu-taisha",
+        "05-keya-kurotatsu-jinja"
+      ],
+      "url": "shrine/47-tosen-jinja.html",
+      "markdown": "shrine/47-tosen-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/2s",
+      "no": "45",
+      "slug": "45-yasugi-kiyomizudera",
+      "title": "瑞光山清水寺",
+      "title_ja": "清水寺",
+      "kana": "ずいこうざんきよみずでら",
+      "type": "寺院",
+      "prefecture": "島根縣",
+      "city": "安來市清水町",
+      "lat": "35.402232",
+      "lng": "133.281907",
+      "enshrined": "",
+      "rank": "中國三十三觀音靈場第二十八番・出雲國神佛靈場第十一番・出雲三十三觀音靈場第二十一番；本堂＝國指定重要文化財，三重塔＝島根縣指定有形文化財",
+      "trip": "T6",
+      "series": [
+        "S3"
+      ],
+      "visited": "2026-02",
+      "published": "2026-09-09",
+      "hook": "下午三點半多一點，車停在谷口，四十公尺的標高，路面兩側還堆著鏟起來的雪。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/45-yasugi-kiyomizudera-01.webp",
+      "photos": 4,
+      "related": [
+        "43-ichibataji",
+        "44-hinomisaki-jinja",
+        "63-izumo-oyashiro",
+        "01-kamigami-jinja",
+        "39-enryakuji"
+      ],
+      "url": "shrine/45-yasugi-kiyomizudera.html",
+      "markdown": "shrine/45-yasugi-kiyomizudera.md"
+    },
     {
       "short": "https://os.housearch.net/s/2r",
       "no": "103",
