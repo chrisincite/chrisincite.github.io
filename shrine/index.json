@@ -2,9 +2,73 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 101,
+  "count": 103,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/2v",
+      "no": "112",
+      "slug": "112-tokiwa-jinja",
+      "title": "常磐神社",
+      "title_ja": "常磐神社",
+      "kana": "ときわじんじゃ",
+      "type": "神社",
+      "prefecture": "茨城縣",
+      "city": "水戶市常磐町",
+      "lat": "36.374942",
+      "lng": "140.455703",
+      "enshrined": "高讓味道根命（德川光圀）・押健男國之御楯命（德川齊昭）",
+      "rank": "舊別格官幣社・別表神社；史跡「義公生誕之地」・工藝品「太極砲」・工藝品「陣太鼓」＝水戶市指定文化財",
+      "trip": "T12",
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-04",
+      "published": "2026-09-09",
+      "hook": "上午九點多，石柱與木鳥居之間有一整片剛落下來的櫻花瓣，",
+      "cover": "https://chrisincite.github.io/shrine-img/img/112-tokiwa-jinja-01.webp",
+      "photos": 7,
+      "related": [
+        "111-kashima-jingu",
+        "101-kashihara-jingu",
+        "38-omi-jingu",
+        "57-hokkaido-jingu"
+      ],
+      "url": "shrine/112-tokiwa-jinja.html",
+      "markdown": "shrine/112-tokiwa-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/2u",
+      "no": "111",
+      "slug": "111-kashima-jingu",
+      "title": "鹿島神宮",
+      "title_ja": "鹿島神宮",
+      "kana": "かしまじんぐう",
+      "type": "神社",
+      "prefecture": "茨城縣",
+      "city": "鹿嶋市宮中",
+      "lat": "35.968947",
+      "lng": "140.631467",
+      "enshrined": "武甕槌大神",
+      "rank": "常陸國一之宮・式內社（名神大社）・舊官幣大社・勅祭社；本殿・石之間・幣殿・拜殿・樓門・攝社奧宮＝國指定重要文化財；境內＝國指定史跡；樹叢＝茨城縣指定天然記念物",
+      "trip": "T12",
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-04",
+      "published": "2026-09-09",
+      "hook": "從車站往東北走一公里，路先下後上，在一座木頭的鳥居前停住。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/111-kashima-jingu-01.webp",
+      "photos": 7,
+      "related": [
+        "63-izumo-oyashiro",
+        "112-tokiwa-jinja",
+        "100-aekuni-jinja",
+        "92-oasahiko-jinja"
+      ],
+      "url": "shrine/111-kashima-jingu.html",
+      "markdown": "shrine/111-kashima-jingu.md"
+    },
     {
       "short": "https://os.housearch.net/s/2t",
       "no": "47",
