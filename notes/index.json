@@ -2,9 +2,28 @@
   "site": "CHRIS OS",
   "description": "Chris 的讀書筆記——讀完之後自己想了什麼。",
   "canonical_base": "https://chrisincite.github.io",
-  "updated": "2026-09-07",
-  "count": 16,
+  "updated": "2026-09-09",
+  "count": 17,
   "notes": [
+    {
+      "short": "https://os.housearch.net/n/h",
+      "slug": "20260909-claude-cost-performance",
+      "published_at": "2026-09-09T08:32:26+08:00",
+      "date": "2026-09-09",
+      "title": "Chris 筆記｜用 Claude Platform 降低成本、提升效能",
+      "hook": "Anthropic 突然在昨晚發布了這篇文章，教你如何降低使用 Claude 的成本，這事聽起來就是有點詭異。",
+      "tags": [],
+      "cover": "",
+      "url": "notes/20260909-claude-cost-performance.html",
+      "markdown": "notes/20260909-claude-cost-performance.md",
+      "source": {
+        "author": "@ClaudeDevs（ClaudeDevs）",
+        "site": "X",
+        "url": "https://x.com/ClaudeDevs/status/2097369738968195513",
+        "published": "2026-09-08",
+        "archive": "20260909/20260909-claude-cost-performance"
+      }
+    },
     {
       "short": "https://os.housearch.net/n/g",
       "slug": "20260906-multiple-interests-superpower",
