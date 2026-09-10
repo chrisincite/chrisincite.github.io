@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 106,
+  "count": 109,
   "planned": 140,
   "shrines": [
     {
@@ -100,6 +100,102 @@
       ],
       "url": "shrine/128-hoju-san-risshakuji.html",
       "markdown": "shrine/128-hoju-san-risshakuji.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/31",
+      "no": "106",
+      "slug": "106-hotaka-jinja",
+      "title": "穗高神社",
+      "title_ja": "穗髙神社",
+      "kana": "ほたかじんじゃ",
+      "type": "神社",
+      "prefecture": "長野縣",
+      "city": "安曇野市穗高",
+      "lat": "36.3405",
+      "lng": "137.8827",
+      "enshrined": "中殿 穗高見命／左殿 綿津見命／右殿 瓊瓊杵命（別宮 天照大御神・若宮 安曇連比羅夫命）",
+      "rank": "延喜式神名帳 名神大社；舊國幣小社；別表神社",
+      "trip": "T10",
+      "series": [
+        "S5"
+      ],
+      "visited": "2023-10",
+      "published": "2026-09-10",
+      "hook": "從穗高驛出來，過一條馬路就是神社的木鳥居。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/106-hotaka-jinja-01.webp",
+      "photos": 12,
+      "related": [
+        "105-yohashira-jinja",
+        "107-suwa-taisha-kamisha-honmiya",
+        "28-oyamazumi-jinja",
+        "63-izumo-oyashiro"
+      ],
+      "url": "shrine/106-hotaka-jinja.html",
+      "markdown": "shrine/106-hotaka-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/30",
+      "no": "105",
+      "slug": "105-yohashira-jinja",
+      "title": "四柱神社",
+      "title_ja": "四柱神社",
+      "kana": "よはしらじんじゃ",
+      "type": "神社",
+      "prefecture": "長野縣",
+      "city": "松本市大手",
+      "lat": "36.2350444",
+      "lng": "137.9703842",
+      "enshrined": "天之御中主神・高皇產靈神・神皇產靈神・天照大神",
+      "rank": "別表神社（昭和三十四年加列）",
+      "trip": "T10",
+      "series": [
+        "S7"
+      ],
+      "visited": "2023-10",
+      "published": "2026-09-10",
+      "hook": "八點半的松本，女鳥羽川的水聲比車聲大。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/105-yohashira-jinja-01.webp",
+      "photos": 10,
+      "related": [
+        "106-hotaka-jinja",
+        "107-suwa-taisha-kamisha-honmiya",
+        "101-kashihara-jingu",
+        "38-omi-jingu"
+      ],
+      "url": "shrine/105-yohashira-jinja.html",
+      "markdown": "shrine/105-yohashira-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/2z",
+      "no": "104",
+      "slug": "104-kitaguchi-hongu-fuji-sengen",
+      "title": "北口本宮冨士淺間神社",
+      "title_ja": "北口本宮冨士浅間神社",
+      "kana": "きたぐちほんぐうふじせんげんじんじゃ",
+      "type": "神社",
+      "prefecture": "山梨縣",
+      "city": "富士吉田市上吉田",
+      "lat": "35.470696",
+      "lng": "138.7922637",
+      "enshrined": "木花開耶姬命・彥火瓊瓊杵尊・大山祇神",
+      "rank": "別表神社；世界文化遺產「富士山」構成資產；社殿等十一棟為國指定重要文化財",
+      "trip": "T10",
+      "series": [
+        "S2"
+      ],
+      "visited": "2023-10",
+      "published": "2026-09-10",
+      "hook": "金鳥居站在國道的正中央，朱紅色，兩根柱子跨過整條車道。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-01.webp",
+      "photos": 12,
+      "related": [
+        "110-fujisan-hongu-sengen-taisha",
+        "107-suwa-taisha-kamisha-honmiya",
+        "49-takeda-jinja",
+        "27-ishizuchi-jinja"
+      ],
+      "url": "shrine/104-kitaguchi-hongu-fuji-sengen.html",
+      "markdown": "shrine/104-kitaguchi-hongu-fuji-sengen.md"
     },
     {
       "short": "https://os.housearch.net/s/2v",
