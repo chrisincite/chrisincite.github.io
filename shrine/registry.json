@@ -1483,8 +1483,12 @@
       "prefecture": "山梨県",
       "city": "富士吉田市",
       "trip": "T10",
-      "series": [],
-      "visited": "2023-10"
+      "series": [
+        "S2"
+      ],
+      "visited": "2023-10",
+      "lat": 35.470696,
+      "lng": 138.7922637
     },
     {
       "no": "105",
@@ -1494,8 +1498,12 @@
       "prefecture": "長野県",
       "city": "松本市",
       "trip": "T10",
-      "series": [],
-      "visited": "2023-10"
+      "series": [
+        "S7"
+      ],
+      "visited": "2023-10",
+      "lat": 36.2350444,
+      "lng": 137.9703842
     },
     {
       "no": "106",
@@ -1505,8 +1513,12 @@
       "prefecture": "長野県",
       "city": "安曇野市",
       "trip": "T10",
-      "series": [],
-      "visited": "2023-10"
+      "series": [
+        "S5"
+      ],
+      "visited": "2023-10",
+      "lat": 36.3405,
+      "lng": 137.8827
     },
     {
       "no": "107",
@@ -1764,33 +1776,45 @@
       "slug": "128-hoju-san-risshakuji",
       "title": "寶珠山立石寺（山寺）",
       "type": "寺院",
-      "prefecture": "山形県",
+      "prefecture": "山形縣",
       "city": "山形市山寺",
       "trip": "T13",
-      "series": [],
-      "visited": "2022-11"
+      "series": [
+        "S4"
+      ],
+      "visited": "2022-11",
+      "lat": 38.312553,
+      "lng": 140.437397
     },
     {
       "no": "129",
       "slug": "129-tono-go-hachimangu",
       "title": "遠野鄉八幡宮",
       "type": "神社",
-      "prefecture": "岩手県",
+      "prefecture": "岩手縣",
       "city": "遠野市松崎町白岩",
       "trip": "T13",
-      "series": [],
-      "visited": "2022-10"
+      "series": [
+        "S8"
+      ],
+      "visited": "2022-10",
+      "lat": 39.342708,
+      "lng": 141.545403
     },
     {
       "no": "130",
       "slug": "130-akiu-jinja",
       "title": "秋保神社",
       "type": "神社",
-      "prefecture": "宮城県",
-      "city": "仙台市太白区秋保町長袋",
+      "prefecture": "宮城縣",
+      "city": "仙台市太白區秋保町長袋",
       "trip": "T13",
-      "series": [],
-      "visited": "2022-11"
+      "series": [
+        "S8"
+      ],
+      "visited": "2022-11",
+      "lat": 38.263626,
+      "lng": 140.659628
     },
     {
       "no": "131",

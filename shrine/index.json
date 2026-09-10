@@ -2,9 +2,105 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 103,
+  "count": 106,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/2y",
+      "no": "130",
+      "slug": "130-akiu-jinja",
+      "title": "秋保神社",
+      "title_ja": "秋保神社",
+      "kana": "あきうじんじゃ",
+      "type": "神社",
+      "prefecture": "宮城縣",
+      "city": "仙台市太白區秋保町長袋字清水久保北",
+      "lat": "38.263626",
+      "lng": "140.659628",
+      "enshrined": "健御名方命・天照皇大神・豐受皇大神・軻遇突智命・大巳貴之命・少名彥之命・日本武尊・應神天皇・月讀之命",
+      "rank": "舊村社；秋保鄉總社；秋保神社神樂＝仙台市登錄無形民俗文化財（平成八年）；御神木銀杏＝「秋保の名木」第六十四號（平成二十二年認定）",
+      "trip": "T13",
+      "series": [
+        "S8"
+      ],
+      "visited": "2022-11",
+      "published": "2026-09-10",
+      "hook": "名取川在這一段切得很深。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/130-akiu-jinja-01.webp",
+      "photos": 8,
+      "related": [
+        "128-hoju-san-risshakuji",
+        "129-tono-go-hachimangu",
+        "47-tosen-jinja",
+        "133-tsutsukowake-jinja-baba"
+      ],
+      "url": "shrine/130-akiu-jinja.html",
+      "markdown": "shrine/130-akiu-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/2x",
+      "no": "129",
+      "slug": "129-tono-go-hachimangu",
+      "title": "遠野鄉八幡宮",
+      "title_ja": "遠野郷八幡宮",
+      "kana": "とおのごうはちまんぐう",
+      "type": "神社",
+      "prefecture": "岩手縣",
+      "city": "遠野市松崎町白岩",
+      "lat": "39.342708",
+      "lng": "141.545403",
+      "enshrined": "譽田別尊・大國主神・事代主神・少彥名神・御年神",
+      "rank": "遠野鄉總鎮守；馬場＝遠野市指定文化財（昭和五十六年二月）；遠野南部流鏑馬＝遠野市指定民俗文化財（昭和五十四年）",
+      "trip": "T13",
+      "series": [
+        "S8"
+      ],
+      "visited": "2022-10",
+      "published": "2026-09-10",
+      "hook": "從遠野驛往東北走兩公里多，路穿過市街、越過一條小河，接上國道三四〇號，兩側慢慢換成水田與零星的農舍。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/129-tono-go-hachimangu-01.webp",
+      "photos": 8,
+      "related": [
+        "128-hoju-san-risshakuji",
+        "130-akiu-jinja",
+        "111-kashima-jingu",
+        "133-tsutsukowake-jinja-baba"
+      ],
+      "url": "shrine/129-tono-go-hachimangu.html",
+      "markdown": "shrine/129-tono-go-hachimangu.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/2w",
+      "no": "128",
+      "slug": "128-hoju-san-risshakuji",
+      "title": "寶珠山立石寺（山寺）",
+      "title_ja": "宝珠山立石寺",
+      "kana": "ほうじゅさんりっしゃくじ",
+      "type": "寺院",
+      "prefecture": "山形縣",
+      "city": "山形市山寺",
+      "lat": "38.312553",
+      "lng": "140.437397",
+      "enshrined": "",
+      "rank": "國指定史跡・名勝「山寺」（昭和七年三月二十五日）；根本中堂＝國指定重要文化財；納經堂＝山形縣指定文化財",
+      "trip": "T13",
+      "series": [
+        "S4"
+      ],
+      "visited": "2022-11",
+      "published": "2026-09-10",
+      "hook": "山寺驛的月台標高約兩百四十公尺。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/128-hoju-san-risshakuji-01.webp",
+      "photos": 8,
+      "related": [
+        "39-enryakuji",
+        "130-akiu-jinja",
+        "129-tono-go-hachimangu",
+        "45-yasugi-kiyomizudera"
+      ],
+      "url": "shrine/128-hoju-san-risshakuji.html",
+      "markdown": "shrine/128-hoju-san-risshakuji.md"
+    },
     {
       "short": "https://os.housearch.net/s/2v",
       "no": "112",
