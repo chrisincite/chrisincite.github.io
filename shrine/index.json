@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 109,
+  "count": 111,
   "planned": 140,
   "shrines": [
     {
@@ -196,6 +196,72 @@
       ],
       "url": "shrine/104-kitaguchi-hongu-fuji-sengen.html",
       "markdown": "shrine/104-kitaguchi-hongu-fuji-sengen.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/33",
+      "no": "49",
+      "slug": "49-takeda-jinja",
+      "title": "武田神社",
+      "title_ja": "武田神社",
+      "kana": "たけだじんじゃ",
+      "type": "神社",
+      "prefecture": "山梨縣",
+      "city": "甲府市古府中町",
+      "lat": "35.686784",
+      "lng": "138.577220",
+      "enshrined": "武田晴信命（武田信玄公）",
+      "rank": "大正八年（1919）創建；鎮座地為國指定史跡「武田氏館跡（躑躅ヶ崎館跡）」",
+      "trip": "T8",
+      "series": [
+        "S7"
+      ],
+      "visited": "2023-10",
+      "published": "2026-09-10",
+      "hook": "早上九點三十二分，一列穿黃帽的小學生正在過那座朱紅的橋。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/49-takeda-jinja-01.webp",
+      "photos": 7,
+      "related": [
+        "105-yohashira-jinja",
+        "57-hokkaido-jingu",
+        "104-kitaguchi-hongu-fuji-sengen",
+        "38-omi-jingu",
+        "106-hotaka-jinja"
+      ],
+      "url": "shrine/49-takeda-jinja.html",
+      "markdown": "shrine/49-takeda-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/32",
+      "no": "46",
+      "slug": "46-arima-onsenji",
+      "title": "溫泉寺",
+      "title_ja": "温泉寺",
+      "kana": "おんせんじ",
+      "type": "寺院",
+      "prefecture": "兵庫縣",
+      "city": "神戶市北區有馬町",
+      "lat": "34.795868",
+      "lng": "135.248186",
+      "enshrined": "",
+      "rank": "神龜元年（724）行基開基；建久二年（1191）仁西上人再興",
+      "trip": "T6",
+      "series": [
+        "S6"
+      ],
+      "visited": "2026-02",
+      "published": "2026-09-10",
+      "hook": "中午十一點五十九分到十二點零一分，前後九十秒，六張照片。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/46-arima-onsenji-01.webp",
+      "photos": 5,
+      "related": [
+        "47-tosen-jinja",
+        "102-ikuta-jinja",
+        "103-nishinomiya-jinja",
+        "39-enryakuji",
+        "93-ryozenji"
+      ],
+      "url": "shrine/46-arima-onsenji.html",
+      "markdown": "shrine/46-arima-onsenji.md"
     },
     {
       "short": "https://os.housearch.net/s/2v",

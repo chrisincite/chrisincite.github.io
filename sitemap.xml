@@ -223,6 +223,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/shrine/49-takeda-jinja.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/49-takeda-jinja.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/46-arima-onsenji.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/46-arima-onsenji.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/shrine/112-tokiwa-jinja.html</loc>
     <priority>0.8</priority>
   </url>
