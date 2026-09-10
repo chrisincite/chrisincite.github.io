@@ -241,7 +241,7 @@
 
 ▲ 接下來往哪走
 碑上的線本身就是一份清單。往東是 [伊勢神宮內宮（皇大神宮）](70-ise-jingu-naiku.md)，
-夏至的日沒方向是 [出雲大社](63-izumo-oyashiro.md)，日出方向是 諏訪大社 上社本宮；
+夏至的日沒方向是 [出雲大社](63-izumo-oyashiro.md)，日出方向是 [諏訪大社 上社本宮](107-suwa-taisha-kamisha-honmiya.md)；
 冬至的日出是 [熊野那智大社](33-kumano-nachi-taisha.md)，日沒是 [高千穗神社](17-takachiho-jinja.md) 與 [天岩戶神社](16-amanoiwato-jinja.md)。
 要不要相信那些角度是一回事，順著它排行程是另一回事。
 

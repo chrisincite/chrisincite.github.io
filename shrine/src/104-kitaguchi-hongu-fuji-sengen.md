@@ -20,7 +20,7 @@ visited: 2023-10
 photos: DSC04694-DSC04746
 photos_iphone: 2TB_2021/iPhone15/202406｜IMG_0119-IMG_0131（群 c104）
 photo_count: 53
-related: [110-fujisan-hongu-sengen-taisha, 107-suwa-taisha-kamisha-honmiya, 49-takeda-jinja, 27-ishizuchi-jinja]
+related: [110-fujisan-hongu-sengen-taisha, 107-suwa-taisha-kamisha-honmiya, 49-takeda-jinja, 27-ishizuchi-jinja, 139-iwakiyama-jinja]
 status: ready
 published: 2026-09-10
 ---

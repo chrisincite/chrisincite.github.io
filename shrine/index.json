@@ -2,9 +2,40 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 111,
+  "count": 113,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/35",
+      "no": "139",
+      "slug": "139-iwakiyama-jinja",
+      "title": "岩木山神社",
+      "title_ja": "岩木山神社",
+      "kana": "いわきやまじんじゃ",
+      "type": "神社",
+      "prefecture": "青森縣",
+      "city": "弘前市百澤寺澤",
+      "lat": "40.622086",
+      "lng": "140.340397",
+      "enshrined": "顯國魂神・多都比姫神・宇賀能賣神・大山祇神・坂上刈田麿命（合稱岩木山大神）",
+      "rank": "舊國幣小社；別表神社；本殿・奧門・瑞垣・拜殿・中門・樓門六棟國指定重要文化財",
+      "trip": "T13",
+      "series": [
+        "S2"
+      ],
+      "visited": "2022-10",
+      "published": "2026-09-10",
+      "hook": "從縣道三號上的鳥居走進去，路是直的，正對著岩木山。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/139-iwakiyama-jinja-01.webp",
+      "photos": 2,
+      "related": [
+        "104-kitaguchi-hongu-fuji-sengen",
+        "128-hoju-san-risshakuji",
+        "129-tono-go-hachimangu"
+      ],
+      "url": "shrine/139-iwakiyama-jinja.html",
+      "markdown": "shrine/139-iwakiyama-jinja.md"
+    },
     {
       "short": "https://os.housearch.net/s/2y",
       "no": "130",
@@ -64,7 +95,8 @@
         "128-hoju-san-risshakuji",
         "130-akiu-jinja",
         "111-kashima-jingu",
-        "133-tsutsukowake-jinja-baba"
+        "133-tsutsukowake-jinja-baba",
+        "139-iwakiyama-jinja"
       ],
       "url": "shrine/129-tono-go-hachimangu.html",
       "markdown": "shrine/129-tono-go-hachimangu.md"
@@ -96,10 +128,44 @@
         "39-enryakuji",
         "130-akiu-jinja",
         "129-tono-go-hachimangu",
-        "45-yasugi-kiyomizudera"
+        "45-yasugi-kiyomizudera",
+        "139-iwakiyama-jinja"
       ],
       "url": "shrine/128-hoju-san-risshakuji.html",
       "markdown": "shrine/128-hoju-san-risshakuji.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/34",
+      "no": "107",
+      "slug": "107-suwa-taisha-kamisha-honmiya",
+      "title": "諏訪大社 上社本宮",
+      "title_ja": "諏訪大社 上社本宮",
+      "kana": "すわたいしゃ かみしゃほんみや",
+      "type": "神社",
+      "prefecture": "長野縣",
+      "city": "諏訪市中洲宮山",
+      "lat": "35.9983",
+      "lng": "138.1191",
+      "enshrined": "建御名方神",
+      "rank": "延喜式神名帳 南方刀美神社（信濃國四十八座之首）；信濃國一宮；舊官幣大社；全國諏訪神社總本社；別表神社",
+      "trip": "T10",
+      "series": [
+        "S1"
+      ],
+      "visited": "2023-10",
+      "published": "2026-09-10",
+      "hook": "從縣道上的四之鳥居轉進北參道，一百五十公尺，一之鳥居就到了。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-01.webp",
+      "photos": 18,
+      "related": [
+        "106-hotaka-jinja",
+        "105-yohashira-jinja",
+        "63-izumo-oyashiro",
+        "31-izanagi-jingu",
+        "104-kitaguchi-hongu-fuji-sengen"
+      ],
+      "url": "shrine/107-suwa-taisha-kamisha-honmiya.html",
+      "markdown": "shrine/107-suwa-taisha-kamisha-honmiya.md"
     },
     {
       "short": "https://os.housearch.net/s/31",
@@ -192,7 +258,8 @@
         "110-fujisan-hongu-sengen-taisha",
         "107-suwa-taisha-kamisha-honmiya",
         "49-takeda-jinja",
-        "27-ishizuchi-jinja"
+        "27-ishizuchi-jinja",
+        "139-iwakiyama-jinja"
       ],
       "url": "shrine/104-kitaguchi-hongu-fuji-sengen.html",
       "markdown": "shrine/104-kitaguchi-hongu-fuji-sengen.md"

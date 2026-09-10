@@ -20,7 +20,7 @@ visited: 2022-10
 photos:
 photos_iphone: 2TB_2021/iPhone15/202406｜IMG_6791-IMG_6816（群 c023）
 photo_count: 26
-related: [128-hoju-san-risshakuji, 130-akiu-jinja, 111-kashima-jingu, 133-tsutsukowake-jinja-baba]
+related: [128-hoju-san-risshakuji, 130-akiu-jinja, 111-kashima-jingu, 133-tsutsukowake-jinja-baba, 139-iwakiyama-jinja]
 status: ready
 published: 2026-09-10
 ---
