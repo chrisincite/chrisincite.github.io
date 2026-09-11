@@ -12,6 +12,7 @@
 <link rel="alternate" type="text/plain" href="/llms-full.txt" title="全部筆記的 markdown 全文">
 <link rel="alternate" type="application/json" href="/notes/index.json" title="讀書筆記索引">
 <link rel="alternate" type="application/json" href="/shrine/index.json" title="神社寺廟散策索引">
+<link rel="alternate" type="application/json" href="/guide/index.json" title="超入門索引">
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 <script type="application/ld+json">
 {
@@ -1040,7 +1041,8 @@ a.sh-item .sh-no { color: var(--vermilion); }
   <button data-tab="hub"><span class="pill-num">03</span>工具</button>
   <button data-tab="notes"><span class="pill-num">04</span>筆記</button>
   <button data-tab="shrine"><span class="pill-num">05</span>散策</button>
-  <button data-tab="about"><span class="pill-num">06</span>關於</button>
+  <button data-tab="guide"><span class="pill-num">06</span>超入門</button>
+  <button data-tab="about"><span class="pill-num">07</span>關於</button>
 </nav>
 
 <!-- ============ TAB 1：HOME ============ -->
@@ -1141,6 +1143,20 @@ a.sh-item .sh-no { color: var(--vermilion); }
             <li><span>載入中…</span></li>
           </ul>
           <a class="go-link" href="#notes">看全部筆記 →</a>
+        </div>
+      </div>
+
+      <div class="os-window" id="win-guide" style="left: 46%; top: 54%; width: 300px;">
+        <div class="win-titlebar">
+          <span class="term-dot r"></span><span class="term-dot y"></span><span class="term-dot g"></span>
+          <span class="win-name">🔰 超入門</span>
+        </div>
+        <div class="win-body">
+          把一個題目講到<strong>小學生也能照著做</strong>：每一步都有截圖，另配一頁大圖少字的圖解版。
+          <ul class="win-list" id="deskGuides">
+            <li><span>載入中…</span></li>
+          </ul>
+          <a class="go-link" href="#guide">看全部教學 →</a>
         </div>
       </div>
 
@@ -1427,11 +1443,26 @@ a.sh-item .sh-no { color: var(--vermilion); }
   </div>
 </main>
 
-<!-- ============ TAB 6：關於 ============ -->
+<!-- ============ TAB 6：超入門 ============ -->
+<main id="page-guide" class="tab-page">
+  <div class="page-inner">
+    <header class="page-head">
+      <div class="ph-mono">06 / GUIDE</div>
+      <h1>講到小學生也能照著做</h1>
+      <p>一個題目一篇，從零開始。專有名詞全部拆開講，每一個要按的按鈕都附實際畫面截圖。每篇另配一頁<strong>圖解版</strong>——大圖少字，完全沒有背景知識的人可以先看那個。</p>
+    </header>
+    <div id="guideList" class="notes-list">
+      <p class="notes-empty">載入中…</p>
+    </div>
+    <p class="hub-note">// 寫給「知道它很重要、但每次打開說明文件就關掉」的人。</p>
+  </div>
+</main>
+
+<!-- ============ TAB 7：關於 ============ -->
 <main id="page-about" class="tab-page">
   <div class="page-inner">
     <header class="page-head">
-      <div class="ph-mono">06 / ABOUT</div>
+      <div class="ph-mono">07 / ABOUT</div>
       <h1>在 AI 時代重建工作流的人</h1>
     </header>
     <div class="about-grid">
@@ -1481,7 +1512,7 @@ a.sh-item .sh-no { color: var(--vermilion); }
   /* ============================================
      TAB ROUTER（hash-based）
      ============================================ */
-  var TABS = ['home', 'works', 'hub', 'notes', 'shrine', 'about'];
+  var TABS = ['home', 'works', 'hub', 'notes', 'shrine', 'guide', 'about'];
   var pillNav = document.getElementById('pillNav');
 
   function currentTab() {
@@ -1882,6 +1913,68 @@ a.sh-item .sh-no { color: var(--vermilion); }
     .catch(function() {
       var list = document.getElementById('notesList');
       if (list) list.innerHTML = '<p class="notes-empty">筆記載入失敗——若是本機直接開啟檔案，請改用 http 伺服器檢視。</p>';
+    });
+
+  /* ============================================
+     超入門（讀 guide/index.json）
+
+     卡片沿用筆記的 .note-card 樣式，差別是多一顆「圖解版」的角標——
+     那是這個分區的識別，每篇都該有。
+     ============================================ */
+  function renderGuides(guides) {
+    var list = document.getElementById('guideList');
+    if (!list) return;
+    if (!guides.length) {
+      list.innerHTML = '<p class="notes-empty">還沒有教學。</p>';
+      return;
+    }
+    list.innerHTML = guides.map(function(g) {
+      var thumb = g.cover
+        ? '<img class="nc-thumb" src="guide/' + esc(g.cover) + '" alt="" loading="lazy">'
+        : '<div class="nc-thumb placeholder">🔰</div>';
+      var chapters = (g.chapters || []).length;
+      var meta = [];
+      if (chapters) meta.push(chapters + ' 章');
+      if (g.images) meta.push(g.images + ' 張截圖');
+      var tags = (g.tags || []).map(function(t) {
+        return '<span class="win-tag">' + esc(t) + '</span>';
+      }).join('');
+      return '<a class="note-card" href="' + esc(g.url) + '">' +
+        '<div>' + thumb + '</div>' +
+        '<div>' +
+          '<div class="nc-date">' + esc(g.date) + (meta.length ? ' · ' + meta.join(' · ') : '') + '</div>' +
+          '<h3>' + esc(g.title) + '</h3>' +
+          '<p class="nc-hook">' + esc(g.hook) + '</p>' +
+          (g.eli5 ? '<p class="nc-src">🖍 另有圖解版</p>' : '') +
+          (tags ? '<div class="nc-tags">' + tags + '</div>' : '') +
+        '</div>' +
+      '</a>';
+    }).join('');
+  }
+
+  function renderDeskGuides(guides) {
+    var box = document.getElementById('deskGuides');
+    if (!box) return;
+    if (!guides.length) {
+      box.innerHTML = '<li><span>還沒有教學</span></li>';
+      return;
+    }
+    box.innerHTML = guides.slice(0, 3).map(function(g) {
+      return '<li><span class="k">' + esc(g.date.slice(5)) + '</span>' +
+             '<span><a href="' + esc(g.url) + '">' + esc(g.title) + '</a></span></li>';
+    }).join('');
+  }
+
+  fetch('guide/index.json')
+    .then(function(r) { return r.ok ? r.json() : Promise.reject(r.status); })
+    .then(function(data) {
+      var guides = data.guides || [];
+      renderGuides(guides);
+      renderDeskGuides(guides);
+    })
+    .catch(function() {
+      var list = document.getElementById('guideList');
+      if (list) list.innerHTML = '<p class="notes-empty">教學載入失敗——若是本機直接開啟檔案，請改用 http 伺服器檢視。</p>';
     });
 
   /* ============================================

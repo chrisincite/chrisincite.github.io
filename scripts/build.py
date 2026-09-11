@@ -63,8 +63,13 @@ NOTES_DIR = os.path.join(ROOT, "notes")
 SHRINE_SRC_DIR = os.path.join(ROOT, "shrine", "src")
 SHRINE_DIR = os.path.join(ROOT, "shrine")
 
+GUIDE_SRC_DIR = os.path.join(ROOT, "guide", "src")
+GUIDE_DIR = os.path.join(ROOT, "guide")
+GUIDE_IMG_DIR = os.path.join(GUIDE_DIR, "img")
+
 # 只有 ready / published 會上站。draft / research 可以先進 repo 不出現在網站上。
 SHRINE_PUBLISH_STATUS = ("ready", "published")
+GUIDE_PUBLISH_STATUS = ("ready", "published")
 
 # 區塊標題 → 穩定錨點 id（agent 可依錨點深連結與抽取）
 # 錨點名稱是對外契約，即使顯示標題改了也不要動；舊標題保留相容。
@@ -964,6 +969,542 @@ SHRINE_TEMPLATE = """<!DOCTYPE html>
 
 
 # ============================================================
+# 超入門（/guide）
+# ============================================================
+# 這個分區跟筆記／散策的差別：它是「照著圖操作」的教學文，所以渲染器要多吃
+# 三種 notes 不支援的東西——圖片＋圖說、程式碼區塊、表格。
+# 圖片放在 guide/img/（本站自己的 repo，不像散策走外部 shrine-img），
+# 因為教學截圖數量可控，而且要跟文章一起版本化。
+
+GUIDE_IMG_RE = re.compile(r"^!\[(.*?)\]\((.+?)\)$")
+GUIDE_FENCE_RE = re.compile(r"^```(\w*)\s*$")
+GUIDE_TABLE_SEP_RE = re.compile(r"^\|[\s:|-]+\|$")
+
+
+def guide_inline(text):
+    """行內語法。比 notes 的 inline() 多一個刪除線，其餘相同。"""
+    out = html.escape(text, quote=False)
+    out = re.sub(r"`([^`]+)`", r"<code>\1</code>", out)
+    out = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", out)
+    out = re.sub(r"~~([^~]+)~~", r"<del>\1</del>", out)
+    out = re.sub(
+        r"\[([^\]]+)\]\(([^)\s]+)\)",
+        r'<a href="\2" rel="noopener">\1</a>',
+        out,
+    )
+    return out
+
+
+def guide_table(rows):
+    """把 | a | b | 形式的列轉成 <table>。第一列當表頭。"""
+    def cells(line):
+        return [c.strip() for c in line.strip().strip("|").split("|")]
+
+    head = cells(rows[0])
+    body = [cells(r) for r in rows[2:]]          # rows[1] 是 |---|---| 分隔列
+    out = ['<div class="gd-tablewrap"><table class="gd-table">', "<thead><tr>"]
+    out += ["<th>%s</th>" % guide_inline(c) for c in head]
+    out.append("</tr></thead><tbody>")
+    for r in body:
+        # 欄數不齊時補空白，不要讓表格塌掉
+        r = (r + [""] * len(head))[:len(head)]
+        out.append("<tr>%s</tr>" % "".join("<td>%s</td>" % guide_inline(c) for c in r))
+    out.append("</tbody></table></div>")
+    return "".join(out)
+
+
+def render_guide_blocks(body, images):
+    """教學文的區塊渲染。
+
+    支援：## / ### 小標、``` 程式碼圍欄、![](…) ＋下一段 > 圖說合成 figure、
+    | 表格 |、有序／無序清單（- * ・）、> 引言、--- 分隔線、段落。
+    """
+    lines = body.split("\n")
+    out, buf, mode = [], [], None
+
+    def flush():
+        nonlocal buf, mode
+        if not buf:
+            mode = None
+            return
+        if mode == "ol":
+            out.append("<ol>%s</ol>" % "".join(
+                "<li>%s</li>" % guide_inline(x) for x in buf))
+        elif mode == "ul":
+            out.append("<ul>%s</ul>" % "".join(
+                "<li>%s</li>" % guide_inline(x) for x in buf))
+        elif mode == "quote":
+            out.append("<blockquote><p>%s</p></blockquote>"
+                       % guide_inline(" ".join(buf).strip()))
+        else:
+            out.append("<p>%s</p>" % guide_inline(" ".join(buf).strip()))
+        buf, mode = [], None
+
+    i = 0
+    pending_blank = False
+    while i < len(lines):
+        raw = lines[i]
+        s = raw.strip()
+
+        if not s:
+            pending_blank = True
+            i += 1
+            continue
+
+        # HTML 註解（截圖規格那類的工作備註）不出現在網頁上
+        if s.startswith("<!--"):
+            flush()
+            while i < len(lines) and "-->" not in lines[i]:
+                i += 1
+            i += 1
+            pending_blank = False
+            continue
+
+        # ---------- 程式碼圍欄 ----------
+        m = GUIDE_FENCE_RE.match(s)
+        if m:
+            flush()
+            lang = m.group(1)
+            code = []
+            i += 1
+            while i < len(lines) and not GUIDE_FENCE_RE.match(lines[i].strip()):
+                code.append(lines[i])
+                i += 1
+            i += 1                                   # 吃掉收尾的 ```
+            cls = ' class="language-%s"' % lang if lang else ""
+            out.append("<pre class=\"gd-code\"><code%s>%s</code></pre>"
+                       % (cls, html.escape("\n".join(code), quote=False)))
+            pending_blank = False
+            continue
+
+        # ---------- 圖片（＋緊接其後的 > 圖說）----------
+        m = GUIDE_IMG_RE.match(s)
+        if m:
+            flush()
+            alt, src = m.group(1), m.group(2)
+            images.append(src)
+            caption = ""
+            j = i + 1
+            while j < len(lines) and not lines[j].strip():
+                j += 1
+            if j < len(lines) and lines[j].strip().startswith(">"):
+                cap_lines = []
+                while j < len(lines) and lines[j].strip().startswith(">"):
+                    cap_lines.append(lines[j].strip().lstrip(">").strip())
+                    j += 1
+                caption = " ".join(cap_lines).strip()
+                i = j - 1
+            # 沒寫 > 圖說時就拿 alt 當圖說——有些稿子（尤其是從草稿搬過來的）
+            # 習慣把說明直接寫在 ![] 的方括號裡，那種寫法不該讓圖變成沒有說明的裸圖。
+            if not caption and alt:
+                caption = alt
+            fig = ['<figure class="gd-fig">',
+                   '  <img src="%s" alt="%s" loading="lazy" decoding="async">'
+                   % (html.escape(src, quote=True), html.escape(alt, quote=True))]
+            if caption:
+                fig.append("  <figcaption>%s</figcaption>" % guide_inline(caption))
+            fig.append("</figure>")
+            out.append("\n".join(fig))
+            i += 1
+            pending_blank = False
+            continue
+
+        # ---------- 表格 ----------
+        if s.startswith("|") and i + 1 < len(lines) \
+                and GUIDE_TABLE_SEP_RE.match(lines[i + 1].strip()):
+            flush()
+            rows = []
+            while i < len(lines) and lines[i].strip().startswith("|"):
+                rows.append(lines[i].strip())
+                i += 1
+            out.append(guide_table(rows))
+            pending_blank = False
+            continue
+
+        # ---------- 小標 ----------
+        if s.startswith("### "):
+            flush()
+            out.append("<h4>%s</h4>" % guide_inline(s[4:].strip()))
+        elif s.startswith("## "):
+            flush()
+            out.append("<h3>%s</h3>" % guide_inline(s[3:].strip()))
+        elif s in ("---", "___", "***"):
+            flush()
+            out.append("<hr>")
+        elif re.match(r"^\d+[.)]\s+", s):
+            if mode != "ol":
+                flush()
+                mode = "ol"
+            buf.append(re.sub(r"^\d+[.)]\s+", "", s))
+        elif s.startswith("- ") or s.startswith("* ") or s.startswith("・"):
+            if mode != "ul":
+                flush()
+                mode = "ul"
+            buf.append(s[1:].strip() if s.startswith("・") else s[2:])
+        elif s.startswith(">"):
+            if mode != "quote" or pending_blank:
+                flush()
+                mode = "quote"
+            buf.append(s.lstrip(">").strip())
+        else:
+            if mode in ("ol", "ul") and not pending_blank:
+                buf[-1] += " " + s                   # 清單條目折行
+            elif mode == "p" and not pending_blank:
+                buf.append(s)
+            else:
+                flush()
+                mode = "p"
+                buf.append(s)
+        pending_blank = False
+        i += 1
+
+    flush()
+    return "\n".join(out)
+
+
+def split_guide_chapters(body):
+    """依 '# 標題' 切章。第一個 '#' 之前的文字是導言。
+
+    回傳 [(章標題 or '', 內文), ...]，導言的章標題是空字串。
+
+    ⚠️ 一定要逐行掃並自己追蹤 ``` 圍欄，不能用 re.split(r'^#\\s+')：
+    shell 範例裡的註解（`# macOS`、`# Windows`）也是行首井號，正則會把它們
+    當成章標題切下去，結果是多出假章節，而且被切斷的那半個圍欄永遠等不到
+    收尾的 ```，會把該章剩下的內容連同截圖整段吞掉。實際踩過：21 張圖只出 10 張。
+    """
+    chapters = []
+    title, buf, in_fence = "", [], False
+
+    def push():
+        text = "\n".join(buf).strip()
+        if title or text:
+            chapters.append((title, text))
+
+    for line in body.split("\n"):
+        s = line.strip()
+        if GUIDE_FENCE_RE.match(s):
+            in_fence = not in_fence
+            buf.append(line)
+            continue
+        if not in_fence and re.match(r"^#\s+\S", s):
+            push()
+            title, buf = s.lstrip("#").strip(), []
+            continue
+        buf.append(line)
+    push()
+    return chapters
+
+
+def is_guide_file(name):
+    return name.endswith(".md") and not name.startswith(("_", ".")) \
+        and name != "README.md"
+
+
+def guide_hook(chapters, limit=70):
+    """沒寫 hook 時，拿導言第一句當摘要。"""
+    for title, body in chapters:
+        for line in body.split("\n"):
+            s = line.strip()
+            if not s or s.startswith(("!", ">", "|", "#", "-", "*", "`")):
+                continue
+            s = re.sub(r"[*`\[\]]", "", s)
+            m = re.search(r"[。！？]", s)
+            s = s[:m.end()] if m else s
+            return s if len(s) <= limit else s[:limit] + "…"
+    return ""
+
+
+def build_guide(path, short_url=""):
+    slug = os.path.splitext(os.path.basename(path))[0]
+    with open(path, encoding="utf-8") as f:
+        meta, body = parse_front_matter(f.read())
+
+    title = meta.get("title") or slug
+    date = str(meta.get("date", "")).strip()
+    chapters = split_guide_chapters(body)
+    hook = meta.get("hook") or guide_hook(chapters)
+    eli5 = str(meta.get("eli5", "")).strip()
+    # front-matter 的清單只認行內式 `tags: [a, b]`。寫成 YAML 區塊清單
+    # （tags: 後面接 "- a" 那種）會被解析成 dict，而且不會報錯——實際踩過：
+    # index.json 裡出現 {"- GitHub": ""}，前端 .map 掛掉整個分區都不顯示。
+    tags = meta.get("tags") or []
+    if isinstance(tags, str):
+        tags = [tags]
+    elif isinstance(tags, dict):
+        print("  ⚠ %s：tags 請改用行內式 tags: [a, b]，區塊清單會被誤解析"
+              % slug, file=sys.stderr)
+        tags = [k.lstrip("- ").strip() for k in tags]
+
+    os.makedirs(GUIDE_DIR, exist_ok=True)
+
+    # ---------- HTML ----------
+    images, blocks = [], []
+    lead_html = ""
+    toc = []
+    n = 0
+    for ch_title, ch_body in chapters:
+        rendered = render_guide_blocks(ch_body, images)
+        if ch_title:
+            n += 1
+            anchor = "ch-%d" % n
+            toc.append((anchor, ch_title))
+            blocks.append(
+                '  <section class="gd-chapter" id="%s">\n'
+                '    <h2>%s</h2>\n%s\n  </section>'
+                % (anchor, guide_inline(ch_title), rendered))
+        else:
+            # 導言排在「本文架構」之前——先讓讀者知道這篇在講什麼，再給目錄。
+            lead_html = '<section class="gd-lead">\n%s\n  </section>' % rendered
+
+    # 封面＝文章裡第一張圖。教學文本來就圖多，不必另外指定 cover。
+    cover = meta.get("cover") or (images[0] if images else "")
+    cover_url = ""
+    if cover:
+        cover_path = os.path.join(GUIDE_DIR, cover)
+        if os.path.exists(cover_path):
+            cover_url = "%s/guide/%s" % (CANONICAL_BASE, cover)
+        else:
+            print("  ⚠ %s：cover 指向不存在的檔案（%s），本次不輸出封面" % (slug, cover),
+                  file=sys.stderr)
+            cover = ""
+
+    toc_html = ""
+    if len(toc) > 1:
+        items = "".join('<li><a href="#%s">%s</a></li>' % (a, guide_inline(t))
+                        for a, t in toc)
+        toc_html = ('<nav class="gd-toc" aria-label="本文架構">'
+                    '<p class="gd-toc-h">本文架構</p><ol>%s</ol></nav>' % items)
+
+    eli5_html = ""
+    if eli5:
+        eli5_html = ('<a class="gd-eli5" href="%s">🖍 先看圖解版'
+                     '<span>用最少的字、最大的圖說一次</span></a>'
+                     % html.escape(eli5, quote=True))
+
+    tags_html = ""
+    if tags:
+        tags_html = '<p class="gd-tags">%s</p>' % "".join(
+            '<span>#%s</span>' % html.escape(str(t)) for t in tags)
+
+    canonical = "%s/guide/%s.html" % (CANONICAL_BASE, slug)
+    md_rel = "./%s.md" % slug
+
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "TechArticle",
+        "headline": title,
+        "description": hook,
+        "inLanguage": "zh-Hant",
+        "url": canonical,
+        "author": {"@type": "Person", "name": AUTHOR_NAME, "url": AUTHOR_URL},
+        "publisher": {"@type": "Person", "name": AUTHOR_NAME},
+        "isAccessibleForFree": True,
+        "proficiencyLevel": "Beginner",
+    }
+    if date:
+        ld["datePublished"] = date
+    if cover_url:
+        ld["image"] = cover_url
+
+    og_image_tag = (
+        '<meta property="og:image" content="%s">\n'
+        '<meta name="twitter:card" content="summary_large_image">' % cover_url
+    ) if cover_url else '<meta name="twitter:card" content="summary">'
+
+    short = ('<p class="note-short">短網址：<a href="%s">%s</a></p>'
+             % (short_url, short_url)) if short_url else ""
+
+    html_out = GUIDE_TEMPLATE.format(
+        title=html.escape(title),
+        title_attr=html.escape(title, quote=True),
+        site_name=SITE_NAME,
+        hook=html.escape(hook, quote=True),
+        canonical=canonical,
+        md_rel=md_rel,
+        og_image_tag=og_image_tag,
+        jsonld=json.dumps(ld, ensure_ascii=False, indent=2),
+        date=date,
+        kicker=date or "超入門",
+        lead=lead_html,
+        toc=toc_html,
+        eli5=eli5_html,
+        sections="\n".join(blocks),
+        tags=tags_html,
+        short=short,
+    )
+    with open(os.path.join(GUIDE_DIR, "%s.html" % slug), "w", encoding="utf-8") as f:
+        f.write(html_out)
+
+    # ---------- markdown 雙生檔 ----------
+    md = ["# %s\n" % title]
+    if date:
+        md.append("> 超入門 · %s\n" % date)
+    if eli5:
+        md.append("> 圖解版：%s\n" % eli5)
+    md.append(body.strip() + "\n")
+    if short_url:
+        md.append("\n---\n短網址：%s\n" % short_url)
+    with open(os.path.join(GUIDE_DIR, "%s.md" % slug), "w", encoding="utf-8") as f:
+        f.write("\n".join(md))
+
+    return {
+        "slug": slug,
+        "title": title,
+        "date": date,
+        "hook": hook,
+        "tags": tags,
+        "cover": cover,
+        "eli5": eli5,
+        "chapters": [t for _, t in toc],
+        "images": len(images),
+        "url": "guide/%s.html" % slug,
+        "markdown": "guide/%s.md" % slug,
+        "short": short_url,
+    }, "\n".join(md)
+
+
+GUIDE_TEMPLATE = """<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{title} — 超入門 · {site_name}</title>
+<meta name="description" content="{hook}">
+<meta name="author" content="Chris Hsu">
+<link rel="canonical" href="{canonical}">
+<link rel="alternate" type="text/markdown" href="{md_rel}" title="Markdown 版本">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{title_attr}">
+<meta property="og:description" content="{hook}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:locale" content="zh_TW">
+{og_image_tag}
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔰</text></svg>">
+<link rel="apple-touch-icon" sizes="180x180" href="/icon/icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/guide.css">
+<script type="application/ld+json">
+{jsonld}
+</script>
+</head>
+<body>
+
+<nav class="note-topbar">
+  <a class="tb-brand" href="../index.html">CHRIS OS</a>
+  <a href="../index.html#guide">超入門</a>
+  <span class="tb-spacer"></span>
+  <a href="{md_rel}">.md</a>
+</nav>
+
+<article class="note guide">
+  <header class="note-head">
+    <p class="note-kicker">🔰 超入門 · <time datetime="{date}">{kicker}</time></p>
+    <h1>{title}</h1>
+    <p class="gd-hook">{hook}</p>
+    {eli5}
+  </header>
+
+  {lead}
+
+  {toc}
+
+{sections}
+
+  {tags}
+
+  <footer class="note-foot">
+    <p>CHRIS OS · 超入門系列</p>
+  </footer>
+  {short}
+</article>
+
+</body>
+</html>
+"""
+
+
+def write_guide_index_json(guides):
+    payload = {
+        "site": SITE_NAME,
+        "description": "超入門——把一個題目講到小學生也能照著做。",
+        "canonical_base": CANONICAL_BASE,
+        "updated": max((g["date"] for g in guides), default=""),
+        "count": len(guides),
+        "guides": guides,
+    }
+    with open(os.path.join(GUIDE_DIR, "index.json"), "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+
+def load_guide_shortlinks():
+    p = os.path.join(GUIDE_DIR, "shortlinks.json")
+    if os.path.exists(p):
+        with open(p, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_guide_shortlinks(mapping):
+    os.makedirs(GUIDE_DIR, exist_ok=True)
+    with open(os.path.join(GUIDE_DIR, "shortlinks.json"), "w", encoding="utf-8") as f:
+        json.dump(mapping, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+
+def write_guide_redirects(guides, mapping):
+    """超入門的短連結轉址頁，寫進頂層 g/（跟 n/、s/ 平行）。"""
+    d = os.path.join(ROOT, "g")
+    os.makedirs(d, exist_ok=True)
+    for g in guides:
+        code = mapping[g["slug"]]
+        target = "%s/%s" % (CANONICAL_BASE, g["url"])
+        cover = g.get("cover", "")
+        og_image = (
+            '<meta property="og:image" content="%s/guide/%s">\n'
+            '<meta name="twitter:card" content="summary_large_image">'
+            % (CANONICAL_BASE, cover)
+        ) if cover else '<meta name="twitter:card" content="summary">'
+        with open(os.path.join(d, "%s.html" % code), "w", encoding="utf-8") as f:
+            f.write(REDIRECT_TEMPLATE.format(
+                target=target,
+                title=html.escape(g["title"], quote=True),
+                hook=html.escape(g.get("hook", ""), quote=True),
+                og_image=og_image))
+
+
+def build_guides():
+    """超入門。沒有 guide/src/ 就整段跳過，不影響既有的筆記與散策建置。"""
+    if not os.path.isdir(GUIDE_SRC_DIR):
+        return [], [], {}
+
+    mapping = load_guide_shortlinks()
+    files = sorted(f for f in os.listdir(GUIDE_SRC_DIR) if is_guide_file(f))
+
+    guides, texts = [], []
+    for name in files:
+        path = os.path.join(GUIDE_SRC_DIR, name)
+        with open(path, encoding="utf-8") as f:
+            meta, _ = parse_front_matter(f.read())
+        if str(meta.get("status", "")).strip() not in GUIDE_PUBLISH_STATUS:
+            continue
+        slug = os.path.splitext(name)[0]
+        code = assign_short(mapping, slug)
+        short_url = "%s/g/%s%s" % (SHORT_BASE, code, SHORT_SUFFIX)
+        g, text = build_guide(path, short_url)
+        guides.append(g)
+        texts.append(text)
+        print("🔰 %s（%d 章、%d 圖）" % (g["slug"], len(g["chapters"]), g["images"]))
+
+    paired = sorted(zip(guides, texts),
+                    key=lambda p: (p[0]["date"], p[0]["slug"]), reverse=True)
+    return ([g for g, _ in paired], [t for _, t in paired], mapping)
+
+
+# ============================================================
 # 站台層檔案
 # ============================================================
 BASE36 = "0123456789abcdefghijklmnopqrstuvwxyz"
@@ -1114,7 +1655,7 @@ def write_index_json(notes):
         f.write("\n")
 
 
-def write_sitemap(notes, shrines=()):
+def write_sitemap(notes, shrines=(), guides=()):
     urls = [(CANONICAL_BASE + "/", None, "1.0")]
     for n in notes:
         urls.append(("%s/%s" % (CANONICAL_BASE, n["url"]), n["date"], "0.8"))
@@ -1124,6 +1665,13 @@ def write_sitemap(notes, shrines=()):
         # 所以不給 lastmod，只給優先度。
         urls.append(("%s/%s" % (CANONICAL_BASE, s["url"]), None, "0.8"))
         urls.append(("%s/%s" % (CANONICAL_BASE, s["markdown"]), None, "0.5"))
+    for g in guides:
+        urls.append(("%s/%s" % (CANONICAL_BASE, g["url"]), g["date"], "0.8"))
+        urls.append(("%s/%s" % (CANONICAL_BASE, g["markdown"]), g["date"], "0.5"))
+        # 圖解版是自架的靜態頁，跟教學文一起進 sitemap
+        if g.get("eli5", "").endswith(".html"):
+            urls.append(("%s/guide/%s" % (CANONICAL_BASE, g["eli5"].lstrip("./")),
+                         g["date"], "0.6"))
     if shrines:
         # 全部散策篇的一覽頁（手寫的靜態頁，資料從 shrine/index.json 前端讀）
         urls.append((CANONICAL_BASE + "/shrine/all.html", None, "0.6"))
@@ -1176,7 +1724,7 @@ def write_robots():
         f.write("\n".join(lines))
 
 
-def write_llms(notes, shrines=(), planned=0):
+def write_llms(notes, shrines=(), planned=0, guides=()):
     lines = [
         "# %s" % SITE_NAME,
         "",
@@ -1227,12 +1775,33 @@ def write_llms(notes, shrines=(), planned=0):
                 % (s["title"], CANONICAL_BASE, s["markdown"], s.get("hook", ""),
                    "（%s）" % where if where else ""))
 
+    if guides:
+        lines += [
+            "",
+            "## 超入門",
+            "",
+            "把一個題目講到小學生也能照著做——每一個要按的按鈕都附實際畫面截圖，"
+            "每篇另配一頁「圖解版」（大圖少字，適合完全沒有背景知識的人先看）。",
+            "",
+            "章節錨點是 `#ch-1`、`#ch-2`……依文章章序編號，可直接深連結。",
+            "",
+        ]
+        for g in guides:
+            chs = "／".join(g.get("chapters", [])[:3])
+            lines.append(
+                "- [%s](%s/%s)：%s%s"
+                % (g["title"], CANONICAL_BASE, g["markdown"], g.get("hook", ""),
+                   "（%s…）" % chs if chs else ""))
+
     lines += [
         "",
         "## 其他",
         "",
         "- [筆記索引 JSON](%s/notes/index.json)：機器可讀的完整清單" % CANONICAL_BASE,
     ]
+    if guides:
+        lines.append("- [超入門索引 JSON](%s/guide/index.json)：教學文清單與章節"
+                     % CANONICAL_BASE)
     if shrines:
         lines += [
             "- [散策索引 JSON](%s/shrine/index.json)：已發佈的篇章與座標" % CANONICAL_BASE,
@@ -1248,7 +1817,7 @@ def write_llms(notes, shrines=(), planned=0):
         f.write("\n".join(lines))
 
 
-def write_llms_full(notes, texts, shrine_texts=()):
+def write_llms_full(notes, texts, shrine_texts=(), guide_texts=()):
     parts = [
         "# %s — 全文" % SITE_NAME,
         "",
@@ -1274,6 +1843,20 @@ def write_llms_full(notes, texts, shrine_texts=()):
             "",
         ]
         for text in shrine_texts:
+            parts.append(text.strip())
+            parts.append("")
+            parts.append("---")
+            parts.append("")
+    if guide_texts:
+        parts += [
+            "# 超入門 — 全文",
+            "",
+            "把一個題目講到小學生也能照著做。共 %d 篇。" % len(guide_texts),
+            "",
+            "---",
+            "",
+        ]
+        for text in guide_texts:
             parts.append(text.strip())
             parts.append("")
             parts.append("---")
@@ -1372,6 +1955,7 @@ def main():
     texts = [t for _, t in paired]
 
     shrines, shrine_texts, registry, shrine_shortlinks = build_shrines()
+    guides, guide_texts, guide_shortlinks = build_guides()
 
     write_redirects(notes, shortlinks)
     save_shortlinks(shortlinks)
@@ -1380,12 +1964,17 @@ def main():
         write_shrine_index_json(shrines, registry)
         write_shrine_redirects(shrines, shrine_shortlinks)
         save_shrine_shortlinks(shrine_shortlinks)
-    write_sitemap(notes, shrines)
+    if guides:
+        write_guide_index_json(guides)
+        write_guide_redirects(guides, guide_shortlinks)
+        save_guide_shortlinks(guide_shortlinks)
+    write_sitemap(notes, shrines, guides)
     write_robots()
-    write_llms(notes, shrines, len(registry))
-    write_llms_full(notes, texts, shrine_texts)
+    write_llms(notes, shrines, len(registry), guides)
+    write_llms_full(notes, texts, shrine_texts, guide_texts)
 
-    print("\n共 %d 則筆記、%d 篇散策" % (len(notes), len(shrines)))
+    print("\n共 %d 則筆記、%d 篇散策、%d 篇超入門"
+          % (len(notes), len(shrines), len(guides)))
     print("已更新：notes/index.json、notes/shortlinks.json、n/*.html、"
           "shrine/index.json、shrine/shortlinks.json、s/*.html、"
           "sitemap.xml、robots.txt、llms.txt、llms-full.txt")
