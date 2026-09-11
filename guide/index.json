@@ -1,0 +1,57 @@
+{
+  "site": "CHRIS OS",
+  "description": "超入門——把一個題目講到小學生也能照著做。",
+  "canonical_base": "https://chrisincite.github.io",
+  "updated": "2026-09-11",
+  "count": 2,
+  "guides": [
+    {
+      "slug": "github",
+      "title": "小學生也能懂的『GitHub』超入門",
+      "date": "2026-09-11",
+      "hook": "從註冊帳號到讓 AI 幫你 commit、push，每一個要按的按鈕都附實際畫面截圖。",
+      "tags": [
+        "GitHub",
+        "超入門",
+        "AI 協作"
+      ],
+      "cover": "img/github/01-01-github-home.jpg",
+      "eli5": "./eli5/github.html",
+      "chapters": [
+        "第一章：GitHub 是什麼｜幫你的作品「按存檔」的雲端保管室",
+        "第二章：GitHub 的基本用法｜四個動作就能開始",
+        "第三章：初學者該注意的三個重點｜這些陷阱務必避開",
+        "第四章：申請 Access Token｜給程式用的專屬鑰匙",
+        "第五章：用 AI 完成 GitHub 操作｜把指令換成一句話",
+        "總結：今天要做的，只有一件事"
+      ],
+      "images": 21,
+      "url": "guide/github.html",
+      "markdown": "guide/github.md",
+      "short": "https://os.housearch.net/g/1"
+    },
+    {
+      "slug": "claude-code",
+      "title": "小學生也能懂的『Claude Code』超入門",
+      "date": "2026-09-11",
+      "hook": "為什麼 Claude 要住在黑色畫面裡、那六個名詞在講什麼、以及你該付多少錢。",
+      "tags": [
+        "Claude Code",
+        "超入門",
+        "AI 協作"
+      ],
+      "cover": "img/claude-code/fig4-claude-start.png",
+      "eli5": "./eli5/claude-code.html",
+      "chapters": [
+        "第一章：Claude Code 是什麼｜為什麼它住在黑色畫面，而不是漂亮的 App",
+        "第二章：六個一定要懂的名詞｜session、token、context、memory、skill、MCP",
+        "第三章：方案怎麼選，以及初學者最容易踩的三個坑",
+        "總結：今天要做的，只有一件事"
+      ],
+      "images": 10,
+      "url": "guide/claude-code.html",
+      "markdown": "guide/claude-code.md",
+      "short": "https://os.housearch.net/g/2"
+    }
+  ]
+}

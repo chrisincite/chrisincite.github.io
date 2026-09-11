@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub 圖解版 — 超入門 · CHRIS OS</title>
+<meta name="description" content="用最少的字、最大的圖，把 GitHub 是什麼講一次。">
+<meta name="author" content="Chris Hsu">
+<link rel="canonical" href="https://chrisincite.github.io/guide/eli5/github.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GitHub 圖解版">
+<meta property="og:description" content="用最少的字、最大的圖，把 GitHub 是什麼講一次。">
+<meta property="og:url" content="https://chrisincite.github.io/guide/eli5/github.html">
+<meta property="og:locale" content="zh_TW">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖍</text></svg>">
+<link rel="apple-touch-icon" sizes="180x180" href="/icon/icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/eli5.css">
+</head>
+<body>
+
+<nav class="topbar">
+  <a class="brand" href="/index.html">CHRIS OS</a>
+  <a href="/index.html#guide">超入門</a>
+  <span class="spacer"></span>
+  <a href="../github.html">完整教學 →</a>
+</nav>
+
+<div class="wrap">
+
+  <header class="hero">
+    <p class="kicker">🖍 圖解版 · ELI5</p>
+    <h1>GitHub<br>是做什麼的？</h1>
+    <p>七張圖。看完你就懂了。</p>
+  </header>
+
+  <!-- 1 -->
+  <section class="card">
+    <p class="num">01</p>
+    <h2>你一定遇過這個</h2>
+    <p class="say">改到最後，自己也不知道哪一個才是對的。</p>
+    <svg viewBox="0 0 640 230" role="img" aria-label="四個檔名越來越長的文件圖示">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <g transform="translate(20,40)">
+          <rect width="130" height="110" rx="8" fill="#f2edde" stroke="#c9c2ae"/>
+          <path d="M100 0 L130 30 L100 30 Z" fill="#c9c2ae"/>
+          <text x="65" y="150" font-size="13" fill="#565a6b" text-anchor="middle">提案書</text>
+        </g>
+        <g transform="translate(180,40)">
+          <rect width="130" height="110" rx="8" fill="#f2edde" stroke="#c9c2ae"/>
+          <path d="M100 0 L130 30 L100 30 Z" fill="#c9c2ae"/>
+          <text x="65" y="150" font-size="13" fill="#565a6b" text-anchor="middle">提案書_修改版</text>
+        </g>
+        <g transform="translate(340,40)">
+          <rect width="130" height="110" rx="8" fill="#f2edde" stroke="#c9c2ae"/>
+          <path d="M100 0 L130 30 L100 30 Z" fill="#c9c2ae"/>
+          <text x="65" y="150" font-size="13" fill="#565a6b" text-anchor="middle">提案書_最終版</text>
+        </g>
+        <g transform="translate(500,40)">
+          <rect width="130" height="110" rx="8" fill="#fdeae7" stroke="#d94f3d"/>
+          <path d="M100 0 L130 30 L100 30 Z" fill="#d94f3d"/>
+          <text x="65" y="150" font-size="12" fill="#d94f3d" text-anchor="middle">最終版_這次真的</text>
+          <text x="65" y="168" font-size="12" fill="#d94f3d" text-anchor="middle">😱</text>
+        </g>
+      </g>
+    </svg>
+    <p class="punch">GitHub 就是來解決這件事的。<br><em>你不用再自己想檔名了。</em></p>
+  </section>
+
+  <!-- 2 -->
+  <section class="card">
+    <p class="num">02</p>
+    <h2>它幫你「按存檔」</h2>
+    <p class="say">就像打電動，衝去打大魔王之前先存一次。</p>
+    <svg viewBox="0 0 640 200" role="img" aria-label="時間軸上四個存檔點，每個都有說明">
+      <line x1="40" y1="100" x2="600" y2="100" stroke="#c9c2ae" stroke-width="3"/>
+      <g font-family="'Noto Sans TC',sans-serif" font-size="13" fill="#565a6b" text-anchor="middle">
+        <circle cx="90" cy="100" r="14" fill="#3a5fa8"/>
+        <text x="90" y="140">做好首頁</text>
+        <text x="90" y="72" font-size="11" fill="#9095a5">週一</text>
+
+        <circle cx="250" cy="100" r="14" fill="#3a5fa8"/>
+        <text x="250" y="140">換了字體</text>
+        <text x="250" y="72" font-size="11" fill="#9095a5">週三</text>
+
+        <circle cx="410" cy="100" r="14" fill="#3a5fa8"/>
+        <text x="410" y="140">加聯絡頁</text>
+        <text x="410" y="72" font-size="11" fill="#9095a5">週四</text>
+
+        <circle cx="560" cy="100" r="16" fill="#d9a441"/>
+        <text x="560" y="140" fill="#20222e" font-weight="700">現在</text>
+      </g>
+    </svg>
+    <p class="punch">改壞了？<em>退回上一個點就好。</em></p>
+    <p class="word">這個存檔點叫 <b>commit</b></p>
+  </section>
+
+  <!-- 3 -->
+  <section class="card">
+    <p class="num">03</p>
+    <h2>存檔放在一個箱子裡</h2>
+    <p class="say">一個作品，一個箱子。電腦有一個，雲端有一個。</p>
+    <svg viewBox="0 0 640 240" role="img" aria-label="電腦裡的箱子與雲端的箱子互相同步">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <rect x="40" y="60" width="200" height="130" rx="12" fill="#f2edde" stroke="#c9c2ae" stroke-width="2"/>
+        <text x="140" y="45" font-size="14" fill="#565a6b" text-anchor="middle">你的電腦 💻</text>
+        <rect x="70" y="90" width="140" height="14" rx="4" fill="#c9c2ae"/>
+        <rect x="70" y="114" width="110" height="14" rx="4" fill="#c9c2ae"/>
+        <rect x="70" y="138" width="130" height="14" rx="4" fill="#c9c2ae"/>
+
+        <rect x="400" y="60" width="200" height="130" rx="12" fill="#eaf0fb" stroke="#3a5fa8" stroke-width="2"/>
+        <text x="500" y="45" font-size="14" fill="#3a5fa8" text-anchor="middle">GitHub 雲端 ☁️</text>
+        <rect x="430" y="90" width="140" height="14" rx="4" fill="#3a5fa8" opacity=".5"/>
+        <rect x="430" y="114" width="110" height="14" rx="4" fill="#3a5fa8" opacity=".5"/>
+        <rect x="430" y="138" width="130" height="14" rx="4" fill="#3a5fa8" opacity=".5"/>
+
+        <path d="M255 105 L385 105" stroke="#3a5fa8" stroke-width="3" marker-end="url(#a1)"/>
+        <path d="M385 150 L255 150" stroke="#d9a441" stroke-width="3" marker-end="url(#a2)"/>
+        <text x="320" y="96" font-size="13" fill="#3a5fa8" text-anchor="middle" font-weight="700">推上去</text>
+        <text x="320" y="178" font-size="13" fill="#b8892e" text-anchor="middle" font-weight="700">拉下來</text>
+      </g>
+      <defs>
+        <marker id="a1" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+          <path d="M0 0 L9 4.5 L0 9 Z" fill="#3a5fa8"/>
+        </marker>
+        <marker id="a2" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+          <path d="M0 0 L9 4.5 L0 9 Z" fill="#d9a441"/>
+        </marker>
+      </defs>
+    </svg>
+    <p class="punch">筆電被咖啡潑到也沒關係。<em>雲端那份還在。</em></p>
+    <p class="word">箱子叫 <b>repository</b>（repo）· 推上去 <b>push</b> · 拉下來 <b>pull</b></p>
+  </section>
+
+  <!-- 4 -->
+  <section class="card">
+    <p class="num">04</p>
+    <h2>想亂搞？先影印一份</h2>
+    <p class="say">在影印本上盡情實驗，正本一根寒毛都沒動到。</p>
+    <svg viewBox="0 0 640 220" role="img" aria-label="主線分岔出一條實驗線，成功後合併回主線">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <path d="M50 150 L590 150" stroke="#20222e" stroke-width="4"/>
+        <path d="M200 150 C250 150 250 70 300 70 L420 70 C470 70 470 150 520 150"
+              stroke="#d9a441" stroke-width="4" fill="none" stroke-dasharray="8 6"/>
+        <circle cx="120" cy="150" r="11" fill="#20222e"/>
+        <circle cx="200" cy="150" r="11" fill="#20222e"/>
+        <circle cx="360" cy="70" r="11" fill="#d9a441"/>
+        <circle cx="520" cy="150" r="13" fill="#3a5fa8"/>
+        <text x="130" y="188" font-size="13" fill="#565a6b">正本</text>
+        <text x="330" y="48" font-size="13" fill="#b8892e">影印本：大膽亂改</text>
+        <text x="497" y="188" font-size="13" fill="#3a5fa8">成功了，合併回來</text>
+      </g>
+    </svg>
+    <p class="punch">失敗就整份丟掉。<em>沒有人會知道。</em></p>
+    <p class="word">影印一份叫 <b>branch</b> · 合併回來叫 <b>merge</b></p>
+  </section>
+
+  <!-- 5 -->
+  <section class="card">
+    <p class="num">05</p>
+    <h2>有三樣東西不要放進去</h2>
+    <p class="say">箱子很好用，但它不是什麼都能裝。</p>
+    <svg viewBox="0 0 640 210" role="img" aria-label="密碼、大影片、一鍵覆蓋三個禁止標誌">
+      <g font-family="'Noto Sans TC',sans-serif" text-anchor="middle">
+        <g transform="translate(107,30)">
+          <circle cx="0" cy="45" r="42" fill="#fdeae7" stroke="#d94f3d" stroke-width="2"/>
+          <text x="0" y="58" font-size="38">🔑</text>
+          <text x="0" y="122" font-size="14" fill="#d94f3d" font-weight="700">密碼、金鑰</text>
+          <text x="0" y="146" font-size="12" fill="#565a6b">推上去就被撿走了</text>
+        </g>
+        <g transform="translate(320,30)">
+          <circle cx="0" cy="45" r="42" fill="#fdeae7" stroke="#d94f3d" stroke-width="2"/>
+          <text x="0" y="58" font-size="38">🎬</text>
+          <text x="0" y="122" font-size="14" fill="#d94f3d" font-weight="700">影片、大照片</text>
+          <text x="0" y="146" font-size="12" fill="#565a6b">箱子會腫成十倍大</text>
+        </g>
+        <g transform="translate(533,30)">
+          <circle cx="0" cy="45" r="42" fill="#fdeae7" stroke="#d94f3d" stroke-width="2"/>
+          <text x="0" y="58" font-size="34">💥</text>
+          <text x="0" y="122" font-size="14" fill="#d94f3d" font-weight="700">--force</text>
+          <text x="0" y="146" font-size="12" fill="#565a6b">會蓋掉別人的存檔</text>
+        </g>
+      </g>
+    </svg>
+    <p class="punch">存檔點是<em>刪不掉</em>的。<br>今天貼上去的密碼，明天刪也來不及。</p>
+  </section>
+
+  <!-- 6 -->
+  <section class="card">
+    <p class="num">06</p>
+    <h2>要給程式用，得發一張房卡</h2>
+    <p class="say">程式沒辦法去你手機上看驗證碼。</p>
+    <svg viewBox="0 0 640 215" role="img" aria-label="家門鑰匙與旅館房卡的對比">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <g transform="translate(60,30)">
+          <rect width="200" height="100" rx="10" fill="#f2edde" stroke="#c9c2ae" stroke-width="2"/>
+          <text x="100" y="62" font-size="34" text-anchor="middle">🏠</text>
+          <text x="100" y="88" font-size="13" fill="#565a6b" text-anchor="middle">家門鑰匙＝你的密碼</text>
+          <text x="100" y="152" font-size="12" fill="#9095a5" text-anchor="middle">什麼門都能開</text>
+          <text x="100" y="172" font-size="12" fill="#9095a5" text-anchor="middle">掉了最麻煩</text>
+        </g>
+        <text x="320" y="88" font-size="26" fill="#9095a5" text-anchor="middle">→</text>
+        <g transform="translate(380,30)">
+          <rect width="200" height="100" rx="10" fill="#eaf0fb" stroke="#3a5fa8" stroke-width="2"/>
+          <text x="100" y="62" font-size="34" text-anchor="middle">🎫</text>
+          <text x="100" y="88" font-size="13" fill="#3a5fa8" text-anchor="middle">房卡＝token</text>
+          <text x="100" y="152" font-size="12" fill="#565a6b" text-anchor="middle">只開你指定的那幾扇門</text>
+          <text x="100" y="172" font-size="12" fill="#565a6b" text-anchor="middle">會自動過期，掉了就換一張</text>
+        </g>
+      </g>
+    </svg>
+    <p class="punch">那串字<em>只會顯示一次</em>。<br>看到就立刻複製，存進密碼管理器。</p>
+    <p class="word">房卡叫 <b>personal access token</b></p>
+  </section>
+
+  <!-- 7 -->
+  <section class="card">
+    <p class="num">07</p>
+    <h2>然後你可以用講的</h2>
+    <p class="say">這兩年才成立的事：你不用記那些指令了。</p>
+    <svg viewBox="0 0 640 230" role="img" aria-label="一句話交給 AI，AI 執行三個步驟">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <rect x="40" y="24" width="360" height="52" rx="26" fill="#fff" stroke="#3a5fa8" stroke-width="2"/>
+        <text x="66" y="56" font-size="16" fill="#20222e">「存個檔，推上去。」</text>
+        <text x="420" y="56" font-size="15" fill="#9095a5">← 你只要說這句</text>
+
+        <path d="M220 84 L220 112" stroke="#c9c2ae" stroke-width="3" marker-end="url(#a3)"/>
+
+        <g transform="translate(40,126)">
+          <rect width="170" height="74" rx="10" fill="#f2edde"/>
+          <text x="85" y="34" font-size="14" fill="#565a6b" text-anchor="middle">① 挑出改過的檔案</text>
+          <text x="85" y="57" font-size="11" fill="#9095a5" text-anchor="middle" font-family="'Fira Code',monospace">git add</text>
+        </g>
+        <g transform="translate(235,126)">
+          <rect width="170" height="74" rx="10" fill="#f2edde"/>
+          <text x="85" y="34" font-size="14" fill="#565a6b" text-anchor="middle">② 存檔＋寫說明</text>
+          <text x="85" y="57" font-size="11" fill="#9095a5" text-anchor="middle" font-family="'Fira Code',monospace">git commit</text>
+        </g>
+        <g transform="translate(430,126)">
+          <rect width="170" height="74" rx="10" fill="#eaf0fb"/>
+          <text x="85" y="34" font-size="14" fill="#3a5fa8" text-anchor="middle">③ 推到雲端</text>
+          <text x="85" y="57" font-size="11" fill="#3a5fa8" text-anchor="middle" font-family="'Fira Code',monospace">git push</text>
+        </g>
+      </g>
+      <defs>
+        <marker id="a3" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+          <path d="M0 0 L9 4.5 L0 9 Z" fill="#c9c2ae"/>
+        </marker>
+      </defs>
+    </svg>
+    <p class="punch">但有一條線要守住：<br><em>「推上去」這個動作，留給你自己點頭。</em></p>
+  </section>
+
+  <section class="end">
+    <h2>今天只要做一件事</h2>
+    <p style="margin-top:14px;font-size:17px;color:var(--ink-light)">
+      申請一個免費帳號，開一個只有自己看得到的箱子。<br>然後按一次存檔。
+    </p>
+    <a class="cta" href="../github.html">看完整教學（含每一步截圖）→</a>
+    <p class="sub">CHRIS OS · 超入門系列</p>
+  </section>
+
+</div>
+
+</body>
+</html>

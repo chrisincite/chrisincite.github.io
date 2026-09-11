@@ -147,9 +147,19 @@
 - [天岩戶神社](https://chrisincite.github.io/shrine/16-amanoiwato-jinja.md)：岩戶是高千穗町北邊的一個地區，小學、農協、郵局、超市沿著一條縣道排成一列，（宮崎縣・西臼杵郡高千穗町岩戶）
 - [上色見熊野座神社](https://chrisincite.github.io/shrine/15-kamishikimi-kumanoimasu-jinja.md)：早上出門，從一所廢校開始走。（熊本縣・阿蘇郡高森町上色見）
 
+## 超入門
+
+把一個題目講到小學生也能照著做——每一個要按的按鈕都附實際畫面截圖，每篇另配一頁「圖解版」（大圖少字，適合完全沒有背景知識的人先看）。
+
+章節錨點是 `#ch-1`、`#ch-2`……依文章章序編號，可直接深連結。
+
+- [小學生也能懂的『GitHub』超入門](https://chrisincite.github.io/guide/github.md)：從註冊帳號到讓 AI 幫你 commit、push，每一個要按的按鈕都附實際畫面截圖。（第一章：GitHub 是什麼｜幫你的作品「按存檔」的雲端保管室／第二章：GitHub 的基本用法｜四個動作就能開始／第三章：初學者該注意的三個重點｜這些陷阱務必避開…）
+- [小學生也能懂的『Claude Code』超入門](https://chrisincite.github.io/guide/claude-code.md)：為什麼 Claude 要住在黑色畫面裡、那六個名詞在講什麼、以及你該付多少錢。（第一章：Claude Code 是什麼｜為什麼它住在黑色畫面，而不是漂亮的 App／第二章：六個一定要懂的名詞｜session、token、context、memory、skill、MCP／第三章：方案怎麼選，以及初學者最容易踩的三個坑…）
+
 ## 其他
 
 - [筆記索引 JSON](https://chrisincite.github.io/notes/index.json)：機器可讀的完整清單
+- [超入門索引 JSON](https://chrisincite.github.io/guide/index.json)：教學文清單與章節
 - [散策索引 JSON](https://chrisincite.github.io/shrine/index.json)：已發佈的篇章與座標
 - [全 140 座名錄 JSON](https://chrisincite.github.io/shrine/registry.json)：含未發佈的規劃清單
 - [全文串接](https://chrisincite.github.io/llms-full.txt)：所有內容的完整 markdown，一次取用
