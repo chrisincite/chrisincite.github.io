@@ -16,6 +16,7 @@
         "AI 協作"
       ],
       "cover": "img/github/01-01-github-home.jpg",
+      "og_image": "https://chrisincite.github.io/guide/og/github.png",
       "eli5": "./eli5/github.html",
       "chapters": [
         "第一章：GitHub 是什麼｜幫你的作品「按存檔」的雲端保管室",
@@ -41,6 +42,7 @@
         "AI 協作"
       ],
       "cover": "img/claude-code/fig4-claude-start.png",
+      "og_image": "https://chrisincite.github.io/guide/og/claude-code.png",
       "eli5": "./eli5/claude-code.html",
       "chapters": [
         "第一章：Claude Code 是什麼｜為什麼它住在黑色畫面，而不是漂亮的 App",

@@ -1306,10 +1306,24 @@ def build_guide(path, short_url=""):
     if cover_url:
         ld["image"] = cover_url
 
-    og_image_tag = (
-        '<meta property="og:image" content="%s">\n'
-        '<meta name="twitter:card" content="summary_large_image">' % cover_url
-    ) if cover_url else '<meta name="twitter:card" content="summary">'
+    # 社群分享卡優先於封面截圖：封面是「某個網站的操作畫面」，當 FB 卡片辨識度
+    # 極低（GitHub 官網首頁那張看不出是教學文）。卡片由 skill super-intro 的
+    # og-card.sh 產生，沒產就退回用封面。
+    og_card = os.path.join(GUIDE_DIR, "og", "%s.png" % slug)
+    og_url = ""
+    if os.path.exists(og_card):
+        og_url = "%s/guide/og/%s.png" % (CANONICAL_BASE, slug)
+        og_image_tag = (
+            '<meta property="og:image" content="%s">\n'
+            '<meta property="og:image:width" content="1200">\n'
+            '<meta property="og:image:height" content="630">\n'
+            '<meta name="twitter:card" content="summary_large_image">' % og_url)
+    elif cover_url:
+        og_image_tag = (
+            '<meta property="og:image" content="%s">\n'
+            '<meta name="twitter:card" content="summary_large_image">' % cover_url)
+    else:
+        og_image_tag = '<meta name="twitter:card" content="summary">'
 
     short = ('<p class="note-short">短網址：<a href="%s">%s</a></p>'
              % (short_url, short_url)) if short_url else ""
@@ -1354,6 +1368,7 @@ def build_guide(path, short_url=""):
         "hook": hook,
         "tags": tags,
         "cover": cover,
+        "og_image": og_url or cover_url,
         "eli5": eli5,
         "chapters": [t for _, t in toc],
         "images": len(images),
@@ -1462,12 +1477,12 @@ def write_guide_redirects(guides, mapping):
     for g in guides:
         code = mapping[g["slug"]]
         target = "%s/%s" % (CANONICAL_BASE, g["url"])
-        cover = g.get("cover", "")
+        # 短連結就是拿去貼 FB 的那個網址，預覽卡用分享卡不要用封面截圖
+        img = g.get("og_image", "")
         og_image = (
-            '<meta property="og:image" content="%s/guide/%s">\n'
-            '<meta name="twitter:card" content="summary_large_image">'
-            % (CANONICAL_BASE, cover)
-        ) if cover else '<meta name="twitter:card" content="summary">'
+            '<meta property="og:image" content="%s">\n'
+            '<meta name="twitter:card" content="summary_large_image">' % img
+        ) if img else '<meta name="twitter:card" content="summary">'
         with open(os.path.join(d, "%s.html" % code), "w", encoding="utf-8") as f:
             f.write(REDIRECT_TEMPLATE.format(
                 target=target,
