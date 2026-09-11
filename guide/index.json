@@ -3,7 +3,7 @@
   "description": "超入門——把一個題目講到小學生也能照著做。",
   "canonical_base": "https://chrisincite.github.io",
   "updated": "2026-09-11",
-  "count": 3,
+  "count": 4,
   "guides": [
     {
       "slug": "huggingface",
@@ -56,6 +56,33 @@
       "url": "guide/github.html",
       "markdown": "guide/github.md",
       "short": "https://os.housearch.net/g/1"
+    },
+    {
+      "slug": "cloudflare",
+      "title": "小學生也能懂的『Cloudflare』超入門",
+      "date": "2026-09-11",
+      "hook": "讓 Claude Code 做出網站骨架、放進 GitHub 私人倉庫、再接到 Cloudflare Pages 上線——三段路走完，你會有一個真的網址，而且不用付錢。",
+      "tags": [
+        "Cloudflare",
+        "超入門",
+        "AI 協作"
+      ],
+      "cover": "img/cloudflare/04-08-success.jpg",
+      "og_image": "https://chrisincite.github.io/guide/og/cloudflare.png",
+      "eli5": "./eli5/cloudflare.html",
+      "chapters": [
+        "第一章：Cloudflare 是什麼｜開在全世界三百多個城市的便利商店",
+        "第二章：讓 Claude Code 做出網站的骨架｜你負責講，它負責打字",
+        "第三章：放進 GitHub 的私人倉庫｜保管室，也是輸送帶",
+        "第四章：接上 Cloudflare Pages｜六個步驟，拿到你的網址",
+        "第五章：初學者該注意的四個重點｜這些陷阱務必避開",
+        "第六章：用 AI 完成整條路｜三個平台，交給同一個人",
+        "總結：今天要做的，只有一件事"
+      ],
+      "images": 11,
+      "url": "guide/cloudflare.html",
+      "markdown": "guide/cloudflare.md",
+      "short": "https://os.housearch.net/g/4"
     },
     {
       "slug": "claude-code",

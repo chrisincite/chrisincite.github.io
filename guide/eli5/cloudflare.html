@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloudflare 圖解版 — 超入門 · CHRIS OS</title>
+<meta name="description" content="用最少的字、最大的圖，把「網站放到全世界都看得到的地方」這件事講一次。">
+<meta name="author" content="Chris Hsu">
+<link rel="canonical" href="https://chrisincite.github.io/guide/eli5/cloudflare.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cloudflare 圖解版">
+<meta property="og:description" content="用最少的字、最大的圖，把「網站放到全世界都看得到的地方」這件事講一次。">
+<meta property="og:url" content="https://chrisincite.github.io/guide/eli5/cloudflare.html">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://chrisincite.github.io/guide/eli5/og/cloudflare.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖍</text></svg>">
+<link rel="apple-touch-icon" sizes="180x180" href="/icon/icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/eli5.css">
+</head>
+<body>
+
+<nav class="topbar">
+  <a class="brand" href="/index.html">CHRIS OS</a>
+  <a href="/index.html#guide">超入門</a>
+  <span class="spacer"></span>
+  <a href="../cloudflare.html">完整教學 →</a>
+</nav>
+
+<div class="wrap">
+
+  <header class="hero">
+    <p class="kicker">🖍 圖解版 · ELI5</p>
+    <h1>Cloudflare<br>是做什麼的？</h1>
+    <p class="sub">七張圖。看完你就懂了。</p>
+  </header>
+
+  <section class="card">
+    <p class="num">01</p>
+    <h2>檔案不等於網站</h2>
+    <p class="say">你做好的網頁，在你的電腦上打得開。寄給朋友，他打開是破的。</p>
+    <svg viewBox="0 0 640 210" role="img" aria-label="左邊是自己電腦上正常顯示的網頁，箭頭指向右邊朋友電腦上破圖的畫面">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <rect x="30" y="40" width="200" height="130" rx="8" fill="#faf7ef" stroke="#20222e" stroke-width="2"/>
+        <rect x="46" y="58" width="70" height="10" rx="3" fill="#20222e"/>
+        <rect x="46" y="80" width="168" height="58" rx="4" fill="#3a5fa8" opacity="0.75"/>
+        <text x="130" y="192" font-size="14" fill="#565a6b" text-anchor="middle">你的電腦 ✓</text>
+
+        <line x1="250" y1="105" x2="385" y2="105" stroke="#9095a5" stroke-width="2" marker-end="url(#c1)"/>
+        <text x="317" y="92" font-size="13" fill="#565a6b" text-anchor="middle">寄 zip 檔</text>
+
+        <rect x="410" y="40" width="200" height="130" rx="8" fill="#faf7ef" stroke="#d94f3d" stroke-width="2"/>
+        <rect x="426" y="58" width="70" height="10" rx="3" fill="#9095a5"/>
+        <rect x="426" y="80" width="168" height="58" rx="4" fill="none" stroke="#d94f3d" stroke-width="2" stroke-dasharray="5 4"/>
+        <text x="510" y="116" font-size="26" text-anchor="middle">😱</text>
+        <text x="510" y="192" font-size="14" fill="#d94f3d" text-anchor="middle">他的電腦 ✗</text>
+      </g>
+      <defs><marker id="c1" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#9095a5"/></marker></defs>
+    </svg>
+    <p class="punch">網站不是一種技術。<em>是一個位置。</em></p>
+  </section>
+
+  <section class="card">
+    <p class="num">02</p>
+    <h2>租一間店，全世界都得走過來</h2>
+    <p class="say">傳統作法是租一台主機。你的東西只有那一個地方有。</p>
+    <svg viewBox="0 0 640 220" role="img" aria-label="世界各地的人都要長途跋涉走到中央的一間小店，店門口擠滿了人">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <rect x="260" y="80" width="120" height="80" rx="6" fill="#f2edde" stroke="#20222e" stroke-width="2"/>
+        <path d="M252 80 L320 44 L388 80 Z" fill="#20222e"/>
+        <text x="320" y="130" font-size="13" fill="#565a6b" text-anchor="middle">你的主機</text>
+        <text x="320" y="184" font-size="13" fill="#d94f3d" text-anchor="middle">一萬個人同時來 → 擠爆</text>
+
+        <g stroke="#9095a5" stroke-width="1.6" stroke-dasharray="4 4">
+          <line x1="40" y1="40" x2="250" y2="100"/>
+          <line x1="40" y1="180" x2="250" y2="120"/>
+          <line x1="600" y1="40" x2="390" y2="100"/>
+          <line x1="600" y1="180" x2="390" y2="120"/>
+        </g>
+        <g font-size="20" text-anchor="middle">
+          <text x="34" y="40">🧍</text><text x="34" y="186">🧍</text>
+          <text x="606" y="40">🧍</text><text x="606" y="186">🧍</text>
+        </g>
+      </g>
+    </svg>
+    <p class="punch">住得遠的人就是慢。<em>而且人一多，門就打不開了。</em></p>
+  </section>
+
+  <section class="card">
+    <p class="num">03</p>
+    <h2>它在全世界開了三百多家分店</h2>
+    <p class="say">同一份東西，每個城市都放一份。誰來，就從最近的那家拿。</p>
+    <svg viewBox="0 0 640 230" role="img" aria-label="中央一份原稿複製到六個分布各地的分店，各自服務就近的人">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <rect x="268" y="96" width="104" height="44" rx="6" fill="#20222e"/>
+        <text x="320" y="124" font-size="14" fill="#faf7ef" text-anchor="middle">你的原稿</text>
+
+        <g fill="#3a5fa8" opacity="0.9">
+          <rect x="40" y="30" width="88" height="34" rx="5"/>
+          <rect x="40" y="172" width="88" height="34" rx="5"/>
+          <rect x="276" y="14" width="88" height="34" rx="5"/>
+          <rect x="276" y="188" width="88" height="34" rx="5"/>
+          <rect x="512" y="30" width="88" height="34" rx="5"/>
+          <rect x="512" y="172" width="88" height="34" rx="5"/>
+        </g>
+        <g font-size="11" fill="#faf7ef" text-anchor="middle" font-family="'Noto Sans TC',sans-serif">
+          <text x="84" y="52">台北</text><text x="84" y="194">新加坡</text>
+          <text x="320" y="36">東京</text><text x="320" y="210">雪梨</text>
+          <text x="556" y="52">倫敦</text><text x="556" y="194">聖保羅</text>
+        </g>
+        <g stroke="#d9a441" stroke-width="1.8">
+          <line x1="268" y1="108" x2="132" y2="56"/>
+          <line x1="268" y1="130" x2="132" y2="178"/>
+          <line x1="310" y1="96" x2="310" y2="52"/>
+          <line x1="330" y1="140" x2="330" y2="186"/>
+          <line x1="372" y1="108" x2="508" y2="56"/>
+          <line x1="372" y1="130" x2="508" y2="178"/>
+        </g>
+      </g>
+    </svg>
+    <p class="punch">所以快。也所以擠不爆——<em>人被分散到三百多個城市。</em></p>
+    <p class="word">這套機制叫 <b>CDN</b>（內容傳遞網路）</p>
+  </section>
+
+  <section class="card">
+    <p class="num">04</p>
+    <h2>Pages 連原稿倉庫都幫你準備</h2>
+    <p class="say">你把做好的檔案交給它，它給你一個網址。沒有主機要租。</p>
+    <svg viewBox="0 0 640 200" role="img" aria-label="一個資料夾經過 Cloudflare Pages 變成一個網址">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <rect x="30" y="62" width="150" height="82" rx="8" fill="#f2edde" stroke="#20222e" stroke-width="2"/>
+        <text x="105" y="100" font-size="26" text-anchor="middle">📁</text>
+        <text x="105" y="128" font-size="13" fill="#565a6b" text-anchor="middle">你的資料夾</text>
+
+        <line x1="196" y1="103" x2="248" y2="103" stroke="#9095a5" stroke-width="2" marker-end="url(#c4)"/>
+
+        <rect x="256" y="62" width="128" height="82" rx="8" fill="#3a5fa8"/>
+        <text x="320" y="98" font-size="13" fill="#faf7ef" text-anchor="middle">Cloudflare</text>
+        <text x="320" y="120" font-size="13" fill="#faf7ef" text-anchor="middle">Pages</text>
+
+        <line x1="400" y1="103" x2="452" y2="103" stroke="#9095a5" stroke-width="2" marker-end="url(#c4)"/>
+
+        <rect x="460" y="72" width="150" height="62" rx="8" fill="#faf7ef" stroke="#3a5fa8" stroke-width="2"/>
+        <text x="535" y="100" font-size="12" fill="#3a5fa8" text-anchor="middle" font-family="'Fira Code',monospace">你的名字</text>
+        <text x="535" y="118" font-size="12" fill="#3a5fa8" text-anchor="middle" font-family="'Fira Code',monospace">.pages.dev</text>
+      </g>
+      <defs><marker id="c4" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#9095a5"/></marker></defs>
+    </svg>
+    <p class="punch">流量沒有上限，不用綁信用卡。<em>官方原文：free and unlimited。</em></p>
+  </section>
+
+  <section class="card">
+    <p class="num">05</p>
+    <h2>三段路，三個免費的幫手</h2>
+    <p class="say">一個幫你做、一個幫你存、一個幫你發。</p>
+    <svg viewBox="0 0 640 210" role="img" aria-label="從 Claude Code 到 GitHub 到 Cloudflare 的三段流程">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <g>
+          <rect x="20" y="56" width="160" height="90" rx="8" fill="#faf7ef" stroke="#20222e" stroke-width="2"/>
+          <text x="100" y="92" font-size="24" text-anchor="middle">🤖</text>
+          <text x="100" y="116" font-size="13" fill="#20222e" text-anchor="middle">Claude Code</text>
+          <text x="100" y="136" font-size="12" fill="#9095a5" text-anchor="middle">工匠</text>
+        </g>
+        <line x1="190" y1="101" x2="228" y2="101" stroke="#d9a441" stroke-width="2.4" marker-end="url(#c5)"/>
+        <g>
+          <rect x="240" y="56" width="160" height="90" rx="8" fill="#faf7ef" stroke="#20222e" stroke-width="2"/>
+          <text x="320" y="92" font-size="24" text-anchor="middle">📦</text>
+          <text x="320" y="116" font-size="13" fill="#20222e" text-anchor="middle">GitHub</text>
+          <text x="320" y="136" font-size="12" fill="#9095a5" text-anchor="middle">保管室</text>
+        </g>
+        <line x1="410" y1="101" x2="448" y2="101" stroke="#d9a441" stroke-width="2.4" marker-end="url(#c5)"/>
+        <g>
+          <rect x="460" y="56" width="160" height="90" rx="8" fill="#3a5fa8"/>
+          <text x="540" y="92" font-size="24" text-anchor="middle">🌍</text>
+          <text x="540" y="116" font-size="13" fill="#faf7ef" text-anchor="middle">Cloudflare</text>
+          <text x="540" y="136" font-size="12" fill="#cdd6ea" text-anchor="middle">連鎖店</text>
+        </g>
+        <text x="320" y="186" font-size="13" fill="#565a6b" text-anchor="middle">接起來之後：改一次、存一次檔，網站自己更新</text>
+      </g>
+      <defs><marker id="c5" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#d9a441"/></marker></defs>
+    </svg>
+    <p class="punch">三個都免費。<em>一個下午走得完。</em></p>
+  </section>
+
+  <section class="card">
+    <p class="num">06</p>
+    <h2>私人倉庫，不等於私密網站</h2>
+    <p class="say">這是最多人誤會的一件事。</p>
+    <svg viewBox="0 0 640 215" role="img" aria-label="左邊上鎖的私人倉庫，右邊是完全公開的網站，兩者以箭頭相連">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <rect x="40" y="46" width="210" height="112" rx="8" fill="#f2edde" stroke="#20222e" stroke-width="2"/>
+        <text x="145" y="88" font-size="26" text-anchor="middle">🔒</text>
+        <text x="145" y="114" font-size="13" fill="#20222e" text-anchor="middle">GitHub 私人倉庫</text>
+        <text x="145" y="134" font-size="12" fill="#9095a5" text-anchor="middle">只有你進得去</text>
+
+        <line x1="262" y1="102" x2="378" y2="102" stroke="#3a5fa8" stroke-width="2.4" marker-end="url(#c6)"/>
+        <text x="320" y="90" font-size="12" fill="#3a5fa8" text-anchor="middle">發佈</text>
+
+        <rect x="390" y="46" width="210" height="112" rx="8" fill="#faf7ef" stroke="#d94f3d" stroke-width="2"/>
+        <text x="495" y="88" font-size="26" text-anchor="middle">🌐</text>
+        <text x="495" y="114" font-size="13" fill="#d94f3d" text-anchor="middle">pages.dev 網站</text>
+        <text x="495" y="134" font-size="12" fill="#d94f3d" text-anchor="middle">全世界都進得去</text>
+
+        <text x="320" y="192" font-size="13" fill="#565a6b" text-anchor="middle">連你開來試東西的分支，也會有一個公開網址</text>
+      </g>
+      <defs><marker id="c6" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#3a5fa8"/></marker></defs>
+    </svg>
+    <p class="punch">鎖保護的是原始檔案，不是內容。<em>進到這個倉庫的東西，等於公開。</em></p>
+  </section>
+
+  <section class="card">
+    <p class="num">07</p>
+    <h2>靜態網站沒有後台</h2>
+    <p class="say">你寫進網頁檔案裡的每一個字，訪客都拿得到。</p>
+    <svg viewBox="0 0 640 200" role="img" aria-label="網頁檔案裡的金鑰被訪客的瀏覽器完整看見">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <rect x="60" y="40" width="240" height="106" rx="8" fill="#faf7ef" stroke="#20222e" stroke-width="2"/>
+        <text x="80" y="70" font-size="12" fill="#565a6b" font-family="'Fira Code',monospace">script.js</text>
+        <rect x="80" y="82" width="200" height="1.5" fill="#e4dfd0"/>
+        <text x="80" y="108" font-size="12" fill="#d94f3d" font-family="'Fira Code',monospace">apiKey = "sk-xxxx"</text>
+        <text x="80" y="130" font-size="12" fill="#9095a5" font-family="'Fira Code',monospace">// 這行誰都看得到</text>
+
+        <line x1="316" y1="93" x2="372" y2="93" stroke="#d94f3d" stroke-width="2" marker-end="url(#c7)"/>
+        <text x="344" y="80" font-size="11" fill="#d94f3d" text-anchor="middle">下載</text>
+
+        <text x="420" y="80" font-size="24">🧑</text>
+        <text x="420" y="120" font-size="13" fill="#565a6b">任何訪客</text>
+        <text x="520" y="80" font-size="24">🤖</text>
+        <text x="500" y="120" font-size="13" fill="#d94f3d">掃描機器人</text>
+        <text x="320" y="180" font-size="13" fill="#565a6b" text-anchor="middle">機器人二十四小時在掃，以分鐘為單位就會被撿走</text>
+      </g>
+      <defs><marker id="c7" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#d94f3d"/></marker></defs>
+    </svg>
+    <p class="punch">第一個網站，不要做需要金鑰的功能。<em>聯絡方式放 email 就好。</em></p>
+  </section>
+
+  <section class="end">
+    <h2>今天只要做一件事</h2>
+    <p style="margin-top:14px;font-size:17px;color:var(--ink-light)">
+      開一個空資料夾，打開 Claude Code，<br>跟它說：幫我做一個個人網站的骨架。
+    </p>
+    <a class="cta" href="../cloudflare.html">看完整教學（含每一步截圖）→</a>
+    <p class="sub">CHRIS OS · 超入門系列</p>
+  </section>
+
+</div>
+
+</body>
+</html>

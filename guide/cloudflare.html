@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小學生也能懂的『Cloudflare』超入門 — 超入門 · CHRIS OS</title>
+<meta name="description" content="讓 Claude Code 做出網站骨架、放進 GitHub 私人倉庫、再接到 Cloudflare Pages 上線——三段路走完，你會有一個真的網址，而且不用付錢。">
+<meta name="author" content="Chris Hsu">
+<link rel="canonical" href="https://chrisincite.github.io/guide/cloudflare.html">
+<link rel="alternate" type="text/markdown" href="./cloudflare.md" title="Markdown 版本">
+<meta property="og:type" content="article">
+<meta property="og:title" content="小學生也能懂的『Cloudflare』超入門">
+<meta property="og:description" content="讓 Claude Code 做出網站骨架、放進 GitHub 私人倉庫、再接到 Cloudflare Pages 上線——三段路走完，你會有一個真的網址，而且不用付錢。">
+<meta property="og:url" content="https://chrisincite.github.io/guide/cloudflare.html">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://chrisincite.github.io/guide/og/cloudflare.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔰</text></svg>">
+<link rel="apple-touch-icon" sizes="180x180" href="/icon/icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/guide.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "小學生也能懂的『Cloudflare』超入門",
+  "description": "讓 Claude Code 做出網站骨架、放進 GitHub 私人倉庫、再接到 Cloudflare Pages 上線——三段路走完，你會有一個真的網址，而且不用付錢。",
+  "inLanguage": "zh-Hant",
+  "url": "https://chrisincite.github.io/guide/cloudflare.html",
+  "author": {
+    "@type": "Person",
+    "name": "Chris Hsu",
+    "url": "https://chrisincite.github.io"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Chris Hsu"
+  },
+  "isAccessibleForFree": true,
+  "proficiencyLevel": "Beginner",
+  "datePublished": "2026-09-11",
+  "image": "https://chrisincite.github.io/guide/img/cloudflare/04-08-success.jpg"
+}
+</script>
+</head>
+<body>
+
+<nav class="note-topbar">
+  <a class="tb-brand" href="../index.html">CHRIS OS</a>
+  <a href="../index.html#guide">超入門</a>
+  <span class="tb-spacer"></span>
+  <a href="./cloudflare.md">.md</a>
+</nav>
+
+<article class="note guide">
+  <header class="note-head">
+    <p class="note-kicker">🔰 超入門 · <time datetime="2026-09-11">2026-09-11</time></p>
+    <h1>小學生也能懂的『Cloudflare』超入門</h1>
+    <p class="gd-hook">讓 Claude Code 做出網站骨架、放進 GitHub 私人倉庫、再接到 Cloudflare Pages 上線——三段路走完，你會有一個真的網址，而且不用付錢。</p>
+    <a class="gd-eli5" href="./eli5/cloudflare.html">🖍 先看圖解版<span>用最少的字、最大的圖說一次</span></a>
+  </header>
+
+  <section class="gd-lead">
+<p>我的桌面上有一個資料夾，叫做「我的作品集」。</p>
+<p>裡面有一個 <code>index.html</code>，雙擊會打開，畫面其實做得還不錯。</p>
+<p>我把整個資料夾壓成 zip 寄給朋友，想聽聽他的意見。他回我一張截圖：滿版的白，圖全破了，字擠成一團。</p>
+<p>因為那些圖片的路徑，寫的是我電腦裡的 <code>/Users/chris/Desktop/我的作品集/img/</code>。</p>
+<p>他的電腦上沒有那個地方。</p>
+<p>那天我才想通一件事——<strong>我做的不是一個網站，是一個只有我打得開的檔案。</strong></p>
+<p>「架網站不是要租主機、每個月付錢嗎？」</p>
+<p>「我連 DNS 是什麼都不知道，這種事哪輪得到我。」</p>
+<p>「Cloudflare？那不是幫大公司擋駭客攻擊的嗎，跟我一頁自我介紹有什麼關係？」</p>
+<p>抱著這樣的疑惑，默默把畫面關掉的人應該不少。</p>
+<p>這篇文章分成六個章節。第一章說明 Cloudflare 到底是什麼、為什麼它敢免費；第二到第四章是實際的三段路——讓 Claude Code 做出網站的骨架、放進 GitHub 的私人倉庫、接到 Cloudflare Pages 拿到網址；第五章講四個一定會踩的坑；第六章談怎麼把這整條路交給 AI。</p>
+<p>專有名詞會全部拆開來講。就算你現在完全零知識，也可以放心閱讀。</p>
+<p>如果你還沒讀過同系列的〈小學生也能懂的『GitHub』超入門〉和〈小學生也能懂的『Claude Code』超入門〉，不讀也沒關係，該解釋的地方這裡都會再解釋一次。</p>
+<p>※本文中 Cloudflare 的畫面與規格，是截至 2026 年 9 月為止，實際操作官方網站並確認官方文件後的內容。</p>
+  </section>
+
+  <nav class="gd-toc" aria-label="本文架構"><p class="gd-toc-h">本文架構</p><ol><li><a href="#ch-1">第一章：Cloudflare 是什麼｜開在全世界三百多個城市的便利商店</a></li><li><a href="#ch-2">第二章：讓 Claude Code 做出網站的骨架｜你負責講，它負責打字</a></li><li><a href="#ch-3">第三章：放進 GitHub 的私人倉庫｜保管室，也是輸送帶</a></li><li><a href="#ch-4">第四章：接上 Cloudflare Pages｜六個步驟，拿到你的網址</a></li><li><a href="#ch-5">第五章：初學者該注意的四個重點｜這些陷阱務必避開</a></li><li><a href="#ch-6">第六章：用 AI 完成整條路｜三個平台，交給同一個人</a></li><li><a href="#ch-7">總結：今天要做的，只有一件事</a></li></ol></nav>
+
+  <section class="gd-chapter" id="ch-1">
+    <h2>第一章：Cloudflare 是什麼｜開在全世界三百多個城市的便利商店</h2>
+<p>先講結論。</p>
+<p>Cloudflare 是一張鋪在全世界的網路。它站在你的網站「前面」，幫你把東西送到每個人手上，順便幫你擋掉不該進來的東西。</p>
+<p>而 Cloudflare Pages，是這張網路上的一個服務：<strong>你把做好的檔案交給它，它直接給你一個網址，全世界都連得到。</strong></p>
+<p>不用租主機。不用設定伺服器。不用綁信用卡。</p>
+<figure class="gd-fig">
+  <img src="img/cloudflare/01-01-home.jpg" alt="圖 1-1：Cloudflare 官方網站首頁" loading="lazy" decoding="async">
+  <figcaption>圖 1-1：這就是 Cloudflare 的門口（cloudflare.com）。那朵橘色的雲是它的標誌。右上角的 <strong>Login</strong> 是登入，中間那顆 <strong>Start building for free</strong> 就是免費開始。</figcaption>
+</figure>
+<h3>想像一家開在全世界的便利商店</h3>
+<p>你寫了一本小冊子，想給全世界的人看。</p>
+<p><strong>傳統的做法，是租一間店面。</strong> 你把冊子放在店裡，全世界的人都得走到你這一間店來拿。</p>
+<p>住在隔壁的人，三分鐘就拿到了。</p>
+<p>住在地球另一邊的人，要飛十四個小時。</p>
+<p>而且如果有一天一萬個人同時擠進來，那間小店會直接被塞爆，門都打不開——這就是網站「掛掉」。</p>
+<p><strong>Cloudflare 的做法，是在全世界三百多個城市各開一家分店，每一家都放一份你的冊子。</strong></p>
+<p>東京的人去東京那家拿。聖保羅的人去聖保羅那家拿。台北的人走到街角就有。</p>
+<p>所以快。</p>
+<p>也所以擠不爆——一萬個人湧進來，會被分散到三百多個城市，沒有任何一家會被擠垮。</p>
+<figure class="gd-fig">
+  <img src="img/cloudflare/01-02-network.jpg" alt="圖 1-2：Cloudflare 的全球據點數字" loading="lazy" decoding="async">
+  <figcaption>圖 1-2：官方的全球網路頁面。大字寫著 <strong>335+ Cities</strong>（三百三十五個以上的城市），但往下捲一點，實際的據點清單標題寫的是 <strong>348 cities</strong>。行銷數字取整取得保守，實際清單才是準的——兩個都是官方寫的，你看到哪一個都不用懷疑。</figcaption>
+</figure>
+<p>這套「把同一份東西放到全世界各地，誰來就從最近的地方給他」的機制，專有名詞叫做「CDN（內容傳遞網路，Content Delivery Network）」。</p>
+<p>名字很難，做的事情就是開分店而已。</p>
+<h3>那 Cloudflare Pages 又是什麼</h3>
+<p>上面那個比喻裡，還缺一塊。</p>
+<p>你的「原稿」放在哪裡？分店的影本要從哪裡印？</p>
+<p>傳統上，原稿要放在你自己租的那間店（主機）裡。分店只是幫你轉送。</p>
+<p><strong>Cloudflare Pages 做的事情是：連原稿倉庫都幫你準備好。</strong></p>
+<p>你把做好的檔案交給它，它直接收下，印成三百多份鋪到全世界，然後給你一個網址。</p>
+<p>專有名詞叫做「靜態網站託管（static site hosting）」。</p>
+<p>「靜態」的意思是：你交出去的檔案長什麼樣，別人看到的就是什麼樣。它不會在你背後偷偷算什麼、查什麼資料庫。</p>
+<p>一頁自我介紹、一份作品集、一個活動公告、一份公開的筆記——這些全部都是靜態網站。</p>
+<h3>為什麼它敢免費？</h3>
+<p>這是我一開始最不相信的地方。</p>
+<p>免費的東西通常有陷阱：流量超過就收錢、跑一陣子就逼你升級、或是在你的頁面塞廣告。</p>
+<p>Cloudflare Pages 的官方定價文件上，這句話是白紙黑字寫著的：</p>
+<blockquote><p>Requests to static assets are free and unlimited. （對靜態檔案的請求，免費，且沒有上限。）</p></blockquote>
+<p>沒有流量上限。沒有廣告。免費方案不需要綁信用卡。</p>
+<p>為什麼做得到？</p>
+<p>因為那三百多家分店，它本來就已經開好了——那是它做企業生意用的網路。多印一份你的自我介紹放進去，對它來說幾乎是零成本。</p>
+<p>它真正要收錢的，是「每次都要現場重算」的東西：資料庫、登入、後端程式。那些才耗它的機器。</p>
+<p>你放一頁自我介紹，它連眉頭都不會皺一下。</p>
+<h3>今天要走的三段路</h3>
+<p>知道它是什麼之後，來看整條路長什麼樣。</p>
+<p>從「什麼都沒有」到「一個真的網址」，中間是三段：</p>
+<div class="gd-tablewrap"><table class="gd-table"><thead><tr><th>段</th><th>工具</th><th>它負責什麼</th><th>一句話</th></tr></thead><tbody><tr><td>第一段</td><td>Claude Code</td><td>做出網站的檔案</td><td>工匠</td></tr><tr><td>第二段</td><td>GitHub</td><td>保管每一次修改</td><td>保管室</td></tr><tr><td>第三段</td><td>Cloudflare Pages</td><td>送到全世界</td><td>連鎖店</td></tr></tbody></table></div>
+<p>三個都是免費的。</p>
+<p>而且接起來之後會變成這樣：<strong>你以後只要改東西、存檔，網站就自己更新了。</strong> 不用再登入任何後台、不用再上傳任何檔案。</p>
+<p>到這裡，我們已經知道 Cloudflare 是一張鋪在全世界的網路，而 Pages 是它上面「幫你把網站發出去」的那個服務。</p>
+<p>接下來，就從第一段路開始——先把網站做出來。</p>
+  </section>
+  <section class="gd-chapter" id="ch-2">
+    <h2>第二章：讓 Claude Code 做出網站的骨架｜你負責講，它負責打字</h2>
+<p>Claude Code 是一個住在終端機（黑色畫面）裡的 AI 助手。</p>
+<p>你用中文跟它講話，它直接在你的電腦上建檔案、改檔案。</p>
+<p>這一章不需要你會寫任何一行 HTML。你只要會描述你想要什麼。</p>
+<h3>動作一：開一個空資料夾</h3>
+<p>在你的「文件」底下開一個新資料夾，取名 <code>my-site</code>。</p>
+<p>名字用英文小寫、不要有空格。這個名字後面會出現在好幾個地方，中文和空格會在某些環節製造麻煩。</p>
+<h3>動作二：在那個資料夾裡打開 Claude Code</h3>
+<p>打開「終端機」（Terminal），輸入這兩行：</p>
+<pre class="gd-code"><code class="language-bash">cd ~/Documents/my-site
+claude</code></pre>
+<p>第一行的意思是「走到那個資料夾裡」。</p>
+<p>第二行是叫它起床。</p>
+<p>如果你還沒裝過 Claude Code，同系列的〈Claude Code 超入門〉那篇有一行安裝指令。</p>
+<h3>動作三：把你想要的東西講出來</h3>
+<p>這是整篇文章裡唯一需要你動腦的地方。</p>
+<p>不要講「幫我做一個網站」——太模糊，它會自己亂猜。</p>
+<p>把「有哪幾塊」講出來就好：</p>
+<pre class="gd-code"><code>幫我做一個個人網站，純 HTML + CSS，不要用任何框架。
+
+需要這幾塊：
+- 首頁：我的名字、一句自我介紹、一張大圖的位置
+- 關於我：三段文字
+- 作品：六個格子，每格一張圖加一行說明
+- 聯絡：email 和兩個社群連結
+
+風格：白底黑字、乾淨、留白多一點。手機上也要能看。
+圖片先放佔位用的灰色方塊，我之後自己換。</code></pre>
+<p>為什麼特別強調「純 HTML + CSS，不要用任何框架」？</p>
+<p>因為框架（React、Next.js 這類）會多出一個「建置（build）」的步驟——要先編譯過才能變成網頁。第一次上線的人，能少一個環節就少一個出錯的地方。</p>
+<p><strong>先讓最單純的版本跑通，之後再加東西。</strong> 這是這篇文章從頭到尾的原則。</p>
+<h3>動作四：在自己的電腦上先看一眼</h3>
+<p>它做完之後，資料夾裡大概會有這些檔案：</p>
+<pre class="gd-code"><code>my-site/
+├── index.html      ← 首頁
+├── about.html
+├── work.html
+├── style.css       ← 外觀
+└── img/</code></pre>
+<p><code>index.html</code> 這個名字是有意義的。</p>
+<p><strong>它是「門口那扇門」。</strong> 任何人連到你的網址、後面什麼都不加，看到的就是這一頁。這是全世界網頁伺服器的共同默契，名字不能改。</p>
+<p>想在電腦上先看看長什麼樣，跟 Claude Code 說：</p>
+<pre class="gd-code"><code>幫我在本機開一個伺服器，讓我用瀏覽器看看</code></pre>
+<p>它會跑起一個本機網址（通常長得像 <code>http://localhost:8000</code>），你在瀏覽器打開就看得到。</p>
+<p>不滿意就直接講：「首頁的字太小了」「把作品改成四個格子」「配色改成米白」。</p>
+<p>改到你滿意為止，再往下走。</p>
+<h3>但它現在還不是網站</h3>
+<p>這一點很重要。</p>
+<p>你現在瀏覽器上那個 <code>localhost:8000</code>，只有你自己連得到。</p>
+<p><code>localhost</code> 的意思就是「這台電腦本身」。你把這個網址傳給朋友，他打開會看到他自己電腦上的東西（多半是什麼都沒有）。</p>
+<p>就跟我開頭寄 zip 給朋友的那次一樣——<strong>檔案在你手上，不等於網站存在。</strong></p>
+<p>要變成網站，還缺一個「全世界都連得到的地方」。</p>
+<p>到這裡，我們已經有一個做好的資料夾了。</p>
+<p>接下來，要先把它放進一個安全的保管室。</p>
+  </section>
+  <section class="gd-chapter" id="ch-3">
+    <h2>第三章：放進 GitHub 的私人倉庫｜保管室，也是輸送帶</h2>
+<p>這一步很多人會問：「我直接把資料夾丟給 Cloudflare 不就好了？為什麼要多繞 GitHub 一圈？」</p>
+<p>可以直接丟。Cloudflare Pages 確實支援把資料夾拖進去上傳。</p>
+<p>但繞這一圈，你會多拿到兩件事：</p>
+<p><strong>第一，每一次修改都有記錄。</strong> 改壞了可以退回去。三個月後也還知道當初改了什麼。</p>
+<p><strong>第二，也是關鍵的——以後不用再手動上傳。</strong> GitHub 和 Cloudflare 接起來之後，你在電腦上存一次檔，網站就自己更新了。</p>
+<p>GitHub 在這裡有兩個身分：它是保管室，也是一條輸送帶。</p>
+<h3>為什麼要用「私人」倉庫</h3>
+<p>GitHub 上的倉庫（repository，一般叫 repo）分兩種：公開的（public）和私人的（private）。</p>
+<p>兩種都免費，數量沒有上限。</p>
+<p><strong>Cloudflare Pages 兩種都支援。</strong> 官方文件寫得很清楚：<code>Both private and public repositories are supported.</code></p>
+<p>那為什麼建議用私人的？</p>
+<p>因為倉庫裡除了網頁檔案，通常還會有一些你不想給人看的東西：草稿、還沒公開的作品、寫到一半的頁面、備忘筆記。</p>
+<p><strong>倉庫私密，不影響網站公開。</strong> 這兩件事是分開的。</p>
+<p>這也是整篇文章最容易被誤會的一個觀念，第五章的坑一會再講一次：私人倉庫保護的是「原始檔案」，不是「網站內容」。</p>
+<h3>動作一：讓 Claude Code 幫你建倉庫</h3>
+<p>直接跟它說：</p>
+<pre class="gd-code"><code>幫我把這個資料夾變成 git 倉庫，
+在 GitHub 上建一個私人倉庫叫 my-site，然後推上去。</code></pre>
+<p>它會做這幾件事：把資料夾變成 git 倉庫、建一個 <code>.gitignore</code>（列出哪些檔案不要上傳）、做第一次存檔、在 GitHub 上開一個私人倉庫、把東西推上去。</p>
+<p>如果它回你「需要先登入 GitHub」，照它給的指令做一次就好，之後不用再登入。</p>
+<h3>動作二：自己點滑鼠也可以</h3>
+<p>不想碰指令，就用 GitHub 官方的圖形介面軟體 <strong>GitHub Desktop</strong>。</p>
+<p>流程是：<code>File</code> → <code>Add Local Repository</code> → 選你的資料夾 → 它會問要不要建立倉庫 → <code>Publish repository</code> → <strong>記得把 <code>Keep this code private</code> 勾起來</strong>。</p>
+<p>那個勾勾就是公開和私人的差別，預設是勾起來的，不要取消。</p>
+<h3>動作三：確認東西真的上去了</h3>
+<p>打開 github.com，登入，看看有沒有那個倉庫。</p>
+<p>點進去，應該看得到 <code>index.html</code>、<code>style.css</code> 這些檔案，倉庫名稱旁邊會有一個灰色的 <strong>Private</strong> 標籤。</p>
+<p>有看到，這一段就完成了。</p>
+<p>到這裡，你的網站檔案已經有一份在雲端了，而且有完整的修改記錄。</p>
+<p>接下來是最後一段路——把這個倉庫接到 Cloudflare，讓它變成一個真的網址。</p>
+  </section>
+  <section class="gd-chapter" id="ch-4">
+    <h2>第四章：接上 Cloudflare Pages｜六個步驟，拿到你的網址</h2>
+<p>這一章是整篇的重點。</p>
+<p>全程點滑鼠，不需要打任何指令。</p>
+<p>先說一句實話：<strong>Cloudflare 的後台改版很勤，官方文件常常落後於畫面。</strong> 我寫這一章的時候，官方文件教的路徑已經跟實際畫面對不上了。</p>
+<p>所以下面每一步都附了截圖。以畫面為準，不要以任何人的文字為準——包括我的。</p>
+<h3>步驟一：註冊 Cloudflare 帳號</h3>
+<p>打開 &lt;https://dash.cloudflare.com/sign-up&gt;。</p>
+<p>它只問兩件事：<strong>email</strong> 和<strong>密碼</strong>。</p>
+<p>沒有信用卡欄位。沒有方案選擇。免費方案是預設的，你什麼都不用選。</p>
+<p>註冊完會收到一封驗證信，點一下裡面的連結。</p>
+<h3>步驟二：找到 Pages 的入口（它藏得有點深）</h3>
+<p>登入之後，左邊的選單找 <strong>運算（Compute）</strong>，點開，第一項就是 <strong>Workers 和 Pages</strong>。</p>
+<p>如果你的介面是英文，那是 <strong>Compute</strong> → <strong>Workers &amp; Pages</strong>。</p>
+<figure class="gd-fig">
+  <img src="img/cloudflare/04-01-workers-pages.jpg" alt="圖 4-1：左側選單的運算底下就是 Workers 和 Pages" loading="lazy" decoding="async">
+  <figcaption>圖 4-1：左邊選單「組建」區塊底下的 <strong>運算</strong>，展開後第一項 <strong>Workers 和 Pages</strong>。右上角那顆藍色的 <strong>建立應用程式</strong> 是下一步要按的。順帶一提，畫面中間那個 $0.00 是本期費用——這篇教你做的事，它會一直是 0。</figcaption>
+</figure>
+<p>你可能會愣一下：「我要的是 Pages，Workers 又是什麼？」</p>
+<p><strong>Workers 是 Cloudflare 另一個產品</strong>，用來跑程式的。跟你今天要做的事沒有關係。</p>
+<p>它們被放在一起，是因為底層是同一套系統。Cloudflare 這幾年在把兩者合併，所以到處都會看到 Workers 這個字。</p>
+<p>你只要知道：<strong>我要的是 Pages。</strong></p>
+<h3>步驟三：在「建立應用程式」裡找到那行小字</h3>
+<p>按右上角的 <strong>建立應用程式</strong>。</p>
+<p>然後你會看到一個叫 <strong>Make something new</strong> 的畫面，上面全部都是 Workers 的選項。</p>
+<p><strong>不要按那些。</strong></p>
+<figure class="gd-fig">
+  <img src="img/cloudflare/04-02-create-app.jpg" alt="圖 4-2：Pages 的入口在整個畫面的最下面一行" loading="lazy" decoding="async">
+  <figcaption>圖 4-2：這一頁給你四個大按鈕，全部都是 Workers 的路。你要的在最底下那行灰色小字：<strong>想要部署 Pages? 開始使用</strong>。這是整個流程最容易走錯的一步——版面設計得像是在勸你別走這條路。</figcaption>
+</figure>
+<p>按那行小字的 <strong>開始使用</strong>。</p>
+<h3>步驟四：選「匯入現有 Git 存放庫」</h3>
+<p>進來之後有兩條路：</p>
+<figure class="gd-fig">
+  <img src="img/cloudflare/04-03-pages-start.jpg" alt="圖 4-3：兩種開始方式" loading="lazy" decoding="async">
+  <figcaption>圖 4-3：上面那條是接 GitHub（我們要走的）；下面那條 <strong>拖放您的檔案</strong> 是直接從電腦上傳資料夾，連 GitHub 都不用。如果你只是想趕快看到網站活著，下面那條三分鐘就能完成——但每次改都要重拖一次。</figcaption>
+</figure>
+<p>按上面那條的 <strong>開始使用</strong>。</p>
+<p>接下來的畫面會列出你 GitHub 上的倉庫，選 <code>my-site</code>，按 <strong>開始設定</strong>。</p>
+<p><strong>如果你的倉庫沒有出現在清單裡，先別急著懷疑人生。</strong></p>
+<figure class="gd-fig">
+  <img src="img/cloudflare/04-04-repo-missing.jpg" alt="圖 4-4：倉庫沒出現在清單裡" loading="lazy" decoding="async">
+  <figcaption>圖 4-4：清單裡只有一個倉庫，剛建好的 <code>my-site</code> 不在上面。答案就寫在清單底下那行小字：<strong>「如果您的存放庫沒有顯示，請在 GitHub 設定 Cloudflare Pages 應用程式的存放庫存取權限。」</strong> 這是授權範圍的問題，不是壞掉——第五章的注意事項四會講怎麼解。</figcaption>
+</figure>
+<h3>步驟五：那三格設定，什麼都不用改</h3>
+<p>選好倉庫之後，進到「設定組建和部署」。</p>
+<p>先看最上面：</p>
+<figure class="gd-fig">
+  <img src="img/cloudflare/04-05-project-name.jpg" alt="圖 4-5：專案名稱與你將拿到的網址" loading="lazy" decoding="async">
+  <figcaption>圖 4-5：<strong>專案名稱</strong>底下那行字很重要——「您的專案將部署到 <strong>my-site-73d.pages.dev</strong>」。我明明填的是 <code>my-site</code>，它卻自己加了 <code>-73d</code>。因為 <code>my-site</code> 這個名字全世界只有一個，早就被別人用掉了。想要漂亮的網址，就把專案名稱取得獨特一點。<strong>生產分支</strong>保持 <code>main</code> 不用動。</figcaption>
+</figure>
+<p>再往下捲，是整篇文章最多人填錯的地方：</p>
+<figure class="gd-fig">
+  <img src="img/cloudflare/04-06-build-settings.jpg" alt="圖 4-6：組建設定三格，預設值就是對的" loading="lazy" decoding="async">
+  <figcaption>圖 4-6：<strong>Framework 預設＝無、組建命令＝空、組建輸出目錄＝空。</strong> 三格都不要動。注意「組建輸出目錄」那格左邊印著一個 <code>/</code>——那是欄位自己帶的固定前綴，不是要你填的東西，輸入框留白就代表「檔案在倉庫最外層」。很多教學（包括官方文件的舊版本）會說這格要填 <code>/</code>，那會讓你多打一個斜線。</figcaption>
+</figure>
+<p>純 HTML 網站，這三格的預設值就是正確答案。</p>
+<p>什麼都不用改。</p>
+<h3>步驟六：按下去，然後等一分鐘</h3>
+<p>捲到最底，按 <strong>儲存並部署</strong>。</p>
+<figure class="gd-fig">
+  <img src="img/cloudflare/04-07-deploying.jpg" alt="圖 4-7：部署的四個階段" loading="lazy" decoding="async">
+  <figcaption>圖 4-7：它會跑四個階段——初始化組建環境、複製 git 存放庫、組建應用程式、部署 Cloudflare 全球網路。最後那一行就是第一章講的「鋪到三百多個城市」，你正在看它發生。</figcaption>
+</figure>
+<p>大約一分鐘之後：</p>
+<figure class="gd-fig">
+  <img src="img/cloudflare/04-08-success.jpg" alt="圖 4-8：成功，您的專案已部署至區域：地球" loading="lazy" decoding="async">
+  <figcaption>圖 4-8：「<strong>成功! 您的專案已部署至區域: 地球</strong>」。這句話讀起來有點浮誇，但它是字面意思——你的網站現在在全世界每一個據點都有一份。上面那個 <code>.pages.dev</code> 網址就是你的網站。</figcaption>
+</figure>
+<p>點那個網址。</p>
+<figure class="gd-fig">
+  <img src="img/cloudflare/04-09-live-site.jpg" alt="圖 4-9：網站真的活著" loading="lazy" decoding="async">
+  <figcaption>圖 4-9：這就是剛才那個資料夾，現在活在一個全世界都連得到的網址上。傳給朋友，他看到的會跟你一模一樣——不會再有破圖了。</figcaption>
+</figure>
+<p>而且它已經自動上了 HTTPS（網址前面那個鎖頭）。</p>
+<p>這件事在十年前要花錢買憑證、還要自己設定，現在是預設的，你什麼都不用做。</p>
+<h3>之後呢？你只要存檔就好</h3>
+<p>這是接上 GitHub 最大的好處。</p>
+<p>以後你想改網站，流程是這樣：</p>
+<pre class="gd-code"><code>改檔案 → 存檔推上 GitHub → 網站自己更新</code></pre>
+<p>中間沒有你的事。不用登入 Cloudflare，不用上傳任何東西。</p>
+<p>Cloudflare 會一直盯著你那個倉庫，看到有新東西就自動重做一次。</p>
+<p>跟 Claude Code 講一句「幫我把這次的修改推上去」，一分鐘後你的網站就是新的了。</p>
+<p>免費方案每個月可以自動重做 <strong>500 次</strong>。</p>
+<p>一天改十六次都還用不完。</p>
+<p>到這裡，三段路走完了。</p>
+<p>接下來講四個一定會踩到的坑——尤其是第一個，那是觀念問題，不是操作問題。</p>
+  </section>
+  <section class="gd-chapter" id="ch-5">
+    <h2>第五章：初學者該注意的四個重點｜這些陷阱務必避開</h2>
+<h3>注意事項一：私人倉庫，不等於私密網站</h3>
+<p>這是最重要的一個。</p>
+<p><strong>症狀。</strong> 你把倉庫設成 private，覺得「這樣就沒人看得到了」。於是在裡面放了還沒公開的作品、寫到一半的頁面、只想給客戶看的報價單。</p>
+<p>結果那些東西全部出現在 <code>my-site.pages.dev</code> 上，任何人都打得開。</p>
+<p><strong>機制。</strong> 私人倉庫保護的是「原始檔案的存取權」——別人不能進你的 GitHub 倉庫翻東西。</p>
+<p>但 Cloudflare Pages 做的事情，就是把那些檔案「發佈到全世界」。</p>
+<p>發佈出去的東西，本來就是給全世界看的。這兩件事不衝突，只是很多人以為 private 會一路傳染到網站上。</p>
+<p>更容易忽略的是<strong>預覽網址</strong>。</p>
+<p>Cloudflare 官方文件寫得很直接：<code>By default, these deployment URLs are public.</code>（預設情況下，這些部署網址是公開的。）</p>
+<p>意思是：你在 GitHub 上開一條新的分支來試東西，Cloudflare 也會幫那條分支生一個網址，長得像 <code>373f31e2.my-site.pages.dev</code>。</p>
+<p><strong>那個網址沒有密碼。</strong> 網址很難猜，但「難猜」不是「安全」。</p>
+<p><strong>正確做法。</strong></p>
+<p>不想給人看的東西，不要放進這個倉庫。就這麼簡單。</p>
+<p>草稿、報價單、客戶的照片——另外開一個倉庫放，那個倉庫不要接 Cloudflare。</p>
+<p>真的需要保護預覽網址，Cloudflare 有一個叫 <strong>Access</strong> 的功能可以把預覽鎖起來（在專案設定裡開），但這是進階題，第一次上線不必碰。</p>
+<p>記住那條界線就好：<strong>進到這個倉庫的東西，等於公開。</strong></p>
+<h3>注意事項二：那三格亂填，網站會上線，但打開是一片空白</h3>
+<p><strong>症狀。</strong> 部署顯示成功，綠色勾勾，一切正常。</p>
+<p>你興奮地點開網址——<code>404 Not Found</code>。</p>
+<p>或是更怪的：看到一排檔案清單，像在瀏覽別人的硬碟。</p>
+<p><strong>機制。</strong> 問題出在 <strong>組建輸出目錄（Build output directory）</strong> 那一格。</p>
+<p>那一格的意思是：「我的網頁檔案，放在倉庫的哪個位置？」</p>
+<p>Cloudflare 只會把「那個位置裡面的東西」拿去發佈。</p>
+<p>你的 <code>index.html</code> 就在倉庫最外層，所以那一格應該是<strong>空的</strong>（欄位左邊那個 <code>/</code> 是它自己印的前綴，代表最外層）。</p>
+<p>如果你填了 <code>dist</code> 或 <code>public</code>——那是有用框架的網站才有的資料夾——Cloudflare 會去找一個叫 <code>dist</code> 的資料夾。找不到，或者找到一個空的，於是發佈了一片空白。</p>
+<p><strong>它不會報錯。</strong> 因為對它來說，「發佈一個空資料夾」也是一次成功的發佈。</p>
+<p>同理，<strong>Framework 預設</strong>選錯（明明沒用框架卻選了 React）也會出事：它會去跑一個不存在的建置指令，然後失敗。</p>
+<p><strong>正確做法。</strong></p>
+<p>純 HTML 網站：三格全部保持預設（無、空、空）。</p>
+<p>如果你之後真的用了框架，去 <strong>Framework 預設</strong> 的下拉選單裡選你的框架名稱，那兩格它會自動填好——不要自己猜。</p>
+<p>改完設定之後，要去 <strong>部署</strong> 那一頁按一次<strong>重試部署</strong>，它才會用新設定重跑一次。光改設定不會自動生效。</p>
+<h3>注意事項三：靜態網站沒有「後台」，你寫進去的密碼等於貼在公佈欄</h3>
+<p><strong>症狀。</strong> 你想做一個聯絡表單，或是想接一個 API 抓資料。</p>
+<p>AI 幫你寫好了，裡面有一行：</p>
+<pre class="gd-code"><code class="language-javascript">const apiKey = "sk-xxxxxxxxxxxxxxxx";</code></pre>
+<p>你推上去，網站正常運作，很開心。</p>
+<p>三天後，你收到一封帳單，或是那把金鑰被停用了。</p>
+<p><strong>機制。</strong> 靜態網站上的每一個檔案，都是「發給訪客的」。</p>
+<p>包括你的 JavaScript。</p>
+<p>訪客的瀏覽器要執行它，就必須先拿到它。任何人按右鍵「檢視原始碼」，那串金鑰就在那裡。</p>
+<p>而且網路上有機器人二十四小時在掃描公開的網頁和倉庫，專門撿這種東西。以分鐘為單位就會被撿走。</p>
+<p><strong>正確做法。</strong></p>
+<p><strong>寫進網頁檔案裡的東西，一律當成公開的。</strong> 沒有例外。</p>
+<p>需要用到金鑰的功能，要有一個「訪客拿不到的地方」去執行它——那就是 Cloudflare Workers 或 Pages Functions 的用途，也是這篇文章刻意先不碰的部分。</p>
+<p>第一個網站，先不要做需要金鑰的功能。</p>
+<p>聯絡方式就放 email 連結。表單就用 Google 表單嵌進去。</p>
+<p>等你真的需要了，再回來學那一塊。</p>
+<h3>注意事項四：授權時選「只給特定倉庫」，之後每開一個新站都要回去補勾</h3>
+<p><strong>症狀。</strong> 你在 Cloudflare 選倉庫的那一步，清單裡就是沒有你剛建好的那個倉庫。</p>
+<p>搜尋也搜不到。重新整理也沒用。你開始懷疑是不是 push 失敗了。</p>
+<p><strong>機制。</strong> 第一次把 Cloudflare 接上 GitHub 的時候，GitHub 會問你要給多少權限：</p>
+<ul><li><strong>All repositories</strong>（全部倉庫）</li><li><strong>Only select repositories</strong>（只給指定的幾個）</li></ul>
+<p>安全的做法是選第二個——Cloudflare 只需要看它要部署的那一個，沒有理由給它看你全部的東西。</p>
+<p>但代價就是這個：<strong>那份清單是寫死的。</strong> 之後新建的倉庫不在名單上，Cloudflare 就真的看不見它。</p>
+<p>這不是壞掉，是權限照你說的做。</p>
+<p><strong>正確做法。</strong></p>
+<p>畫面上其實就寫了答案（圖 4-4 那行小字）。照著做：</p>
+<ol><li>打開 &lt;https://github.com/settings/installations&gt;</li><li>找到 <strong>Cloudflare Workers and Pages</strong>，按 <strong>Configure</strong></li><li>GitHub 可能會要你重新驗證一次身分（passkey 或密碼）——這是它保護帳號設定的機制，正常</li><li>在 <strong>Repository access</strong> 區塊，把新倉庫加進 <code>Only select repositories</code> 的清單，按 <strong>Save</strong></li><li>回 Cloudflare 那一頁重新整理，倉庫就出現了</li></ol>
+<p>如果你懶得每次都來一趟，也可以直接選 All repositories。</p>
+<p>那是一個取捨：<strong>方便，但 Cloudflare 從此看得到你 GitHub 上的每一個倉庫。</strong></p>
+<p>我的建議是照樣選「只給指定的」，把補勾這一分鐘當成開新站的固定成本。權限這種事，麻煩一點通常是對的。</p>
+  </section>
+  <section class="gd-chapter" id="ch-6">
+    <h2>第六章：用 AI 完成整條路｜三個平台，交給同一個人</h2>
+<p>這條路有一個很特別的地方：<strong>三段都是 Claude Code 做得到的。</strong></p>
+<p>它可以幫你寫網頁、可以幫你操作 GitHub，也可以透過 Cloudflare 的命令列工具幫你部署。</p>
+<p>換句話說，你可以從頭到尾只講話。</p>
+<h3>事前準備只有兩件事</h3>
+<p><strong>第一，在你的網站資料夾裡打開 Claude Code。</strong></p>
+<pre class="gd-code"><code class="language-bash">cd ~/Documents/my-site
+claude</code></pre>
+<p><strong>第二，讓它知道你的 Cloudflare 帳號。</strong></p>
+<p>只有當你想讓它「直接部署」時才需要這一步。如果你已經照第四章接好 GitHub，其實不必——它只要幫你推上 GitHub，網站就會自己更新了。</p>
+<p><strong>這條路是我推薦的。</strong> 它更安全：AI 只碰得到你的倉庫，碰不到你的 Cloudflare 帳號。</p>
+<p>真的需要讓它直接部署，跟它說：</p>
+<pre class="gd-code"><code>幫我裝 wrangler 並登入 Cloudflare</code></pre>
+<p><code>wrangler</code> 是 Cloudflare 官方的命令列工具。登入會跳出瀏覽器讓你按「允許」——那一下必須你自己按。</p>
+<h3>三個最好用的句型</h3>
+<p><strong>句型一：改完直接上線。</strong></p>
+<pre class="gd-code"><code>把首頁的自我介紹改成這段：（貼上新的文字），
+確認本機看起來沒問題之後，推上 GitHub</code></pre>
+<p>它會改檔案、開本機伺服器讓你看一眼、然後推上去。一分鐘後網站就是新的。</p>
+<p><strong>句型二：出事了，幫我看。</strong></p>
+<pre class="gd-code"><code>我的 Cloudflare Pages 部署成功了，但打開網址是 404。
+幫我看看 build 設定跟檔案位置對不對</code></pre>
+<p>這個句型很有用，因為第五章那個坑，它一眼就能看出來——它看得到你的檔案結構。</p>
+<p><strong>句型三：退回去。</strong></p>
+<pre class="gd-code"><code>剛才那次修改把版面弄壞了，幫我退回上一個版本，然後推上去</code></pre>
+<p>這是接 GitHub 的紅利。每一次存檔都是一個可以回去的點，講一句話就能退。</p>
+<h3>但請守住這四條界線</h3>
+<p><strong>一、讓它先說再做。</strong></p>
+<p>不確定它要幹嘛的時候，加一句「先跟我說你打算怎麼做，我同意了再動手」。</p>
+<p><strong>二、對外的動作，要你自己點頭。</strong></p>
+<p>推上 GitHub、部署到線上——這些是「全世界都會看到」的動作。讓它做可以，但你要知道它在做。</p>
+<p><strong>三、不可逆的動作一律先問。</strong></p>
+<p>刪除倉庫、刪除 Pages 專案、換掉專案名稱（網址會跟著換，舊網址直接失效）——這幾件事沒有還原按鈕。</p>
+<p><strong>四、寫出去的東西，自己看過一眼。</strong></p>
+<p>它寫的文案、它填的個人資料、它放的連結，都會出現在你的網站上，掛你的名字。</p>
+<p>上線前，用瀏覽器從頭到尾捲一遍。這一分鐘省不得。</p>
+<h3>一個小提醒：先讓它做「讀」的事</h3>
+<p>第一週，只讓它做讀的事：看檔案、解釋設定、找出為什麼是 404。</p>
+<p>第二週，開始讓它做可以回復的事：改內容、推上 GitHub（推錯了可以退回去）。</p>
+<p>看得懂它在做什麼了，再交出不可逆的動作。</p>
+  </section>
+  <section class="gd-chapter" id="ch-7">
+    <h2>總結：今天要做的，只有一件事</h2>
+<p>網站不是一種技術，是一個位置。</p>
+<p>你需要的不是「學會架站」，是把手上已經做好的東西，放到一個全世界都走得到的地方——而那個地方，現在是免費的。</p>
+<p>Claude Code 幫你做出來，GitHub 幫你保管，Cloudflare 幫你發出去。三段路，一個下午。</p>
+<p>你不需要一口氣把全部記起來。</p>
+<p>今天要做的，只有一件事。</p>
+<p><strong>「開一個空資料夾，打開 Claude Code，跟它說：幫我做一個個人網站的骨架。」</strong></p>
+<p>剩下的兩段路，等你手上有東西了再走也不遲。</p>
+<p>那個壓成 zip 寄出去、朋友打開是一片破圖的資料夾，你再也不用寄了。</p>
+<p>你會有一個網址。</p>
+<hr>
+<h3>附錄：一頁速查表</h3>
+<p><strong>三段路</strong></p>
+<div class="gd-tablewrap"><table class="gd-table"><thead><tr><th>段</th><th>做什麼</th><th>結果</th></tr></thead><tbody><tr><td>1</td><td>在空資料夾打開 Claude Code，描述你要的網站</td><td>一個有 <code>index.html</code> 的資料夾</td></tr><tr><td>2</td><td>推上 GitHub 私人倉庫</td><td>雲端有一份，有修改記錄</td></tr><tr><td>3</td><td>運算 → Workers 和 Pages → 建立應用程式 → 最底下那行「想要部署 Pages?」</td><td>一個 <code>.pages.dev</code> 網址</td></tr></tbody></table></div>
+<p><strong>純 HTML 網站的設定（最常填錯的地方）</strong></p>
+<div class="gd-tablewrap"><table class="gd-table"><thead><tr><th>欄位</th><th>填什麼</th></tr></thead><tbody><tr><td>Framework 預設</td><td>無（None）</td></tr><tr><td>組建命令</td><td>留空</td></tr><tr><td>組建輸出目錄</td><td><strong>留空</strong>（左邊那個 <code>/</code> 是欄位自帶的，不用打）</td></tr><tr><td>生產分支</td><td><code>main</code></td></tr></tbody></table></div>
+<p><strong>三個絕對不要</strong></p>
+<ol><li>不要把不想公開的東西放進這個倉庫——私人倉庫不等於私密網站</li><li>不要把金鑰、密碼寫進網頁檔案——所有檔案都是公開的</li><li>不要自己填組建輸出目錄——純 HTML 網站三格全部保持預設</li></ol>
+<p><strong>找不到倉庫的時候</strong></p>
+<p>去 &lt;https://github.com/settings/installations&gt; → Cloudflare Workers and Pages → Configure → Repository access → 把新倉庫加進去 → Save。</p>
+<p><strong>免費方案的數字</strong></p>
+<ul><li>流量、訪客數：<strong>無上限</strong>（官方原文：static assets are free and unlimited）</li><li>每月自動部署次數：500 次</li><li>單一檔案大小上限：25 MiB</li><li>檔案總數上限：20,000 個</li><li>自訂網域：100 個</li><li>不需要信用卡</li></ul>
+<p><strong>常用網址</strong></p>
+<ul><li>註冊：&lt;https://dash.cloudflare.com/sign-up&gt;</li><li>後台：&lt;https://dash.cloudflare.com&gt;</li><li>官方文件：&lt;https://developers.cloudflare.com/pages/&gt;</li><li>免費方案限制：&lt;https://developers.cloudflare.com/pages/platform/limits/&gt;</li></ul>
+<p><strong>懶人路線（已經接好 GitHub 之後）</strong></p>
+<p>跟 Claude Code 說一句：</p>
+<pre class="gd-code"><code>改完幫我推上 GitHub</code></pre>
+<p>一分鐘後，網站自己更新。</p>
+  </section>
+
+  <p class="gd-tags"><span>#Cloudflare</span><span>#超入門</span><span>#AI 協作</span></p>
+
+  <footer class="note-foot">
+    <p>CHRIS OS · 超入門系列</p>
+  </footer>
+  <p class="note-short">短網址：<a href="https://os.housearch.net/g/4">https://os.housearch.net/g/4</a></p>
+</article>
+
+</body>
+</html>
