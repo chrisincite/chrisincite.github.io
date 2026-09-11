@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小學生也能懂的『Hugging Face』超入門 — 超入門 · CHRIS OS</title>
+<meta name="description" content="AI 世界的材料行怎麼逛、怎麼拿、怎麼把自己的東西放上去，每一步都附實際畫面截圖。">
+<meta name="author" content="Chris Hsu">
+<link rel="canonical" href="https://chrisincite.github.io/guide/huggingface.html">
+<link rel="alternate" type="text/markdown" href="./huggingface.md" title="Markdown 版本">
+<meta property="og:type" content="article">
+<meta property="og:title" content="小學生也能懂的『Hugging Face』超入門">
+<meta property="og:description" content="AI 世界的材料行怎麼逛、怎麼拿、怎麼把自己的東西放上去，每一步都附實際畫面截圖。">
+<meta property="og:url" content="https://chrisincite.github.io/guide/huggingface.html">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://chrisincite.github.io/guide/og/huggingface.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔰</text></svg>">
+<link rel="apple-touch-icon" sizes="180x180" href="/icon/icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/guide.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "小學生也能懂的『Hugging Face』超入門",
+  "description": "AI 世界的材料行怎麼逛、怎麼拿、怎麼把自己的東西放上去，每一步都附實際畫面截圖。",
+  "inLanguage": "zh-Hant",
+  "url": "https://chrisincite.github.io/guide/huggingface.html",
+  "author": {
+    "@type": "Person",
+    "name": "Chris Hsu",
+    "url": "https://chrisincite.github.io"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Chris Hsu"
+  },
+  "isAccessibleForFree": true,
+  "proficiencyLevel": "Beginner",
+  "datePublished": "2026-09-11",
+  "image": "https://chrisincite.github.io/guide/img/huggingface/02-06-space-running.jpg"
+}
+</script>
+</head>
+<body>
+
+<nav class="note-topbar">
+  <a class="tb-brand" href="../index.html">CHRIS OS</a>
+  <a href="../index.html#guide">超入門</a>
+  <span class="tb-spacer"></span>
+  <a href="./huggingface.md">.md</a>
+</nav>
+
+<article class="note guide">
+  <header class="note-head">
+    <p class="note-kicker">🔰 超入門 · <time datetime="2026-09-11">2026-09-11</time></p>
+    <h1>小學生也能懂的『Hugging Face』超入門</h1>
+    <p class="gd-hook">AI 世界的材料行怎麼逛、怎麼拿、怎麼把自己的東西放上去，每一步都附實際畫面截圖。</p>
+    <a class="gd-eli5" href="./eli5/huggingface.html">🖍 先看圖解版<span>用最少的字、最大的圖說一次</span></a>
+  </header>
+
+  <section class="gd-lead">
+<p>我第一次打開 Hugging Face，是因為一篇教學文的第三行寫著「先到 Hugging Face 把模型下載下來」，然後就沒有然後了。</p>
+<p>我點進去，畫面上是一整排看不懂的名字：<code>black-forest-labs/FLUX.1-dev</code>、<code>Qwen/Qwen3-TTS</code>、<code>openai/whisper-large-v3</code>。每個名字後面跟著一串數字、一個下載箭頭、幾個灰色的小標籤。</p>
+<p>我在那個頁面上待了大概四十秒，一個按鈕都沒按，就關掉了。</p>
+<p>那個網站的標誌，是一張笑到流眼淚、兩隻手張開要抱你的黃色表情符號。我當時的感想是：一個用擁抱當招牌的地方，裡面的東西怎麼會這麼冷淡。</p>
+<p>「那不是 AI 工程師才會去的地方嗎？」</p>
+<p>「我又不會訓練模型，去那裡要幹嘛？」</p>
+<p>「而且它整個網站都是英文的吧。」</p>
+<p>抱著這樣的疑惑，默默把畫面關掉的人應該不少。</p>
+<p>這篇文章分成五個章節。第一章說明 Hugging Face 到底是什麼；第二章帶你把網站逛過一遍，並且親手玩一次別人做好的 AI；第三章講「把自己的東西放上去」——這是多數人沒想過自己也可以做的事；第四章是三個新手一定會踩的坑；第五章談怎麼把整件事交給 AI 代勞。</p>
+<p>專有名詞會全部拆開來講，每一個要按的按鈕都會附上截圖。就算你現在完全零知識，也可以放心閱讀。</p>
+<p>※本文中 Hugging Face 的畫面與規格，是截至 2026 年 9 月為止，實際操作官方網站並確認官方文件後的內容。</p>
+  </section>
+
+  <nav class="gd-toc" aria-label="本文架構"><p class="gd-toc-h">本文架構</p><ol><li><a href="#ch-1">第一章：Hugging Face 是什麼｜AI 世界的材料行</a></li><li><a href="#ch-2">第二章：Hugging Face 的基本用法｜四個動作逛完整間店</a></li><li><a href="#ch-3">第三章：把自己的東西放上去｜三種箱子與一個開關</a></li><li><a href="#ch-4">第四章：初學者該注意的三個重點｜這些陷阱務必避開</a></li><li><a href="#ch-5">第五章：用 AI 完成 Hugging Face 操作｜把上傳換成一句話</a></li><li><a href="#ch-6">總結：今天要做的，只有一件事</a></li></ol></nav>
+
+  <section class="gd-chapter" id="ch-1">
+    <h2>第一章：Hugging Face 是什麼｜AI 世界的材料行</h2>
+<p>先講結論。</p>
+<p>Hugging Face 是一間開放給所有人的材料行。</p>
+<p>架上放著全世界做好的 AI 零件，任何人都可以走進去拿一個回家用。而且你也可以把自己做的東西放到架上去。</p>
+<p>它不是一個聊天機器人。 它不是拿來「問問題」的網站。 你在上面找不到「請幫我寫一封信」這種功能。</p>
+<figure class="gd-fig">
+  <img src="img/huggingface/01-01-hf-home.jpg" alt="圖 1-1：Hugging Face 官方網站首頁" loading="lazy" decoding="async">
+  <figcaption>圖 1-1：這就是 Hugging Face 的門口（huggingface.co）。左上角那張笑到流眼淚、張開雙手的黃色表情符號就是它的標誌。右上角的 <strong>Sign Up</strong> 是註冊，旁邊那排 Models、Datasets、Spaces 是待會要逐一講的三個分頁。</figcaption>
+</figure>
+<h3>想像你要組一台腳踏車</h3>
+<p>你有兩條路。</p>
+<p>第一條：自己煉鋼、自己車齒輪、自己編輪胎。三年後你可能會有一台很棒的腳踏車。</p>
+<p>第二條：走進材料行，車架拿一個、變速器拿一個、輪組拿一組，一個下午組起來就能騎。</p>
+<p>在 AI 這件事情上，第一條路叫做「訓練模型」，那需要幾十萬台幣的電費和幾個月的時間。</p>
+<p>第二條路，就是 Hugging Face。</p>
+<p>別人已經花掉那些電費了，而且把成果免費放在架上。你要做的只是挑一個拿走。</p>
+<h3>那麼「模型」到底是什麼東西</h3>
+<p>這是整篇文章最重要的一個名詞，我們慢慢講。</p>
+<p>想像一個小孩去上學。</p>
+<p>他看了三百萬張貓的照片、三百萬張狗的照片，每一張都有人告訴他這是貓、這是狗。看完之後，他的腦袋裡形成了某種「判斷貓狗的直覺」。</p>
+<p>這個過程叫做「訓練（training）」。</p>
+<p>現在，如果能把他腦袋裡那份「直覺」原封不動地複製出來，存成一個檔案——這個檔案，就是模型（model）。</p>
+<p>你不需要重新讓他上一次學。你只要拿到那個檔案，裝進自己的電腦，你的電腦立刻就會判斷貓狗了。</p>
+<p>所以模型就是<strong>一顆已經上完學的腦袋，存成檔案的樣子</strong>。</p>
+<p>Hugging Face 上面有幾十萬顆這樣的腦袋。有的會畫圖、有的會聽寫、有的會翻譯、有的會把照片裡的人去掉背景。</p>
+<p>這些檔案通常叫做 <code>model.safetensors</code>，大小從幾十 MB 到幾十 GB 都有。名字裡的 safe 是因為這種格式打開時不會偷跑程式碼，比舊格式安全。</p>
+<h3>架上分成三區</h3>
+<p>走進這間材料行，你會看到頂端有三個分頁。這三個字是你以後每天都會看到的。</p>
+<p><strong>Models（模型）——做好的零件。</strong></p>
+<p>上一段講的那些「腦袋」都放在這一區。這是整個網站的主體。</p>
+<p><strong>Datasets（資料集）——原料。</strong></p>
+<p>模型是「學完的腦袋」，資料集就是當初拿去給它看的那些教材。三百萬張貓狗照片、一整套維基百科文章、十萬筆客服對話紀錄。</p>
+<p>你可能會想，原料我要來幹嘛。兩個用途：一是你想知道某個模型到底是看什麼長大的（這會決定它擅長什麼、歧視什麼）；二是你自己手上的資料，也可以放進這一區保管。第三章會講。</p>
+<p><strong>Spaces（展示間）——現場試用機。</strong></p>
+<p>這一區是給完全不想安裝任何東西的人準備的。</p>
+<p>有人把模型包成一個網頁，放在這裡，你打開網址、上傳一張圖、按一個按鈕，結果就出來了。不用下載、不用指令、不用顯示卡。</p>
+<p>第二章我們就會去玩一個。</p>
+<figure class="gd-fig">
+  <img src="img/huggingface/01-03-three-tabs.png" alt="圖 1-2：頂端導覽列的三個分頁" loading="lazy" decoding="async">
+  <figcaption>圖 1-2：導覽列由左到右：<strong>Models</strong>（模型）、<strong>Datasets</strong>（資料集）、<strong>Spaces</strong>（展示間）。你在這個網站做的每一件事，幾乎都從這三個字開始。</figcaption>
+</figure>
+<p>導覽列上其實還有第四個字：<strong>Buckets</strong>，旁邊掛著 NEW。</p>
+<p>那是 Hugging Face 新開的付費儲存服務，按 TB 計價，給的是那種「有幾十 TB 素材要放、而且不想管版本」的團隊用的。跟本文要做的事沒有關係，看到它直接跳過就好。</p>
+<h3>那它跟 GitHub 差在哪裡</h3>
+<p>如果你讀過本站的 <a href="./github.html" rel="noopener">GitHub 超入門</a>，這句話會讓你瞬間理解：</p>
+<p><strong>GitHub 放的是「做法」，Hugging Face 放的是「做好的東西」。</strong></p>
+<p>程式碼是做法，一份幾十 KB 的文字檔。 模型是成品，一顆幾 GB 的腦袋。</p>
+<p>這兩種東西的體積差了一萬倍，所以它們需要不同的倉庫。GitHub 對大檔案是很不友善的，單一檔案超過一定大小它就會拒收；Hugging Face 則是為了搬運幾十 GB 的檔案而生的，它甚至為此自己做了一套叫 <strong>Xet</strong> 的儲存系統，只傳有變動的那幾塊，不會每次都從頭搬一遍。</p>
+<p>除此之外，兩邊長得非常像：都叫 repository（倉庫）、都有版本紀錄、都可以設公開或私人、都可以用同一套 git 指令操作。</p>
+<p>你在 GitHub 學到的每一件事，在這裡幾乎都能直接套用。</p>
+<p>到這裡，我們已經知道 Hugging Face 是一間放著現成 AI 零件的材料行，分成模型、資料集、展示間三區。</p>
+<p>接下來，我們實際走進去一趟。</p>
+  </section>
+  <section class="gd-chapter" id="ch-2">
+    <h2>第二章：Hugging Face 的基本用法｜四個動作逛完整間店</h2>
+<p>不用先學指令。這一章全程用滑鼠。</p>
+<h3>動作一：申請免費帳號</h3>
+<p>打開 https://huggingface.co/join 。</p>
+<p>第一頁只問兩件事：一個 email、一組密碼。</p>
+<p><strong>不需要信用卡。</strong> 也不需要填公司、職稱、用途這些東西。</p>
+<figure class="gd-fig">
+  <img src="img/huggingface/02-01-signup.jpg" alt="圖 2-1：Hugging Face 的註冊頁面" loading="lazy" decoding="async">
+  <figcaption>圖 2-1：整個第一頁就這兩格。填完按 <strong>Next</strong>，下一頁才會問你要叫什麼名字。看到那行 Hint 說「用公司信箱比較容易找到同事」——個人用的話忽略它就好。</figcaption>
+</figure>
+<p>按下 Next 之後的第二頁，才是幫自己取使用者名稱的地方。</p>
+<p>註冊完會寄一封確認信到你的信箱，按一下裡面的連結就完成了。沒收到就看垃圾郵件匣。</p>
+<p>你的使用者名稱會變成網址的一部分——以後你放上去的東西，網址都是 <code>huggingface.co/你的名字/東西的名字</code>。這個名字之後改起來很麻煩，想三秒鐘再打。</p>
+<h3>動作二：找東西</h3>
+<p>點頂端的 <strong>Models</strong>。</p>
+<p>你會看到一個巨大的清單——寫這篇文章的時候，上面顯示的數字是 <strong>3,056,510</strong> 個模型。</p>
+<p>三百萬。這就是為什麼多數人第一次來會直接關掉。</p>
+<p>左邊那一整排篩選條件，才是重點。</p>
+<p>最上面那一組叫 <strong>Tasks（任務）</strong>，意思是「你想要它幫你做什麼」。這是整個網站對新手最友善的設計：你不需要知道任何模型的名字，只要知道自己想做什麼事。</p>
+<p>幾個一般人用得到的：</p>
+<div class="gd-tablewrap"><table class="gd-table"><thead><tr><th>你想做的事</th><th>要選的 Task</th></tr></thead><tbody><tr><td>把語音轉成文字</td><td>Automatic Speech Recognition</td></tr><tr><td>打字生成圖片</td><td>Text-to-Image</td></tr><tr><td>把照片裡的東西去背</td><td>Image Segmentation</td></tr><tr><td>翻譯</td><td>Translation</td></tr><tr><td>把一段文字唸出來</td><td>Text-to-Speech</td></tr></tbody></table></div>
+<figure class="gd-fig">
+  <img src="img/huggingface/02-02-tasks-filter.jpg" alt="圖 2-2：Models 頁面左側的 Tasks 篩選" loading="lazy" decoding="async">
+  <figcaption>圖 2-2：左欄由上而下是 <strong>Tasks</strong>（要它做什麼）、<strong>Parameters</strong>（模型多大）、<strong>Libraries</strong>（用什麼框架做的）。新手只要用最上面那一組。右上角的 <code>3,056,510</code> 就是目前的模型總數，篩選之後這個數字會立刻掉下來。</figcaption>
+</figure>
+<p>選好之後，清單就只剩下能做這件事的模型了。</p>
+<h3>動作三：看懂一張「模型卡」</h3>
+<p>點進任何一個模型，你看到的那一頁叫做 <strong>model card（模型卡）</strong>。</p>
+<p>這是本章最重要的一段。看懂這一頁，你就不會拿錯東西。</p>
+<p>一張模型卡上，你只需要先看四個地方：</p>
+<p><strong>① 名字前面那一段，是「誰做的」。</strong></p>
+<p><code>openai/whisper-large-v3</code> 裡，斜線前面的 <code>openai</code> 是作者，後面才是模型名稱。作者是大公司或知名研究機構，可信度就高一些。</p>
+<p><strong>② Downloads（下載數）。</strong></p>
+<p>這是最誠實的一個指標。一個月被下載幾百萬次的模型，代表很多人真的在用它，出問題的機率低。下載數個位數的，你可能是它的第一個使用者。</p>
+<p><strong>③ License（授權）。</strong></p>
+<p>位置在模型名稱底下那排灰色標籤的最後面，寫著 <code>License: 什麼什麼</code>。</p>
+<p>它規定這個東西你能怎麼用。<code>apache-2.0</code>、<code>mit</code> 這類是最寬鬆的，商用也沒問題。有些會寫 <code>non-commercial</code>（不可商用），有些會要求你必須標註出處。</p>
+<p><strong>這一行一定要看。</strong> 第四章會講為什麼。</p>
+<p><strong>④ README 本文。</strong></p>
+<p>作者自己寫的說明。好的模型卡會告訴你它擅長什麼、不擅長什麼、要多少記憶體才跑得動。</p>
+<figure class="gd-fig">
+  <img src="img/huggingface/02-03-model-card.jpg" alt="圖 2-3：一張模型卡上該看的四個地方" loading="lazy" decoding="async">
+  <figcaption>圖 2-3：這是 OpenAI 的語音轉文字模型 whisper-large-v3。左上 <code>openai/</code> 是作者，下面那排標籤最後面是 <code>License: apache-2.0</code>（可商用），右上角 <strong>Downloads last month 5,051,898</strong>——上個月被下載五百萬次。這三個數字合起來，你就知道這東西可不可信、能不能用。</figcaption>
+</figure>
+<p>順帶一提，右側那塊 <strong>Inference Providers</strong> 是新東西：有些模型可以直接在這一頁丟一個檔案進去按 Generate，當場看結果，連 Spaces 都不用去。</p>
+<p>看完 README，點上面的 <strong>Files and versions</strong> 分頁。</p>
+<p>這裡是這個倉庫的檔案清單，每個檔案右邊會標大小。</p>
+<figure class="gd-fig">
+  <img src="img/huggingface/02-04-files-tab.jpg" alt="圖 2-4：Files and versions 分頁" loading="lazy" decoding="async">
+  <figcaption>圖 2-4：檔名旁邊那個 <code>24.7 GB</code> 是<strong>整個倉庫的總大小</strong>，往下每一列右邊是單一檔案的大小。這一頁還會告訴你這個箱子總共存過幾次檔（右上角 History: 21 commits）。</figcaption>
+</figure>
+<p>這一眼很重要。很多人興沖沖地要下載一個模型，沒注意到整包是 24.7 GB。</p>
+<h3>動作四：親手玩一次，零安裝</h3>
+<p>現在做這篇文章裡最有趣的一件事。</p>
+<p>點頂端的 <strong>Spaces</strong>。</p>
+<p>Space 就是「已經有人幫你裝好、架好、跑起來」的那個版本。你只要上傳檔案、按按鈕、等結果。</p>
+<figure class="gd-fig">
+  <img src="img/huggingface/02-05-spaces-list.jpg" alt="圖 2-5：Spaces 首頁" loading="lazy" decoding="async">
+  <figcaption>圖 2-5：不知道要找什麼的話，就用中間那一條 <strong>Ask anything you want to do with AI</strong>，直接打你想做的事。底下那排圖示（Image Generation、Video Generation、Speech Synthesis…）是分類捷徑，再下面的 <strong>Spaces of the week</strong> 是這週最多人玩的。</figcaption>
+</figure>
+<p>隨便挑一個打開，上傳一張圖，按下送出。</p>
+<figure class="gd-fig">
+  <img src="img/huggingface/02-06-space-running.jpg" alt="圖 2-6：一個去背 Space 跑完的樣子" loading="lazy" decoding="async">
+  <figcaption>圖 2-6：左邊是原圖——一隻停在樹皮上、跟背景幾乎融為一體的蝴蝶。右邊是這個 Space 吐出來的結果：背景整片拿掉，只留下蝴蝶。這中間你沒有安裝任何東西，也沒有打任何一行指令。</figcaption>
+</figure>
+<p>玩別人的 Space 是免費的，不用付錢也不用註冊。但有兩件事要有心理準備：</p>
+<p>第一，<strong>它會睡覺。</strong> 一段時間沒人用，Space 就會被關掉省資源。你打開時看到「Building」或「Starting」，就是它正在醒來，等一兩分鐘。</p>
+<p>第二，<strong>它會排隊。</strong> 熱門的 Space 上面會顯示你前面有幾個人。免費的午餐要排隊，這很公平。</p>
+<p>到這裡，你已經把整間店逛完了，而且用過一次貨。</p>
+<p>接下來講一件多數人沒想過的事：這間店的架子，你也可以放東西上去。</p>
+  </section>
+  <section class="gd-chapter" id="ch-3">
+    <h2>第三章：把自己的東西放上去｜三種箱子與一個開關</h2>
+<p>「我又不做 AI，我有什麼東西好放的？」</p>
+<p>這是我一開始的想法，後來發現完全錯了。</p>
+<h3>你可以放的東西，比你以為的多</h3>
+<p>Hugging Face 的三個分頁，對應三種倉庫（repository，一般直接叫 repo）。你開哪一種，決定了它長什麼樣子。</p>
+<p><strong>Model repo——放「訓練出來的成果」。</strong></p>
+<p>如果你用自己的照片微調過一個畫圖模型、訓練過一個聲音、做過一個小小的分類器，成果就放這裡。</p>
+<p><strong>Dataset repo——放「整理好的資料」。</strong></p>
+<p>這一種才是大部分人真正用得到的。</p>
+<p>我自己放過的東西包括：一整批標註好的建築照片、一份從幾百頁掃描檔整理出來的 CSV、一批訪談逐字稿。</p>
+<p>它們的共通點是：<strong>檔案大、不是程式碼、但我不想弄丟。</strong></p>
+<p>這種東西放 Google Drive 會亂、放 GitHub 會被嫌太大、放外接硬碟會在某個早上打不開。Dataset repo 就是為這種東西存在的。</p>
+<p><strong>Space repo——放「可以跑起來的網頁」。</strong></p>
+<p>一個小工具、一個 demo、一個給客戶看的展示頁。第二章你玩過的那些就是。</p>
+<p>不過這一種<strong>免費帳號有限制</strong>，而且很多舊文章沒更新：純網頁（Static HTML）的 Space 對所有人免費，但<strong>會實際跑運算的那種（Gradio、Docker）現在需要付費方案才能建立</strong>。免費個人帳號的例外，是最多可以掛兩個跑在 ZeroGPU 上的 Gradio Space。</p>
+<p>「玩別人的 Space」永遠免費，「自己開一個會算圖的 Space」才有這道門檻。這兩件事常常被搞混。</p>
+<h3>開一個給自己用的 Dataset</h3>
+<p>從右上角自己的頭像點開選單。</p>
+<figure class="gd-fig">
+  <img src="img/huggingface/03-01-new-repo-menu.jpg" alt="圖 3-1：頭像選單裡的「開新的」清單" loading="lazy" decoding="async">
+  <figcaption>圖 3-1：<strong>New Model / New Dataset / New Space</strong> 三個選項並排在這裡（New Bucket 是前面講過的付費儲存，跳過）。下半部那塊 <strong>Usage Quota</strong> 是這個選單最有用的地方——它直接告訴你免費額度用掉多少，下一節會用到。</figcaption>
+</figure>
+<p>選 <strong>New Dataset</strong>。</p>
+<figure class="gd-fig">
+  <img src="img/huggingface/03-02-new-dataset-form.jpg" alt="圖 3-2：建立新 dataset 的表單" loading="lazy" decoding="async">
+  <figcaption>圖 3-2：表單只有四格，而最重要的是下面那兩顆圓鈕。圖中已經把它從預設的 Public 改成 <strong>Private</strong>——這一步為什麼非做不可，下一章第一節會講。</figcaption>
+</figure>
+<p>表單很短：</p>
+<ol><li><strong>Owner</strong>——就是你自己。</li><li><strong>Dataset name</strong>——這個箱子的名字，會進網址。</li><li><strong>License</strong>——你打算讓別人怎麼用你的東西。純私人保管的話留白也可以。</li><li><strong>Public 或 Private</strong>——這是整個表單最重要的一個開關，下一章會專門講。</li></ol>
+<p>按下 <strong>Create Dataset</strong>，一個空箱子就好了。</p>
+<h3>把檔案丟進去</h3>
+<p>新建的箱子裡有一個 <strong>Add file</strong> 按鈕，選 <strong>Upload files</strong>。</p>
+<p>然後就是拖放。跟把檔案拖進資料夾一模一樣。</p>
+<figure class="gd-fig">
+  <img src="img/huggingface/03-03-upload-files.jpg" alt="圖 3-3：網頁上的拖放上傳介面" loading="lazy" decoding="async">
+  <figcaption>圖 3-3：中間那個虛線框就是拖放區，寫著「Drag files/folders here or click to browse from your computer」——<strong>資料夾也可以整個拖進去</strong>。底下那兩顆圓鈕保持預設的 Commit directly to the main branch 就好。</figcaption>
+</figure>
+<p>拖完之後，下面會有一個輸入框要你寫一行字。那行字是「這次上傳做了什麼」的說明，跟 GitHub 的 commit 訊息是同一件事。</p>
+<p>寫「first upload」也可以，但三個月後的你會希望當初寫的是「2026 年 8 月訪談逐字稿，共 12 份」。</p>
+<p>按下 <strong>Commit changes</strong>，完成。</p>
+<figure class="gd-fig">
+  <img src="img/huggingface/03-04-dataset-done.jpg" alt="圖 3-4：建好之後的 dataset 頁面" loading="lazy" decoding="async">
+  <figcaption>圖 3-4：名稱旁邊那個灰色的 <strong>private</strong> 標籤，就是「只有你看得到」的證明。中間那塊 <strong>Push your dataset files</strong> 是給想用指令上傳的人看的，第五章會用到——注意它寫的指令是 <code>hf</code>，不是網路上那些舊教學寫的 <code>huggingface-cli</code>。</figcaption>
+</figure>
+<h3>免費帳號可以放多少</h3>
+<p>這是大家最關心的一題，也是官方規則最常變動的一項。</p>
+<p>原則是這樣的：<strong>公開的東西額度很寬鬆，不公開的東西有上限。</strong></p>
+<p>邏輯很好理解——你把東西公開分享出來，對整個社群是貢獻，平台樂意幫你出這個錢。你純粹拿它當私人硬碟用，那就是純成本。</p>
+<p>截至 2026 年 9 月，免費帳號的規則是：</p>
+<ul><li><strong>公開倉庫</strong>：官方寫的是 best-effort（盡力提供），沒有寫死的數字，但請放「對別人有價值的內容」，不要當免費圖床。</li><li><strong>私人倉庫</strong>：總共 <strong>100 GB</strong>。</li><li><strong>單一檔案</strong>：沒有一般性限制，但官方建議切成 200 GB 以下一份，硬性上限是 500 GB。</li></ul>
+<p>你不用去查這些數字——<strong>頭像選單裡的 Usage Quota 就直接寫著你用掉多少</strong>（圖 3-1 下半部那塊）。想知道還剩多少，點開頭像看一眼就有。</p>
+<p>一般人放文件、CSV、幾百張照片，完全碰不到上限。要放整批 4K 影片之前，先去看一眼官方的 <a href="https://huggingface.co/docs/hub/storage-limits" rel="noopener">儲存空間說明頁</a>——這一頁會跟著方案調整。</p>
+<p>到這裡，你已經會拿、也會放了。</p>
+<p>但正因為你現在會「放」了，有些事情必須先講清楚。</p>
+  </section>
+  <section class="gd-chapter" id="ch-4">
+    <h2>第四章：初學者該注意的三個重點｜這些陷阱務必避開</h2>
+<p>這一章的三件事，每一件我都親自踩過。</p>
+<h3>注意事項一：你新開的箱子，預設可能是全世界都看得到</h3>
+<p><strong>症狀。</strong></p>
+<p>你把一批工作檔案傳上去，隔天發現搜尋引擎搜得到它。</p>
+<p><strong>為什麼會這樣。</strong></p>
+<p>Hugging Face 骨子裡是一個「分享」的平台，所以它的很多預設值都偏向公開。</p>
+<p>在網頁上建立倉庫時，Public 和 Private 兩個選項確實並排給你看——但<strong>預設被選中的那一個是 Public</strong>，而且它不會跳出「你確定要公開嗎」的確認視窗。你沒動它，它就公開了。</p>
+<p>真正危險的是另一條路：用程式上傳。</p>
+<p>很多 AI 訓練腳本裡有一個叫 <code>push_to_hub</code> 的選項，打開之後訓練完會自動把成果傳上去。如果那個倉庫還不存在，它會<strong>自動幫你建一個</strong>——而程式介面的預設值是公開。</p>
+<p>整個過程沒有任何提示。你只會在終端機裡看到一行上傳進度條。</p>
+<p><strong>正確做法。</strong></p>
+<p>一、<strong>先建箱子，再上傳。</strong> 在網頁上手動建好、確認是 Private，再讓程式往裡面丟東西。</p>
+<p>二、<strong>建的時候就選 Private。</strong> 事後才改的話，在那之前已經被看到、被複製的部分，你追不回來。</p>
+<p>三、開始一個新專案的第一天，就去自己的個人頁面看一眼倉庫清單，確認每個箱子旁邊的標籤跟你想的一樣。</p>
+<figure class="gd-fig">
+  <img src="img/huggingface/04-01-private-toggle.png" alt="圖 4-1：新建倉庫時，被選中的是 Public" loading="lazy" decoding="async">
+  <figcaption>圖 4-1：這是剛打開表單、什麼都還沒動的樣子。藍色實心的圓點在 <strong>Public</strong> 那一行——旁邊寫得很清楚：「Anyone on the internet can see this Dataset」。要私人保管，就得自己把它點到下面那顆 Private。</figcaption>
+</figure>
+<h3>注意事項二：Token 是鑰匙，而且有一把是「能寫」的</h3>
+<p>要讓程式代替你上傳，得先給它一把鑰匙。這把鑰匙叫 <strong>access token（存取權杖）</strong>。</p>
+<p>申請的地方在 https://huggingface.co/settings/tokens 。</p>
+<figure class="gd-fig">
+  <img src="img/huggingface/04-02-token-page.jpg" alt="圖 4-2：Access Tokens 設定頁" loading="lazy" decoding="async">
+  <figcaption>圖 4-2：這裡列出你所有的鑰匙，右邊 <strong>Permissions</strong> 那一欄標著每一把是 FINEGRAINED、READ 還是 WRITE。圖中 Value 那一欄已經打碼——真實畫面上也只會顯示開頭的 <code>hf_</code> 和最後四碼，完整字串<strong>從產生的那一刻起就再也看不到了</strong>。上方那段警告值得讀一遍：Hugging Face 說他們會定期掃描外流的 token 並直接作廢。</figcaption>
+</figure>
+<figure class="gd-fig">
+  <img src="img/huggingface/04-03-token-permissions.jpg" alt="圖 4-3：建立 token 時的權限勾選畫面" loading="lazy" decoding="async">
+  <figcaption>圖 4-3：上面那排 <strong>Presets</strong>（Read-Only／Inference／Write／CI/CD／Full Access／Custom）是現成的權限組合，點 Custom 才會展開下面這一大片逐項勾選。看一下第一欄就懂差別在哪：「Read contents of your repos」和「Write contents/settings of your repos」是兩件完全不同的事。</figcaption>
+</figure>
+<p><strong>重點只有三個。</strong></p>
+<p><strong>① 分清楚「讀」和「寫」。</strong></p>
+<p>只是要下載模型，一把唯讀（read）的鑰匙就夠了。唯讀的鑰匙就算外流，別人最多只能用你的身分下載東西。</p>
+<p>能寫（write）的鑰匙不一樣。拿到它的人可以往你的倉庫裡塞東西、改東西、刪東西。</p>
+<p><strong>② 選細權限的那一種，不要選全權的那一種。</strong></p>
+<p>目前一共三種：<code>Read</code>（唯讀）、<code>Write</code>（讀寫）、<code>Fine-grained</code>（細權限）。</p>
+<p>好消息是：<strong>Fine-grained 現在是預設選中的那一個</strong>，你什麼都不用改就已經站在比較安全的那邊。</p>
+<p>它下面還給了一排現成的組合（Presets）：Read-Only、Inference、Write、CI/CD、Full Access、Custom。挑一個貼近你用途的就好，想自己逐項勾就選 Custom。</p>
+<p><strong>不要順手點 Full Access。</strong> 那一顆等於把整串鑰匙交出去。</p>
+<p>順帶一提，token 的類型<strong>產生之後不能改</strong>，頁面上就寫著這句。選錯了只能刪掉重開一把。</p>
+<p><strong>③ 它只會顯示一次。</strong></p>
+<p>按下產生之後，那串以 <code>hf_</code> 開頭的文字只會出現這一次。關掉視窗就再也看不到了。立刻複製到密碼管理器裡。</p>
+<p>忘了存也沒關係，回來刪掉重開一把就好——但<strong>千萬不要為了怕忘記，把它貼在筆記軟體、聊天室或程式碼裡</strong>。</p>
+<p>網路上有機器人二十四小時掃描公開倉庫裡的金鑰字串，以分鐘為單位就會被撿走。</p>
+<p>Hugging Face 自己也有掃描機制——你的 Space 裡如果寫死了金鑰，平台會寄信警告你。但那是最後一道防線，不是可以依賴的東西。</p>
+<p>真的不小心貼出去了，處理順序是固定的：<strong>先回 token 頁面把那一把作廢（Invalidate），再處理其他事。</strong> 順序不能倒過來。</p>
+<h3>注意事項三：架上的東西不是「隨便拿隨便用」</h3>
+<p>這是最多人忽略、後果最麻煩的一條。</p>
+<p><strong>症狀。</strong></p>
+<p>你下載了一個模型，做了一個產品，賣了三個月，然後收到一封信。</p>
+<p><strong>為什麼會這樣。</strong></p>
+<p>Hugging Face 上的東西「免費取得」和「可以商用」是兩件事。</p>
+<p>模型卡上那行 License 寫的就是規矩。常見的幾種：</p>
+<ul><li><code>apache-2.0</code>、<code>mit</code>——最寬鬆，商用沒問題，通常只要求你保留出處。</li><li><code>cc-by-nc-4.0</code>——<strong>nc 就是 non-commercial，不可商用。</strong> 自己玩可以，拿去賺錢不行。</li><li><code>openrail</code>、各家自訂授權——多半附帶「不可以拿去做這些事」的清單。</li></ul>
+<p>還有一種叫 <strong>gated（需要同意才能取得）</strong> 的倉庫。</p>
+<p>頁面上會有一塊框，要你先同意條款、有時還要填用途。有些是即時通過，有些要等作者手動審核。Meta 的 Llama 系列到今天都還是這樣——你在網頁上搜得到它、看得到說明，但檔案要按過同意才拿得到。</p>
+<p>沒按同意就直接用程式下載的話，你會得到一個看起來像「找不到檔案」或「沒有權限」的錯誤——很多人會誤以為是自己網路壞了，或是模型名稱打錯。</p>
+<p><strong>正確做法。</strong></p>
+<p>一、<strong>下載之前先看 License 那一行。</strong> 三秒鐘的事。</p>
+<p>二、<strong>打算商用的東西，把那頁授權條款整段讀完。</strong> 或者至少貼給 AI 讀一遍，問它「這個授權允許我拿來做付費服務嗎」。</p>
+<p>三、遇到 gated 的模型，就乖乖去網頁上按同意，不要試圖繞過。</p>
+<figure class="gd-fig">
+  <img src="img/huggingface/04-04-gated-model.jpg" alt="圖 4-4：gated 模型要你先同意才給檔案" loading="lazy" decoding="async">
+  <figcaption>圖 4-4：Meta 的 Llama 3.1 就是這樣。整頁最上面那一塊寫著 <strong>You need to agree to share your contact information to access this model</strong>，底下是整份授權條款，要按過才拿得到檔案。注意右邊的 Downloads 數字照樣顯示——<strong>看得到，不等於拿得到</strong>。</figcaption>
+</figure>
+<p>到這裡，該踩的坑都講完了。</p>
+<p>最後一章，我們把上面這些操作，全部交給 AI。</p>
+  </section>
+  <section class="gd-chapter" id="ch-5">
+    <h2>第五章：用 AI 完成 Hugging Face 操作｜把上傳換成一句話</h2>
+<p>前面四章讀完，你大概會有一個感覺：</p>
+<p>「我知道它有用了，但那些網頁我大概三個月才進去一次，到時候一定又忘了。」</p>
+<p>這個煩惱，現在有另一種解法。</p>
+<p>因為你可以不用記。你只要會描述你想做什麼。</p>
+<h3>事前準備只有兩件事</h3>
+<p><strong>① 讓 AI 能用你的身分登入。</strong></p>
+<p>Hugging Face 有官方的命令列工具，現在叫做 <code>hf</code>。裝好之後跑一次：</p>
+<pre class="gd-code"><code class="language-bash">hf auth login</code></pre>
+<p>它會問你要一把 token（第四章申請的那一把），貼上去就完成了。之後鑰匙存在你的電腦裡，AI 執行的每一個指令都會自動帶上你的身分。</p>
+<p>想確認有沒有成功，打這一行：</p>
+<pre class="gd-code"><code class="language-bash">hf auth whoami</code></pre>
+<p>回你自己的使用者名稱就對了。</p>
+<p><strong>你不需要把 token 貼給 AI 看。</strong> 這一點很重要。</p>
+<h4>一個專門坑舊教學的陷阱</h4>
+<p>以前這個工具叫 <code>huggingface-cli</code>，網路上絕大多數文章寫的都是那個名字。</p>
+<p>它現在<strong>還在</strong>，但已經被掏空了。你照舊教學打下去，會看到這個：</p>
+<pre class="gd-code"><code>$ huggingface-cli auth whoami
+Warning: `huggingface-cli` is deprecated and no longer works. Use `hf` instead.
+
+Hint: Install `hf`:
+  Standalone (recommended): curl -LsSf https://hf.co/cli/install.sh | bash
+  Using Homebrew:           brew install hf
+  Using pip:                pip install huggingface_hub</code></pre>
+<p>注意它的措辭：<strong>deprecated and no longer works</strong>。指令跑得動、沒有報錯、但什麼事都沒發生。</p>
+<p>這比「找不到指令」難察覺得多——很多人會以為自己已經登入了，然後在下一步莫名其妙地失敗。</p>
+<p>看到舊文章寫 <code>huggingface-cli 什麼什麼</code>，一律把前面那個字換成 <code>hf</code>。</p>
+<p><strong>② 確認 AI 工具能執行指令。</strong></p>
+<p>像 Claude Code 這類直接住在終端機裡的助理，本來就能執行指令。第一次要動手時它會先問你要不要允許。</p>
+<p><strong>③（選配）讓 AI 直接連上 Hugging Face。</strong></p>
+<p>官方有一個給 AI 助理用的連接埠，網址是 https://huggingface.co/mcp 。接上之後，AI 就能直接在 Hub 上搜模型、查資料集、找 Space，不必等你貼網址給它。</p>
+<p>另外 <code>hf</code> 工具本身也附了一個指令，可以把「hf 該怎麼用」直接安裝成 Claude Code 讀得懂的說明書：</p>
+<pre class="gd-code"><code class="language-bash">hf skills add --claude</code></pre>
+<p>這兩項都是選配。不裝，下面的句型一樣能用。</p>
+<h3>三個最好用的句型</h3>
+<p><strong>① 「幫我看看這個模型能不能用。」</strong></p>
+<blockquote><p>「https://huggingface.co/xxx/yyy 這個模型，幫我看一下它是做什麼的、授權能不能商用、檔案總共多大、我這台電腦跑不跑得動。」</p></blockquote>
+<p>這是我用得最頻繁的一句。</p>
+<p>它會去把模型卡讀完、把檔案清單掃過、把 License 那一行翻成人話，然後告訴你「可以商用，但要標註出處；檔案 15 GB，你的記憶體不夠，要改用量化版本」。</p>
+<p>自己做這件事要開四個分頁，看十分鐘。</p>
+<p><strong>② 「把這個資料夾建成一個 private 的 dataset 傳上去。」</strong></p>
+<blockquote><p>「把 ~/Documents/訪談逐字稿 這個資料夾，建成一個 <strong>private</strong> 的 dataset repo 傳上去，名字叫 interview-2026，說明寫清楚一點。」</p></blockquote>
+<p>它會建倉庫、上傳、寫好 commit 訊息，然後把網址給你。</p>
+<p>注意那個 private——<strong>這種句型裡，公開或私人一定要自己講出來，不要留給預設值決定。</strong></p>
+<p><strong>③ 「我好像傳錯東西了，怎麼辦？」</strong></p>
+<blockquote><p>「我剛剛把一個資料夾傳上去了，裡面可能有一個 .env 檔案。這個 repo 是公開的。怎麼辦？」</p></blockquote>
+<p>這種時候最不該做的，是自己上網找一個指令貼上去執行。</p>
+<p>把狀況講清楚交給它：傳了什麼、什麼時候傳的、公開還是私人。它會先判斷嚴重程度，再給你處理順序——而且第一句通常會是「先去把那把金鑰作廢」。</p>
+<h3>但請守住這四條界線</h3>
+<p><strong>第一，讓它先說，再做。</strong></p>
+<p>尤其是「刪除」、「改成公開」、「覆蓋」這類動作。請它先用一句話講出要做什麼、會有什麼後果，你同意了再執行。</p>
+<p>多花十秒鐘，換掉一次無法挽回。</p>
+<p><strong>第二，上傳就是發佈，要你自己點頭。</strong></p>
+<p>檔案在你電腦裡怎麼改都沒關係，改壞了可以還原。但按下上傳的那一刻，東西就離開你家了。</p>
+<p>如果那個倉庫是公開的，它同時進了搜尋引擎和所有人的視野。</p>
+<p>把「上傳」保留成一個需要你同意的動作。</p>
+<p><strong>第三，改可見性和刪倉庫，一律先問。</strong></p>
+<p>Private 改成 Public 這個動作，是<strong>不可逆</strong>的——不是指按鈕改不回來，而是改回去之前被誰看過、被誰複製了，你永遠不會知道。</p>
+<p>刪除倉庫也一樣，連同所有版本紀錄一起消失。</p>
+<p><strong>第四，傳出去的東西，你要自己看過一眼。</strong></p>
+<p>這一條在 Hugging Face 上特別重要，因為你傳的是「整個資料夾」，不是一個一個檔案。</p>
+<p>資料夾裡常常夾帶你忘記的東西：<code>.env</code> 設定檔、<code>.DS_Store</code>、備份檔、還有<strong>照片檔案裡的 GPS 座標</strong>。</p>
+<p>上傳前請它先列出「這次總共會傳哪些檔案」，自己看一遍再點頭。</p>
+<p>你是那個要負責任的人，AI 不是。</p>
+<h3>一個小提醒：先讓它做「讀」的事</h3>
+<p>沒試過的話，建議這樣起步：</p>
+<p><strong>第一週，只讓它做「看」的動作。</strong> 幫我讀這個模型卡、比較這兩個模型、這個授權能不能商用。零風險。</p>
+<p><strong>第二週，讓它做私人的上傳。</strong> 全部開 Private，錯了刪掉重來，不痛。</p>
+<p><strong>等你看得懂它在做什麼了，再把公開的動作交出去。</strong></p>
+<p>順序倒過來的人，通常會在第三天遇到一次心跳加速的意外。</p>
+  </section>
+  <section class="gd-chapter" id="ch-6">
+    <h2>總結：今天要做的，只有一件事</h2>
+<p>Hugging Face 這個名字聽起來像是給工程師的，但它真正在做的事情其實很樸素：<strong>把別人做好的東西攤在架上，讓你不用從頭來過。</strong></p>
+<p>而它的另外半邊，是一個為「大檔案」而生的保管室。這件事跟 AI 沒有關係，跟你有沒有一批重要的資料才有關係。</p>
+<p>你不需要一口氣把這些都記起來。老實說，那些指令你可能永遠不需要記。</p>
+<p>今天要做的，只有一件事。</p>
+<p><strong>「申請一個免費帳號，開一個 Private 的 Dataset，把一個你自己的檔案拖進去。」</strong></p>
+<p>就這樣而已。</p>
+<p>放什麼都可以。一份整理到一半的表格、一批拍完還沒挑的照片、一個你怕弄丟的 PDF。</p>
+<p>拖進去，寫一行說明，按下 Commit。</p>
+<p>你會發現，那個在關掉的四十秒裡看起來冷淡到不行的網站，其實只是沒有人跟你介紹過它而已。</p>
+<hr>
+<h3>附錄：一頁速查表</h3>
+<p><strong>三個分頁在放什麼</strong></p>
+<pre class="gd-code"><code>Models    做好的 AI 零件（別人訓練完的「腦袋」）
+Datasets  原料與資料（你自己的檔案也放這裡）
+Spaces    現場試用機（免安裝，開網頁就能玩）</code></pre>
+<p><strong>拿東西之前一定要看的三個地方</strong></p>
+<ol><li>作者（名字裡斜線的前半段）</li><li>Downloads（有多少人真的在用）</li><li><strong>License</strong>（能不能商用，nc 就是不能）</li></ol>
+<p><strong>三個絕對不要</strong></p>
+<ol><li>不要讓程式自動幫你建倉庫——先手動建好 Private 的</li><li>不要把 <code>hf_</code> 開頭的 token 貼進程式碼、筆記或聊天室</li><li>不要整個資料夾直接上傳——先看一眼裡面有什麼</li></ol>
+<p><strong>Token 四要點</strong></p>
+<ol><li>三種角色：<code>read</code>（唯讀）／<code>write</code>（讀寫）／<code>fine-grained</code>（細權限）</li><li>只要下載的話 read 就夠；要上傳才用 write，正式用途一律選 fine-grained</li><li>產生後<strong>只顯示一次</strong>，立刻存進密碼管理器</li><li>外流了先作廢（Invalidate），再處理其他事</li></ol>
+<p><strong>指令三行</strong></p>
+<pre class="gd-code"><code>hf auth login                      # 登入（舊名 huggingface-cli 已失效）
+hf download 作者/模型名             # 下載
+hf upload 你的名字/箱子名 ./資料夾   # 上傳</code></pre>
+<p><strong>懶人路線</strong>：註冊 → 開一個 Private Dataset → 網頁拖放上傳。全程不碰終端機。</p>
+<p><strong>常用網址</strong></p>
+<ul><li>註冊：https://huggingface.co/join</li><li>模型清單：https://huggingface.co/models</li><li>資料集清單：https://huggingface.co/datasets</li><li>展示間：https://huggingface.co/spaces</li><li>申請 token：https://huggingface.co/settings/tokens</li><li>儲存空間規則：https://huggingface.co/docs/hub/storage-limits</li><li>給 AI 用的連接埠：https://huggingface.co/mcp</li></ul>
+  </section>
+
+  <p class="gd-tags"><span>#Hugging Face</span><span>#超入門</span><span>#AI 協作</span></p>
+
+  <footer class="note-foot">
+    <p>CHRIS OS · 超入門系列</p>
+  </footer>
+  <p class="note-short">短網址：<a href="https://os.housearch.net/g/3">https://os.housearch.net/g/3</a></p>
+</article>
+
+</body>
+</html>

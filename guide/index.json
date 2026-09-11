@@ -3,8 +3,34 @@
   "description": "超入門——把一個題目講到小學生也能照著做。",
   "canonical_base": "https://chrisincite.github.io",
   "updated": "2026-09-11",
-  "count": 2,
+  "count": 3,
   "guides": [
+    {
+      "slug": "huggingface",
+      "title": "小學生也能懂的『Hugging Face』超入門",
+      "date": "2026-09-11",
+      "hook": "AI 世界的材料行怎麼逛、怎麼拿、怎麼把自己的東西放上去，每一步都附實際畫面截圖。",
+      "tags": [
+        "Hugging Face",
+        "超入門",
+        "AI 協作"
+      ],
+      "cover": "img/huggingface/02-06-space-running.jpg",
+      "og_image": "https://chrisincite.github.io/guide/og/huggingface.png",
+      "eli5": "./eli5/huggingface.html",
+      "chapters": [
+        "第一章：Hugging Face 是什麼｜AI 世界的材料行",
+        "第二章：Hugging Face 的基本用法｜四個動作逛完整間店",
+        "第三章：把自己的東西放上去｜三種箱子與一個開關",
+        "第四章：初學者該注意的三個重點｜這些陷阱務必避開",
+        "第五章：用 AI 完成 Hugging Face 操作｜把上傳換成一句話",
+        "總結：今天要做的，只有一件事"
+      ],
+      "images": 16,
+      "url": "guide/huggingface.html",
+      "markdown": "guide/huggingface.md",
+      "short": "https://os.housearch.net/g/3"
+    },
     {
       "slug": "github",
       "title": "小學生也能懂的『GitHub』超入門",

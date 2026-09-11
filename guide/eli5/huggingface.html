@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hugging Face 圖解版 — 超入門 · CHRIS OS</title>
+<meta name="description" content="用最少的字、最大的圖，把 Hugging Face 講一次。">
+<meta name="author" content="Chris Hsu">
+<link rel="canonical" href="https://chrisincite.github.io/guide/eli5/huggingface.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hugging Face 圖解版">
+<meta property="og:description" content="用最少的字、最大的圖，把 Hugging Face 講一次。">
+<meta property="og:url" content="https://chrisincite.github.io/guide/eli5/huggingface.html">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://chrisincite.github.io/guide/eli5/og/huggingface.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖍</text></svg>">
+<link rel="apple-touch-icon" sizes="180x180" href="/icon/icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/eli5.css">
+</head>
+<body>
+
+<nav class="topbar">
+  <a class="brand" href="/index.html">CHRIS OS</a>
+  <a href="/index.html#guide">超入門</a>
+  <span class="spacer"></span>
+  <a href="../huggingface.html">完整教學 →</a>
+</nav>
+
+<div class="wrap">
+
+  <header class="hero">
+    <p class="kicker">🖍 圖解版 · ELI5</p>
+    <h1>Hugging Face<br>是做什麼的？</h1>
+    <p>8 張圖。看完你就懂了。</p>
+  </header>
+
+  <section class="card">
+    <p class="num">01</p>
+    <h2>別人已經付過那筆電費了</h2>
+    <p class="say">同一件事，有兩條路。多數人不知道有第二條。</p>
+    <svg viewBox="0 0 640 205" role="img" aria-label="兩條路的對比：自己從頭訓練要三年和幾十萬電費，從架上拿現成的只要一個下午">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <text x="18" y="28" font-size="15" fill="#565a6b">自己從頭訓練一個</text>
+        <line x1="24" y1="56" x2="596" y2="56" stroke="#c9c2ae" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="24" cy="56" r="7" fill="#9095a5"/>
+        <circle cx="215" cy="56" r="7" fill="#9095a5"/>
+        <circle cx="406" cy="56" r="7" fill="#9095a5"/>
+        <circle cx="596" cy="56" r="10" fill="#d94f3d"/>
+        <text x="596" y="90" font-size="16" font-weight="700" fill="#d94f3d" text-anchor="end">三年＋幾十萬電費 😱</text>
+        <text x="18" y="148" font-size="15" fill="#565a6b">從架上拿一個現成的</text>
+        <line x1="24" y1="176" x2="166" y2="176" stroke="#3a5fa8" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="24" cy="176" r="7" fill="#3a5fa8"/>
+        <circle cx="166" cy="176" r="10" fill="#3a5fa8"/>
+        <text x="190" y="182" font-size="16" font-weight="700" fill="#3a5fa8">一個下午 ✅</text>
+      </g>
+    </svg>
+    <p class="punch">Hugging Face 就是那間架子。<em>你不用從頭來過。</em></p>
+  </section>
+
+  <section class="card">
+    <p class="num">02</p>
+    <h2>模型是一顆上完學的腦袋</h2>
+    <p class="say">把學會的東西原封不動複製出來，存成一個檔案。</p>
+    <svg viewBox="0 0 640 175" role="img" aria-label="流程圖：大量教材經過上學變成學會了的腦袋，再存檔成一個檔案">
+      <g font-family="'Noto Sans TC',sans-serif" text-anchor="middle">
+        <text x="80" y="72" font-size="48">📚</text>
+        <text x="80" y="110" font-size="15" fill="#565a6b">大量教材</text>
+        <text x="80" y="134" font-size="13" fill="#9095a5">資料集</text>
+        <line x1="146" y1="56" x2="252" y2="56" stroke="#3a5fa8" stroke-width="3" marker-end="url(#a2)"/>
+        <text x="199" y="40" font-size="14" fill="#3a5fa8">上學</text>
+        <text x="320" y="72" font-size="48">🧠</text>
+        <text x="320" y="110" font-size="15" fill="#565a6b">學會了的腦袋</text>
+        <line x1="386" y1="56" x2="492" y2="56" stroke="#3a5fa8" stroke-width="3" marker-end="url(#a2)"/>
+        <text x="439" y="40" font-size="14" fill="#3a5fa8">存檔</text>
+        <text x="560" y="72" font-size="48">💾</text>
+        <text x="560" y="110" font-size="15" fill="#565a6b">一個檔案</text>
+        <text x="560" y="134" font-size="12" fill="#9095a5" font-family="'Fira Code',monospace">.safetensors</text>
+      </g>
+      <defs>
+        <marker id="a2" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+          <path d="M0 0 L9 4.5 L0 9 Z" fill="#3a5fa8"/>
+        </marker>
+      </defs>
+    </svg>
+    <p class="punch">你不用讓它重新上一次學。<em>拿到檔案就等於拿到那顆腦袋。</em></p>
+    <p class="word">訓練 <b>training</b> · 模型 <b>model</b></p>
+  </section>
+
+  <section class="card">
+    <p class="num">03</p>
+    <h2>架上分成三區</h2>
+    <p class="say">網站最上面那三個字，就是這三區。</p>
+    <svg viewBox="0 0 640 200" role="img" aria-label="三個並排的區塊：Models 放做好的零件、Datasets 放原料、Spaces 是現場試用機">
+      <g font-family="'Noto Sans TC',sans-serif" text-anchor="middle">
+        <rect x="12" y="26" width="196" height="150" rx="12" fill="#eaf0fb" stroke="#3a5fa8" stroke-width="2"/>
+        <text x="110" y="72" font-size="34">🧠</text>
+        <text x="110" y="108" font-size="17" font-weight="700" fill="#20222e" font-family="'Fira Code',monospace">Models</text>
+        <text x="110" y="134" font-size="14" fill="#565a6b">做好的零件</text>
+        <text x="110" y="158" font-size="13" fill="#9095a5">直接拿來用</text>
+        <rect x="222" y="26" width="196" height="150" rx="12" fill="#f2edde" stroke="#c9c2ae" stroke-width="2"/>
+        <text x="320" y="72" font-size="34">📚</text>
+        <text x="320" y="108" font-size="17" font-weight="700" fill="#20222e" font-family="'Fira Code',monospace">Datasets</text>
+        <text x="320" y="134" font-size="14" fill="#565a6b">原料與資料</text>
+        <text x="320" y="158" font-size="13" fill="#9095a5">你的檔案放這裡</text>
+        <rect x="432" y="26" width="196" height="150" rx="12" fill="#f2edde" stroke="#c9c2ae" stroke-width="2"/>
+        <text x="530" y="72" font-size="34">🎮</text>
+        <text x="530" y="108" font-size="17" font-weight="700" fill="#20222e" font-family="'Fira Code',monospace">Spaces</text>
+        <text x="530" y="134" font-size="14" fill="#565a6b">現場試用機</text>
+        <text x="530" y="158" font-size="13" fill="#9095a5">免安裝，開網頁</text>
+      </g>
+    </svg>
+    <p class="punch">三個字記起來，整個網站就不會迷路。<em>其他都是裝飾。</em></p>
+  </section>
+
+  <section class="card">
+    <p class="num">04</p>
+    <h2>不用安裝就能先玩一次</h2>
+    <p class="say">有人幫你裝好、架好、跑起來了。你只要按按鈕。</p>
+    <svg viewBox="0 0 640 200" role="img" aria-label="去背示範：左邊是停在樹皮上的蝴蝶照片，按下送出後右邊只剩下蝴蝶，背景被拿掉">
+      <g font-family="'Noto Sans TC',sans-serif" text-anchor="middle">
+        <rect x="20" y="26" width="220" height="130" rx="10" fill="#f2edde" stroke="#c9c2ae" stroke-width="2"/>
+        <path d="M40 120 q30 -22 56 0 q28 -22 56 0 q30 -22 56 0" fill="none" stroke="#c9c2ae" stroke-width="3"/>
+        <path d="M40 80 q30 -22 56 0 q28 -22 56 0 q30 -22 56 0" fill="none" stroke="#c9c2ae" stroke-width="3"/>
+        <text x="130" y="106" font-size="42">🦋</text>
+        <text x="130" y="178" font-size="14" fill="#565a6b">你丟一張圖進去</text>
+        <line x1="258" y1="91" x2="382" y2="91" stroke="#3a5fa8" stroke-width="3" marker-end="url(#a4)"/>
+        <text x="320" y="74" font-size="14" font-weight="700" fill="#3a5fa8">按送出</text>
+        <rect x="400" y="26" width="220" height="130" rx="10" fill="#ffffff" stroke="#3a5fa8" stroke-width="2"/>
+        <text x="510" y="106" font-size="42">🦋</text>
+        <text x="510" y="178" font-size="14" fill="#3a5fa8">背景不見了</text>
+      </g>
+      <defs>
+        <marker id="a4" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+          <path d="M0 0 L9 4.5 L0 9 Z" fill="#3a5fa8"/>
+        </marker>
+      </defs>
+    </svg>
+    <p class="punch">零安裝、零指令、零顯示卡。<em>先玩過一次，才有動力學後面的。</em></p>
+    <p class="word">展示間 <b>Space</b></p>
+  </section>
+
+  <section class="card">
+    <p class="num">05</p>
+    <h2>你的東西也能放上去</h2>
+    <p class="say">大、不是程式碼、但你不想弄丟——就是這種東西。</p>
+    <svg viewBox="0 0 640 210" role="img" aria-label="多種檔案匯集到一個箱子裡：照片、表格、逐字稿、掃描檔都收進同一個倉庫">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <text x="24" y="44" font-size="26">🖼</text>
+        <text x="58" y="44" font-size="14" fill="#565a6b">一批標好的照片</text>
+        <text x="24" y="88" font-size="26">📊</text>
+        <text x="58" y="88" font-size="14" fill="#565a6b">整理好的表格</text>
+        <text x="24" y="132" font-size="26">🎙</text>
+        <text x="58" y="132" font-size="14" fill="#565a6b">訪談逐字稿</text>
+        <text x="24" y="176" font-size="26">📄</text>
+        <text x="58" y="176" font-size="14" fill="#565a6b">掃描檔</text>
+        <path d="M210 38 C300 38 300 105 372 105" fill="none" stroke="#9095a5" stroke-width="2"/>
+        <path d="M210 82 C300 82 300 105 372 105" fill="none" stroke="#9095a5" stroke-width="2"/>
+        <path d="M210 126 C300 126 300 105 372 105" fill="none" stroke="#9095a5" stroke-width="2"/>
+        <path d="M210 170 C300 170 300 105 372 105" fill="none" stroke="#9095a5" stroke-width="2"/>
+        <rect x="380" y="52" width="230" height="106" rx="12" fill="#eaf0fb" stroke="#3a5fa8" stroke-width="2"/>
+        <text x="495" y="104" font-size="34" text-anchor="middle">📦</text>
+        <text x="495" y="136" font-size="15" font-weight="700" fill="#3a5fa8" text-anchor="middle">一個 Dataset 箱子</text>
+      </g>
+    </svg>
+    <p class="punch">放 Google Drive 會亂，放 GitHub 嫌太大。<em>這裡就是為它們開的。</em></p>
+    <p class="word">倉庫 <b>repository</b>（repo）</p>
+  </section>
+
+  <section class="card">
+    <p class="num">06</p>
+    <h2>新開的箱子預設是公開的</h2>
+    <p class="say">這是整篇最該記住的一句。</p>
+    <svg viewBox="0 0 640 175" role="img" aria-label="建立倉庫的表單上，Public 選項預設被選中，Private 沒有被選中">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <rect x="16" y="20" width="608" height="64" rx="10" fill="#fdeae7" stroke="#d94f3d" stroke-width="2"/>
+        <circle cx="48" cy="52" r="11" fill="none" stroke="#d94f3d" stroke-width="2.5"/>
+        <circle cx="48" cy="52" r="5" fill="#d94f3d"/>
+        <text x="76" y="47" font-size="17" font-weight="700" fill="#d94f3d">Public</text>
+        <text x="76" y="70" font-size="13" fill="#565a6b">全世界都看得到，而且搜尋引擎找得到</text>
+        <rect x="16" y="96" width="608" height="64" rx="10" fill="#f2edde" stroke="#c9c2ae" stroke-width="2"/>
+        <circle cx="48" cy="128" r="11" fill="none" stroke="#9095a5" stroke-width="2.5"/>
+        <text x="76" y="123" font-size="17" font-weight="700" fill="#565a6b">Private</text>
+        <text x="76" y="146" font-size="13" fill="#565a6b">只有你看得到——你要自己點這一顆</text>
+      </g>
+    </svg>
+    <p class="punch">它不會問「你確定要公開嗎」。<em>你沒動它，它就公開了。</em></p>
+  </section>
+
+  <section class="card">
+    <p class="num">07</p>
+    <h2>免費拿，不等於可以拿去賺錢</h2>
+    <p class="say">每個模型名字底下都有一行字，寫著規矩。</p>
+    <svg viewBox="0 0 640 165" role="img" aria-label="三種授權的比較：apache-2.0 與 mit 可以商用，cc-by-nc 不可商用">
+      <g font-family="'Noto Sans TC',sans-serif" text-anchor="middle">
+        <rect x="14" y="24" width="192" height="108" rx="10" fill="#eaf0fb" stroke="#3a5fa8" stroke-width="2"/>
+        <text x="110" y="58" font-size="15" font-weight="700" fill="#20222e" font-family="'Fira Code',monospace">apache-2.0</text>
+        <text x="110" y="88" font-size="24">✅</text>
+        <text x="110" y="116" font-size="14" fill="#3a5fa8">商用沒問題</text>
+        <rect x="224" y="24" width="192" height="108" rx="10" fill="#eaf0fb" stroke="#3a5fa8" stroke-width="2"/>
+        <text x="320" y="58" font-size="15" font-weight="700" fill="#20222e" font-family="'Fira Code',monospace">mit</text>
+        <text x="320" y="88" font-size="24">✅</text>
+        <text x="320" y="116" font-size="14" fill="#3a5fa8">商用沒問題</text>
+        <rect x="434" y="24" width="192" height="108" rx="10" fill="#fdeae7" stroke="#d94f3d" stroke-width="2"/>
+        <text x="530" y="58" font-size="15" font-weight="700" fill="#20222e" font-family="'Fira Code',monospace">cc-by-nc</text>
+        <text x="530" y="88" font-size="24">🚫</text>
+        <text x="530" y="116" font-size="14" fill="#d94f3d">nc ＝ 不可商用</text>
+      </g>
+    </svg>
+    <p class="punch">下載前看那一行，三秒鐘。<em>賣了三個月才收到信，就來不及了。</em></p>
+    <p class="word">授權 <b>License</b></p>
+  </section>
+
+  <section class="card">
+    <p class="num">08</p>
+    <h2>鑰匙有兩把，一把能寫</h2>
+    <p class="say">要讓程式代替你上傳，得先給它一把。給錯了差很多。</p>
+    <svg viewBox="0 0 640 170" role="img" aria-label="兩種 token 的對比：唯讀鑰匙外流只能被下載，可寫鑰匙外流則可以被塞東西改東西刪東西">
+      <g font-family="'Noto Sans TC',sans-serif">
+        <rect x="14" y="22" width="296" height="126" rx="12" fill="#eaf0fb" stroke="#3a5fa8" stroke-width="2"/>
+        <text x="40" y="62" font-size="28">🔑</text>
+        <text x="80" y="58" font-size="16" font-weight="700" fill="#3a5fa8" font-family="'Fira Code',monospace">read</text>
+        <text x="38" y="96" font-size="14" fill="#565a6b">只能下載東西</text>
+        <text x="38" y="124" font-size="13" fill="#9095a5">外流了，損失有限</text>
+        <rect x="330" y="22" width="296" height="126" rx="12" fill="#fdeae7" stroke="#d94f3d" stroke-width="2"/>
+        <text x="356" y="62" font-size="28">🗝</text>
+        <text x="396" y="58" font-size="16" font-weight="700" fill="#d94f3d" font-family="'Fira Code',monospace">write</text>
+        <text x="354" y="96" font-size="14" fill="#565a6b">能塞、能改、能刪</text>
+        <text x="354" y="124" font-size="13" fill="#d94f3d">外流了，家就是別人的</text>
+      </g>
+    </svg>
+    <p class="punch">只是要下載的話，一把唯讀的就夠了。<em>而且它只會顯示一次。</em></p>
+    <p class="word">存取權杖 <b>access token</b>（<code>hf_</code> 開頭）</p>
+  </section>
+
+  <section class="end">
+    <h2>今天只要做一件事</h2>
+    <p style="margin-top:14px;font-size:17px;color:var(--ink-light)">
+      申請一個免費帳號，開一個 <b>Private</b> 的 Dataset，<br>
+      把一個你自己的檔案拖進去。
+    </p>
+    <a class="cta" href="../huggingface.html">看完整教學（含每一步截圖）→</a>
+    <p class="sub">CHRIS OS · 超入門系列</p>
+  </section>
+
+</div>
+
+</body>
+</html>

@@ -153,6 +153,7 @@
 
 章節錨點是 `#ch-1`、`#ch-2`……依文章章序編號，可直接深連結。
 
+- [小學生也能懂的『Hugging Face』超入門](https://chrisincite.github.io/guide/huggingface.md)：AI 世界的材料行怎麼逛、怎麼拿、怎麼把自己的東西放上去，每一步都附實際畫面截圖。（第一章：Hugging Face 是什麼｜AI 世界的材料行／第二章：Hugging Face 的基本用法｜四個動作逛完整間店／第三章：把自己的東西放上去｜三種箱子與一個開關…）
 - [小學生也能懂的『GitHub』超入門](https://chrisincite.github.io/guide/github.md)：從註冊帳號到讓 AI 幫你 commit、push，每一個要按的按鈕都附實際畫面截圖。（第一章：GitHub 是什麼｜幫你的作品「按存檔」的雲端保管室／第二章：GitHub 的基本用法｜四個動作就能開始／第三章：初學者該注意的三個重點｜這些陷阱務必避開…）
 - [小學生也能懂的『Claude Code』超入門](https://chrisincite.github.io/guide/claude-code.md)：為什麼 Claude 要住在黑色畫面裡、那六個名詞在講什麼、以及你該付多少錢。（第一章：Claude Code 是什麼｜為什麼它住在黑色畫面，而不是漂亮的 App／第二章：六個一定要懂的名詞｜session、token、context、memory、skill、MCP／第三章：方案怎麼選，以及初學者最容易踩的三個坑…）
 
