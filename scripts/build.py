@@ -51,6 +51,30 @@ SHORT_SUFFIX = ".html" if "github.io" in SHORT_BASE else ""
 # 之後若改投 Cloudflare R2，只要換這一行（結尾一定要有斜線）。
 IMG_BASE = "https://chrisincite.github.io/shrine-img/img/"
 
+# Umami Cloud 流量統計。留空字串＝整站不輸出任何統計碼（本機預覽／關掉時用）。
+# 值在 cloud.umami.is 建站後的 Settings → Websites → 該站的 Website ID。
+# 自架版就把 UMAMI_SRC 換成自己的 /script.js 網址。
+# 轉址頁（/n/1.html 那種 meta-refresh 短連結）刻意不埋，免得一次點擊被算成兩次。
+UMAMI_WEBSITE_ID = "8541fa22-06a7-4ebe-8e99-b64641586fe5"
+UMAMI_SRC = "https://cloud.umami.is/script.js"
+
+
+def analytics_tag():
+    """回傳要塞進 </head> 前的統計碼；沒設 ID 就回空字串。"""
+    if not UMAMI_WEBSITE_ID:
+        return ""
+    return ('<script defer src="%s" data-website-id="%s"></script>\n'
+            % (UMAMI_SRC, UMAMI_WEBSITE_ID))
+
+
+def inject_analytics(page):
+    """把統計碼插在第一個 </head> 之前。沒設 ID 時原樣回傳（產出 byte-identical）。"""
+    tag = analytics_tag()
+    if not tag:
+        return page
+    return page.replace("</head>", tag + "</head>", 1)
+
+
 SITE_NAME = "CHRIS OS"
 SITE_TAGLINE = "1 person ＋ AI ＝ 1 studio"
 AUTHOR_NAME = "Chris Hsu"
@@ -453,7 +477,7 @@ def build_note(path, short_url=""):
     )
 
     with open(os.path.join(NOTES_DIR, slug + ".html"), "w", encoding="utf-8") as f:
-        f.write(page)
+        f.write(inject_analytics(page))
 
     # ---------- markdown 雙生檔 ----------
     md = ["# %s\n" % meta["title"]]
@@ -834,7 +858,7 @@ def build_shrine(path, registry, published_slugs, short_url=""):
         site_name=SITE_NAME,
     )
     with open(os.path.join(SHRINE_DIR, full_slug + ".html"), "w", encoding="utf-8") as f:
-        f.write(page)
+        f.write(inject_analytics(page))
 
     # ---------- markdown 雙生檔 ----------
     def md_wiki(m):
@@ -1347,7 +1371,7 @@ def build_guide(path, short_url=""):
         short=short,
     )
     with open(os.path.join(GUIDE_DIR, "%s.html" % slug), "w", encoding="utf-8") as f:
-        f.write(html_out)
+        f.write(inject_analytics(html_out))
 
     # ---------- markdown 雙生檔 ----------
     md = ["# %s\n" % title]
@@ -1939,6 +1963,24 @@ NOTE_TEMPLATE = """<!DOCTYPE html>
 """
 
 
+def sync_index_analytics():
+    """首頁是手寫的，不由樣板產生，所以統計碼要在這裡就地同步。
+    先移除舊的 umami <script>，再依 UMAMI_WEBSITE_ID 決定要不要寫回去——
+    兩個方向都冪等，重複 build 不會疊加，把 ID 清空就等於全站關掉。"""
+    path = os.path.join(ROOT, "index.html")
+    if not os.path.isfile(path):
+        return
+    with open(path, encoding="utf-8") as f:
+        page = f.read()
+    cleaned = re.sub(r'[ \t]*<script[^>]*data-website-id=[^>]*></script>\n?', "", page)
+    tag = analytics_tag()
+    new = cleaned.replace("</head>", tag + "</head>", 1) if tag else cleaned
+    if new != page:
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(new)
+        print("✓ index.html 統計碼：%s" % ("已寫入" if tag else "已移除"))
+
+
 def main():
     if not os.path.isdir(SRC_DIR):
         print("尚無 %s，沒有筆記可處理" % SRC_DIR)
@@ -1987,6 +2029,7 @@ def main():
     write_robots()
     write_llms(notes, shrines, len(registry), guides)
     write_llms_full(notes, texts, shrine_texts, guide_texts)
+    sync_index_analytics()
 
     print("\n共 %d 則筆記、%d 篇散策、%d 篇超入門"
           % (len(notes), len(shrines), len(guides)))
