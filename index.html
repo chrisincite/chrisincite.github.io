@@ -739,6 +739,7 @@ body {
 .hub-tile.c5 { background: linear-gradient(135deg, #43a8a0, #2f8a82); }
 .hub-tile.c6 { background: linear-gradient(135deg, #d9689a, #c04a7f); }
 .hub-tile.c7 { background: linear-gradient(135deg, #e0b055, #c99432); }
+.hub-tile.c8 { background: linear-gradient(135deg, #6f7c92, #4d5970); }
 .hub-card h3 { font-size: 16.5px; font-weight: 700; }
 .hub-card .hc-desc {
   margin-top: 6px;
@@ -763,6 +764,19 @@ body {
   transition: max-height 0.45s var(--ease-out);
 }
 .hub-card.open .hub-tools { max-height: 420px; }
+.hub-tools a {
+  color: var(--indigo);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(58, 95, 168, 0.35);
+}
+.hub-tools a:hover { border-bottom-color: var(--indigo); }
+.hub-tools code {
+  font-family: 'Fira Code', monospace;
+  font-size: 11px;
+  background: rgba(32, 34, 46, 0.06);
+  border-radius: 3px;
+  padding: 1px 4px;
+}
 .hub-tools .win-list { margin-top: 12px; padding-top: 4px; border-top: 1px solid rgba(32, 34, 46, 0.08); }
 .hub-note {
   margin-top: 28px;
@@ -1282,7 +1296,7 @@ a.sh-item .sh-no { color: var(--vermilion); }
     <header class="page-head">
       <div class="ph-mono">03 / TOOL HUB</div>
       <h1>工具棚</h1>
-      <p>一人工作室的工具總機：七個領域 Hub，每個 Hub 裡是實際在跑的工作流。點卡片展開、拖曳換位置（會記住你的排法）。這些不是網頁應用，是 Claude Code 的 skills——在本機用一句話啟動。</p>
+      <p>一人工作室的工具總機：八個領域 Hub，每個 Hub 裡是實際在跑的工作流。點卡片展開、拖曳換位置（會記住你的排法）。大半不是網頁應用，是 Claude Code 的 skills——在本機用一句話啟動；最後一格是這些工作流吃的外部開放資料源。</p>
     </header>
     <div class="hub-grid" id="hubGrid">
 
@@ -1390,6 +1404,20 @@ a.sh-item .sh-no { color: var(--vermilion); }
           </ul>
         </div>
         <div class="hub-meta"><span>4 tools</span><span class="hm-arrow">▾</span></div>
+      </article>
+
+      <article class="hub-card" data-hub="opendata" draggable="true">
+        <div class="hub-tile c8">資</div>
+        <h3>開放資料源</h3>
+        <p class="hc-desc">外部公開資料的線索簿：怎麼取、上游在哪、哪天消失了怎麼重建。</p>
+        <div class="hub-tools">
+          <ul class="win-list">
+            <li><span class="k">鉄道駅LOD</span><span>日本全國鐵道的 <a href="https://uedayou.net/jrslod/" target="_blank" rel="noopener">Linked Open Data</a>：179 社／594 路線／10,166 駅，含站序、經緯度、路線色、路線線形與歷年乗降客数</span></li>
+            <li><span class="k">取用</span><span>URI 後面加 <code>.json</code>／<code>.ttl</code>／<code>.rdf</code>／<code>.n3</code> 就換格式；另有未宣傳的 <a href="https://uedayou.net/jrslod/sparql/" target="_blank" rel="noopener">SPARQL 端點</a>，全庫 115 萬 triple</span></li>
+            <li><span class="k">上游</span><span>真相源是 <a href="https://nlftp.mlit.go.jp/ksj/" target="_blank" rel="noopener">国土数値情報</a>（鉄道データ N02／駅別乗降客数 S12），原站消失也重建得回</span></li>
+          </ul>
+        </div>
+        <div class="hub-meta"><span>3 links</span><span class="hm-arrow">▾</span></div>
       </article>
 
     </div>
@@ -1830,7 +1858,8 @@ a.sh-item .sh-no { color: var(--vermilion); }
   }
 
   [].forEach.call(hubGrid.querySelectorAll('.hub-card'), function(card) {
-    card.addEventListener('click', function() {
+    card.addEventListener('click', function(e) {
+      if (e.target.closest('a')) return;
       card.classList.toggle('open');
     });
     card.addEventListener('dragstart', function(e) {
