@@ -2,9 +2,130 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 113,
+  "count": 117,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/39",
+      "no": "131",
+      "slug": "131-atsuta-jingu",
+      "title": "熱田神宮",
+      "title_ja": "熱田神宮",
+      "kana": "あつたじんぐう",
+      "type": "神社",
+      "prefecture": "愛知縣",
+      "city": "名古屋市熱田區神宮一丁目",
+      "lat": "35.1267",
+      "lng": "136.9087",
+      "enshrined": "熱田大神；相殿 天照大神・素盞嗚尊・日本武尊・宮簀媛命・建稻種命",
+      "rank": "延喜式神名帳 名神大社；勅祭社（全國十六社）；舊官幣大社；別表神社",
+      "trip": "T11",
+      "series": [
+        "S1"
+      ],
+      "visited": "2024-02",
+      "published": "2026-09-12",
+      "hook": "從名鐵神宮前驛下車，第一件事不是走進神宮，是爬一座陸橋。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/131-atsuta-jingu-01.webp",
+      "photos": 10,
+      "related": [
+        "70-ise-jingu-naiku",
+        "110-fujisan-hongu-sengen-taisha",
+        "09-mishima-taisha"
+      ],
+      "url": "shrine/131-atsuta-jingu.html",
+      "markdown": "shrine/131-atsuta-jingu.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/38",
+      "no": "110",
+      "slug": "110-fujisan-hongu-sengen-taisha",
+      "title": "富士山本宮淺間大社",
+      "title_ja": "富士山本宮浅間大社",
+      "kana": "ふじさんほんぐうせんげんたいしゃ",
+      "type": "神社",
+      "prefecture": "靜岡縣",
+      "city": "富士宮市宮町",
+      "lat": "35.2275",
+      "lng": "138.6100",
+      "enshrined": "木花之佐久夜毘賣命（淺間大神）；相殿 瓊瓊杵尊・大山祇神",
+      "rank": "延喜式神名帳 名神大社；駿河國一宮；舊官幣大社；全國一千三百餘座淺間神社總本宮；別表神社",
+      "trip": "T11",
+      "series": [
+        "S2"
+      ],
+      "visited": "2024-02",
+      "published": "2026-09-12",
+      "hook": "早上七點從富士宮驛出來，往北走，第一件看得見的東西不是神社，是一條川。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-01.webp",
+      "photos": 23,
+      "related": [
+        "104-kitaguchi-hongu-fuji-sengen",
+        "107-suwa-taisha-kamisha-honmiya",
+        "131-atsuta-jingu",
+        "70-ise-jingu-naiku"
+      ],
+      "url": "shrine/110-fujisan-hongu-sengen-taisha.html",
+      "markdown": "shrine/110-fujisan-hongu-sengen-taisha.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/37",
+      "no": "109",
+      "slug": "109-hie-jinja-shuzenji",
+      "title": "日枝神社（修善寺）",
+      "title_ja": "日枝神社",
+      "kana": "ひえじんじゃ",
+      "type": "神社",
+      "prefecture": "靜岡縣",
+      "city": "伊豆市修善寺",
+      "lat": "34.971706",
+      "lng": "138.928495",
+      "enshrined": "大山咋神",
+      "rank": "舊修禪寺鎮守（山王社）",
+      "trip": "T11",
+      "series": [
+        "S1"
+      ],
+      "visited": "2024-02",
+      "published": "2026-09-12",
+      "hook": "從溫泉街的縣道上抬頭，石造的鳥居就立在路邊，",
+      "cover": "https://chrisincite.github.io/shrine-img/img/109-hie-jinja-shuzenji-01.webp",
+      "photos": 5,
+      "related": [
+        "108-shuzenji"
+      ],
+      "url": "shrine/109-hie-jinja-shuzenji.html",
+      "markdown": "shrine/109-hie-jinja-shuzenji.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/36",
+      "no": "108",
+      "slug": "108-shuzenji",
+      "title": "修禪寺",
+      "title_ja": "修禅寺",
+      "kana": "しゅぜんじ",
+      "type": "寺院",
+      "prefecture": "靜岡縣",
+      "city": "伊豆市修善寺",
+      "lat": "34.971454",
+      "lng": "138.927559",
+      "enshrined": "",
+      "rank": "伊豆八十八所 第八十八番札所（結願寺）",
+      "trip": "T11",
+      "series": [
+        "S1"
+      ],
+      "visited": "2024-02",
+      "published": "2026-09-12",
+      "hook": "七點從修善寺車站出發，不搭那班七分鐘的巴士。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/108-shuzenji-01.webp",
+      "photos": 8,
+      "related": [
+        "109-hie-jinja-shuzenji"
+      ],
+      "url": "shrine/108-shuzenji.html",
+      "markdown": "shrine/108-shuzenji.md"
+    },
     {
       "short": "https://os.housearch.net/s/35",
       "no": "139",
@@ -162,7 +283,8 @@
         "105-yohashira-jinja",
         "63-izumo-oyashiro",
         "31-izanagi-jingu",
-        "104-kitaguchi-hongu-fuji-sengen"
+        "104-kitaguchi-hongu-fuji-sengen",
+        "110-fujisan-hongu-sengen-taisha"
       ],
       "url": "shrine/107-suwa-taisha-kamisha-honmiya.html",
       "markdown": "shrine/107-suwa-taisha-kamisha-honmiya.md"
@@ -2096,7 +2218,9 @@
       "related": [
         "71-ise-jingu-geku",
         "08-tsukiyomi-no-miya",
-        "24-omiwa-jinja"
+        "24-omiwa-jinja",
+        "131-atsuta-jingu",
+        "110-fujisan-hongu-sengen-taisha"
       ],
       "url": "shrine/70-ise-jingu-naiku.html",
       "markdown": "shrine/70-ise-jingu-naiku.md"
@@ -2345,7 +2469,8 @@
       "related": [
         "05-keya-kurotatsu-jinja",
         "06-eiheiji",
-        "82-fushimi-inari-taisha"
+        "82-fushimi-inari-taisha",
+        "131-atsuta-jingu"
       ],
       "url": "shrine/09-mishima-taisha.html",
       "markdown": "shrine/09-mishima-taisha.md"

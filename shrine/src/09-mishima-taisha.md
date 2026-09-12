@@ -17,7 +17,7 @@ series: [S7]
 visited: 2025-02
 photos: DSC01968-DSC01974
 photo_count: 7
-related: [05-keya-kurotatsu-jinja, 06-eiheiji, 82-fushimi-inari-taisha]
+related: [05-keya-kurotatsu-jinja, 06-eiheiji, 82-fushimi-inari-taisha, 131-atsuta-jingu]
 published: 2026-08-26
 status: ready
 ---

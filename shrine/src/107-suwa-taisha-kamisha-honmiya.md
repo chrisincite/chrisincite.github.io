@@ -20,7 +20,7 @@ visited: 2023-10
 photos: DSC05090-DSC05134
 photos_iphone: 2TB_2021/iPhone15/202406｜IMG_E0382-IMG_E0391（群 c125）
 photo_count: 45
-related: [106-hotaka-jinja, 105-yohashira-jinja, 63-izumo-oyashiro, 31-izanagi-jingu, 104-kitaguchi-hongu-fuji-sengen]
+related: [106-hotaka-jinja, 105-yohashira-jinja, 63-izumo-oyashiro, 31-izanagi-jingu, 104-kitaguchi-hongu-fuji-sengen, 110-fujisan-hongu-sengen-taisha]
 status: ready
 published: 2026-09-10
 ---

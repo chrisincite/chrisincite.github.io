@@ -20,7 +20,7 @@ photo_count: 0
 photos_iphone: IMG_1706-IMG_1724+IMG_1733
 iphone_count: 20
 actual_count: 20
-related: [71-ise-jingu-geku, 08-tsukiyomi-no-miya, 24-omiwa-jinja]
+related: [71-ise-jingu-geku, 08-tsukiyomi-no-miya, 24-omiwa-jinja, 131-atsuta-jingu, 110-fujisan-hongu-sengen-taisha]
 published: 2026-08-28
 status: ready
 ---
