@@ -15,7 +15,7 @@ sect:
 rank: 舊修禪寺鎮守（山王社）
 built: 創建年不詳（相傳弘法大師建立）
 trip: T11
-series: [S1]
+series: [S8]
 visited: 2024-02
 photos: DSC05316-DSC05321
 photos_iphone: —

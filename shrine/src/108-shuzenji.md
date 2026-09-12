@@ -15,7 +15,7 @@ sect: 曹洞宗
 rank: 伊豆八十八所 第八十八番札所（結願寺）
 built: 大同二年（807）開創
 trip: T11
-series: [S1]
+series: [S6]
 visited: 2024-02
 photos: DSC05330-DSC05356
 photos_iphone: —
