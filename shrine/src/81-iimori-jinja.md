@@ -13,6 +13,7 @@ enshrined: 主神 伊弉冉尊｜左神 玉依比賣命・右神 品陀和氣命
 rank: 舊早良郡七箇村惣社｜傳早良郡一宮
 built: 社傳謂貞觀元年（859）清和天皇敕命再建｜現存本殿天明六年（1786）
 trip: T3
+series: [S8]
 visited: 2025-05
 photos_iphone: IMG_3938-IMG_3946
 iphone_count: 9

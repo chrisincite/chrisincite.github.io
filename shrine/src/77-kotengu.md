@@ -13,6 +13,7 @@ enshrined: 本殿六座 伊邪那岐神・伊邪那美神・瓊瓊杵神・木�
 rank: 大村藩總鎮守｜舊肥前國彼杵郡總鎮守
 built: 草創不詳（緣起與傳書於天正二年〔1574〕燒失）｜慶長七年（1602）於現社地再興
 trip: T3
+series: [S7]
 visited: 2025-04
 photos_iphone: IMG_3701-IMG_3708
 iphone_count: 8

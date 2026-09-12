@@ -13,7 +13,7 @@ enshrined: 上毛野田道命・大山祇神・倉稻魂命
 rank: 舊鄉社・豐平地區氏神
 built: 明治四年（1871）立小祠／社殿竣工 明治十七年（1884）／現社殿 昭和四十六年（1971）
 trip: T1
-series: []
+series: [S9]
 visited: 2024-10
 photos_iphone: IMG_8248-IMG_8251、IMG_8255
 photos: —

@@ -13,7 +13,7 @@ enshrined: 豐受姫大神・伊智伎志摩比賣命
 rank: 舊鄉社
 built: 萬治元年（1658）弁天堂／享和三年（1803）稻荷奉齋／現社殿 昭和五十一年（1976）
 trip: T1
-series: []
+series: [S9]
 visited: 2024-10
 photos: —
 photos_iphone: IMG_8995-IMG_8999

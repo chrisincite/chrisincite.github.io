@@ -13,6 +13,7 @@ enshrined: 諏訪大神（建御名方神・八坂刀賣神）／森崎大神（
 rank: 長崎總氏神｜通稱鎮西大社
 built: 寬永二年（1625）於西山鄉圓山再興｜慶安元年（1648）遷至現址
 trip: T3
+series: [S7]
 visited: 2025-05
 photos_iphone: IMG_3895-IMG_3922
 iphone_count: 24

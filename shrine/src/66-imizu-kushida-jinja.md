@@ -13,7 +13,7 @@ enshrined: 武素盞嗚尊・櫛稻田姬命（合祀 天照皇大神・少彥�
 rank: 延喜式內社・舊縣社
 built:
 trip: T2
-series: []
+series: [S1]
 visited: 2025-01
 photos_iphone: IMG_0994-IMG_1002
 photo_count: 8

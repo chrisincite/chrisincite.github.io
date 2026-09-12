@@ -13,7 +13,7 @@ enshrined: 天照皇大神・豐受姬神・市杵島姬命
 rank: 舊鄉社／厚岸總鎮守
 built: 寬政三年（一七九一）創建為神明宮／明治八年（一八七五）改稱厚岸神社／大正二年（一九一三）遷至現址／昭和四十八年（一九七三）社殿改築
 trip: T1
-series: []
+series: [S9]
 visited: 2024-10
 photos: DSC08967-DSC08991
 photos_iphone:

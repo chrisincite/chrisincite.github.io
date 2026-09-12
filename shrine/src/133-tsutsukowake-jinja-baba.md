@@ -13,6 +13,7 @@ enshrined: 味耜高彦根命（相殿 日本武尊）
 rank: 延喜式內社（都都古和氣神社・名神大）論社｜陸奧國一宮｜舊國幣中社｜別表神社
 built: 本殿 文禄三年（1594）（重要文化財）｜拜殿・東照宮 江戶中期｜隨身門 江戶末期｜神饌所 明治｜社務所 昭和初期
 trip: T12
+series: [S1]
 visited: 2024-04
 photos_iphone: IMG_3935-IMG_3939
 iphone_count: 5

@@ -13,6 +13,7 @@ enshrined: 中座 素盞嗚尊等七柱／東座 舍人親王・天武天皇／�
 rank: 深草一帶的產土神｜舊府社
 built: 本殿 正德二年（1712）中御門天皇下賜（原宮中內侍所）｜八幡宮社・大將軍社 永享十年（1438）
 trip: T4
+series: [S7]
 visited: 2025-06
 photos_iphone: IMG_4596-IMG_4600
 iphone_count: 5

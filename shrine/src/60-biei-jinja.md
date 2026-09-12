@@ -13,7 +13,7 @@ enshrined: 天照大神・伊邪奈岐神・伊邪奈美神・家都御子神・
 rank: 舊村社
 built: 明治三十年（1897）小祠／明治四十年（1907）社殿造營／現社地 平成七年（1995）
 trip: T1
-series: []
+series: [S9]
 visited: 2024-10
 photos: DSC08840-DSC08850
 photos_iphone: IMG_8520-IMG_8532

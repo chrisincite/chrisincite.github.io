@@ -13,7 +13,7 @@ enshrined: 不詳
 rank: 無社格（未公認社）
 built: 不詳／《弟子屈町史》記大正六年（一九一七）與昭和三年（一九二八）兩說
 trip: T1
-series: []
+series: [S9]
 visited: 2024-10
 photos: DSC08897-DSC08935
 photos_iphone:

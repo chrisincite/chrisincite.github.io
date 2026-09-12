@@ -13,6 +13,7 @@ enshrined: 武內宿禰（配祀 武雄心命・仲哀天皇・神功皇后・�
 rank: 舊縣社｜總稱武雄大明神
 built: 天平七年（735）創祀｜元永年間（1118–1120）遷至現址
 trip: T3
+series: [S8]
 visited: 2025-04
 photos: DSC03147-DSC03167
 photo_count: 21

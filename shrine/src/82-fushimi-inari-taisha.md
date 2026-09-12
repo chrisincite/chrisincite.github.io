@@ -13,6 +13,7 @@ enshrined: 宇迦之御魂大神・佐田彥大神・大宮能賣大神・田中
 rank: 稻荷神社總本宮｜舊官幣大社
 built: 本殿 明應三年（1494）再建（重要文化財）｜樓門 天正十七年（1589）豐臣秀吉造營（重要文化財）
 trip: T4
+series: [S4]
 visited: 2025-06
 photos_iphone: IMG_4580-IMG_4590
 iphone_count: 11

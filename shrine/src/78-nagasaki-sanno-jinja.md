@@ -13,6 +13,7 @@ enshrined: 正殿 天照皇太御神・豐受比賣神・大山咋神／左座 �
 rank: 舊縣社（浦上皇太神宮）｜浦上地方鄉社
 built: 寬永十五年（1638）前後創建｜昭和六十三年（1988）幣殿再建
 trip: T3
+series: [S7]
 visited: 2025-04
 photos_iphone: IMG_3750-IMG_3772
 iphone_count: 23

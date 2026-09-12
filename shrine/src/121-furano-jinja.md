@@ -13,7 +13,7 @@ enshrined: 大國魂神・大己貴神・少彦名神
 rank: 舊鄉社・上川南部的中心神社
 built: 明治三十五年（1902）創祀／明治四十年（1907）奉遷現地／現社殿 昭和十一年（1936）造營
 trip: T1
-series: []
+series: [S9]
 visited: 2024-10
 photos: DSC08867-DSC08882
 photos_iphone: —

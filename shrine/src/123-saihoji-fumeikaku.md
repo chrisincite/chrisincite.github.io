@@ -13,7 +13,7 @@ enshrined: 木造十一面觀世音菩薩立像（縣重要文化財）
 rank: 淨土宗／普明閣・お籠堂為市重要文化財
 built: 慶長八年（一六〇三）遷入現址並改宗／本堂元祿十五年（一七〇二）再建／普明閣寶曆八年（一七五八）
 trip: T1
-series: []
+series: [S8]
 visited: 2024-10
 photos: DSC09475-DSC09531
 photos_iphone:

@@ -13,7 +13,7 @@ enshrined: 大山津見神・久久能智神・鹿屋野比賣神
 rank: 舊縣社・別表神社（道內第六座）・苫小牧總鎮守
 built: 明治八年（1875）勅命定三神・奉遷市街／現社殿 平成四年（1992）七月十四日移遷鎮座
 trip: T1
-series: []
+series: [S9]
 visited: 2024-10
 photos: DSC09137-DSC09164
 photos_iphone: —

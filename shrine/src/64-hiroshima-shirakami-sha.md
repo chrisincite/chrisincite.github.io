@@ -13,7 +13,7 @@ enshrined: 菊理姫命ほか
 rank: 舊鄉社／廣島城下總產土神
 built: 創祀年不詳／天正年間 毛利輝元建社殿／現社殿 一九八九年再建
 trip: T1
-series: []
+series: [S7]
 visited: 2024-10
 photos:
 photos_iphone: IMG_9722-IMG_9729

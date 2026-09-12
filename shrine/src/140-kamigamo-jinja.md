@@ -13,6 +13,7 @@ enshrined: 賀茂別雷大神
 rank: 山城國一之宮｜世界文化遺產「古都京都の文化財」構成資產
 built: 本殿・權殿 文久三年（1863）造替（國寶）｜其餘社殿多為寬永五年（1628）再興（重要文化財41棟）
 trip: T4
+series: [S7]
 visited: 2025-06
 photos: DSC03503-DSC03512
 photo_count: 10

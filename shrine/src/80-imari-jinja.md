@@ -13,6 +13,7 @@ enshrined: 難波王（敏達天皇皇子）・橘諸兄命・伊弉諾尊・伊
 rank: 舊縣社（明治五年鄉社、昭和十九年縣社）｜舊稱 香橘神社（香橘の宮）
 built: 現存本殿 承應三年（1654）建造｜昭和三十年代合祀三社、昭和三十七年（1962）改稱伊萬里神社
 trip: T3
+series: [S8]
 visited: 2025-05
 photos_iphone: IMG_3925-IMG_3936
 iphone_count: 12

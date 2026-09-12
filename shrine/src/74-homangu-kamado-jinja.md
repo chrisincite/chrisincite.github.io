@@ -13,6 +13,7 @@ enshrined: 玉依姬命（配祀 神功皇后・應神天皇）
 rank: 舊官幣小社
 built: 現社殿 昭和二年（1927）
 trip: T3
+series: [S7]
 visited: 2025-04
 photos: DSC02130-DSC02170
 photo_count: 41

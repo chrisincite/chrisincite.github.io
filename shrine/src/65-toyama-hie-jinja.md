@@ -13,7 +13,7 @@ enshrined: 大山咋神・大己貴神（相殿 天照皇大御神・豐受大�
 rank: 舊縣社・神社本廳別表神社・富山總產土神
 built: 昭和二十年（1945）戰災後重建
 trip: T2
-series: []
+series: [S7]
 visited: 2025-01
 photos_iphone: IMG_0889-IMG_0921
 photo_count: 31

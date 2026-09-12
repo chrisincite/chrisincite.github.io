@@ -13,7 +13,7 @@ enshrined: 天照大神・木花開耶姫命
 rank: 舊鄉社
 built: 明治二十六年（1893）本殿造營／現社殿 昭和三年（1928）
 trip: T1
-series: []
+series: [S9]
 visited: 2024-10
 photos: DSC08587-DSC08659
 photos_iphone: IMG_8429-IMG_8431
