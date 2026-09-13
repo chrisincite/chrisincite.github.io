@@ -175,6 +175,38 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/shrine/124-shiogama-jinja.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/124-shiogama-jinja.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/115-nasu-yuzen-jinja.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/115-nasu-yuzen-jinja.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/114-aizu-sazaedo.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/114-aizu-sazaedo.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/113-uesugi-jinja.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/113-uesugi-jinja.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/shrine/131-atsuta-jingu.html</loc>
     <priority>0.8</priority>
   </url>

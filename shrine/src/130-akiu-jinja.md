@@ -20,7 +20,7 @@ visited: 2022-11
 photos:
 photos_iphone: 2TB_2021/iPhone15/202406｜IMG_6987-IMG_6998（群 c046）
 photo_count: 12
-related: [128-hoju-san-risshakuji, 129-tono-go-hachimangu, 47-tosen-jinja, 133-tsutsukowake-jinja-baba]
+related: [128-hoju-san-risshakuji, 129-tono-go-hachimangu, 47-tosen-jinja, 133-tsutsukowake-jinja-baba, 114-aizu-sazaedo, 124-shiogama-jinja]
 status: ready
 published: 2026-09-10
 ---

@@ -20,7 +20,7 @@ visited: 2026-02
 photos: DSC05192, DSC05198-DSC05200
 photos_iphone: —
 photo_count: 4
-related: [46-arima-onsenji, 102-ikuta-jinja, 103-nishinomiya-jinja, 35-kumano-hongu-taisha, 05-keya-kurotatsu-jinja]
+related: [46-arima-onsenji, 102-ikuta-jinja, 103-nishinomiya-jinja, 35-kumano-hongu-taisha, 05-keya-kurotatsu-jinja, 115-nasu-yuzen-jinja]
 published: 2026-09-09
 status: ready
 ---

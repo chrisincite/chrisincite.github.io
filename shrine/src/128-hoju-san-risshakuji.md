@@ -20,7 +20,7 @@ visited: 2022-11
 photos:
 photos_iphone: 2TB_2021/iPhone15/202406｜IMG_6999-IMG_7049（群 c047）
 photo_count: 48
-related: [39-enryakuji, 130-akiu-jinja, 129-tono-go-hachimangu, 45-yasugi-kiyomizudera, 139-iwakiyama-jinja]
+related: [39-enryakuji, 130-akiu-jinja, 129-tono-go-hachimangu, 45-yasugi-kiyomizudera, 139-iwakiyama-jinja, 114-aizu-sazaedo]
 status: ready
 published: 2026-09-10
 ---

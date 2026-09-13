@@ -20,7 +20,7 @@ visited: 2024-04
 photos: DSC05827-DSC05861
 photos_iphone:
 photo_count: 35
-related: [111-kashima-jingu, 101-kashihara-jingu, 38-omi-jingu, 57-hokkaido-jingu]
+related: [111-kashima-jingu, 101-kashihara-jingu, 38-omi-jingu, 57-hokkaido-jingu, 113-uesugi-jinja]
 status: ready
 published: 2026-09-09
 ---
@@ -55,7 +55,7 @@ published: 2026-09-09
 沒有敕令，也還沒有社號。
 
 朝廷的追認分好幾次到齊。明治六年（一八七三），明治天皇的勅旨賜下社號
-「常磐神社」，同年列為縣社。明治七年在今天這個位置造社殿，
+「常磐神社」，同年列為縣社（けんしゃ，kensha，戰前神社等級制度中由府縣供進幣帛的一級）。明治七年在今天這個位置造社殿，
 五月十二日舉行遷座祭，這一天定為例祭。同時宣下神號：
 義公是高讓味道根命，烈公是押健男國之御楯命。明治十五年（一八八二）
 升為別格官幣社。到明治三十三年與三十六年，兩人分別獲贈正一位。

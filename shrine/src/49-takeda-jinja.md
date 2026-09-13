@@ -20,7 +20,7 @@ visited: 2023-10
 photos: DSC05286-DSC05313
 photos_iphone: IMG_0543-IMG_0553
 photo_count: 39
-related: [105-yohashira-jinja, 57-hokkaido-jingu, 104-kitaguchi-hongu-fuji-sengen, 38-omi-jingu, 106-hotaka-jinja]
+related: [105-yohashira-jinja, 57-hokkaido-jingu, 104-kitaguchi-hongu-fuji-sengen, 38-omi-jingu, 106-hotaka-jinja, 113-uesugi-jinja]
 published: 2026-09-10
 status: ready
 ---

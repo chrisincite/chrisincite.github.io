@@ -2,9 +2,134 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 117,
+  "count": 121,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/3d",
+      "no": "124",
+      "slug": "124-shiogama-jinja",
+      "title": "鹽竈神社",
+      "title_ja": "志波彦神社・鹽竈神社",
+      "kana": "しおがまじんじゃ",
+      "type": "神社",
+      "prefecture": "宮城縣",
+      "city": "鹽竈市一森山",
+      "lat": "38.3185",
+      "lng": "141.0134",
+      "enshrined": "別宮 鹽土老翁神；左宮 武甕槌神；右宮 經津主神（志波彦神社：志波彦神）",
+      "rank": "陸奧國一之宮；式外社；舊國幣中社（志波彦神社亦為舊國幣中社・名神大社）",
+      "trip": "T12",
+      "series": [
+        "S5"
+      ],
+      "visited": "2024-04",
+      "published": "2026-09-13",
+      "hook": "早上七點從本鹽釜驛出來，往西走十分鐘就到山腳。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/124-shiogama-jinja-01.webp",
+      "photos": 15,
+      "related": [
+        "115-nasu-yuzen-jinja",
+        "111-kashima-jingu",
+        "130-akiu-jinja"
+      ],
+      "url": "shrine/124-shiogama-jinja.html",
+      "markdown": "shrine/124-shiogama-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/3c",
+      "no": "115",
+      "slug": "115-nasu-yuzen-jinja",
+      "title": "那須溫泉神社",
+      "title_ja": "那須温泉神社",
+      "kana": "なすゆぜんじんじゃ",
+      "type": "神社",
+      "prefecture": "栃木縣",
+      "city": "那須郡那須町湯本",
+      "lat": "37.0999",
+      "lng": "139.9990",
+      "enshrined": "大己貴命・少彦名命；相殿 譽田別命",
+      "rank": "延喜式神名帳 下野國那須郡 溫泉神社（論社）；舊鄉社",
+      "trip": "T12",
+      "series": [
+        "S6"
+      ],
+      "visited": "2024-04",
+      "published": "2026-09-13",
+      "hook": "早上七點從湯本走出旅館，第一件要確認的事是風從哪邊吹。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/115-nasu-yuzen-jinja-01.webp",
+      "photos": 12,
+      "related": [
+        "124-shiogama-jinja",
+        "47-tosen-jinja"
+      ],
+      "url": "shrine/115-nasu-yuzen-jinja.html",
+      "markdown": "shrine/115-nasu-yuzen-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/3b",
+      "no": "114",
+      "slug": "114-aizu-sazaedo",
+      "title": "會津さざえ堂（舊正宗寺三匝堂）",
+      "title_ja": "会津さざえ堂（旧正宗寺三匝堂）",
+      "kana": "あいづさざえどう",
+      "type": "寺院",
+      "prefecture": "福島縣",
+      "city": "會津若松市一箕町",
+      "lat": "37.504497",
+      "lng": "139.953970",
+      "enshrined": "",
+      "rank": "國指定重要文化財（建造物）「舊正宗寺三匝堂」一棟；日本遺產「會津の三十三觀音めぐり」構成文化財",
+      "trip": "T12",
+      "series": [
+        "S4"
+      ],
+      "visited": "2024-04",
+      "published": "2026-09-13",
+      "hook": "下午兩點二十分，飯盛山下。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/114-aizu-sazaedo-01.webp",
+      "photos": 13,
+      "related": [
+        "113-uesugi-jinja",
+        "128-hoju-san-risshakuji",
+        "130-akiu-jinja",
+        "93-ryozenji"
+      ],
+      "url": "shrine/114-aizu-sazaedo.html",
+      "markdown": "shrine/114-aizu-sazaedo.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/3a",
+      "no": "113",
+      "slug": "113-uesugi-jinja",
+      "title": "上杉神社",
+      "title_ja": "上杉神社",
+      "kana": "うえすぎじんじゃ",
+      "type": "神社",
+      "prefecture": "山形縣",
+      "city": "米澤市丸の内",
+      "lat": "37.909262",
+      "lng": "140.104169",
+      "enshrined": "上杉謙信",
+      "rank": "舊別格官幣社・別表神社；寶物殿「稽照殿」＝國登錄有形文化財",
+      "trip": "T12",
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-04",
+      "published": "2026-09-13",
+      "hook": "十一點四十分，大町二丁目一間酒藏的磚牆邊立著一只半人高的陶甕。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/113-uesugi-jinja-01.webp",
+      "photos": 13,
+      "related": [
+        "112-tokiwa-jinja",
+        "111-kashima-jingu",
+        "49-takeda-jinja",
+        "114-aizu-sazaedo"
+      ],
+      "url": "shrine/113-uesugi-jinja.html",
+      "markdown": "shrine/113-uesugi-jinja.md"
+    },
     {
       "short": "https://os.housearch.net/s/39",
       "no": "131",
@@ -184,7 +309,8 @@
         "128-hoju-san-risshakuji",
         "129-tono-go-hachimangu",
         "47-tosen-jinja",
-        "133-tsutsukowake-jinja-baba"
+        "133-tsutsukowake-jinja-baba",
+        "114-aizu-sazaedo"
       ],
       "url": "shrine/130-akiu-jinja.html",
       "markdown": "shrine/130-akiu-jinja.md"
@@ -250,7 +376,8 @@
         "130-akiu-jinja",
         "129-tono-go-hachimangu",
         "45-yasugi-kiyomizudera",
-        "139-iwakiyama-jinja"
+        "139-iwakiyama-jinja",
+        "114-aizu-sazaedo"
       ],
       "url": "shrine/128-hoju-san-risshakuji.html",
       "markdown": "shrine/128-hoju-san-risshakuji.md"
@@ -414,7 +541,8 @@
         "57-hokkaido-jingu",
         "104-kitaguchi-hongu-fuji-sengen",
         "38-omi-jingu",
-        "106-hotaka-jinja"
+        "106-hotaka-jinja",
+        "113-uesugi-jinja"
       ],
       "url": "shrine/49-takeda-jinja.html",
       "markdown": "shrine/49-takeda-jinja.md"
@@ -479,7 +607,8 @@
         "111-kashima-jingu",
         "101-kashihara-jingu",
         "38-omi-jingu",
-        "57-hokkaido-jingu"
+        "57-hokkaido-jingu",
+        "113-uesugi-jinja"
       ],
       "url": "shrine/112-tokiwa-jinja.html",
       "markdown": "shrine/112-tokiwa-jinja.md"
@@ -511,7 +640,8 @@
         "63-izumo-oyashiro",
         "112-tokiwa-jinja",
         "100-aekuni-jinja",
-        "92-oasahiko-jinja"
+        "92-oasahiko-jinja",
+        "113-uesugi-jinja"
       ],
       "url": "shrine/111-kashima-jingu.html",
       "markdown": "shrine/111-kashima-jingu.md"
@@ -869,7 +999,8 @@
         "92-oasahiko-jinja",
         "91-tosa-jinja",
         "36-kongobuji",
-        "85-nankobo"
+        "85-nankobo",
+        "114-aizu-sazaedo"
       ],
       "url": "shrine/93-ryozenji.html",
       "markdown": "shrine/93-ryozenji.md"

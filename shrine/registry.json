@@ -1661,22 +1661,30 @@
       "slug": "113-uesugi-jinja",
       "title": "上杉神社",
       "type": "神社",
-      "prefecture": "山形県",
-      "city": "米沢市松が岬",
+      "prefecture": "山形縣",
+      "city": "米澤市丸の内",
       "trip": "T12",
-      "series": [],
-      "visited": "2024-04"
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-04",
+      "lat": 37.909262,
+      "lng": 140.104169
     },
     {
       "no": "114",
       "slug": "114-aizu-sazaedo",
       "title": "會津さざえ堂（舊正宗寺三匝堂）",
       "type": "寺院",
-      "prefecture": "福島県",
-      "city": "会津若松市飯盛山",
+      "prefecture": "福島縣",
+      "city": "會津若松市一箕町",
       "trip": "T12",
-      "series": [],
-      "visited": "2024-04"
+      "series": [
+        "S4"
+      ],
+      "visited": "2024-04",
+      "lat": 37.504497,
+      "lng": 139.95397
     },
     {
       "no": "115",
@@ -1687,7 +1695,9 @@
       "city": "那須郡那須町湯本",
       "trip": "T12",
       "series": [],
-      "visited": "2024-04"
+      "visited": "2024-04",
+      "lat": 37.0999,
+      "lng": 139.999
     },
     {
       "no": "116",
@@ -1797,10 +1807,12 @@
       "title": "鹽竈神社",
       "type": "神社",
       "prefecture": "宮城県",
-      "city": "塩竈市",
+      "city": "鹽竈市一森山",
       "trip": "T12",
       "series": [],
-      "visited": "2024-04"
+      "visited": "2024-04",
+      "lat": 38.3185,
+      "lng": 141.0134
     },
     {
       "no": "125",

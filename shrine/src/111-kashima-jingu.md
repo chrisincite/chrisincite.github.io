@@ -20,7 +20,7 @@ visited: 2024-04
 photos: DSC05666-DSC05738
 photos_iphone: 2TB_2021/iPhone15/202406｜IMG_3221-IMG_3237
 photo_count: 73
-related: [63-izumo-oyashiro, 112-tokiwa-jinja, 100-aekuni-jinja, 92-oasahiko-jinja]
+related: [63-izumo-oyashiro, 112-tokiwa-jinja, 100-aekuni-jinja, 92-oasahiko-jinja, 113-uesugi-jinja, 124-shiogama-jinja]
 status: ready
 published: 2026-09-09
 ---

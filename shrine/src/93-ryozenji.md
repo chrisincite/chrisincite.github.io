@@ -21,7 +21,7 @@ photos:
 photo_count:
 photos_iphone: IMG_0187-IMG_0197
 iphone_count: 11
-related: [92-oasahiko-jinja, 91-tosa-jinja, 36-kongobuji, 85-nankobo]
+related: [92-oasahiko-jinja, 91-tosa-jinja, 36-kongobuji, 85-nankobo, 114-aizu-sazaedo]
 published: 2026-09-06
 status: ready
 ---
