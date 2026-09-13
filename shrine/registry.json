@@ -1694,7 +1694,9 @@
       "prefecture": "栃木県",
       "city": "那須郡那須町湯本",
       "trip": "T12",
-      "series": [],
+      "series": [
+        "S6"
+      ],
       "visited": "2024-04",
       "lat": 37.0999,
       "lng": 139.999
@@ -1809,7 +1811,9 @@
       "prefecture": "宮城県",
       "city": "鹽竈市一森山",
       "trip": "T12",
-      "series": [],
+      "series": [
+        "S5"
+      ],
       "visited": "2024-04",
       "lat": 38.3185,
       "lng": 141.0134
