@@ -19,7 +19,7 @@
 
 這條街上的每一棟房子，都是那些鹽蓋起來的。
 
-![西方寺境內的普明閣，朱色的柱與貫架在岩盤上，方三間的堂體整個推出台地邊緣，二重屋根是本瓦葺](https://chrisincite.github.io/shrine-img/img/123-saihoji-fumeikaku-01.jpg)
+![西方寺境內的普明閣，朱色的柱與貫架在岩盤上，方三間的堂體整個推出台地邊緣，二重屋根是本瓦葺](https://shrine-img.pages.dev/img/123-saihoji-fumeikaku-01.webp)
 
 ## 本尊先於寺院之認定
 
@@ -44,7 +44,7 @@
 換句話說，這座今天成為竹原地標的朱色舞台，蓋的理由是要重新安置一尊
 比它老兩百多年的觀音。
 
-![西方寺本堂正面，入母屋造本瓦葺，前面與側面前方做成吹拔不設牆、只有一整排柱子，階的左側長著一株蘇鐵](https://chrisincite.github.io/shrine-img/img/123-saihoji-fumeikaku-03.jpg)
+![西方寺本堂正面，入母屋造本瓦葺，前面與側面前方做成吹拔不設牆、只有一整排柱子，階的左側長著一株蘇鐵](https://shrine-img.pages.dev/img/123-saihoji-fumeikaku-03.webp)
 
 ## 立地非屬偶然
 
@@ -68,7 +68,7 @@
 一座寺把最貴的一棟建築蓋在最高的一塊地上，並且讓它四面透空。
 這不是為了看風景，是為了被看見。
 
-![從普明閣的舞台上往下看竹原町並み，整片灰色的本瓦屋頂鋪到山腳，背後是連續的丘陵](https://chrisincite.github.io/shrine-img/img/123-saihoji-fumeikaku-05.jpg)
+![從普明閣的舞台上往下看竹原町並み，整片灰色的本瓦屋頂鋪到山腳，背後是連續的丘陵](https://shrine-img.pages.dev/img/123-saihoji-fumeikaku-05.webp)
 
 ## 伽藍配置及其空間效果
 
@@ -77,7 +77,7 @@
 山門是本瓦葺，屋脊兩端立著獸形的棟飾，四角另有龍形的鬼瓦（屋脊端頭的獸面瓦）；
 門的正面掛著一面小小的扁額，兩側接上白色的築地塀（夯土為芯、頂上覆瓦的圍牆）。
 
-![西方寺山門，本瓦葺，屋脊兩端立著獸形棟飾，四角是龍形鬼瓦，兩側接上白色築地塀](https://chrisincite.github.io/shrine-img/img/123-saihoji-fumeikaku-02.jpg)
+![西方寺山門，本瓦葺，屋脊兩端立著獸形棟飾，四角是龍形鬼瓦，兩側接上白色築地塀](https://shrine-img.pages.dev/img/123-saihoji-fumeikaku-02.webp)
 
 穿過山門，境內立刻攤開。本堂正對著門，元祿十五年（一七〇二）依棟札再建，
 入母屋造、一重、平入、本瓦葺。它的正面與側面前方做成吹拔——不設牆，
@@ -98,7 +98,7 @@
 是從一個把人收進來的空間，走到一個把人推出去的空間。
 普明閣旁邊還有一棟籠堂，和普明閣一起在昭和六十二年（一九八七）被指定為市重要文化財。
 
-![普明閣舞台的內側，朱色的柱與欄杆圍出一圈，木地板架在懸空的結構上，三面透空](https://chrisincite.github.io/shrine-img/img/123-saihoji-fumeikaku-04.jpg)
+![普明閣舞台的內側，朱色的柱與欄杆圍出一圈，木地板架在懸空的結構上，三面透空](https://shrine-img.pages.dev/img/123-saihoji-fumeikaku-04.webp)
 
 ## 町年寄吉井家的三處落點
 
@@ -115,7 +115,7 @@
 一棟深色格子的町家外牆上掛著木牌，寫著「初代郵便局跡」——
 竹原第一間郵局就開在吉井家的房子裡。
 
-![竹原初代郵便局跡的木牌與明治四年型的書狀集箱郵筒，掛在深色格子的町家外牆上](https://chrisincite.github.io/shrine-img/img/123-saihoji-fumeikaku-06.jpg)
+![竹原初代郵便局跡的木牌與明治四年型的書狀集箱郵筒，掛在深色格子的町家外牆上](https://shrine-img.pages.dev/img/123-saihoji-fumeikaku-06.webp)
 
 那面牌子旁邊還掛著一個郵筒。旁邊的說明板寫：
 這個「書狀集箱」與明治四年（一八七一年）郵政創業當時使用的是同一型，
@@ -138,7 +138,7 @@
 一座寺的境內同時放著佛像的廚子、町年寄的墓、俳諧的碑與歌人的碑——
 這裡收的不只是信仰，是這個町的整份文化帳。
 
-![町並み北段小路上的一間小堂，入母屋造本瓦葺，注連繩下垂著紙垂，紺色的幕上白染家紋](https://chrisincite.github.io/shrine-img/img/123-saihoji-fumeikaku-08.jpg)
+![町並み北段小路上的一間小堂，入母屋造本瓦葺，注連繩下垂著紙垂，紺色的幕上白染家紋](https://shrine-img.pages.dev/img/123-saihoji-fumeikaku-08.webp)
 
 本堂前的階上擺著一張小桌，上面放著朱印帳與筆，旁邊立著木牌。
 沒有社務所那種櫃檯，也沒有排隊的動線。
@@ -150,7 +150,7 @@
 從普明閣往下看到的那些屋頂裡，有好幾棟是酒屋——
 鹽田的錢先變成町家，町家後來變成酒。
 
-![本町通り上的竹鶴酒造，門口掛著兩幅紫色暖簾，白字寫「竹鶴」](https://chrisincite.github.io/shrine-img/img/123-saihoji-fumeikaku-07.jpg)
+![本町通り上的竹鶴酒造，門口掛著兩幅紫色暖簾，白字寫「竹鶴」](https://shrine-img.pages.dev/img/123-saihoji-fumeikaku-07.webp)
 
 ## 晨間路線之擬定及其限制
 
@@ -217,6 +217,6 @@
 ⚠️ **這張圖不是正北朝上**——用三組實座標反算，圖面整整轉了約 45 度，圖上的「上」是西北。
 看它的時候請只讀街的前後與山側海側，不要拿它講東西南北。
 
-![竹原まちあるきMAP：竹原市街的手繪觀光地圖，畫出 JR 竹原駅、道の駅たけはら、町並み保存地區裡的西方寺・普明閣・竹鶴酒造・頼惟清舊宅・照蓮寺・胡堂・地藏堂・住吉神社，以及礒宮八幡神社與鎮海山城跡](https://chrisincite.github.io/shrine-img/img/123-saihoji-fumeikaku-map.jpg)
+![竹原まちあるきMAP：竹原市街的手繪觀光地圖，畫出 JR 竹原駅、道の駅たけはら、町並み保存地區裡的西方寺・普明閣・竹鶴酒造・頼惟清舊宅・照蓮寺・胡堂・地藏堂・住吉神社，以及礒宮八幡神社與鎮海山城跡](https://shrine-img.pages.dev/img/123-saihoji-fumeikaku-map.webp)
 
 *出典：《竹原まちあるきMAP》（發行：竹原市產業振興課觀光振興係／一般社團法人 竹原市觀光協會）。*

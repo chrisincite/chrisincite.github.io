@@ -21,7 +21,7 @@
 
 一尊沒有人看得見的佛像，把一條路、一條街、一座城市排在了它前面。
 
-![雪中從本堂這一側回望善光寺山門，大香爐的煙與落雪混在一起](https://chrisincite.github.io/shrine-img/img/03-zenkoji-01.jpg)
+![雪中從本堂這一側回望善光寺山門，大香爐的煙與落雪混在一起](https://shrine-img.pages.dev/img/03-zenkoji-01.webp)
 
 ## 佛像先於宗派之認定
 
@@ -42,7 +42,7 @@
 稱**前立本尊**（Maedachi-honzon，代替本尊受人參拜的佛像）——
 即使是它，也只在數え年（kazoedoshi，虛歲算法）七年一度的**御開帳**期間開龕。
 
-![善光寺本堂正面，撞木造的 T 字形屋脊，前方立著節分會與御開帳的木札](https://chrisincite.github.io/shrine-img/img/03-zenkoji-03.jpg)
+![善光寺本堂正面，撞木造的 T 字形屋脊，前方立著節分會與御開帳的木札](https://shrine-img.pages.dev/img/03-zenkoji-03.webp)
 
 ## 立地非屬偶然
 
@@ -62,7 +62,7 @@
 換句話說，死者中有將近半數不是本地人。仁王門也在地震當天燒毀。
 一座靠人流建立起來的門前町，在最擁擠的那一天承受了最大的損失。
 
-![仲見世通り朝山門方向，兩側店家連續不斷](https://chrisincite.github.io/shrine-img/img/03-zenkoji-07.jpg)
+![仲見世通り朝山門方向，兩側店家連續不斷](https://shrine-img.pages.dev/img/03-zenkoji-07.webp)
 
 ## 伽藍配置及其空間效果
 
@@ -78,14 +78,14 @@
 兩側店家連綿，直到山門才又收束。參拜的路同時是買東西的路，
 這一段沒有任何把人從日常抽離出來的裝置。
 
-![從仁王門下往南看出去，右側格柵後是仁王像](https://chrisincite.github.io/shrine-img/img/03-zenkoji-08.jpg)
+![從仁王門下往南看出去，右側格柵後是仁王像](https://shrine-img.pages.dev/img/03-zenkoji-08.webp)
 
 **山門**（三門）建於寛延三年（1750），五間三戶二階二重門，入母屋造、栩葺，
 昭和四十年（1965）指定為重要文化財。樓上掛著「善光寺」額，
 通稱「鳩字の額」——三個字裡藏著五隻鴿子，而「善」字看起來像一張牛臉。
 樓上開放九時至十六時，內部禁止攝影，回廊只准走鋪蓆的部分。
 
-![善光寺山門正面，二層掛著鳩字の額，下方橫幅寫著善光寺節分會](https://chrisincite.github.io/shrine-img/img/03-zenkoji-05.jpg)
+![善光寺山門正面，二層掛著鳩字の額，下方橫幅寫著善光寺節分會](https://shrine-img.pages.dev/img/03-zenkoji-05.webp)
 
 **本堂**建於寶永四年（1707），昭和二十八年（1953）指定為國寶。
 屋頂是罕見的**撞木造**（shumoku-zukuri，棟呈 T 字形），檜皮葺（檜樹皮層層鋪成的屋頂），
@@ -101,11 +101,11 @@
 中央一具八角**輪藏**（rinzō，可旋轉的經架），收著鐵眼黃檗版《一切經》
 全六千七百七十一卷，順時針推轉一圈，功德等同讀完全部。
 
-![善光寺經藏，五間四方寶形造，屋簷下立著落雪注意的三角錐](https://chrisincite.github.io/shrine-img/img/03-zenkoji-04.jpg)
+![善光寺經藏，五間四方寶形造，屋簷下立著落雪注意的三角錐](https://shrine-img.pages.dev/img/03-zenkoji-04.webp)
 **鐘樓**重建於嘉永六年（1853），六根柱子取「南無阿彌陀佛」六字；
 梵鐘比建物更老，寛文七年（1667）再鑄，每日十時至十六時整點報時。
 
-![善光寺鐘樓，六根柱子取南無阿彌陀佛六字](https://chrisincite.github.io/shrine-img/img/03-zenkoji-09.jpg)
+![善光寺鐘樓，六根柱子取南無阿彌陀佛六字](https://shrine-img.pages.dev/img/03-zenkoji-09.webp)
 
 ## 松代送來的那根回向柱
 
@@ -122,20 +122,20 @@
 昭和二十七年（1952）店舖遷到大門町，平成二十年（2008）本店改築，
 恢復了在店頭當場調合的做法。
 
-![八幡屋礒五郎本店店頭，雪積在右起橫書的木製看板上，門口掛著紅色唐辛子造型的裝飾](https://chrisincite.github.io/shrine-img/img/03-zenkoji-10.jpg)
+![八幡屋礒五郎本店店頭，雪積在右起橫書的木製看板上，門口掛著紅色唐辛子造型的裝飾](https://shrine-img.pages.dev/img/03-zenkoji-10.webp)
 
 本店現在把調合台擺在店面正中央，掛著「カスタムブレンド」（Custom Blend，客製調合）的招牌，
 台面上一格一格排著萬願寺唐辛子、益都唐辛子、大鹿唐辛子、バードアイ（bird eye，朝天椒的一種），
 另一排是檸檬、白芝麻、荏胡麻、紫蘇、生薑、山椒。要幾種、各多少，當場配。
 
-![八幡屋礒五郎本店的カスタムブレンド調合櫃台，紅絨繩圍出排隊動線](https://chrisincite.github.io/shrine-img/img/03-zenkoji-11.jpg)
+![八幡屋礒五郎本店的カスタムブレンド調合櫃台，紅絨繩圍出排隊動線](https://shrine-img.pages.dev/img/03-zenkoji-11.webp)
 
 再往上走，仲見世裡有「漬物老舗 髙橋」，二〇二一年開業，
 前身是經營約九十年的市川商店。而二〇二四年七月，
 授与品所三十年來第一次改裝，裡面開了一家常設店舖——
 「ビームス ジャパン 善光寺」（Beams Japan Zenkōji）。
 
-![善光寺授与品所內部，橘色紙燈籠下的陳列與工作人員](https://chrisincite.github.io/shrine-img/img/03-zenkoji-06.jpg)
+![善光寺授与品所內部，橘色紙燈籠下的陳列與工作人員](https://shrine-img.pages.dev/img/03-zenkoji-06.webp)
 
 三百年的、九十年的、開了一年多的，並排在同一條參道上。
 門前町這個詞在這裡不是懷舊的形容，是還在運作的商業結構。
@@ -217,7 +217,7 @@
 省掉表參道那兩公里。但那樣會先看到本堂、才回頭看見山門，
 整條軸線的順序是倒過來的——**要照原來的順序走，車就得停在山下**。
 
-![從停車場那一側進境內的石畳小路，右邊立著一基染付的瓷燈籠](https://chrisincite.github.io/shrine-img/img/03-zenkoji-02.jpg)
+![從停車場那一側進境內的石畳小路，右邊立著一基染付的瓷燈籠](https://shrine-img.pages.dev/img/03-zenkoji-02.webp)
 
 ▲ 接下來往哪走
 往西北約一小時車程是 [戶隱神社](04-togakushi-jinja.md)。
@@ -228,6 +228,6 @@
 善光寺御開帳公式サイト（kōshiki saito，官方網站）的表參道插畫圖，正北朝上，善光寺在上、長野車站在下，
 沿街標出丁石與善光寺七福神的七處，與本篇由上往下的走法完全對得起來。
 
-![善光寺表參道地圖：善光寺、仲見世、表參道（中央通り）、丁石、七福神、長野車站](https://chrisincite.github.io/shrine-img/img/03-zenkoji-map.jpg)
+![善光寺表參道地圖：善光寺、仲見世、表參道（中央通り）、丁石、七福神、長野車站](https://shrine-img.pages.dev/img/03-zenkoji-map.webp)
 
 *善光寺表参道（善光寺御開帳公式サイト）。*

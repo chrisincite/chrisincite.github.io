@@ -19,7 +19,7 @@
 站在另一座神社的白石地上。中間的那條路，一千兩百年前齋王也走過，
 在阿保住一晚，隔天翻過青山峠。
 
-![一之鳥居](https://chrisincite.github.io/shrine-img/img/07-omura-jinja-01.jpg)
+![一之鳥居](https://shrine-img.pages.dev/img/07-omura-jinja-01.webp)
 
 *一之鳥居。花崗岩的明神鳥居，材新，色白；扁額黑底金字。左右各一列石燈籠，腳下是土與砂利。右側紅幟寫「初詣」——這天是二月四日，正月剛過。*
 
@@ -41,7 +41,7 @@
 而整片大村之森底下覆著一整塊大岩盤，護住這一區。開拓土地的神與鎮住土地的石，
 兩件事疊在同一座森裡，這座神社就成了地震除災之神。
 
-![社號標與式年御造營記念柱](https://chrisincite.github.io/shrine-img/img/07-omura-jinja-02.jpg)
+![社號標與式年御造營記念柱](https://shrine-img.pages.dev/img/07-omura-jinja-02.webp)
 
 *一之鳥居右側的石碑群。中央高柱刻「式内 大村神社」，左邊三根依序是「昭和五十二年」「平成九年」「平成二十九年　式年御造営記念」——二十年一根。右側粗石刻著要石的歌：「地を鎮め國を鎮めつ光の石」。*
 
@@ -61,7 +61,7 @@
 這個高度在天正九年（1581）派上過用場，也失效過：伊賀天正之亂時，信長的軍隊
 正是從青山峠這個出口打進伊賀的，阿保是激戰地，當時的本殿燒掉了。
 
-![石板緩坡參道](https://chrisincite.github.io/shrine-img/img/07-omura-jinja-03.jpg)
+![石板緩坡參道](https://shrine-img.pages.dev/img/07-omura-jinja-03.webp)
 
 *表參道。石板鋪成的緩坡，不是階梯；兩側白色石造玉垣（圍出神域的矮柵），柱上一根一根刻著奉納者的名字。杉木與石燈籠夾道，坡頂就是境內。*
 
@@ -85,11 +85,11 @@
 向拜的蟇股雕龍，正面雕牡丹與唐獅子，其餘雕紅葉與鹿。大正九年（1920）四月十五日，
 它連同三枚棟札一起被指定為國家重要文化財。
 
-![二之鳥居與拜殿](https://chrisincite.github.io/shrine-img/img/07-omura-jinja-04.jpg)
+![二之鳥居與拜殿](https://shrine-img.pages.dev/img/07-omura-jinja-04.webp)
 
 *二之鳥居把拜殿框在正中。注連繩與紙垂垂在額束下方，紅幟寫「厄除祈願」與「初詣」。右手邊是繪馬掛所，白色的繪馬掛成一整面牆。*
 
-![寶殿的極彩色](https://chrisincite.github.io/shrine-img/img/07-omura-jinja-05.jpg)
+![寶殿的極彩色](https://shrine-img.pages.dev/img/07-omura-jinja-05.webp)
 
 *寶殿的軒下。朱漆的柱與垂木，斗栱、蟇股、木鼻上是層層疊疊的彩繪文樣與金箔雲紋，屋根是檜皮葺。這些顏色是天正十五年建造當初的東西。*
 
@@ -112,7 +112,7 @@
 三百七十年後，撐著同一座神社的還是同一批村。二〇二五年五月的地方報訪問了
 就任第三十六年的宮司，他把話說得更淡：本殿能保到今天，是地方上的人團結守下來的。
 
-![本殿的千木與鰹木](https://chrisincite.github.io/shrine-img/img/07-omura-jinja-06.jpg)
+![本殿的千木與鰹木](https://shrine-img.pages.dev/img/07-omura-jinja-06.webp)
 
 *本殿屋頂。外削的千木上包著黑漆與金具，鰹木五根、兩端金覆輪，拝み懸魚（ogami-gegyo，山牆頂點的懸魚飾板）上有金色的菊紋。前景那一排本瓦是拜殿的屋頂。*
 
@@ -135,11 +135,11 @@
 御守吊飾六百圓、鈴四百圓；願掛的鯰大的一千二百圓、小的六百圓；鯰繪馬大六百、
 小四百。祈禱的名目則從家內安全、厄除一路到受驗合格——地震除災在最前面。
 
-![水掛鯰](https://chrisincite.github.io/shrine-img/img/07-omura-jinja-07.jpg)
+![水掛鯰](https://shrine-img.pages.dev/img/07-omura-jinja-07.webp)
 
 *要石社前的石造大鯰。鰭與髭都刻得清楚，身上壓著水痕。旁邊的石柱刻「奉献　水かけなまず」，後方是蓮花形手水鉢與竹製的樋。*
 
-![虫喰鐘](https://chrisincite.github.io/shrine-img/img/07-omura-jinja-08.jpg)
+![虫喰鐘](https://shrine-img.pages.dev/img/07-omura-jinja-08.webp)
 
 *鐘樓（吊鐘的樓）裡的梵鐘。青銅，高 155 公分、徑 91 公分，上部的乳與整個鐘身佈滿腐蝕的孔洞，所以叫「虫食の鐘」。明曆二年（1656）秋鑄。*
 
@@ -150,7 +150,7 @@
 先往東到阿保橋看本居宣長的句碑，接著沿初瀨街道的舊道走過町屋與造酒屋，
 在街道右側轉進大村神社的一之鳥居；境內三十到四十分鐘。
 
-![大村神社・阿保宿散策地圖](https://chrisincite.github.io/shrine-img/img/07-omura-jinja-09.jpg)
+![大村神社・阿保宿散策地圖](https://shrine-img.pages.dev/img/07-omura-jinja-09.webp)
 
 *散策地圖。紅線是實際走的路，各段標的是那一段的步行距離與時間：青山町站 → 阿保橋 → 若戎酒造 → 大村神社 → 寶嚴寺 → 阿保頓宮跡 → 息速別命墓 → 回站，全程 5.3 公里。木津川由東南往西北流過阿保橋，初瀨街道沿著它的南岸走。底圖 Map data ©Google。*
 
@@ -167,6 +167,6 @@
 要自己接。境內的參道是石板緩坡不是階梯，雨後會滑。真正走起來會發現，
 街道、神社、陵墓三者的關係就是這一帶的全部：路過的人、住下的神、埋在西邊的皇子。
 
-![境內廣場](https://chrisincite.github.io/shrine-img/img/07-omura-jinja-10.jpg)
+![境內廣場](https://shrine-img.pages.dev/img/07-omura-jinja-10.webp)
 
 *社務所前的砂利廣場，中央留著一圈燒過的灰與炭木，周圍的砂利被耙成同心圓。二月四日的下午，正月的痕跡還在地上。*

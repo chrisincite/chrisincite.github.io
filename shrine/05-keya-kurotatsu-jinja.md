@@ -19,7 +19,7 @@
 福井的三條大河之中最大的那一條叫九頭龍川。它為什麼叫這個名字，
 官方列了三種說法——三種都繞回這座神社。
 
-![毛谷黑龍神社拜殿正面，兩側以葦簀狀簾子整面圍起，只留中央參拜口，右側立著節分祭木牌](https://chrisincite.github.io/shrine-img/img/05-keya-kurotatsu-jinja-01.jpg)
+![毛谷黑龍神社拜殿正面，兩側以葦簀狀簾子整面圍起，只留中央參拜口，右側立著節分祭木牌](https://shrine-img.pages.dev/img/05-keya-kurotatsu-jinja-01.webp)
 
 ## 河名出自神社之認定
 
@@ -76,7 +76,7 @@
 **水神被安置在一座石頭做的山腳下，面向它守護的那片平野。**
 從境內往東北看得到市街，那是治水之後才有的地方。
 
-![從毛谷黑龍神社境內往東北看出去，前景是冬天的枝垂櫻與石燈籠，遠處是福井市街](https://chrisincite.github.io/shrine-img/img/05-keya-kurotatsu-jinja-07.jpg)
+![從毛谷黑龍神社境內往東北看出去，前景是冬天的枝垂櫻與石燈籠，遠處是福井市街](https://shrine-img.pages.dev/img/05-keya-kurotatsu-jinja-07.webp)
 
 ## 參道形制及其空間效果
 
@@ -85,7 +85,7 @@
 共用一座石造明神鳥居、一條石板路、一段石段。
 在別處，境內社通常縮在角落自成一格；在這裡它被抬到和本社同高的位置上介紹。
 
-![毛谷黑龍神社的石造明神鳥居，左右各立一塊社號標，左「西宮惠比須神社」右「式內 毛谷黑龍神社」](https://chrisincite.github.io/shrine-img/img/05-keya-kurotatsu-jinja-02.jpg)
+![毛谷黑龍神社的石造明神鳥居，左右各立一塊社號標，左「西宮惠比須神社」右「式內 毛谷黑龍神社」](https://shrine-img.pages.dev/img/05-keya-kurotatsu-jinja-02.webp)
 
 鳥居之後是石段，約五十階，兩側是欄杆與紅幟。石段把境內抬高到看不見的位置，
 所以從路上望過去只看得到一段往上的階梯與階梯盡頭的天空。
@@ -104,7 +104,7 @@
 在任期間只有一九三四年七月到一九三六年三月，不到兩年。
 而這座拜殿再建於昭和六年（1931）——**扁額比建築晚，而且只可能出自那不到兩年之間。**
 
-![毛谷黑龍神社拜殿破風下的扁額，六個金字嵌在雲龍紋框裡，左側落款「內閣總理大臣 岡田啟介 謹書」](https://chrisincite.github.io/shrine-img/img/05-keya-kurotatsu-jinja-03.jpg)
+![毛谷黑龍神社拜殿破風下的扁額，六個金字嵌在雲龍紋框裡，左側落款「內閣總理大臣 岡田啟介 謹書」](https://shrine-img.pages.dev/img/05-keya-kurotatsu-jinja-03.webp)
 
 境內的走法，神社自己規定了方向：先拜拜殿，然後**逆時針**繞。
 本殿旁邊是境內社石渡八幡神社，八幡宮前面那塊「願かけ石」（negai-kake-ishi，許願石），
@@ -143,7 +143,7 @@
 一座舊城的城內稻荷、一群採石工人的氏神——**福井的四段歷史被四次搬遷收攏到同一片砂利上，
 而收攏它們的，是那座自己也搬過幾次家的神社。**
 
-![毛谷黑龍神社境內的一座境內社，石段上一對狛犬，兩側插滿紅幟](https://chrisincite.github.io/shrine-img/img/05-keya-kurotatsu-jinja-06.jpg)
+![毛谷黑龍神社境內的一座境內社，石段上一對狛犬，兩側插滿紅幟](https://shrine-img.pages.dev/img/05-keya-kurotatsu-jinja-06.webp)
 
 ## 祭儀與授与品
 
@@ -171,11 +171,11 @@
 　設成手機待機畫面能提升運氣。有人是專程為了看這張畫來的。
 ・節分祭期間，來參拜的人發**福豆**——一小袋豆子和幾個緣起物，牌子上寫得明明白白。
 
-![毛谷黑龍神社的授与所，整排掛著寫「奉燈」的提燈](https://chrisincite.github.io/shrine-img/img/05-keya-kurotatsu-jinja-04.jpg)
+![毛谷黑龍神社的授与所，整排掛著寫「奉燈」的提燈](https://shrine-img.pages.dev/img/05-keya-kurotatsu-jinja-04.webp)
 
-![授与所檯面上的御守、破魔矢與緣起物，牆上掛著福面](https://chrisincite.github.io/shrine-img/img/05-keya-kurotatsu-jinja-05.jpg)
+![授与所檯面上的御守、破魔矢與緣起物，牆上掛著福面](https://shrine-img.pages.dev/img/05-keya-kurotatsu-jinja-05.webp)
 
-![節分祭發的福豆，一小袋豆子與幾個緣起物，背景是往上的石段](https://chrisincite.github.io/shrine-img/img/05-keya-kurotatsu-jinja-08.jpg)
+![節分祭發的福豆，一小袋豆子與幾個緣起物，背景是往上的石段](https://shrine-img.pages.dev/img/05-keya-kurotatsu-jinja-08.webp)
 
 ## 晨間路線之擬定及其限制
 
@@ -231,6 +231,6 @@
 毛谷黑龍神社在右側的山腳，藤島神社在它的左下、足羽神社在更上面的左方——
 整條路線的高低與先後，在這張圖上一眼看得完。
 
-![足羽山ガイドマップ：毛谷黑龍神社、藤島神社、足羽神社、愛宕坂、百坂、繼體天皇像、福井市自然史博物館](https://chrisincite.github.io/shrine-img/img/05-keya-kurotatsu-jinja-map.jpg)
+![足羽山ガイドマップ：毛谷黑龍神社、藤島神社、足羽神社、愛宕坂、百坂、繼體天皇像、福井市自然史博物館](https://shrine-img.pages.dev/img/05-keya-kurotatsu-jinja-map.webp)
 
 *足羽山ガイドマップ（福井市）。*

@@ -20,7 +20,7 @@
 兩者的官方數字剛好都是「約一萬」，而兩者都不是神社蓋的——
 是三百年來一個一個的人，自己出錢放上去的。
 
-![二之鳥居與樓門](https://chrisincite.github.io/shrine-img/img/82-fushimi-inari-taisha-01.jpg)
+![二之鳥居與樓門](https://shrine-img.pages.dev/img/82-fushimi-inari-taisha-01.webp)
 
 *從二之鳥居往樓門看。鳥居朱塗，笠木與島木黑塗；樓門入母屋造（歇山頂）、朱塗白壁、金色金具，妻飾中央有紅色神紋，石階兩側各立一狐一燈籠，左右接著綠青銅屋頂的廻廊。*
 
@@ -58,7 +58,7 @@
 但不是山野裡的那種狐，眷屬和大神一樣「我々の目には見えません」，
 所以稱牠為白（透明）狐、「びゃっこさん」（byakko-san，白狐大人）；而且「勿論『稲荷大神様』はきつねではありません」。
 
-![樓門前的青銅狐](https://chrisincite.github.io/shrine-img/img/82-fushimi-inari-taisha-02.jpg)
+![樓門前的青銅狐](https://shrine-img.pages.dev/img/82-fushimi-inari-taisha-02.webp)
 
 *樓門石階旁的青銅狐，口中銜著一把金色的鑰匙，繫著流蘇，身上披紅底碎花的前掛。花崗岩台座正面刻著「奉獻」二字。*
 
@@ -131,7 +131,7 @@ FAQ 補上了那句關鍵的解釋——因為願望「通る」（tōru，行�
 最後那句最有意思：「朱の原材料は水銀＝丹です。これは昔から木材の防腐剤として
 使われてきました。」——一種象徵，同時是一種塗料。
 
-![千本鳥居入口](https://chrisincite.github.io/shrine-img/img/82-fushimi-inari-taisha-03.jpg)
+![千本鳥居入口](https://shrine-img.pages.dev/img/82-fushimi-inari-taisha-03.webp)
 
 *千本鳥居入口仰角。首座鳥居懸著金框金字的扁額「稲荷大神」，左右柱身分別刻著黑色的「奉」與「納」，隧道向內遞減。*
 
@@ -198,11 +198,11 @@ FAQ 則說明了為什麼是杉：這座神社沒有「那一棵」神木，
 學德守與合格守各八百日圓，病氣平癒守裝在桐箱裡兩千日圓。
 從開店、上工、考試到生病，一項一項配好。
 
-![神職的參進](https://chrisincite.github.io/shrine-img/img/82-fushimi-inari-taisha-04.jpg)
+![神職的參進](https://shrine-img.pages.dev/img/82-fushimi-inari-taisha-04.webp)
 
 *六月六日上午九點四十分，約十名神職單列走過外拜殿前的石板廣場。白色浄衣、烏帽子、手持笏，領頭者著淺蔥色袴。背景是外拜殿，簷下整排紅色提燈寫著「獻燈」。*
 
-![巫女的參進](https://chrisincite.github.io/shrine-img/img/82-fushimi-inari-taisha-05.jpg)
+![巫女的參進](https://shrine-img.pages.dev/img/82-fushimi-inari-taisha-05.webp)
 
 *神職之後的四名巫女，白色千早配緋袴，髮上插著綠色的枝葉，前兩人捧著三方。*
 
@@ -237,6 +237,6 @@ FAQ 則說明了為什麼是杉：這座神社沒有「那一棵」神木，
 從神社上山的那一個小時，是這條路唯一安靜的時段；
 等你從竹の下道走回町裡，山那邊已經滿了。
 
-![深草散策地圖的北半部](https://chrisincite.github.io/shrine-img/img/82-fushimi-inari-taisha-06.jpg)
+![深草散策地圖的北半部](https://shrine-img.pages.dev/img/82-fushimi-inari-taisha-06.webp)
 
 *官方地圖的北半部。上緣中央是方位盤（N，正北朝上）與500公尺比例尺，右上角是三條路線的圖例；綠色的自然探索路線從伏見稻荷大社經千本鳥居、奧社奉拜所、伏見神寶神社上到竹の下道，再沿弘法の滝、白菊の滝往南下山。出典：深草ウォーキングマップ（發行 京都市伏見區役所深草支所）。*

@@ -45,19 +45,28 @@ MIRROR_BASE = "https://os.housearch.net"
 SHORT_BASE = MIRROR_BASE
 SHORT_SUFFIX = ".html" if "github.io" in SHORT_BASE else ""
 
-# 散策篇的照片放在獨立 repo chrisincite/shrine-img，用它自己的 GitHub Pages 站台。
-# 為什麼分出去：Pages 的 1 GB 是「每個站台」算的，主 repo 那 1 GB 要給全站共用，
-# 而神社照片 139 座跑完約 550 MB，留在主 repo 會吃掉一半以上。
-# 之後若改投 Cloudflare R2，只要換這一行（結尾一定要有斜線）。
-IMG_BASE = "https://chrisincite.github.io/shrine-img/img/"
+# 散策篇的照片放在獨立 repo chrisincite/shrine-img，但**不從 GitHub Pages 供應**，
+# 而是走 Cloudflare Pages（shrine-img.pages.dev）。
+#
+# 為什麼 2026-09-15 從 GitHub Pages 搬走：台灣（HiNet）到 GitHub 的 Fastly 新加坡節點
+# 丟包率 14%，同時段到 Cloudflare 是 0%。同一個 681 KB 檔案各打 8 次，吞吐量中位數
+# 36 KB/s vs 556 KB/s，差 15 倍。Cloudflare 的 RTT 還比較高（221 vs 128 ms），
+# 照樣快——距離不是問題，丟包才是。雪上加霜的是瀏覽器對同一 origin 只開一條
+# HTTP/2 連線，整頁 14 張圖全在那條上多工，丟包的損失攤不掉。
+#
+# 之後若要換成 img.housearch.net（需要 DNS 權限）或 R2，只改這一行（結尾一定要有斜線）。
+IMG_BASE = "https://shrine-img.pages.dev/img/"
 
 # 照片副檔名。源檔一律寫 ../img/xxx.webp，這裡決定實際輸出成什麼格式。
-# 為什麼從 WebP 換成 baseline JPEG（2026-09-15）：Safari／ImageIO 沒有 WebP 的
-# 硬體解碼路徑，而且 kCGImageSourceSubsampleFactor 對 WebP 完全無效——大圖永遠
-# 被全解析度硬解。本機實測同一張 1200×1600：WebP 30.2ms、baseline JPEG 8.1ms。
-# 注意一定要 baseline 不能 progressive：progressive JPEG 實測 17.6ms，
-# 跟 WebP 幾乎一樣慢，等於白換。轉檔參數見 shrine-img 的 README。
-IMG_EXT = ".jpg"
+#
+# 用 WebP 是因為**瓶頸是傳輸不是解碼**：全庫 WebP 453 MB，同畫質 baseline JPEG
+# 594 MB（+31%）。曾經為了解碼速度全轉 JPEG（Safari／ImageIO 沒有 WebP 硬體解碼路徑，
+# 實測同一張 1200×1600：baseline JPEG 8.1 ms、WebP 30.2 ms），但那是誤判——
+# 一頁 14 張圖的解碼差距只有 0.3 秒，傳輸差距是好幾秒。
+#
+# 如果哪天頻寬充足了頁面還是卡，再回頭考慮 JPEG；那時**一定要 baseline 不能 progressive**
+# （progressive 實測 17.6 ms，跟 WebP 同一個量級，換了等於白換）。
+IMG_EXT = ".webp"
 
 # Umami Cloud 流量統計。留空字串＝整站不輸出任何統計碼（本機預覽／關掉時用）。
 # 值在 cloud.umami.is 建站後的 Settings → Websites → 該站的 Website ID。

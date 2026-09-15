@@ -21,7 +21,7 @@
 昇殿口的地上排著一列長靴，旁邊一雙白草履。
 那天是週五早上八點半，這座神社正在上班。
 
-![雪後的日枝神社拜殿正面，朱塗的鋼筋混凝土構造，銅板葺入母屋造的屋頂積著厚雪](https://chrisincite.github.io/shrine-img/img/65-toyama-hie-jinja-01.jpg)
+![雪後的日枝神社拜殿正面，朱塗的鋼筋混凝土構造，銅板葺入母屋造的屋頂積著厚雪](https://shrine-img.pages.dev/img/65-toyama-hie-jinja-01.webp)
 
 ## 富山總產土神之認定
 
@@ -70,7 +70,7 @@
 從外面已經看不出哪裡是「入口」；但參道從北往南、社殿轉向東的這個折角，
 還維持著四百多年前那條街道的角度。
 
-![日枝神社北向的表參道，石鳥居的笠木上積雪，兩側的松樹做了雪吊り，石板被剷出一條乾道](https://chrisincite.github.io/shrine-img/img/65-toyama-hie-jinja-02.jpg)
+![日枝神社北向的表參道，石鳥居的笠木上積雪，兩側的松樹做了雪吊り，石板被剷出一條乾道](https://shrine-img.pages.dev/img/65-toyama-hie-jinja-02.webp)
 
 ## 參道形制及其空間效果
 
@@ -91,7 +91,7 @@
 明治三十二年（1899）與昭和二十年（1945）兩次全毀之後，
 現在這一組是戰後由氏子與崇敬者的淨財逐次重建的。
 
-![日枝神社拜殿內部，木造格天井與金地黑字的扁額，白幔上印著深色的櫻紋](https://chrisincite.github.io/shrine-img/img/65-toyama-hie-jinja-03.jpg)
+![日枝神社拜殿內部，木造格天井與金地黑字的扁額，白幔上印著深色的櫻紋](https://shrine-img.pages.dev/img/65-toyama-hie-jinja-03.webp)
 
 材料是現代的，室內卻不是。玻璃格門後的拜殿內部鋪紅地毯，
 天花板是木造的格天井（將天花板分割成方格的日式做法），正中央掛著金地黑字的扁額，寫「日枝神社」。
@@ -102,14 +102,14 @@
 扶手邊掛著一件大衣，牆上貼著二月十一日建國記念日的海報。
 祭祀之外的時間，這裡就是一個要脫鞋才能上去的辦公空間。
 
-![日枝神社昇殿口的磨石子地坪，木階前排著長靴與一雙白草履](https://chrisincite.github.io/shrine-img/img/65-toyama-hie-jinja-04.jpg)
+![日枝神社昇殿口的磨石子地坪，木階前排著長靴與一雙白草履](https://shrine-img.pages.dev/img/65-toyama-hie-jinja-04.webp)
 
 ## 自江戶屋敷遷來的工匠之神
 
 手水舍左邊有一塊白色指示牌，寫著「麁香神社（工匠の祖神）」，
 下面一個紅箭頭，再下面三個字：「干支石像」。
 
-![手水舍旁的指示牌，寫著「麁香神社（工匠の祖神）」與「干支石像」，背後是覆雪的手水舍](https://chrisincite.github.io/shrine-img/img/65-toyama-hie-jinja-05.jpg)
+![手水舍旁的指示牌，寫著「麁香神社（工匠の祖神）」與「干支石像」，背後是覆雪的手水舍](https://shrine-img.pages.dev/img/65-toyama-hie-jinja-05.webp)
 
 **麁香神社**（Araka-jinja）的祭神是手置帆負神（Taokihooi-no-kami）
 與彥狹知神（Hikosashiri-no-kami）兩柱。境內的說明板寫得很清楚：
@@ -125,7 +125,7 @@
 社殿是混凝土造，朱紅的柱與白牆，銅板屋頂已生綠青。
 格子門開著，裡面看得到中央的黑帳與大幣，左右兩座廚子裡各坐著一尊神像。
 
-![麁香神社的社殿，朱柱白牆的混凝土造，扁額刻「麁香神社」，格子門後看得見兩尊神像](https://chrisincite.github.io/shrine-img/img/65-toyama-hie-jinja-06.jpg)
+![麁香神社的社殿，朱柱白牆的混凝土造，扁額刻「麁香神社」，格子門後看得見兩尊神像](https://shrine-img.pages.dev/img/65-toyama-hie-jinja-06.webp)
 
 這一節真正的證據不在社殿裡，在旁邊的地上。
 往麁香神社走的路邊立著一塊石碑，粗鑿的石框裡刻著兩行字：
@@ -137,7 +137,7 @@
 從江戶屋敷搬來的工匠神，跟一家印刷業者的四十周年，中間隔了三百多年。
 但它們被放在同一條路上，理由是一樣的。
 
-![境內的奉納碑，粗鑿的石框裡刻著「創業四十周年記念　昭和三十八年一月」與「奉納　山田写真製版所」](https://chrisincite.github.io/shrine-img/img/65-toyama-hie-jinja-08.jpg)
+![境內的奉納碑，粗鑿的石框裡刻著「創業四十周年記念　昭和三十八年一月」與「奉納　山田写真製版所」](https://shrine-img.pages.dev/img/65-toyama-hie-jinja-08.webp)
 
 ## 祭儀與授与品
 
@@ -161,7 +161,7 @@
 授与品這邊，最受歡迎的是社紋顏色按月更換的御朱印。
 社紋是山櫻，換的是那朵櫻花的顏色。
 
-![麁香神社參道旁的干支石像，花崗岩方座上各坐一尊生肖，四邊圍著注連繩與紙垂](https://chrisincite.github.io/shrine-img/img/65-toyama-hie-jinja-07.jpg)
+![麁香神社參道旁的干支石像，花崗岩方座上各坐一尊生肖，四邊圍著注連繩與紙垂](https://shrine-img.pages.dev/img/65-toyama-hie-jinja-07.webp)
 
 ## 晨間路線之擬定及其限制
 
@@ -184,7 +184,7 @@
 這條路線的起終點在今木橋，從日枝神社往北走約 1 公里。
 兩段接起來，就是一個以水為軸、把神社夾在中間的環。
 
-![いたち川コース（Itachi-gawa kōsu，鼬川路線）：今木橋起終、沿富山市中心的鼬川一圈，標示花見橋、月見橋、泉橋、久右衛門橋與石倉町延命地藏](https://chrisincite.github.io/shrine-img/img/65-toyama-hie-jinja-map.jpg)
+![いたち川コース（Itachi-gawa kōsu，鼬川路線）：今木橋起終、沿富山市中心的鼬川一圈，標示花見橋、月見橋、泉橋、久右衛門橋與石倉町延命地藏](https://shrine-img.pages.dev/img/65-toyama-hie-jinja-map.webp)
 
 出典：〈ウオーキングマップ in Toyama City　5. いたち川コース〉（發行 富山市）
 

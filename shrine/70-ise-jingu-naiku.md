@@ -19,7 +19,7 @@
 從站前走到這裡三點六公里、五十分鐘。真正的路才要開始：
 從橋到正宮還要二十分鐘，而最後那段石段只能走上去，不能拍。
 
-![正宮前的石段](https://chrisincite.github.io/shrine-img/img/70-ise-jingu-naiku-01.jpg)
+![正宮前的石段](https://shrine-img.pages.dev/img/70-ise-jingu-naiku-01.webp)
 
 *寬石段往上，頂上立著木造的神明鳥居，鳥居後方是正宮最外一重御垣的門——切妻造（兩坡的懸山頂）、茅葺（茅草屋頂），屋脊上一排鰹木。石段兩側是石垣與巨杉。石段以上禁止攝影，這裡是最後能按快門的位置。*
 
@@ -50,7 +50,7 @@
 遷御之儀定在令和十五年（2033）秋。
 我走過宇治橋的那天是二〇二五年二月四日——距離山口祭還有三個月。
 
-![宇治橋外側的大鳥居](https://chrisincite.github.io/shrine-img/img/70-ise-jingu-naiku-02.jpg)
+![宇治橋外側的大鳥居](https://shrine-img.pages.dev/img/70-ise-jingu-naiku-02.webp)
 
 *橋外的廣場鋪的是大塊石板。木造神明鳥居立在正中，笠木與貫都是圓木，不上漆。鳥居後面就是宇治橋，欄干上一排青銅擬寶珠，橋的另一端接著對岸的山林。*
 
@@ -75,7 +75,7 @@
 其中有直徑一公尺餘、樹齡四百年以上的巨木。宮域全體確認的動物約二千八百種、
 鳥類約一百四十種、植物約八百五十種。這是一片為了二百年後那一次重建而正在長的森林。
 
-![五十鈴川的上游](https://chrisincite.github.io/shrine-img/img/70-ise-jingu-naiku-03.jpg)
+![五十鈴川的上游](https://shrine-img.pages.dev/img/70-ise-jingu-naiku-03.webp)
 
 *從御手洗場往上游看。兩岸都是連續的森，水面把樹與天壓成同一層。冬天的落葉樹與常綠樹混在一起，深淺分得很開。*
 
@@ -116,15 +116,15 @@
 風日祈宮祀級長津彥命與級長戶邊命，過風日祈宮橋才到，
 舊稱風神社，正應六年（1293）因蒙古襲來時神威起猛風而宮號宣下。
 
-![御手洗場的石疊](https://chrisincite.github.io/shrine-img/img/70-ise-jingu-naiku-04.jpg)
+![御手洗場的石疊](https://shrine-img.pages.dev/img/70-ise-jingu-naiku-04.webp)
 
 *元祿五年（1692）桂昌院寄進的石疊，一階一階沒入五十鈴川。頭頂一株大樹橫伸出去，樹枝幾乎壓到水面。右岸是砂洲，遠處的山是神路山與島路山的方向。*
 
-![水邊](https://chrisincite.github.io/shrine-img/img/70-ise-jingu-naiku-05.jpg)
+![水邊](https://shrine-img.pages.dev/img/70-ise-jingu-naiku-05.webp)
 
 *一個人蹲在石疊最下緣。這裡沒有柄杓，沒有水盤，就是川本身；手放進去以前，得先蹲下來。*
 
-![砂洲上的水鳥](https://chrisincite.github.io/shrine-img/img/70-ise-jingu-naiku-06.jpg)
+![砂洲上的水鳥](https://shrine-img.pages.dev/img/70-ise-jingu-naiku-06.webp)
 
 *對岸是砌得很整齊的石垣護岸，砂洲上一列水鳥排在水邊。冬天的水清到看得見底下的石頭。*
 
@@ -153,7 +153,7 @@
 外宮則用奉曳車走陸路「陸曳」。神嘗祭附隨的初穗曳也是同一套分工。
 五十鈴川在這裡不只是境內的界線，它是運輸工具。
 
-![石段上行的參拜者](https://chrisincite.github.io/shrine-img/img/70-ise-jingu-naiku-07.jpg)
+![石段上行的參拜者](https://shrine-img.pages.dev/img/70-ise-jingu-naiku-07.webp)
 
 *同一段石段，從側面看。參拜者一階一階上去，門前那座木造鳥居在逆光裡只剩輪廓；石段兩側的石垣是亂石積，縫隙裡長著苔。*
 
@@ -182,7 +182,7 @@
 兩宮的授与品幾乎完全一樣，只有這一項的形狀不同。
 御朱印則是神宮自古以來的簡素形式，只有印與日付，沒有社名的墨書。
 
-![橋外廣場的老松](https://chrisincite.github.io/shrine-img/img/70-ise-jingu-naiku-08.jpg)
+![橋外廣場的老松](https://shrine-img.pages.dev/img/70-ise-jingu-naiku-08.webp)
 
 *出了宇治橋，廣場上一株老松張得很開，樹幹周圍圍出一圈砂利。右側白柵後面是站前的建物；石板路一直鋪到鳥居腳下。*
 
@@ -218,6 +218,6 @@
 最後一個限制是石段以上禁止攝影：那段路只能用走的，不能用拍的，
 而它剛好是整條路線的終點。
 
-![內宮周邊散策圖](https://chrisincite.github.io/shrine-img/img/70-ise-jingu-naiku-09.jpg)
+![內宮周邊散策圖](https://shrine-img.pages.dev/img/70-ise-jingu-naiku-09.webp)
 
 *出典：《伊勢〜日本の源へ〜 伊勢市観光ガイドマップ》（發行 公益社団法人 伊勢市観光協会，2026年3月）。正北朝上。五十鈴川站在圖的右側中段，月讀宮在它的右下；猿田彥神社與おはらい町在圖的中央偏下，內宮在最下方，五十鈴川自南向北流過內宮東側。*

@@ -21,7 +21,7 @@
 每天下午開放民眾參觀文化財的修復工房。四公里的路上，
 一座神社、一座消失的寺、一間把修復過程打開給人看的工房。
 
-![木造大鳥居與砂利參道](https://chrisincite.github.io/shrine-img/img/84-isonokami-jingu-01.jpg)
+![木造大鳥居與砂利參道](https://shrine-img.pages.dev/img/84-isonokami-jingu-01.webp)
 
 *入口的木造大鳥居。不上漆，貫的兩端伸出柱外，額束上掛著一面帶小屋根的木製扁額，直書主祭神名。腳下的砂利耙成同心圓，後方是筆直的參道與夾道的樹。*
 
@@ -70,7 +70,7 @@
 物部氏是這座神宮的氏族，累代奉仕；垂仁天皇的皇子五十瓊敷命
 造劍一千口納入神庫的傳承，也記在天理市的文化財頁上。
 
-![山の辺の道路標板與境內案內板](https://chrisincite.github.io/shrine-img/img/84-isonokami-jingu-02.jpg)
+![山の辺の道路標板與境內案內板](https://shrine-img.pages.dev/img/84-isonokami-jingu-02.webp)
 
 *休憩所樑下的兩塊看板。上面是木刻的山の辺の道路標，板上引萬葉的歌「未通女らが袖布留山の瑞垣の久しき時ゆ思ひきわれは」，並寫「南北いずれに向かうにも、ここが山の辺の道の起点となる」。下面是崇敬會奉納的境內案內，由緒欄末尾列出四項御神德，最後一項是「起死回生」。*
 
@@ -111,7 +111,7 @@
 指定日期是昭和二十八年（1953）三月二十三日，國家天然記念物。
 板上沒有解釋一種琵琶湖水系的魚為什麼會在大和的一座神社池子裡。
 
-![天然記念物「石上神宮鏡池のワタカ」說明板](https://chrisincite.github.io/shrine-img/img/84-isonokami-jingu-03.jpg)
+![天然記念物「石上神宮鏡池のワタカ」說明板](https://shrine-img.pages.dev/img/84-isonokami-jingu-03.webp)
 
 *鏡池畔的說明板，奈良縣教育委員會平成四年（1992）三月立。板上記昭和二十八年三月二十三日指定，並註明奈良縣境內只有石上神宮鏡池與東大寺鏡池兩處有這種魚棲息。*
 
@@ -162,11 +162,11 @@
 重要文化財的樓門是十四世紀的；而正中央那棟本殿，是大正二年的。
 最古老的信仰對象在地下，最新的建築蓋在它前面。
 
-![樓門正面](https://chrisincite.github.io/shrine-img/img/84-isonokami-jingu-04.jpg)
+![樓門正面](https://shrine-img.pages.dev/img/84-isonokami-jingu-04.webp)
 
 *樓門正面。二層，深彎的檜皮葺屋根配瓦的箱棟，上層是不上漆的連子窗（細木條並排成的格窗）與組物（斗栱），下層朱塗。門洞望穿可見拜殿垂著白幕，幕上兩個黑色的十六菊紋。左右接朱塗白壁綠連子窗的廻廊，門前立兩座石燈籠。*
 
-![境內的雞](https://chrisincite.github.io/shrine-img/img/84-isonokami-jingu-05.jpg)
+![境內的雞](https://shrine-img.pages.dev/img/84-isonokami-jingu-05.webp)
 
 *白色的雞在白色玉砂利上啄食。旁邊是圍住一棵樹的花崗岩玉垣（圍出神域的矮柵），樹上拉著注連繩（標示神域的稻草繩）與紙垂（夾在注連繩上的鋸齒形白紙）；背後是覆滿青苔的石燈籠與石垣。官方說境內放養約三十隻，種類不一。*
 
@@ -202,7 +202,7 @@
 旁邊是不含酒精的桃子飲料、葛切、鹿肉的咖哩調理包。屋外體驗區有一道展望甲板，
 面向大和平野。
 
-![交流にぎわい棟的貨架](https://chrisincite.github.io/shrine-img/img/84-isonokami-jingu-06.jpg)
+![交流にぎわい棟的貨架](https://shrine-img.pages.dev/img/84-isonokami-jingu-06.webp)
 
 *文化村的市場。三公斤裝的「天理米」，標籤上寫「ヒノヒカリ　有機肥料使用」；左側架上是無酒精的「あらごし もも」（aragoshi momo，帶果肉的桃子飲料），掛牌寫著 Alc.0.00%。*
 
@@ -247,7 +247,7 @@
 以及七支刀造型的領帶夾與胸針各三千日圓。境內的雞也有份——
 御神鶏繪馬七百日圓、御神鶏みくじ（mikuji，御神籤）五百日圓。
 
-![授与所](https://chrisincite.github.io/shrine-img/img/84-isonokami-jingu-07.jpg)
+![授与所](https://shrine-img.pages.dev/img/84-isonokami-jingu-07.webp)
 
 *授与所的櫃檯。木格分裝的御守，標價牌可讀出「人生すべてご縁　むすひ御守 1,000円」與「開運干支御守 1,000円」；櫃上另有成排的白色陶製雞形物。*
 
@@ -287,10 +287,10 @@
 而崇敬會的由緒板寫的是「山の辺の道」の中間に位置し（位於「山邊之道」的中間）。兩塊板都沒錯：
 對走路的人來說這裡是起點，對這條路本身來說這裡是中點。
 
-![山の辺の道周辺案内MAP](https://chrisincite.github.io/shrine-img/img/84-isonokami-jingu-08.jpg)
+![山の辺の道周辺案内MAP](https://shrine-img.pages.dev/img/84-isonokami-jingu-08.webp)
 
 *石上神宮發行的官方地圖。左端是天理驛，右端是三輪驛，南北方向被放倒成左右；紅線串起石上神宮、內山永久寺跡、夜都伎神社與往南的古墳群。出典：山の辺の道周辺案内MAP（發行 石上神宮）。*
 
-![社號標](https://chrisincite.github.io/shrine-img/img/84-isonokami-jingu-09.jpg)
+![社號標](https://shrine-img.pages.dev/img/84-isonokami-jingu-09.webp)
 
 *柏油路轉彎處的花崗岩社號標，刻「石上神宮」四字。背後是新綠的楓與杉、石垣、木製燈籠與掲示板。*
