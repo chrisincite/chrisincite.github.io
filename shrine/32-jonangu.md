@@ -21,7 +21,7 @@
 繞回城南宮的時候會發現，一個半小時的路，全程沒有離開過那座離宮的範圍。
 
 
-![城南宮入口的朱塗鳥居與社號標，島木正面排著三枚金色的紋](https://chrisincite.github.io/shrine-img/img/32-jonangu-01.webp)
+![城南宮入口的朱塗鳥居與社號標，島木正面排著三枚金色的紋](https://chrisincite.github.io/shrine-img/img/32-jonangu-01.jpg)
 
 *入口的朱塗鳥居。笠木起翹、貫不出柱、沒有額束，官方把這個形式叫「城南鳥居」。*
 
@@ -49,7 +49,7 @@
 祭神真幡寸大神與應神天皇，竹田地區的氏子信仰很厚——
 關於兩者曾經是同一個名字這件事，一個字也沒有。
 
-![京都市設在城南宮境內的木造駒札，日英對照並附 QR 碼](https://chrisincite.github.io/shrine-img/img/32-jonangu-05.webp)
+![京都市設在城南宮境內的木造駒札，日英對照並附 QR 碼](https://chrisincite.github.io/shrine-img/img/32-jonangu-05.jpg)
 
 *京都市的駒札。從遷都時的創祀、白河上皇的離宮，一路寫到承久三年後鳥羽上皇的募兵。*
 
@@ -88,11 +88,11 @@
 熬過那一段路以後在熊野三山受的加持，證明是與梛葉一起授與的**寶印**——
 板上寫，那是御朱印的先驅。
 
-![城南宮境內的大型解說板「熊野詣　出立の地」，右半是文字、左半是從鳥羽到熊野三山的路線圖](https://chrisincite.github.io/shrine-img/img/32-jonangu-07.webp)
+![城南宮境內的大型解說板「熊野詣　出立の地」，右半是文字、左半是從鳥羽到熊野三山的路線圖](https://chrisincite.github.io/shrine-img/img/32-jonangu-07.jpg)
 
 *「出立の地」解說板。左半是從鳥羽の津經淀川、渡辺の津南下熊野三山的路線圖，右半列著上皇們的御幸次數。*
 
-![城南宮的彩色境內案內圖看板，標出神苑五座庭園與各境內社](https://chrisincite.github.io/shrine-img/img/32-jonangu-08.webp)
+![城南宮的彩色境內案內圖看板，標出神苑五座庭園與各境內社](https://chrisincite.github.io/shrine-img/img/32-jonangu-08.jpg)
 
 *境內案內圖。神苑的五座庭園、本殿、神樂殿與各境內社的相對位置。*
 
@@ -108,7 +108,7 @@
 把神紋做在鳥居的橫木上而不是掛在額束裡，效果是它會一直懸在人的頭頂——
 走進去的人不會特地抬頭讀一塊匾，但一定會從那三枚紋的下面通過。
 
-![從正下方仰看城南宮的石造鳥居與扁額，背景是樹與天空](https://chrisincite.github.io/shrine-img/img/32-jonangu-02.webp)
+![從正下方仰看城南宮的石造鳥居與扁額，背景是樹與天空](https://chrisincite.github.io/shrine-img/img/32-jonangu-02.jpg)
 
 *另一座石造鳥居。東西兩座建於文久元年（1861），扁額分別出自有栖川宮幟仁親王與關白九條尚忠之手。*
 
@@ -117,7 +117,7 @@
 高床架空、四面通透，欄杆繞了一圈，入母屋的屋頂上再加一層千鳥破風（屋坡上另加的三角形山牆）。
 它不擋路，也不引路，就是一座擺在廣場邊上的舞台。
 
-![城南宮的神樂殿，寢殿造風格的建物，高床架空、四面通透，入母屋屋頂加千鳥破風](https://chrisincite.github.io/shrine-img/img/32-jonangu-03.webp)
+![城南宮的神樂殿，寢殿造風格的建物，高床架空、四面通透，入母屋屋頂加千鳥破風](https://chrisincite.github.io/shrine-img/img/32-jonangu-03.jpg)
 
 *神樂殿。平成八年建成，模仿平安貴族的寢殿造。*
 
@@ -128,7 +128,7 @@
 被國家指定為史跡的是腳下這塊地——**鳥羽殿跡**，昭和五十三年七月十七日指定。
 同一年，地上蓋了新的社殿，地下的遺跡成了國史跡。
 
-![城南宮的本殿，素木造，由本殿、前殿、向拜與翼廊組成，屋根坡度緩、軒端反翹](https://chrisincite.github.io/shrine-img/img/32-jonangu-04.webp)
+![城南宮的本殿，素木造，由本殿、前殿、向拜與翼廊組成，屋根坡度緩、軒端反翹](https://chrisincite.github.io/shrine-img/img/32-jonangu-04.jpg)
 
 *本殿。素木造，照平安時代後期的樣式做，昭和五十三年造營。*
 
@@ -140,7 +140,7 @@
 日暮將至、對方擺出強行突破的架式時，喇叭一響，
 西參道上的大砲轟了出去。
 
-![京都市的木造駒札，標題寫「鳥羽伏見の戦い跡」，日英對照](https://chrisincite.github.io/shrine-img/img/32-jonangu-06.webp)
+![京都市的木造駒札，標題寫「鳥羽伏見の戦い跡」，日英對照](https://chrisincite.github.io/shrine-img/img/32-jonangu-06.jpg)
 
 *「鳥羽伏見の戦い跡」駒札。舊幕府軍推進到城南宮南南西五百公尺的赤池，喇叭一響，大砲從西參道上打了出去。*
 
@@ -170,7 +170,7 @@
 繞行氏子區域；傍晚在提燈與松明的光裡還御回神社，官方用「壯觀」形容那一段。
 這場祭禮自平安時代後期就盛大舉行，古來另有一個名字，叫「餅祭り」（mochi matsuri，麻糬祭）。
 
-![城南宮境內的另一座朱鳥居與社號標，旁邊是石燈籠與一座小型的境內社](https://chrisincite.github.io/shrine-img/img/32-jonangu-09.webp)
+![城南宮境內的另一座朱鳥居與社號標，旁邊是石燈籠與一座小型的境內社](https://chrisincite.github.io/shrine-img/img/32-jonangu-09.jpg)
 
 *境內的另一座朱鳥居。三光紋不只做在鳥居的橫木上——官方寫，三照宮社檜皮葺（檜樹皮層層鋪成的屋頂）屋頂的棟上也看得到同一個紋，江戶時代的境內圖甚至把那一座記成「三光社」。*
 
@@ -267,6 +267,6 @@
 **正北朝上**。南北向的那條粗線是國道一號，這一圈要橫越它兩次；
 西邊的秋の山與東邊的三座天皇陵，分別是離宮的築山與離宮主人們的墓。
 
-![城南宮晨間路線圖：城南宮、鳥羽離宮跡公園與秋の山、田中殿公園、安樂壽院、近衛天皇安樂壽院南陵、北向山不動院、白河天皇成菩提院陵，環狀路線與各段里程](https://chrisincite.github.io/shrine-img/img/32-jonangu-map.webp)
+![城南宮晨間路線圖：城南宮、鳥羽離宮跡公園與秋の山、田中殿公園、安樂壽院、近衛天皇安樂壽院南陵、北向山不動院、白河天皇成菩提院陵，環狀路線與各段里程](https://chrisincite.github.io/shrine-img/img/32-jonangu-map.jpg)
 
 *底圖 © Google，路線與標記為本站自繪。*

@@ -18,7 +18,7 @@
 那些石頭原本是神宮的大鳥居，一九九五年的地震把它震倒了。
 
 
-![伊弉諾神宮的表參道，兩側石燈籠與紅幟，盡頭是花崗岩的大鳥居](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-01.webp)
+![伊弉諾神宮的表參道，兩側石燈籠與紅幟，盡頭是花崗岩的大鳥居](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-01.jpg)
 
 *表參道往南看。兩側石燈籠與紅幟夾出一條直線，盡頭是花崗岩的大鳥居——現在這一座是一九九五年震倒後、同年十一月重立的。*
 
@@ -35,7 +35,7 @@
 所以這裡是「我が國最古の御社」。順序是反過來的：先有人住，再有墓，最後才有神社。
 今天走進去看到的一整組社殿，站的是最後那一層。
 
-![伊弉諾神宮的木札由緒板，分祭神、社格、由緒、神德、祭典數欄](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-02.webp)
+![伊弉諾神宮的木札由緒板，分祭神、社格、由緒、神德、祭典數欄](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-02.jpg)
 
 *神門（神社的正門）旁的木札。由緒欄上抄著《古事記》與《日本書紀》關於幽宮的兩句原文，並寫下「我が國最古の御社」。*
 
@@ -74,7 +74,7 @@
 往南二十八度三十分，冬至的日出在熊野那智大社（那智大瀧），日沒在高千穗神社與天岩戶神社。
 正北是但馬國一宮出石神社，正南是島內的諭鶴羽神社。
 
-![花崗岩上刻的「伊弉諾神宮を中心とした太陽の運行圖」，日本列島線描與六條方位線](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-07.webp)
+![花崗岩上刻的「伊弉諾神宮を中心とした太陽の運行圖」，日本列島線描與六條方位線](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-07.jpg)
 
 *碑上的運行圖。以淡路島為中心拉出六個方向，北緯 34°27′23″ 的緯線往東接飛鳥・藤原京與伊勢內宮。*
 
@@ -85,7 +85,7 @@
 撰文者署「宮司」。這是一座神社為自己的位置提出的主張，
 用的是希望你感受到的語氣，不是報告的語氣。
 
-![陽の道しるべ石碑的全貌，一整塊花崗岩架在兩塊石頭上，右側整片是碑文](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-08.webp)
+![陽の道しるべ石碑的全貌，一整塊花崗岩架在兩塊石頭上，右側整片是碑文](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-08.jpg)
 
 *碑的全貌。右側整片是碑文，末尾署「宮司　撰」，落款平成十九年丁亥六月吉日。*
 
@@ -105,7 +105,7 @@
 門的左右接著授与所棟，那是平成十年（1998）震災復興事業裡新建的。
 門的開口不寬，走到跟前視線會先被收一次，然後才放到社殿那一片。
 
-![伊弉諾神宮的正門，切妻平入的四腳門，檜皮葺屋頂配瓦棟，注連繩橫過門口](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-03.webp)
+![伊弉諾神宮的正門，切妻平入的四腳門，檜皮葺屋頂配瓦棟，注連繩橫過門口](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-03.jpg)
 
 *正門。明治十六年移築，屋頂是檜皮葺配瓦棟，左右接著平成十年新建的授与所棟。*
 
@@ -114,7 +114,7 @@
 上面那幾枚金色的菊紋還留著。檜皮葺完工以後看到的是一個平滑的曲面，
 那天看到的是它下面一片一片疊起來的過程。
 
-![伊弉諾神宮的社殿包在鷹架裡，屋頂露出一層層赤褐色的檜皮與橫向壓條的竹子](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-04.webp)
+![伊弉諾神宮的社殿包在鷹架裡，屋頂露出一層層赤褐色的檜皮與橫向壓條的竹子](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-04.jpg)
 
 *屋頂正在葺檜皮。一層層赤褐色的樹皮壓著橫竹，脊上還留著金色的菊紋；前面的白帳篷是臨時的授与所。*
 
@@ -137,11 +137,11 @@
 淡路市的文化財頁寫的是約七百五十年。樹底下另有一座岩楠神社，
 拜的是子授與安產。
 
-![伊弉諾神宮的夫婦大楠，樹幹在離地兩公尺多的地方分成兩支，樹冠張得極開](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-05.webp)
+![伊弉諾神宮的夫婦大楠，樹幹在離地兩公尺多的地方分成兩支，樹冠張得極開](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-05.jpg)
 
 *夫婦大楠。幹在離地二點二五公尺處分成兩支，樹高約三十公尺。*
 
-![兵庫縣指定文化財的金屬說明板，標題寫「伊弉諾神宮の夫婦クス」](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-06.webp)
+![兵庫縣指定文化財的金屬說明板，標題寫「伊弉諾神宮の夫婦クス」](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-06.jpg)
 
 *縣指定文化財的說明板，量得極細：根廻十二點四公尺、目通幹圍八公尺、枝張南十六公尺北十二公尺。樹齡寫的是「約900年といわれている」。*
 
@@ -159,7 +159,7 @@
 淡路市的官方地圖把三十五個設置點全標了出來，
 提醒走的人「神様を見つけながら散策してみて」。
 
-![環境省與兵庫縣設的「国生み伝承」解說板，附一幅伊弉諾與伊弉冉並立的畫](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-09.webp)
+![環境省與兵庫縣設的「国生み伝承」解說板，附一幅伊弉諾與伊弉冉並立的畫](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-09.jpg)
 
 *近畿自然步道的「国生み伝承」板。生大八嶋國、生三十五柱祖先神、讓神權給天照、退居多賀的幽宮——最後一句是「この宮居跡の神陵が『伊弉諾神宮』創祀の起源だと伝えています」。*
 
@@ -252,6 +252,6 @@
 **這張圖幾乎是正北朝上**——拿神宮到濱神社、神宮到多賀の浜兩組實座標反算，
 整張只逆時針偏約六度，所以圖上的上下左右可以直接當北南西東讀。
 
-![《祈りさんぽ一宮MAP》，涵蓋多賀の浜海水浴場、薰壽堂、伊弉諾神宮、郡家商店街與濱神社，綠虛線標出神様の結うとおり](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-map.webp)
+![《祈りさんぽ一宮MAP》，涵蓋多賀の浜海水浴場、薰壽堂、伊弉諾神宮、郡家商店街與濱神社，綠虛線標出神様の結うとおり](https://chrisincite.github.io/shrine-img/img/31-izanagi-jingu-map.jpg)
 
 *出典：《祈りさんぽ一宮MAP》（發行　淡路市役所 產業振興部 商工觀光課，二〇二五年十一月）*

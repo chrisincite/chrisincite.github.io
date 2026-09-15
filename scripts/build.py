@@ -51,6 +51,14 @@ SHORT_SUFFIX = ".html" if "github.io" in SHORT_BASE else ""
 # 之後若改投 Cloudflare R2，只要換這一行（結尾一定要有斜線）。
 IMG_BASE = "https://chrisincite.github.io/shrine-img/img/"
 
+# 照片副檔名。源檔一律寫 ../img/xxx.webp，這裡決定實際輸出成什麼格式。
+# 為什麼從 WebP 換成 baseline JPEG（2026-09-15）：Safari／ImageIO 沒有 WebP 的
+# 硬體解碼路徑，而且 kCGImageSourceSubsampleFactor 對 WebP 完全無效——大圖永遠
+# 被全解析度硬解。本機實測同一張 1200×1600：WebP 30.2ms、baseline JPEG 8.1ms。
+# 注意一定要 baseline 不能 progressive：progressive JPEG 實測 17.6ms，
+# 跟 WebP 幾乎一樣慢，等於白換。轉檔參數見 shrine-img 的 README。
+IMG_EXT = ".jpg"
+
 # Umami Cloud 流量統計。留空字串＝整站不輸出任何統計碼（本機預覽／關掉時用）。
 # 值在 cloud.umami.is 建站後的 Settings → Websites → 該站的 Website ID。
 # 自架版就把 UMAMI_SRC 換成自己的 /script.js 網址。
@@ -600,13 +608,20 @@ def absolutize(path, base):
     return path if path.startswith(("http://", "https://", "//")) else base + path
 
 
+SHRINE_IMG_RE = re.compile(r"\.\./img/([^\s)\"\']+?)\.webp")
+
+
 def shrine_img_src(path):
     """源檔寫的是 ../img/xxx.webp（相對 shrine/src/），實際檔案在 shrine-img repo。
 
-    回傳絕對 URL。下游凡是要再拼 CANONICAL_BASE 的地方（og:image）都得先問
-    is_absolute_url()，否則會拼成 github.io/shrine/https://... 那種壞網址。
+    回傳絕對 URL，副檔名一併換成 IMG_EXT（見上面那段註解：WebP 在 Safari 解得慢）。
+    吃單一路徑也吃整段 markdown——所有「../img/ → 線上網址」的改寫都必須走這裡，
+    不要在別處自己 replace，不然改格式時一定會漏掉某個消費端。
+
+    下游凡是要再拼 CANONICAL_BASE 的地方（og:image）都得先問 is_absolute_url()，
+    否則會拼成 github.io/shrine/https://... 那種壞網址。
     """
-    return path.replace("../img/", IMG_BASE)
+    return SHRINE_IMG_RE.sub(lambda m: IMG_BASE + m.group(1) + IMG_EXT, path)
 
 
 def render_shrine_blocks(body, links, images):
@@ -869,7 +884,7 @@ def build_shrine(path, registry, published_slugs, short_url=""):
         return ("[%s](%s.md)" % (p["title"], s) if s in published_slugs else p["title"])
 
     md_body = re.sub(r"\[\[([^\]]+)\]\]", md_wiki, body)
-    md_body = md_body.replace("../img/", IMG_BASE)
+    md_body = shrine_img_src(md_body)
     md_body = strip_comments(md_body)
     # 空的「我的想法」佔位在 markdown 版也不輸出
     md_body = re.sub(r"^##\s*我的想法\s*\n+(?=##)", "", md_body, flags=re.M)
@@ -913,7 +928,7 @@ def build_shrine(path, registry, published_slugs, short_url=""):
         "published": str(meta.get("published", "")).strip(),
         "hook": hook,
         "cover": cover,
-        "photos": len([x for x in images if not x.endswith("-map.webp")]),
+        "photos": len([x for x in images if not x.endswith("-map" + IMG_EXT)]),
         "related": related,
         "url": "shrine/%s.html" % full_slug,
         "markdown": "shrine/%s.md" % full_slug,

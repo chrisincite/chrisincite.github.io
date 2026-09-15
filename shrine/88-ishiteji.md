@@ -21,7 +21,7 @@
 
 那條被搬走的河，從前是貼著這座寺的南側流的。
 
-![雨中的三重塔。塔前是石燈籠與撐傘走過的參拜者，右側屋簷是另一棟堂宇。這座三重塔是三間四方的和樣建築，明治四十年被指定為重要文化財。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-01.webp)
+![雨中的三重塔。塔前是石燈籠與撐傘走過的參拜者，右側屋簷是另一棟堂宇。這座三重塔是三間四方的和樣建築，明治四十年被指定為重要文化財。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-01.jpg)
 
 ## 熊野權現先於本尊之認定
 
@@ -45,7 +45,7 @@
 
 這座寺換過宗派，也換過名字，只有山號一直沒有動。
 
-![「道後村めぐり　十五番（No. 15）　石手寺 Isite-ji-Temple」的銅板。地圖上不存在的「道後村」共設了三十個編號地點，石手寺是其中第十五個。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-11.webp)
+![「道後村めぐり　十五番（No. 15）　石手寺 Isite-ji-Temple」的銅板。地圖上不存在的「道後村」共設了三十個編號地點，石手寺是其中第十五個。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-11.jpg)
 
 ## 立地非屬偶然
 
@@ -80,7 +80,7 @@
 寺是七二八年的事，河改道是一六〇〇年的事。決定這座寺位置的是那條路和那座山，
 不是這條河——河是後來才被搬到南邊去的。
 
-![本瓦葺的堂宇與一尊石造的大師像，腳邊是繫著紅圍兜的小童子像。背後高起來的森林就是愛宕山——山上另有一整套弘化二年開設的迷你靈場。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-05.webp)
+![本瓦葺的堂宇與一尊石造的大師像，腳邊是繫著紅圍兜的小童子像。背後高起來的森林就是愛宕山——山上另有一整套弘化二年開設的迷你靈場。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-05.jpg)
 
 ## 伽藍配置及其空間效果
 
@@ -116,19 +116,19 @@
 入口處還有一座五輪塔，總高二百七十三公分餘，花崗岩造。
 寺傳說是源賴義的墓，原本在石手寺東北的山間，江戶時代才移建到現在的位置。
 
-![國寶二王門的內側。柱邊靠著一雙比人還高的大草鞋，草繩曬成灰白、一層層疊起來，上方垂著剛換過的新藁。右側格柵後面是金剛力士立像——門在一九五二年成為國寶，門裡的像到二〇二二年才被指定為重要文化財。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-02.webp)
+![國寶二王門的內側。柱邊靠著一雙比人還高的大草鞋，草繩曬成灰白、一層層疊起來，上方垂著剛換過的新藁。右側格柵後面是金剛力士立像——門在一九五二年成為國寶，門裡的像到二〇二二年才被指定為重要文化財。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-02.jpg)
 
-![二王門之後往上的石段，正中央立著一具金色的三鈷杵。石段盡頭掛著五色幕，兩個撐傘的人正走上去。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-04.webp)
+![二王門之後往上的石段，正中央立著一具金色的三鈷杵。石段盡頭掛著五色幕，兩個撐傘的人正走上去。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-04.jpg)
 
-![本堂前的紅底立牌，寫著「文化財愛護　重要文化財　石手寺本堂　火氣嚴禁」。後方是石垣與愛宕山的斜面，五色幕沿著簷下拉開。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-10.webp)
+![本堂前的紅底立牌，寫著「文化財愛護　重要文化財　石手寺本堂　火氣嚴禁」。後方是石垣與愛宕山的斜面，五色幕沿著簷下拉開。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-10.jpg)
 
-![本堂的側面。上層是深深的入母屋造本瓦葺，下層接一段銅板葺的屋頂，簷下掛著五色幕與千羽鶴。左前方是蘇鐵。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-09.webp)
+![本堂的側面。上層是深深的入母屋造本瓦葺，下層接一段銅板葺的屋頂，簷下掛著五色幕與千羽鶴。左前方是蘇鐵。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-09.jpg)
 
-![明治四十年指定的鐘樓。下段是袴腰——用木板包成外撇的裙狀，上層有高欄與連子窗，入母屋造本瓦葺。雨把整片瓦打成深色。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-07.webp)
+![明治四十年指定的鐘樓。下段是袴腰——用木板包成外撇的裙狀，上層有高欄與連子窗，入母屋造本瓦葺。雨把整片瓦打成深色。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-07.jpg)
 
-![從側面看三重塔與相鄰的堂宇。石燈籠的基座下擺著一排小石佛。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-03.webp)
+![從側面看三重塔與相鄰的堂宇。石燈籠的基座下擺著一排小石佛。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-03.jpg)
 
-![境內石垣上方的石塔，塔身正面刻著一個梵字，上方是請花與長長的相輪。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-08.webp)
+![境內石垣上方的石塔，塔身正面刻著一個梵字，上方是請花與長長的相輪。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-08.jpg)
 
 ## 四百組金剛講與一座誰都能進的寺
 
@@ -153,7 +153,7 @@
 祠前因此堆滿了寫著姓名與年齡的小石。另一處是韋馱天堂，腳有毛病的人在那裡奉納藁草履，
 求的是能走路。
 
-![另一座開放式的鐘樓，四柱撐起銅板葺的屋頂，鐘垂在中央。右側是繪馬與おみくじ（omikuji，籤詩）的木架，掛滿了木牌。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-06.webp)
+![另一座開放式的鐘樓，四柱撐起銅板葺的屋頂，鐘垂在中央。右側是繪馬與おみくじ（omikuji，籤詩）的木架，掛滿了木牌。](https://chrisincite.github.io/shrine-img/img/88-ishiteji-06.jpg)
 
 ## 祭儀與授与品
 
@@ -216,6 +216,6 @@ Google 的地形底圖，加上實際走的路線與各段里程。**正北朝�
 所以圖上的左右就是這條路的東西——左邊是溫泉，右邊是寺，再右邊是石手川出山口的岩堰。
 背景那片綠是愛宕山，寺就貼在它的南麓。
 
-![石手寺晨間路線圖：道後溫泉驛出發，經道後溫泉本館、伊佐爾波神社、義安寺，沿縣道往東到石手寺與岩堰，回程下到石手川左岸再經湯築城跡回驛](https://chrisincite.github.io/shrine-img/img/88-ishiteji-map.webp)
+![石手寺晨間路線圖：道後溫泉驛出發，經道後溫泉本館、伊佐爾波神社、義安寺，沿縣道往東到石手寺與岩堰，回程下到石手川左岸再經湯築城跡回驛](https://chrisincite.github.io/shrine-img/img/88-ishiteji-map.jpg)
 
 *底圖 © Google，路線與標記為本站自繪。*

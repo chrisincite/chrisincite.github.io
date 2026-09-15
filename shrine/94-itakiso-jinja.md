@@ -18,7 +18,7 @@
 
 拜殿旁立著一截燒黑的杉木古幹，中間裂開一個人能鑽過去的洞。
 
-![伊太祈曾神社的御神木大杉古幹：直立、頂部加了金屬蓋，腰部繞著注連繩與紙垂，正面裂開一道由下而上的縱洞，前方是社務所立的手寫木牌](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-01.webp)
+![伊太祈曾神社的御神木大杉古幹：直立、頂部加了金屬蓋，腰部繞著注連繩與紙垂，正面裂開一道由下而上的縱洞，前方是社務所立的手寫木牌](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-01.jpg)
 
 ## 它讓出過自己的社地之認定
 
@@ -30,7 +30,7 @@
 在亥の森過了約七百年之後，大寶二年（702）下了三社分遷的勅命，
 「十一年後の**和銅六年（七一三）**この地に鎮座になりました」。
 
-![伊太祈曾神社境內的綠框協贊立牌「有功殿の新築・表參道整備事業」：右段是壓縮版由緒，記著從日前宮的地遷到亥の森、大寶二年三社分遷、和銅六年鎮座現地](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-05.webp)
+![伊太祈曾神社境內的綠框協贊立牌「有功殿の新築・表參道整備事業」：右段是壓縮版由緒，記著從日前宮的地遷到亥の森、大寶二年三社分遷、和銅六年鎮座現地](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-05.jpg)
 七〇二加十一等於七一三，年號與西曆對得上，敘述內部是自洽的。
 更前面那一段——垂仁天皇十六年因日前宮鎮座而讓地——屬於記紀傳說的年代，
 社傳如此記載，換算不出可靠的西曆。
@@ -66,7 +66,7 @@
 
 **這座神社的一之宮身分，是先被鐵路承認、才被觀光承認的。**
 
-![伊太祈曾神社表參道上的朱塗太鼓橋：低拱、紅欄杆，兩側是石燈籠；橋後是木造鳥居與上行的石階](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-03.webp)
+![伊太祈曾神社表參道上的朱塗太鼓橋：低拱、紅欄杆，兩側是石燈籠；橋後是木造鳥居與上行的石階](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-03.jpg)
 
 ## 參道形制及其空間效果
 
@@ -76,17 +76,17 @@
 石階上的鳥居是新的——木色還沒被風化，那是近年表參道整備的結果。
 石階兩側的狛犬（成對的守護石獸）蹲在刻著「獻」字的台座上。
 
-![伊太祈曾神社花崗岩石階上的木鳥居：木色還沒被風化，前方石造狛犬的台座刻著「獻」](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-04.webp)
+![伊太祈曾神社花崗岩石階上的木鳥居：木色還沒被風化，前方石造狛犬的台座刻著「獻」](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-04.jpg)
 
-![伊太祈曾神社石階與新鳥居的另一角度：鳥居後方參道繼續往上，兩側是高大的樟與杉](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-10.webp)
+![伊太祈曾神社石階與新鳥居的另一角度：鳥居後方參道繼續往上，兩側是高大的樟與杉](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-10.jpg)
 
 石階之上是**割拜殿**——一棟拜殿中央讓出通道、可以從底下穿過去的建築。
 站在它底下往前看，正面是本殿的中門，門扇上有金色的鏤空紋樣，
 兩盞白燈籠掛在左右，右側立著一匹石造的神馬。
 
-![從伊太祈曾神社的割拜殿底下往本殿方向看：頭頂橫樑上一排木札記著歷次的天皇獻幣，正面是中門，右側立著石造神馬](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-02.webp)
+![從伊太祈曾神社的割拜殿底下往本殿方向看：頭頂橫樑上一排木札記著歷次的天皇獻幣，正面是中門，右側立著石造神馬](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-02.jpg)
 
-![從伊太祈曾神社割拜殿的屋頂底下往外看：木格子的社殿、掛燈籠、繪馬掛與石階，右側是那截古幹](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-08.webp)
+![從伊太祈曾神社割拜殿的屋頂底下往外看：木格子的社殿、掛燈籠、繪馬掛與石階，右側是那截古幹](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-08.jpg)
 
 割拜殿的橫樑上釘著一排木札，記的是天皇的獻幣。
 四塊寫「天皇陛下　幣饌料」，分別是昭和三十七年五月二十一日、昭和四十六年十月二十三日、
@@ -104,9 +104,9 @@
 由**內務省直轄工程**重建，昭和十二年（1937）三月竣工。
 一座被記載了兩千年的神社，站著的建築只有八十幾年。
 
-![越過瑞垣（圍住本殿的內圈木柵）看伊太祈曾神社的本殿屋頂：檜皮葺的大屋頂上是千木與鰹木，金屬包頭，兩側脇殿的銅板屋頂低一階](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-06.webp)
+![越過瑞垣（圍住本殿的內圈木柵）看伊太祈曾神社的本殿屋頂：檜皮葺的大屋頂上是千木與鰹木，金屬包頭，兩側脇殿的銅板屋頂低一階](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-06.jpg)
 
-![伊太祈曾神社本殿與脇殿的屋頂在樹叢間露出來：檜皮的邊緣被日光切成一條亮線](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-09.webp)
+![伊太祈曾神社本殿與脇殿的屋頂在樹叢間露出來：檜皮的邊緣被日光切成一條亮線](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-09.jpg)
 
 ## 四月的第一個週日，鏈鋸在本殿前開動
 
@@ -124,7 +124,7 @@
 「木を伐るチェンソーで丸太を彫刻するチェンソーアートは『チェンソーカービング』とも云われ」，
 題材是狗、熊、貓頭鷹。
 
-![伊太祈曾神社境內牆上的兩件掲示：手繪鳥瞰的境內案內圖，以及介紹鏈鋸雕刻的白底木框說明「世界チャンピオン　城所啓二氏の　チェンソー・カービング」](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-07.webp)
+![伊太祈曾神社境內牆上的兩件掲示：手繪鳥瞰的境內案內圖，以及介紹鏈鋸雕刻的白底木框說明「世界チャンピオン　城所啓二氏の　チェンソー・カービング」](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-07.jpg)
 同一天境內還擺著青空市，賣的是當天早上才從山東地區的竹林裡挖出來的竹筍。
 一場祭典裡有三種木頭的用法：神話裡播下去的樹種、鏈鋸底下的圓木、
 以及竹子——而竹筍是被吃掉的那一種。
@@ -183,7 +183,7 @@
 4. 亥の森 → **都麻津姬神社**（平尾），1.6 公里、22 分鐘
 5. 都麻津姬神社 → 伊太祈曾驛，803 公尺、11 分鐘
 
-![伊太祈曾神社晨間路線圖：從伊太祈曾驛往南到神社，再往東南到舊社地亥の森，折向西北到平尾的都麻津姬神社後回到車站，各段標著〇點三、〇點八、一點六、〇點八公里，右側是和田川](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-map.webp)
+![伊太祈曾神社晨間路線圖：從伊太祈曾驛往南到神社，再往東南到舊社地亥の森，折向西北到平尾的都麻津姬神社後回到車站，各段標著〇點三、〇點八、一點六、〇點八公里，右側是和田川](https://chrisincite.github.io/shrine-img/img/94-itakiso-jinja-map.jpg)
 
 ▲ 為什麼是這三個點
 因為它們是同一件事的三個位置。現社地是七一三年以後的，

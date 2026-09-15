@@ -19,7 +19,7 @@
 爬上去以後境內忽然平開，兩萬八千平方公尺的草坡與樹。
 草坡上站著鹿，看見人也不走。
 
-![厚岸神社的拜殿，紅色鐵板豎葺的兩坡屋頂，屋脊兩端與正中各立千木、其間分列鰹木，前面另出一個向拜破風，前景一對石燈籠刻「奉納」](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-01.webp)
+![厚岸神社的拜殿，紅色鐵板豎葺的兩坡屋頂，屋脊兩端與正中各立千木、其間分列鰹木，前面另出一個向拜破風，前景一對石燈籠刻「奉納」](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-01.jpg)
 
 ## 教化與鎮護之認定
 
@@ -48,7 +48,7 @@
 一座神社的社寶不是鏡也不是劍，是一塊宣告港口戰略價值的石頭。
 起源在這裡不需要推測，官方的由緒自己寫得很清楚。
 
-![厚岸神社的白色一之鳥居與背後又直又陡的石段，左邊是木構紅屋頂的手水舍，水盤石台旁擺著幾顆綠色與藍色的玻璃浮球](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-02.webp)
+![厚岸神社的白色一之鳥居與背後又直又陡的石段，左邊是木構紅屋頂的手水舍，水盤石台旁擺著幾顆綠色與藍色的玻璃浮球](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-02.jpg)
 
 ## 立地非屬偶然
 
@@ -76,7 +76,7 @@
 是北海道最早的海上橋；在那之前，兩岸靠渡船往來。
 一座總鎮守被水和自己的氏子隔開了將近六十年。
 
-![從道の駅厚岸グルメパーク的磚鋪露臺望出去，欄杆外是整片厚岸市街的屋頂，再過去是一道低矮的岬與開闊的水面](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-08.webp)
+![從道の駅厚岸グルメパーク的磚鋪露臺望出去，欄杆外是整片厚岸市街的屋頂，再過去是一道低矮的岬與開闊的水面](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-08.jpg)
 
 ## 參道形制及其空間效果
 
@@ -103,7 +103,7 @@
 有母有子，看見人也不走。牠們比人先到，也比人自在。
 一座氏子一千戶的鄉社，境內的常住人口是鹿。
 
-![厚岸神社通往社殿的砂利道被四頭蝦夷鹿擋著，其中一頭是幼鹿，路面散著紅色的落葉](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-03.webp)
+![厚岸神社通往社殿的砂利道被四頭蝦夷鹿擋著，其中一頭是幼鹿，路面散著紅色的落葉](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-03.jpg)
 
 ## 一次海難換來的養殖技術
 
@@ -125,7 +125,7 @@
 一場一百七十多年前的救難，換回一套讓這個町的名字重新掛在牡蠣上的技術。
 這件事沒有寫在神社的任何一塊牌子上，但它就發生在神社看得見的那片水域裡。
 
-![厚岸神社境內斜坡的樹下，三頭鹿低頭吃草，樹縫底下看得見市街的屋頂與水面](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-07.webp)
+![厚岸神社境內斜坡的樹下，三頭鹿低頭吃草，樹縫底下看得見市街的屋頂與水面](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-07.jpg)
 
 ## 祭儀與授与品
 
@@ -138,16 +138,16 @@
 玻璃磚的窗、木頭的櫃、牆上貼著 AED 的告示，
 角落立著一面太鼓，旁邊擺著寫有「祈　交通安全」的木牌。
 
-![厚岸神社授与所的內部，玻璃磚的窗、木頭的櫃，角落立著一面太鼓，旁邊擺著寫有「祈 交通安全」的木牌](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-06.webp)
+![厚岸神社授与所的內部，玻璃磚的窗、木頭的櫃，角落立著一面太鼓，旁邊擺著寫有「祈 交通安全」的木牌](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-06.jpg)
 
 真正的主角在櫃子上。一個發泡保麗龍的牡蠣箱，箱身印著厚岸產牡蠣業者的社名，
 裡面鋪著藍色的塑膠布，躺著一整排包裝好的牡蠣——每一顆都是御神籤。
 旁邊架著一個小烤台，鐵網上再放幾顆；另有一個銀色的圓盤，
 盤裡鋪滿透明的碎冰，牡蠣像生蠔一樣攤在冰上。櫃子後面坐著一隻白色的牡蠣布偶。
 
-![厚岸神社的幸牡蠣あつめみくじ（sachi-kaki atsume mikuji，招福牡蠣御神籤）：銀盤上鋪著透明碎冰，包裝好的牡蠣形御神籤像生蠔一樣攤在上面，後面貼著「北海道ご当地みくじシリーズ えぞみくじ」的道內分布圖](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-04.webp)
+![厚岸神社的幸牡蠣あつめみくじ（sachi-kaki atsume mikuji，招福牡蠣御神籤）：銀盤上鋪著透明碎冰，包裝好的牡蠣形御神籤像生蠔一樣攤在上面，後面貼著「北海道ご当地みくじシリーズ えぞみくじ」的道內分布圖](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-04.jpg)
 
-![厚岸神社的牡蠣形御神籤放在發泡保麗龍的牡蠣出貨箱裡，旁邊架著一個小烤台，鐵網上再放幾顆](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-05.webp)
+![厚岸神社的牡蠣形御神籤放在發泡保麗龍的牡蠣出貨箱裡，旁邊架著一個小烤台，鐵網上再放幾顆](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-05.jpg)
 
 這是「えぞみくじ」（Ezo mikuji，蝦夷御神籤），北海道的在地御神籤系列，
 把各地的特產當成「地域的寶物」做成張子，籤紙用北海道方言寫，
@@ -218,6 +218,6 @@ Google 的底圖，加上實際走的路線與各段里程。
 厚岸神社、國泰寺與鄉土館在下方的湖南，中間那個把兩塊接起來的點就是厚岸大橋。
 左上的水是厚岸湖，右邊的水是厚岸灣。
 
-![厚岸神社晨間路線圖：厚岸驛、道の駅厚岸グルメパーク（コンキリエ）、厚岸大橋、厚岸神社、國泰寺、厚岸町鄉土館，紅線標出 8.5 公里的步行環路與各段里程](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-map.webp)
+![厚岸神社晨間路線圖：厚岸驛、道の駅厚岸グルメパーク（コンキリエ）、厚岸大橋、厚岸神社、國泰寺、厚岸町鄉土館，紅線標出 8.5 公里的步行環路與各段里程](https://chrisincite.github.io/shrine-img/img/127-akkeshi-jinja-map.jpg)
 
 *底圖 © Google，路線與標記為本站自繪。*

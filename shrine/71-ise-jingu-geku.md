@@ -20,7 +20,7 @@
 再遠一點是勢田川邊的倉庫群。這一圈四公里出頭，
 而它繞著的那位神，管的是吃飯這件事。
 
-![正宮的外玉垣南御門](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-01.webp)
+![正宮的外玉垣南御門](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-01.jpg)
 
 *門前立一座木造神明鳥居，門本身是切妻造（兩坡的懸山頂）、茅葺（茅草屋頂），門洞裡垂著白絹的御幌，兩側掛白提燈。參拜者停在門前，正宮只能從這裡望進去。*
 
@@ -46,7 +46,7 @@
 不同格，卻先祭——神宮的祭典有外宮先祭的慣例，因為要先祭御饌都神，
 內宮的祭儀才辦得成。參拜的次序跟著祭典的次序走，所以是外宮先、內宮後。
 
-![御敷地與立札](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-02.webp)
+![御敷地與立札](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-02.jpg)
 
 *正宮旁邊一塊與正宮同大的白石空地，被木樁與繩圍起來。中央偏右立著高大的白色立札，上書「第六十三回　式年遷宮御敷地」。後方是板垣與正宮的茅葺屋根，四周巨杉。*
 
@@ -76,7 +76,7 @@
 在大治三年（1128）由田社昇為別宮。一座在境內、背對著山的別宮，
 真正管的是一公里半外那條川的堤防。
 
-![御敷地中央的覆屋](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-03.webp)
+![御敷地中央的覆屋](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-03.jpg)
 
 *白石鋪成的長方形空地，中央一座極小的覆屋，四周圍著麻繩。覆屋裡收的是心御柱——正殿中央床下的那根柱子。*
 
@@ -124,15 +124,15 @@
 還有一處差別只有比對兩宮才看得出來：外幣殿在外宮位於御垣內，
 在內宮則在御垣之外。同一種建物，兩宮把它放在界線的兩邊。
 
-![御料酒的菰樽](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-04.webp)
+![御料酒的菰樽](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-04.jpg)
 
 *五層白色酒樽排在木造棚架下，左前方的木製立札刻著「神宮御料酒　灘西宮　白鷹株式会社」。右後方是銅板葺（銅板鋪成的屋頂）屋根、白壁的小建物。地面是白玉砂利。*
 
-![表參道的木造鳥居](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-05.webp)
+![表參道的木造鳥居](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-05.jpg)
 
 *木造神明鳥居立在玉砂利上，前方左右各一座木製燈籠。背後是石垣與濃密的照葉樹林，午後四點半的光只剩樹頂還亮著。*
 
-![南御門的近景](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-06.webp)
+![南御門的近景](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-06.jpg)
 
 *茅葺屋根的厚度與屋脊上那排鰹木。門洞裡是白絹的御幌，左右各懸一盞白提燈，燈上有小屋根。左側是白木的玉垣柵。*
 
@@ -163,7 +163,7 @@
 神嘗祭附隨的初穗曳也是同一套分工，外宮陸曳在十月十五日，內宮川曳在十六日。
 一座沒有大河穿過的神宮，連運木頭都是走路的。
 
-![板垣與杉](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-07.webp)
+![板垣與杉](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-07.jpg)
 
 *黑色板塀（木板圍牆）沿著參道延伸，塀上等距垂著白紙垂（夾在注連繩上的鋸齒形白紙）。右側巨杉的樹冠被低斜的日照染成金色，地面是寬闊的玉砂利。*
 
@@ -201,7 +201,7 @@
 而外宮境內正好有一座勾玉形狀的池，まがたま池（Magatama-ike），
 每年六月頃花菖蒲在池邊開，せんぐう館（Sengukan，式年遷宮的資料館）就在池畔。
 
-![板垣沿線的參道](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-08.webp)
+![板垣沿線的參道](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-08.jpg)
 
 *同一道板塀往深處延伸，杉的樹冠在藍天下亮成一片金色。參道寬得可以並排走十個人，地面全是玉砂利，走起來聲音很大。*
 
@@ -236,6 +236,6 @@
 最後一個限制是這條路線的核心不在外面——境內佔掉一小時，
 而境內裡最值得站久一點的地方，是那塊什麼都沒有的空地。
 
-![外宮周邊散策圖](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-09.webp)
+![外宮周邊散策圖](https://chrisincite.github.io/shrine-img/img/71-ise-jingu-geku-09.jpg)
 
 *出典：《伊勢〜日本の源へ〜 伊勢市観光ガイドマップ》（發行 公益社団法人 伊勢市観光協会，2026年3月）。正北朝上。伊勢市站在圖的中央，外宮的綠地在它的西南，高柳商店街在西北，河崎在東北的勢田川沿岸。*

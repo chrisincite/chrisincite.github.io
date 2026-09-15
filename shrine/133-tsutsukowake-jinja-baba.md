@@ -16,7 +16,7 @@
 搬走的是建築，留在原地的是一棵欅——當年的御神木，如今長在城跡裡，
 比城活得久。
 
-![石板參道與成對的石燈籠](https://chrisincite.github.io/shrine-img/img/133-tsutsukowake-jinja-baba-01.webp)
+![石板參道與成對的石燈籠](https://chrisincite.github.io/shrine-img/img/133-tsutsukowake-jinja-baba-01.jpg)
 
 *參道由兩列切石鋪成，窄得只容並肩。兩側石燈籠成對，最外面那一對臺座高過人的腰。杉的直幹與新綠的落葉樹交錯，正前方是拜殿。*
 
@@ -91,7 +91,7 @@
 官方對它的年代記載只有「江戶末期」四個字。從裡側的鳥居下往東南回望，
 門洞把參道的另一端框成一個方形的暗處，而門的另一邊就是町。
 
-![從鳥居下回望隨身門](https://chrisincite.github.io/shrine-img/img/133-tsutsukowake-jinja-baba-02.webp)
+![從鳥居下回望隨身門](https://chrisincite.github.io/shrine-img/img/133-tsutsukowake-jinja-baba-02.jpg)
 
 *從裡側的木造鳥居下往東南回望。三間一戶的隨身門，屋頂銅板葺，左右兩間裝木格柵，門前一對石燈籠。兩側是朱色屋簷的木造玉垣（圍出神域的矮柵）。*
 
@@ -100,7 +100,7 @@
 四周圍著朱塗的木造透塀，拜殿前另立一座素木（不上漆的原木）的明神鳥居，
 笠木上覆的銅板已生綠青，注連繩（標示神域的稻草繩）垂下五束紙垂（夾在注連繩上的鋸齒形白紙）。官方把拜殿的年代寫作江戶中期。
 
-![拜殿正面與素木的明神鳥居](https://chrisincite.github.io/shrine-img/img/133-tsutsukowake-jinja-baba-03.webp)
+![拜殿正面與素木的明神鳥居](https://chrisincite.github.io/shrine-img/img/133-tsutsukowake-jinja-baba-03.jpg)
 
 *拜殿正面。入母屋造，屋頂的銅板氧化成灰白色；中央伸出一間向拜，覆唐破風。前方是素木的明神鳥居，笠木上的銅板已生綠青，注連繩垂下五束紙垂。四周圍著朱塗的木造透塀。*
 
@@ -121,7 +121,7 @@
 刻的是：「破竹会　還暦記念　平成五年一月」。一群同年出生的人，
 在滿六十歲那年的一月，把一座燈籠立在了這裡。平成五年是一九九三年。
 
-![刻著「破竹会　還暦記念」的燈籠臺座](https://chrisincite.github.io/shrine-img/img/133-tsutsukowake-jinja-baba-04.webp)
+![刻著「破竹会　還暦記念」的燈籠臺座](https://chrisincite.github.io/shrine-img/img/133-tsutsukowake-jinja-baba-04.jpg)
 
 *參道旁石燈籠的臺座。黑色石板刻「破竹会　還暦記念　平成五年一月」，下方另一塊板刻著奉納者的姓名與緣由，字已風化得讀不清。*
 
@@ -180,7 +180,7 @@
 伊野地藏的櫻（0.15公里），然後才向西北走0.65公里，抵達馬場都々古別神社。
 神社是倒數第三站，不是終點。
 
-![棚倉町的官方散策圖](https://chrisincite.github.io/shrine-img/img/133-tsutsukowake-jinja-baba-05.webp)
+![棚倉町的官方散策圖](https://chrisincite.github.io/shrine-img/img/133-tsutsukowake-jinja-baba-05.jpg)
 
 *棚倉町發行的市街散策圖，下緣印著「城下町棚倉 まちなかおすすめコース」的分段距離與時間。車站在圖的右上，馬場都々古別神社在左，棚倉城跡在下方中央。出典：棚倉地区 まち歩きマップ（發行 棚倉町）。*
 

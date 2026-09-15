@@ -19,7 +19,7 @@
 換句話說，這座神社最古老的東西不是任何一棟建築，是兩堆沙。
 而往後走的那些國寶與重要文化財，全都是後來為了朝向那座山而蓋起來的。
 
-![細殿正面與兩基立砂](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-01.webp)
+![細殿正面與兩基立砂](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-01.jpg)
 
 *二之鳥居內正面的細殿與立砂。檜皮葺（檜樹皮層層鋪成的屋頂）屋頂、箱棟與鬼板，垂木木口成排釘著金色金具；中央階前罩著一層小屋頂，底下鋪紅毯、掛藍白幕。白砂上的兩座圓錐，是全境最古老的裝置。*
 
@@ -53,7 +53,7 @@
 神自己指定的祭具裡，一項是採深山的賢木立作神籬，一項是編葵與楓的蔓。
 今天境內的立砂與葵祭的雙葉葵，都還照著這份託辭在做。
 
-![「立砂」說明板](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-02.webp)
+![「立砂」說明板](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-02.jpg)
 
 *細殿前的白色說明板。全文把立砂定義為神籬與憑代，並指出鬼門撒淨砂的風俗以此為起源。神山的位置寫作「本殿の北北西二km奥」。*
 
@@ -82,7 +82,7 @@
 境內約23萬坪、76萬平方公尺。平成六年（1994）十二月，
 這片境內全域以「賀茂別雷神社」之名，成為世界文化遺產「古都京都の文化財」的構成資產之一。
 
-![境內案內板](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-03.webp)
+![境內案內板](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-03.jpg)
 
 *木造覆屋下的境內案內圖。右側解說欄依序寫神社名稱、御祭神、神樣的力量、神社的開始、社殿。下段列出摂社八座與末社十餘座，各自的御神德按職業與身體部位分派。*
 
@@ -93,7 +93,7 @@
 一之鳥居到二之鳥居之間是一大片草地，走在上面沒有遮蔽，
 所以二之鳥居之後迎面而來的不是壓迫，是兩座沙堆與一棟橫向展開的細殿。
 
-![二之鳥居](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-04.webp)
+![二之鳥居](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-04.jpg)
 
 *二之鳥居。朱塗的明神鳥居，笠木與島木黑塗，橫木下垂著注連繩（標示神域的稻草繩）與紙垂（夾在注連繩上的鋸齒形白紙）；穿過去就是鋪滿白砂的庭與立砂。*
 
@@ -132,19 +132,19 @@
 一棟四百年的國家重要文化財，日常的用途是在裡面替人祈禱、在簷下堆醬油箱。
 國寶2棟、重要文化財41棟，這是官網現在給的數字。
 
-![幣殿（祈禱殿）](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-05.webp)
+![幣殿（祈禱殿）](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-05.jpg)
 
 *幣殿正面。白色木牌寫「幣殿（へいでん）（祈祷殿）　寛永五年（一六二八年）造替　重要文化財」。緣下三個酒樽，旁邊堆著奉納的醬油箱。*
 
-![細殿與立砂的斜角](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-06.webp)
+![細殿與立砂的斜角](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-06.jpg)
 
 *從東側看細殿。白砂耙出直紋，兩座立砂立在繩欄之內；右後方架在高柱上的是橋殿，跨在ならの小川上。*
 
-![兩棟建物之間的檜皮葺屋簷](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-07.webp)
+![兩棟建物之間的檜皮葺屋簷](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-07.jpg)
 
 *仰角看兩棟社殿之間的窄縫。左側屋簷的切口可以直接數出檜皮一層一層疊起來的厚度，垂木成列，金色的釣燈籠掛在中央，右側牆邊垂著鎖樋。*
 
-![中門與直會殿・御棚屋](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-08.webp)
+![中門與直會殿・御棚屋](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-08.jpg)
 
 *中門一組。左右兩翼是直會殿（西局）與御棚屋（東局），白壁上掛著金色釣燈籠，底下是石垣。中央門上垂著白幕，紅布條寫「国宝・本殿特別参拝と ご神宝の拝観」。*
 
@@ -174,7 +174,7 @@
 一座神社為了一百年後的屋頂在山上種樹，一條街為了維持一條川的水質
 把取水與還水的動作寫進法規——這是同一件事的兩種寫法。
 
-![桧木里親制度的立牌](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-09.webp)
+![桧木里親制度的立牌](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-09.jpg)
 
 *貼在樓門朱漆柱與白壁上的立牌。左欄兩張照片分別標著「一本・壱拾万円（三十年生既植ヒノキ）」與「一本・五万円（ヒノキ苗木）」，下方是境內略圖，標出里親檜林的位置。*
 
@@ -213,7 +213,7 @@
 百大夫神社管喉嚨、鎮守神社管眼睛、福德神社管腰腿、梶田神社管下半身的病。
 一座神社把人的職業與身體拆成二十幾份，各配一座小神社。
 
-![世界遺產銅板](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-10.webp)
+![世界遺產銅板](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-10.jpg)
 
 *京都市設置的銅板。左半是等高線式的境內配置圖，附比例尺與方位盤；右半日英雙語，記載創建、寬永五年的再興、七回本殿造替，以及本殿形式的古制。末行寫「登録年月日　平成6年（1994）12月15日決定、17日登録」。*
 
@@ -251,6 +251,6 @@
 換句話說，除了本殿以外的一切。而本殿本來就不是給人看的，
 它是被安排來看那座山的。
 
-![上賀茂神社晨間散策地圖](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-11.webp)
+![上賀茂神社晨間散策地圖](https://chrisincite.github.io/shrine-img/img/140-kamigamo-jinja-11.jpg)
 
 *晨間散策路線。粗紅線是環線：一之鳥居 → 西村家別邸（社家町）→ 大田神社 → 深泥池 → 回一之鳥居，各段標的是那一段的步行距離與時間；細紅線是一之鳥居到本殿・權殿的境內參道。本殿所朝向的神山在畫面上緣之外、本殿背後約兩公里處。底圖為 Google Maps，路線與標記另行繪製。*

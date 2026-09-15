@@ -22,7 +22,7 @@
 
 一座神社把自己收起來的方式，比它打開的時候更說明它在哪裡。
 
-![深雪中的戶隱神社奧社參道隨神門，茅葺屋頂被雪蓋成一個渾圓的丘](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-01.webp)
+![深雪中的戶隱神社奧社參道隨神門，茅葺屋頂被雪蓋成一個渾圓的丘](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-01.jpg)
 
 ## 五社源出一座寺院之認定
 
@@ -49,7 +49,7 @@
 水與豐收之神，自古被當成水神、祈雨之神、齒痛之神與結緣之神。
 在天岩戶的諸神來到這座山之前，這裡本來拜的是它。
 
-![中社拜殿的金色扁額，刻著「戸隱神社」，周圍貼滿千社札](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-04.webp)
+![中社拜殿的金色扁額，刻著「戸隱神社」，周圍貼滿千社札](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-04.jpg)
 
 ## 立地非屬偶然
 
@@ -66,7 +66,7 @@
 兩個版本並排放著就好。神話解釋的是「為什麼是這裡」，
 地質解釋的是「為什麼長成這樣」，五社正好排在這道岩壁的腳下。
 
-![雪中的戶隱神社中社大鳥居，笠木上積著厚雪](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-02.webp)
+![雪中的戶隱神社中社大鳥居，笠木上積著厚雪](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-02.jpg)
 
 ## 參道形制及其空間效果
 
@@ -92,22 +92,22 @@
 它長在一個曾經住滿修驗者的聚落上面。人工林與院坊跡疊在一起，
 板子的說法是「人為與自然歷經歲月融合為一體的樣貌」。
 
-![奧社參道入口的大鳥居，雪深及膝](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-07.webp)
+![奧社參道入口的大鳥居，雪深及膝](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-07.jpg)
 
-![隨神門之後的杉並木，兩側是江戶初期植下的巨杉](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-08.webp)
+![隨神門之後的杉並木，兩側是江戶初期植下的巨杉](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-08.jpg)
 
-![縣指定天然記念物「戸隠神社奥社社叢」的解說板，立在雪地裡](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-09.webp)
+![縣指定天然記念物「戸隠神社奥社社叢」的解說板，立在雪地裡](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-09.jpg)
 
 中社那一邊的形制完全不同。石段短而陡，直上社殿，
 兩側是燈籠與雪；境內立著被指定為御神木的三本杉之一，
 樹幹粗到要退到路對面才拍得下來。奧社要用兩公里換高度，
 中社只用一段石段就換完。
 
-![中社的石段被壓雪填成一道白坡，兩側石燈籠只露出上半](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-03.webp)
+![中社的石段被壓雪填成一道白坡，兩側石燈籠只露出上半](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-03.jpg)
 
-![中社境內被指定為御神木的巨杉，根部圍著注連繩](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-05.webp)
+![中社境內被指定為御神木的巨杉，根部圍著注連繩](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-05.jpg)
 
-![中社社殿，屋簷垂著半公尺厚的雪簷](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-06.webp)
+![中社社殿，屋簷垂著半公尺厚的雪簷](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-06.jpg)
 
 ## 從院坊到宿坊
 
@@ -202,6 +202,6 @@
 把寶光社、火之御子社、中社、奧社參道入口、隨神門一路到奧社的關係畫在同一張圖上，
 連宿坊群與「かんみち（神道）」都標了出來。
 
-![長野市戸隠マップ 戸隠古道 WALK：寶光社、火之御子社、中社、奧社參道、隨神門、戶隱山的鳥瞰散策圖](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-map.webp)
+![長野市戸隠マップ 戸隠古道 WALK：寶光社、火之御子社、中社、奧社參道、隨神門、戶隱山的鳥瞰散策圖](https://chrisincite.github.io/shrine-img/img/04-togakushi-jinja-map.jpg)
 
 *長野市戸隠マップ 戸隠古道 WALK（發行 一般社団法人 戸隠観光協会）。*

@@ -21,7 +21,7 @@
 去看一個看起來什麼都沒有的小土丘。這座神社最早的地方在那裡，
 不在杉林裡。
 
-![冨士山大鳥居。朱紅的兩根主柱撐起黑色的笠木，笠木兩端上翹，中央掛著扁額。鳥居的正後方是隨神門與朱塗的社殿，左右是苔痕遍布的石燈籠與石造的狛犬（こまいぬ komainu，成對守在神社入口的獸像），地面鋪碎石。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-01.webp)
+![冨士山大鳥居。朱紅的兩根主柱撐起黑色的笠木，笠木兩端上翹，中央掛著扁額。鳥居的正後方是隨神門與朱塗的社殿，左右是苔痕遍布的石燈籠與石造的狛犬（こまいぬ komainu，成對守在神社入口的獸像），地面鋪碎石。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-01.jpg)
 
 ## 遙拜之場先於社殿之認定
 
@@ -54,9 +54,9 @@
 
 決定這塊地的從來不是社殿，是一個朝著山看的方向。
 
-![深褐色的說明板，直書。抄下的重點：種類為兩部型鳥居，全長五十八尺五寸（十七點七二公尺），現在這一座是昭和二十九年。左半是歷史一覽，從文明十二年（1480）造營到平成二十六年（2014）修理，共十五筆。板子右後方是石造的狛犬與朱紅的鳥居柱。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-02.webp)
+![深褐色的說明板，直書。抄下的重點：種類為兩部型鳥居，全長五十八尺五寸（十七點七二公尺），現在這一座是昭和二十九年。左半是歷史一覽，從文明十二年（1480）造營到平成二十六年（2014）修理，共十五筆。板子右後方是石造的狛犬與朱紅的鳥居柱。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-02.jpg)
 
-![木柵圍起來的一株巨木，樹幹上綁著粗的注連繩（しめなわ shimenawa，標示神域的稻草繩）並垂下紙垂（しで shide，摺成階梯狀的白紙），旁邊立一塊木牌題「冨士夫婦檜」，牌上另註樹齡千年。柵欄上掛著一張手寫的小紙：「蜂に注意」。左後方是幣拜殿的側面，右後方是朱塗的東宮一帶。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-09.webp)
+![木柵圍起來的一株巨木，樹幹上綁著粗的注連繩（しめなわ shimenawa，標示神域的稻草繩）並垂下紙垂（しで shide，摺成階梯狀的白紙），旁邊立一塊木牌題「冨士夫婦檜」，牌上另註樹齡千年。柵欄上掛著一張手寫的小紙：「蜂に注意」。左後方是幣拜殿的側面，右後方是朱塗的東宮一帶。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-09.jpg)
 
 ## 立地非屬偶然
 
@@ -88,7 +88,7 @@
 讓兩根朱紅的柱子把它框起來。這座神社把山藏起來，
 只留下一條朝著它走的路——這是遙拜所留給後世的空間安排。
 
-![參道中段往裡看。兩排極高的杉把天空封成一條縫，光只從樹冠落下幾道；中間灰白的碎石路一直延伸到看不見盡頭的地方，兩側整排石燈籠，燈籠的笠與基座都長著苔。這片杉林就是由緒書所說「圍著拜殿的巨木」。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-03.webp)
+![參道中段往裡看。兩排極高的杉把天空封成一條縫，光只從樹冠落下幾道；中間灰白的碎石路一直延伸到看不見盡頭的地方，兩側整排石燈籠，燈籠的笠與基座都長著苔。這片杉林就是由緒書所說「圍著拜殿的巨木」。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-03.jpg)
 
 ## 參道形制及其空間效果
 
@@ -150,15 +150,15 @@
 另一株在西側，稱冨士太郎杉。兩株都用木柵圍起來，
 柵上另掛一張小紙，寫著「蜂に注意」——請注意蜂。
 
-![站在大鳥居底下往內看，前方是隨神門的正面。門是三間一戶的八腳門，銅板葺，柱子明顯粗於一般。門的兩側掛著白色的燈籠。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-04.webp)
+![站在大鳥居底下往內看，前方是隨神門的正面。門是三間一戶的八腳門，銅板葺，柱子明顯粗於一般。門的兩側掛著白色的燈籠。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-04.jpg)
 
-![從門底下往內看。柱與樑全漆成朱紅，樑上一整排彩色的雕刻，兩側掛著奉納的木札；門的另一頭是朱塗的社殿與白色的幟。元文元年（1736）村上光清大修理時重建，門內的隨神像卻有永正十七年（1520）的銘——門是新的，像是舊的。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-05.webp)
+![從門底下往內看。柱與樑全漆成朱紅，樑上一整排彩色的雕刻，兩側掛著奉納的木札；門的另一頭是朱塗的社殿與白色的幟。元文元年（1736）村上光清大修理時重建，門內的隨神像卻有永正十七年（1520）的銘——門是新的，像是舊的。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-05.jpg)
 
-![畫面左緣是神樂殿的簷與垂下的白色紙垂（しで shide，摺成階梯狀的白紙），中央隔著一片碎石廣場是幣拜殿的唐破風向拜，右側是授与所的一排窗口。拜殿左後方那株綁著注連繩的巨木就是冨士夫婦檜。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-06.webp)
+![畫面左緣是神樂殿的簷與垂下的白色紙垂（しで shide，摺成階梯狀的白紙），中央隔著一片碎石廣場是幣拜殿的唐破風向拜，右側是授与所的一排窗口。拜殿左後方那株綁著注連繩的巨木就是冨士夫婦檜。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-06.jpg)
 
-![仰看唐破風的向拜。破風底下是整片朱紅的木構與白色的雕刻——龍與獅子交錯——底下橫過一道粗的注連繩，垂著十來疊紙垂。左側立著一面日之丸，右側是一塊直立的木牌。元文四年（1739）村上光清建立，與後方的本殿連成權現造，平成二十九年指定重要文化財。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-07.webp)
+![仰看唐破風的向拜。破風底下是整片朱紅的木構與白色的雕刻——龍與獅子交錯——底下橫過一道粗的注連繩，垂著十來疊紙垂。左側立著一面日之丸，右側是一塊直立的木牌。元文四年（1739）村上光清建立，與後方的本殿連成權現造，平成二十九年指定重要文化財。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-07.jpg)
 
-![從參道上遠看幣拜殿。唐破風下的注連繩橫過整個正面，左右是奉納的白幟，前方階梯上有參拜者。屋根的曲面與簷下的雕刻在早上的側光下最清楚。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-08.webp)
+![從參道上遠看幣拜殿。唐破風下的注連繩橫過整個正面，左右是奉納的白幟，前方階梯上有參拜者。屋根的曲面與簷下的雕刻在早上的側光下最清楚。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-08.jpg)
 
 ## 江戶的講與上吉田的十四人
 
@@ -204,7 +204,7 @@
 同一頁上緊接著寫：因為公司與婚姻等社會條件的變化，
 符合資格的人越來越少，選人這件事，一年比一年難。
 
-![天井底下的橫木上釘著兩張面具：右邊朱紅、金牙、怒目的大天狗，左邊深褐、長喙、有鬍的烏天狗。兩者之間的木板寫「奉獻」，落款「元一葉山講中」。右側一整片欅木刻「千葉摩利山神明講／冨士淺間神社」，下方密排奉納者名。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-10.webp)
+![天井底下的橫木上釘著兩張面具：右邊朱紅、金牙、怒目的大天狗，左邊深褐、長喙、有鬍的烏天狗。兩者之間的木板寫「奉獻」，落款「元一葉山講中」。右側一整片欅木刻「千葉摩利山神明講／冨士淺間神社」，下方密排奉納者名。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-10.jpg)
 
 ## 祭儀與授与品
 
@@ -263,9 +263,9 @@
 規模較大、曲目成套的神樂）。這套神樂原本由富士山的御師代代相傳，
 現在由地元的神樂講在祭禮時奉納。
 
-![授与所裡的黑底木框板，題「実寸大」，按真實尺寸排出十九種神札，由左而右從最小的「天照皇大神宮」一路變大，到右端是一支與人同高的「冨士淺間神前橋神璽」。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-11.webp)
+![授与所裡的黑底木框板，題「実寸大」，按真實尺寸排出十九種神札，由左而右從最小的「天照皇大神宮」一路變大，到右端是一支與人同高的「冨士淺間神前橋神璽」。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-11.jpg)
 
-![手上攤開一張御神籤，旁邊放著一枚做成富士山形狀的小土鈴：藍色的山體、白色的雪冠、紅色的頂。這是這座神社把「御神體是那座山」講給參拜者的最短一句話。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-12.webp)
+![手上攤開一張御神籤，旁邊放著一枚做成富士山形狀的小土鈴：藍色的山體、白色的雪冠、紅色的頂。這是這座神社把「御神體是那座山」講給參拜者的最短一句話。](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-12.jpg)
 
 ## 晨間路線之擬定及其限制
 
@@ -308,4 +308,4 @@
 吉田胎內樹型更在中之茶屋西北一千三百公尺處且平時上鎖。
 那是另一趟半天的行程，不是早上兩小時裝得下的東西。
 
-![北口本宮冨士淺間神社晨間路線圖：紅色實線是金鳥居出發、經舊外川家住宅到神社、再繞大塚丘回金鳥居的四點〇五公里環路，四個紅底膠囊標著〇點四、一點四、〇點三、一點九公里的分段里程。左上的面板標明正北朝上、三百公尺比例尺，並註記富士山在圖框南方（圖外）、金鳥居八百〇三公尺對大塚丘八百八十八公尺的高差](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-map.webp)
+![北口本宮冨士淺間神社晨間路線圖：紅色實線是金鳥居出發、經舊外川家住宅到神社、再繞大塚丘回金鳥居的四點〇五公里環路，四個紅底膠囊標著〇點四、一點四、〇點三、一點九公里的分段里程。左上的面板標明正北朝上、三百公尺比例尺，並註記富士山在圖框南方（圖外）、金鳥居八百〇三公尺對大塚丘八百八十八公尺的高差](https://chrisincite.github.io/shrine-img/img/104-kitaguchi-hongu-fuji-sengen-map.jpg)

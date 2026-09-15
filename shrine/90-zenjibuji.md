@@ -22,7 +22,7 @@
 
 這座寺不是為了腳下那些村子蓋的。它是為了海上的船蓋的。
 
-![從寺的東側往南看。近處是山的斜面與墓地，中間是十市的聚落、溫室與水田，再過去是一整排延伸到畫面外的消波塊，最遠是土佐灣。這一段海岸的設計海嘯水位是 T.P.＋8.0 公尺。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-01.webp)
+![從寺的東側往南看。近處是山的斜面與墓地，中間是十市的聚落、溫室與水田，再過去是一整排延伸到畫面外的消波塊，最遠是土佐灣。這一段海岸的設計海嘯水位是 T.P.＋8.0 公尺。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-01.jpg)
 
 ## 為航行而非為聚落所建之認定
 
@@ -48,9 +48,9 @@
 一定先到這座寺向觀音祈求海路平安，因此有了這個稱呼。漁師也這樣叫。
 一尊觀音同時有官方的名字與海上的名字，而海上的那個更常被用。
 
-![「禪師峰寺略緣起」。寫著寺傳大同二年（807）弘法大師建一宇、為祈海上安全雕十一面觀音為本尊；山容似八葉蓮台故號八葉山；藩主從浦戶港出帆必先祈海路平安，故又稱船魂觀音；金剛力士像二軀為佛師定明作、正應四年、重要文化財，現在「保管庫で保存」。左端寫「南無大師遍照金剛」。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-02.webp)
+![「禪師峰寺略緣起」。寫著寺傳大同二年（807）弘法大師建一宇、為祈海上安全雕十一面觀音為本尊；山容似八葉蓮台故號八葉山；藩主從浦戶港出帆必先祈海路平安，故又稱船魂觀音；金剛力士像二軀為佛師定明作、正應四年、重要文化財，現在「保管庫で保存」。左端寫「南無大師遍照金剛」。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-02.jpg)
 
-![站在仰蓮台座上的石造十一面觀世音菩薩立像。黑底金字的台座刻著「西國十一面觀世音菩薩」，下方另有一塊「浄財」。背後是棕櫚與通信鐵塔。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-05.webp)
+![站在仰蓮台座上的石造十一面觀世音菩薩立像。黑底金字的台座刻著「西國十一面觀世音菩薩」，下方另有一塊「浄財」。背後是棕櫚與通信鐵塔。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-05.jpg)
 
 ## 立地非屬偶然
 
@@ -78,13 +78,13 @@
 八公尺的設計水位，八十二公尺的山。一座為了海而建的寺，
 剛好站在這條海岸線唯一站得住的地方。
 
-![從山上往南看整片標高零的平野：聚落、農地、道路，遠處是土佐灣的水平線。這是一片三十公里長的砂濱海岸的一段。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-06.webp)
+![從山上往南看整片標高零的平野：聚落、農地、道路，遠處是土佐灣的水平線。這是一片三十公里長的砂濱海岸的一段。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-06.jpg)
 
-![木製欄杆前，一個人站著往南看。欄杆之外是聚落、防風林與海。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-12.webp)
+![木製欄杆前，一個人站著往南看。欄杆之外是聚落、防風林與海。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-12.jpg)
 
-![山腳下的水田、溫室與縣道。畫面下緣有一塊紅色的「お願い」（o-negai，請託）告示牌。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-08.webp)
+![山腳下的水田、溫室與縣道。畫面下緣有一塊紅色的「お願い」（o-negai，請託）告示牌。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-08.jpg)
 
-![往東看出去的丘陵與平野，最遠處是海與市街。峰山是這一帶少數的高處。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-07.webp)
+![往東看出去的丘陵與平野，最遠處是海與市街。峰山是這一帶少數的高處。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-07.jpg)
 
 ## 伽藍配置及其空間效果
 
@@ -118,9 +118,9 @@
 山容像八葉的蓮台——這句話值得回頭想一次。如果整座山就是那朵蓮，
 那麼這些擠在岩縫之間的小堂並不是伽藍的全部，山本身才是。
 
-![被風化成一片片直立薄刃的岩壁，表面全是縱向深溝。岩下有一池綠水，水前立著持劍的不動明王石像，兩側是金屬製的蓮花供花。靈場會形容這座寺「境內樹木覆蓋，怪異的岩石很多，氣氛幽寂」。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-03.webp)
+![被風化成一片片直立薄刃的岩壁，表面全是縱向深溝。岩下有一池綠水，水前立著持劍的不動明王石像，兩側是金屬製的蓮花供花。靈場會形容這座寺「境內樹木覆蓋，怪異的岩石很多，氣氛幽寂」。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-03.jpg)
 
-![木造的本堂，架在木柱上抬離地面，簷下斗栱層層挑出，正面掛白幕，幕上有寺紋。堂前立著圖文並列的說明板與白色石燈籠，右下角的立牌寫「本堂」。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-04.webp)
+![木造的本堂，架在木柱上抬離地面，簷下斗栱層層挑出，正面掛白幕，幕上有寺紋。堂前立著圖文並列的說明板與白色石燈籠，右下角的立牌寫「本堂」。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-04.jpg)
 
 ## 船魂觀音與山下那戶人家
 
@@ -142,7 +142,7 @@
 一座為了海上安全而建的寺，山下住著一個把土佐推向幕末政治風暴中心的人。
 兩件事沒有因果關係，只是共用同一座山腳。
 
-![同一位置的另一張。畫面右側可以看到海岸線一直延伸到遠方的岬。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-13.webp)
+![同一位置的另一張。畫面右側可以看到海岸線一直延伸到遠方的岬。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-13.jpg)
 
 ## 祭儀與授与品
 
@@ -195,11 +195,11 @@
 想再加一段的話，遍路道往西北兩點五公里（車道距離）是武市半平太的舊宅與瑞山神社，
 走縣道二四七號約三十五分鐘。再往西就是三十三番雪蹊寺，中間要靠高知縣營渡船跨浦戶灣。
 
-![從山道上往北看下去，路彎下坡，前方是水田與集落，更遠是低矮的丘陵。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-09.webp)
+![從山道上往北看下去，路彎下坡，前方是水田與集落，更遠是低矮的丘陵。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-09.jpg)
 
-![「32　禪師峰寺」的案內板，附一張簡略的路線圖，下緣印著高知縣交通的巴士案內。站牌就在縣道十四號旁的登山口。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-10.webp)
+![「32　禪師峰寺」的案內板，附一張簡略的路線圖，下緣印著高知縣交通的巴士案內。站牌就在縣道十四號旁的登山口。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-10.jpg)
 
-![「歴史とグルメの街　南国市 NANKOKU CITY MAP」（歷史與美食之街・南國市）的觀光案內板。市域全圖，比例尺看不出峰山與石土池的高差關係。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-11.webp)
+![「歴史とグルメの街　南国市 NANKOKU CITY MAP」（歷史與美食之街・南國市）的觀光案內板。市域全圖，比例尺看不出峰山與石土池的高差關係。](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-11.jpg)
 
 ▲ 接下來往哪走
 同一條遍路道上的其他篇：[石手寺](88-ishiteji.md)（松山，五十一番）、[南光坊](85-nankobo.md)（今治，五十五番）。
@@ -211,6 +211,6 @@ Google 的地形底圖，加上實際走的路線與各段里程。**正北朝�
 再往下那片綠與白是標高幾近於零的平野，最下方是土佐灣。
 紅線是沿池的道路，藍色虛線是上寺的那一段。
 
-![禪師峰寺晨間路線圖：石土池的沿池道路繞一圈，南岸往東岔出虛線上到峰寺通與禪師峰寺，畫面下方是土佐灣與零標高的平野](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-map.webp)
+![禪師峰寺晨間路線圖：石土池的沿池道路繞一圈，南岸往東岔出虛線上到峰寺通與禪師峰寺，畫面下方是土佐灣與零標高的平野](https://chrisincite.github.io/shrine-img/img/90-zenjibuji-map.jpg)
 
 *底圖 © Google，路線與標記為本站自繪。*

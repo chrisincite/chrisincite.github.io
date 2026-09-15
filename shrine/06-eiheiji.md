@@ -20,7 +20,7 @@
 街上有一棟四個月前才開的木造平屋，裡面賣富山來的錫器和群馬來的咖啡。
 它蓋在那裡，是這座寺自己的決定。
 
-![永平寺的廻廊，兩側是障子與玻璃窗，中間一段筆直往上的木階](https://chrisincite.github.io/shrine-img/img/06-eiheiji-01.webp)
+![永平寺的廻廊，兩側是障子與玻璃窗，中間一段筆直往上的木階](https://chrisincite.github.io/shrine-img/img/06-eiheiji-01.jpg)
 
 ## 此地為道場而非寺院之認定
 
@@ -68,7 +68,7 @@
 而九頭龍川命名三說裡最早的那一說，主角正是平泉寺的白山權現。
 **同一座山的水，在山的兩側被兩種宗教用不同的方式接住。**
 
-![永平寺承陽殿一帶的白山水說明牌，木板上刻著日文與英文](https://chrisincite.github.io/shrine-img/img/06-eiheiji-06.webp)
+![永平寺承陽殿一帶的白山水說明牌，木板上刻著日文與英文](https://chrisincite.github.io/shrine-img/img/06-eiheiji-06.jpg)
 
 ## 伽藍配置及其空間效果
 
@@ -80,7 +80,7 @@
 盡頭永遠是另一段更高的階梯。走的人失去水平方向的判斷，只剩下高度感。
 這是這座寺最強的空間手法：**它不用牆把人圍住，用高度差把人一層一層往上送。**
 
-![二月雪中的永平寺伽藍，石段與庭園被壓成白色，屋脊的線在杉木之間浮出來](https://chrisincite.github.io/shrine-img/img/06-eiheiji-03.webp)
+![二月雪中的永平寺伽藍，石段與庭園被壓成白色，屋脊的線在杉木之間浮出來](https://chrisincite.github.io/shrine-img/img/06-eiheiji-03.jpg)
 
 **山門**是山內最老的一棟，寬延二年（1749）八月再建，中國唐代樣式的樓閣門。
 一樓兩側祀四天王，二樓安置五百羅漢。修行僧正式入門時要從這裡通過，
@@ -97,7 +97,7 @@
 本來是說法的道場，現在朝課與各種法要都在這裡。堂內天井的木構往四面撐開，
 橫樑上是連續的雕刻，而正面高處掛著一塊寫「祈禱」的木札。
 
-![永平寺法堂內部，天井木構往四面撐開，正面高處掛著寫「祈禱」的木札](https://chrisincite.github.io/shrine-img/img/06-eiheiji-04.webp)
+![永平寺法堂內部，天井木構往四面撐開，正面高處掛著寫「祈禱」的木札](https://chrisincite.github.io/shrine-img/img/06-eiheiji-04.jpg)
 
 **承陽殿**是道元的御真廟。明治十四年（1881）改裝，本殿在昭和五十六年（1981）改修過。
 現地木牌寫著：正面壇上深處奉安開山道元禪師與本山第二世懷奘禪師的尊像與靈骨，
@@ -110,20 +110,20 @@
 再在中央嵌一朵立體的花——遠看是織物，近看是花。
 一扇門把「面」和「點」兩種手法放進同一塊木頭裡。
 
-![永平寺承陽殿的說明牌與門扉，門板上先雕出網代紋樣當底，中央再嵌一朵立體的花](https://chrisincite.github.io/shrine-img/img/06-eiheiji-07.webp)
+![永平寺承陽殿的說明牌與門扉，門板上先雕出網代紋樣當底，中央再嵌一朵立體的花](https://chrisincite.github.io/shrine-img/img/06-eiheiji-07.jpg)
 
 **傘松閣**是參拜動線上第一個大空間。平成五年（1993）起花兩年再建，
 二樓是一百五十六疊的大廣間，別名「天井繪的大廣間」。
 格天井裡嵌著兩百三十枚花鳥繪——那些畫是**昭和五年（1930）建築當時的一百四十四位著名畫家**所繪，
 再建時修復後重新嵌回去的。**建築換了新的，天花板是舊的。**
 
-![永平寺傘松閣的天井繪大廣間，格天井裡嵌著兩百三十枚花鳥繪](https://chrisincite.github.io/shrine-img/img/06-eiheiji-02.webp)
+![永平寺傘松閣的天井繪大廣間，格天井裡嵌著兩百三十枚花鳥繪](https://chrisincite.github.io/shrine-img/img/06-eiheiji-02.jpg)
 
 廻廊的轉角上，鐵鏈垂著一面雲形的青銅板。禪寺以「鳴らし物」（narashimono，敲響報時的法器）通報全山的時刻，
 梵鐘之外還有這種金屬板，多半用在飯食之時。它掛的高度剛好在人的頭頂上方，不會擋路，
 但每個經過的人都會抬一次頭。
 
-![永平寺廻廊轉角以鐵鏈垂著的雲形青銅板](https://chrisincite.github.io/shrine-img/img/06-eiheiji-05.webp)
+![永平寺廻廊轉角以鐵鏈垂著的雲形青銅板](https://chrisincite.github.io/shrine-img/img/06-eiheiji-05.jpg)
 
 ## 把住宿搬到山門之外
 
@@ -158,9 +158,9 @@
 一件一件搬到自己的門外去。**理由不是排斥，正好相反：
 把它們搬出去，山門以內才回得去。
 
-![永平寺川的石積護岸，積雪壓在石縫上，對岸是門前的建物](https://chrisincite.github.io/shrine-img/img/06-eiheiji-09.webp)
+![永平寺川的石積護岸，積雪壓在石縫上，對岸是門前的建物](https://chrisincite.github.io/shrine-img/img/06-eiheiji-09.jpg)
 
-![Hikari Terrace 輝坊的木造平屋外觀，綠色看板寫著「ごはんカフェ」](https://chrisincite.github.io/shrine-img/img/06-eiheiji-10.webp)
+![Hikari Terrace 輝坊的木造平屋外觀，綠色看板寫著「ごはんカフェ」](https://chrisincite.github.io/shrine-img/img/06-eiheiji-10.jpg)
 
 ## 祭儀與授与品
 
@@ -203,7 +203,7 @@
 先走過它，再抬頭看山門，才看得出這條街是被還原的，不是被開發的。
 反過來走，它就只是一條伴手禮街。
 
-![永平寺門前的石畳參道，兩側是門前的店，正面是對山](https://chrisincite.github.io/shrine-img/img/06-eiheiji-08.webp)
+![永平寺門前的石畳參道，兩側是門前的店，正面是對山](https://chrisincite.github.io/shrine-img/img/06-eiheiji-08.jpg)
 
 ▲ 建議走法（早上出發，全程 2〜2.5 小時）
 1. 永平寺門前巴士站一帶起步
@@ -241,6 +241,6 @@
 ⚠️ 這張圖不是正北朝上——整張旋轉了約 90 度，永平寺境內在上、門前的街往下延伸，
 所以看它的時候只讀上下遠近，不要讀方位。
 
-![永平寺門前おさんぽMAP：永平寺境內、唐門、通用門、瑠璃聖寶閣、寂光苑、門前的店家、柏樹關、白山神社](https://chrisincite.github.io/shrine-img/img/06-eiheiji-map.webp)
+![永平寺門前おさんぽMAP：永平寺境內、唐門、通用門、瑠璃聖寶閣、寂光苑、門前的店家、柏樹關、白山神社](https://chrisincite.github.io/shrine-img/img/06-eiheiji-map.jpg)
 
 *永平寺門前おさんぽMAP（永平寺町観光物産協会）。*

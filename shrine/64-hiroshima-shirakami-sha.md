@@ -20,7 +20,7 @@
 
 那張白紙比祭神的名字更早。
 
-![白神社的正面，石段與一對石造常夜燈、一對狛犬，上方是寬闊的入母屋頂，屋簷之外直接是辦公大樓的外牆](https://chrisincite.github.io/shrine-img/img/64-hiroshima-shirakami-sha-01.webp)
+![白神社的正面，石段與一對石造常夜燈、一對狛犬，上方是寬闊的入母屋頂，屋簷之外直接是辦公大樓的外牆](https://chrisincite.github.io/shrine-img/img/64-hiroshima-shirakami-sha-01.jpg)
 
 ## 白紙先於神名之認定
 
@@ -33,7 +33,7 @@
 被拜的東西一開始不是神，是一塊會撞破船底的石頭；
 而讓它從危險變成神聖的，是人在上面做的那個記號。
 
-![從鳥居底下正對白神社拜殿，正面一整排柱子不設牆，注連繩垂三束紙垂，上方扁額直書「白神社」](https://chrisincite.github.io/shrine-img/img/64-hiroshima-shirakami-sha-02.webp)
+![從鳥居底下正對白神社拜殿，正面一整排柱子不設牆，注連繩垂三束紙垂，上方扁額直書「白神社」](https://chrisincite.github.io/shrine-img/img/64-hiroshima-shirakami-sha-02.jpg)
 
 那是什麼時候的事，市方的說明寫得很老實：「はっきりしません」——不清楚。
 創祀年不詳，但這片海本身可以定年。
@@ -90,7 +90,7 @@
 境內右側另有一列朱色的小鳥居，通往境內社常盤稻荷神社，
 那列鳥居的紅在灰色的城市底色裡特別跳。
 
-![白神社石段左側的狛犬，坐在粗鑿的石座上，右邊的石階踏面之間留著縫，光從底下透上來](https://chrisincite.github.io/shrine-img/img/64-hiroshima-shirakami-sha-03.webp)
+![白神社石段左側的狛犬，坐在粗鑿的石座上，右邊的石階踏面之間留著縫，光從底下透上來](https://chrisincite.github.io/shrine-img/img/64-hiroshima-shirakami-sha-03.jpg)
 
 一座神社通常靠參道的長度把外面隔掉。這裡沒有長度可用，
 只能靠高差——十級石段，就是全部的隔離。
@@ -196,6 +196,6 @@
 資料館、慰靈碑與原爆ドーム連成的那條南北軸在左邊，
 ひろしまゲートパーク在最上方，是那條軸線往北的延長。
 
-![白神社晨間路線圖：白神社、廣島平和記念資料館、原爆死沒者慰靈碑、原爆の子の像、原爆ドーム、ひろしまゲートパーク、袋町小學校平和資料館，紅線標出 2.94 公里的步行環路與各段里程](https://chrisincite.github.io/shrine-img/img/64-hiroshima-shirakami-sha-map.webp)
+![白神社晨間路線圖：白神社、廣島平和記念資料館、原爆死沒者慰靈碑、原爆の子の像、原爆ドーム、ひろしまゲートパーク、袋町小學校平和資料館，紅線標出 2.94 公里的步行環路與各段里程](https://chrisincite.github.io/shrine-img/img/64-hiroshima-shirakami-sha-map.jpg)
 
 *底圖 © Google，路線與標記為本站自繪。*

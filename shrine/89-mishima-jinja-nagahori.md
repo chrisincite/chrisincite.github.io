@@ -20,7 +20,7 @@
 
 回程走回同一條街，到城下才分岔，順道爬一次城山，全程五點三公里、一個半小時多一點。
 
-![石造明神鳥居與其後直上的石段。額束刻著「三島神社」，左右各一基石燈籠，基座上有奉獻的字樣。石段沒有折彎，兩側被玉垣與樹叢夾住，爬的時候只看得到前方的天空。](https://chrisincite.github.io/shrine-img/img/89-mishima-jinja-nagahori-01.webp)
+![石造明神鳥居與其後直上的石段。額束刻著「三島神社」，左右各一基石燈籠，基座上有奉獻的字樣。石段沒有折彎，兩側被玉垣與樹叢夾住，爬的時候只看得到前方的天空。](https://chrisincite.github.io/shrine-img/img/89-mishima-jinja-nagahori-01.jpg)
 
 ## 遷座後仍稱尾串森之認定
 
@@ -63,7 +63,7 @@
 氏子區域也照著這個地形展開：前半是城下町一個接一個的町名，
 後半整排是沿海的浦。山與海之間沒有什麼緩衝，這座神社剛好卡在兩者交會的坡上。
 
-![從拜殿前的平台往北看。近處是石燈籠與下方的鳥居，中間是長堀一帶的屋頂，最遠是宇和島東側連綿的山。爬上來的石段把風景關掉，是為了在最上面一次還給你。](https://chrisincite.github.io/shrine-img/img/89-mishima-jinja-nagahori-03.webp)
+![從拜殿前的平台往北看。近處是石燈籠與下方的鳥居，中間是長堀一帶的屋頂，最遠是宇和島東側連綿的山。爬上來的石段把風景關掉，是為了在最上面一次還給你。](https://chrisincite.github.io/shrine-img/img/89-mishima-jinja-nagahori-03.jpg)
 
 ## 參道形制及其空間效果
 
@@ -86,7 +86,7 @@
 最遠處是宇和島東側連綿的山。爬上來的那段石段把風景關掉，
 是為了在最上面一次還給你。
 
-![入母屋造瓦葺的拜殿，簷下垂著注連繩與紙垂，棟上有神紋，前庭鋪玉砂利，兩側是長條木椅。神社說本殿有一對室町時代中期所造的狛犬，職責是祓除本殿的邪氣。](https://chrisincite.github.io/shrine-img/img/89-mishima-jinja-nagahori-02.webp)
+![入母屋造瓦葺的拜殿，簷下垂著注連繩與紙垂，棟上有神紋，前庭鋪玉砂利，兩側是長條木椅。神社說本殿有一對室町時代中期所造的狛犬，職責是祓除本殿的邪氣。](https://chrisincite.github.io/shrine-img/img/89-mishima-jinja-nagahori-02.jpg)
 
 ## 從桝形町到蛤的氏子區域
 
@@ -113,7 +113,7 @@
 著者與發行者都寫著梶原計國，昭和二十九年（1954）出版——寫的是宇和島另一座神社的祭神。
 銅牌上只有名字，沒有生卒，也沒有職銜。
 
-![石段下方樹叢裡的西裝銅像，手裡捲著一份文件。台座上的銅牌只刻五個字：「梶原計國君」，沒有生卒，也沒有職銜。](https://chrisincite.github.io/shrine-img/img/89-mishima-jinja-nagahori-04.webp)
+![石段下方樹叢裡的西裝銅像，手裡捲著一份文件。台座上的銅牌只刻五個字：「梶原計國君」，沒有生卒，也沒有職銜。](https://chrisincite.github.io/shrine-img/img/89-mishima-jinja-nagahori-04.jpg)
 
 ## 祭儀與授与品
 
@@ -172,6 +172,6 @@ Google 的地形底圖，加上實際走的路線與各段里程。**正北朝�
 所以圖上的上下就是這座城的南北——右上角是城山與天守，左下角是神社與它的舊鎮座地，
 中間那片低平的白就是城下町。西側的藍是宇和島港。
 
-![三島神社（長堀）晨間路線圖：伊達博物館出發，經天赦園往南到三島神社與堀部公園，回程接國道往北到上り立ち門，登宇和島城天守後回到起點](https://chrisincite.github.io/shrine-img/img/89-mishima-jinja-nagahori-map.webp)
+![三島神社（長堀）晨間路線圖：伊達博物館出發，經天赦園往南到三島神社與堀部公園，回程接國道往北到上り立ち門，登宇和島城天守後回到起點](https://chrisincite.github.io/shrine-img/img/89-mishima-jinja-nagahori-map.jpg)
 
 *底圖 © Google，路線與標記為本站自繪。*

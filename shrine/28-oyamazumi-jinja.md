@@ -16,7 +16,7 @@
 再往後，三座山排在那裡——鷲ヶ頭山、安神山、小見山。
 本殿再建的年代前後畫成的一張古圖上，這三座山被畫成三位神各自的神體山。
 
-![大山祇神社的乎知命御手植の楠，主幹已經中空、樹皮向外翻捲，靠支柱與圍欄撐著，枝幹橫伸出去蓋住半個境內](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-01.webp)
+![大山祇神社的乎知命御手植の楠，主幹已經中空、樹皮向外翻捲，靠支柱與圍欄撐著，枝幹橫伸出去蓋住半個境內](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-01.jpg)
 
 ## 山神與海神同體之認定
 
@@ -32,7 +32,7 @@
 於是這位神在系譜上成了皇室第一外戚，由緒板寫作「日本民族の祖神」。
 勸請鎮祭的是大山積大神的子孫小千命（乎知命），時間據說在神武天皇東征之前。
 
-![大山祇神社的由緒板，銅板葺覆屋下的白底墨書，標題寫「日本總鎮守　大三島宮　大山祇神社由緒」](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-05.webp)
+![大山祇神社的由緒板，銅板葺覆屋下的白底墨書，標題寫「日本總鎮守　大三島宮　大山祇神社由緒」](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-05.jpg)
 
 現在這個位置不是最初的位置。神社官方記例祭日定在舊曆四月二十二日，
 理由是養老三年（七一九）四月二十二日遷座到現在的大三島町宮浦；
@@ -57,7 +57,7 @@
 一座神社每年從自己的神體山上取一次土，抹在人的額頭上。
 山與神社之間的關係在這裡被做成了一道每年執行一次的程序。
 
-![大山祇神社境內的手繪案內圖，把御本社、上津社、下津社、齋田、寶物館與後方三座山畫在同一張紙上](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-08.webp)
+![大山祇神社境內的手繪案內圖，把御本社、上津社、下津社、齋田、寶物館與後方三座山畫在同一張紙上](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-08.jpg)
 
 ## 參道形制及其空間效果
 
@@ -65,20 +65,20 @@
 穿過總門之後，空間突然放大：參道寬到不像參道，鋪石的路面中間再嵌一道石板帶，
 兩側是修剪過的土面與高大的樹。這段路走起來像廣場而不像通道。
 
-![大山祇神社的總門，朱漆兩層、瓦頂，門下兩側各有一對狛犬](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-02.webp)
+![大山祇神社的總門，朱漆兩層、瓦頂，門下兩側各有一對狛犬](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-02.jpg)
 
 寬度是有理由的。舊曆八月的產須奈大祭，御本社、上津社、下津社三基神轎
 要走單程約 4 公里的神幸路，島內各地的毛槍、獅子舞與山車全部集中到這裡。
 平日看起來過大的參道，一年裡有兩天剛好夠用。
 
-![大山祇神社總門之後的參道，鋪石路面中間再嵌一道石板帶，寬到不像通道像廣場，兩側是修剪過的土面與高大的樹](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-03.webp)
+![大山祇神社總門之後的參道，鋪石路面中間再嵌一道石板帶，寬到不像通道像廣場，兩側是修剪過的土面與高大的樹](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-03.jpg)
 
 參道盡頭不是社殿，是楠木。境內的楠群裡最老的一棵有天然記念物立牌，
 寫著「乎知命御手植の楠」，樹齡二六〇〇年，據傳是勸請大山積大神的乎知命親手所植。
 主幹已經中空、樹皮翻捲，靠支柱與圍欄撐著；本殿正對著它。
 先看到樹，才看到建築——這個順序不像是偶然。
 
-![天然記念物「乎知命御手植の楠」的立牌，記樹齡二六〇〇年，據傳是勸請大山積大神的乎知命親手所植](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-04.webp)
+![天然記念物「乎知命御手植の楠」的立牌，記樹齡二六〇〇年，據傳是勸請大山積大神的乎知命親手所植](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-04.jpg)
 
 社殿分三組。本殿三間社流造，胡粉與丹塗，屋頂檜皮葺，應永三十四年（一四二七）再建。
 拜殿桁行七間、梁間四間、切妻造、檜皮葺，正面加一個唐破風向拜，
@@ -89,7 +89,7 @@
 這組建築沒有高台，也沒有長石段，它是平地上的建築——
 垂直方向的力氣全部給了樹和後面那三座山。
 
-![從側面看大山祇神社的社殿群，檜皮葺的曲面與朱漆的木構疊成一排，屋脊上的千木與鰹木在楠木枝葉之間露出來](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-06.webp)
+![從側面看大山祇神社的社殿群，檜皮葺的曲面與朱漆的木構疊成一排，屋脊上的千木與鰹木在楠木枝葉之間露出來](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-06.jpg)
 
 ## 十三個地區與一塊齋田
 
@@ -134,7 +134,7 @@
 其中甲冑類佔全國國寶與重要文化財的約四成。大三島因此被叫做「國寶之島」。
 那些鎧甲與刀，是武將奉納給這位山神兼海神的授与品的反面——人給神的，不是神給人的。
 
-![大山祇神社境內成群的楠木，社殿被壓在樹冠底下，沒有高台也沒有長石段](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-07.webp)
+![大山祇神社境內成群的楠木，社殿被壓在樹冠底下，沒有高台也沒有長石段](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-07.jpg)
 
 ## 晨間路線之擬定及其限制
 
@@ -175,6 +175,6 @@ Google 的地形底圖，加上實際走的路線與各段里程。
 左邊是宮浦港與貼著海岸的路線，右邊是那塊山塊，中間那條窄窄的平地就是神社的位置。
 藍色的兩個點是不走的：小見山立石與鷲ヶ頭山。
 
-![大山祇神社晨間路線圖：宮浦港、大山祇神社、生樹の御門、安神山わくわくパーク、大三島美術館的環路，右側標出不走的小見山立石與鷲ヶ頭山](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-map.webp)
+![大山祇神社晨間路線圖：宮浦港、大山祇神社、生樹の御門、安神山わくわくパーク、大三島美術館的環路，右側標出不走的小見山立石與鷲ヶ頭山](https://chrisincite.github.io/shrine-img/img/28-oyamazumi-jinja-map.jpg)
 
 *底圖 © Google，路線與標記為本站自繪。*

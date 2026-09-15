@@ -20,7 +20,7 @@
 
 這塊丘陵上住過人的時間，比這座神社長得多。
 
-![雪後的櫛田神社拜殿正面，素木切妻造，屋脊上交叉的千木與一排鰹木，向拜下垂著粗注連繩，兩側堆著奉納菰樽](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-01.webp)
+![雪後的櫛田神社拜殿正面，素木切妻造，屋脊上交叉的千木與一排鰹木，向拜下垂著粗注連繩，兩側堆著奉納菰樽](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-01.jpg)
 
 ## 櫛與大蛇之認定
 
@@ -31,7 +31,7 @@
 那個紋在拜殿的白幕上、賽錢箱的正面都印著：深褐色的圓底裡一枚白色的梭形梳體，
 周緣密排短齒，中間立著一支帶柄的東西。看久了會發現，紋樣本身就是兩位主神的組合。
 
-![從向拜側面看櫛田神社的扁額與注連繩，粗繩上垂著紙垂，下方白幕印著一列深褐色的神紋](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-05.webp)
+![從向拜側面看櫛田神社的扁額與注連繩，粗繩上垂著紙垂，下方白幕印著一列深褐色的神紋](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-05.jpg)
 
 創祀年代不詳。社傳說是仲哀天皇的時代，武內宿禰奉大和朝廷之命來到這裡擔任齋主而創建；
 神社自己的說法是「千數百年前」，另有一說是大同二年（807）的勸請。
@@ -75,7 +75,7 @@
 一塊高出水田八到三十公尺的乾丘，東邊有水，四周是可耕的平地。
 繩文時代選中這裡的人，和後來把神社立在丘陵北端的人，看上的是同一件事。
 
-![櫛田神社的砂礫參道被剷出一條窄道，兩側積雪堆到小腿高，路微微上坡，盡頭是石階與更高處的社殿](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-02.webp)
+![櫛田神社的砂礫參道被剷出一條窄道，兩側積雪堆到小腿高，路微微上坡，盡頭是石階與更高處的社殿](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-02.jpg)
 
 ## 參道形制及其空間效果
 
@@ -84,7 +84,7 @@
 實走起來確實如此——砂礫路約兩百公尺，微微上坡，兩側是高大的杉與雜木，
 盡頭一段石階把人抬到社殿的高度。
 
-![從境內一處簷下望向櫛田神社的拜殿，石板路兩側是剷開的雪，左右各一座高石座上的狛犬與木造燈籠](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-03.webp)
+![從境內一處簷下望向櫛田神社的拜殿，石板路兩側是剷開的雪，左右各一座高石座上的狛犬與木造燈籠](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-03.jpg)
 
 石階上的拜殿是素木造的，木頭已經被風雪洗成灰褐色。切妻造平入（從有屋簷的長邊進入）的屋頂，
 正面加一座大型的千鳥破風（屋坡上另加的三角形山牆），破風底下是向拜；棟上有箱棟、兩端交叉的千木與一排鰹木，
@@ -103,7 +103,7 @@
 中央大字「櫛田神社」，左側落款「國務大臣　正力松太郎謹書」，底下一枚朱印。
 一塊延喜式內社（《延喜式》神名帳登載的神社）的匾，落款是一位戰後的閣員。
 
-![櫛田神社拜殿的扁額，外罩鐵絲網，金泥陰刻「延喜式内　櫛田神社」，左側落款「國務大臣　正力松太郎謹書」](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-04.webp)
+![櫛田神社拜殿的扁額，外罩鐵絲網，金泥陰刻「延喜式内　櫛田神社」，左側落款「國務大臣　正力松太郎謹書」](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-04.jpg)
 
 拜殿裡另有一面長達五公尺的大繪馬，畫的是賤ヶ岳之戰，騎白馬的是秀吉；
 作者是狩野派畫家藤原壽信，明治十年（1877）的作品。
@@ -138,7 +138,7 @@
 這片森林後來被指定為「とやま森林浴の森」與「富山の自然100選」，
 照神社的說法，長參道一路延伸的境內，四季各有不同的植物。
 
-![從櫛田神社拜殿的向拜下往外看，畫面上緣是印著神紋的白幕，底下是筆直退進林子的參道](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-06.webp)
+![從櫛田神社拜殿的向拜下往外看，畫面上緣是印著神紋的白幕，底下是筆直退進林子的參道](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-06.jpg)
 
 ## 祭儀與授与品
 
@@ -191,7 +191,7 @@
 5. **圓池**
 6. 沿縣道九號西行，回到參道口
 
-![從櫛田神社社殿前望向參道，石板路兩側是壓實的雪，遠處樹影之間立著鳥居](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-07.webp)
+![從櫛田神社社殿前望向參道，石板路兩側是壓實的雪，遠處樹影之間立著鳥居](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-07.jpg)
 
 ▲ 為什麼是早上
 這片森林被指定為森林浴之森，而森林浴要的是無人。上午十一點多境內只有兩三個人，
@@ -216,6 +216,6 @@ Google 的地形底圖，加上實際走的路線與各段里程。
 神社在它的北端，串田新遺跡在南端，和田川貼著它的東裾由南往北。
 路線就是繞著這塊丘走一圈。
 
-![櫛田神社（射水）晨間路線圖：櫛田神社、串田新遺跡公園、圓池，環路繞行大澤山一周](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-map.webp)
+![櫛田神社（射水）晨間路線圖：櫛田神社、串田新遺跡公園、圓池，環路繞行大澤山一周](https://chrisincite.github.io/shrine-img/img/66-imizu-kushida-jinja-map.jpg)
 
 *底圖 © Google，路線與標記為本站自繪。*

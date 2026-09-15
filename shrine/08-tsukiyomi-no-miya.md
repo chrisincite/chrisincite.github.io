@@ -18,7 +18,7 @@
 這座宮的重量不在境內。它在境內的南邊，是一條筆直往南 400 公尺、
 通到外宮北御門的路。走完那條路，才知道剛才那幾分鐘是什麼。
 
-![月夜見宮正面](https://chrisincite.github.io/shrine-img/img/08-tsukiyomi-no-miya-01.webp)
+![月夜見宮正面](https://chrisincite.github.io/shrine-img/img/08-tsukiyomi-no-miya-01.jpg)
 
 *木造的神明鳥居，笠木上長了苔。後方是板垣的南御門，切妻造（兩坡的懸山頂）、茅葺；門前一道木柵，地面全是白石。右側立著木製的社號札，左側小屋根下是祓所。*
 
@@ -39,7 +39,7 @@ takagawara），是一座與農耕關係很深的神社。現在的境內裡還�
 所以這片林子的身分變過三次：農耕的高河原、外宮攝社之首、外宮的別宮。
 變化的是位階，位置從來沒有動過。
 
-![社號札與社殿](https://chrisincite.github.io/shrine-img/img/08-tsukiyomi-no-miya-02.webp)
+![社號札與社殿](https://chrisincite.github.io/shrine-img/img/08-tsukiyomi-no-miya-02.jpg)
 
 *社號札刻著「豊受大神宮別宮　月夜見宮」，下面兩行是御祭神：月夜見尊、月夜見尊荒御魂。後方茅葺屋頂上的鰹木與千木都包著金色的金具。*
 
@@ -61,7 +61,7 @@ takagawara），是一座與農耕關係很深的神社。現在的境內裡還�
 一座殿裡住著同一位神的兩種狀態。站在門前看不出來——板垣裡就是一棟茅葺的
 神明造（直線構成、掘立柱的古式本殿形制），屋頂上一排金色的鰹木。差別寫在制度裡，不寫在立面上。
 
-![外宮的古殿地](https://chrisincite.github.io/shrine-img/img/08-tsukiyomi-no-miya-03.webp)
+![外宮的古殿地](https://chrisincite.github.io/shrine-img/img/08-tsukiyomi-no-miya-03.jpg)
 
 *外宮正宮旁的古殿地。白石鋪成的長方形空地，中央一座小小的覆屋，四周繩圍。右側的立札寫「第六十三回 式年遷宮御敷地」——下一次的社殿要蓋在這裡。*
 
@@ -82,7 +82,7 @@ takagawara），是一座與農耕關係很深的神社。現在的境內裡還�
 中央一座小覆屋，立札寫「第六十三回 式年遷宮御敷地」。
 下一次的正宮就蓋在那裡；現在它是一塊什麼都沒有的地。
 
-![外宮的外玉垣南御門](https://chrisincite.github.io/shrine-img/img/08-tsukiyomi-no-miya-04.webp)
+![外宮的外玉垣南御門](https://chrisincite.github.io/shrine-img/img/08-tsukiyomi-no-miya-04.jpg)
 
 *外宮正宮的外玉垣南御門。門前立一座木造神明鳥居，門是切妻茅葺，白絹的御幌垂在門洞裡，兩側掛白提燈。參拜者停在門前，正宮只從這裡望進去。*
 
@@ -105,7 +105,7 @@ takagawara），是一座與農耕關係很深的神社。現在的境內裡還�
 但這條 400 公尺的路，倒著走比較看得懂：先在小小的月夜見宮站一會兒，
 再沿著神走的路往外宮，最後才明白剛才那座宮為什麼在那個位置。
 
-![鳥居前的白石斜坡](https://chrisincite.github.io/shrine-img/img/08-tsukiyomi-no-miya-05.webp)
+![鳥居前的白石斜坡](https://chrisincite.github.io/shrine-img/img/08-tsukiyomi-no-miya-05.jpg)
 
 *從街道側望向鳥居。地面前半是深色砂利，過了緣石就是白石，往社殿方向緩緩升起。傍晚的光只剩下樹梢還亮著。*
 
@@ -126,7 +126,7 @@ takagawara），是一座與農耕關係很深的神社。現在的境內裡還�
 是相對於本宮而言的稱號；宮號由天皇所定，祭儀依本宮的次序，
 授与品用神宮共通的形制。它有自己的名字、自己的社殿、自己的森，其餘的都共用。
 
-![外宮的手水舍](https://chrisincite.github.io/shrine-img/img/08-tsukiyomi-no-miya-06.webp)
+![外宮的手水舍](https://chrisincite.github.io/shrine-img/img/08-tsukiyomi-no-miya-06.jpg)
 
 *外宮的手水舍。切妻、茅葺，圓木柱直接落在石垣基壇上，四面全開。這座建築與月夜見宮的南御門用的是同一套語彙。*
 
@@ -148,6 +148,6 @@ takagawara），是一座與農耕關係很深的神社。現在的境內裡還�
 月夜見宮的境內太小，停留時間有限，這條路線的長度都在路上；
 神路通的正中央要不要讓，沒有人會提醒你——那個習慣不寫在任何一塊牌子上。
 
-![外宮周邊散策圖](https://chrisincite.github.io/shrine-img/img/08-tsukiyomi-no-miya-07.webp)
+![外宮周邊散策圖](https://chrisincite.github.io/shrine-img/img/08-tsukiyomi-no-miya-07.jpg)
 
 *出典：《伊勢〜日本の源へ〜 伊勢市観光ガイドマップ》（發行 公益社団法人 伊勢市観光協会，2026年3月）。正北朝上；月夜見宮在伊勢市站的西北，外宮在其西南，兩者之間就是神路通。*

@@ -18,7 +18,7 @@
 現在多數人不走那條坡。一條收費道路可以開到八合目，接一段三百階的石段，
 石段旁邊有一部露天吊椅，早上九點才開。
 
-![從津峯山山頂的展望台往東看橘灣：海面被幾道低矮的半島與沙洲切開，聚落沿著水邊排成細長的一條，遠處是紀伊水道](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-01.webp)
+![從津峯山山頂的展望台往東看橘灣：海面被幾道低矮的半島與沙洲切開，聚落沿著水邊排成細長的一條，遠處是紀伊水道](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-01.jpg)
 
 ## 一日一命之認定
 
@@ -28,7 +28,7 @@
 只要親戚知人**趕在雞鳴之前、以清水沐浴、至誠祈願**，壽命就能延長；
 而且「日に一人の命は助け給う」——一天救一個人。
 
-![津峯神社石段下的黑底由緒板，立在木造小屋簷底下，抬頭寫「延喜式内社　津峯神社由緒」，右側是紅底白字的「岩窟群　遊歩道」指標](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-02.webp)
+![津峯神社石段下的黑底由緒板，立在木造小屋簷底下，抬頭寫「延喜式内社　津峯神社由緒」，右側是紅底白字的「岩窟群　遊歩道」指標](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-02.jpg)
 
 神社官方在網站上補了由緒板沒寫的一段：正因為一天只救一人，
 於是衍生出「在那一天最早的時刻、也就是午夜零時獻上**一番神樂**祈禱」的習慣。
@@ -64,7 +64,7 @@
 二〇〇〇年運轉，最大出力兩百一十萬瓩。一位管壽命的神在山頂上，
 腳下是一座燒煤的電廠，中間隔著三公里的海。
 
-![從津峯山展望台往東南看：橘灣岸邊立著幾支巨大的煙囪與一整片廠房，那是二〇〇〇年運轉的橘灣火力發電所](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-10.webp)
+![從津峯山展望台往東南看：橘灣岸邊立著幾支巨大的煙囪與一整片廠房，那是二〇〇〇年運轉的橘灣火力發電所](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-10.jpg)
 
 ## 參道形制及其空間效果
 
@@ -77,21 +77,21 @@
 石段中央拉著一條紅色扶手，兩側是石燈籠與朱色小屋頂的境內社。
 石段旁掛著由緒板，板邊另有一面紅底白字的指標：「岩窟群　遊歩道 →」。
 
-![津峯神社的石造鳥居與覆滿青苔的石段：石段中央拉著一條紅色扶手，兩側是石燈籠與朱色小屋頂的境內社](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-03.webp)
+![津峯神社的石造鳥居與覆滿青苔的石段：石段中央拉著一條紅色扶手，兩側是石燈籠與朱色小屋頂的境內社](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-03.jpg)
 
 爬完石段是拜殿。屋頂是唐破風，扁額寫「津峯神社」，簷下掛著兩盞燈籠。
 我去的那天是七月初，拜殿前還立著**茅之輪**（chinowa，用茅草紮成的大環）——
 六月三十日的大祓才過一週，環還沒收。
 
-![津峯神社拜殿前立著茅之輪：用茅草紮成的大草環立在石階前，兩側是石柱與注連繩，後方是拜殿](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-05.webp)
+![津峯神社拜殿前立著茅之輪：用茅草紮成的大草環立在石階前，兩側是石柱與注連繩，後方是拜殿](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-05.jpg)
 
-![津峯神社拜殿正面：唐破風的屋頂、扁額寫著「津峯神社」、兩盞掛燈籠，兩側是授与所與掲示板](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-06.webp)
+![津峯神社拜殿正面：唐破風的屋頂、扁額寫著「津峯神社」、兩盞掛燈籠，兩側是授与所與掲示板](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-06.jpg)
 
 境內不只有社殿這一組。往旁邊走另有一個院子，中央是一座**土俵**，
 俵繩圈成一個乾淨的圓，面對一棟大型的瓦葺建物。
 山頂只有這麼大，卻擠得下一個相撲台。
 
-![津峯神社境內另一處院子裡的土俵：俵繩圈成一個圓，四角拉繩立柱，面對一棟大型的瓦葺建物](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-08.webp)
+![津峯神社境內另一處院子裡的土俵：俵繩圈成一個圓，四角拉繩立柱，面對一棟大型的瓦葺建物](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-08.jpg)
 
 ## 正月三日，富岡城代帶著家臣上山
 
@@ -114,7 +114,7 @@
 蓋著紅色篆體的社印，一片一片掛滿鐵架。其中一片用英文寫著「ANAN BASEBALL CLUB」。
 四百年前是城代帶家臣，現在是阿南的少棒隊。
 
-![津峯山山頂的標柱與繪馬掛：標柱刻著「津峯山　標高二八四メートル　令和二年十一月吉日」，旁邊的鐵架掛滿中央開孔的六角形繪馬，鐵板本身鏤空成篆體的社名](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-07.webp)
+![津峯山山頂的標柱與繪馬掛：標柱刻著「津峯山　標高二八四メートル　令和二年十一月吉日」，旁邊的鐵架掛滿中央開孔的六角形繪馬，鐵板本身鏤空成篆體的社名](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-07.jpg)
 
 ## 祭儀與授与品
 
@@ -137,7 +137,7 @@
 神社現行的年曆則把星祭挪到十二月三十一日，名字也變成「延命長壽厄除開運星祭」。
 同一座神社的兩塊看板與一個網站，三份祭日表都不完全一樣——這是活的祭祀被文件追不上的樣子。
 
-![津峯神社境內的白底由緒板：與石段下那塊黑板寫著同一份由緒，但祭日欄不同，這一塊有「一月元日　神迎開運星祭」](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-04.webp)
+![津峯神社境內的白底由緒板：與石段下那塊黑板寫著同一份由緒，但祭日欄不同，這一塊有「一月元日　神迎開運星祭」](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-04.jpg)
 
 ▲ 授与品
 御朱印帳是金與黑的市松紋，中央是八角形的社紋，兩千日圓；御朱印初穗料（獻給神社的錢，御守與祈禱的費用都這樣稱呼）三百日圓。
@@ -148,7 +148,7 @@
 境內地上立著一支小石標，刻著「**百度石**」。
 關於這支石標，神社與鄉土史都沒有留下說明。
 
-![津峯神社境內地上的小石標，刻著「百度石」三個字](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-09.webp)
+![津峯神社境內地上的小石標，刻著「百度石」三個字](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-09.jpg)
 
 ## 晨間路線之擬定及其限制
 
@@ -159,7 +159,7 @@
 3. 元宮 → **JR 阿波橘驛**，2.7 公里、36 分鐘（沿國道 55 號南下，一路貼著海）
 4. 阿波橘驛 → **一之鳥居**（朱色大鳥居）→ **津峯神社**，1.6 公里、32 分鐘，**上升 285 公尺**
 
-![津峯神社晨間路線圖：從見能林驛經賀志波比賣神社往南到阿波橘驛，再折西沿表參道之字形爬上津峯山山頂，各段標著〇點五、二點七、一點六公里，右下方是橘灣](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-map.webp)
+![津峯神社晨間路線圖：從見能林驛經賀志波比賣神社往南到阿波橘驛，再折西沿表參道之字形爬上津峯山山頂，各段標著〇點五、二點七、一點六公里，右下方是橘灣](https://chrisincite.github.io/shrine-img/img/48-tsunomine-jinja-map.jpg)
 
 ▲ 為什麼從元宮開始
 因為這條路線走的是那次遷座。山腳的那一座在《延喜式》上叫賀志波比賣神社，

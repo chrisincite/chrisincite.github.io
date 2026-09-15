@@ -20,7 +20,7 @@
 社領地開出來的用水、用水兩側的町、町裡兩座與大社有關聯的神社，
 還有一棟二〇一七年才開的房子，用木格子做成一座倒過來的富士山。
 
-![從側面仰看本殿。下層是朱塗的寄棟，上層架空在下層的屋頂上，三間社流造，屋脊上一排金口的鰹木（かつおぎ katsuogi，橫架在屋脊上的圓木）與外削的千木（ちぎ chigi，屋脊兩端交叉突出的木材），檜皮葺（ひわだぶき hiwadabuki，用檜樹皮層層疊鋪的屋頂）的屋面呈褐色。前景是拜殿的簷角與一株尚未開花的枝垂櫻，右下角圍著藍色的工事柵欄。這是淺間造，官方自己寫它沒有第二個例子。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-01.webp)
+![從側面仰看本殿。下層是朱塗的寄棟，上層架空在下層的屋頂上，三間社流造，屋脊上一排金口的鰹木（かつおぎ katsuogi，橫架在屋脊上的圓木）與外削的千木（ちぎ chigi，屋脊兩端交叉突出的木材），檜皮葺（ひわだぶき hiwadabuki，用檜樹皮層層疊鋪的屋頂）的屋面呈褐色。前景是拜殿的簷角與一株尚未開花的枝垂櫻，右下角圍著藍色的工事柵欄。這是淺間造，官方自己寫它沒有第二個例子。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-01.jpg)
 
 ## 鎮火先於登拜之認定
 
@@ -50,7 +50,7 @@
 所以這座神社的順序是：先怕那座山，把它鎮住；鎮住之後搬到水邊；
 再過幾百年，才開始爬上去。**它不是為了登山而存在的神社，登山是它的後果。**
 
-![朱塗的大鳥居橫過整個畫面，柱腳立在停車場邊的柏油地上，柱間望得見對街的建物與冬天的藍天。這是從市街那一側進入境內的第一道門。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-02.webp)
+![朱塗的大鳥居橫過整個畫面，柱腳立在停車場邊的柏油地上，柱間望得見對街的建物與冬天的藍天。這是從市街那一側進入境內的第一道門。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-02.jpg)
 
 ## 立地非屬偶然
 
@@ -64,9 +64,9 @@
 不增不減這四個字，在一座以鎮火起家的神社裡讀起來特別重——
 這是那座山唯一穩定的東西。
 
-![一面白色的說明牌立在池畔，冠著「国指定特別天然記念物」，主標題「湧玉池」。牌後的水面映著對岸的樹與一棟白色的建物，池底的水草順著流向倒伏。牌頂另釘著一塊小字的英日雙語告示，請人不要往池裡丟硬幣。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-14.webp)
+![一面白色的說明牌立在池畔，冠著「国指定特別天然記念物」，主標題「湧玉池」。牌後的水面映著對岸的樹與一棟白色的建物，池底的水草順著流向倒伏。牌頂另釘著一塊小字的英日雙語告示，請人不要往池裡丟硬幣。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-14.jpg)
 
-![整片水面。水清到看得見池底的熔岩塊與成片的綠色水草，岸邊砌著自然石，背後是常綠的樹叢與尚未開花的櫻。這口池每秒湧出兩點四立方公尺的水，水溫一年到頭十三度。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-15.webp)
+![整片水面。水清到看得見池底的熔岩塊與成片的綠色水草，岸邊砌著自然石，背後是常綠的樹叢與尚未開花的櫻。這口池每秒湧出兩點四立方公尺的水，水溫一年到頭十三度。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-15.jpg)
 
 池水往南流出去就是神田川。走在市街裡會先遇到川，再遇到神社，
 是因為這條川本來就是神社的一部分。
@@ -79,7 +79,7 @@
 湧玉池的水正是從那些熔岩的縫隙裡出來的。
 山扔下來的東西造了地，地留住了水，水決定了神社站在哪裡。
 
-![火山彈與立牌的近景。牌上直書「名称　火山弾」，右下小字「目方約三十貫（約百キロ）」——重約三十貫，牌上自己換算成大約一百公斤；內文說明它是噴火時地中的岩漿被吹上空中、落下時氧化冷卻而成，形狀這麼整齊又這麼大的很少見。石頭本身像一枚壓扁的水滴。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-13.webp)
+![火山彈與立牌的近景。牌上直書「名称　火山弾」，右下小字「目方約三十貫（約百キロ）」——重約三十貫，牌上自己換算成大約一百公斤；內文說明它是噴火時地中的岩漿被吹上空中、落下時氧化冷卻而成，形狀這麼整齊又這麼大的很少見。石頭本身像一枚壓扁的水滴。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-13.jpg)
 
 ## 參道形制及其空間效果
 
@@ -88,9 +88,9 @@
 五月五日在這裡舉行流鏑馬式，馬場兩側種的是御神木的櫻。
 境內植櫻五百株以上——參道的寬度不是為了讓人走，是為了讓馬跑。
 
-![石造的二之鳥居立在一段淺石段的頂端，笠木上沒有注連繩（しめなわ shimenawa，標示神域的稻草繩）。鳥居的左右各立一基帶屋頂的大石燈籠，穿過去可以看見遠處朱色的社殿，兩側是高大的常綠樹與尚未開花的櫻。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-03.webp)
+![石造的二之鳥居立在一段淺石段的頂端，笠木上沒有注連繩（しめなわ shimenawa，標示神域的稻草繩）。鳥居的左右各立一基帶屋頂的大石燈籠，穿過去可以看見遠處朱色的社殿，兩側是高大的常綠樹與尚未開花的櫻。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-03.jpg)
 
-![一組奔馬上引弓的青銅像：馬的四蹄離地，騎手上半身扭向後方拉滿弓，背上的箭筒插著幾支箭。背景是冬天的藍天與無葉的樹枝。五月的流鏑馬祭就在這片馬場上舉行。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-04.webp)
+![一組奔馬上引弓的青銅像：馬的四蹄離地，騎手上半身扭向後方拉滿弓，背上的箭筒插著幾支箭。背景是冬天的藍天與無葉的樹枝。五月的流鏑馬祭就在這片馬場上舉行。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-04.jpg)
 
 過了石造的二之鳥居，地面開始抬升。
 一段石段之後是樓門：間口四間、奧行二間半、高六間半的二階入母屋造（いりもやづくり，
@@ -101,19 +101,19 @@
 明治初年為止舉行山宮御神幸（ごしんこう goshinkō，神移動到另一座神社的儀式）時，
 神鉾就安置在這塊石頭上休息。一塊石頭記著這座神社與它的老家之間那條路。
 
-![樓門正面。二階入母屋造的朱塗門樓立在一段石段之上，門的兩側各開一道脇門，左右延伸出朱色的長屋。階前站著幾位參拜者，兩側掛著紅底的幟。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-05.webp)
+![樓門正面。二階入母屋造的朱塗門樓立在一段石段之上，門的兩側各開一道脇門，左右延伸出朱色的長屋。階前站著幾位參拜者，兩側掛著紅底的幟。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-05.jpg)
 
-![仰角。朱塗的斗栱層層挑出，中央懸著金地的扁額，題「富士山本宮」四字。簷下橫著一道注連繩與四片紙垂（しで shide，摺成階梯狀的白紙），下方兩側是綠色的蔀戶（しとみど shitomido，可往上掀起的格子板門），正中掛著印滿菊紋的幕。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-06.webp)
+![仰角。朱塗的斗栱層層挑出，中央懸著金地的扁額，題「富士山本宮」四字。簷下橫著一道注連繩與四片紙垂（しで shide，摺成階梯狀的白紙），下方兩側是綠色的蔀戶（しとみど shitomido，可往上掀起的格子板門），正中掛著印滿菊紋的幕。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-06.jpg)
 
-![從正面近看樓門。中央的門扇開著，門內的通路一路通到更深處的碎石地與社殿，兩個人正要走進去。門的左右各有一道綠色的格子窗，屋頂的兩層之間伸出一圈朱色的高欄。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-07.webp)
+![從正面近看樓門。中央的門扇開著，門內的通路一路通到更深處的碎石地與社殿，兩個人正要走進去。門的左右各有一道綠色的格子窗，屋頂的兩層之間伸出一圈朱色的高欄。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-07.jpg)
 
 拜殿間口五間、奧行五間，地板比幣殿高兩段，正面入母屋造、背面切妻造（きりづまづくり，
 兩坡水的屋頂），正面出一間向拜。內外丹塗，極彩色只用在蟇股與虹梁的彫刻上。
 慶長九年（1604），德川家康以關原之戰的戰勝謝禮，一口氣造營了本殿、拜殿、樓門等三十餘棟。
 
-![拜殿正面。朱塗的殿身橫在碎石的齋庭盡頭，正面出一間向拜，簷口做成隆起的曲線山牆，簷下垂著注連繩與紙垂。階前擺著長條的木案與紅白幕，右側站著兩位參拜者。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-08.webp)
+![拜殿正面。朱塗的殿身橫在碎石的齋庭盡頭，正面出一間向拜，簷口做成隆起的曲線山牆，簷下垂著注連繩與紙垂。階前擺著長條的木案與紅白幕，右側站著兩位參拜者。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-08.jpg)
 
-![從階下往拜殿內看。粗大的注連繩橫過畫面，垂下五束繩穗與摺成階梯狀的紙垂；繩後的小壁上掛著金地的扁額，題「淺間大社」。左右兩側是朱色的蔀戶，正中的暗處通向內陣。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-09.webp)
+![從階下往拜殿內看。粗大的注連繩橫過畫面，垂下五束繩穗與摺成階梯狀的紙垂；繩後的小壁上掛著金地的扁額，題「淺間大社」。左右兩側是朱色的蔀戶，正中的暗處通向內陣。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-09.jpg)
 
 真正特別的是本殿，而且從參道上看不到。
 它叫淺間造（せんげんづくり sengen-zukuri），官方自己寫「其の構造は他に例がありません」——
@@ -126,7 +126,7 @@
 本殿是國指定重要文化財；拜殿、幣殿、樓門與透塀二棟另外五棟，
 是一九五四年一月三十日指定的靜岡縣有形文化財。
 
-![從碎石地上看枝垂櫻。冬天無葉的枝條佔了畫面左半，一路垂到地面；枝條之間露出朱色的社殿與一棟茅葺的小屋。地面是耙過的碎石與低矮的木欄。境內植櫻五百株以上，這一株傳為武田信玄寄進。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-10.webp)
+![從碎石地上看枝垂櫻。冬天無葉的枝條佔了畫面左半，一路垂到地面；枝條之間露出朱色的社殿與一棟茅葺的小屋。地面是耙過的碎石與低矮的木欄。境內植櫻五百株以上，這一株傳為武田信玄寄進。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-10.jpg)
 
 ## 一塊從昭和基地回來的石頭
 
@@ -143,7 +143,7 @@
 於是這片碎石地上並排放著兩塊石頭，一塊是富士山扔下來的，一塊是南極流出來的，
 一塊講這裡的地怎麼形成，一塊講這裡的人走了多遠。
 
-![兩塊石頭並排在碎石地上，各自架在石臺上、各自配一面帶小屋頂的立牌。左邊那塊暗紅、表面有流動的紋路，是火山彈；右邊那塊灰白、表面凹凸如被啃過，是南極の石。背景是朱色的透塀與一株老樹的樹幹。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-12.webp)
+![兩塊石頭並排在碎石地上，各自架在石臺上、各自配一面帶小屋頂的立牌。左邊那塊暗紅、表面有流動的紋路，是火山彈；右邊那塊灰白、表面凹凸如被啃過，是南極の石。背景是朱色的透塀與一株老樹的樹幹。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-12.jpg)
 
 同樣的模式在市街裡還看得到一次。
 二〇二四年二月，神社門前的店家玻璃門上貼著「第 74 回　富士宮駅伝競走大会」
@@ -153,7 +153,7 @@
 標題上方還印著一行字，說這一屆是富士山列入世界遺產十周年的記念。
 折返點在往山的那個方向。這座城市每年跑一趟去而復返的路，方向跟一千兩百年前那次遷座相反。
 
-![玻璃門上貼著一張藍底的海報，主標「第 74 回　富士宮駅伝競走大会」，頂端一行「富士山世界遺産登録 10 周年記念」，下方寫日期「令和 6 年 2.11（日）」與「6 区間／32.7km」，起終點是富士宮市役所、折返點是白糸の滝。一位參觀者側著臉在看。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-17.webp)
+![玻璃門上貼著一張藍底的海報，主標「第 74 回　富士宮駅伝競走大会」，頂端一行「富士山世界遺産登録 10 周年記念」，下方寫日期「令和 6 年 2.11（日）」與「6 区間／32.7km」，起終點是富士宮市役所、折返點是白糸の滝。一位參觀者側著臉在看。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-17.jpg)
 
 ## 祭儀與授与品
 
@@ -185,7 +185,7 @@
 神符授与所旁邊，參拜的人拿著剛拿到的御朱印（ごしゅいん goshuin，參拜的墨書與朱印）帳走出來，
 帳子是黃底碎花的。
 
-![拜殿的側面。朱塗的殿身之前排著一列奉納的菰樽（こもだる komodaru，外面裹著稻草的酒樽），前方橫著紅白幕與長條的木案，最右邊放著一面太鼓。殿內的深處看得見金色的幕。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-11.webp)
+![拜殿的側面。朱塗的殿身之前排著一列奉納的菰樽（こもだる komodaru，外面裹著稻草的酒樽），前方橫著紅白幕與長條的木案，最右邊放著一面太鼓。殿內的深處看得見金色的幕。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-11.jpg)
 
 ## 晨間路線之擬定及其限制
 
@@ -238,21 +238,21 @@
 只有一面朱色的社旗在風裡。同一天下午在世界遺產中心的展望台上，山才完整地出現。
 十八公里的距離，一天之內就能給你兩個答案。
 
-![從社殿前的高處往西南看。左側是朱色的社殿與石垣，中央是寬闊的碎石馬場，兩側夾道的櫻樹全無葉。遠處市街的屋頂之上，富士山被一團積雲整個遮住，只有一面朱色的社旗在畫面左上。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-16.webp)
+![從社殿前的高處往西南看。左側是朱色的社殿與石垣，中央是寬闊的碎石馬場，兩側夾道的櫻樹全無葉。遠處市街的屋頂之上，富士山被一團積雲整個遮住，只有一面朱色的社旗在畫面左上。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-16.jpg)
 
-![一條砌石護岸的川從畫面深處流過來，水面寬而淺，看得見水底的石與水草，兩側是市街的屋頂與電線。右岸種著一整排修剪過的紅葉灌木。這條川的水就是從湧玉池流出來的。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-18.webp)
+![一條砌石護岸的川從畫面深處流過來，水面寬而淺，看得見水底的石與水草，兩側是市街的屋頂與電線。右岸種著一整排修剪過的紅葉灌木。這條川的水就是從湧玉池流出來的。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-18.jpg)
 
-![靜岡縣富士山世界遺產中心的外觀。覆著木格子的逆圓錐形量體被一片翻起來的白色屋頂罩住，前方是一整面水盤，倒影把量體接成一座完整的圓錐。背後是遠山與冬天的雲。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-19.webp)
+![靜岡縣富士山世界遺產中心的外觀。覆著木格子的逆圓錐形量體被一片翻起來的白色屋頂罩住，前方是一整面水盤，倒影把量體接成一座完整的圓錐。背後是遠山與冬天的雲。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-19.jpg)
 
-![從水盤的另一端看同一座建築。斜交的木格子鋪滿整個逆圓錐的表面，水面映出完整的倒影。前景的鋪面反著光，一個人影走在往建築去的直線上。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-20.webp)
+![從水盤的另一端看同一座建築。斜交的木格子鋪滿整個逆圓錐的表面，水面映出完整的倒影。前景的鋪面反著光，一個人影走在往建築去的直線上。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-20.jpg)
 
-![從水盤邊往上看。木格子的斜交網格填滿整個畫面，收束成一個開口；格子後面透出藍天、朱色的大鳥居與市街的屋頂，下方是展示機與參觀的人。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-21.webp)
+![從水盤邊往上看。木格子的斜交網格填滿整個畫面，收束成一個開口；格子後面透出藍天、朱色的大鳥居與市街的屋頂，下方是展示機與參觀的人。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-21.jpg)
 
-![從中心上層的展望室往北看。前景是富士宮的市街屋頂、電線與一座朱色的大鳥居，後方富士山完整地出現，山頂積雪，山體幾乎沒有雲。同一天中午在櫻の馬場上，這座山被積雲整個遮住。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-22.webp)
+![從中心上層的展望室往北看。前景是富士宮的市街屋頂、電線與一座朱色的大鳥居，後方富士山完整地出現，山頂積雪，山體幾乎沒有雲。同一天中午在櫻の馬場上，這座山被積雲整個遮住。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-22.jpg)
 
-![綠色的塑膠托盤上一份富士宮炒麵，盛在紙舟裡，撒著魚粉、配一小撮紅薑與一雙免洗筷。托盤上壓著一張印有「お宮横丁」字樣的紙。桌面是木板。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-23.webp)
+![綠色的塑膠托盤上一份富士宮炒麵，盛在紙舟裡，撒著魚粉、配一小撮紅薑與一雙免洗筷。托盤上壓著一張印有「お宮横丁」字樣的紙。桌面是木板。](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-23.jpg)
 
 一千兩百年前那次遷座，把神從看得見山的地方，搬到了看得見水的地方。
 今天走這一圈，水一次也沒有斷過。
 
-![富士山本宮淺間大社晨間路線圖：紅色實線是自 JR 富士宮驛出發的環路，經お宮橫丁、淺間大社、湧玉池、神田川廣場、二之宮淺間神社、富知神社與靜岡縣富士山世界遺產中心回驛，全長四點六公里、純步行六十四分，每一段標著距離與時間；綠色虛線是二之鳥居到本殿的社殿軸線，方位三百五十二度、幾乎正北；藍色虛線是本殿指向富士山山頂的方向，方位三十六度、直線十八點二公里，山頂在圖外。左下的面板標明正北朝上、三百公尺比例尺，並記神田川由北的湧玉池流向南的市街、湧玉池每秒湧水二點四立方公尺水溫十三度，以及社殿軸線與富士山方位相差四十四度](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-map.webp)
+![富士山本宮淺間大社晨間路線圖：紅色實線是自 JR 富士宮驛出發的環路，經お宮橫丁、淺間大社、湧玉池、神田川廣場、二之宮淺間神社、富知神社與靜岡縣富士山世界遺產中心回驛，全長四點六公里、純步行六十四分，每一段標著距離與時間；綠色虛線是二之鳥居到本殿的社殿軸線，方位三百五十二度、幾乎正北；藍色虛線是本殿指向富士山山頂的方向，方位三十六度、直線十八點二公里，山頂在圖外。左下的面板標明正北朝上、三百公尺比例尺，並記神田川由北的湧玉池流向南的市街、湧玉池每秒湧水二點四立方公尺水溫十三度，以及社殿軸線與富士山方位相差四十四度](https://chrisincite.github.io/shrine-img/img/110-fujisan-hongu-sengen-taisha-map.jpg)

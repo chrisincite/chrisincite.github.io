@@ -22,7 +22,7 @@
 一圈四公里半。而這一整圈裡，那座真正被祭祀的東西，一次也沒有走近過——
 它在南邊的山上，從頭到尾只能遠遠地看。
 
-![幣拜殿的正面。屋頂是覆著苔的檜皮色調曲面，中央挑出一個大唐破風（からはふ karahafu，中央隆起、兩側下彎的曲線山牆）；殿身架在高高的石垣上，前面是碎石的齋庭與一排低矮的木欄。左側立著石燈籠，背後全是高大的杉。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-01.webp)
+![幣拜殿的正面。屋頂是覆著苔的檜皮色調曲面，中央挑出一個大唐破風（からはふ karahafu，中央隆起、兩側下彎的曲線山牆）；殿身架在高高的石垣上，前面是碎石的齋庭與一排低矮的木欄。左側立著石燈籠，背後全是高大的杉。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-01.jpg)
 
 ## 山即御神體之認定
 
@@ -52,9 +52,9 @@
 降臨在巨木巨石上的在地神）；被降臨的巨木叫湛木（たたえぎ tataegi），
 神事就在那棵樹底下舉行。建御名方神來到這片盆地之前，人們已經在對著樹和石頭辦事了。
 
-![一株樹幹粗到需要退開才拍得下的欅樹，立在參道旁。前面的杉木牌寫：古時把贄與御狩的獵物掛在這棵樹上祈願，所以叫「贄掛けの欅」，是境內最古老的樹之一；末尾另附一句，近年樹勢很弱，請協助養護。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-02.webp)
+![一株樹幹粗到需要退開才拍得下的欅樹，立在參道旁。前面的杉木牌寫：古時把贄與御狩的獵物掛在這棵樹上祈願，所以叫「贄掛けの欅」，是境內最古老的樹之一；末尾另附一句，近年樹勢很弱，請協助養護。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-02.jpg)
 
-![仰角。幾株高大的杉把畫面切成豎條，樹縫之間露出社殿的屋頂與一角銅板。這片社叢據稱是中部地方唯一的原生林，約五百種植物群生。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-03.webp)
+![仰角。幾株高大的杉把畫面切成豎條，樹縫之間露出社殿的屋頂與一角銅板。這片社叢據稱是中部地方唯一的原生林，約五百種植物群生。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-03.jpg)
 
 ## 立地非屬偶然
 
@@ -93,7 +93,7 @@
 並依裂痕的方向與形狀占卜當年的吉凶，列為諏訪七不思議之一。
 拜觀與記錄由湖濱的八劍神社負責，那是另外一座神社的工作。
 
-![石造的大鳥居橫過畫面，笠木上掛著一道注連繩（しめなわ shimenawa，標示神域的稻草繩）。鳥居的右柱旁立著紅底白字的「祝 七五三御祈祷受付」幟，穿過鳥居可以看見境內的建築與參拜的人。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-04.webp)
+![石造的大鳥居橫過畫面，笠木上掛著一道注連繩（しめなわ shimenawa，標示神域的稻草繩）。鳥居的右柱旁立著紅底白字的「祝 七五三御祈祷受付」幟，穿過鳥居可以看見境內的建築與參拜的人。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-04.jpg)
 
 ## 參道形制及其空間效果
 
@@ -137,19 +137,19 @@
 其中一之御柱貼著林子站著，樹皮已經沒有了，裸露的木頭側面看得出磨損。
 那面磨損不是風化，是被拖出來的。
 
-![一塊帶小屋頂的杉木立牌，墨書「上社国重要文化財建造物」，底下分三批列出：幣殿・拝殿・左右片拝殿・脇片拝殿・四脚門（昭和五十八年指定）；布橋・勅願殿・文庫・勅使殿・五間廊・摂末社遙拝所・神楽殿・天流水舎・神馬舎・入口御門（平成二十八年指定）；神橋・塀重門・額堂・銅鳥居・注連掛鳥居（同日附指定）。右後方就是幣拜殿的簷角。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-05.webp)
+![一塊帶小屋頂的杉木立牌，墨書「上社国重要文化財建造物」，底下分三批列出：幣殿・拝殿・左右片拝殿・脇片拝殿・四脚門（昭和五十八年指定）；布橋・勅願殿・文庫・勅使殿・五間廊・摂末社遙拝所・神楽殿・天流水舎・神馬舎・入口御門（平成二十八年指定）；神橋・塀重門・額堂・銅鳥居・注連掛鳥居（同日附指定）。右後方就是幣拜殿的簷角。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-05.jpg)
 
-![從正面拍的入口御門。門的兩側各立一基石燈籠，門後的通路一路收窄，隱約看得到布橋的一角。門扇位置的白幕上有紋。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-06.webp)
+![從正面拍的入口御門。門的兩側各立一基石燈籠，門後的通路一路收窄，隱約看得到布橋的一角。門扇位置的白幕上有紋。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-06.jpg)
 
-![同一道門，換一個時間。左半邊架著白色的工事用帆布與鷹架，門前立著幾塊直立的告示板與兩基石燈籠。神社是一直在修的東西。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-07.webp)
+![同一道門，換一個時間。左半邊架著白色的工事用帆布與鷹架，門前立著幾塊直立的告示板與兩基石燈籠。神社是一直在修的東西。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-07.jpg)
 
-![從布橋的內側往外看這道四腳門。四根柱子撐起一片寬闊的銅板屋頂，門扇的位置掛著三幅白幕，幕上各一個梶葉紋。門外是石板鋪的通路與往來的參拜者。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-08.webp)
+![從布橋的內側往外看這道四腳門。四根柱子撐起一片寬闊的銅板屋頂，門扇的位置掛著三幅白幕，幕上各一個梶葉紋。門外是石板鋪的通路與往來的參拜者。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-08.jpg)
 
-![站在布橋的長廊裡往前看。左右兩排木柱一路排到看不見盡頭，木地板被踩得發亮，屋頂的椽子密密地斜過去。明治維新之前，這條七十公尺的走廊只有大祝一個人能走，走的時候地上要鋪布。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-09.webp)
+![站在布橋的長廊裡往前看。左右兩排木柱一路排到看不見盡頭，木地板被踩得發亮，屋頂的椽子密密地斜過去。明治維新之前，這條七十公尺的走廊只有大祝一個人能走，走的時候地上要鋪布。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-09.jpg)
 
-![黑色的大屋頂壓在四面沒有牆的木構上，山牆那一面朝著參道。這是境內近世建築中規模最大的一棟，文政十年建。階前站著幾位參拜者。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-10.webp)
+![黑色的大屋頂壓在四面沒有牆的木構上，山牆那一面朝著參道。這是境內近世建築中規模最大的一棟，文政十年建。階前站著幾位參拜者。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-10.jpg)
 
-![從側面往神樂殿內看。簷下垂著一整排紙垂（しで shide，摺成階梯狀的白紙），殿內的深處靠著一面巨大的太鼓，鼓面朝向鏡頭；前方掛著一塊小小的木製說明牌。這面江戶時代做的太鼓直徑一公尺八十。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-11.webp)
+![從側面往神樂殿內看。簷下垂著一整排紙垂（しで shide，摺成階梯狀的白紙），殿內的深處靠著一面巨大的太鼓，鼓面朝向鏡頭；前方掛著一塊小小的木製說明牌。這面江戶時代做的太鼓直徑一公尺八十。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-11.jpg)
 
 ## 五官坐在同一條廊下
 
@@ -184,7 +184,7 @@
 成了本能寺之變的引信。寺裡另外還有吉良義周的墓——赤穗浪士討入時，
 被大石內藏助等人介錯的吉良上野介，他的孫子。
 
-![一棟長條形的木造建築，簷下一整排素木（しらき shiraki，不上漆、保留木材原色的作法）的柵欄與板壁；前面立著新的杉木牌，寫「五間廊　国重要文化財」，並記古記錄裡「神長官・祢宜太夫・権祝・擬祝・副祝」五官（五種世襲的神職）在此着座。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-12.webp)
+![一棟長條形的木造建築，簷下一整排素木（しらき shiraki，不上漆、保留木材原色的作法）的柵欄與板壁；前面立著新的杉木牌，寫「五間廊　国重要文化財」，並記古記錄裡「神長官・祢宜太夫・権祝・擬祝・副祝」五官（五種世襲的神職）在此着座。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-12.jpg)
 
 ## 祭儀與授与品
 
@@ -235,15 +235,15 @@
 一攤賣現做的ところてん（tokoroten，用石花菜做的透明涼粉條）。
 早上去的話多半都還沒開。
 
-![一尊比人還高的青銅狛犬（こまいぬ komainu，鎮守神域的獸形石像），蹲踞在石臺上，銅面已經氧化成灰綠。背後是杉林與授与所的屋頂。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-13.webp)
+![一尊比人還高的青銅狛犬（こまいぬ komainu，鎮守神域的獸形石像），蹲踞在石臺上，銅面已經氧化成灰綠。背後是杉林與授与所的屋頂。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-13.jpg)
 
-![神社署名的杉木立牌，寫著本宮一之御柱是長五丈五尺（約十七公尺）、目通り直徑一點二公尺的樅木，從上社綱置場曳行二十幾公里而來，「裏側は擦り減っている」——貼地那一面已經磨損。末尾寫下一次的御柱大祭在令和十戊申歲。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-14.webp)
+![神社署名的杉木立牌，寫著本宮一之御柱是長五丈五尺（約十七公尺）、目通り直徑一點二公尺的樅木，從上社綱置場曳行二十幾公里而來，「裏側は擦り減っている」——貼地那一面已經磨損。末尾寫下一次的御柱大祭在令和十戊申歲。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-14.jpg)
 
-![夯出來的方形土壇，中央一個圓，圓周的土被踩踏成淺淺的溝。四角留著柱礎的痕跡。背後是杉林與境內的木欄。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-15.webp)
+![夯出來的方形土壇，中央一個圓，圓周的土被踩踏成淺淺的溝。四角留著柱礎的痕跡。背後是杉林與境內的木欄。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-15.jpg)
 
-![石臺上一尊力士的銅像，右手高舉，臺座刻「雷電像」。旁邊立著說明牌，牌下另掛一塊白板，印著「雷電為右衛門手形」——一個墨黑的手掌拓印。最左邊是社號標的石柱。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-16.webp)
+![石臺上一尊力士的銅像，右手高舉，臺座刻「雷電像」。旁邊立著說明牌，牌下另掛一塊白板，印著「雷電為右衛門手形」——一個墨黑的手掌拓印。最左邊是社號標的石柱。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-16.jpg)
 
-![屋台的鐵板上並排烤著幾串五平餅，一雙戴著手套的手正在刷醬。前面立著白底紅字的招牌，只有「五平餅」三個大字與價格。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-17.webp)
+![屋台的鐵板上並排烤著幾串五平餅，一雙戴著手套的手正在刷醬。前面立著白底紅字的招牌，只有「五平餅」三個大字與價格。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-17.jpg)
 
 ## 晨間路線之擬定及其限制
 
@@ -301,8 +301,8 @@
 卻一次也沒有走上去。神體山在南邊更高的地方，
 這座神社真正拜的那個東西，設計上就不是拿來走近的。
 
-![一座黑色的戶外看板，頂上木牌題「諏訪大社 上社本宮」。中央是門前一帶的商家地圖，兩側各一片可觸控的螢幕，右側那片列著當月的行事預定，左側那片輪播著門前店家的甜點照片。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-18.webp)
+![一座黑色的戶外看板，頂上木牌題「諏訪大社 上社本宮」。中央是門前一帶的商家地圖，兩側各一片可觸控的螢幕，右側那片列著當月的行事預定，左側那片輪播著門前店家的甜點照片。](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-18.jpg)
 
-![諏訪大社上社的官方散策地圖。紅色實線是連接上社前宮與上社本宮的遊步道，本宮側標「上社の杜 歴史の散歩道」、前宮側標「鎌倉道遊歩道」，沿線逐段標著五百九十、四百二十、七百、三百、三百五十公尺；黃色線是縣道岡谷茅野線的人行道，標著「前宮前まで1,650m」。圖上另標出武居畑遺跡展望台、北斗神社、空飛ぶ泥舟與高過庵、神長官守矢史料館、峯の湛、權祝邸與大祝邸，以及本宮境內的硯石、寶物殿、神樂殿與一之到五之鳥居。右上角的方位盤顯示這張圖不是正北朝上](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-map.webp)
+![諏訪大社上社的官方散策地圖。紅色實線是連接上社前宮與上社本宮的遊步道，本宮側標「上社の杜 歴史の散歩道」、前宮側標「鎌倉道遊歩道」，沿線逐段標著五百九十、四百二十、七百、三百、三百五十公尺；黃色線是縣道岡谷茅野線的人行道，標著「前宮前まで1,650m」。圖上另標出武居畑遺跡展望台、北斗神社、空飛ぶ泥舟與高過庵、神長官守矢史料館、峯の湛、權祝邸與大祝邸，以及本宮境內的硯石、寶物殿、神樂殿與一之到五之鳥居。右上角的方位盤顯示這張圖不是正北朝上](https://chrisincite.github.io/shrine-img/img/107-suwa-taisha-kamisha-honmiya-map.jpg)
 
 *出典：《諏訪大社上社　遊歩道でつなぐ　前宮・本宮散策マップ》（企画・編集・発行　茅野市中央公民館・諏訪市公民館ほか，令和三年三月三日第二版）。⚠️ 這張圖不是正北朝上，整張約旋轉一百三十五度——方位盤上南在左上、北在右下。本文只用它的上下與左右關係，不拿它講東西南北。*
