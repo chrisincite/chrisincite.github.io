@@ -175,6 +175,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/shrine/132-kawagoe-hikawa-jinja.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/132-kawagoe-hikawa-jinja.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/125-renkeiji.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/shrine/125-renkeiji.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/shrine/124-shiogama-jinja.html</loc>
     <priority>0.8</priority>
   </url>

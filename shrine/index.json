@@ -2,9 +2,73 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 121,
+  "count": 123,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/3f",
+      "no": "132",
+      "slug": "132-kawagoe-hikawa-jinja",
+      "title": "川越冰川神社",
+      "title_ja": "川越氷川神社",
+      "kana": "かわごえひかわじんじゃ",
+      "type": "神社",
+      "prefecture": "埼玉縣",
+      "city": "川越市宮下町",
+      "lat": "35.927550",
+      "lng": "139.488559",
+      "enshrined": "素盞嗚尊・奇稻田姬命・大己貴命・腳摩乳命・手摩乳命",
+      "rank": "川越總鎮守；本殿＝國指定重要文化財（令和八年九月四日告示，附棟札一枚）、原埼玉縣指定有形文化財（昭和三十一年十一月一日）；八坂神社社殿＝埼玉縣指定有形文化財；川越冰川祭的山車行事＝國指定重要無形民俗文化財（平成十七年）・聯合國教科文組織無形文化遺產（平成二十八年）",
+      "trip": "T12",
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-04",
+      "published": "2026-09-15",
+      "hook": "從本川越驛沿縣道二二九號往北一公里到札之辻，江戶初年的川越城下就是從這個路口分出去的。",
+      "cover": "https://chrisincite.github.io/shrine-img/img/132-kawagoe-hikawa-jinja-01.webp",
+      "photos": 13,
+      "related": [
+        "125-renkeiji",
+        "64-shirakami-sha",
+        "77-kotenju",
+        "11-dazaifu-tenmangu"
+      ],
+      "url": "shrine/132-kawagoe-hikawa-jinja.html",
+      "markdown": "shrine/132-kawagoe-hikawa-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/3e",
+      "no": "125",
+      "slug": "125-renkeiji",
+      "title": "蓮馨寺",
+      "title_ja": "蓮馨寺",
+      "kana": "れんけいじ",
+      "type": "寺院",
+      "prefecture": "埼玉縣",
+      "city": "川越市連雀町",
+      "lat": "35.919522",
+      "lng": "139.481828",
+      "enshrined": "",
+      "rank": "淨土宗關東十八檀林之一；小江戶川越七福神第五番・福祿壽神；元祿的銅鐘＝川越市指定有形文化財（昭和三十三年三月六日指定）；蓮馨寺日鑑＝埼玉縣指定有形文化財",
+      "trip": "T12",
+      "series": [
+        "S4"
+      ],
+      "visited": "2024-04",
+      "published": "2026-09-15",
+      "hook": "早上八點零六分，中央通り（ちゅうおうどおり，Chūō-dōri，川越市街南北向的主街）的人行道上",
+      "cover": "https://chrisincite.github.io/shrine-img/img/125-renkeiji-01.webp",
+      "photos": 14,
+      "related": [
+        "132-kawagoe-hikawa-jinja",
+        "87-tofukuji",
+        "36-kongobuji",
+        "39-enryakuji"
+      ],
+      "url": "shrine/125-renkeiji.html",
+      "markdown": "shrine/125-renkeiji.md"
+    },
     {
       "short": "https://os.housearch.net/s/3d",
       "no": "124",
