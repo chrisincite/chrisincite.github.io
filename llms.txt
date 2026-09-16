@@ -29,10 +29,14 @@
 
 ## 神社寺廟散策地圖
 
-走過的日本神社寺廟，一座一篇（規劃 140 座，已發佈 123 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
+走過的日本神社寺廟，一座一篇（規劃 140 座，已發佈 127 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（創祀與祭神之認定）、`#geography`（立地）、`#architecture`（參道形制與空間效果）、`#community`（與地方的關係）、`#festival`（祭儀與授与品）、`#walk`（晨間散策路線）。其中 `#origin` 與 `#community` 的**標題每篇量身**，錨點不變。
 
+- [熊野宮（小平）](https://chrisincite.github.io/shrine/137-kodaira-kumano-gu.md)：小平市中央這一帶，最高點與最低點差不到三公尺。（東京都・小平市仲町）
+- [大島湯泉神社](https://chrisincite.github.io/shrine/136-oshima-tosen-jinja.md)：早上九點五十七分二十九秒按下第一張，九點五十八分五十六秒按下最後一張。（栃木縣・那須郡那須町大島）
+- [鹿嶋神社〈白河〉](https://chrisincite.github.io/shrine/135-shirakawa-kashima-jinja.md)：上午十點五十分，社殿前的碎石地上沒有幾個人。（福島縣・白河市大鹿島）
+- [武藏野坐令和神社](https://chrisincite.github.io/shrine/134-musashino-za-reiwa-jinja.md)：東所澤驛到這裡六百公尺，人行道上埋著二十八個鐵蓋，每一個上面印著一部動畫或漫畫。（埼玉縣・所澤市東所澤和田）
 - [川越冰川神社](https://chrisincite.github.io/shrine/132-kawagoe-hikawa-jinja.md)：從本川越驛沿縣道二二九號往北一公里到札之辻，江戶初年的川越城下就是從這個路口分出去的。（埼玉縣・川越市宮下町）
 - [蓮馨寺](https://chrisincite.github.io/shrine/125-renkeiji.md)：早上八點零六分，中央通り（ちゅうおうどおり，Chūō-dōri，川越市街南北向的主街）的人行道上（埼玉縣・川越市連雀町）
 - [鹽竈神社](https://chrisincite.github.io/shrine/124-shiogama-jinja.md)：早上七點從本鹽釜驛出來，往西走十分鐘就到山腳。（宮城縣・鹽竈市一森山）

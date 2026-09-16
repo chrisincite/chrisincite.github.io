@@ -1958,33 +1958,45 @@
       "slug": "134-musashino-za-reiwa-jinja",
       "title": "武藏野坐令和神社",
       "type": "神社",
-      "prefecture": "埼玉県",
-      "city": "所沢市東所沢和田3-31-3",
+      "prefecture": "埼玉縣",
+      "city": "所澤市東所澤和田",
       "trip": "T12",
-      "series": [],
-      "visited": "2024-04"
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-04",
+      "lat": 35.797168,
+      "lng": 139.508425
     },
     {
       "no": "135",
       "slug": "135-shirakawa-kashima-jinja",
-      "title": "鹿嶋神社（白河）",
+      "title": "鹿嶋神社〈白河〉",
       "type": "神社",
-      "prefecture": "福島県",
-      "city": "白河市大鹿島34",
+      "prefecture": "福島縣",
+      "city": "白河市大鹿島",
       "trip": "T12",
-      "series": [],
-      "visited": "2024-04"
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-04",
+      "lat": 37.122826,
+      "lng": 140.23653
     },
     {
       "no": "136",
       "slug": "136-oshima-tosen-jinja",
       "title": "大島湯泉神社",
       "type": "神社",
-      "prefecture": "栃木県",
-      "city": "那須郡那須町大島708",
+      "prefecture": "栃木縣",
+      "city": "那須郡那須町大島",
       "trip": "T12",
-      "series": [],
-      "visited": "2024-04"
+      "series": [
+        "S6"
+      ],
+      "visited": "2024-04",
+      "lat": 37.053472,
+      "lng": 140.083192
     },
     {
       "no": "137",
@@ -1992,10 +2004,14 @@
       "title": "熊野宮（小平）",
       "type": "神社",
       "prefecture": "東京都",
-      "city": "小平市仲町361",
+      "city": "小平市仲町",
       "trip": "T12",
-      "series": [],
-      "visited": "2024-04"
+      "series": [
+        "S8"
+      ],
+      "visited": "2024-04",
+      "lat": 35.728547,
+      "lng": 139.490069
     },
     {
       "no": "138",
@@ -2003,10 +2019,14 @@
       "title": "穴八幡宮",
       "type": "神社",
       "prefecture": "東京都",
-      "city": "新宿区西早稲田2-1-11",
+      "city": "新宿區西早稻田",
       "trip": "T12",
-      "series": [],
-      "visited": "2024-04"
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-04",
+      "lat": 35.707292,
+      "lng": 139.717393
     },
     {
       "no": "139",

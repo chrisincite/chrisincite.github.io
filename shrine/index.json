@@ -2,9 +2,135 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 123,
+  "count": 127,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/3j",
+      "no": "137",
+      "slug": "137-kodaira-kumano-gu",
+      "title": "熊野宮（小平）",
+      "title_ja": "熊野宮",
+      "kana": "くまのぐう",
+      "type": "神社",
+      "prefecture": "東京都",
+      "city": "小平市仲町",
+      "lat": "35.728547",
+      "lng": "139.490069",
+      "enshrined": "伊邪那岐大神・伊邪那美大神",
+      "rank": "舊小川新田鎮守；夫婦欅＝小平市指定天然記念物（平成三十年三月十五日）；武藏野乃一本榎跡＝小平市指定史跡（平成元年三月一日）",
+      "trip": "T12",
+      "series": [
+        "S8"
+      ],
+      "visited": "2024-04",
+      "published": "2026-09-16",
+      "hook": "小平市中央這一帶，最高點與最低點差不到三公尺。",
+      "cover": "https://shrine-img.pages.dev/img/137-kodaira-kumano-gu-01.webp",
+      "photos": 9,
+      "related": [
+        "134-musashino-za-reiwa-jinja",
+        "125-renkeiji",
+        "132-kawagoe-hikawa-jinja"
+      ],
+      "url": "shrine/137-kodaira-kumano-gu.html",
+      "markdown": "shrine/137-kodaira-kumano-gu.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/3i",
+      "no": "136",
+      "slug": "136-oshima-tosen-jinja",
+      "title": "大島湯泉神社",
+      "title_ja": "大島湯泉神社",
+      "kana": "おおしまゆぜんじんじゃ",
+      "type": "神社",
+      "prefecture": "栃木縣",
+      "city": "那須郡那須町大島",
+      "lat": "37.053472",
+      "lng": "140.083192",
+      "enshrined": "大己貴命・譽田別命（配神＝大山祇命・大雷神・稻倉魂命）",
+      "rank": "大島村總鎮守；芦野家奉納鞍＝那須町指定有形文化財（工藝）",
+      "trip": "T12",
+      "series": [
+        "S6"
+      ],
+      "visited": "2024-04",
+      "published": "2026-09-16",
+      "hook": "早上九點五十七分二十九秒按下第一張，九點五十八分五十六秒按下最後一張。",
+      "cover": "https://shrine-img.pages.dev/img/136-oshima-tosen-jinja-01.webp",
+      "photos": 6,
+      "related": [
+        "115-nasu-yuzen-jinja",
+        "47-tosen-jinja",
+        "45-zuikozan-kiyomizudera"
+      ],
+      "url": "shrine/136-oshima-tosen-jinja.html",
+      "markdown": "shrine/136-oshima-tosen-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/3h",
+      "no": "135",
+      "slug": "135-shirakawa-kashima-jinja",
+      "title": "鹿嶋神社〈白河〉",
+      "title_ja": "鹿嶋神社",
+      "kana": "かしまじんじゃ",
+      "type": "神社",
+      "prefecture": "福島縣",
+      "city": "白河市大鹿島",
+      "lat": "37.122826",
+      "lng": "140.236530",
+      "enshrined": "武甕槌命",
+      "rank": "白河地方總鎮守；舊縣社；《延喜式》神名帳白河郡七座中「白河神社」的論社之一；神輿＝白河市指定重要文化財（工藝品，昭和四十一年二月八日）、鹿嶋神社神樂＝白河市指定重要無形民俗文化財（昭和三十九年三月六日）、楯無鎧寫＝白河市指定重要文化財（工藝品，昭和三十九年三月六日）",
+      "trip": "T12",
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-04",
+      "published": "2026-09-16",
+      "hook": "上午十點五十分，社殿前的碎石地上沒有幾個人。",
+      "cover": "https://shrine-img.pages.dev/img/135-shirakawa-kashima-jinja-01.webp",
+      "photos": 7,
+      "related": [
+        "133-tsutsukowake-jinja-baba",
+        "64-shirakami-sha",
+        "77-kotenju",
+        "111-kashima-jingu"
+      ],
+      "url": "shrine/135-shirakawa-kashima-jinja.html",
+      "markdown": "shrine/135-shirakawa-kashima-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/3g",
+      "no": "134",
+      "slug": "134-musashino-za-reiwa-jinja",
+      "title": "武藏野坐令和神社",
+      "title_ja": "武蔵野坐令和神社",
+      "kana": "むさしのにますうるわしきやまとのみやしろ",
+      "type": "神社",
+      "prefecture": "埼玉縣",
+      "city": "所澤市東所澤和田",
+      "lat": "35.797168",
+      "lng": "139.508425",
+      "enshrined": "天照大御神（主祭神）・素戔嗚命（相殿神）；二柱總稱「言靈大神」",
+      "rank": "不具宗教法人格的邸內社，由公益財團法人角川文化振興財團以文化事業營運；動畫聖地八十八處第一番札所",
+      "trip": "T12",
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-04",
+      "published": "2026-09-16",
+      "hook": "東所澤驛到這裡六百公尺，人行道上埋著二十八個鐵蓋，每一個上面印著一部動畫或漫畫。",
+      "cover": "https://shrine-img.pages.dev/img/134-musashino-za-reiwa-jinja-01.webp",
+      "photos": 6,
+      "related": [
+        "105-yohashira-jinja",
+        "101-kashihara-jingu",
+        "120-atama-daibutsu-den",
+        "132-kawagoe-hikawa-jinja"
+      ],
+      "url": "shrine/134-musashino-za-reiwa-jinja.html",
+      "markdown": "shrine/134-musashino-za-reiwa-jinja.md"
+    },
     {
       "short": "https://os.housearch.net/s/3f",
       "no": "132",
