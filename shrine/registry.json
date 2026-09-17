@@ -736,37 +736,45 @@
       "slug": "50-hanamatsu-jinja",
       "title": "花松神社",
       "type": "神社",
-      "prefecture": "青森県",
-      "city": "上北郡七戸町花松",
+      "prefecture": "青森縣",
+      "city": "上北郡七戶町花松林ノ根",
       "trip": "T9",
-      "series": [],
-      "visited": "2024-08"
+      "series": [
+        "S8"
+      ],
+      "visited": "2024-08",
+      "lat": 40.723088,
+      "lng": 141.202616
     },
     {
       "no": "51",
       "slug": "51-rokunohe-kumano-jinja",
-      "title": "熊野神社（六戶町）",
+      "title": "熊野神社〈六戶町〉",
       "type": "神社",
-      "prefecture": "青森県",
-      "city": "上北郡六戸町",
+      "prefecture": "青森縣",
+      "city": "上北郡六戶町犬落瀨柴山",
       "trip": "T9",
       "series": [
         "S2"
       ],
-      "visited": "2024-08"
+      "visited": "2024-08",
+      "lat": 40.611545,
+      "lng": 141.329263
     },
     {
       "no": "52",
       "slug": "52-towada-jinja",
       "title": "十和田神社",
       "type": "神社",
-      "prefecture": "青森県",
-      "city": "十和田市奥瀬十和田湖畔休屋",
+      "prefecture": "青森縣",
+      "city": "十和田市奧瀨十和田湖畔休屋",
       "trip": "T9",
       "series": [
         "S2"
       ],
-      "visited": "2024-08"
+      "visited": "2024-08",
+      "lat": 40.433084,
+      "lng": 140.892189
     },
     {
       "no": "53",

@@ -2,9 +2,133 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 127,
+  "count": 131,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/3k",
+      "no": "138",
+      "slug": "138-ana-hachimangu",
+      "title": "穴八幡宮",
+      "title_ja": "穴八幡宮",
+      "kana": "あなはちまんぐう",
+      "type": "神社",
+      "prefecture": "東京都",
+      "city": "新宿區西早稻田",
+      "lat": "35.707292",
+      "lng": "139.717393",
+      "enshrined": "應神天皇・仲哀天皇・神功皇后",
+      "rank": "江戶城北總鎮護・將軍家祈願所；高田馬場流鏑馬＝新宿區指定無形民俗文化財（昭和六十三年三月四日）；布袋像水鉢＝新宿區指定",
+      "trip": "T12",
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-04",
+      "published": "2026-09-17",
+      "hook": "早稻田通り（Waseda-dōri，早稻田大道）與諏訪通り（Suwa-dōri，諏訪大道）交會的馬場下町路口，地下鐵早稻田驛的三",
+      "cover": "https://shrine-img.pages.dev/img/138-ana-hachimangu-01.webp",
+      "photos": 14,
+      "related": [
+        "137-kodaira-kumano-gu",
+        "132-kawagoe-hikawa-jinja",
+        "11-dazaifu-tenmangu"
+      ],
+      "url": "shrine/138-ana-hachimangu.html",
+      "markdown": "shrine/138-ana-hachimangu.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/3n",
+      "no": "52",
+      "slug": "52-towada-jinja",
+      "title": "十和田神社",
+      "title_ja": "十和田神社",
+      "kana": "とわだじんじゃ",
+      "type": "神社",
+      "prefecture": "青森縣",
+      "city": "十和田市奧瀨十和田湖畔休屋",
+      "lat": "40.433084",
+      "lng": "140.892189",
+      "enshrined": "日本武尊（明治以前為十和田青龍大權現、本地佛聖觀音）",
+      "rank": "舊村社；十和田湖及奧入瀨溪流＝特別名勝及天然紀念物（昭和二十七年三月二十九日）",
+      "trip": "T9",
+      "series": [
+        "S2"
+      ],
+      "visited": "2024-08",
+      "published": "2026-09-17",
+      "hook": "十點三十三分走進一之鳥居，十點五十一分從湖岸的木棧道上回頭看湖。",
+      "cover": "https://shrine-img.pages.dev/img/52-towada-jinja-01.webp",
+      "photos": 11,
+      "related": [
+        "96-kamikura-jinja",
+        "15-kamishikimi-kumanoimasu-jinja",
+        "110-fujisan-hongu-sengen-taisha"
+      ],
+      "url": "shrine/52-towada-jinja.html",
+      "markdown": "shrine/52-towada-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/3m",
+      "no": "51",
+      "slug": "51-rokunohe-kumano-jinja",
+      "title": "熊野神社〈六戶町〉",
+      "title_ja": "熊野神社",
+      "kana": "くまのじんじゃ",
+      "type": "神社",
+      "prefecture": "青森縣",
+      "city": "上北郡六戶町犬落瀨柴山",
+      "lat": "40.611545",
+      "lng": "141.329263",
+      "enshrined": "伊弉諾尊・伊弉冉尊",
+      "rank": "舊村社（昭和六年）；神饌幣帛料供進神社；明治六年廢社、明治十三年復社（無格社）",
+      "trip": "T9",
+      "series": [
+        "S2"
+      ],
+      "visited": "2024-08",
+      "published": "2026-09-17",
+      "hook": "石階從坡下一路爬上來，兩側立著成列的朱漆燈籠柱，",
+      "cover": "https://shrine-img.pages.dev/img/51-rokunohe-kumano-jinja-01.webp",
+      "photos": 11,
+      "related": [
+        "50-hanamatsu-jinja",
+        "35-kumano-hongu-taisha",
+        "63-izumo-oyashiro"
+      ],
+      "url": "shrine/51-rokunohe-kumano-jinja.html",
+      "markdown": "shrine/51-rokunohe-kumano-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/3l",
+      "no": "50",
+      "slug": "50-hanamatsu-jinja",
+      "title": "花松神社",
+      "title_ja": "花松神社",
+      "kana": "はなまつじんじゃ",
+      "type": "神社",
+      "prefecture": "青森縣",
+      "city": "上北郡七戶町花松林ノ根",
+      "lat": "40.723088",
+      "lng": "141.202616",
+      "enshrined": "保食命",
+      "rank": "舊鄉社；七戶南部三十三觀音靈場第三十三番札所（結願）",
+      "trip": "T9",
+      "series": [
+        "S8"
+      ],
+      "visited": "2024-08",
+      "published": "2026-09-17",
+      "hook": "早上十點二十三分走進鳥居，十點三十二分走出社叢的邊緣。",
+      "cover": "https://shrine-img.pages.dev/img/50-hanamatsu-jinja-01.webp",
+      "photos": 11,
+      "related": [
+        "51-rokunohe-kumano-jinja",
+        "139-iwakiyama-jinja",
+        "129-tono-go-hachimangu"
+      ],
+      "url": "shrine/50-hanamatsu-jinja.html",
+      "markdown": "shrine/50-hanamatsu-jinja.md"
+    },
     {
       "short": "https://os.housearch.net/s/3j",
       "no": "137",

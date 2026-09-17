@@ -29,10 +29,14 @@
 
 ## 神社寺廟散策地圖
 
-走過的日本神社寺廟，一座一篇（規劃 140 座，已發佈 127 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
+走過的日本神社寺廟，一座一篇（規劃 140 座，已發佈 131 篇）。不是旅遊攻略：每篇由信仰背景、空間分析、實際走法三者共同撐起，事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（創祀與祭神之認定）、`#geography`（立地）、`#architecture`（參道形制與空間效果）、`#community`（與地方的關係）、`#festival`（祭儀與授与品）、`#walk`（晨間散策路線）。其中 `#origin` 與 `#community` 的**標題每篇量身**，錨點不變。
 
+- [穴八幡宮](https://chrisincite.github.io/shrine/138-ana-hachimangu.md)：早稻田通り（Waseda-dōri，早稻田大道）與諏訪通り（Suwa-dōri，諏訪大道）交會的馬場下町路口，地下鐵早稻田驛的三（東京都・新宿區西早稻田）
+- [十和田神社](https://chrisincite.github.io/shrine/52-towada-jinja.md)：十點三十三分走進一之鳥居，十點五十一分從湖岸的木棧道上回頭看湖。（青森縣・十和田市奧瀨十和田湖畔休屋）
+- [熊野神社〈六戶町〉](https://chrisincite.github.io/shrine/51-rokunohe-kumano-jinja.md)：石階從坡下一路爬上來，兩側立著成列的朱漆燈籠柱，（青森縣・上北郡六戶町犬落瀨柴山）
+- [花松神社](https://chrisincite.github.io/shrine/50-hanamatsu-jinja.md)：早上十點二十三分走進鳥居，十點三十二分走出社叢的邊緣。（青森縣・上北郡七戶町花松林ノ根）
 - [熊野宮（小平）](https://chrisincite.github.io/shrine/137-kodaira-kumano-gu.md)：小平市中央這一帶，最高點與最低點差不到三公尺。（東京都・小平市仲町）
 - [大島湯泉神社](https://chrisincite.github.io/shrine/136-oshima-tosen-jinja.md)：早上九點五十七分二十九秒按下第一張，九點五十八分五十六秒按下最後一張。（栃木縣・那須郡那須町大島）
 - [鹿嶋神社〈白河〉](https://chrisincite.github.io/shrine/135-shirakawa-kashima-jinja.md)：上午十點五十分，社殿前的碎石地上沒有幾個人。（福島縣・白河市大鹿島）
