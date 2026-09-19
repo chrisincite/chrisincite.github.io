@@ -781,24 +781,30 @@
       "slug": "53-morioka-hachimangu",
       "title": "盛岡八幡宮",
       "type": "神社",
-      "prefecture": "岩手県",
+      "prefecture": "岩手縣",
       "city": "盛岡市八幡町",
       "trip": "T9",
-      "series": [],
-      "visited": "2024-08"
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-08",
+      "lat": 39.69535,
+      "lng": 141.164038
     },
     {
       "no": "54",
       "slug": "54-hachiman-akita-jinja",
       "title": "八幡秋田神社",
       "type": "神社",
-      "prefecture": "秋田県",
+      "prefecture": "秋田縣",
       "city": "秋田市千秋公園",
       "trip": "T9",
       "series": [
         "S7"
       ],
-      "visited": "2024-08"
+      "visited": "2024-08",
+      "lat": 39.721588,
+      "lng": 140.123213
     },
     {
       "no": "55",
@@ -806,10 +812,14 @@
       "title": "龜戶香取神社",
       "type": "神社",
       "prefecture": "東京都",
-      "city": "江東区亀戸",
+      "city": "江東區龜戶",
       "trip": "T9",
-      "series": [],
-      "visited": "2024-08"
+      "series": [
+        "S8"
+      ],
+      "visited": "2024-08",
+      "lat": 35.704385,
+      "lng": 139.82549
     },
     {
       "no": "56",
@@ -817,12 +827,14 @@
       "title": "龜戶天神社",
       "type": "神社",
       "prefecture": "東京都",
-      "city": "江東区亀戸",
+      "city": "江東區龜戶",
       "trip": "T9",
       "series": [
         "S7"
       ],
-      "visited": "2024-08"
+      "visited": "2024-08",
+      "lat": 35.703029,
+      "lng": 139.820662
     },
     {
       "no": "57",
@@ -1714,11 +1726,15 @@
       "slug": "116-osorezan-bodaiji",
       "title": "恐山菩提寺",
       "type": "寺院",
-      "prefecture": "青森県",
+      "prefecture": "青森縣",
       "city": "むつ市",
       "trip": "T9",
-      "series": [],
-      "visited": "2024-07"
+      "series": [
+        "S2"
+      ],
+      "visited": "2024-07",
+      "lat": 41.328243,
+      "lng": 141.089817
     },
     {
       "no": "117",
