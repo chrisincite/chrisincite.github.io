@@ -1741,33 +1741,45 @@
       "slug": "117-gozanoishi-jinja",
       "title": "御座石神社",
       "type": "神社",
-      "prefecture": "秋田県",
-      "city": "仙北市田沢湖",
+      "prefecture": "秋田縣",
+      "city": "仙北市西木町檜木內字相內潟",
       "trip": "T9",
-      "series": [],
-      "visited": "2024-08"
+      "series": [
+        "S6"
+      ],
+      "visited": "2024-08",
+      "lat": 39.7516029,
+      "lng": 140.6505312
     },
     {
       "no": "118",
       "slug": "118-kakunodate-shinmeisha",
       "title": "神明社（角館總鎮守）",
       "type": "神社",
-      "prefecture": "秋田県",
-      "city": "仙北市角館町岩瀬117",
+      "prefecture": "秋田縣",
+      "city": "仙北市角館町岩瀨一一七",
       "trip": "T9",
-      "series": [],
-      "visited": "2024-08"
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-08",
+      "lat": 39.5875823,
+      "lng": 140.5628436
     },
     {
       "no": "119",
       "slug": "119-taiheizan-miyoshi-jinja",
       "title": "太平山三吉神社",
       "type": "神社",
-      "prefecture": "秋田県",
-      "city": "秋田市",
+      "prefecture": "秋田縣",
+      "city": "秋田市廣面字赤沼",
       "trip": "T9",
-      "series": [],
-      "visited": "2024-08"
+      "series": [
+        "S2"
+      ],
+      "visited": "2024-08",
+      "lat": 39.7261096,
+      "lng": 140.1443627
     },
     {
       "no": "120",

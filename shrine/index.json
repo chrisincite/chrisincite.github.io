@@ -2,9 +2,105 @@
   "site": "CHRIS OS",
   "description": "140 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 136,
+  "count": 139,
   "planned": 140,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/3v",
+      "no": "119",
+      "slug": "119-taiheizan-miyoshi-jinja",
+      "title": "太平山三吉神社",
+      "title_ja": "太平山三吉神社　總本宮",
+      "kana": "たいへいざんみよしじんじゃ",
+      "type": "神社",
+      "prefecture": "秋田縣",
+      "city": "秋田市廣面字赤沼三之二（里宮）／太平山山頂（奧宮）",
+      "lat": "39.7261096",
+      "lng": "140.1443627",
+      "enshrined": "大己貴大神・少彥名大神・三吉靈神",
+      "rank": "全國三吉神社・太平山講・三吉講之總本宮／舊國幣小社格外",
+      "trip": "T9",
+      "series": [
+        "S2"
+      ],
+      "visited": "2024-08",
+      "published": "2026-09-20",
+      "hook": "從神社的正參道走出來就是縣道二十八號，這條路一直往西，一點七公里不轉彎，",
+      "cover": "https://shrine-img.pages.dev/img/119-taiheizan-miyoshi-jinja-01.webp",
+      "photos": 11,
+      "related": [
+        "118-kakunodate-shinmeisha",
+        "54-hachiman-akita-jinja",
+        "116-osorezan-bodaiji",
+        "128-hoju-san-risshakuji"
+      ],
+      "url": "shrine/119-taiheizan-miyoshi-jinja.html",
+      "markdown": "shrine/119-taiheizan-miyoshi-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/3u",
+      "no": "118",
+      "slug": "118-kakunodate-shinmeisha",
+      "title": "神明社（角館總鎮守）",
+      "title_ja": "角館總鎭守　神明社",
+      "kana": "しんめいしゃ",
+      "type": "神社",
+      "prefecture": "秋田縣",
+      "city": "仙北市角館町岩瀨一一七",
+      "lat": "39.5875823",
+      "lng": "140.5628436",
+      "enshrined": "主神：天照大御神／相殿神：加具土神・大名牟遲神・少彥名神・經津主神・武甕槌神・建速須之男命・三嶋大神・廣田大神・水波能賣神・大山祇命・伊邪那岐命・伊邪那美命・白峰主神",
+      "rank": "舊鄉社（明治六年）／角館總鎮守",
+      "trip": "T9",
+      "series": [
+        "S7"
+      ],
+      "visited": "2024-08",
+      "published": "2026-09-20",
+      "hook": "角館是一條南北細長的町。",
+      "cover": "https://shrine-img.pages.dev/img/118-kakunodate-shinmeisha-01.webp",
+      "photos": 10,
+      "related": [
+        "117-gozanoishi-jinja",
+        "119-taiheizan-miyoshi-jinja",
+        "53-morioka-hachimangu",
+        "54-hachiman-akita-jinja"
+      ],
+      "url": "shrine/118-kakunodate-shinmeisha.html",
+      "markdown": "shrine/118-kakunodate-shinmeisha.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/3t",
+      "no": "117",
+      "slug": "117-gozanoishi-jinja",
+      "title": "御座石神社",
+      "title_ja": "御座石神社",
+      "kana": "ござのいしじんじゃ",
+      "type": "神社",
+      "prefecture": "秋田縣",
+      "city": "仙北市西木町檜木內字相內潟",
+      "lat": "39.7516029",
+      "lng": "140.6505312",
+      "enshrined": "事代主神・綿津見神・龍子姬神（境內由緒板）／事代主神・綿津見神・龍神（秋田縣神社廳）",
+      "rank": "舊稱龍神社／明治四十四年合併蛭見神社・浮木神社後改今名",
+      "trip": "T9",
+      "series": [
+        "S6"
+      ],
+      "visited": "2024-08",
+      "published": "2026-09-20",
+      "hook": "從神社門口往東走，縣道貼著湖岸繞，左邊是水，右邊是立刻拔高到四百公尺以上的山坡，",
+      "cover": "https://shrine-img.pages.dev/img/117-gozanoishi-jinja-01.webp",
+      "photos": 11,
+      "related": [
+        "118-kakunodate-shinmeisha",
+        "119-taiheizan-miyoshi-jinja",
+        "107-suwa-taisha-kamisha-honmiya",
+        "136-oshima-tosen-jinja"
+      ],
+      "url": "shrine/117-gozanoishi-jinja.html",
+      "markdown": "shrine/117-gozanoishi-jinja.md"
+    },
     {
       "short": "https://os.housearch.net/s/3o",
       "no": "116",
