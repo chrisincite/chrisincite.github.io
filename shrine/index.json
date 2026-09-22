@@ -2,9 +2,102 @@
   "site": "CHRIS OS",
   "description": "149 座走過的日本神社寺廟，把神話、地形與腳程放在一起重讀一次。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 141,
+  "count": 144,
   "planned": 149,
   "shrines": [
+    {
+      "short": "https://os.housearch.net/s/40",
+      "no": "148",
+      "slug": "148-jorakuji-bessho",
+      "title": "常樂寺〈別所溫泉〉",
+      "title_ja": "常楽寺",
+      "kana": "じょうらくじ",
+      "type": "寺院",
+      "prefecture": "長野縣",
+      "city": "上田市別所溫泉",
+      "lat": "36.3534737",
+      "lng": "138.1547394",
+      "enshrined": "",
+      "rank": "石造多寶塔為國指定重要文化財／本堂為上田市指定有形文化財",
+      "trip": "T17",
+      "series": [
+        "S6"
+      ],
+      "visited": "2017-03",
+      "published": "2026-09-22",
+      "hook": "三月十八日早上六點四十九分，別所溫泉的街上一個人也沒有。",
+      "cover": "https://shrine-img.pages.dev/img/148-jorakuji-bessho-01.webp",
+      "photos": 8,
+      "related": [
+        "39-enryakuji",
+        "141-chusonji",
+        "47-tosen-jinja"
+      ],
+      "url": "shrine/148-jorakuji-bessho.html",
+      "markdown": "shrine/148-jorakuji-bessho.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/3z",
+      "no": "147",
+      "slug": "147-futami-okitama-jinja",
+      "title": "二見興玉神社",
+      "title_ja": "二見興玉神社",
+      "kana": "ふたみおきたまじんじゃ",
+      "type": "神社",
+      "prefecture": "三重縣",
+      "city": "伊勢市二見町江",
+      "lat": "34.5089247",
+      "lng": "136.7878294",
+      "enshrined": "興玉大神（猿田彥大神）／相殿 宇迦御魂大神",
+      "rank": "伊勢參宮前「浜参宮」之地",
+      "trip": "T16",
+      "series": [
+        "S5"
+      ],
+      "visited": "2016-10",
+      "published": "2026-09-22",
+      "hook": "十月二十六日上午十一點零七分，我站在二見浦的護欄前。",
+      "cover": "https://shrine-img.pages.dev/img/147-futami-okitama-jinja-01.webp",
+      "photos": 4,
+      "related": [
+        "70-ise-jingu-naiku",
+        "97-hananoiwaya-jinja",
+        "96-kamikura-jinja"
+      ],
+      "url": "shrine/147-futami-okitama-jinja.html",
+      "markdown": "shrine/147-futami-okitama-jinja.md"
+    },
+    {
+      "short": "https://os.housearch.net/s/3y",
+      "no": "146",
+      "slug": "146-kofukuji",
+      "title": "興福寺",
+      "title_ja": "興福寺",
+      "kana": "こうふくじ",
+      "type": "寺院",
+      "prefecture": "奈良縣",
+      "city": "奈良市登大路町",
+      "lat": "34.6832311",
+      "lng": "135.8311589",
+      "enshrined": "",
+      "rank": "世界文化遺產「古都奈良的文化財」構成資產／西國三十三所第九番（南圓堂）",
+      "trip": "T15",
+      "series": [
+        "S7"
+      ],
+      "visited": "2015-09",
+      "published": "2026-09-22",
+      "hook": "九月十日晚上七點十六分，我從近鐵奈良站的十三號乘車處旁邊走出來，",
+      "cover": "https://shrine-img.pages.dev/img/146-kofukuji-01.webp",
+      "photos": 8,
+      "related": [
+        "143-todaiji",
+        "145-tenryuji",
+        "41-nariaiji"
+      ],
+      "url": "shrine/146-kofukuji.html",
+      "markdown": "shrine/146-kofukuji.md"
+    },
     {
       "short": "https://os.housearch.net/s/3x",
       "no": "142",
