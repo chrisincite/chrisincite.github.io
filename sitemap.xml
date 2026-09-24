@@ -5,6 +5,16 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/notes/20260924-ai-looking-slides.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/notes/20260924-ai-looking-slides.md</loc>
+    <lastmod>2026-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/notes/20260922-meat-proxy.html</loc>
     <lastmod>2026-09-22</lastmod>
     <priority>0.8</priority>

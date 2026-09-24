@@ -9,6 +9,7 @@
 
 格式固定為三段：**我的想法**（Chris 本人的評註，錨點 #my-take）、**這篇在說什麼**（重點整理，錨點 #summary）、**原文金句**（引用，錨點 #quotes）。
 
+- [Chris 筆記｜為什麼一看到「很 AI」的投影片，就不想聽下去了？](https://chrisincite.github.io/notes/20260924-ai-looking-slides.md)：這篇文章挺有意思，分析著目前人們對 AI 接受度的問題。
 - [Chris 筆記｜你早就是個「肉身代理人」了](https://chrisincite.github.io/notes/20260922-meat-proxy.md)：一位程式設計師昨天在X上抱怨「⋯⋯所有東西都是 Claude Code 做出來的。
 - [Chris 筆記｜知識工程師的崛起](https://chrisincite.github.io/notes/20260919-knowledge-engineer.md)：前些日子，我剛好關注到日本 Physical AI 的發展，然後想把這個主題相關新聞與專業信息整合起來，於是就讓 Claude Code 進
 - [Chris 筆記｜用 Claude Platform 降低成本、提升效能](https://chrisincite.github.io/notes/20260909-claude-cost-performance.md)：Anthropic 突然在昨晚發布了這篇文章，教你如何降低使用 Claude 的成本，這事聽起來就是有點詭異。
