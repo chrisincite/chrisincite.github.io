@@ -190,8 +190,8 @@
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
-- [弘前紅磚倉庫美術館](https://chrisincite.github.io/kengaku/k031-hirosaki-renga-soko.md)：弘前紅磚倉庫美術館由一組明治至大正年間建造的紅磚倉庫改修而成。（青森縣・弘前市吉野町）
 - [こども本の森 遠野](https://chrisincite.github.io/kengaku/k032-tono-kodomo-honnomori.md)：こども本の森 遠野（Kodomo hon no mori Tōno，兒童之書森林・遠野）是建築師安藤忠雄出資設計、建成後贈予遠野（岩手縣・遠野市中央通り）
+- [弘前紅磚倉庫美術館](https://chrisincite.github.io/kengaku/k031-hirosaki-renga-soko.md)：弘前紅磚倉庫美術館由一組明治至大正年間建造的紅磚倉庫改修而成。（青森縣・弘前市吉野町）
 
 ## 超入門
 

@@ -758,7 +758,8 @@ def strip_comments(text):
 
 def shrine_no_key(meta):
     """編號當排序第二鍵：數字比數字，非數字的一律墊底。"""
-    no = str(meta.get("no", "")).strip()
+    # 見學的編號帶 k 前綴（k031），只取數字部分比較；散策的純數字編號結果不變
+    no = re.sub(r"^[A-Za-z]+", "", str(meta.get("no", "")).strip())
     return (1, int(no)) if no.isdigit() else (0, 0)
 
 

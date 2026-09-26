@@ -1441,19 +1441,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://chrisincite.github.io/kengaku/k031-hirosaki-renga-soko.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://chrisincite.github.io/kengaku/k031-hirosaki-renga-soko.md</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://chrisincite.github.io/kengaku/k032-tono-kodomo-honnomori.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://chrisincite.github.io/kengaku/k032-tono-kodomo-honnomori.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k031-hirosaki-renga-soko.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k031-hirosaki-renga-soko.md</loc>
     <priority>0.5</priority>
   </url>
   <url>
