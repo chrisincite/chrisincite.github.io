@@ -222,12 +222,14 @@
     },
     {
       "no": "k032",
-      "slug": "k032",
+      "slug": "k032-tono-kodomo-honnomori",
       "title": "こども本の森 遠野",
       "type": "圖書館",
       "prefecture": "岩手県",
-      "city": "",
-      "visited": "2022-10"
+      "city": "遠野市中央通り",
+      "visited": "2022-10",
+      "lat": 39.328874,
+      "lng": 141.53108
     },
     {
       "no": "k033",

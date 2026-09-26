@@ -2,7 +2,7 @@
   "site": "CHRIS OS",
   "description": "160 座在日本旅行時見學過的公共建築，從空間讀一座館。",
   "canonical_base": "https://chrisincite.github.io",
-  "count": 1,
+  "count": 2,
   "planned": 160,
   "kengaku": [
     {
@@ -33,6 +33,37 @@
       "completed": "2020年2月（美術館棟）",
       "structure": "磚造，局部鋼骨造・RC造・木造，地上二層",
       "operator": "弘前市（PFI，營運：弘前芸術創造）"
+    },
+    {
+      "short": "https://os.housearch.net/k/2",
+      "no": "k032",
+      "slug": "k032-tono-kodomo-honnomori",
+      "title": "こども本の森 遠野",
+      "title_ja": "こども本の森 遠野",
+      "kana": "こどもほんのもり とおの",
+      "type": "圖書館",
+      "prefecture": "岩手縣",
+      "city": "遠野市中央通り",
+      "lat": "39.328874",
+      "lng": "141.53108",
+      "enshrined": "",
+      "rank": "",
+      "trip": "",
+      "series": [],
+      "visited": "2022-10",
+      "published": "2026-09-26",
+      "hook": "こども本の森 遠野（Kodomo hon no mori Tōno，兒童之書森林・遠野）是建築師安藤忠雄出資設計、建成後贈予遠野",
+      "cover": "https://shrine-img.pages.dev/img/k032-tono-kodomo-honnomori-01.webp",
+      "photos": 17,
+      "related": [
+        "k031-hirosaki-renga-soko"
+      ],
+      "url": "kengaku/k032-tono-kodomo-honnomori.html",
+      "markdown": "kengaku/k032-tono-kodomo-honnomori.md",
+      "architect": "安藤忠雄建築研究所・カクタ設計",
+      "completed": "2021年6月",
+      "structure": "木造，地上二層",
+      "operator": "遠野市（安藤忠雄寄贈）"
     }
   ]
 }
