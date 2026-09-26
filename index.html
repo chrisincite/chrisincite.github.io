@@ -13,6 +13,7 @@
 <link rel="alternate" type="application/json" href="/notes/index.json" title="讀書筆記索引">
 <link rel="alternate" type="application/json" href="/shrine/index.json" title="神社寺廟散策索引">
 <link rel="alternate" type="application/json" href="/guide/index.json" title="超入門索引">
+<link rel="alternate" type="application/json" href="/kengaku/index.json" title="公共建築見學索引">
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 <script type="application/ld+json">
 {
@@ -125,17 +126,22 @@ body {
   opacity: 0.55;
   margin-right: 5px;
 }
-/* 手機：六顆膠囊連編號會超出螢幕寬度，收掉編號並縮排距 */
+/* 手機：八顆膠囊連編號會超出螢幕寬度，收掉編號並縮排距；
+   375px 寬實算約 340px 放得下，更窄的機型改成可橫向捲動而不是被裁掉 */
 @media (max-width: 560px) {
   .pill-nav {
     bottom: calc(16px + env(safe-area-inset-bottom, 0px));
     gap: 2px;
     padding: 4px;
     max-width: calc(100vw - 20px);
+    overflow-x: auto;
+    scrollbar-width: none;
   }
+  .pill-nav::-webkit-scrollbar { display: none; }
   .pill-nav button {
     font-size: 12px;
-    padding: 8px 11px;
+    padding: 8px 7px;
+    flex: none;
   }
   .pill-nav .pill-num { display: none; }
 }
@@ -1056,8 +1062,9 @@ a.sh-item .sh-no { color: var(--vermilion); }
   <button data-tab="hub"><span class="pill-num">03</span>工具</button>
   <button data-tab="notes"><span class="pill-num">04</span>筆記</button>
   <button data-tab="shrine"><span class="pill-num">05</span>散策</button>
-  <button data-tab="guide"><span class="pill-num">06</span>超入門</button>
-  <button data-tab="about"><span class="pill-num">07</span>關於</button>
+  <button data-tab="kengaku"><span class="pill-num">06</span>見學</button>
+  <button data-tab="guide"><span class="pill-num">07</span>超入門</button>
+  <button data-tab="about"><span class="pill-num">08</span>關於</button>
 </nav>
 
 <!-- ============ TAB 1：HOME ============ -->
@@ -1472,11 +1479,39 @@ a.sh-item .sh-no { color: var(--vermilion); }
   </div>
 </main>
 
-<!-- ============ TAB 6：超入門 ============ -->
+<!-- ============ TAB 6：公共建築見學 ============ -->
+<main id="page-kengaku" class="tab-page">
+  <div class="page-inner">
+    <header class="page-head">
+      <div class="ph-mono">06 / KENGAKU</div>
+      <h1>從空間讀一座館</h1>
+      <p><span class="kengaku-count">—</span> 座在日本旅行時見學過的博物館、美術館、圖書館與資料館，一座一篇。館藏只是背景，重心放在空間：從哪裡進、怎麼被引導、天花與光在哪裡變、材料在哪裡換，以及這座館跟它所在的街道之間的關係。事實只採日文一次資料。每篇最後是一條方圓三到五公里的周邊散步路線。</p>
+    </header>
+
+    <div id="kengakuList" class="notes-list">
+      <p class="notes-empty">載入中…</p>
+    </div>
+
+    <section class="sh-roster">
+      <div class="sh-roster-head">
+        <h2>全部 <span class="kengaku-count">—</span> 座</h2>
+        <div class="sh-toggle" id="kengakuToggle" role="group" aria-label="分組方式">
+          <button data-group="region" class="active">依地區</button>
+          <button data-group="type">依類型</button>
+        </div>
+      </div>
+      <div id="kengakuRoster"></div>
+    </section>
+
+    <p class="hub-note">// 只收公立或公益的館；企業美術館、商業藝廊不列入。編號是見學的時間序，一經發佈不再變動。</p>
+  </div>
+</main>
+
+<!-- ============ TAB 7：超入門 ============ -->
 <main id="page-guide" class="tab-page">
   <div class="page-inner">
     <header class="page-head">
-      <div class="ph-mono">06 / GUIDE</div>
+      <div class="ph-mono">07 / GUIDE</div>
       <h1>講到小學生也能照著做</h1>
       <p>一個題目一篇，從零開始。專有名詞全部拆開講，每一個要按的按鈕都附實際畫面截圖。每篇另配一頁<strong>圖解版</strong>——大圖少字，完全沒有背景知識的人可以先看那個。</p>
     </header>
@@ -1487,11 +1522,11 @@ a.sh-item .sh-no { color: var(--vermilion); }
   </div>
 </main>
 
-<!-- ============ TAB 7：關於 ============ -->
+<!-- ============ TAB 8：關於 ============ -->
 <main id="page-about" class="tab-page">
   <div class="page-inner">
     <header class="page-head">
-      <div class="ph-mono">07 / ABOUT</div>
+      <div class="ph-mono">08 / ABOUT</div>
       <h1>在 AI 時代重建工作流的人</h1>
     </header>
     <div class="about-grid">
@@ -1541,7 +1576,7 @@ a.sh-item .sh-no { color: var(--vermilion); }
   /* ============================================
      TAB ROUTER（hash-based）
      ============================================ */
-  var TABS = ['home', 'works', 'hub', 'notes', 'shrine', 'guide', 'about'];
+  var TABS = ['home', 'works', 'hub', 'notes', 'shrine', 'kengaku', 'guide', 'about'];
   var pillNav = document.getElementById('pillNav');
 
   function currentTab() {
@@ -2143,6 +2178,115 @@ a.sh-item .sh-no { color: var(--vermilion); }
   }).catch(function() {
     var list = document.getElementById('shrineList');
     if (list) list.innerHTML = '<p class="notes-empty">散策資料載入失敗——若是本機直接開啟檔案，請改用 http 伺服器檢視。</p>';
+  });
+
+  /* ============================================
+     公共建築見學（讀 kengaku/index.json ＋ kengaku/registry.json）
+     與散策同一套卡片與名錄樣式；名錄分組改成「地區／類型」（見學沒有系列的概念）。
+     ============================================ */
+  var KG_REGIONS = [
+    ['北海道', ['北海道']],
+    ['東北', ['青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県']],
+    ['關東', ['茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県']],
+    ['中部', ['新潟県', '富山県', '石川県', '福井県', '山梨県', '長野県', '岐阜県', '静岡県', '愛知県']],
+    ['近畿', ['三重県', '滋賀県', '京都府', '大阪府', '兵庫県', '奈良県', '和歌山県']],
+    ['中國', ['鳥取県', '島根県', '岡山県', '広島県', '山口県']],
+    ['四國', ['徳島県', '香川県', '愛媛県', '高知県']],
+    ['九州', ['福岡県', '佐賀県', '長崎県', '熊本県', '大分県', '宮崎県', '鹿児島県', '沖縄県']]
+  ];
+  var KG_ICON = { '美術館': '🖼', '博物館': '🏛', '資料館': '🏛', '記念館': '🏛',
+                  '圖書館': '📚', '劇場': '🎭', '廳舍': '🏢' };
+  var KENGAKU_LIMIT = 10;
+
+  function kgIcon(type) { return KG_ICON[type] || '🏛'; }
+  function kgRegion(pref) {
+    for (var i = 0; i < KG_REGIONS.length; i++) {
+      if (KG_REGIONS[i][1].indexOf(pref) >= 0) return KG_REGIONS[i][0];
+    }
+    return '其他';
+  }
+
+  function kengakuCard(k) {
+    var thumb = k.cover
+      ? '<img class="nc-thumb" src="' + esc(k.cover) + '" alt="" loading="lazy">'
+      : '<div class="nc-thumb placeholder">' + kgIcon(k.type) + '</div>';
+    var where = [k.prefecture, k.city].filter(Boolean).join('・');
+    var meta = [where, k.visited].filter(Boolean).join(' · ');
+    return '<a class="note-card" href="' + esc(k.url) + '">' +
+      '<div>' + thumb + '</div>' +
+      '<div>' +
+        '<div class="nc-where">' + esc(meta) + '</div>' +
+        '<h3>' + esc(k.title) + '</h3>' +
+        '<p class="nc-ja">' + esc(k.title_ja) + '</p>' +
+        '<p class="nc-hook">' + esc(k.hook) + '</p>' +
+        (k.architect ? '<p class="nc-src">設計：' + esc(k.architect) + '</p>' : '') +
+      '</div>' +
+    '</a>';
+  }
+
+  function renderKengakuRoster(places, bySlug, groupBy) {
+    var box = document.getElementById('kengakuRoster');
+    if (!box) return;
+    var groups = {}, order = [];
+    places.forEach(function(p) {
+      var k = groupBy === 'type' ? (p.type || '其他') : kgRegion(p.prefecture);
+      if (!groups[k]) { groups[k] = []; order.push(k); }
+      groups[k].push(p);
+    });
+    if (groupBy !== 'type') {
+      var ref = KG_REGIONS.map(function(r) { return r[0]; }).concat(['其他']);
+      order.sort(function(a, b) { return ref.indexOf(a) - ref.indexOf(b); });
+    }
+    box.innerHTML = order.map(function(k) {
+      var items = groups[k].map(function(p) {
+        var pub = bySlug[p.slug];
+        var inner =
+          '<span class="sh-no">' + esc(p.no) + '</span>' +
+          '<span>' + kgIcon(p.type) + ' ' + esc(p.title) + '</span>' +
+          '<span class="sh-place">' + esc(p.prefecture) + '</span>';
+        return pub
+          ? '<a class="sh-item" href="' + esc(pub.url) + '">' + inner + '</a>'
+          : '<span class="sh-item">' + inner + '</span>';
+      }).join('');
+      return '<div class="sh-group">' +
+        '<div class="sh-group-title"><b>' + esc(k) + '</b>　' + groups[k].length + ' 座</div>' +
+        '<div class="sh-items">' + items + '</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  Promise.all([
+    fetch('kengaku/index.json').then(function(r) { return r.ok ? r.json() : { kengaku: [] }; }),
+    fetch('kengaku/registry.json').then(function(r) { return r.ok ? r.json() : { places: [] }; })
+  ]).then(function(res) {
+    var items = res[0].kengaku || [];
+    var places = res[1].places || [];
+    var bySlug = {};
+    items.forEach(function(k) { bySlug[k.slug] = k; });
+    [].forEach.call(document.querySelectorAll('.kengaku-count'), function(el) {
+      el.textContent = String(res[1].count || places.length);
+    });
+    var list = document.getElementById('kengakuList');
+    if (list) {
+      list.innerHTML = items.length
+        ? items.slice(0, KENGAKU_LIMIT).map(kengakuCard).join('')
+        : '<p class="notes-empty">第一篇還在寫。下方是全部見學過的館。</p>';
+    }
+    renderKengakuRoster(places, bySlug, 'region');
+    var toggle = document.getElementById('kengakuToggle');
+    if (toggle) {
+      toggle.addEventListener('click', function(e) {
+        var btn = e.target.closest('button');
+        if (!btn) return;
+        [].forEach.call(toggle.querySelectorAll('button'), function(b) {
+          b.classList.toggle('active', b === btn);
+        });
+        renderKengakuRoster(places, bySlug, btn.dataset.group);
+      });
+    }
+  }).catch(function() {
+    var list = document.getElementById('kengakuList');
+    if (list) list.innerHTML = '<p class="notes-empty">見學資料載入失敗——若是本機直接開啟檔案，請改用 http 伺服器檢視。</p>';
   });
 
   /* ===== 初始化 ===== */

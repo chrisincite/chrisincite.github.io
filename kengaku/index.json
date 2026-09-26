@@ -1,0 +1,38 @@
+{
+  "site": "CHRIS OS",
+  "description": "160 座在日本旅行時見學過的公共建築，從空間讀一座館。",
+  "canonical_base": "https://chrisincite.github.io",
+  "count": 1,
+  "planned": 160,
+  "kengaku": [
+    {
+      "short": "https://os.housearch.net/k/1",
+      "no": "k031",
+      "slug": "k031-hirosaki-renga-soko",
+      "title": "弘前紅磚倉庫美術館",
+      "title_ja": "弘前れんが倉庫美術館",
+      "kana": "ひろさきれんがそうこびじゅつかん",
+      "type": "美術館",
+      "prefecture": "青森縣",
+      "city": "弘前市吉野町",
+      "lat": "40.5981774",
+      "lng": "140.4728875",
+      "enshrined": "",
+      "rank": "",
+      "trip": "",
+      "series": [],
+      "visited": "2022-10",
+      "published": "2026-09-26",
+      "hook": "弘前紅磚倉庫美術館由一組明治至大正年間建造的紅磚倉庫改修而成。",
+      "cover": "https://shrine-img.pages.dev/img/k031-hirosaki-renga-soko-01.webp",
+      "photos": 16,
+      "related": [],
+      "url": "kengaku/k031-hirosaki-renga-soko.html",
+      "markdown": "kengaku/k031-hirosaki-renga-soko.md",
+      "architect": "Atelier Tsuyoshi Tane Architects（田根剛）",
+      "completed": "2020年2月（美術館棟）",
+      "structure": "磚造，局部鋼骨造・RC造・木造，地上二層",
+      "operator": "弘前市（PFI，營運：弘前芸術創造）"
+    }
+  ]
+}

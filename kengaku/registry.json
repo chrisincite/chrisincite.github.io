@@ -1,0 +1,1448 @@
+{
+  "note": "全部座數的名稱／所在地索引，由私有 repo publicArch 的 地點清單.csv 產出（scripts/make_registry.py）。企業美術館・商業藝廊等邊界案例不列入。座標逐篇撰稿時補齊，是官方所在地，不是照片 EXIF 的拍攝點。",
+  "count": 160,
+  "places": [
+    {
+      "no": "k001",
+      "slug": "k001",
+      "title": "東京農業大學「食と農」の博物館",
+      "type": "博物館",
+      "prefecture": "東京都",
+      "city": "",
+      "visited": "2015-01"
+    },
+    {
+      "no": "k002",
+      "slug": "k002",
+      "title": "東京大学ダイワユビキタス学術研究館",
+      "type": "大學",
+      "prefecture": "東京都",
+      "city": "",
+      "visited": "2015-01"
+    },
+    {
+      "no": "k004",
+      "slug": "k004",
+      "title": "横濱美術館",
+      "type": "美術館",
+      "prefecture": "神奈川県",
+      "city": "",
+      "visited": "2015-01"
+    },
+    {
+      "no": "k005",
+      "slug": "k005",
+      "title": "秋田縣立美術館",
+      "type": "美術館",
+      "prefecture": "秋田県",
+      "city": "",
+      "visited": "2015-08"
+    },
+    {
+      "no": "k006",
+      "slug": "k006",
+      "title": "仙北市學習資料館(文庫藏)",
+      "type": "資料館",
+      "prefecture": "秋田県",
+      "city": "",
+      "visited": "2015-08"
+    },
+    {
+      "no": "k008",
+      "slug": "k008",
+      "title": "森と遺跡の展示室",
+      "type": "資料館",
+      "prefecture": "秋田県",
+      "city": "",
+      "visited": "2015-08"
+    },
+    {
+      "no": "k009",
+      "slug": "k009",
+      "title": "宮澤賢治童話村",
+      "type": "資料館",
+      "prefecture": "岩手県",
+      "city": "",
+      "visited": "2015-08"
+    },
+    {
+      "no": "k010",
+      "slug": "k010",
+      "title": "宮澤賢治記念館",
+      "type": "記念館",
+      "prefecture": "岩手県",
+      "city": "",
+      "visited": "2015-08"
+    },
+    {
+      "no": "k011",
+      "slug": "k011",
+      "title": "京都國立博物館",
+      "type": "博物館",
+      "prefecture": "京都府",
+      "city": "",
+      "visited": "2015-09"
+    },
+    {
+      "no": "k012",
+      "slug": "k012",
+      "title": "中京郵便局 壁面博物館",
+      "type": "資料館",
+      "prefecture": "京都府",
+      "city": "",
+      "visited": "2015-09"
+    },
+    {
+      "no": "k014",
+      "slug": "k014",
+      "title": "竹中大工道具館",
+      "type": "博物館",
+      "prefecture": "兵庫県",
+      "city": "",
+      "visited": "2015-09"
+    },
+    {
+      "no": "k015",
+      "slug": "k015",
+      "title": "まつだい農舞台(大地藝術祭里山現代美術館)",
+      "type": "複合",
+      "prefecture": "新潟県",
+      "city": "",
+      "visited": "2016-02"
+    },
+    {
+      "no": "k016",
+      "slug": "k016",
+      "title": "越後妻有里山現代美術館MonET",
+      "type": "美術館",
+      "prefecture": "新潟県",
+      "city": "",
+      "visited": "2016-02"
+    },
+    {
+      "no": "k018",
+      "slug": "k018",
+      "title": "東京駅丸の内駅舎/KITTE(舊東京中央郵便局)",
+      "type": "複合",
+      "prefecture": "東京都",
+      "city": "",
+      "visited": "2016-08"
+    },
+    {
+      "no": "k019",
+      "slug": "k019",
+      "title": "富山市立圖書館・富山市ガラス美術館(TOYAMAキラリ)",
+      "type": "複合",
+      "prefecture": "富山県",
+      "city": "",
+      "visited": "2016-08"
+    },
+    {
+      "no": "k020",
+      "slug": "k020",
+      "title": "アートの路",
+      "type": "其他",
+      "prefecture": "富山県",
+      "city": "",
+      "visited": "2016-08"
+    },
+    {
+      "no": "k021",
+      "slug": "k021",
+      "title": "ミュゼふくおかカメラ館",
+      "type": "博物館",
+      "prefecture": "富山県",
+      "city": "",
+      "visited": "2016-08"
+    },
+    {
+      "no": "k022",
+      "slug": "k022",
+      "title": "高岡市鋳物資料館",
+      "type": "資料館",
+      "prefecture": "富山県",
+      "city": "",
+      "visited": "2016-08"
+    },
+    {
+      "no": "k026",
+      "slug": "k026",
+      "title": "金沢海みらい図書館",
+      "type": "圖書館",
+      "prefecture": "石川県",
+      "city": "",
+      "visited": "2017-03"
+    },
+    {
+      "no": "k027",
+      "slug": "k027",
+      "title": "金澤市立中村記念美術館",
+      "type": "美術館",
+      "prefecture": "石川県",
+      "city": "",
+      "visited": "2017-03"
+    },
+    {
+      "no": "k028",
+      "slug": "k028",
+      "title": "金澤菓子木型美術館",
+      "type": "美術館",
+      "prefecture": "石川県",
+      "city": "",
+      "visited": "2017-03"
+    },
+    {
+      "no": "k029",
+      "slug": "k029",
+      "title": "すみだ北斎美術館",
+      "type": "美術館",
+      "prefecture": "東京都",
+      "city": "",
+      "visited": "2017-03"
+    },
+    {
+      "no": "k030",
+      "slug": "k030",
+      "title": "江戸東京たてもの園",
+      "type": "資料館",
+      "prefecture": "東京都",
+      "city": "",
+      "visited": "2017-03"
+    },
+    {
+      "no": "k031",
+      "slug": "k031-hirosaki-renga-soko",
+      "title": "弘前紅磚倉庫美術館",
+      "type": "美術館",
+      "prefecture": "青森県",
+      "city": "弘前市吉野町",
+      "visited": "2022-10",
+      "lat": 40.5981774,
+      "lng": 140.4728875
+    },
+    {
+      "no": "k032",
+      "slug": "k032",
+      "title": "こども本の森 遠野",
+      "type": "圖書館",
+      "prefecture": "岩手県",
+      "city": "",
+      "visited": "2022-10"
+    },
+    {
+      "no": "k033",
+      "slug": "k033",
+      "title": "陸前高田市立博物館",
+      "type": "博物館",
+      "prefecture": "岩手県",
+      "city": "",
+      "visited": "2022-10"
+    },
+    {
+      "no": "k034",
+      "slug": "k034",
+      "title": "東日本大震災 津波傳承館",
+      "type": "資料館",
+      "prefecture": "岩手県",
+      "city": "",
+      "visited": "2022-10"
+    },
+    {
+      "no": "k036",
+      "slug": "k036",
+      "title": "東日本大震災 津波傳承館／高田松原津波復興祈念公園",
+      "type": "記念館",
+      "prefecture": "岩手県",
+      "city": "",
+      "visited": "2022-11"
+    },
+    {
+      "no": "k037",
+      "slug": "k037",
+      "title": "山居倉庫",
+      "type": "資料館",
+      "prefecture": "山形県",
+      "city": "",
+      "visited": "2022-11"
+    },
+    {
+      "no": "k038",
+      "slug": "k038",
+      "title": "國立新美術館",
+      "type": "美術館",
+      "prefecture": "東京都",
+      "city": "",
+      "visited": "2022-11"
+    },
+    {
+      "no": "k039",
+      "slug": "k039",
+      "title": "東京大学本郷キャンパス（安田講堂等）",
+      "type": "大學",
+      "prefecture": "東京都",
+      "city": "",
+      "visited": "2022-11"
+    },
+    {
+      "no": "k040",
+      "slug": "k040",
+      "title": "安曇野ちひろ美術館",
+      "type": "美術館",
+      "prefecture": "長野県",
+      "city": "",
+      "visited": "2023-10"
+    },
+    {
+      "no": "k041",
+      "slug": "k041",
+      "title": "神長官守矢史料館（藤森照信建築群）",
+      "type": "資料館",
+      "prefecture": "長野県",
+      "city": "",
+      "visited": "2023-10"
+    },
+    {
+      "no": "k042",
+      "slug": "k042",
+      "title": "静岡県富士山世界遺産センター",
+      "type": "資料館",
+      "prefecture": "静岡県",
+      "city": "",
+      "visited": "2024-02"
+    },
+    {
+      "no": "k043",
+      "slug": "k043",
+      "title": "ふじのくに茶の都ミュージアム",
+      "type": "博物館",
+      "prefecture": "静岡県",
+      "city": "",
+      "visited": "2024-02"
+    },
+    {
+      "no": "k044",
+      "slug": "k044",
+      "title": "多治見市モザイクタイルミュージアム",
+      "type": "博物館",
+      "prefecture": "岐阜県",
+      "city": "",
+      "visited": "2024-02"
+    },
+    {
+      "no": "k045",
+      "slug": "k045",
+      "title": "下呂温泉合掌村",
+      "type": "博物館",
+      "prefecture": "岐阜県",
+      "city": "",
+      "visited": "2024-02"
+    },
+    {
+      "no": "k047",
+      "slug": "k047",
+      "title": "水戸城二の丸展示館",
+      "type": "資料館",
+      "prefecture": "茨城県",
+      "city": "",
+      "visited": "2024-04"
+    },
+    {
+      "no": "k048",
+      "slug": "k048",
+      "title": "茨城縣天心記念五浦美術館",
+      "type": "美術館",
+      "prefecture": "茨城県",
+      "city": "",
+      "visited": "2024-04"
+    },
+    {
+      "no": "k049",
+      "slug": "k049",
+      "title": "マルホンまきあーとテラス",
+      "type": "複合",
+      "prefecture": "宮城県",
+      "city": "",
+      "visited": "2024-04"
+    },
+    {
+      "no": "k051",
+      "slug": "k051",
+      "title": "伊王野まつり伝承館",
+      "type": "其他",
+      "prefecture": "栃木県",
+      "city": "",
+      "visited": "2024-04"
+    },
+    {
+      "no": "k052",
+      "slug": "k052",
+      "title": "那須塩原市図書館みるる",
+      "type": "圖書館",
+      "prefecture": "栃木県",
+      "city": "",
+      "visited": "2024-04"
+    },
+    {
+      "no": "k053",
+      "slug": "k053",
+      "title": "N's YARD",
+      "type": "美術館",
+      "prefecture": "栃木県",
+      "city": "",
+      "visited": "2024-04"
+    },
+    {
+      "no": "k054",
+      "slug": "k054",
+      "title": "那珂川町馬頭廣重美術館",
+      "type": "美術館",
+      "prefecture": "栃木県",
+      "city": "",
+      "visited": "2024-04"
+    },
+    {
+      "no": "k055",
+      "slug": "k055",
+      "title": "角川武蔵野ミュージアム",
+      "type": "複合",
+      "prefecture": "埼玉県",
+      "city": "",
+      "visited": "2024-04"
+    },
+    {
+      "no": "k057",
+      "slug": "k057",
+      "title": "町田市立國際版画美術館",
+      "type": "美術館",
+      "prefecture": "東京都",
+      "city": "",
+      "visited": "2024-04"
+    },
+    {
+      "no": "k058",
+      "slug": "k058",
+      "title": "横須賀美術館",
+      "type": "美術館",
+      "prefecture": "神奈川県",
+      "city": "",
+      "visited": "2024-04"
+    },
+    {
+      "no": "k060",
+      "slug": "k060",
+      "title": "青森縣立美術館",
+      "type": "美術館",
+      "prefecture": "青森県",
+      "city": "",
+      "visited": "2024-07"
+    },
+    {
+      "no": "k061",
+      "slug": "k061",
+      "title": "下北ジオパークビジターセンター",
+      "type": "資料館",
+      "prefecture": "青森県",
+      "city": "",
+      "visited": "2024-08"
+    },
+    {
+      "no": "k064",
+      "slug": "k064",
+      "title": "十和田市現代美術館",
+      "type": "美術館",
+      "prefecture": "青森県",
+      "city": "",
+      "visited": "2024-08"
+    },
+    {
+      "no": "k065",
+      "slug": "k065",
+      "title": "桂月資料館",
+      "type": "資料館",
+      "prefecture": "青森県",
+      "city": "",
+      "visited": "2024-08"
+    },
+    {
+      "no": "k066",
+      "slug": "k066",
+      "title": "小岩井農場",
+      "type": "其他",
+      "prefecture": "岩手県",
+      "city": "",
+      "visited": "2024-08"
+    },
+    {
+      "no": "k067",
+      "slug": "k067",
+      "title": "岩手縣立圖書館",
+      "type": "圖書館",
+      "prefecture": "岩手県",
+      "city": "",
+      "visited": "2024-08"
+    },
+    {
+      "no": "k068",
+      "slug": "k068",
+      "title": "仙北市田沢湖健康増進センター",
+      "type": "其他",
+      "prefecture": "秋田県",
+      "city": "",
+      "visited": "2024-08"
+    },
+    {
+      "no": "k069",
+      "slug": "k069",
+      "title": "國際教養大學中嶋記念圖書館",
+      "type": "圖書館",
+      "prefecture": "秋田県",
+      "city": "",
+      "visited": "2024-08"
+    },
+    {
+      "no": "k071",
+      "slug": "k071",
+      "title": "東京都現代美術館",
+      "type": "美術館",
+      "prefecture": "東京都",
+      "city": "",
+      "visited": "2024-08"
+    },
+    {
+      "no": "k072",
+      "slug": "k072",
+      "title": "札幌市圖書・情報館",
+      "type": "複合",
+      "prefecture": "北海道",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k073",
+      "slug": "k073",
+      "title": "札幌市民交流プラザ(札幌文化芸術交流センターSCARTS)",
+      "type": "複合",
+      "prefecture": "北海道",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k074",
+      "slug": "k074",
+      "title": "北海道立近代美術館",
+      "type": "美術館",
+      "prefecture": "北海道",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k077",
+      "slug": "k077",
+      "title": "北海道博物館",
+      "type": "博物館",
+      "prefecture": "北海道",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k079",
+      "slug": "k079",
+      "title": "北海道立旭川美術館",
+      "type": "美術館",
+      "prefecture": "北海道",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k080",
+      "slug": "k080",
+      "title": "東川町文化交流センター せんとぴゅあII",
+      "type": "複合",
+      "prefecture": "北海道",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k082",
+      "slug": "k082",
+      "title": "富良野市役所・富良野文化會館",
+      "type": "廳舍",
+      "prefecture": "北海道",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k083",
+      "slug": "k083",
+      "title": "阿寒湖アイヌシアター イコロ",
+      "type": "劇場",
+      "prefecture": "北海道",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k084",
+      "slug": "k084",
+      "title": "道の駅摩周温泉",
+      "type": "複合",
+      "prefecture": "北海道",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k085",
+      "slug": "k085",
+      "title": "シラルトロ自然情報館",
+      "type": "資料館",
+      "prefecture": "北海道",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k086",
+      "slug": "k086",
+      "title": "神田日勝記念美術館",
+      "type": "美術館",
+      "prefecture": "北海道",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k087",
+      "slug": "k087",
+      "title": "りすた図書館",
+      "type": "圖書館",
+      "prefecture": "北海道",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k088",
+      "slug": "k088",
+      "title": "苫小牧市関連施設ウトナイ交流センター",
+      "type": "其他",
+      "prefecture": "北海道",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k090",
+      "slug": "k090",
+      "title": "國立民族共生公園",
+      "type": "複合",
+      "prefecture": "北海道",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k091",
+      "slug": "k091",
+      "title": "国立アイヌ民族博物館(民族共生公園ウポポイ)",
+      "type": "複合",
+      "prefecture": "北海道",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k093",
+      "slug": "k093",
+      "title": "石見銀山世界遺産センター",
+      "type": "資料館",
+      "prefecture": "島根県",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k094",
+      "slug": "k094",
+      "title": "島根縣立石見美術館",
+      "type": "美術館",
+      "prefecture": "島根県",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k095",
+      "slug": "k095",
+      "title": "島根縣立古代出雲歷史博物館",
+      "type": "博物館",
+      "prefecture": "島根県",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k096",
+      "slug": "k096",
+      "title": "廣島縣立美術館",
+      "type": "美術館",
+      "prefecture": "広島県",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k097",
+      "slug": "k097",
+      "title": "廣島平和記念資料館",
+      "type": "博物館",
+      "prefecture": "広島県",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k098",
+      "slug": "k098",
+      "title": "原爆ドーム",
+      "type": "其他",
+      "prefecture": "広島県",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k099",
+      "slug": "k099",
+      "title": "廣島市現代美術館",
+      "type": "美術館",
+      "prefecture": "広島県",
+      "city": "",
+      "visited": "2024-10"
+    },
+    {
+      "no": "k100",
+      "slug": "k100",
+      "title": "飯山市文化交流館なちゅら",
+      "type": "複合",
+      "prefecture": "長野県",
+      "city": "",
+      "visited": "2025-01"
+    },
+    {
+      "no": "k101",
+      "slug": "k101",
+      "title": "長野縣立美術館 東山魁夷館",
+      "type": "美術館",
+      "prefecture": "長野県",
+      "city": "",
+      "visited": "2025-01"
+    },
+    {
+      "no": "k102",
+      "slug": "k102",
+      "title": "富山縣美術館",
+      "type": "美術館",
+      "prefecture": "富山県",
+      "city": "",
+      "visited": "2025-01"
+    },
+    {
+      "no": "k103",
+      "slug": "k103",
+      "title": "谷口吉郎・吉生記念 金澤建築館",
+      "type": "記念館",
+      "prefecture": "石川県",
+      "city": "",
+      "visited": "2025-01"
+    },
+    {
+      "no": "k105",
+      "slug": "k105",
+      "title": "石川縣立圖書館",
+      "type": "圖書館",
+      "prefecture": "石川県",
+      "city": "",
+      "visited": "2025-02"
+    },
+    {
+      "no": "k107",
+      "slug": "k107",
+      "title": "石川縣九谷燒美術館",
+      "type": "美術館",
+      "prefecture": "石川県",
+      "city": "",
+      "visited": "2025-02"
+    },
+    {
+      "no": "k108",
+      "slug": "k108",
+      "title": "一乗谷朝倉氏遺跡博物館",
+      "type": "博物館",
+      "prefecture": "福井県",
+      "city": "",
+      "visited": "2025-02"
+    },
+    {
+      "no": "k109",
+      "slug": "k109",
+      "title": "福井縣立恐龍博物館",
+      "type": "博物館",
+      "prefecture": "福井県",
+      "city": "",
+      "visited": "2025-02"
+    },
+    {
+      "no": "k110",
+      "slug": "k110",
+      "title": "福井市美術館 アートラボふくい",
+      "type": "美術館",
+      "prefecture": "福井県",
+      "city": "",
+      "visited": "2025-02"
+    },
+    {
+      "no": "k111",
+      "slug": "k111",
+      "title": "福井縣年縞博物館",
+      "type": "博物館",
+      "prefecture": "福井県",
+      "city": "",
+      "visited": "2025-02"
+    },
+    {
+      "no": "k113",
+      "slug": "k113",
+      "title": "守山市立圖書館",
+      "type": "圖書館",
+      "prefecture": "滋賀県",
+      "city": "",
+      "visited": "2025-02"
+    },
+    {
+      "no": "k114",
+      "slug": "k114",
+      "title": "豊田市美術館",
+      "type": "美術館",
+      "prefecture": "愛知県",
+      "city": "",
+      "visited": "2025-02"
+    },
+    {
+      "no": "k115",
+      "slug": "k115",
+      "title": "高橋節郎館",
+      "type": "記念館",
+      "prefecture": "愛知県",
+      "city": "",
+      "visited": "2025-02"
+    },
+    {
+      "no": "k116",
+      "slug": "k116",
+      "title": "秋野不矩美術館",
+      "type": "美術館",
+      "prefecture": "静岡県",
+      "city": "",
+      "visited": "2025-02"
+    },
+    {
+      "no": "k117",
+      "slug": "k117",
+      "title": "北九州市立美術館",
+      "type": "美術館",
+      "prefecture": "福岡県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k118",
+      "slug": "k118",
+      "title": "アクロス福岡",
+      "type": "複合",
+      "prefecture": "福岡県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k119",
+      "slug": "k119",
+      "title": "九州國立博物館",
+      "type": "博物館",
+      "prefecture": "福岡県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k120",
+      "slug": "k120",
+      "title": "九州歷史資料館",
+      "type": "資料館",
+      "prefecture": "福岡県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k122",
+      "slug": "k122",
+      "title": "由學館",
+      "type": "資料館",
+      "prefecture": "大分県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k123",
+      "slug": "k123",
+      "title": "竹田荘",
+      "type": "記念館",
+      "prefecture": "大分県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k124",
+      "slug": "k124",
+      "title": "阿蘇山火口展望公園",
+      "type": "展望設施",
+      "prefecture": "熊本県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k126",
+      "slug": "k126",
+      "title": "霧島アートの森",
+      "type": "美術館",
+      "prefecture": "鹿児島県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k127",
+      "slug": "k127",
+      "title": "青井の杜 國寶記念館",
+      "type": "記念館",
+      "prefecture": "熊本県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k128",
+      "slug": "k128",
+      "title": "ひみつ基地ミュージアム",
+      "type": "博物館",
+      "prefecture": "熊本県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k129",
+      "slug": "k129",
+      "title": "不知火美術館・圖書館",
+      "type": "複合",
+      "prefecture": "熊本県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k130",
+      "slug": "k130",
+      "title": "熊本縣立装飾古墳館",
+      "type": "博物館",
+      "prefecture": "熊本県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k131",
+      "slug": "k131",
+      "title": "九州芸文館",
+      "type": "複合",
+      "prefecture": "福岡県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k132",
+      "slug": "k132",
+      "title": "武雄市圖書館",
+      "type": "圖書館",
+      "prefecture": "佐賀県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k134",
+      "slug": "k134",
+      "title": "長崎市立圖書館",
+      "type": "圖書館",
+      "prefecture": "長崎県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k135",
+      "slug": "k135",
+      "title": "長崎原爆資料館",
+      "type": "博物館",
+      "prefecture": "長崎県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k136",
+      "slug": "k136",
+      "title": "國立長崎原爆死没者追悼平和祈念館",
+      "type": "記念館",
+      "prefecture": "長崎県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k137",
+      "slug": "k137",
+      "title": "長崎縣美術館",
+      "type": "美術館",
+      "prefecture": "長崎県",
+      "city": "",
+      "visited": "2025-04"
+    },
+    {
+      "no": "k139",
+      "slug": "k139",
+      "title": "こども本の森 中之島",
+      "type": "圖書館",
+      "prefecture": "大阪府",
+      "city": "",
+      "visited": "2025-06"
+    },
+    {
+      "no": "k140",
+      "slug": "k140",
+      "title": "大阪市立美術館",
+      "type": "美術館",
+      "prefecture": "大阪府",
+      "city": "",
+      "visited": "2025-06"
+    },
+    {
+      "no": "k143",
+      "slug": "k143",
+      "title": "香川県立東山魁夷せとうち美術館",
+      "type": "美術館",
+      "prefecture": "香川県",
+      "city": "",
+      "visited": "2025-10"
+    },
+    {
+      "no": "k145",
+      "slug": "k145",
+      "title": "今治市岩田健母と子のミュージアム",
+      "type": "美術館",
+      "prefecture": "愛媛県",
+      "city": "",
+      "visited": "2025-10"
+    },
+    {
+      "no": "k146",
+      "slug": "k146",
+      "title": "尾道市立美術館",
+      "type": "美術館",
+      "prefecture": "広島県",
+      "city": "",
+      "visited": "2025-10"
+    },
+    {
+      "no": "k147",
+      "slug": "k147",
+      "title": "姫路文學館",
+      "type": "記念館",
+      "prefecture": "兵庫県",
+      "city": "",
+      "visited": "2025-10"
+    },
+    {
+      "no": "k154",
+      "slug": "k154",
+      "title": "抱擁(王文志作品)",
+      "type": "其他",
+      "prefecture": "香川県",
+      "city": "",
+      "visited": "2025-10"
+    },
+    {
+      "no": "k155",
+      "slug": "k155",
+      "title": "音楽水車プロジェクト(岡淳)",
+      "type": "其他",
+      "prefecture": "香川県",
+      "city": "",
+      "visited": "2025-10"
+    },
+    {
+      "no": "k156",
+      "slug": "k156",
+      "title": "和歌山縣立近代美術館",
+      "type": "美術館",
+      "prefecture": "和歌山県",
+      "city": "",
+      "visited": "2025-10"
+    },
+    {
+      "no": "k157",
+      "slug": "k157",
+      "title": "南方熊楠記念館",
+      "type": "記念館",
+      "prefecture": "和歌山県",
+      "city": "",
+      "visited": "2025-10"
+    },
+    {
+      "no": "k158",
+      "slug": "k158",
+      "title": "熊野本宮館",
+      "type": "資料館",
+      "prefecture": "和歌山県",
+      "city": "",
+      "visited": "2025-10"
+    },
+    {
+      "no": "k159",
+      "slug": "k159",
+      "title": "比叡山延曆寺(根本中堂屋根葺替特別拜觀)",
+      "type": "其他",
+      "prefecture": "滋賀県",
+      "city": "",
+      "visited": "2025-10"
+    },
+    {
+      "no": "k160",
+      "slug": "k160",
+      "title": "舞鶴赤れんがパーク(赤れんが博物館)",
+      "type": "博物館",
+      "prefecture": "京都府",
+      "city": "",
+      "visited": "2025-11"
+    },
+    {
+      "no": "k161",
+      "slug": "k161",
+      "title": "木の殿堂",
+      "type": "資料館",
+      "prefecture": "兵庫県",
+      "city": "",
+      "visited": "2025-11"
+    },
+    {
+      "no": "k163",
+      "slug": "k163",
+      "title": "こども本の森 神戶",
+      "type": "圖書館",
+      "prefecture": "兵庫県",
+      "city": "",
+      "visited": "2025-11"
+    },
+    {
+      "no": "k164",
+      "slug": "k164",
+      "title": "國立科學博物館",
+      "type": "博物館",
+      "prefecture": "東京都",
+      "city": "",
+      "visited": "2025-11"
+    },
+    {
+      "no": "k167",
+      "slug": "k167",
+      "title": "赤穗市立圖書館",
+      "type": "圖書館",
+      "prefecture": "兵庫県",
+      "city": "",
+      "visited": "2026-02"
+    },
+    {
+      "no": "k168",
+      "slug": "k168",
+      "title": "奈義町現代美術館",
+      "type": "美術館",
+      "prefecture": "岡山県",
+      "city": "",
+      "visited": "2026-02"
+    },
+    {
+      "no": "k169",
+      "slug": "k169",
+      "title": "鳥取砂丘ビジターセンター",
+      "type": "資料館",
+      "prefecture": "鳥取県",
+      "city": "",
+      "visited": "2026-02"
+    },
+    {
+      "no": "k170",
+      "slug": "k170",
+      "title": "鳥取砂丘 砂の美術館",
+      "type": "美術館",
+      "prefecture": "鳥取県",
+      "city": "",
+      "visited": "2026-02"
+    },
+    {
+      "no": "k171",
+      "slug": "k171",
+      "title": "鳥取縣立美術館",
+      "type": "美術館",
+      "prefecture": "鳥取県",
+      "city": "",
+      "visited": "2026-02"
+    },
+    {
+      "no": "k172",
+      "slug": "k172",
+      "title": "青山剛昌ふるさと館",
+      "type": "記念館",
+      "prefecture": "鳥取県",
+      "city": "",
+      "visited": "2026-02"
+    },
+    {
+      "no": "k173",
+      "slug": "k173",
+      "title": "小泉八雲舊居",
+      "type": "記念館",
+      "prefecture": "島根県",
+      "city": "",
+      "visited": "2026-02"
+    },
+    {
+      "no": "k174",
+      "slug": "k174",
+      "title": "島根縣立美術館",
+      "type": "美術館",
+      "prefecture": "島根県",
+      "city": "",
+      "visited": "2026-02"
+    },
+    {
+      "no": "k175",
+      "slug": "k175",
+      "title": "大山自然歷史館",
+      "type": "資料館",
+      "prefecture": "鳥取県",
+      "city": "",
+      "visited": "2026-02"
+    },
+    {
+      "no": "k176",
+      "slug": "k176",
+      "title": "真庭市蒜山ミュージアム(GREENable HIRUZEN)",
+      "type": "複合",
+      "prefecture": "岡山県",
+      "city": "",
+      "visited": "2026-02"
+    },
+    {
+      "no": "k177",
+      "slug": "k177",
+      "title": "高梁市成羽美術館",
+      "type": "美術館",
+      "prefecture": "岡山県",
+      "city": "",
+      "visited": "2026-02"
+    },
+    {
+      "no": "k178",
+      "slug": "k178",
+      "title": "高梁市圖書館",
+      "type": "圖書館",
+      "prefecture": "岡山県",
+      "city": "",
+      "visited": "2026-02"
+    },
+    {
+      "no": "k179",
+      "slug": "k179",
+      "title": "総社市まちかど郷土館",
+      "type": "資料館",
+      "prefecture": "岡山県",
+      "city": "",
+      "visited": "2026-02"
+    },
+    {
+      "no": "k180",
+      "slug": "k180",
+      "title": "兵庫縣立美術館",
+      "type": "美術館",
+      "prefecture": "兵庫県",
+      "city": "",
+      "visited": "2026-02"
+    },
+    {
+      "no": "k184",
+      "slug": "k184",
+      "title": "瀨戶内海歷史民俗資料館",
+      "type": "資料館",
+      "prefecture": "香川県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k185",
+      "slug": "k185",
+      "title": "あかがねミュージアム",
+      "type": "複合",
+      "prefecture": "愛媛県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k186",
+      "slug": "k186",
+      "title": "こども本の森 松山",
+      "type": "複合",
+      "prefecture": "愛媛県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k187",
+      "slug": "k187",
+      "title": "いよ市立図書館（いよ夢みらい館）",
+      "type": "圖書館",
+      "prefecture": "愛媛県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k188",
+      "slug": "k188",
+      "title": "オーテピア高知（高知まんがBASE）",
+      "type": "複合",
+      "prefecture": "高知県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k189",
+      "slug": "k189",
+      "title": "高知城",
+      "type": "其他",
+      "prefecture": "高知県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k190",
+      "slug": "k190",
+      "title": "高知縣立高知城歷史博物館",
+      "type": "博物館",
+      "prefecture": "高知県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k192",
+      "slug": "k192",
+      "title": "高知縣立坂本龍馬記念館",
+      "type": "記念館",
+      "prefecture": "高知県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k193",
+      "slug": "k193",
+      "title": "高知縣立歷史民俗資料館",
+      "type": "博物館",
+      "prefecture": "高知県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k194",
+      "slug": "k194",
+      "title": "香美市立美術館",
+      "type": "美術館",
+      "prefecture": "高知県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k195",
+      "slug": "k195",
+      "title": "那賀町山のおもちゃ美術館",
+      "type": "美術館",
+      "prefecture": "徳島県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k196",
+      "slug": "k196",
+      "title": "德島縣立鳥居龍藏記念博物館",
+      "type": "記念館",
+      "prefecture": "徳島県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k197",
+      "slug": "k197",
+      "title": "德島縣立博物館",
+      "type": "博物館",
+      "prefecture": "徳島県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k198",
+      "slug": "k198",
+      "title": "紀州備長炭發見館",
+      "type": "資料館",
+      "prefecture": "和歌山県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k199",
+      "slug": "k199",
+      "title": "潮風の休憩所",
+      "type": "資料館",
+      "prefecture": "和歌山県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k200",
+      "slug": "k200",
+      "title": "三重県立熊野古道センター",
+      "type": "複合",
+      "prefecture": "三重県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k201",
+      "slug": "k201",
+      "title": "鳥羽市立海の博物館",
+      "type": "博物館",
+      "prefecture": "三重県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k202",
+      "slug": "k202",
+      "title": "伊賀市立圖書館（HAKUSEN）",
+      "type": "圖書館",
+      "prefecture": "三重県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k203",
+      "slug": "k203",
+      "title": "BOOKMARK STORAGE（伊賀市北部圖書館）",
+      "type": "圖書館",
+      "prefecture": "三重県",
+      "city": "",
+      "visited": "2026-07"
+    },
+    {
+      "no": "k204",
+      "slug": "k204",
+      "title": "大阪歷史博物館",
+      "type": "博物館",
+      "prefecture": "大阪府",
+      "city": "",
+      "visited": "2026-07"
+    }
+  ]
+}

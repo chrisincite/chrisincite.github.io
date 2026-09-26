@@ -184,6 +184,14 @@
 - [天岩戶神社](https://chrisincite.github.io/shrine/16-amanoiwato-jinja.md)：岩戶是高千穗町北邊的一個地區，小學、農協、郵局、超市沿著一條縣道排成一列，（宮崎縣・西臼杵郡高千穗町岩戶）
 - [上色見熊野座神社](https://chrisincite.github.io/shrine/15-kamishikimi-kumanoimasu-jinja.md)：早上出門，從一所廢校開始走。（熊本縣・阿蘇郡高森町上色見）
 
+## 公共建築見學
+
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 160 座，已發佈 1 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+
+每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
+
+- [弘前紅磚倉庫美術館](https://chrisincite.github.io/kengaku/k031-hirosaki-renga-soko.md)：弘前紅磚倉庫美術館由一組明治至大正年間建造的紅磚倉庫改修而成。（青森縣・弘前市吉野町）
+
 ## 超入門
 
 把一個題目講到小學生也能照著做——每一個要按的按鈕都附實際畫面截圖，每篇另配一頁「圖解版」（大圖少字，適合完全沒有背景知識的人先看）。
@@ -201,5 +209,7 @@
 - [超入門索引 JSON](https://chrisincite.github.io/guide/index.json)：教學文清單與章節
 - [散策索引 JSON](https://chrisincite.github.io/shrine/index.json)：已發佈的篇章與座標
 - [全 149 座名錄 JSON](https://chrisincite.github.io/shrine/registry.json)：含未發佈的規劃清單
+- [見學索引 JSON](https://chrisincite.github.io/kengaku/index.json)：已發佈的篇章與座標
+- [全 160 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
 - [全文串接](https://chrisincite.github.io/llms-full.txt)：所有內容的完整 markdown，一次取用
 - [網站首頁](https://chrisincite.github.io/)：專案、工具棚與關於頁（單頁式 OS 介面）
