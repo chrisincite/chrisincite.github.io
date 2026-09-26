@@ -572,8 +572,6 @@ SHRINE_TYPE_ICON = {"神社": "⛩", "寺院": "卍", "神仏習合": "⛩"}
 KENGAKU_SECTION_ORDER = [
     "origin", "site", "architecture", "material", "amenity", "community", "walk",
 ]
-KENGAKU_TYPE_ICON = {"美術館": "🖼", "博物館": "🏛", "資料館": "🏛", "記念館": "🏛",
-                     "圖書館": "📚", "劇場": "🎭", "廳舍": "🏢"}
 KENGAKU_LD_TYPE = {"美術館": "Museum", "博物館": "Museum", "資料館": "Museum",
                    "記念館": "Museum", "圖書館": "Library", "劇場": "PerformingArtsTheater",
                    "廳舍": "GovernmentBuilding"}
@@ -591,7 +589,7 @@ SHRINE_UNIT = {
 KENGAKU_UNIT = {
     "key": "kengaku", "dir": KENGAKU_DIR, "name": "公共建築見學", "nav": "公共建築見學",
     "back": "見學", "favicon": "🏛️", "css": "../shrine/assets/shrine.css",
-    "order": KENGAKU_SECTION_ORDER, "icons": KENGAKU_TYPE_ICON, "icon": "🏛",
+    "order": KENGAKU_SECTION_ORDER, "icons": {}, "icon": "",
     "facts": (("設計", "architect"), ("竣工", "completed"), ("構造", "structure"),
               ("設置", "operator")),
     "md_facts": (("設計", "architect"), ("竣工", "completed"), ("構造", "structure"),
@@ -908,7 +906,8 @@ def build_shrine(path, registry, published_slugs, short_url="", unit=SHRINE_UNIT
         if cover_url else '<meta name="twitter:card" content="summary">',
         jsonld=json.dumps(ld, ensure_ascii=False, indent=2),
         kicker=html.escape(meta_line),
-        icon=unit["icons"].get(meta.get("type", ""), unit["icon"]),
+        # 圖示後接一個空白；見學單元不用圖示（2026-09-26 Chris），icon 為空字串時連空白一起省略
+        icon=(lambda ic: ic + " " if ic else "")(unit["icons"].get(meta.get("type", ""), unit["icon"])),
         facts=facts_html,
         sections="\n".join(body_html),
         foot="\n    ".join(foot_links),
@@ -1039,7 +1038,7 @@ SHRINE_TEMPLATE = """<!DOCTYPE html>
 
 <article class="note shrine">
   <header class="note-head">
-    <p class="note-kicker">{icon} {unit_name} · {kicker}</p>
+    <p class="note-kicker">{icon}{unit_name} · {kicker}</p>
     <h1>{title}</h1>
     <p class="sh-ja">{title_ja}<span>{kana}</span></p>
     {facts}
