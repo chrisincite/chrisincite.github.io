@@ -186,10 +186,12 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 160 座，已發佈 2 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 159 座，已發佈 4 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [東日本大震災津波傳承館](https://chrisincite.github.io/kengaku/k034-iwate-tsunami-memorial.md)：東日本大震災津波伝承館（Higashi Nihon daishinsai tsunami denshōkan，東日本大震災海嘯傳（岩手縣・陸前高田市氣仙町）
+- [陸前高田アムウェイハウス まちの縁側](https://chrisincite.github.io/kengaku/k033-rikuzentakata-machi-no-engawa.md)：陸前高田アムウェイハウス まちの縁側（Rikuzentakata Amway House Machi no Engawa，陸前高（岩手縣・陸前高田市高田町）
 - [こども本の森 遠野](https://chrisincite.github.io/kengaku/k032-tono-kodomo-honnomori.md)：こども本の森 遠野（Kodomo hon no mori Tōno，兒童之書森林・遠野）是建築師安藤忠雄出資設計、建成後贈予遠野（岩手縣・遠野市中央通り）
 - [弘前紅磚倉庫美術館](https://chrisincite.github.io/kengaku/k031-hirosaki-renga-soko.md)：弘前紅磚倉庫美術館由一組明治至大正年間建造的紅磚倉庫改修而成。（青森縣・弘前市吉野町）
 
@@ -211,6 +213,6 @@
 - [散策索引 JSON](https://chrisincite.github.io/shrine/index.json)：已發佈的篇章與座標
 - [全 149 座名錄 JSON](https://chrisincite.github.io/shrine/registry.json)：含未發佈的規劃清單
 - [見學索引 JSON](https://chrisincite.github.io/kengaku/index.json)：已發佈的篇章與座標
-- [全 160 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
+- [全 159 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
 - [全文串接](https://chrisincite.github.io/llms-full.txt)：所有內容的完整 markdown，一次取用
 - [網站首頁](https://chrisincite.github.io/)：專案、工具棚與關於頁（單頁式 OS 介面）
