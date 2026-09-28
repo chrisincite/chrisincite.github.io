@@ -186,10 +186,12 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 159 座，已發佈 4 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 159 座，已發佈 6 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [Maruhon Makiart Terrace](https://chrisincite.github.io/kengaku/k049-ishinomaki-makiart-terrace.md)：上午十一時半，筆者面對的是一整排高低錯落的白色量體：外牆包覆淺色金屬板，或作雙坡的家形屋頂，或作方形收頭的煙囪狀突起，各量體高度（宮城縣・石巻市開成）
+- [山居倉庫](https://chrisincite.github.io/kengaku/k037-sakata-sankyo-soko.md)：山居倉庫是山形縣酒田市新井田川西岸的十二棟木造米倉，明治二十六年（1893）起陸續建成。（山形縣・酒田市山居町）
 - [東日本大震災津波傳承館](https://chrisincite.github.io/kengaku/k034-iwate-tsunami-memorial.md)：東日本大震災津波傳承館，暱稱「Iwate TSUNAMI Memorial」（岩手海嘯紀念館），位於岩手縣陸前高田市的高田松原津（岩手縣・陸前高田市氣仙町）
 - [陸前高田安麗之家・城鎮的簷廊](https://chrisincite.github.io/kengaku/k033-rikuzentakata-machi-no-engawa.md)：陸前高田安麗之家・城鎮的簷廊位於岩手縣陸前高田市高田地區的新中心市街地，緊鄰 JR 大船渡線 BRT（Bus Rapid Tra（岩手縣・陸前高田市高田町）
 - [兒童之書森林・遠野](https://chrisincite.github.io/kengaku/k032-tono-kodomo-honnomori.md)：兒童之書森林・遠野是建築師安藤忠雄出資設計、建成後贈予遠野市的兒童圖書設施。（岩手縣・遠野市中央大道）

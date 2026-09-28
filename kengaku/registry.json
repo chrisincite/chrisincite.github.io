@@ -223,7 +223,7 @@
     {
       "no": "k032",
       "slug": "k032-tono-kodomo-honnomori",
-      "title": "こども本の森 遠野",
+      "title": "兒童之書森林・遠野",
       "type": "圖書館",
       "prefecture": "岩手県",
       "city": "遠野市中央通り",
@@ -234,7 +234,7 @@
     {
       "no": "k033",
       "slug": "k033-rikuzentakata-machi-no-engawa",
-      "title": "陸前高田アムウェイハウス まちの縁側",
+      "title": "陸前高田安麗之家・城鎮的簷廊",
       "type": "交流設施",
       "prefecture": "岩手県",
       "city": "陸前高田市高田町",
@@ -255,12 +255,14 @@
     },
     {
       "no": "k037",
-      "slug": "k037",
+      "slug": "k037-sakata-sankyo-soko",
       "title": "山居倉庫",
       "type": "資料館",
       "prefecture": "山形県",
-      "city": "",
-      "visited": "2022-11"
+      "city": "酒田市山居町",
+      "visited": "2022-11",
+      "lat": 38.910891,
+      "lng": 139.836996
     },
     {
       "no": "k038",
@@ -354,12 +356,14 @@
     },
     {
       "no": "k049",
-      "slug": "k049",
-      "title": "マルホンまきあーとテラス",
+      "slug": "k049-ishinomaki-makiart-terrace",
+      "title": "Maruhon Makiart Terrace",
       "type": "複合",
       "prefecture": "宮城県",
-      "city": "",
-      "visited": "2024-04"
+      "city": "石巻市開成",
+      "visited": "2024-04",
+      "lat": 38.4586054,
+      "lng": 141.3062229
     },
     {
       "no": "k051",

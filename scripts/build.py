@@ -574,7 +574,8 @@ KENGAKU_SECTION_ORDER = [
 ]
 KENGAKU_LD_TYPE = {"美術館": "Museum", "博物館": "Museum", "資料館": "Museum",
                    "記念館": "Museum", "圖書館": "Library", "劇場": "PerformingArtsTheater",
-                   "廳舍": "GovernmentBuilding", "交流設施": "CivicStructure"}
+                   "廳舍": "GovernmentBuilding", "交流設施": "CivicStructure",
+                   "複合文化設施": "CivicStructure"}
 
 # 單元設定：build_shrine() 吃這份，散策的值就是改參數化之前寫死的字面值
 # （散策產出必須 byte-identical，改這裡任何一個值都要先 diff shrine/）。
