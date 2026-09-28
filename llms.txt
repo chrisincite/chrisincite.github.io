@@ -186,10 +186,11 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 159 座，已發佈 6 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 158 座，已發佈 7 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [青森縣立美術館](https://chrisincite.github.io/kengaku/k060-aomori-museum-of-art.md)：下午三時四十四分，筆者站在一片修剪整齊的草坪前，面對一整座低矮而狹長的白色量體建築，背後是一列深色針葉林。（青森縣・青森市安田・三內）
 - [Maruhon Makiart Terrace](https://chrisincite.github.io/kengaku/k049-ishinomaki-makiart-terrace.md)：上午十一時半，筆者面對的是一整排高低錯落的白色量體：外牆包覆淺色金屬板，或作雙坡的家形屋頂，或作方形收頭的煙囪狀突起，各量體高度（宮城縣・石巻市開成）
 - [山居倉庫](https://chrisincite.github.io/kengaku/k037-sakata-sankyo-soko.md)：山居倉庫是山形縣酒田市新井田川西岸的十二棟木造米倉，明治二十六年（1893）起陸續建成。（山形縣・酒田市山居町）
 - [東日本大震災津波傳承館](https://chrisincite.github.io/kengaku/k034-iwate-tsunami-memorial.md)：東日本大震災津波傳承館，暱稱「Iwate TSUNAMI Memorial」（岩手海嘯紀念館），位於岩手縣陸前高田市的高田松原津（岩手縣・陸前高田市氣仙町）
@@ -215,6 +216,6 @@
 - [散策索引 JSON](https://chrisincite.github.io/shrine/index.json)：已發佈的篇章與座標
 - [全 149 座名錄 JSON](https://chrisincite.github.io/shrine/registry.json)：含未發佈的規劃清單
 - [見學索引 JSON](https://chrisincite.github.io/kengaku/index.json)：已發佈的篇章與座標
-- [全 159 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
+- [全 158 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
 - [全文串接](https://chrisincite.github.io/llms-full.txt)：所有內容的完整 markdown，一次取用
 - [網站首頁](https://chrisincite.github.io/)：專案、工具棚與關於頁（單頁式 OS 介面）

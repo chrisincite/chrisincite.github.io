@@ -1441,6 +1441,14 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/kengaku/k060-aomori-museum-of-art.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k060-aomori-museum-of-art.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/kengaku/k049-ishinomaki-makiart-terrace.html</loc>
     <priority>0.8</priority>
   </url>

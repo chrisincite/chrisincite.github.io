@@ -1,6 +1,6 @@
 {
   "note": "全部座數的名稱／所在地索引，由私有 repo publicArch 的 地點清單.csv 產出（scripts/make_registry.py）。企業美術館・商業藝廊等邊界案例不列入。座標逐篇撰稿時補齊，是官方所在地，不是照片 EXIF 的拍攝點。",
-  "count": 159,
+  "count": 158,
   "places": [
     {
       "no": "k001",
@@ -430,39 +430,36 @@
     },
     {
       "no": "k060",
-      "slug": "k060",
+      "slug": "k060-aomori-museum-of-art",
       "title": "青森縣立美術館",
       "type": "美術館",
       "prefecture": "青森県",
-      "city": "",
-      "visited": "2024-07"
-    },
-    {
-      "no": "k061",
-      "slug": "k061",
-      "title": "下北ジオパークビジターセンター",
-      "type": "資料館",
-      "prefecture": "青森県",
-      "city": "",
-      "visited": "2024-08"
+      "city": "青森市安田",
+      "visited": "2024-07",
+      "lat": 40.8074165,
+      "lng": 140.7008597
     },
     {
       "no": "k064",
-      "slug": "k064",
+      "slug": "k064-towada-art-center",
       "title": "十和田市現代美術館",
       "type": "美術館",
       "prefecture": "青森県",
-      "city": "",
-      "visited": "2024-08"
+      "city": "十和田市",
+      "visited": "2024-08",
+      "lat": 40.614059,
+      "lng": 141.209278
     },
     {
       "no": "k065",
-      "slug": "k065",
-      "title": "桂月資料館",
+      "slug": "k065-tsuta-onsen",
+      "title": "蔦溫泉旅館本館與大町桂月資料館",
       "type": "資料館",
       "prefecture": "青森県",
-      "city": "",
-      "visited": "2024-08"
+      "city": "十和田市",
+      "visited": "2024-08",
+      "lat": 40.596817,
+      "lng": 140.953171
     },
     {
       "no": "k066",
