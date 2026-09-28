@@ -23,7 +23,7 @@
       "series": [],
       "visited": "2022-10",
       "published": "2026-09-27",
-      "hook": "東日本大震災津波伝承館（Higashi Nihon daishinsai tsunami denshōkan，東日本大震災海嘯傳",
+      "hook": "東日本大震災津波傳承館，暱稱「Iwate TSUNAMI Memorial」（岩手海嘯紀念館），位於岩手縣陸前高田市的高田松原津",
       "cover": "https://shrine-img.pages.dev/img/k034-iwate-tsunami-memorial-01.webp",
       "photos": 11,
       "related": [
@@ -31,16 +31,16 @@
       ],
       "url": "kengaku/k034-iwate-tsunami-memorial.html",
       "markdown": "kengaku/k034-iwate-tsunami-memorial.md",
-      "architect": "プレック研究所・內藤廣建築設計事務所設計共同體",
+      "architect": "PREC 研究所・內藤廣建築設計事務所設計共同體",
       "completed": "2019年6月",
       "structure": "鋼筋混凝土造，局部鋼骨造，地上二層",
-      "operator": "岩手縣（道の駅部分：陸前高田市）"
+      "operator": "岩手縣（公路休息站部分：陸前高田市）"
     },
     {
       "short": "https://os.housearch.net/k/3",
       "no": "k033",
       "slug": "k033-rikuzentakata-machi-no-engawa",
-      "title": "陸前高田アムウェイハウス まちの縁側",
+      "title": "陸前高田安麗之家・城鎮的簷廊",
       "title_ja": "陸前高田アムウェイハウス まちの縁側",
       "kana": "りくぜんたかたアムウェイハウス まちのえんがわ",
       "type": "交流設施",
@@ -54,7 +54,7 @@
       "series": [],
       "visited": "2022-10",
       "published": "2026-09-27",
-      "hook": "陸前高田アムウェイハウス まちの縁側（Rikuzentakata Amway House Machi no Engawa，陸前高",
+      "hook": "陸前高田安麗之家・城鎮的簷廊位於岩手縣陸前高田市高田地區的新中心市街地，緊鄰 JR 大船渡線 BRT（Bus Rapid Tra",
       "cover": "https://shrine-img.pages.dev/img/k033-rikuzentakata-machi-no-engawa-01.webp",
       "photos": 4,
       "related": [
@@ -65,18 +65,18 @@
       "architect": "隈研吾建築都市設計事務所",
       "completed": "2020年1月",
       "structure": "木構造，地上一層（含倉庫棟，總樓地板面積 545.28 平方公尺）",
-      "operator": "陸前高田市・一般財團法人日本アムウェイ財團"
+      "operator": "陸前高田市・一般財團法人日本安麗財團"
     },
     {
       "short": "https://os.housearch.net/k/2",
       "no": "k032",
       "slug": "k032-tono-kodomo-honnomori",
-      "title": "こども本の森 遠野",
+      "title": "兒童之書森林・遠野",
       "title_ja": "こども本の森 遠野",
       "kana": "こどもほんのもり とおの",
       "type": "圖書館",
       "prefecture": "岩手縣",
-      "city": "遠野市中央通り",
+      "city": "遠野市中央大道",
       "lat": "39.328874",
       "lng": "141.53108",
       "enshrined": "",
@@ -85,7 +85,7 @@
       "series": [],
       "visited": "2022-10",
       "published": "2026-09-26",
-      "hook": "こども本の森 遠野（Kodomo hon no mori Tōno，兒童之書森林・遠野）是建築師安藤忠雄出資設計、建成後贈予遠野",
+      "hook": "兒童之書森林・遠野是建築師安藤忠雄出資設計、建成後贈予遠野市的兒童圖書設施。",
       "cover": "https://shrine-img.pages.dev/img/k032-tono-kodomo-honnomori-01.webp",
       "photos": 17,
       "related": [
@@ -93,7 +93,7 @@
       ],
       "url": "kengaku/k032-tono-kodomo-honnomori.html",
       "markdown": "kengaku/k032-tono-kodomo-honnomori.md",
-      "architect": "安藤忠雄建築研究所・カクタ設計",
+      "architect": "安藤忠雄建築研究所・角田設計事務所",
       "completed": "2021年6月",
       "structure": "木造，地上二層",
       "operator": "遠野市（安藤忠雄寄贈）"

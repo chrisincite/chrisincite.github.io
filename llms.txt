@@ -190,9 +190,9 @@
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
-- [東日本大震災津波傳承館](https://chrisincite.github.io/kengaku/k034-iwate-tsunami-memorial.md)：東日本大震災津波伝承館（Higashi Nihon daishinsai tsunami denshōkan，東日本大震災海嘯傳（岩手縣・陸前高田市氣仙町）
-- [陸前高田アムウェイハウス まちの縁側](https://chrisincite.github.io/kengaku/k033-rikuzentakata-machi-no-engawa.md)：陸前高田アムウェイハウス まちの縁側（Rikuzentakata Amway House Machi no Engawa，陸前高（岩手縣・陸前高田市高田町）
-- [こども本の森 遠野](https://chrisincite.github.io/kengaku/k032-tono-kodomo-honnomori.md)：こども本の森 遠野（Kodomo hon no mori Tōno，兒童之書森林・遠野）是建築師安藤忠雄出資設計、建成後贈予遠野（岩手縣・遠野市中央通り）
+- [東日本大震災津波傳承館](https://chrisincite.github.io/kengaku/k034-iwate-tsunami-memorial.md)：東日本大震災津波傳承館，暱稱「Iwate TSUNAMI Memorial」（岩手海嘯紀念館），位於岩手縣陸前高田市的高田松原津（岩手縣・陸前高田市氣仙町）
+- [陸前高田安麗之家・城鎮的簷廊](https://chrisincite.github.io/kengaku/k033-rikuzentakata-machi-no-engawa.md)：陸前高田安麗之家・城鎮的簷廊位於岩手縣陸前高田市高田地區的新中心市街地，緊鄰 JR 大船渡線 BRT（Bus Rapid Tra（岩手縣・陸前高田市高田町）
+- [兒童之書森林・遠野](https://chrisincite.github.io/kengaku/k032-tono-kodomo-honnomori.md)：兒童之書森林・遠野是建築師安藤忠雄出資設計、建成後贈予遠野市的兒童圖書設施。（岩手縣・遠野市中央大道）
 - [弘前紅磚倉庫美術館](https://chrisincite.github.io/kengaku/k031-hirosaki-renga-soko.md)：弘前紅磚倉庫美術館由一組明治至大正年間建造的紅磚倉庫改修而成。（青森縣・弘前市吉野町）
 
 ## 超入門
