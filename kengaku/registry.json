@@ -463,30 +463,36 @@
     },
     {
       "no": "k066",
-      "slug": "k066",
-      "title": "小岩井農場",
-      "type": "其他",
+      "slug": "k066-koiwai-farm",
+      "title": "小岩井農場牧場園",
+      "type": "交流設施",
       "prefecture": "岩手県",
-      "city": "",
-      "visited": "2024-08"
+      "city": "岩手郡雫石町",
+      "visited": "2024-08",
+      "lat": 39.750724,
+      "lng": 141.017348
     },
     {
       "no": "k067",
-      "slug": "k067",
+      "slug": "k067-iwate-pref-library",
       "title": "岩手縣立圖書館",
       "type": "圖書館",
       "prefecture": "岩手県",
-      "city": "",
-      "visited": "2024-08"
+      "city": "盛岡市盛岡駅西通",
+      "visited": "2024-08",
+      "lat": 39.701885,
+      "lng": 141.132802
     },
     {
       "no": "k068",
-      "slug": "k068",
-      "title": "仙北市田沢湖健康増進センター",
-      "type": "其他",
+      "slug": "k068-tazawako-station",
+      "title": "JR 田澤湖站與仙北市田澤湖觀光情報中心",
+      "type": "交流設施",
       "prefecture": "秋田県",
-      "city": "",
-      "visited": "2024-08"
+      "city": "仙北市田沢湖生保内",
+      "visited": "2024-08",
+      "lat": 39.7002721,
+      "lng": 140.7225293
     },
     {
       "no": "k069",

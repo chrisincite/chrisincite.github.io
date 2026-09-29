@@ -186,10 +186,13 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 158 座，已發佈 9 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 158 座，已發佈 12 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [JR 田澤湖站與仙北市田澤湖觀光情報中心](https://chrisincite.github.io/kengaku/k068-tazawako-station.md)：下午一時二十一分，筆者站在田澤湖站前廣場的草地邊。（秋田縣・仙北市田澤湖生保內）
+- [岩手縣立圖書館](https://chrisincite.github.io/kengaku/k067-iwate-pref-library.md)：上午九時十七分，筆者站在岩手縣民情報交流中心三樓的玄關內側。（岩手縣・盛岡市盛岡駅西通）
+- [小岩井農場牧場園](https://chrisincite.github.io/kengaku/k066-koiwai-farm.md)：下午三時八分，筆者站在小岩井農場牧場園的入口廣場。（岩手縣・岩手郡雫石町丸谷地）
 - [蔦溫泉旅館本館與大町桂月資料館](https://chrisincite.github.io/kengaku/k065-tsuta-onsen.md)：下午五時三十三分，筆者站在蔦溫泉旅館本館的大廳。（青森縣・十和田市奧瀨蔦野湯）
 - [十和田市現代美術館](https://chrisincite.github.io/kengaku/k064-towada-art-center.md)：下午三時十五分，筆者站在美術館北側的草坪上。（青森縣・十和田市西二番町）
 - [青森縣立美術館](https://chrisincite.github.io/kengaku/k060-aomori-museum-of-art.md)：下午三時四十四分，筆者站在一片修剪整齊的草坪前，面對一整座低矮而狹長的白色量體建築，背後是一列深色針葉林。（青森縣・青森市安田・三內）
