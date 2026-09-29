@@ -186,10 +186,12 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 158 座，已發佈 12 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 157 座，已發佈 14 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [東京都現代美術館](https://chrisincite.github.io/kengaku/k071-mot-tokyo.md)：上午十一時半，筆者站在東京都現代美術館入口大廳的一端。（東京都・江東區三好）
+- [國際教養大學中嶋紀念圖書館](https://chrisincite.github.io/kengaku/k069-aiu-nakajima-library.md)：上午十一時十二分，筆者站在一座半圓形閱覽廳的弧心附近。（秋田縣・秋田市雄和）
 - [JR 田澤湖站與仙北市田澤湖觀光情報中心](https://chrisincite.github.io/kengaku/k068-tazawako-station.md)：下午一時二十一分，筆者站在田澤湖站前廣場的草地邊。（秋田縣・仙北市田澤湖生保內）
 - [岩手縣立圖書館](https://chrisincite.github.io/kengaku/k067-iwate-pref-library.md)：上午九時十七分，筆者站在岩手縣民情報交流中心三樓的玄關內側。（岩手縣・盛岡市盛岡駅西通）
 - [小岩井農場牧場園](https://chrisincite.github.io/kengaku/k066-koiwai-farm.md)：下午三時八分，筆者站在小岩井農場牧場園的入口廣場。（岩手縣・岩手郡雫石町丸谷地）
@@ -221,6 +223,6 @@
 - [散策索引 JSON](https://chrisincite.github.io/shrine/index.json)：已發佈的篇章與座標
 - [全 149 座名錄 JSON](https://chrisincite.github.io/shrine/registry.json)：含未發佈的規劃清單
 - [見學索引 JSON](https://chrisincite.github.io/kengaku/index.json)：已發佈的篇章與座標
-- [全 158 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
+- [全 157 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
 - [全文串接](https://chrisincite.github.io/llms-full.txt)：所有內容的完整 markdown，一次取用
 - [網站首頁](https://chrisincite.github.io/)：專案、工具棚與關於頁（單頁式 OS 介面）

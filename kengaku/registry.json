@@ -1,6 +1,6 @@
 {
   "note": "全部座數的名稱／所在地索引，由私有 repo publicArch 的 地點清單.csv 產出（scripts/make_registry.py）。企業美術館・商業藝廊等邊界案例不列入。座標逐篇撰稿時補齊，是官方所在地，不是照片 EXIF 的拍攝點。",
-  "count": 158,
+  "count": 157,
   "places": [
     {
       "no": "k001",
@@ -496,30 +496,25 @@
     },
     {
       "no": "k069",
-      "slug": "k069",
-      "title": "國際教養大學中嶋記念圖書館",
+      "slug": "k069-aiu-nakajima-library",
+      "title": "國際教養大學中嶋紀念圖書館",
       "type": "圖書館",
       "prefecture": "秋田県",
-      "city": "",
-      "visited": "2024-08"
+      "city": "秋田市雄和",
+      "visited": "2024-08",
+      "lat": 39.626175,
+      "lng": 140.199081
     },
     {
       "no": "k071",
-      "slug": "k071",
+      "slug": "k071-mot-tokyo",
       "title": "東京都現代美術館",
       "type": "美術館",
       "prefecture": "東京都",
-      "city": "",
-      "visited": "2024-08"
-    },
-    {
-      "no": "k072",
-      "slug": "k072",
-      "title": "札幌市圖書・情報館",
-      "type": "複合",
-      "prefecture": "北海道",
-      "city": "",
-      "visited": "2024-10"
+      "city": "江東區三好",
+      "visited": "2024-08",
+      "lat": 35.679747,
+      "lng": 139.808192
     },
     {
       "no": "k073",

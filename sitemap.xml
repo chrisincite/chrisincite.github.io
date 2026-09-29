@@ -1441,6 +1441,22 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/kengaku/k071-mot-tokyo.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k071-mot-tokyo.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k069-aiu-nakajima-library.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k069-aiu-nakajima-library.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/kengaku/k068-tazawako-station.html</loc>
     <priority>0.8</priority>
   </url>
