@@ -190,15 +190,15 @@
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
-- [東京都現代美術館](https://chrisincite.github.io/kengaku/k071-mot-tokyo.md)：上午十一時半，筆者站在東京都現代美術館入口大廳的一端。（東京都・江東區三好）
-- [國際教養大學中嶋紀念圖書館](https://chrisincite.github.io/kengaku/k069-aiu-nakajima-library.md)：上午十一時十二分，筆者站在一座半圓形閱覽廳的弧心附近。（秋田縣・秋田市雄和）
-- [JR 田澤湖站與仙北市田澤湖觀光情報中心](https://chrisincite.github.io/kengaku/k068-tazawako-station.md)：下午一時二十一分，筆者站在田澤湖站前廣場的草地邊。（秋田縣・仙北市田澤湖生保內）
-- [岩手縣立圖書館](https://chrisincite.github.io/kengaku/k067-iwate-pref-library.md)：上午九時十七分，筆者站在岩手縣民情報交流中心三樓的玄關內側。（岩手縣・盛岡市盛岡駅西通）
-- [小岩井農場牧場園](https://chrisincite.github.io/kengaku/k066-koiwai-farm.md)：下午三時八分，筆者站在小岩井農場牧場園的入口廣場。（岩手縣・岩手郡雫石町丸谷地）
-- [蔦溫泉旅館本館與大町桂月資料館](https://chrisincite.github.io/kengaku/k065-tsuta-onsen.md)：下午五時三十三分，筆者站在蔦溫泉旅館本館的大廳。（青森縣・十和田市奧瀨蔦野湯）
-- [十和田市現代美術館](https://chrisincite.github.io/kengaku/k064-towada-art-center.md)：下午三時十五分，筆者站在美術館北側的草坪上。（青森縣・十和田市西二番町）
-- [青森縣立美術館](https://chrisincite.github.io/kengaku/k060-aomori-museum-of-art.md)：下午三時四十四分，筆者站在一片修剪整齊的草坪前，面對一整座低矮而狹長的白色量體建築，背後是一列深色針葉林。（青森縣・青森市安田・三內）
-- [Maruhon Makiart Terrace](https://chrisincite.github.io/kengaku/k049-ishinomaki-makiart-terrace.md)：上午十一時半，筆者面對的是一整排高低錯落的白色量體：外牆包覆淺色金屬板，或作雙坡的家形屋頂，或作方形收頭的煙囪狀突起，各量體高度（宮城縣・石巻市開成）
+- [東京都現代美術館](https://chrisincite.github.io/kengaku/k071-mot-tokyo.md)：上午十一時半，我們站在東京都現代美術館入口大廳的一端。（東京都・江東區三好）
+- [國際教養大學中嶋紀念圖書館](https://chrisincite.github.io/kengaku/k069-aiu-nakajima-library.md)：上午十一時十二分，我們站在一座半圓形閱覽廳的弧心附近。（秋田縣・秋田市雄和）
+- [JR 田澤湖站與仙北市田澤湖觀光情報中心](https://chrisincite.github.io/kengaku/k068-tazawako-station.md)：下午一時二十一分，我們站在田澤湖站前廣場的草地邊。（秋田縣・仙北市田澤湖生保內）
+- [岩手縣立圖書館](https://chrisincite.github.io/kengaku/k067-iwate-pref-library.md)：上午九時十七分，我們站在岩手縣民情報交流中心三樓的玄關內側。（岩手縣・盛岡市盛岡駅西通）
+- [小岩井農場牧場園](https://chrisincite.github.io/kengaku/k066-koiwai-farm.md)：下午三時八分，我們站在小岩井農場牧場園的入口廣場。（岩手縣・岩手郡雫石町丸谷地）
+- [蔦溫泉旅館本館與大町桂月資料館](https://chrisincite.github.io/kengaku/k065-tsuta-onsen.md)：下午五時三十三分，我們站在蔦溫泉旅館本館的大廳。（青森縣・十和田市奧瀨蔦野湯）
+- [十和田市現代美術館](https://chrisincite.github.io/kengaku/k064-towada-art-center.md)：下午三時十五分，我們站在美術館北側的草坪上。（青森縣・十和田市西二番町）
+- [青森縣立美術館](https://chrisincite.github.io/kengaku/k060-aomori-museum-of-art.md)：下午三時四十四分，我們站在一片修剪整齊的草坪前，面對一整座低矮而狹長的白色量體建築，背後是一列深色針葉林。（青森縣・青森市安田・三內）
+- [Maruhon Makiart Terrace](https://chrisincite.github.io/kengaku/k049-ishinomaki-makiart-terrace.md)：上午十一時半，我們面對的是一整排高低錯落的白色量體：外牆包覆淺色金屬板，或作雙坡的家形屋頂，或作方形收頭的煙囪狀突起，各量體高度（宮城縣・石巻市開成）
 - [山居倉庫](https://chrisincite.github.io/kengaku/k037-sakata-sankyo-soko.md)：山居倉庫是山形縣酒田市新井田川西岸的十二棟木造米倉，明治二十六年（1893）起陸續建成。（山形縣・酒田市山居町）
 - [東日本大震災津波傳承館](https://chrisincite.github.io/kengaku/k034-iwate-tsunami-memorial.md)：東日本大震災津波傳承館，暱稱「Iwate TSUNAMI Memorial」（岩手海嘯紀念館），位於岩手縣陸前高田市的高田松原津（岩手縣・陸前高田市氣仙町）
 - [陸前高田安麗之家・城鎮的簷廊](https://chrisincite.github.io/kengaku/k033-rikuzentakata-machi-no-engawa.md)：陸前高田安麗之家・城鎮的簷廊位於岩手縣陸前高田市高田地區的新中心市街地，緊鄰 JR 大船渡線 BRT（Bus Rapid Tra（岩手縣・陸前高田市高田町）
