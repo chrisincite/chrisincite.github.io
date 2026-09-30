@@ -518,48 +518,58 @@
     },
     {
       "no": "k073",
-      "slug": "k073",
-      "title": "札幌市民交流プラザ(札幌文化芸術交流センターSCARTS)",
+      "slug": "k073-sapporo-community-plaza",
+      "title": "札幌市民交流廣場",
       "type": "複合",
       "prefecture": "北海道",
-      "city": "",
-      "visited": "2024-10"
+      "city": "札幌市中央區",
+      "visited": "2024-10",
+      "lat": 43.063189,
+      "lng": 141.355531
     },
     {
       "no": "k074",
-      "slug": "k074",
+      "slug": "k074-hokkaido-museum-of-modern-art",
       "title": "北海道立近代美術館",
       "type": "美術館",
       "prefecture": "北海道",
-      "city": "",
-      "visited": "2024-10"
+      "city": "札幌市中央區",
+      "visited": "2024-10",
+      "lat": 43.060267,
+      "lng": 141.330385
     },
     {
       "no": "k077",
-      "slug": "k077",
+      "slug": "k077-hokkaido-museum",
       "title": "北海道博物館",
       "type": "博物館",
       "prefecture": "北海道",
-      "city": "",
-      "visited": "2024-10"
+      "city": "札幌市厚別區",
+      "visited": "2024-10",
+      "lat": 43.053134,
+      "lng": 141.496665
     },
     {
       "no": "k079",
-      "slug": "k079",
+      "slug": "k079-asahikawa-museum-of-art",
       "title": "北海道立旭川美術館",
       "type": "美術館",
       "prefecture": "北海道",
-      "city": "",
-      "visited": "2024-10"
+      "city": "旭川市",
+      "visited": "2024-10",
+      "lat": 43.774163,
+      "lng": 142.355386
     },
     {
       "no": "k080",
-      "slug": "k080",
-      "title": "東川町文化交流センター せんとぴゅあII",
+      "slug": "k080-higashikawa-centpure2",
+      "title": "東川町複合交流設施 CentPure II",
       "type": "複合",
       "prefecture": "北海道",
-      "city": "",
-      "visited": "2024-10"
+      "city": "上川郡東川町",
+      "visited": "2024-10",
+      "lat": 43.6986025,
+      "lng": 142.5065939
     },
     {
       "no": "k082",
