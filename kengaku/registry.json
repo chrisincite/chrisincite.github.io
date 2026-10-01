@@ -1,6 +1,6 @@
 {
   "note": "全部座數的名稱／所在地索引，由私有 repo publicArch 的 地點清單.csv 產出（scripts/make_registry.py）。企業美術館・商業藝廊等邊界案例不列入。座標逐篇撰稿時補齊，是官方所在地，不是照片 EXIF 的拍攝點。",
-  "count": 157,
+  "count": 156,
   "places": [
     {
       "no": "k001",
@@ -31,30 +31,25 @@
     },
     {
       "no": "k005",
-      "slug": "k005",
+      "slug": "k005-akita-museum-of-art",
       "title": "秋田縣立美術館",
       "type": "美術館",
       "prefecture": "秋田県",
-      "city": "",
-      "visited": "2015-08"
+      "city": "秋田市中通",
+      "visited": "2015-08",
+      "lat": 39.7173148,
+      "lng": 140.1215269
     },
     {
       "no": "k006",
-      "slug": "k006",
-      "title": "仙北市學習資料館(文庫藏)",
-      "type": "資料館",
+      "slug": "k006-shinchosha-literature-museum",
+      "title": "新潮社記念文學館",
+      "type": "記念館",
       "prefecture": "秋田県",
-      "city": "",
-      "visited": "2015-08"
-    },
-    {
-      "no": "k008",
-      "slug": "k008",
-      "title": "森と遺跡の展示室",
-      "type": "資料館",
-      "prefecture": "秋田県",
-      "city": "",
-      "visited": "2015-08"
+      "city": "仙北市角館町",
+      "visited": "2015-08",
+      "lat": 39.5928509,
+      "lng": 140.56557
     },
     {
       "no": "k009",
@@ -639,30 +634,36 @@
     },
     {
       "no": "k088",
-      "slug": "k088",
-      "title": "苫小牧市関連施設ウトナイ交流センター",
-      "type": "其他",
+      "slug": "k088-utonai-roadside-station",
+      "title": "公路休息站 Utonai 湖（苫小牧市 Utonai 交流中心）",
+      "type": "交流設施",
       "prefecture": "北海道",
-      "city": "",
-      "visited": "2024-10"
+      "city": "苫小牧市",
+      "visited": "2024-10",
+      "lat": 42.6999513,
+      "lng": 141.6946488
     },
     {
       "no": "k090",
-      "slug": "k090",
-      "title": "國立民族共生公園",
-      "type": "複合",
+      "slug": "k090-upopoy-park",
+      "title": "國立民族共生公園（Upopoy）",
+      "type": "複合文化設施",
       "prefecture": "北海道",
-      "city": "",
-      "visited": "2024-10"
+      "city": "白老郡白老町",
+      "visited": "2024-10",
+      "lat": 42.5577892,
+      "lng": 141.3635063
     },
     {
       "no": "k091",
-      "slug": "k091",
-      "title": "国立アイヌ民族博物館(民族共生公園ウポポイ)",
-      "type": "複合",
+      "slug": "k091-national-ainu-museum",
+      "title": "國立愛努民族博物館",
+      "type": "博物館",
       "prefecture": "北海道",
-      "city": "",
-      "visited": "2024-10"
+      "city": "白老郡白老町",
+      "visited": "2024-10",
+      "lat": 42.5596359,
+      "lng": 141.3659969
     },
     {
       "no": "k093",

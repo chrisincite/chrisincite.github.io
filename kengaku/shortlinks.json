@@ -1,4 +1,6 @@
 {
+  "k005-akita-museum-of-art": "q",
+  "k006-shinchosha-literature-museum": "r",
   "k031-hirosaki-renga-soko": "1",
   "k032-tono-kodomo-honnomori": "2",
   "k033-rikuzentakata-machi-no-engawa": "3",
@@ -23,5 +25,8 @@
   "k084-mashu-onsen-roadside-station": "m",
   "k085-ponponyu-shirarutoro": "n",
   "k086-kanda-nissho-museum": "o",
-  "k087-yubari-resta": "p"
+  "k087-yubari-resta": "p",
+  "k088-utonai-roadside-station": "s",
+  "k090-upopoy-park": "t",
+  "k091-national-ainu-museum": "u"
 }

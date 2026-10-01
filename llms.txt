@@ -186,16 +186,21 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 157 座，已發佈 25 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 156 座，已發佈 30 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [國立愛努民族博物館](https://chrisincite.github.io/kengaku/k091-national-ainu-museum.md)：上午十一時五十五分，我們從一樓的手扶梯上到二樓。（北海道・白老郡白老町）
+- [國立民族共生公園（Upopoy）](https://chrisincite.github.io/kengaku/k090-upopoy-park.md)：上午十一時二十八分，我們站在一棟 chise 的屋內。（北海道・白老郡白老町）
+- [公路休息站 Utonai 湖（苫小牧市 Utonai 交流中心）](https://chrisincite.github.io/kengaku/k088-utonai-roadside-station.md)：下午四時五十三分，我們站在展望設施的屋頂上。（北海道・苫小牧市）
 - [夕張市據點複合設施 Resta](https://chrisincite.github.io/kengaku/k087-yubari-resta.md)：下午三時二十九分，我們站在 Resta 的長軸上。（北海道・夕張市）
 - [神田日勝記念美術館](https://chrisincite.github.io/kengaku/k086-kanda-nissho-museum.md)：中午十二時三十六分，我們推開展示室的玻璃門。（北海道・河東郡鹿追町）
 - [PON-PONYU 與 Shirarutoro 自然情報館](https://chrisincite.github.io/kengaku/k085-ponponyu-shirarutoro.md)：下午一時三十四分，我們站在 PON-PONYU 入口前的大簷之下。（北海道・川上郡標茶町）
 - [公路休息站 摩周溫泉（摩周觀光交流館）](https://chrisincite.github.io/kengaku/k084-mashu-onsen-roadside-station.md)：上午十一時十一分，我們走進弟子屈町的公路休息站。（北海道・川上郡弟子屈町）
 - [阿寒湖愛努劇場 Ikor](https://chrisincite.github.io/kengaku/k083-akanko-ainu-theater-ikor.md)：上午九時五十四分，阿寒湖愛努聚落的坡道走到盡頭，眼前是一面三角形的木板山牆。（北海道・釧路市阿寒町）
 - [富良野市複合廳舍 Navel Furano](https://chrisincite.github.io/kengaku/k082-furano-civic-center.md)：上午十一時二十七分，我們從停車場一側走進富良野市的新廳舍。（北海道・富良野市）
+- [新潮社記念文學館](https://chrisincite.github.io/kengaku/k006-shinchosha-literature-museum.md)：上午十一時四十分，田町的武家屋敷通上，一面灰色石材的外牆上嵌著一本翻開的書。（秋田縣・仙北市角館町）
+- [秋田縣立美術館](https://chrisincite.github.io/kengaku/k005-akita-museum-of-art.md)：八月四日正午過後，二樓 lounge 的落地玻璃外是一片水面。（秋田縣・秋田市中通）
 - [東川町複合交流設施 CentPure II](https://chrisincite.github.io/kengaku/k080-higashikawa-centpure2.md)：中午十二時三十一分，我們站在一處沒有隔間的大空間裡。（北海道・上川郡東川町）
 - [北海道立旭川美術館](https://chrisincite.github.io/kengaku/k079-asahikawa-museum-of-art.md)：上午十時十一分，我們站在美術館的大廳裡。（北海道・旭川市）
 - [北海道博物館](https://chrisincite.github.io/kengaku/k077-hokkaido-museum.md)：正午，我們走出北海道博物館的正門，站在南側的石材廣場上回望。（北海道・札幌市厚別區）
@@ -234,6 +239,6 @@
 - [散策索引 JSON](https://chrisincite.github.io/shrine/index.json)：已發佈的篇章與座標
 - [全 149 座名錄 JSON](https://chrisincite.github.io/shrine/registry.json)：含未發佈的規劃清單
 - [見學索引 JSON](https://chrisincite.github.io/kengaku/index.json)：已發佈的篇章與座標
-- [全 157 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
+- [全 156 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
 - [全文串接](https://chrisincite.github.io/llms-full.txt)：所有內容的完整 markdown，一次取用
 - [網站首頁](https://chrisincite.github.io/)：專案、工具棚與關於頁（單頁式 OS 介面）
