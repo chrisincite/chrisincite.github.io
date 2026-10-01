@@ -182,4 +182,4 @@ Resta 上午六時半開館。圖書的閱覽與學習室同樣自六時半開�
 
 清水澤站是 JR 夕張支線上的車站，隨支線於二〇一九年四月一日廢止。路線沿谷底的市街與國道展開，兩側是覆蓋樹林的丘陵。
 
-Atelier BNK 與構造設計者山脇克彥，也同為北海道東川町  CentPure II 的設計成員。
+Atelier BNK 與構造設計者山脇克彥，也同為北海道東川町 [東川町複合交流設施 CentPure II](k080-higashikawa-centpure2.md) CentPure II 的設計成員。
