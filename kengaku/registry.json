@@ -573,57 +573,69 @@
     },
     {
       "no": "k082",
-      "slug": "k082",
-      "title": "富良野市役所・富良野文化會館",
+      "slug": "k082-furano-civic-center",
+      "title": "富良野市複合廳舍 Navel Furano",
       "type": "廳舍",
       "prefecture": "北海道",
-      "city": "",
-      "visited": "2024-10"
+      "city": "富良野市",
+      "visited": "2024-10",
+      "lat": 43.3422272,
+      "lng": 142.383304
     },
     {
       "no": "k083",
-      "slug": "k083",
-      "title": "阿寒湖アイヌシアター イコロ",
+      "slug": "k083-akanko-ainu-theater-ikor",
+      "title": "阿寒湖愛努劇場 Ikor",
       "type": "劇場",
       "prefecture": "北海道",
-      "city": "",
-      "visited": "2024-10"
+      "city": "釧路市阿寒町",
+      "visited": "2024-10",
+      "lat": 43.4341201,
+      "lng": 144.0890045
     },
     {
       "no": "k084",
-      "slug": "k084",
-      "title": "道の駅摩周温泉",
+      "slug": "k084-mashu-onsen-roadside-station",
+      "title": "公路休息站 摩周溫泉（摩周觀光交流館）",
       "type": "複合",
       "prefecture": "北海道",
-      "city": "",
-      "visited": "2024-10"
+      "city": "川上郡弟子屈町",
+      "visited": "2024-10",
+      "lat": 43.4923275,
+      "lng": 144.4477355
     },
     {
       "no": "k085",
-      "slug": "k085",
-      "title": "シラルトロ自然情報館",
-      "type": "資料館",
+      "slug": "k085-ponponyu-shirarutoro",
+      "title": "PON-PONYU 與 Shirarutoro 自然情報館",
+      "type": "交流設施",
       "prefecture": "北海道",
-      "city": "",
-      "visited": "2024-10"
+      "city": "川上郡標茶町",
+      "visited": "2024-10",
+      "lat": 43.1922306,
+      "lng": 144.500326
     },
     {
       "no": "k086",
-      "slug": "k086",
+      "slug": "k086-kanda-nissho-museum",
       "title": "神田日勝記念美術館",
       "type": "美術館",
       "prefecture": "北海道",
-      "city": "",
-      "visited": "2024-10"
+      "city": "河東郡鹿追町",
+      "visited": "2024-10",
+      "lat": 43.096718,
+      "lng": 142.9901796
     },
     {
       "no": "k087",
-      "slug": "k087",
-      "title": "りすた図書館",
-      "type": "圖書館",
+      "slug": "k087-yubari-resta",
+      "title": "夕張市據點複合設施 Resta",
+      "type": "複合文化設施",
       "prefecture": "北海道",
-      "city": "",
-      "visited": "2024-10"
+      "city": "夕張市",
+      "visited": "2024-10",
+      "lat": 42.9829847,
+      "lng": 142.0072451
     },
     {
       "no": "k088",
