@@ -186,10 +186,14 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 156 座，已發佈 34 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 156 座，已發佈 38 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [那珂川町馬頭廣重美術館](https://chrisincite.github.io/kengaku/k054-bato-hiroshige-museum.md)：建築的正中央是一條穿越整棟美術館的通道。（栃木縣・那須郡那珂川町馬頭）
+- [N's YARD](https://chrisincite.github.io/kengaku/k053-ns-yard.md)：展示室四的四面牆上方，各有一圈帶狀的高側窗。（栃木縣・那須鹽原市青木）
+- [那須鹽原市圖書館 Miruru](https://chrisincite.github.io/kengaku/k052-nasushiobara-library-miruru.md)：二樓的天花由數千條淺色木條構成，木條沿著一組折面排列，折線把天花切成高低不一的多面體。（栃木縣・那須鹽原市本町）
+- [茨城縣天心紀念五浦美術館](https://chrisincite.github.io/kengaku/k048-izura-tenshin-museum.md)：大廳的天花由一排排灰色的混凝土桿件構成。（茨城縣・北茨城市大津町）
 - [東京大學本鄉校區（安田講堂）](https://chrisincite.github.io/kengaku/k039-utokyo-hongo-yasuda.md)：十一月五日上午七時半，安田講堂前的橢圓形草坪上沒有人。（東京都・文京區本鄉）
 - [國立新美術館](https://chrisincite.github.io/kengaku/k038-national-art-center-tokyo.md)：一樓大廳的地板是深色的木地板，兩座倒立的清水混凝土圓錐從地板升起，愈往上愈寬，頂端各自托著一處餐飲空間。（東京都・港區六本木）
 - [宮澤賢治記念館](https://chrisincite.github.io/kengaku/k010-miyazawa-kenji-museum.md)：上午十一時三十二分，我們站在一條林間步道的起點。（岩手縣・花卷市矢澤）

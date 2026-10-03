@@ -350,12 +350,14 @@
     },
     {
       "no": "k048",
-      "slug": "k048",
-      "title": "茨城縣天心記念五浦美術館",
+      "slug": "k048-izura-tenshin-museum",
+      "title": "茨城縣天心紀念五浦美術館",
       "type": "美術館",
       "prefecture": "茨城県",
-      "city": "",
-      "visited": "2024-04"
+      "city": "北茨城市大津町",
+      "visited": "2024-04",
+      "lat": 36.8391379,
+      "lng": 140.8004655
     },
     {
       "no": "k049",
@@ -379,30 +381,36 @@
     },
     {
       "no": "k052",
-      "slug": "k052",
-      "title": "那須塩原市図書館みるる",
+      "slug": "k052-nasushiobara-library-miruru",
+      "title": "那須鹽原市圖書館 Miruru",
       "type": "圖書館",
       "prefecture": "栃木県",
-      "city": "",
-      "visited": "2024-04"
+      "city": "那須鹽原市本町",
+      "visited": "2024-04",
+      "lat": 36.9693401,
+      "lng": 140.0586189
     },
     {
       "no": "k053",
-      "slug": "k053",
+      "slug": "k053-ns-yard",
       "title": "N's YARD",
       "type": "美術館",
       "prefecture": "栃木県",
-      "city": "",
-      "visited": "2024-04"
+      "city": "那須鹽原市青木",
+      "visited": "2024-04",
+      "lat": 37.0027464,
+      "lng": 139.9864278
     },
     {
       "no": "k054",
-      "slug": "k054",
+      "slug": "k054-bato-hiroshige-museum",
       "title": "那珂川町馬頭廣重美術館",
       "type": "美術館",
       "prefecture": "栃木県",
-      "city": "",
-      "visited": "2024-04"
+      "city": "那須郡那珂川町馬頭",
+      "visited": "2024-04",
+      "lat": 36.739114,
+      "lng": 140.170965
     },
     {
       "no": "k055",
