@@ -186,10 +186,14 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 156 座，已發佈 30 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 156 座，已發佈 34 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [東京大學本鄉校區（安田講堂）](https://chrisincite.github.io/kengaku/k039-utokyo-hongo-yasuda.md)：十一月五日上午七時半，安田講堂前的橢圓形草坪上沒有人。（東京都・文京區本鄉）
+- [國立新美術館](https://chrisincite.github.io/kengaku/k038-national-art-center-tokyo.md)：一樓大廳的地板是深色的木地板，兩座倒立的清水混凝土圓錐從地板升起，愈往上愈寬，頂端各自托著一處餐飲空間。（東京都・港區六本木）
+- [宮澤賢治記念館](https://chrisincite.github.io/kengaku/k010-miyazawa-kenji-museum.md)：上午十一時三十二分，我們站在一條林間步道的起點。（岩手縣・花卷市矢澤）
+- [宮澤賢治童話村](https://chrisincite.github.io/kengaku/k009-miyazawa-kenji-dowamura.md)：上午十時五十八分，我們站在一片草坪的邊緣。（岩手縣・花卷市高松）
 - [國立愛努民族博物館](https://chrisincite.github.io/kengaku/k091-national-ainu-museum.md)：上午十一時五十五分，我們從一樓的手扶梯上到二樓。（北海道・白老郡白老町）
 - [國立民族共生公園（Upopoy）](https://chrisincite.github.io/kengaku/k090-upopoy-park.md)：上午十一時二十八分，我們站在一棟 chise 的屋內。（北海道・白老郡白老町）
 - [公路休息站 Utonai 湖（苫小牧市 Utonai 交流中心）](https://chrisincite.github.io/kengaku/k088-utonai-roadside-station.md)：下午四時五十三分，我們站在展望設施的屋頂上。（北海道・苫小牧市）

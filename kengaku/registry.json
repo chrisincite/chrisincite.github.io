@@ -53,21 +53,25 @@
     },
     {
       "no": "k009",
-      "slug": "k009",
+      "slug": "k009-miyazawa-kenji-dowamura",
       "title": "宮澤賢治童話村",
       "type": "資料館",
       "prefecture": "岩手県",
-      "city": "",
-      "visited": "2015-08"
+      "city": "花卷市高松",
+      "visited": "2015-08",
+      "lat": 39.397734,
+      "lng": 141.169068
     },
     {
       "no": "k010",
-      "slug": "k010",
+      "slug": "k010-miyazawa-kenji-museum",
       "title": "宮澤賢治記念館",
       "type": "記念館",
       "prefecture": "岩手県",
-      "city": "",
-      "visited": "2015-08"
+      "city": "花卷市矢澤",
+      "visited": "2015-08",
+      "lat": 39.3992073,
+      "lng": 141.16267
     },
     {
       "no": "k011",
@@ -261,21 +265,25 @@
     },
     {
       "no": "k038",
-      "slug": "k038",
+      "slug": "k038-national-art-center-tokyo",
       "title": "國立新美術館",
       "type": "美術館",
       "prefecture": "東京都",
-      "city": "",
-      "visited": "2022-11"
+      "city": "港區六本木",
+      "visited": "2022-11",
+      "lat": 35.665289,
+      "lng": 139.726374
     },
     {
       "no": "k039",
-      "slug": "k039",
-      "title": "東京大学本郷キャンパス（安田講堂等）",
+      "slug": "k039-utokyo-hongo-yasuda",
+      "title": "東京大學本鄉校區（安田講堂）",
       "type": "大學",
       "prefecture": "東京都",
-      "city": "",
-      "visited": "2022-11"
+      "city": "文京區本鄉",
+      "visited": "2022-11",
+      "lat": 35.7134233,
+      "lng": 139.7622823
     },
     {
       "no": "k040",
