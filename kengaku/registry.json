@@ -192,21 +192,25 @@
     },
     {
       "no": "k029",
-      "slug": "k029",
-      "title": "すみだ北斎美術館",
+      "slug": "k029-sumida-hokusai-museum",
+      "title": "墨田北齋美術館",
       "type": "美術館",
       "prefecture": "東京都",
-      "city": "",
-      "visited": "2017-03"
+      "city": "墨田區龜澤",
+      "visited": "2017-03",
+      "lat": 35.6963313,
+      "lng": 139.800414
     },
     {
       "no": "k030",
-      "slug": "k030",
-      "title": "江戸東京たてもの園",
-      "type": "資料館",
+      "slug": "k030-edo-tokyo-open-air-museum",
+      "title": "江戶東京建築園",
+      "type": "博物館",
       "prefecture": "東京都",
-      "city": "",
-      "visited": "2017-03"
+      "city": "小金井市櫻町",
+      "visited": "2017-03",
+      "lat": 35.7155722,
+      "lng": 139.5125434
     },
     {
       "no": "k031",
@@ -414,12 +418,14 @@
     },
     {
       "no": "k055",
-      "slug": "k055",
-      "title": "角川武蔵野ミュージアム",
-      "type": "複合",
+      "slug": "k055-kadokawa-culture-museum",
+      "title": "角川武藏野博物館",
+      "type": "複合文化設施",
       "prefecture": "埼玉県",
-      "city": "",
-      "visited": "2024-04"
+      "city": "所澤市東所澤和田",
+      "visited": "2024-04",
+      "lat": 35.7977186,
+      "lng": 139.5078028
     },
     {
       "no": "k057",
@@ -432,12 +438,14 @@
     },
     {
       "no": "k058",
-      "slug": "k058",
-      "title": "横須賀美術館",
+      "slug": "k058-yokosuka-museum-of-art",
+      "title": "橫須賀美術館",
       "type": "美術館",
       "prefecture": "神奈川県",
-      "city": "",
-      "visited": "2024-04"
+      "city": "橫須賀市鴨居",
+      "visited": "2024-04",
+      "lat": 35.259665,
+      "lng": 139.738014
     },
     {
       "no": "k060",
@@ -746,30 +754,36 @@
     },
     {
       "no": "k100",
-      "slug": "k100",
-      "title": "飯山市文化交流館なちゅら",
+      "slug": "k100-iiyama-natura",
+      "title": "飯山市文化交流館 Natura",
       "type": "複合",
       "prefecture": "長野県",
-      "city": "",
-      "visited": "2025-01"
+      "city": "飯山市",
+      "visited": "2025-01",
+      "lat": 36.8489668,
+      "lng": 138.3591408
     },
     {
       "no": "k101",
-      "slug": "k101",
-      "title": "長野縣立美術館 東山魁夷館",
+      "slug": "k101-nagano-prefectural-art-museum",
+      "title": "長野縣立美術館・東山魁夷館",
       "type": "美術館",
       "prefecture": "長野県",
-      "city": "",
-      "visited": "2025-01"
+      "city": "長野市",
+      "visited": "2025-01",
+      "lat": 36.661575,
+      "lng": 138.191018
     },
     {
       "no": "k102",
-      "slug": "k102",
+      "slug": "k102-toyama-tad",
       "title": "富山縣美術館",
       "type": "美術館",
       "prefecture": "富山県",
-      "city": "",
-      "visited": "2025-01"
+      "city": "富山市",
+      "visited": "2025-01",
+      "lat": 36.7109182,
+      "lng": 137.2101748
     },
     {
       "no": "k103",

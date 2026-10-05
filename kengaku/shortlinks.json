@@ -3,6 +3,8 @@
   "k006-shinchosha-literature-museum": "r",
   "k009-miyazawa-kenji-dowamura": "v",
   "k010-miyazawa-kenji-museum": "w",
+  "k029-sumida-hokusai-museum": "13",
+  "k030-edo-tokyo-open-air-museum": "14",
   "k031-hirosaki-renga-soko": "1",
   "k032-tono-kodomo-honnomori": "2",
   "k033-rikuzentakata-machi-no-engawa": "3",
@@ -15,6 +17,8 @@
   "k052-nasushiobara-library-miruru": "10",
   "k053-ns-yard": "11",
   "k054-bato-hiroshige-museum": "12",
+  "k055-kadokawa-culture-museum": "15",
+  "k058-yokosuka-museum-of-art": "16",
   "k060-aomori-museum-of-art": "7",
   "k064-towada-art-center": "8",
   "k065-tsuta-onsen": "9",
@@ -36,5 +40,8 @@
   "k087-yubari-resta": "p",
   "k088-utonai-roadside-station": "s",
   "k090-upopoy-park": "t",
-  "k091-national-ainu-museum": "u"
+  "k091-national-ainu-museum": "u",
+  "k100-iiyama-natura": "17",
+  "k101-nagano-prefectural-art-museum": "18",
+  "k102-toyama-tad": "19"
 }

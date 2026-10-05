@@ -186,10 +186,17 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 156 座，已發佈 38 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 156 座，已發佈 45 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [富山縣美術館](https://chrisincite.github.io/kengaku/k102-toyama-tad.md)：走廊的兩側與天花，全是縱向排列的杉木細條。（富山縣・富山市木場町）
+- [長野縣立美術館・東山魁夷館](https://chrisincite.github.io/kengaku/k101-nagano-prefectural-art-museum.md)：連絡橋的玻璃之下，是一片積雪的平台。（長野縣・長野市箱清水）
+- [飯山市文化交流館 Natura](https://chrisincite.github.io/kengaku/k100-iiyama-natura.md)：木構架從兩側的牆面斜向伸出，在頭頂交錯，再落回另一側的牆腳。（長野縣・飯山市飯山）
+- [橫須賀美術館](https://chrisincite.github.io/kengaku/k058-yokosuka-museum-of-art.md)：牆面是白色的鋼板，上面開著大小不一的圓孔。（神奈川縣・橫須賀市鴨居）
+- [角川武藏野博物館](https://chrisincite.github.io/kengaku/k055-kadokawa-culture-museum.md)：書架從木地板一直排到八公尺高的天花，三層之間沒有一道牆。（埼玉縣・所澤市東所澤和田）
+- [江戶東京建築園](https://chrisincite.github.io/kengaku/k030-edo-tokyo-open-air-museum.md)：銅板葺的入母屋造屋頂已經轉成青綠色，屋簷下是一列圓柱，柱間嵌著玻璃。（東京都・小金井市櫻町）
+- [墨田北齋美術館](https://chrisincite.github.io/kengaku/k029-sumida-hokusai-museum.md)：鋁板外牆在傍晚的天光下呈現一種不均勻的灰。（東京都・墨田區龜澤）
 - [那珂川町馬頭廣重美術館](https://chrisincite.github.io/kengaku/k054-bato-hiroshige-museum.md)：建築的正中央是一條穿越整棟美術館的通道。（栃木縣・那須郡那珂川町馬頭）
 - [N's YARD](https://chrisincite.github.io/kengaku/k053-ns-yard.md)：展示室四的四面牆上方，各有一圈帶狀的高側窗。（栃木縣・那須鹽原市青木）
 - [那須鹽原市圖書館 Miruru](https://chrisincite.github.io/kengaku/k052-nasushiobara-library-miruru.md)：二樓的天花由數千條淺色木條構成，木條沿著一組折面排列，折線把天花切成高低不一的多面體。（栃木縣・那須鹽原市本町）
