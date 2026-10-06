@@ -186,10 +186,17 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 156 座，已發佈 45 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 156 座，已發佈 52 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [TOYAMA Kirari（富山市立圖書館本館・富山市玻璃美術館）](https://chrisincite.github.io/kengaku/k019-toyama-kirari.md)：站在挑空的邊緣往上看，數十根杉木的長板斜斜地掛在半空，一根挨著一根，從上方的樓層一直垂到下方的樓層。（富山縣・富山市西町）
+- [東京站丸之內站舍與 KITTE](https://chrisincite.github.io/kengaku/k018-tokyo-station-kitte.md)：紅磚的站舍橫在眼前，中央是一座覆著深色屋頂的塔屋，兩端各有一座圓頂。（東京都・千代田區丸之內）
+- [越後妻有里山現代美術館 MonET](https://chrisincite.github.io/kengaku/k016-echigo-tsumari-monet.md)：正方形的中庭積滿了雪。（新潟縣・十日町市本町）
+- [松代農舞台](https://chrisincite.github.io/kengaku/k015-matsudai-nohbutai.md)：雪從低垂的天空斜斜落下。（新潟縣・十日町市松代）
+- [橫濱美術館](https://chrisincite.github.io/kengaku/k004-yokohama-museum-of-art.md)：挑高的大廳上方是一整片斜屋頂的玻璃，玻璃之下是密排的白色 louver。（神奈川縣・橫濱市西區港未來）
+- [東京大學大和泛在學術研究館](https://chrisincite.github.io/kengaku/k002-utokyo-daiwa-ubiquitous.md)：杉木板一片一片地掛在外牆上，每一片的長短、間隔與出挑都不一樣。（東京都・文京區本鄉）
+- [東京農業大學「食與農」博物館](https://chrisincite.github.io/kengaku/k001-nodai-food-agriculture-museum.md)：深灰色的縱向 louver 從地面一直立到屋頂，片與片之間的縫隙只容得下一隻手。（東京都・世田谷區上用賀）
 - [富山縣美術館](https://chrisincite.github.io/kengaku/k102-toyama-tad.md)：走廊的兩側與天花，全是縱向排列的杉木細條。（富山縣・富山市木場町）
 - [長野縣立美術館・東山魁夷館](https://chrisincite.github.io/kengaku/k101-nagano-prefectural-art-museum.md)：連絡橋的玻璃之下，是一片積雪的平台。（長野縣・長野市箱清水）
 - [飯山市文化交流館 Natura](https://chrisincite.github.io/kengaku/k100-iiyama-natura.md)：木構架從兩側的牆面斜向伸出，在頭頂交錯，再落回另一側的牆腳。（長野縣・飯山市飯山）

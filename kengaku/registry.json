@@ -4,30 +4,36 @@
   "places": [
     {
       "no": "k001",
-      "slug": "k001",
-      "title": "東京農業大學「食と農」の博物館",
+      "slug": "k001-nodai-food-agriculture-museum",
+      "title": "東京農業大學「食與農」博物館",
       "type": "博物館",
       "prefecture": "東京都",
-      "city": "",
-      "visited": "2015-01"
+      "city": "世田谷區上用賀",
+      "visited": "2015-01",
+      "lat": 35.638951,
+      "lng": 139.631627
     },
     {
       "no": "k002",
-      "slug": "k002",
-      "title": "東京大学ダイワユビキタス学術研究館",
+      "slug": "k002-utokyo-daiwa-ubiquitous",
+      "title": "東京大學大和泛在學術研究館",
       "type": "大學",
       "prefecture": "東京都",
-      "city": "",
-      "visited": "2015-01"
+      "city": "文京區本鄉",
+      "visited": "2015-01",
+      "lat": 35.7080547,
+      "lng": 139.7626915
     },
     {
       "no": "k004",
-      "slug": "k004",
-      "title": "横濱美術館",
+      "slug": "k004-yokohama-museum-of-art",
+      "title": "橫濱美術館",
       "type": "美術館",
       "prefecture": "神奈川県",
-      "city": "",
-      "visited": "2015-01"
+      "city": "橫濱市西區港未來",
+      "visited": "2015-01",
+      "lat": 35.4569619,
+      "lng": 139.6306475
     },
     {
       "no": "k005",
@@ -102,39 +108,47 @@
     },
     {
       "no": "k015",
-      "slug": "k015",
-      "title": "まつだい農舞台(大地藝術祭里山現代美術館)",
+      "slug": "k015-matsudai-nohbutai",
+      "title": "松代農舞台",
       "type": "複合",
       "prefecture": "新潟県",
-      "city": "",
-      "visited": "2016-02"
+      "city": "十日町市松代",
+      "visited": "2016-02",
+      "lat": 37.1315924,
+      "lng": 138.6149701
     },
     {
       "no": "k016",
-      "slug": "k016",
-      "title": "越後妻有里山現代美術館MonET",
+      "slug": "k016-echigo-tsumari-monet",
+      "title": "越後妻有里山現代美術館 MonET",
       "type": "美術館",
       "prefecture": "新潟県",
-      "city": "",
-      "visited": "2016-02"
+      "city": "十日町市本町",
+      "visited": "2016-02",
+      "lat": 37.138939,
+      "lng": 138.7598952
     },
     {
       "no": "k018",
-      "slug": "k018",
-      "title": "東京駅丸の内駅舎/KITTE(舊東京中央郵便局)",
+      "slug": "k018-tokyo-station-kitte",
+      "title": "東京站丸之內站舍與 KITTE",
       "type": "複合",
       "prefecture": "東京都",
-      "city": "",
-      "visited": "2016-08"
+      "city": "千代田區丸之內",
+      "visited": "2016-08",
+      "lat": 35.6815604,
+      "lng": 139.7654768
     },
     {
       "no": "k019",
-      "slug": "k019",
-      "title": "富山市立圖書館・富山市ガラス美術館(TOYAMAキラリ)",
+      "slug": "k019-toyama-kirari",
+      "title": "TOYAMA Kirari（富山市立圖書館本館・富山市玻璃美術館）",
       "type": "複合",
       "prefecture": "富山県",
-      "city": "",
-      "visited": "2016-08"
+      "city": "富山市西町",
+      "visited": "2016-08",
+      "lat": 36.6883888,
+      "lng": 137.2150549
     },
     {
       "no": "k020",
