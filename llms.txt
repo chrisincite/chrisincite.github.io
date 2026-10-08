@@ -186,10 +186,16 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 156 座，已發佈 52 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 156 座，已發佈 58 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [安曇野千尋美術館](https://chrisincite.github.io/kengaku/k040-chihiro-art-museum-azumino.md)：草地的盡頭是一列並排的山牆。（長野縣・北安曇郡松川村）
+- [金澤菓子木型美術館・森八本店](https://chrisincite.github.io/kengaku/k028-kanazawa-kigata-museum.md)：一條狹長的通路，兩側的牆面從腳邊到頭頂排滿了木型。（石川縣・金澤市大手町）
+- [鈴木大拙館](https://chrisincite.github.io/kengaku/k027-dt-suzuki-museum.md)：白色的立方體立在一片淺水之中。（石川縣・金澤市本多町）
+- [金澤海未來圖書館](https://chrisincite.github.io/kengaku/k026-kanazawa-umimirai-library.md)：上午十時過後，北陸的天空在三月仍然低而灰。（石川縣・金澤市寺中町）
+- [高岡市鑄物資料館](https://chrisincite.github.io/kengaku/k022-takaoka-imono-museum.md)：下午四時，夏天的日光斜照進金屋町的通道，石板路的一半在陰影裡，一半發白。（富山縣・高岡市金屋町）
+- [福岡相機館](https://chrisincite.github.io/kengaku/k021-fukuoka-camera-museum.md)：八月上午九時過後，日光已經很強。（富山縣・高岡市福岡町）
 - [TOYAMA Kirari（富山市立圖書館本館・富山市玻璃美術館）](https://chrisincite.github.io/kengaku/k019-toyama-kirari.md)：站在挑空的邊緣往上看，數十根杉木的長板斜斜地掛在半空，一根挨著一根，從上方的樓層一直垂到下方的樓層。（富山縣・富山市西町）
 - [東京站丸之內站舍與 KITTE](https://chrisincite.github.io/kengaku/k018-tokyo-station-kitte.md)：紅磚的站舍橫在眼前，中央是一座覆著深色屋頂的塔屋，兩端各有一座圓頂。（東京都・千代田區丸之內）
 - [越後妻有里山現代美術館 MonET](https://chrisincite.github.io/kengaku/k016-echigo-tsumari-monet.md)：正方形的中庭積滿了雪。（新潟縣・十日町市本町）

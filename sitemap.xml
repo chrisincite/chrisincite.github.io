@@ -1441,6 +1441,54 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/kengaku/k040-chihiro-art-museum-azumino.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k040-chihiro-art-museum-azumino.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k028-kanazawa-kigata-museum.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k028-kanazawa-kigata-museum.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k027-dt-suzuki-museum.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k027-dt-suzuki-museum.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k026-kanazawa-umimirai-library.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k026-kanazawa-umimirai-library.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k022-takaoka-imono-museum.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k022-takaoka-imono-museum.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k021-fukuoka-camera-museum.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k021-fukuoka-camera-museum.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/kengaku/k019-toyama-kirari.html</loc>
     <priority>0.8</priority>
   </url>

@@ -161,48 +161,58 @@
     },
     {
       "no": "k021",
-      "slug": "k021",
-      "title": "ミュゼふくおかカメラ館",
+      "slug": "k021-fukuoka-camera-museum",
+      "title": "福岡相機館",
       "type": "博物館",
       "prefecture": "富山県",
-      "city": "",
-      "visited": "2016-08"
+      "city": "高岡市福岡町",
+      "visited": "2016-08",
+      "lat": 36.7114533,
+      "lng": 136.9296454
     },
     {
       "no": "k022",
-      "slug": "k022",
-      "title": "高岡市鋳物資料館",
+      "slug": "k022-takaoka-imono-museum",
+      "title": "高岡市鑄物資料館",
       "type": "資料館",
       "prefecture": "富山県",
-      "city": "",
-      "visited": "2016-08"
+      "city": "高岡市金屋町",
+      "visited": "2016-08",
+      "lat": 36.750563,
+      "lng": 137.006225
     },
     {
       "no": "k026",
-      "slug": "k026",
-      "title": "金沢海みらい図書館",
+      "slug": "k026-kanazawa-umimirai-library",
+      "title": "金澤海未來圖書館",
       "type": "圖書館",
       "prefecture": "石川県",
-      "city": "",
-      "visited": "2017-03"
+      "city": "金澤市寺中町",
+      "visited": "2017-03",
+      "lat": 36.594339,
+      "lng": 136.604294
     },
     {
       "no": "k027",
-      "slug": "k027",
-      "title": "金澤市立中村記念美術館",
-      "type": "美術館",
+      "slug": "k027-dt-suzuki-museum",
+      "title": "鈴木大拙館",
+      "type": "記念館",
       "prefecture": "石川県",
-      "city": "",
-      "visited": "2017-03"
+      "city": "金澤市本多町",
+      "visited": "2017-03",
+      "lat": 36.5576632,
+      "lng": 136.6609126
     },
     {
       "no": "k028",
-      "slug": "k028",
-      "title": "金澤菓子木型美術館",
+      "slug": "k028-kanazawa-kigata-museum",
+      "title": "金澤菓子木型美術館・森八本店",
       "type": "美術館",
       "prefecture": "石川県",
-      "city": "",
-      "visited": "2017-03"
+      "city": "金澤市大手町",
+      "visited": "2017-03",
+      "lat": 36.5694444,
+      "lng": 136.6638889
     },
     {
       "no": "k029",
@@ -305,12 +315,14 @@
     },
     {
       "no": "k040",
-      "slug": "k040",
-      "title": "安曇野ちひろ美術館",
+      "slug": "k040-chihiro-art-museum-azumino",
+      "title": "安曇野千尋美術館",
       "type": "美術館",
       "prefecture": "長野県",
-      "city": "",
-      "visited": "2023-10"
+      "city": "北安曇郡松川村",
+      "visited": "2023-10",
+      "lat": 36.414929,
+      "lng": 137.8441733
     },
     {
       "no": "k041",
