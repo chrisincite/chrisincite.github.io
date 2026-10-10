@@ -1441,6 +1441,46 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/kengaku/k057-machida-hanga-museum.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k057-machida-hanga-museum.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k051-tosando-iouno.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k051-tosando-iouno.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k047-mito-ninomaru-tenjikan.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k047-mito-ninomaru-tenjikan.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k042-fujisan-world-heritage-centre.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k042-fujisan-world-heritage-centre.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k041-jinchokan-moriya-museum.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k041-jinchokan-moriya-museum.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/kengaku/k040-chihiro-art-museum-azumino.html</loc>
     <priority>0.8</priority>
   </url>

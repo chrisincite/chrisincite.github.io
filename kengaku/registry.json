@@ -1,6 +1,6 @@
 {
   "note": "全部座數的名稱／所在地索引，由私有 repo publicArch 的 地點清單.csv 產出（scripts/make_registry.py）。企業美術館・商業藝廊等邊界案例不列入。座標逐篇撰稿時補齊，是官方所在地，不是照片 EXIF 的拍攝點。",
-  "count": 156,
+  "count": 155,
   "places": [
     {
       "no": "k001",
@@ -149,15 +149,6 @@
       "visited": "2016-08",
       "lat": 36.6883888,
       "lng": 137.2150549
-    },
-    {
-      "no": "k020",
-      "slug": "k020",
-      "title": "アートの路",
-      "type": "其他",
-      "prefecture": "富山県",
-      "city": "",
-      "visited": "2016-08"
     },
     {
       "no": "k021",
@@ -326,21 +317,25 @@
     },
     {
       "no": "k041",
-      "slug": "k041",
-      "title": "神長官守矢史料館（藤森照信建築群）",
+      "slug": "k041-jinchokan-moriya-museum",
+      "title": "神長官守矢史料館",
       "type": "資料館",
       "prefecture": "長野県",
-      "city": "",
-      "visited": "2023-10"
+      "city": "茅野市",
+      "visited": "2023-10",
+      "lat": 35.9955252,
+      "lng": 138.127986
     },
     {
       "no": "k042",
-      "slug": "k042",
-      "title": "静岡県富士山世界遺産センター",
+      "slug": "k042-fujisan-world-heritage-centre",
+      "title": "靜岡縣富士山世界遺產中心",
       "type": "資料館",
       "prefecture": "静岡県",
-      "city": "",
-      "visited": "2024-02"
+      "city": "富士宮市",
+      "visited": "2024-02",
+      "lat": 35.22378,
+      "lng": 138.608858
     },
     {
       "no": "k043",
@@ -371,12 +366,14 @@
     },
     {
       "no": "k047",
-      "slug": "k047",
-      "title": "水戸城二の丸展示館",
+      "slug": "k047-mito-ninomaru-tenjikan",
+      "title": "水戶城跡二之丸展示館",
       "type": "資料館",
       "prefecture": "茨城県",
-      "city": "",
-      "visited": "2024-04"
+      "city": "水戶市三之丸",
+      "visited": "2024-04",
+      "lat": 36.3749497,
+      "lng": 140.4798302
     },
     {
       "no": "k048",
@@ -402,12 +399,14 @@
     },
     {
       "no": "k051",
-      "slug": "k051",
-      "title": "伊王野まつり伝承館",
-      "type": "其他",
+      "slug": "k051-tosando-iouno",
+      "title": "東山道伊王野公路休息站",
+      "type": "交流設施",
       "prefecture": "栃木県",
-      "city": "",
-      "visited": "2024-04"
+      "city": "那須郡那須町伊王野",
+      "visited": "2024-04",
+      "lat": 36.9541558,
+      "lng": 140.1570312
     },
     {
       "no": "k052",
@@ -455,12 +454,14 @@
     },
     {
       "no": "k057",
-      "slug": "k057",
-      "title": "町田市立國際版画美術館",
+      "slug": "k057-machida-hanga-museum",
+      "title": "町田市立國際版畫美術館",
       "type": "美術館",
       "prefecture": "東京都",
-      "city": "",
-      "visited": "2024-04"
+      "city": "町田市原町田",
+      "visited": "2024-04",
+      "lat": 35.5440276,
+      "lng": 139.4550723
     },
     {
       "no": "k058",

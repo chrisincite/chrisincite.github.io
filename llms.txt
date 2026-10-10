@@ -186,10 +186,15 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 156 座，已發佈 58 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 155 座，已發佈 63 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [町田市立國際版畫美術館](https://chrisincite.github.io/kengaku/k057-machida-hanga-museum.md)：早上七時，芹谷公園下著雨。（東京都・町田市原町田）
+- [東山道伊王野公路休息站](https://chrisincite.github.io/kengaku/k051-tosando-iouno.md)：中午十二時四十五分，物產中心的平台上，紙箱一格一格排開，每格裡是一盒剛採的草莓。（栃木縣・那須郡那須町伊王野）
+- [水戶城跡二之丸展示館](https://chrisincite.github.io/kengaku/k047-mito-ninomaru-tenjikan.md)：清晨六時四十分，水戶城二之丸的道路上沒有行人。（茨城縣・水戶市三之丸）
+- [靜岡縣富士山世界遺產中心](https://chrisincite.github.io/kengaku/k042-fujisan-world-heritage-centre.md)：水面上立著一座朱紅色的鳥居，鳥居的後方是一個上寬下窄的木格子量體。（靜岡縣・富士宮市）
+- [神長官守矢史料館](https://chrisincite.github.io/kengaku/k041-jinchokan-moriya-museum.md)：坡地上的建築只有一層高的屋簷。（長野縣・茅野市）
 - [安曇野千尋美術館](https://chrisincite.github.io/kengaku/k040-chihiro-art-museum-azumino.md)：草地的盡頭是一列並排的山牆。（長野縣・北安曇郡松川村）
 - [金澤菓子木型美術館・森八本店](https://chrisincite.github.io/kengaku/k028-kanazawa-kigata-museum.md)：一條狹長的通路，兩側的牆面從腳邊到頭頂排滿了木型。（石川縣・金澤市大手町）
 - [鈴木大拙館](https://chrisincite.github.io/kengaku/k027-dt-suzuki-museum.md)：白色的立方體立在一片淺水之中。（石川縣・金澤市本多町）
@@ -267,6 +272,6 @@
 - [散策索引 JSON](https://chrisincite.github.io/shrine/index.json)：已發佈的篇章與座標
 - [全 149 座名錄 JSON](https://chrisincite.github.io/shrine/registry.json)：含未發佈的規劃清單
 - [見學索引 JSON](https://chrisincite.github.io/kengaku/index.json)：已發佈的篇章與座標
-- [全 156 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
+- [全 155 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
 - [全文串接](https://chrisincite.github.io/llms-full.txt)：所有內容的完整 markdown，一次取用
 - [網站首頁](https://chrisincite.github.io/)：專案、工具棚與關於頁（單頁式 OS 介面）
