@@ -27,6 +27,9 @@
   "k040-chihiro-art-museum-azumino": "1m",
   "k041-jinchokan-moriya-museum": "1n",
   "k042-fujisan-world-heritage-centre": "1o",
+  "k043-fujinokuni-tea-museum": "1s",
+  "k044-tajimi-mosaic-tile-museum": "1t",
+  "k045-gero-onsen-gasshomura": "1u",
   "k047-mito-ninomaru-tenjikan": "1p",
   "k048-izura-tenshin-museum": "z",
   "k049-ishinomaki-makiart-terrace": "6",
@@ -61,5 +64,8 @@
   "k091-national-ainu-museum": "u",
   "k100-iiyama-natura": "17",
   "k101-nagano-prefectural-art-museum": "18",
-  "k102-toyama-tad": "19"
+  "k102-toyama-tad": "19",
+  "k103-kanazawa-architecture-museum": "1v",
+  "k105-ishikawa-prefectural-library": "1w",
+  "k107-kutani-ware-museum": "1x"
 }

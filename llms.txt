@@ -186,10 +186,16 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 155 座，已發佈 63 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 155 座，已發佈 69 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [石川縣九谷燒美術館](https://chrisincite.github.io/kengaku/k107-kutani-ware-museum.md)：展示室的一角鋪著榻榻米，三面是障子，障子的上方是透雕的欄間。（石川縣・加賀市大聖寺）
+- [石川縣立圖書館](https://chrisincite.github.io/kengaku/k105-ishikawa-prefectural-library.md)：從四樓的環狀回廊往下看，書架一圈一圈地沿著橢圓形的大空間向下退去，像劇場的觀眾席。（石川縣・金澤市小立野）
+- [谷口吉郎・吉生紀念金澤建築館](https://chrisincite.github.io/kengaku/k103-kanazawa-architecture-museum.md)：廣間的拉門全部打開，榻榻米的盡頭是一道玻璃，玻璃外是一片水面。（石川縣・金澤市寺町）
+- [下呂溫泉合掌村](https://chrisincite.github.io/kengaku/k045-gero-onsen-gasshomura.md)：一座茅草屋頂的大型民家立在石燈籠與修剪過的灌木之後。（岐阜縣・下呂市）
+- [多治見市馬賽克磁磚博物館](https://chrisincite.github.io/kengaku/k044-tajimi-mosaic-tile-museum.md)：一面土黃色的牆自枯黃的草坡上立起，輪廓是一條左高右低的曲線，頂緣長著一排矮松。（岐阜縣・多治見市）
+- [茶之都博物館](https://chrisincite.github.io/kengaku/k043-fujinokuni-tea-museum.md)：白色的圓筒形量體前方，立著一面兩層樓高的木格柵。（靜岡縣・島田市）
 - [町田市立國際版畫美術館](https://chrisincite.github.io/kengaku/k057-machida-hanga-museum.md)：早上七時，芹谷公園下著雨。（東京都・町田市原町田）
 - [東山道伊王野公路休息站](https://chrisincite.github.io/kengaku/k051-tosando-iouno.md)：中午十二時四十五分，物產中心的平台上，紙箱一格一格排開，每格裡是一盒剛採的草莓。（栃木縣・那須郡那須町伊王野）
 - [水戶城跡二之丸展示館](https://chrisincite.github.io/kengaku/k047-mito-ninomaru-tenjikan.md)：清晨六時四十分，水戶城二之丸的道路上沒有行人。（茨城縣・水戶市三之丸）

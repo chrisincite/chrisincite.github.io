@@ -339,30 +339,36 @@
     },
     {
       "no": "k043",
-      "slug": "k043",
-      "title": "ふじのくに茶の都ミュージアム",
+      "slug": "k043-fujinokuni-tea-museum",
+      "title": "茶之都博物館",
       "type": "博物館",
       "prefecture": "静岡県",
-      "city": "",
-      "visited": "2024-02"
+      "city": "島田市",
+      "visited": "2024-02",
+      "lat": 34.8143087,
+      "lng": 138.1344905
     },
     {
       "no": "k044",
-      "slug": "k044",
-      "title": "多治見市モザイクタイルミュージアム",
+      "slug": "k044-tajimi-mosaic-tile-museum",
+      "title": "多治見市馬賽克磁磚博物館",
       "type": "博物館",
       "prefecture": "岐阜県",
-      "city": "",
-      "visited": "2024-02"
+      "city": "多治見市",
+      "visited": "2024-02",
+      "lat": 35.2990583,
+      "lng": 137.1595051
     },
     {
       "no": "k045",
-      "slug": "k045",
-      "title": "下呂温泉合掌村",
+      "slug": "k045-gero-onsen-gasshomura",
+      "title": "下呂溫泉合掌村",
       "type": "博物館",
       "prefecture": "岐阜県",
-      "city": "",
-      "visited": "2024-02"
+      "city": "下呂市",
+      "visited": "2024-02",
+      "lat": 35.8083288,
+      "lng": 137.2496949
     },
     {
       "no": "k047",
@@ -814,30 +820,36 @@
     },
     {
       "no": "k103",
-      "slug": "k103",
-      "title": "谷口吉郎・吉生記念 金澤建築館",
+      "slug": "k103-kanazawa-architecture-museum",
+      "title": "谷口吉郎・吉生紀念金澤建築館",
       "type": "記念館",
       "prefecture": "石川県",
-      "city": "",
-      "visited": "2025-01"
+      "city": "金澤市寺町",
+      "visited": "2025-01",
+      "lat": 36.5557956,
+      "lng": 136.6507593
     },
     {
       "no": "k105",
-      "slug": "k105",
+      "slug": "k105-ishikawa-prefectural-library",
       "title": "石川縣立圖書館",
       "type": "圖書館",
       "prefecture": "石川県",
-      "city": "",
-      "visited": "2025-02"
+      "city": "金澤市小立野",
+      "visited": "2025-02",
+      "lat": 36.5488021,
+      "lng": 136.6803413
     },
     {
       "no": "k107",
-      "slug": "k107",
+      "slug": "k107-kutani-ware-museum",
       "title": "石川縣九谷燒美術館",
       "type": "美術館",
       "prefecture": "石川県",
-      "city": "",
-      "visited": "2025-02"
+      "city": "加賀市大聖寺",
+      "visited": "2025-02",
+      "lat": 36.302787,
+      "lng": 136.310215
     },
     {
       "no": "k108",
