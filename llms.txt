@@ -186,10 +186,17 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 155 座，已發佈 69 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 155 座，已發佈 76 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [濱松市秋野不矩美術館](https://chrisincite.github.io/kengaku/k116-akino-fuku-museum.md)：坡道的盡頭是一片碎石的廣場，廣場後方立著一棟土色的長牆。（靜岡縣・濱松市天龍區二俁町）
+- [豐田市美術館高橋節郎館](https://chrisincite.github.io/kengaku/k115-takahashi-setsuro-gallery.md)：深灰綠色的石材牆面圍出一個方形的大廳，牆上開著兩道細長的縫，縫中透進白光。（愛知縣・豐田市小坂本町）
+- [豐田市美術館](https://chrisincite.github.io/kengaku/k114-toyota-municipal-museum-of-art.md)：水面淺得只有幾公分，池底的石板一條一條看得清楚。（愛知縣・豐田市小坂本町）
+- [福井縣年縞博物館](https://chrisincite.github.io/kengaku/k111-fukui-varve-museum.md)：一條長廊筆直地延伸出去。（福井縣・三方上中郡若狹町鳥濱）
+- [福井市美術館](https://chrisincite.github.io/kengaku/k110-fukui-city-art-museum.md)：公園的園路盡頭立著一座玻璃的圓筒。（福井縣・福井市下馬）
+- [福井縣立恐龍博物館](https://chrisincite.github.io/kengaku/k109-fukui-dinosaur-museum.md)：自二樓的迴廊向下望，整個展示室收在一個蛋形的殼裡。（福井縣・勝山市村岡町寺尾）
+- [福井縣立一乘谷朝倉氏遺跡博物館](https://chrisincite.github.io/kengaku/k108-ichijodani-asakura-museum.md)：二樓的展示室裡立著一座木造的館。（福井縣・福井市安波賀中島町）
 - [石川縣九谷燒美術館](https://chrisincite.github.io/kengaku/k107-kutani-ware-museum.md)：展示室的一角鋪著榻榻米，三面是障子，障子的上方是透雕的欄間。（石川縣・加賀市大聖寺）
 - [石川縣立圖書館](https://chrisincite.github.io/kengaku/k105-ishikawa-prefectural-library.md)：從四樓的環狀回廊往下看，書架一圈一圈地沿著橢圓形的大空間向下退去，像劇場的觀眾席。（石川縣・金澤市小立野）
 - [谷口吉郎・吉生紀念金澤建築館](https://chrisincite.github.io/kengaku/k103-kanazawa-architecture-museum.md)：廣間的拉門全部打開，榻榻米的盡頭是一道玻璃，玻璃外是一片水面。（石川縣・金澤市寺町）

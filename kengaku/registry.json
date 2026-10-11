@@ -853,39 +853,47 @@
     },
     {
       "no": "k108",
-      "slug": "k108",
-      "title": "一乗谷朝倉氏遺跡博物館",
+      "slug": "k108-ichijodani-asakura-museum",
+      "title": "福井縣立一乘谷朝倉氏遺跡博物館",
       "type": "博物館",
       "prefecture": "福井県",
-      "city": "",
-      "visited": "2025-02"
+      "city": "福井市安波賀中島町",
+      "visited": "2025-02",
+      "lat": 36.0150749,
+      "lng": 136.2982794
     },
     {
       "no": "k109",
-      "slug": "k109",
+      "slug": "k109-fukui-dinosaur-museum",
       "title": "福井縣立恐龍博物館",
       "type": "博物館",
       "prefecture": "福井県",
-      "city": "",
-      "visited": "2025-02"
+      "city": "勝山市村岡町寺尾",
+      "visited": "2025-02",
+      "lat": 36.0822889,
+      "lng": 136.5066612
     },
     {
       "no": "k110",
-      "slug": "k110",
-      "title": "福井市美術館 アートラボふくい",
+      "slug": "k110-fukui-city-art-museum",
+      "title": "福井市美術館",
       "type": "美術館",
       "prefecture": "福井県",
-      "city": "",
-      "visited": "2025-02"
+      "city": "福井市下馬",
+      "visited": "2025-02",
+      "lat": 36.0395238,
+      "lng": 136.2335962
     },
     {
       "no": "k111",
-      "slug": "k111",
+      "slug": "k111-fukui-varve-museum",
       "title": "福井縣年縞博物館",
       "type": "博物館",
       "prefecture": "福井県",
-      "city": "",
-      "visited": "2025-02"
+      "city": "三方上中郡若狹町鳥濱",
+      "visited": "2025-02",
+      "lat": 35.5590638,
+      "lng": 135.8972593
     },
     {
       "no": "k113",
@@ -898,30 +906,36 @@
     },
     {
       "no": "k114",
-      "slug": "k114",
-      "title": "豊田市美術館",
+      "slug": "k114-toyota-municipal-museum-of-art",
+      "title": "豐田市美術館",
       "type": "美術館",
       "prefecture": "愛知県",
-      "city": "",
-      "visited": "2025-02"
+      "city": "豐田市小坂本町",
+      "visited": "2025-02",
+      "lat": 35.080028,
+      "lng": 137.1509616
     },
     {
       "no": "k115",
-      "slug": "k115",
-      "title": "高橋節郎館",
-      "type": "記念館",
+      "slug": "k115-takahashi-setsuro-gallery",
+      "title": "豐田市美術館高橋節郎館",
+      "type": "美術館",
       "prefecture": "愛知県",
-      "city": "",
-      "visited": "2025-02"
+      "city": "豐田市小坂本町",
+      "visited": "2025-02",
+      "lat": 35.0807296,
+      "lng": 137.1518355
     },
     {
       "no": "k116",
-      "slug": "k116",
-      "title": "秋野不矩美術館",
+      "slug": "k116-akino-fuku-museum",
+      "title": "濱松市秋野不矩美術館",
       "type": "美術館",
       "prefecture": "静岡県",
-      "city": "",
-      "visited": "2025-02"
+      "city": "濱松市天龍區二俁町",
+      "visited": "2025-02",
+      "lat": 34.8648587,
+      "lng": 137.8192858
     },
     {
       "no": "k117",
