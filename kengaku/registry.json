@@ -1,6 +1,6 @@
 {
   "note": "全部座數的名稱／所在地索引，由私有 repo publicArch 的 地點清單.csv 產出（scripts/make_registry.py）。企業美術館・商業藝廊等邊界案例不列入。座標逐篇撰稿時補齊，是官方所在地，不是照片 EXIF 的拍攝點。",
-  "count": 155,
+  "count": 154,
   "places": [
     {
       "no": "k001",
@@ -81,30 +81,36 @@
     },
     {
       "no": "k011",
-      "slug": "k011",
-      "title": "京都國立博物館",
+      "slug": "k011-kyoto-national-museum",
+      "title": "京都國立博物館 平成知新館",
       "type": "博物館",
       "prefecture": "京都府",
-      "city": "",
-      "visited": "2015-09"
+      "city": "京都市東山區茶屋町",
+      "visited": "2015-09",
+      "lat": 34.9899887,
+      "lng": 135.773116
     },
     {
       "no": "k012",
-      "slug": "k012",
-      "title": "中京郵便局 壁面博物館",
+      "slug": "k012-nakagyo-post-office",
+      "title": "中京郵便局　壁面博物館",
       "type": "資料館",
       "prefecture": "京都府",
-      "city": "",
-      "visited": "2015-09"
+      "city": "京都市中京區菱屋町",
+      "visited": "2015-09",
+      "lat": 35.0090517,
+      "lng": 135.7612719
     },
     {
       "no": "k014",
-      "slug": "k014",
+      "slug": "k014-takenaka-carpentry-tools-museum",
       "title": "竹中大工道具館",
       "type": "博物館",
       "prefecture": "兵庫県",
-      "city": "",
-      "visited": "2015-09"
+      "city": "神戶市中央區熊內町",
+      "visited": "2015-09",
+      "lat": 34.7068231,
+      "lng": 135.1974902
     },
     {
       "no": "k015",
@@ -897,12 +903,14 @@
     },
     {
       "no": "k113",
-      "slug": "k113",
+      "slug": "k113-moriyama-city-library",
       "title": "守山市立圖書館",
       "type": "圖書館",
       "prefecture": "滋賀県",
-      "city": "",
-      "visited": "2025-02"
+      "city": "守山市",
+      "visited": "2025-02",
+      "lat": 35.0615227,
+      "lng": 135.9859746
     },
     {
       "no": "k114",
@@ -1101,21 +1109,25 @@
     },
     {
       "no": "k139",
-      "slug": "k139",
-      "title": "こども本の森 中之島",
+      "slug": "k139-nakanoshima-kodomo-honnomori",
+      "title": "兒童之書森林・中之島",
       "type": "圖書館",
       "prefecture": "大阪府",
-      "city": "",
-      "visited": "2025-06"
+      "city": "大阪市北區",
+      "visited": "2025-06",
+      "lat": 34.693046,
+      "lng": 135.5064044
     },
     {
       "no": "k140",
-      "slug": "k140",
+      "slug": "k140-osaka-city-museum-of-fine-arts",
       "title": "大阪市立美術館",
       "type": "美術館",
       "prefecture": "大阪府",
-      "city": "",
-      "visited": "2025-06"
+      "city": "大阪市天王寺區",
+      "visited": "2025-06",
+      "lat": 34.650116,
+      "lng": 135.5103522
     },
     {
       "no": "k143",
@@ -1231,15 +1243,6 @@
       "title": "こども本の森 神戶",
       "type": "圖書館",
       "prefecture": "兵庫県",
-      "city": "",
-      "visited": "2025-11"
-    },
-    {
-      "no": "k164",
-      "slug": "k164",
-      "title": "國立科學博物館",
-      "type": "博物館",
-      "prefecture": "東京都",
       "city": "",
       "visited": "2025-11"
     },

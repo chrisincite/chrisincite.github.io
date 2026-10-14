@@ -6,6 +6,9 @@
   "k006-shinchosha-literature-museum": "r",
   "k009-miyazawa-kenji-dowamura": "v",
   "k010-miyazawa-kenji-museum": "w",
+  "k011-kyoto-national-museum": "25",
+  "k012-nakagyo-post-office": "26",
+  "k014-takenaka-carpentry-tools-museum": "27",
   "k015-matsudai-nohbutai": "1d",
   "k016-echigo-tsumari-monet": "1e",
   "k018-tokyo-station-kitte": "1f",
@@ -72,7 +75,10 @@
   "k109-fukui-dinosaur-museum": "1z",
   "k110-fukui-city-art-museum": "20",
   "k111-fukui-varve-museum": "21",
+  "k113-moriyama-city-library": "28",
   "k114-toyota-municipal-museum-of-art": "22",
   "k115-takahashi-setsuro-gallery": "23",
-  "k116-akino-fuku-museum": "24"
+  "k116-akino-fuku-museum": "24",
+  "k139-nakanoshima-kodomo-honnomori": "29",
+  "k140-osaka-city-museum-of-fine-arts": "2a"
 }

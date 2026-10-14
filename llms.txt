@@ -186,10 +186,16 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 155 座，已發佈 76 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 82 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [大阪市立美術館](https://chrisincite.github.io/kengaku/k140-osaka-city-museum-of-fine-arts.md)：灰白色的山牆立面之下，多了一片深色的圓盤。（大阪府・大阪市天王寺區茶臼山町）
+- [兒童之書森林・中之島](https://chrisincite.github.io/kengaku/k139-nakanoshima-kodomo-honnomori.md)：雨天的中之島通上，一段深灰色的石階通往一片清水混凝土的大屋頂。（大阪府・大阪市北區中之島）
+- [守山市立圖書館](https://chrisincite.github.io/kengaku/k113-moriyama-city-library.md)：入口的上方是一片深深挑出的屋簷，簷下露出鋼構的斜撐與桁條。（滋賀縣・守山市守山）
+- [竹中大工道具館](https://chrisincite.github.io/kengaku/k014-takenaka-carpentry-tools-museum.md)：草坪的盡頭，一棟平屋橫在樹林之前。（兵庫縣・神戶市中央區熊內町）
+- [中京郵便局　壁面博物館](https://chrisincite.github.io/kengaku/k012-nakagyo-post-office.md)：時間外窗口旁的牆面上，掛著一排黑框的照片。（京都府・京都市中京區菱屋町）
+- [京都國立博物館 平成知新館](https://chrisincite.github.io/kengaku/k011-kyoto-national-museum.md)：自七條通的南門進入園內，左手邊是一池淺水，水的後方是一道低伏的長屋頂。（京都府・京都市東山區茶屋町）
 - [濱松市秋野不矩美術館](https://chrisincite.github.io/kengaku/k116-akino-fuku-museum.md)：坡道的盡頭是一片碎石的廣場，廣場後方立著一棟土色的長牆。（靜岡縣・濱松市天龍區二俁町）
 - [豐田市美術館高橋節郎館](https://chrisincite.github.io/kengaku/k115-takahashi-setsuro-gallery.md)：深灰綠色的石材牆面圍出一個方形的大廳，牆上開著兩道細長的縫，縫中透進白光。（愛知縣・豐田市小坂本町）
 - [豐田市美術館](https://chrisincite.github.io/kengaku/k114-toyota-municipal-museum-of-art.md)：水面淺得只有幾公分，池底的石板一條一條看得清楚。（愛知縣・豐田市小坂本町）
@@ -285,6 +291,6 @@
 - [散策索引 JSON](https://chrisincite.github.io/shrine/index.json)：已發佈的篇章與座標
 - [全 149 座名錄 JSON](https://chrisincite.github.io/shrine/registry.json)：含未發佈的規劃清單
 - [見學索引 JSON](https://chrisincite.github.io/kengaku/index.json)：已發佈的篇章與座標
-- [全 155 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
+- [全 154 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
 - [全文串接](https://chrisincite.github.io/llms-full.txt)：所有內容的完整 markdown，一次取用
 - [網站首頁](https://chrisincite.github.io/)：專案、工具棚與關於頁（單頁式 OS 介面）
