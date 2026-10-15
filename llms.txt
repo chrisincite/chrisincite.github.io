@@ -186,10 +186,16 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 82 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 88 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [木之殿堂](https://chrisincite.github.io/kengaku/k161-hyogo-museum-of-wood.md)：一道細長的橋穿過紅葉的樹冠，直直地伸向一座巨大的圓筒。（兵庫縣・美方郡香美町村岡區和池）
+- [舞鶴紅磚公園與紅磚博物館](https://chrisincite.github.io/kengaku/k160-maizuru-red-brick-park.md)：兩棟紅磚倉庫的長邊相對而立，中間是一條鋪石的通路與兩道草皮。（京都府・舞鶴市北吸・濱）
+- [世界遺產熊野本宮館](https://chrisincite.github.io/kengaku/k158-kumano-hongu-heritage-center.md)：國道一六八號邊的巴士站，站牌背後是一道低矮的木造簷廊，一排方形木柱撐起深出的屋簷，簷下擺著長椅，等車的人坐在柱間。（和歌山縣・田邊市本宮町）
+- [南方熊楠紀念館](https://chrisincite.github.io/kengaku/k157-minakata-kumagusu-museum.md)：一道清水混凝土的弧自地面升起，弧的另一端在半空中斷開，沒有落到地面。（和歌山縣・西牟婁郡白濱町）
+- [和歌山縣立近代美術館](https://chrisincite.github.io/kengaku/k156-museum-of-modern-art-wakayama.md)：深灰色的量體上，疊著一片又一片向外伸出的庇。（和歌山縣・和歌山市吹上）
+- [姬路文學館](https://chrisincite.github.io/kengaku/k147-himeji-city-museum-of-literature.md)：一道混凝土的框架立在建築的正面之前。（兵庫縣・姬路市山野井町）
 - [大阪市立美術館](https://chrisincite.github.io/kengaku/k140-osaka-city-museum-of-fine-arts.md)：灰白色的山牆立面之下，多了一片深色的圓盤。（大阪府・大阪市天王寺區茶臼山町）
 - [兒童之書森林・中之島](https://chrisincite.github.io/kengaku/k139-nakanoshima-kodomo-honnomori.md)：雨天的中之島通上，一段深灰色的石階通往一片清水混凝土的大屋頂。（大阪府・大阪市北區中之島）
 - [守山市立圖書館](https://chrisincite.github.io/kengaku/k113-moriyama-city-library.md)：入口的上方是一片深深挑出的屋簷，簷下露出鋼構的斜撐與桁條。（滋賀縣・守山市守山）
