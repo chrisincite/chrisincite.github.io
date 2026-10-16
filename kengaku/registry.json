@@ -1251,21 +1251,25 @@
     },
     {
       "no": "k163",
-      "slug": "k163",
-      "title": "こども本の森 神戶",
+      "slug": "k163-kobe-kodomo-honnomori",
+      "title": "兒童之書森林・神戶",
       "type": "圖書館",
       "prefecture": "兵庫県",
-      "city": "",
-      "visited": "2025-11"
+      "city": "神戶市中央區加納町",
+      "visited": "2025-11",
+      "lat": 34.6866169,
+      "lng": 135.1970328
     },
     {
       "no": "k167",
-      "slug": "k167",
+      "slug": "k167-ako-city-library",
       "title": "赤穗市立圖書館",
       "type": "圖書館",
       "prefecture": "兵庫県",
-      "city": "",
-      "visited": "2026-02"
+      "city": "赤穗市中廣",
+      "visited": "2026-02",
+      "lat": 34.752893,
+      "lng": 134.39757
     },
     {
       "no": "k168",
@@ -1377,12 +1381,14 @@
     },
     {
       "no": "k180",
-      "slug": "k180",
+      "slug": "k180-hyogo-prefectural-museum-of-art",
       "title": "兵庫縣立美術館",
       "type": "美術館",
       "prefecture": "兵庫県",
-      "city": "",
-      "visited": "2026-02"
+      "city": "神戶市中央區脇濱海岸通",
+      "visited": "2026-02",
+      "lat": 34.6992495,
+      "lng": 135.2182515
     },
     {
       "no": "k184",
@@ -1503,39 +1509,47 @@
     },
     {
       "no": "k198",
-      "slug": "k198",
+      "slug": "k198-kishu-binchotan-museum",
       "title": "紀州備長炭發見館",
       "type": "資料館",
       "prefecture": "和歌山県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "田邊市秋津川",
+      "visited": "2026-07",
+      "lat": 33.8033319,
+      "lng": 135.4272221
     },
     {
       "no": "k199",
-      "slug": "k199",
-      "title": "潮風の休憩所",
+      "slug": "k199-shiokaze-rest-house",
+      "title": "本州最南端潮風休憩所",
       "type": "資料館",
       "prefecture": "和歌山県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "東牟婁郡串本町潮岬",
+      "visited": "2026-07",
+      "lat": 33.4363911,
+      "lng": 135.7619706
     },
     {
       "no": "k200",
-      "slug": "k200",
-      "title": "三重県立熊野古道センター",
+      "slug": "k200-kumano-kodo-center",
+      "title": "三重縣立熊野古道中心",
       "type": "複合",
       "prefecture": "三重県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "尾鷲市向井",
+      "visited": "2026-07",
+      "lat": 34.0617414,
+      "lng": 136.2149753
     },
     {
       "no": "k201",
-      "slug": "k201",
-      "title": "鳥羽市立海の博物館",
+      "slug": "k201-toba-sea-folk-museum",
+      "title": "鳥羽市立海的博物館",
       "type": "博物館",
       "prefecture": "三重県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "鳥羽市浦村町",
+      "visited": "2026-07",
+      "lat": 34.4492668,
+      "lng": 136.8994237
     },
     {
       "no": "k202",

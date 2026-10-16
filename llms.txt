@@ -186,10 +186,17 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 88 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 95 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [鳥羽市立海的博物館](https://chrisincite.github.io/kengaku/k201-toba-sea-folk-museum.md)：一座長形的倉庫，內部是一排一排的拱。（三重縣・鳥羽市浦村町）
+- [三重縣立熊野古道中心](https://chrisincite.github.io/kengaku/k200-kumano-kodo-center.md)：一片弧形的芝生廣場前，兩棟同樣長、同樣高的木造量體並排而立。（三重縣・尾鷲市向井）
+- [本州最南端潮風休憩所](https://chrisincite.github.io/kengaku/k199-shiokaze-rest-house.md)：一片寬闊的草原盡頭，一棟白色的平屋背對著太平洋。（和歌山縣・東牟婁郡串本町潮岬）
+- [紀州備長炭發見館](https://chrisincite.github.io/kengaku/k198-kishu-binchotan-museum.md)：展示室的天花很高。（和歌山縣・田邊市秋津川）
+- [兵庫縣立美術館](https://chrisincite.github.io/kengaku/k180-hyogo-prefectural-museum-of-art.md)：一段寬闊的石造大階梯自海側的步道升起，階梯之上是並排的量體，每一棟的頂部都以一片薄而深的混凝土屋簷向外挑出，屋簷下是玻璃的立面。（兵庫縣・神戶市中央區脇濱海岸通）
+- [赤穗市立圖書館](https://chrisincite.github.io/kengaku/k167-ako-city-library.md)：一道兩層樓高的玻璃立面沿著街道延伸，玻璃後方隱約可見書架的列與二樓的迴廊。（兵庫縣・赤穗市中廣）
+- [兒童之書森林・神戶](https://chrisincite.github.io/kengaku/k163-kobe-kodomo-honnomori.md)：東遊園地的南端，一片清水混凝土的平屋頂自量體伸出，以一根細長的混凝土柱承在端部。（兵庫縣・神戶市中央區加納町）
 - [木之殿堂](https://chrisincite.github.io/kengaku/k161-hyogo-museum-of-wood.md)：一道細長的橋穿過紅葉的樹冠，直直地伸向一座巨大的圓筒。（兵庫縣・美方郡香美町村岡區和池）
 - [舞鶴紅磚公園與紅磚博物館](https://chrisincite.github.io/kengaku/k160-maizuru-red-brick-park.md)：兩棟紅磚倉庫的長邊相對而立，中間是一條鋪石的通路與兩道草皮。（京都府・舞鶴市北吸・濱）
 - [世界遺產熊野本宮館](https://chrisincite.github.io/kengaku/k158-kumano-hongu-heritage-center.md)：國道一六八號邊的巴士站，站牌背後是一道低矮的木造簷廊，一排方形木柱撐起深出的屋簷，簷下擺著長椅，等車的人坐在柱間。（和歌山縣・田邊市本宮町）
