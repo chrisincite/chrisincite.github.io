@@ -65,6 +65,10 @@
   "k088-utonai-roadside-station": "s",
   "k090-upopoy-park": "t",
   "k091-national-ainu-museum": "u",
+  "k093-iwami-ginzan-world-heritage-center": "2o",
+  "k094-iwami-art-museum": "2p",
+  "k095-shimane-museum-of-ancient-izumo": "2q",
+  "k096-hiroshima-prefectural-art-museum": "2r",
   "k100-iiyama-natura": "17",
   "k101-nagano-prefectural-art-museum": "18",
   "k102-toyama-tad": "19",
@@ -93,5 +97,8 @@
   "k198-kishu-binchotan-museum": "2k",
   "k199-shiokaze-rest-house": "2l",
   "k200-kumano-kodo-center": "2m",
-  "k201-toba-sea-folk-museum": "2n"
+  "k201-toba-sea-folk-museum": "2n",
+  "k202-iga-central-library": "2s",
+  "k203-bookmark-storage": "2t",
+  "k204-osaka-museum-of-history": "2u"
 }

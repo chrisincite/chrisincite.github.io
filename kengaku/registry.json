@@ -730,39 +730,47 @@
     },
     {
       "no": "k093",
-      "slug": "k093",
-      "title": "石見銀山世界遺産センター",
+      "slug": "k093-iwami-ginzan-world-heritage-center",
+      "title": "石見銀山世界遺產中心",
       "type": "資料館",
       "prefecture": "島根県",
-      "city": "",
-      "visited": "2024-10"
+      "city": "大田市大森町",
+      "visited": "2024-10",
+      "lat": 35.1059541,
+      "lng": 132.4517518
     },
     {
       "no": "k094",
-      "slug": "k094",
+      "slug": "k094-iwami-art-museum",
       "title": "島根縣立石見美術館",
-      "type": "美術館",
+      "type": "複合文化設施",
       "prefecture": "島根県",
-      "city": "",
-      "visited": "2024-10"
+      "city": "益田市有明町",
+      "visited": "2024-10",
+      "lat": 34.6728663,
+      "lng": 131.8478208
     },
     {
       "no": "k095",
-      "slug": "k095",
+      "slug": "k095-shimane-museum-of-ancient-izumo",
       "title": "島根縣立古代出雲歷史博物館",
       "type": "博物館",
       "prefecture": "島根県",
-      "city": "",
-      "visited": "2024-10"
+      "city": "出雲市大社町",
+      "visited": "2024-10",
+      "lat": 35.3988089,
+      "lng": 132.6887368
     },
     {
       "no": "k096",
-      "slug": "k096",
+      "slug": "k096-hiroshima-prefectural-art-museum",
       "title": "廣島縣立美術館",
       "type": "美術館",
       "prefecture": "広島県",
-      "city": "",
-      "visited": "2024-10"
+      "city": "廣島市中區上幟町",
+      "visited": "2024-10",
+      "lat": 34.3998332,
+      "lng": 132.4662606
     },
     {
       "no": "k097",
@@ -1553,30 +1561,36 @@
     },
     {
       "no": "k202",
-      "slug": "k202",
-      "title": "伊賀市立圖書館（HAKUSEN）",
+      "slug": "k202-iga-central-library",
+      "title": "伊賀市中央圖書館（舊上野市廳舍）",
       "type": "圖書館",
       "prefecture": "三重県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "伊賀市上野丸之內",
+      "visited": "2026-07",
+      "lat": 34.768565,
+      "lng": 136.129894
     },
     {
       "no": "k203",
-      "slug": "k203",
+      "slug": "k203-bookmark-storage",
       "title": "BOOKMARK STORAGE（伊賀市北部圖書館）",
       "type": "圖書館",
       "prefecture": "三重県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "伊賀市新堂",
+      "visited": "2026-07",
+      "lat": 34.820902,
+      "lng": 136.206686
     },
     {
       "no": "k204",
-      "slug": "k204",
+      "slug": "k204-osaka-museum-of-history",
       "title": "大阪歷史博物館",
       "type": "博物館",
       "prefecture": "大阪府",
-      "city": "",
-      "visited": "2026-07"
+      "city": "大阪市中央區大手前",
+      "visited": "2026-07",
+      "lat": 34.682614,
+      "lng": 135.520797
     }
   ]
 }

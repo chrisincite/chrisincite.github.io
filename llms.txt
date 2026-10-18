@@ -186,10 +186,17 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 95 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 102 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [大阪歷史博物館](https://chrisincite.github.io/kengaku/k204-osaka-museum-of-history.md)：電梯門在十樓打開，眼前是一排朱紅色的圓柱，柱頂是層層出挑的斗栱，地面鋪著方磚。（大阪府・大阪市中央區大手前）
+- [BOOKMARK STORAGE（伊賀市北部圖書館）](https://chrisincite.github.io/kengaku/k203-bookmark-storage.md)：一樓是紅磚色的地面，沒有隔間，南側整面是玻璃，玻璃外是露台與水田。（三重縣・伊賀市新堂）
+- [伊賀市中央圖書館（舊上野市廳舍）](https://chrisincite.github.io/kengaku/k202-iga-central-library.md)：傍晚六點過後，一樓的開架空間仍亮著。（三重縣・伊賀市上野丸之內）
+- [廣島縣立美術館](https://chrisincite.github.io/kengaku/k096-hiroshima-prefectural-art-museum.md)：自上層的走廊往下看，大廳的地面低了一層半，長椅一組一組朝向一整面玻璃。（廣島縣・廣島市中區上幟町）
+- [島根縣立古代出雲歷史博物館](https://chrisincite.github.io/kengaku/k095-shimane-museum-of-ancient-izumo.md)：一條鋪石的小徑筆直穿過草地，盡頭是一道兩層樓高的玻璃立面。（島根縣・出雲市大社町）
+- [島根縣立石見美術館](https://chrisincite.github.io/kengaku/k094-iwami-art-museum.md)：中庭是一片四十五公尺見方的紅磚色廣場，四周被低矮的瓦頂回廊圍住。（島根縣・益田市有明町）
+- [石見銀山世界遺產中心](https://chrisincite.github.io/kengaku/k093-iwami-ginzan-world-heritage-center.md)：三棟低矮的瓦頂建築沿著山腳排開，屋面是赤褐色的石州瓦，簷下是白色的土壁與深色的木板腰壁。（島根縣・大田市大森町）
 - [鳥羽市立海的博物館](https://chrisincite.github.io/kengaku/k201-toba-sea-folk-museum.md)：一座長形的倉庫，內部是一排一排的拱。（三重縣・鳥羽市浦村町）
 - [三重縣立熊野古道中心](https://chrisincite.github.io/kengaku/k200-kumano-kodo-center.md)：一片弧形的芝生廣場前，兩棟同樣長、同樣高的木造量體並排而立。（三重縣・尾鷲市向井）
 - [本州最南端潮風休憩所](https://chrisincite.github.io/kengaku/k199-shiokaze-rest-house.md)：一片寬闊的草原盡頭，一棟白色的平屋背對著太平洋。（和歌山縣・東牟婁郡串本町潮岬）
