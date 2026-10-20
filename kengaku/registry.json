@@ -1311,57 +1311,69 @@
     },
     {
       "no": "k170",
-      "slug": "k170",
-      "title": "鳥取砂丘 砂の美術館",
+      "slug": "k170-tottori-sand-museum",
+      "title": "鳥取砂丘砂之美術館",
       "type": "美術館",
       "prefecture": "鳥取県",
-      "city": "",
-      "visited": "2026-02"
+      "city": "鳥取市福部町湯山",
+      "visited": "2026-02",
+      "lat": 35.539625,
+      "lng": 134.238368
     },
     {
       "no": "k171",
-      "slug": "k171",
+      "slug": "k171-tottori-prefectural-museum-of-art",
       "title": "鳥取縣立美術館",
       "type": "美術館",
       "prefecture": "鳥取県",
-      "city": "",
-      "visited": "2026-02"
+      "city": "倉吉市駄經寺町",
+      "visited": "2026-02",
+      "lat": 35.432418,
+      "lng": 133.83891
     },
     {
       "no": "k172",
-      "slug": "k172",
-      "title": "青山剛昌ふるさと館",
+      "slug": "k172-gosho-aoyama-manga-factory",
+      "title": "青山剛昌故鄉館",
       "type": "記念館",
       "prefecture": "鳥取県",
-      "city": "",
-      "visited": "2026-02"
+      "city": "東伯郡北榮町由良宿",
+      "visited": "2026-02",
+      "lat": 35.498032,
+      "lng": 133.76181
     },
     {
       "no": "k173",
-      "slug": "k173",
+      "slug": "k173-koizumi-yakumo-former-residence",
       "title": "小泉八雲舊居",
       "type": "記念館",
       "prefecture": "島根県",
-      "city": "",
-      "visited": "2026-02"
+      "city": "松江市北堀町",
+      "visited": "2026-02",
+      "lat": 35.4792235,
+      "lng": 133.04944
     },
     {
       "no": "k174",
-      "slug": "k174",
+      "slug": "k174-shimane-art-museum",
       "title": "島根縣立美術館",
       "type": "美術館",
       "prefecture": "島根県",
-      "city": "",
-      "visited": "2026-02"
+      "city": "松江市袖師町",
+      "visited": "2026-02",
+      "lat": 35.4600082,
+      "lng": 133.0524668
     },
     {
       "no": "k175",
-      "slug": "k175",
-      "title": "大山自然歷史館",
-      "type": "資料館",
+      "slug": "k175-daisen-national-park-centre",
+      "title": "大山國立公園中心",
+      "type": "交流設施",
       "prefecture": "鳥取県",
-      "city": "",
-      "visited": "2026-02"
+      "city": "西伯郡大山町大山",
+      "visited": "2026-02",
+      "lat": 35.3941229,
+      "lng": 133.5297003
     },
     {
       "no": "k176",

@@ -186,10 +186,16 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 108 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 114 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [大山國立公園中心](https://chrisincite.github.io/kengaku/k175-daisen-national-park-centre.md)：霧把大山整座山遮住了。（鳥取縣・西伯郡大山町大山）
+- [島根縣立美術館](https://chrisincite.github.io/kengaku/k174-shimane-art-museum.md)：入口大廳的臨湖面是一整片落地玻璃。（島根縣・松江市袖師町）
+- [小泉八雲舊居](https://chrisincite.github.io/kengaku/k173-koizumi-yakumo-former-residence.md)：二月中旬的鹽見繩手，道路兩側的積雪已被推成一道矮牆。（島根縣・松江市北堀町）
+- [青山剛昌故鄉館](https://chrisincite.github.io/kengaku/k172-gosho-aoyama-manga-factory.md)：積雪的駐車場邊，一座低矮的白色建築橫在灰色的天空下。（鳥取縣・東伯郡北榮町由良宿）
+- [鳥取縣立美術館](https://chrisincite.github.io/kengaku/k171-tottori-prefectural-museum-of-art.md)：積雪的廣場盡頭，一片薄而長的屋頂向兩側伸出，壓在一排細柱之上。（鳥取縣・倉吉市駄經寺町）
+- [鳥取砂丘砂之美術館](https://chrisincite.github.io/kengaku/k170-tottori-sand-museum.md)：館內一角的牆邊，坐著一隻用砂堆成的熊。（鳥取縣・鳥取市福部町湯山）
 - [鳥取砂丘遊客中心](https://chrisincite.github.io/kengaku/k169-tottori-sand-dunes-visitor-center.md)：二月的鳥取砂丘全被雪蓋住。（鳥取縣・鳥取市福部町湯山）
 - [奈義町現代美術館](https://chrisincite.github.io/kengaku/k168-nagi-moca.md)：積雪覆蓋了館前的草坡。（岡山縣・勝田郡奈義町豐澤）
 - [尾道市立美術館](https://chrisincite.github.io/kengaku/k146-onomichi-city-museum-of-art.md)：下午三點過後，千光寺山上的光從西側斜射進來。（廣島縣・尾道市西土堂町（千光寺公園內））
