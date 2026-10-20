@@ -774,30 +774,36 @@
     },
     {
       "no": "k097",
-      "slug": "k097",
-      "title": "廣島平和記念資料館",
-      "type": "博物館",
+      "slug": "k097-hiroshima-peace-memorial-museum",
+      "title": "廣島和平紀念資料館",
+      "type": "資料館",
       "prefecture": "広島県",
-      "city": "",
-      "visited": "2024-10"
+      "city": "廣島市中區中島町",
+      "visited": "2024-10",
+      "lat": 34.3915027,
+      "lng": 132.4531578
     },
     {
       "no": "k098",
-      "slug": "k098",
-      "title": "原爆ドーム",
-      "type": "其他",
+      "slug": "k098-atomic-bomb-dome",
+      "title": "原爆圓頂（舊廣島縣產業獎勵館）",
+      "type": "記念館",
       "prefecture": "広島県",
-      "city": "",
-      "visited": "2024-10"
+      "city": "廣島市中區大手町",
+      "visited": "2024-10",
+      "lat": 34.395483,
+      "lng": 132.453592
     },
     {
       "no": "k099",
-      "slug": "k099",
+      "slug": "k099-hiroshima-moca",
       "title": "廣島市現代美術館",
       "type": "美術館",
       "prefecture": "広島県",
-      "city": "",
-      "visited": "2024-10"
+      "city": "廣島市南區比治山公園",
+      "visited": "2024-10",
+      "lat": 34.3861254,
+      "lng": 132.4731744
     },
     {
       "no": "k100",
@@ -1157,12 +1163,14 @@
     },
     {
       "no": "k146",
-      "slug": "k146",
+      "slug": "k146-onomichi-city-museum-of-art",
       "title": "尾道市立美術館",
       "type": "美術館",
       "prefecture": "広島県",
-      "city": "",
-      "visited": "2025-10"
+      "city": "尾道市西土堂町",
+      "visited": "2025-10",
+      "lat": 34.409935,
+      "lng": 133.19578
     },
     {
       "no": "k147",
@@ -1281,21 +1289,25 @@
     },
     {
       "no": "k168",
-      "slug": "k168",
+      "slug": "k168-nagi-moca",
       "title": "奈義町現代美術館",
       "type": "美術館",
       "prefecture": "岡山県",
-      "city": "",
-      "visited": "2026-02"
+      "city": "勝田郡奈義町豐澤",
+      "visited": "2026-02",
+      "lat": 35.124545,
+      "lng": 134.174984
     },
     {
       "no": "k169",
-      "slug": "k169",
-      "title": "鳥取砂丘ビジターセンター",
+      "slug": "k169-tottori-sand-dunes-visitor-center",
+      "title": "鳥取砂丘遊客中心",
       "type": "資料館",
       "prefecture": "鳥取県",
-      "city": "",
-      "visited": "2026-02"
+      "city": "鳥取市福部町湯山",
+      "visited": "2026-02",
+      "lat": 35.543839,
+      "lng": 134.236649
     },
     {
       "no": "k170",

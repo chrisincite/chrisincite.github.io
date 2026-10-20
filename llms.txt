@@ -186,10 +186,16 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 102 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 108 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [鳥取砂丘遊客中心](https://chrisincite.github.io/kengaku/k169-tottori-sand-dunes-visitor-center.md)：二月的鳥取砂丘全被雪蓋住。（鳥取縣・鳥取市福部町湯山）
+- [奈義町現代美術館](https://chrisincite.github.io/kengaku/k168-nagi-moca.md)：積雪覆蓋了館前的草坡。（岡山縣・勝田郡奈義町豐澤）
+- [尾道市立美術館](https://chrisincite.github.io/kengaku/k146-onomichi-city-museum-of-art.md)：下午三點過後，千光寺山上的光從西側斜射進來。（廣島縣・尾道市西土堂町（千光寺公園內））
+- [廣島市現代美術館](https://chrisincite.github.io/kengaku/k099-hiroshima-moca.md)：石階的盡頭，兩座銀色的切妻屋頂之間被切開一道缺口，缺口下方是一個圓形的廣場。（廣島縣・廣島市南區比治山公園）
+- [原爆圓頂（舊廣島縣產業獎勵館）](https://chrisincite.github.io/kengaku/k098-atomic-bomb-dome.md)：隔著元安川看過去，原爆圓頂比想像中小。（廣島縣・廣島市中區大手町）
+- [廣島和平紀念資料館](https://chrisincite.github.io/kengaku/k097-hiroshima-peace-memorial-museum.md)：從北側的草坪望去，本館是一條橫躺的長方形量體，二樓的立面以密排的竪向 louver 分割，一樓則幾乎全部讓給柱子與空氣。（廣島縣・廣島市中區中島町）
 - [大阪歷史博物館](https://chrisincite.github.io/kengaku/k204-osaka-museum-of-history.md)：電梯門在十樓打開，眼前是一排朱紅色的圓柱，柱頂是層層出挑的斗栱，地面鋪著方磚。（大阪府・大阪市中央區大手前）
 - [BOOKMARK STORAGE（伊賀市北部圖書館）](https://chrisincite.github.io/kengaku/k203-bookmark-storage.md)：一樓是紅磚色的地面，沒有隔間，南側整面是玻璃，玻璃外是露台與水田。（三重縣・伊賀市新堂）
 - [伊賀市中央圖書館（舊上野市廳舍）](https://chrisincite.github.io/kengaku/k202-iga-central-library.md)：傍晚六點過後，一樓的開架空間仍亮著。（三重縣・伊賀市上野丸之內）
