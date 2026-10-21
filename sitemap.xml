@@ -1441,6 +1441,38 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/kengaku/k179-soja-machikado-kyodokan.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k179-soja-machikado-kyodokan.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k178-takahashi-city-library.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k178-takahashi-city-library.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k177-nariwa-museum.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k177-nariwa-museum.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k176-greenable-hiruzen.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k176-greenable-hiruzen.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/kengaku/k175-daisen-national-park-centre.html</loc>
     <priority>0.8</priority>
   </url>

@@ -186,10 +186,14 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 114 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 118 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [總社市街角鄉土館](https://chrisincite.github.io/kengaku/k179-soja-machikado-kyodokan.md)：備中國總社宮的社殿屋頂在陰天下重疊：前方是一座覆灰綠色屋面的屋頂，後方是更高的一座，屋脊上立著千木與鰹木，社殿四周是松樹與修剪過（岡山縣・總社市總社）
+- [高梁市圖書館](https://chrisincite.github.io/kengaku/k178-takahashi-city-library.md)：書架從二樓的地面一直排到四樓。（岡山縣・高梁市旭町）
+- [高梁市成羽美術館](https://chrisincite.github.io/kengaku/k177-nariwa-museum.md)：坡道沿著一道很長的清水混凝土牆向前延伸。（岡山縣・高梁市成羽町下原）
+- [GREENable HIRUZEN 與真庭市蒜山 Museum](https://chrisincite.github.io/kengaku/k176-greenable-hiruzen.md)：雪原中央立著一座方形的木構展亭。（岡山縣・真庭市蒜山上福田）
 - [大山國立公園中心](https://chrisincite.github.io/kengaku/k175-daisen-national-park-centre.md)：霧把大山整座山遮住了。（鳥取縣・西伯郡大山町大山）
 - [島根縣立美術館](https://chrisincite.github.io/kengaku/k174-shimane-art-museum.md)：入口大廳的臨湖面是一整片落地玻璃。（島根縣・松江市袖師町）
 - [小泉八雲舊居](https://chrisincite.github.io/kengaku/k173-koizumi-yakumo-former-residence.md)：二月中旬的鹽見繩手，道路兩側的積雪已被推成一道矮牆。（島根縣・松江市北堀町）

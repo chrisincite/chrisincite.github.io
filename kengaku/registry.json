@@ -1377,39 +1377,47 @@
     },
     {
       "no": "k176",
-      "slug": "k176",
-      "title": "真庭市蒜山ミュージアム(GREENable HIRUZEN)",
-      "type": "複合",
+      "slug": "k176-greenable-hiruzen",
+      "title": "GREENable HIRUZEN 與真庭市蒜山 Museum",
+      "type": "複合文化設施",
       "prefecture": "岡山県",
-      "city": "",
-      "visited": "2026-02"
+      "city": "真庭市",
+      "visited": "2026-02",
+      "lat": 35.2912886,
+      "lng": 133.6368495
     },
     {
       "no": "k177",
-      "slug": "k177",
+      "slug": "k177-nariwa-museum",
       "title": "高梁市成羽美術館",
       "type": "美術館",
       "prefecture": "岡山県",
-      "city": "",
-      "visited": "2026-02"
+      "city": "高梁市",
+      "visited": "2026-02",
+      "lat": 34.7806679,
+      "lng": 133.5366416
     },
     {
       "no": "k178",
-      "slug": "k178",
+      "slug": "k178-takahashi-city-library",
       "title": "高梁市圖書館",
       "type": "圖書館",
       "prefecture": "岡山県",
-      "city": "",
-      "visited": "2026-02"
+      "city": "高梁市",
+      "visited": "2026-02",
+      "lat": 34.7888258,
+      "lng": 133.6163964
     },
     {
       "no": "k179",
-      "slug": "k179",
-      "title": "総社市まちかど郷土館",
+      "slug": "k179-soja-machikado-kyodokan",
+      "title": "總社市街角鄉土館",
       "type": "資料館",
       "prefecture": "岡山県",
-      "city": "",
-      "visited": "2026-02"
+      "city": "總社市",
+      "visited": "2026-02",
+      "lat": 34.67554,
+      "lng": 133.754455
     },
     {
       "no": "k180",
