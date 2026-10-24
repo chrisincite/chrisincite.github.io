@@ -4,7 +4,7 @@ slug: greenable-hiruzen
 title: GREENable HIRUZEN 與真庭市蒜山 Museum
 title_ja: 真庭市蒜山ミュージアム（GREENable HIRUZEN）
 kana: まにわしひるぜんみゅーじあむ（ぐりーなぶるひるぜん）
-type: 複合文化設施
+type: 地方交流設施
 prefecture: 岡山縣
 city: 真庭市蒜山上福田
 lat: 35.2912886
