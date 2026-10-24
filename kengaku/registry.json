@@ -1145,21 +1145,25 @@
     },
     {
       "no": "k143",
-      "slug": "k143",
-      "title": "香川県立東山魁夷せとうち美術館",
+      "slug": "k143-higashiyama-kaii-setouchi-art-museum",
+      "title": "香川縣立東山魁夷瀨戶內美術館",
       "type": "美術館",
       "prefecture": "香川県",
-      "city": "",
-      "visited": "2025-10"
+      "city": "坂出市沙彌島",
+      "visited": "2025-10",
+      "lat": 34.3494188,
+      "lng": 133.8241242
     },
     {
       "no": "k145",
-      "slug": "k145",
-      "title": "今治市岩田健母と子のミュージアム",
+      "slug": "k145-iwata-ken-mother-child-museum",
+      "title": "今治市岩田健母與子美術館",
       "type": "美術館",
       "prefecture": "愛媛県",
-      "city": "",
-      "visited": "2025-10"
+      "city": "今治市大三島町宗方",
+      "visited": "2025-10",
+      "lat": 34.1944939,
+      "lng": 132.9541043
     },
     {
       "no": "k146",
@@ -1185,21 +1189,25 @@
     },
     {
       "no": "k154",
-      "slug": "k154",
-      "title": "抱擁(王文志作品)",
-      "type": "其他",
+      "slug": "k154-embrace-shodoshima",
+      "title": "抱擁・小豆島",
+      "type": "交流設施",
       "prefecture": "香川県",
-      "city": "",
-      "visited": "2025-10"
+      "city": "小豆郡小豆島町中山",
+      "visited": "2025-10",
+      "lat": 34.50224,
+      "lng": 134.24022
     },
     {
       "no": "k155",
-      "slug": "k155",
-      "title": "音楽水車プロジェクト(岡淳)",
-      "type": "其他",
+      "slug": "k155-reverberations-okahachi-watermill",
+      "title": "Reverberations 殘響——岡八水車",
+      "type": "交流設施",
       "prefecture": "香川県",
-      "city": "",
-      "visited": "2025-10"
+      "city": "小豆郡小豆島町中山",
+      "visited": "2025-10",
+      "lat": 34.5022663,
+      "lng": 134.2353294
     },
     {
       "no": "k156",
@@ -1432,30 +1440,36 @@
     },
     {
       "no": "k184",
-      "slug": "k184",
-      "title": "瀨戶内海歷史民俗資料館",
+      "slug": "k184-setonaikai-folk-history-museum",
+      "title": "瀨戶內海歷史民俗資料館",
       "type": "資料館",
       "prefecture": "香川県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "高松市",
+      "visited": "2026-07",
+      "lat": 34.3781909,
+      "lng": 133.9309832
     },
     {
       "no": "k185",
-      "slug": "k185",
-      "title": "あかがねミュージアム",
-      "type": "複合",
+      "slug": "k185-akagane-museum",
+      "title": "Akagane Museum（新居濱市綜合文化設施・美術館）",
+      "type": "複合文化設施",
       "prefecture": "愛媛県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "新居濱市",
+      "visited": "2026-07",
+      "lat": 33.9493859,
+      "lng": 133.2951268
     },
     {
       "no": "k186",
-      "slug": "k186",
-      "title": "こども本の森 松山",
-      "type": "複合",
+      "slug": "k186-matsuyama-kodomo-honnomori",
+      "title": "兒童之書森林・松山",
+      "type": "圖書館",
       "prefecture": "愛媛県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "松山市",
+      "visited": "2026-07",
+      "lat": 33.8415293,
+      "lng": 132.7690939
     },
     {
       "no": "k187",

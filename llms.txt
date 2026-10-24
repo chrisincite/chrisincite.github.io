@@ -186,10 +186,17 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 118 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 125 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [兒童之書森林・松山](https://chrisincite.github.io/kengaku/k186-matsuyama-kodomo-honnomori.md)：天花的中央是一圈橢圓形的光槽，燈光沿著橢圓的邊緣打亮整片白色的天花。（愛媛縣・松山市一番町（坂上之雲 Museum 內））
+- [Akagane Museum（新居濱市綜合文化設施・美術館）](https://chrisincite.github.io/kengaku/k185-akagane-museum.md)：草坪中間的坡道向前延伸，兩側各有一座覆滿銅板的巨大量體：左側是一座低伏的圓鼓形，右側是一座尖角高聳、表面微微鼓起的形體。（愛媛縣・新居濱市坂井町）
+- [瀨戶內海歷史民俗資料館](https://chrisincite.github.io/kengaku/k184-setonaikai-folk-history-museum.md)：石積的牆面向上收窄，像一段被切開的城壁。（香川縣・高松市龜水町（五色台山上））
+- [Reverberations 殘響——岡八水車](https://chrisincite.github.io/kengaku/k155-reverberations-okahachi-watermill.md)：一棟瓦頂的老民家，簷下擺著一具木製的農具，側面裝上了兩個木齒輪。（香川縣・小豆郡小豆島町中山）
+- [抱擁・小豆島](https://chrisincite.github.io/kengaku/k154-embrace-shodoshima.md)：從山腰的道路往下看，梯田之間浮著一顆淺褐色的圓球。（香川縣・小豆郡小豆島町中山）
+- [今治市岩田健母與子美術館](https://chrisincite.github.io/kengaku/k145-iwata-ken-mother-child-museum.md)：從停車場看過去，它只是一道灰色的矮牆，在舊校舍的旁邊圍出一個圓。（愛媛縣・今治市大三島町宗方）
+- [香川縣立東山魁夷瀨戶內美術館](https://chrisincite.github.io/kengaku/k143-higashiyama-kaii-setouchi-art-museum.md)：一道低矮的清水混凝土牆把參觀者引上一條筆直的步道，步道盡頭是一個灰綠色的長方量體，開口只有底層一道橫長的玻璃。（香川縣・坂出市沙彌島）
 - [總社市街角鄉土館](https://chrisincite.github.io/kengaku/k179-soja-machikado-kyodokan.md)：備中國總社宮的社殿屋頂在陰天下重疊：前方是一座覆灰綠色屋面的屋頂，後方是更高的一座，屋脊上立著千木與鰹木，社殿四周是松樹與修剪過（岡山縣・總社市總社）
 - [高梁市圖書館](https://chrisincite.github.io/kengaku/k178-takahashi-city-library.md)：書架從二樓的地面一直排到四樓。（岡山縣・高梁市旭町）
 - [高梁市成羽美術館](https://chrisincite.github.io/kengaku/k177-nariwa-museum.md)：坡道沿著一道很長的清水混凝土牆向前延伸。（岡山縣・高梁市成羽町下原）
