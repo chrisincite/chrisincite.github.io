@@ -186,10 +186,18 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 125 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 133 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [相生森林美術館](https://chrisincite.github.io/kengaku/k195-aioi-shinrin-museum.md)：灰色的木桁架在白色的板天花下交錯，桁架之下，一段整根的樹幹彎成一個圓弧，橫躺在深色的地板上。（德島縣・那賀町橫石）
+- [香美市立美術館](https://chrisincite.github.io/kengaku/k194-kami-city-art-museum.md)：灰色的地毯，白色的牆，牆的頂端與天花之間留出一條間接照明的光帶。（高知縣・香美市土佐山田町）
+- [高知縣立歷史民俗資料館](https://chrisincite.github.io/kengaku/k193-kochi-museum-of-history.md)：兩根花崗岩的方柱撐起一道橫樑，樑上刻著館名，樑後是一片斜向的玻璃屋頂。（高知縣・南國市岡豐町八幡）
+- [高知縣立坂本龍馬紀念館](https://chrisincite.github.io/kengaku/k192-sakamoto-ryoma-memorial-museum.md)：石垣之上，一道深褐色的磁磚牆面幾乎沒有開口，只在高處零星開著幾個小方窗。（高知縣・高知市浦戶）
+- [高知縣立高知城歷史博物館](https://chrisincite.github.io/kengaku/k190-kochi-castle-museum.md)：一樓大廳的上方，懸著一道向下彎曲的淺灰色天花。（高知縣・高知市追手筋）
+- [高知城](https://chrisincite.github.io/kengaku/k189-kochi-castle.md)：自杉之段向上看，天守立在兩層石垣之上。（高知縣・高知市丸之內（高知公園））
+- [OTEPIA（高知新圖書館等複合設施）](https://chrisincite.github.io/kengaku/k188-otepia.md)：清晨七時前的追手筋，廣場的地磚還是濕的。（高知縣・高知市追手筋）
+- [IYO夢未來館（伊予市文化交流中心）](https://chrisincite.github.io/kengaku/k187-iyo-yumemiraikan.md)：一樓的開架區排著一列列平行的書架，每一座書架的頂端都嵌著一條燈帶。（愛媛縣・伊予市米湊）
 - [兒童之書森林・松山](https://chrisincite.github.io/kengaku/k186-matsuyama-kodomo-honnomori.md)：天花的中央是一圈橢圓形的光槽，燈光沿著橢圓的邊緣打亮整片白色的天花。（愛媛縣・松山市一番町（坂上之雲 Museum 內））
 - [Akagane Museum（新居濱市綜合文化設施・美術館）](https://chrisincite.github.io/kengaku/k185-akagane-museum.md)：草坪中間的坡道向前延伸，兩側各有一座覆滿銅板的巨大量體：左側是一座低伏的圓鼓形，右側是一座尖角高聳、表面微微鼓起的形體。（愛媛縣・新居濱市坂井町）
 - [瀨戶內海歷史民俗資料館](https://chrisincite.github.io/kengaku/k184-setonaikai-folk-history-museum.md)：石積的牆面向上收窄，像一段被切開的城壁。（香川縣・高松市龜水町（五色台山上））

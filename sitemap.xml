@@ -1441,6 +1441,70 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://chrisincite.github.io/kengaku/k195-aioi-shinrin-museum.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k195-aioi-shinrin-museum.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k194-kami-city-art-museum.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k194-kami-city-art-museum.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k193-kochi-museum-of-history.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k193-kochi-museum-of-history.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k192-sakamoto-ryoma-memorial-museum.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k192-sakamoto-ryoma-memorial-museum.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k190-kochi-castle-museum.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k190-kochi-castle-museum.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k189-kochi-castle.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k189-kochi-castle.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k188-otepia.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k188-otepia.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k187-iyo-yumemiraikan.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/kengaku/k187-iyo-yumemiraikan.md</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://chrisincite.github.io/kengaku/k186-matsuyama-kodomo-honnomori.html</loc>
     <priority>0.8</priority>
   </url>

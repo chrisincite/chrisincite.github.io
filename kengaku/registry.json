@@ -1473,75 +1473,91 @@
     },
     {
       "no": "k187",
-      "slug": "k187",
-      "title": "いよ市立図書館（いよ夢みらい館）",
-      "type": "圖書館",
+      "slug": "k187-iyo-yumemiraikan",
+      "title": "IYO夢未來館（伊予市文化交流中心）",
+      "type": "複合文化設施",
       "prefecture": "愛媛県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "伊予市米湊",
+      "visited": "2026-07",
+      "lat": 33.7588956,
+      "lng": 132.7053408
     },
     {
       "no": "k188",
-      "slug": "k188",
-      "title": "オーテピア高知（高知まんがBASE）",
-      "type": "複合",
+      "slug": "k188-otepia",
+      "title": "OTEPIA（高知新圖書館等複合設施）",
+      "type": "圖書館",
       "prefecture": "高知県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "高知市追手筋",
+      "visited": "2026-07",
+      "lat": 33.5609211,
+      "lng": 133.5369352
     },
     {
       "no": "k189",
-      "slug": "k189",
+      "slug": "k189-kochi-castle",
       "title": "高知城",
-      "type": "其他",
+      "type": "城郭",
       "prefecture": "高知県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "高知市丸之內",
+      "visited": "2026-07",
+      "lat": 33.5608424,
+      "lng": 133.5315147
     },
     {
       "no": "k190",
-      "slug": "k190",
+      "slug": "k190-kochi-castle-museum",
       "title": "高知縣立高知城歷史博物館",
       "type": "博物館",
       "prefecture": "高知県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "高知市追手筋",
+      "visited": "2026-07",
+      "lat": 33.5603495,
+      "lng": 133.5339652
     },
     {
       "no": "k192",
-      "slug": "k192",
-      "title": "高知縣立坂本龍馬記念館",
+      "slug": "k192-sakamoto-ryoma-memorial-museum",
+      "title": "高知縣立坂本龍馬紀念館",
       "type": "記念館",
       "prefecture": "高知県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "高知市浦戶",
+      "visited": "2026-07",
+      "lat": 33.4964655,
+      "lng": 133.5719482
     },
     {
       "no": "k193",
-      "slug": "k193",
+      "slug": "k193-kochi-museum-of-history",
       "title": "高知縣立歷史民俗資料館",
       "type": "博物館",
       "prefecture": "高知県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "南國市岡豐町八幡",
+      "visited": "2026-07",
+      "lat": 33.5958448,
+      "lng": 133.6234746
     },
     {
       "no": "k194",
-      "slug": "k194",
+      "slug": "k194-kami-city-art-museum",
       "title": "香美市立美術館",
       "type": "美術館",
       "prefecture": "高知県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "香美市土佐山田町",
+      "visited": "2026-07",
+      "lat": 33.6106667,
+      "lng": 133.687926
     },
     {
       "no": "k195",
-      "slug": "k195",
-      "title": "那賀町山のおもちゃ美術館",
+      "slug": "k195-aioi-shinrin-museum",
+      "title": "相生森林美術館",
       "type": "美術館",
       "prefecture": "徳島県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "那賀町橫石",
+      "visited": "2026-07",
+      "lat": 33.7977239,
+      "lng": 134.4520301
     },
     {
       "no": "k196",
