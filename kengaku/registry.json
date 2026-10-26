@@ -1,6 +1,6 @@
 {
   "note": "全部座數的名稱／所在地索引，由私有 repo publicArch 的 地點清單.csv 產出（scripts/make_registry.py）。企業美術館・商業藝廊等邊界案例不列入。座標逐篇撰稿時補齊，是官方所在地，不是照片 EXIF 的拍攝點。",
-  "count": 154,
+  "count": 153,
   "places": [
     {
       "no": "k001",
@@ -961,21 +961,25 @@
     },
     {
       "no": "k117",
-      "slug": "k117",
+      "slug": "k117-kitakyushu-municipal-museum-of-art",
       "title": "北九州市立美術館",
       "type": "美術館",
       "prefecture": "福岡県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "北九州市戶畑區",
+      "visited": "2025-04",
+      "lat": 33.8697914,
+      "lng": 130.8264967
     },
     {
       "no": "k118",
-      "slug": "k118",
-      "title": "アクロス福岡",
-      "type": "複合",
+      "slug": "k118-acros-fukuoka",
+      "title": "ACROS 福岡",
+      "type": "複合文化設施",
       "prefecture": "福岡県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "福岡市中央區天神",
+      "visited": "2025-04",
+      "lat": 33.5915905,
+      "lng": 130.4023522
     },
     {
       "no": "k119",
@@ -1241,15 +1245,6 @@
       "visited": "2025-10",
       "lat": 33.8384156,
       "lng": 135.7756821
-    },
-    {
-      "no": "k159",
-      "slug": "k159",
-      "title": "比叡山延曆寺(根本中堂屋根葺替特別拜觀)",
-      "type": "其他",
-      "prefecture": "滋賀県",
-      "city": "",
-      "visited": "2025-10"
     },
     {
       "no": "k160",
@@ -1561,21 +1556,25 @@
     },
     {
       "no": "k196",
-      "slug": "k196",
-      "title": "德島縣立鳥居龍藏記念博物館",
+      "slug": "k196-torii-ryuzo-museum",
+      "title": "德島縣立鳥居龍藏紀念博物館",
       "type": "記念館",
       "prefecture": "徳島県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "德島市八萬町",
+      "visited": "2026-07",
+      "lat": 34.039851,
+      "lng": 134.5264401
     },
     {
       "no": "k197",
-      "slug": "k197",
+      "slug": "k197-tokushima-prefectural-museum",
       "title": "德島縣立博物館",
       "type": "博物館",
       "prefecture": "徳島県",
-      "city": "",
-      "visited": "2026-07"
+      "city": "德島市八萬町",
+      "visited": "2026-07",
+      "lat": 34.0396126,
+      "lng": 134.5261327
     },
     {
       "no": "k198",

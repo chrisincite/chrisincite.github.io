@@ -186,10 +186,14 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 154 座，已發佈 133 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 153 座，已發佈 137 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [德島縣立博物館](https://chrisincite.github.io/kengaku/k197-tokushima-prefectural-museum.md)：挑簷的陰影之下，是一片開闊的鋪面廣場。（德島縣・德島市八萬町）
+- [德島縣立鳥居龍藏紀念博物館](https://chrisincite.github.io/kengaku/k196-torii-ryuzo-museum.md)：受付櫃台後方是一面灰色的牆，牆上掛著一張黑白肖像，館名以細小的字刻在肖像下方。（德島縣・德島市八萬町）
+- [ACROS 福岡](https://chrisincite.github.io/kengaku/k118-acros-fukuoka.md)：從運河的橋上望過去，建築的南面是一座層層後退的綠坡。（福岡縣・福岡市中央區天神）
+- [北九州市立美術館](https://chrisincite.github.io/kengaku/k117-kitakyushu-municipal-museum-of-art.md)：車道盡頭的坡上，兩支以灰色方格面材包覆的方筒自建築正面伸出，一高一低，懸在半空。（福岡縣・北九州市戶畑區）
 - [相生森林美術館](https://chrisincite.github.io/kengaku/k195-aioi-shinrin-museum.md)：灰色的木桁架在白色的板天花下交錯，桁架之下，一段整根的樹幹彎成一個圓弧，橫躺在深色的地板上。（德島縣・那賀町橫石）
 - [香美市立美術館](https://chrisincite.github.io/kengaku/k194-kami-city-art-museum.md)：灰色的地毯，白色的牆，牆的頂端與天花之間留出一條間接照明的光帶。（高知縣・香美市土佐山田町）
 - [高知縣立歷史民俗資料館](https://chrisincite.github.io/kengaku/k193-kochi-museum-of-history.md)：兩根花崗岩的方柱撐起一道橫樑，樑上刻著館名，樑後是一片斜向的玻璃屋頂。（高知縣・南國市岡豐町八幡）
@@ -352,7 +356,7 @@
 - [散策索引 JSON](https://chrisincite.github.io/shrine/index.json)：已發佈的篇章與座標
 - [全 149 座名錄 JSON](https://chrisincite.github.io/shrine/registry.json)：含未發佈的規劃清單
 - [見學索引 JSON](https://chrisincite.github.io/kengaku/index.json)：已發佈的篇章與座標
-- [全 154 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
+- [全 153 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
 - [溫泉索引 JSON](https://chrisincite.github.io/onsen/index.json)：已發佈的篇章與座標
 - [全文串接](https://chrisincite.github.io/llms-full.txt)：所有內容的完整 markdown，一次取用
 - [網站首頁](https://chrisincite.github.io/)：專案、工具棚與關於頁（單頁式 OS 介面）
