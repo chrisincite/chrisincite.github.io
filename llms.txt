@@ -338,6 +338,7 @@
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（溫泉地的成立）、`#town`（町並與浴場建築）、`#bath`（泉質與入浴）、`#stay`（宿與飲食）、`#walk`（散策建議）。
 
+- [南紀勝浦溫泉](https://chrisincite.github.io/onsen/o005-katsuura.md)：早上八點過後，勝浦港的觀光棧橋前，一艘船頭立著大型玩偶造型的小船靠了岸。（和歌山縣・東牟婁郡那智勝浦町）
 - [赤穗溫泉](https://chrisincite.github.io/onsen/o004-ako.md)：清晨七點四十五分，太陽已升到播磨灘的海面上方，光在水面上拉出一條直線。（兵庫縣・赤穗市御崎）
 - [岩井溫泉](https://chrisincite.github.io/onsen/o003-iwai.md)：湯船裡的人頭頂一條手巾，手持柄杓舀起熱湯，從頭上淋下，同時唱著一首數數的歌。（鳥取縣・岩美郡岩美町岩井）
 - [木江溫泉](https://chrisincite.github.io/onsen/o002-kinoe.md)：從山頂的觀景台望出去，瀨戶內海的島一座接一座，海面在島與島之間被切成許多條水道。（廣島縣・豐田郡大崎上島町沖浦）
