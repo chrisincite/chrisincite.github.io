@@ -186,12 +186,16 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 153 座，已發佈 137 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 153 座，已發佈 141 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
 - [德島縣立博物館](https://chrisincite.github.io/kengaku/k197-tokushima-prefectural-museum.md)：挑簷的陰影之下，是一片開闊的鋪面廣場。（德島縣・德島市八萬町）
 - [德島縣立鳥居龍藏紀念博物館](https://chrisincite.github.io/kengaku/k196-torii-ryuzo-museum.md)：受付櫃台後方是一面灰色的牆，牆上掛著一張黑白肖像，館名以細小的字刻在肖像下方。（德島縣・德島市八萬町）
+- [舊竹田莊](https://chrisincite.github.io/kengaku/k123-kyu-chikudenso.md)：庭園一側的二樓，雨戶全部收起，只剩一道木欄杆橫在開口前。（大分縣・竹田市）
+- [竹田市歷史文化館・由學館](https://chrisincite.github.io/kengaku/k122-taketa-history-culture-museum.md)：城下町的街道旁，一道白牆沿著路邊延伸，牆頂壓著瓦。（大分縣・竹田市）
+- [九州歷史資料館](https://chrisincite.github.io/kengaku/k120-kyushu-historical-museum.md)：草坪上一條石板步道通向一棟低矮的建築。（福岡縣・小郡市）
+- [九州國立博物館](https://chrisincite.github.io/kengaku/k119-kyushu-national-museum.md)：一道長 160 公尺的曲面從森林裡隆起，下半部是整片映著樹影的玻璃，上緣以深藍色的金屬收邊。（福岡縣・太宰府市）
 - [ACROS 福岡](https://chrisincite.github.io/kengaku/k118-acros-fukuoka.md)：從運河的橋上望過去，建築的南面是一座層層後退的綠坡。（福岡縣・福岡市中央區天神）
 - [北九州市立美術館](https://chrisincite.github.io/kengaku/k117-kitakyushu-municipal-museum-of-art.md)：車道盡頭的坡上，兩支以灰色方格面材包覆的方筒自建築正面伸出，一高一低，懸在半空。（福岡縣・北九州市戶畑區）
 - [相生森林美術館](https://chrisincite.github.io/kengaku/k195-aioi-shinrin-museum.md)：灰色的木桁架在白色的板天花下交錯，桁架之下，一段整根的樹幹彎成一個圓弧，橫躺在深色的地板上。（德島縣・那賀町橫石）

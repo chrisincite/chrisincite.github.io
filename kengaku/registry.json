@@ -983,39 +983,47 @@
     },
     {
       "no": "k119",
-      "slug": "k119",
+      "slug": "k119-kyushu-national-museum",
       "title": "九州國立博物館",
       "type": "博物館",
       "prefecture": "福岡県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "太宰府市",
+      "visited": "2025-04",
+      "lat": 33.5182578,
+      "lng": 130.5381224
     },
     {
       "no": "k120",
-      "slug": "k120",
+      "slug": "k120-kyushu-historical-museum",
       "title": "九州歷史資料館",
       "type": "資料館",
       "prefecture": "福岡県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "小郡市",
+      "visited": "2025-04",
+      "lat": 33.4388244,
+      "lng": 130.5581653
     },
     {
       "no": "k122",
-      "slug": "k122",
-      "title": "由學館",
-      "type": "資料館",
+      "slug": "k122-taketa-history-culture-museum",
+      "title": "竹田市歷史文化館・由學館",
+      "type": "博物館",
       "prefecture": "大分県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "竹田市",
+      "visited": "2025-04",
+      "lat": 32.9659023,
+      "lng": 131.392633
     },
     {
       "no": "k123",
-      "slug": "k123",
-      "title": "竹田荘",
+      "slug": "k123-kyu-chikudenso",
+      "title": "舊竹田莊",
       "type": "記念館",
       "prefecture": "大分県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "竹田市",
+      "visited": "2025-04",
+      "lat": 32.9652715,
+      "lng": 131.3932892
     },
     {
       "no": "k124",
