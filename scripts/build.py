@@ -113,6 +113,11 @@ GUIDE_IMG_DIR = os.path.join(GUIDE_DIR, "img")
 KENGAKU_SRC_DIR = os.path.join(ROOT, "kengaku", "src")
 KENGAKU_DIR = os.path.join(ROOT, "kengaku")
 
+# 溫泉（/onsen）：散策・見學的姊妹單元，同一套渲染器與圖床。照片檔名 o 前綴（o001-slug-01.webp）。
+# 每篇標來源：實地（自己拍的照片）或節目（BS 節目＋日文資料，圖片取自官方觀光寫真庫）。
+ONSEN_SRC_DIR = os.path.join(ROOT, "onsen", "src")
+ONSEN_DIR = os.path.join(ROOT, "onsen")
+
 # 只有 ready / published 會上站。draft / research 可以先進 repo 不出現在網站上。
 SHRINE_PUBLISH_STATUS = ("ready", "published")
 GUIDE_PUBLISH_STATUS = ("ready", "published")
@@ -578,6 +583,8 @@ KENGAKU_LD_TYPE = {"美術館": "Museum", "博物館": "Museum", "資料館": "M
                    "複合文化設施": "CivicStructure", "地方交流設施": "CivicStructure",
                    "城郭": "LandmarksOrHistoricalBuildings"}
 
+ONSEN_SECTION_ORDER = ["origin", "town", "bath", "stay", "walk"]
+
 # 單元設定：build_shrine() 吃這份，散策的值就是改參數化之前寫死的字面值
 # （散策產出必須 byte-identical，改這裡任何一個值都要先 diff shrine/）。
 SHRINE_UNIT = {
@@ -597,6 +604,16 @@ KENGAKU_UNIT = {
     "md_facts": (("設計", "architect"), ("竣工", "completed"), ("構造", "structure"),
                  ("設置", "operator")),
     "ld_type": lambda t: KENGAKU_LD_TYPE.get(t, "CivicStructure"),
+}
+ONSEN_UNIT = {
+    "key": "onsen", "dir": ONSEN_DIR, "name": "溫泉", "nav": "溫泉",
+    "back": "溫泉", "favicon": "♨️", "css": "../shrine/assets/shrine.css",
+    "order": ONSEN_SECTION_ORDER, "icons": {}, "icon": "♨",
+    "facts": (("泉質", "spring"), ("保存", "protection"), ("來源", "source"),
+              ("節目", "program")),
+    "md_facts": (("泉質", "spring"), ("保存", "protection"), ("來源", "source"),
+                 ("節目", "program")),
+    "ld_type": lambda t: "TouristDestination",
 }
 
 
@@ -1762,7 +1779,7 @@ def write_index_json(notes):
         f.write("\n")
 
 
-def write_sitemap(notes, shrines=(), guides=(), kengakus=()):
+def write_sitemap(notes, shrines=(), guides=(), kengakus=(), onsens=()):
     urls = [(CANONICAL_BASE + "/", None, "1.0")]
     for n in notes:
         urls.append(("%s/%s" % (CANONICAL_BASE, n["url"]), n["date"], "0.8"))
@@ -1779,7 +1796,7 @@ def write_sitemap(notes, shrines=(), guides=(), kengakus=()):
         if g.get("eli5", "").endswith(".html"):
             urls.append(("%s/guide/%s" % (CANONICAL_BASE, g["eli5"].lstrip("./")),
                          g["date"], "0.6"))
-    for k in kengakus:
+    for k in list(kengakus) + list(onsens):
         urls.append(("%s/%s" % (CANONICAL_BASE, k["url"]), None, "0.8"))
         urls.append(("%s/%s" % (CANONICAL_BASE, k["markdown"]), None, "0.5"))
     if shrines:
@@ -1834,7 +1851,7 @@ def write_robots():
         f.write("\n".join(lines))
 
 
-def write_llms(notes, shrines=(), planned=0, guides=(), kengakus=(), kengaku_planned=0):
+def write_llms(notes, shrines=(), planned=0, guides=(), kengakus=(), kengaku_planned=0, onsens=()):
     lines = [
         "# %s" % SITE_NAME,
         "",
@@ -1907,6 +1924,25 @@ def write_llms(notes, shrines=(), planned=0, guides=(), kengakus=(), kengaku_pla
                 % (k["title"], CANONICAL_BASE, k["markdown"], k.get("hook", ""),
                    "（%s）" % where if where else ""))
 
+    if onsens:
+        lines += [
+            "",
+            "## 溫泉",
+            "",
+            "看過（BS 節目）或實際去過的日本溫泉地，一處一篇，每篇標明來源是「實地」或「節目」。"
+            "寫溫泉街與建築、泉質與入浴、宿與飲食、周邊散步；事實只採日文一次資料。",
+            "",
+            "每篇的區塊錨點固定：`#lead`（導言）、`#origin`（溫泉地的成立）、`#town`（町並與浴場建築）、"
+            "`#bath`（泉質與入浴）、`#stay`（宿與飲食）、`#walk`（散策建議）。",
+            "",
+        ]
+        for o in onsens:
+            where = "・".join(x for x in (o.get("prefecture", ""), o.get("city", "")) if x)
+            lines.append(
+                "- [%s](%s/%s)：%s%s"
+                % (o["title"], CANONICAL_BASE, o["markdown"], o.get("hook", ""),
+                   "（%s）" % where if where else ""))
+
     if guides:
         lines += [
             "",
@@ -1946,6 +1982,8 @@ def write_llms(notes, shrines=(), planned=0, guides=(), kengakus=(), kengaku_pla
             "- [全 %d 座名錄 JSON](%s/kengaku/registry.json)：含未發佈的規劃清單"
             % (kengaku_planned or len(kengakus), CANONICAL_BASE),
         ]
+    if onsens:
+        lines.append("- [溫泉索引 JSON](%s/onsen/index.json)：已發佈的篇章與座標" % CANONICAL_BASE)
     lines += [
         "- [全文串接](%s/llms-full.txt)：所有內容的完整 markdown，一次取用" % CANONICAL_BASE,
         "- [網站首頁](%s/)：專案、工具棚與關於頁（單頁式 OS 介面）" % CANONICAL_BASE,
@@ -1955,7 +1993,7 @@ def write_llms(notes, shrines=(), planned=0, guides=(), kengakus=(), kengaku_pla
         f.write("\n".join(lines))
 
 
-def write_llms_full(notes, texts, shrine_texts=(), guide_texts=(), kengaku_texts=()):
+def write_llms_full(notes, texts, shrine_texts=(), guide_texts=(), kengaku_texts=(), onsen_texts=()):
     parts = [
         "# %s — 全文" % SITE_NAME,
         "",
@@ -2009,6 +2047,20 @@ def write_llms_full(notes, texts, shrine_texts=(), guide_texts=(), kengaku_texts
             "",
         ]
         for text in kengaku_texts:
+            parts.append(text.strip())
+            parts.append("")
+            parts.append("---")
+            parts.append("")
+    if onsen_texts:
+        parts += [
+            "# 溫泉 — 全文",
+            "",
+            "看過或去過的日本溫泉地，一處一篇。共 %d 篇。" % len(onsen_texts),
+            "",
+            "---",
+            "",
+        ]
+        for text in onsen_texts:
             parts.append(text.strip())
             parts.append("")
             parts.append("---")
@@ -2127,6 +2179,7 @@ def main():
     shrines, shrine_texts, registry, shrine_shortlinks = build_shrines()
     guides, guide_texts, guide_shortlinks = build_guides()
     kengakus, kengaku_texts, kengaku_registry, kengaku_shortlinks = build_kengakus()
+    onsens, onsen_texts, onsen_registry, onsen_shortlinks = build_onsens()
 
     write_redirects(notes, shortlinks)
     save_shortlinks(shortlinks)
@@ -2143,14 +2196,18 @@ def main():
         write_kengaku_index_json(kengakus, kengaku_registry)
         write_shrine_redirects(kengakus, kengaku_shortlinks, "k", "kengaku")
         save_shrine_shortlinks(kengaku_shortlinks, KENGAKU_DIR)
-    write_sitemap(notes, shrines, guides, kengakus)
+    if os.path.isdir(ONSEN_SRC_DIR):
+        write_onsen_index_json(onsens, onsen_registry)
+        write_shrine_redirects(onsens, onsen_shortlinks, "o", "onsen")
+        save_shrine_shortlinks(onsen_shortlinks, ONSEN_DIR)
+    write_sitemap(notes, shrines, guides, kengakus, onsens)
     write_robots()
-    write_llms(notes, shrines, len(registry), guides, kengakus, len(kengaku_registry))
-    write_llms_full(notes, texts, shrine_texts, guide_texts, kengaku_texts)
+    write_llms(notes, shrines, len(registry), guides, kengakus, len(kengaku_registry), onsens)
+    write_llms_full(notes, texts, shrine_texts, guide_texts, kengaku_texts, onsen_texts)
     sync_index_analytics()
 
-    print("\n共 %d 則筆記、%d 篇散策、%d 篇超入門、%d 篇見學"
-          % (len(notes), len(shrines), len(guides), len(kengakus)))
+    print("\n共 %d 則筆記、%d 篇散策、%d 篇超入門、%d 篇見學、%d 篇溫泉"
+          % (len(notes), len(shrines), len(guides), len(kengakus), len(onsens)))
     print("已更新：notes/index.json、notes/shortlinks.json、n/*.html、"
           "shrine/index.json、shrine/shortlinks.json、s/*.html、"
           "sitemap.xml、robots.txt、llms.txt、llms-full.txt")
@@ -2231,6 +2288,49 @@ def build_kengakus():
                     key=lambda p: (p[0].get("published", ""), shrine_no_key(p[0])),
                     reverse=True)
     return [x for x, _ in paired], [t for _, t in paired], registry, shortlinks
+
+
+def build_onsens():
+    """溫泉篇。流程同 build_kengakus()；短連結放頂層 o/。"""
+    if not os.path.isdir(ONSEN_SRC_DIR):
+        return [], [], {}, {}
+    registry = load_registry(ONSEN_DIR)
+    shortlinks = load_shrine_shortlinks(ONSEN_DIR)
+    files = sorted(f for f in os.listdir(ONSEN_SRC_DIR) if is_shrine_file(f))
+    published = set()
+    for name in files:
+        with open(os.path.join(ONSEN_SRC_DIR, name), encoding="utf-8") as f:
+            meta, _ = parse_front_matter(f.read())
+        if str(meta.get("status", "")).strip() in SHRINE_PUBLISH_STATUS:
+            published.add(os.path.splitext(name)[0])
+    items, texts = [], []
+    for name in sorted(published):
+        code = assign_short(shortlinks, name)
+        short_url = "%s/o/%s%s" % (SHORT_BASE, code, SHORT_SUFFIX)
+        meta, text = build_shrine(
+            os.path.join(ONSEN_SRC_DIR, name + ".md"), registry, published,
+            short_url, unit=ONSEN_UNIT)
+        items.append(meta)
+        texts.append(text)
+        print("♨ %s" % meta["slug"])
+    paired = sorted(zip(items, texts),
+                    key=lambda p: (p[0].get("published", ""), shrine_no_key(p[0])),
+                    reverse=True)
+    return [x for x, _ in paired], [t for _, t in paired], registry, shortlinks
+
+
+def write_onsen_index_json(items, registry):
+    payload = {
+        "site": SITE_NAME,
+        "description": "看過或去過的日本溫泉地，一處一篇：溫泉街與建築、泉質與入浴、宿與飲食、周邊散步。",
+        "canonical_base": CANONICAL_BASE,
+        "count": len(items),
+        "planned": len(registry) or len(items),
+        "onsen": items,
+    }
+    with open(os.path.join(ONSEN_DIR, "index.json"), "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write("\n")
 
 
 def write_kengaku_index_json(items, registry):

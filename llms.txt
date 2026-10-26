@@ -324,6 +324,16 @@
 - [兒童之書森林・遠野](https://chrisincite.github.io/kengaku/k032-tono-kodomo-honnomori.md)：兒童之書森林・遠野是建築師安藤忠雄出資設計、建成後贈予遠野市的兒童圖書設施。（岩手縣・遠野市中央大道）
 - [弘前紅磚倉庫美術館](https://chrisincite.github.io/kengaku/k031-hirosaki-renga-soko.md)：弘前紅磚倉庫美術館由一組明治至大正年間建造的紅磚倉庫改修而成。（青森縣・弘前市吉野町）
 
+## 溫泉
+
+看過（BS 節目）或實際去過的日本溫泉地，一處一篇，每篇標明來源是「實地」或「節目」。寫溫泉街與建築、泉質與入浴、宿與飲食、周邊散步；事實只採日文一次資料。
+
+每篇的區塊錨點固定：`#lead`（導言）、`#origin`（溫泉地的成立）、`#town`（町並與浴場建築）、`#bath`（泉質與入浴）、`#stay`（宿與飲食）、`#walk`（散策建議）。
+
+- [岩井溫泉](https://chrisincite.github.io/onsen/o003-iwai.md)：湯船裡的人頭頂一條手巾，手持柄杓舀起熱湯，從頭上淋下，同時唱著一首數數的歌。（鳥取縣・岩美郡岩美町岩井）
+- [木江溫泉](https://chrisincite.github.io/onsen/o002-kinoe.md)：從山頂的觀景台望出去，瀨戶內海的島一座接一座，海面在島與島之間被切成許多條水道。（廣島縣・豐田郡大崎上島町沖浦）
+- [溫泉津溫泉](https://chrisincite.github.io/onsen/o001-yunotsu.md)：日暮之後，溫泉街的路燈與旅館的燈先後亮起。（島根縣・大田市溫泉津町）
+
 ## 超入門
 
 把一個題目講到小學生也能照著做——每一個要按的按鈕都附實際畫面截圖，每篇另配一頁「圖解版」（大圖少字，適合完全沒有背景知識的人先看）。
@@ -343,5 +353,6 @@
 - [全 149 座名錄 JSON](https://chrisincite.github.io/shrine/registry.json)：含未發佈的規劃清單
 - [見學索引 JSON](https://chrisincite.github.io/kengaku/index.json)：已發佈的篇章與座標
 - [全 154 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
+- [溫泉索引 JSON](https://chrisincite.github.io/onsen/index.json)：已發佈的篇章與座標
 - [全文串接](https://chrisincite.github.io/llms-full.txt)：所有內容的完整 markdown，一次取用
 - [網站首頁](https://chrisincite.github.io/)：專案、工具棚與關於頁（單頁式 OS 介面）

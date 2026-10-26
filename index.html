@@ -14,6 +14,7 @@
 <link rel="alternate" type="application/json" href="/shrine/index.json" title="神社寺廟散策索引">
 <link rel="alternate" type="application/json" href="/guide/index.json" title="超入門索引">
 <link rel="alternate" type="application/json" href="/kengaku/index.json" title="公共建築見學索引">
+<link rel="alternate" type="application/json" href="/onsen/index.json" title="溫泉索引">
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 <script type="application/ld+json">
 {
@@ -1063,8 +1064,9 @@ a.sh-item .sh-no { color: var(--vermilion); }
   <button data-tab="notes"><span class="pill-num">04</span>筆記</button>
   <button data-tab="shrine"><span class="pill-num">05</span>散策</button>
   <button data-tab="kengaku"><span class="pill-num">06</span>見學</button>
-  <button data-tab="guide"><span class="pill-num">07</span>超入門</button>
-  <button data-tab="about"><span class="pill-num">08</span>關於</button>
+  <button data-tab="onsen"><span class="pill-num">07</span>溫泉</button>
+  <button data-tab="guide"><span class="pill-num">08</span>超入門</button>
+  <button data-tab="about"><span class="pill-num">09</span>關於</button>
 </nav>
 
 <!-- ============ TAB 1：HOME ============ -->
@@ -1507,11 +1509,26 @@ a.sh-item .sh-no { color: var(--vermilion); }
   </div>
 </main>
 
-<!-- ============ TAB 7：超入門 ============ -->
+<!-- ============ TAB 7：溫泉 ============ -->
+<main id="page-onsen" class="tab-page">
+  <div class="page-inner">
+    <header class="page-head">
+      <div class="ph-mono">07 / ONSEN</div>
+      <h1>溫泉街、浴場與湯</h1>
+      <p>看過或去過的日本溫泉地，一處一篇，共 <span class="onsen-count">—</span> 篇。每篇標明來源：「實地」是自己走過、用自己拍的照片；「節目」是從 BS 節目認識的溫泉地，圖片取自當地官方的觀光寫真庫。寫溫泉街的町並與浴場建築、泉質與入浴、宿與飲食，最後是一條周邊散步路線。事實只採日文一次資料。</p>
+    </header>
+
+    <div id="onsenList" class="notes-list">
+      <p class="notes-empty">載入中…</p>
+    </div>
+  </div>
+</main>
+
+<!-- ============ TAB 8：超入門 ============ -->
 <main id="page-guide" class="tab-page">
   <div class="page-inner">
     <header class="page-head">
-      <div class="ph-mono">07 / GUIDE</div>
+      <div class="ph-mono">08 / GUIDE</div>
       <h1>講到小學生也能照著做</h1>
       <p>一個題目一篇，從零開始。專有名詞全部拆開講，每一個要按的按鈕都附實際畫面截圖。每篇另配一頁<strong>圖解版</strong>——大圖少字，完全沒有背景知識的人可以先看那個。</p>
     </header>
@@ -1522,11 +1539,11 @@ a.sh-item .sh-no { color: var(--vermilion); }
   </div>
 </main>
 
-<!-- ============ TAB 8：關於 ============ -->
+<!-- ============ TAB 9：關於 ============ -->
 <main id="page-about" class="tab-page">
   <div class="page-inner">
     <header class="page-head">
-      <div class="ph-mono">08 / ABOUT</div>
+      <div class="ph-mono">09 / ABOUT</div>
       <h1>在 AI 時代重建工作流的人</h1>
     </header>
     <div class="about-grid">
@@ -1576,7 +1593,7 @@ a.sh-item .sh-no { color: var(--vermilion); }
   /* ============================================
      TAB ROUTER（hash-based）
      ============================================ */
-  var TABS = ['home', 'works', 'hub', 'notes', 'shrine', 'kengaku', 'guide', 'about'];
+  var TABS = ['home', 'works', 'hub', 'notes', 'shrine', 'kengaku', 'onsen', 'guide', 'about'];
   var pillNav = document.getElementById('pillNav');
 
   function currentTab() {
@@ -2284,6 +2301,44 @@ a.sh-item .sh-no { color: var(--vermilion); }
   }).catch(function() {
     var list = document.getElementById('kengakuList');
     if (list) list.innerHTML = '<p class="notes-empty">見學資料載入失敗——若是本機直接開啟檔案，請改用 http 伺服器檢視。</p>';
+  });
+
+  /* ============================================
+     溫泉（讀 onsen/index.json）：與見學同一套卡片樣式，另標來源（實地／節目）
+     ============================================ */
+  function onsenCard(o) {
+    var thumb = o.cover
+      ? '<img class="nc-thumb" src="' + esc(o.cover) + '" alt="" loading="lazy">'
+      : '<div class="nc-thumb placeholder"></div>';
+    var where = [o.prefecture, o.city].filter(Boolean).join('・');
+    var meta = [where, o.source].filter(Boolean).join(' · ');
+    return '<a class="note-card" href="' + esc(o.url) + '">' +
+      '<div>' + thumb + '</div>' +
+      '<div>' +
+        '<div class="nc-where">' + esc(meta) + '</div>' +
+        '<h3>' + esc(o.title) + '</h3>' +
+        '<p class="nc-ja">' + esc(o.title_ja) + '</p>' +
+        '<p class="nc-hook">' + esc(o.hook) + '</p>' +
+        (o.spring ? '<p class="nc-src">泉質：' + esc(o.spring) + '</p>' : '') +
+      '</div>' +
+    '</a>';
+  }
+
+  fetch('onsen/index.json').then(function(r) { return r.ok ? r.json() : { onsen: [] }; })
+  .then(function(res) {
+    var items = res.onsen || [];
+    [].forEach.call(document.querySelectorAll('.onsen-count'), function(el) {
+      el.textContent = String(items.length);
+    });
+    var list = document.getElementById('onsenList');
+    if (list) {
+      list.innerHTML = items.length
+        ? items.map(onsenCard).join('')
+        : '<p class="notes-empty">第一篇還在寫。</p>';
+    }
+  }).catch(function() {
+    var list = document.getElementById('onsenList');
+    if (list) list.innerHTML = '<p class="notes-empty">溫泉資料載入失敗——若是本機直接開啟檔案，請改用 http 伺服器檢視。</p>';
   });
 
   /* ===== 初始化 ===== */
