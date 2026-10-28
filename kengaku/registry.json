@@ -1104,39 +1104,47 @@
     },
     {
       "no": "k134",
-      "slug": "k134",
+      "slug": "k134-nagasaki-city-library",
       "title": "長崎市立圖書館",
       "type": "圖書館",
       "prefecture": "長崎県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "長崎市興善町",
+      "visited": "2025-04",
+      "lat": 32.7483758,
+      "lng": 129.8756531
     },
     {
       "no": "k135",
-      "slug": "k135",
+      "slug": "k135-nagasaki-atomic-bomb-museum",
       "title": "長崎原爆資料館",
       "type": "博物館",
       "prefecture": "長崎県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "長崎市平野町",
+      "visited": "2025-04",
+      "lat": 32.7727963,
+      "lng": 129.8643625
     },
     {
       "no": "k136",
-      "slug": "k136",
-      "title": "國立長崎原爆死没者追悼平和祈念館",
+      "slug": "k136-nagasaki-peace-memorial-hall",
+      "title": "國立長崎原爆死沒者追悼平和祈念館",
       "type": "記念館",
       "prefecture": "長崎県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "長崎市平野町",
+      "visited": "2025-04",
+      "lat": 32.7720823,
+      "lng": 129.8652297
     },
     {
       "no": "k137",
-      "slug": "k137",
+      "slug": "k137-nagasaki-prefectural-art-museum",
       "title": "長崎縣美術館",
       "type": "美術館",
       "prefecture": "長崎県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "長崎市出島町",
+      "visited": "2025-04",
+      "lat": 32.7419105,
+      "lng": 129.8703177
     },
     {
       "no": "k139",

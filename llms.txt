@@ -186,10 +186,14 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 152 座，已發佈 148 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 152 座，已發佈 152 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [長崎縣美術館](https://chrisincite.github.io/kengaku/k137-nagasaki-prefectural-art-museum.md)：一條運河從兩棟建築之間穿過，兩側的石牆都以直立的石材 louver 包覆，運河的上方架著一道玻璃的橋。（長崎縣・長崎市出島町）
+- [國立長崎原爆死沒者追悼平和祈念館](https://chrisincite.github.io/kengaku/k136-nagasaki-peace-memorial-hall.md)：一片圓形的水盤鋪在資料館旁的地面上，水面平得映出天空與遠處的山。（長崎縣・長崎市平野町）
+- [長崎原爆資料館](https://chrisincite.github.io/kengaku/k135-nagasaki-atomic-bomb-museum.md)：坡道沿著圓形大廳的牆面盤旋向下，頭頂是一片以三角形網格構成的玻璃圓頂，網格的影子落在灰白色的牆上。（長崎縣・長崎市平野町）
+- [長崎市立圖書館](https://chrisincite.github.io/kengaku/k134-nagasaki-city-library.md)：從大街走進來，兩側是深褐色的磁磚牆，頭頂是一道直通屋頂的細長天窗，盡頭的玻璃門外又是另一條街。（長崎縣・長崎市興善町）
 - [武雄市圖書館](https://chrisincite.github.io/kengaku/k132-takeo-city-library.md)：深色的屋頂沿著一道弧線低低展開，屋脊上浮著一座玻璃的天窗。（佐賀縣・武雄市）
 - [九州藝文館](https://chrisincite.github.io/kengaku/k131-kyushu-geibunkan.md)：從車站走出來，草坪邊緣是一片被折起的屋頂。（福岡縣・筑後市）
 - [熊本縣立裝飾古墳館](https://chrisincite.github.io/kengaku/k130-kumamoto-decorated-tumulus-museum.md)：草坪上一道寬闊的石階向上延伸，兩側各立著一座方形的混凝土塔，塔頂是一只玻璃盒。（熊本縣・山鹿市）
