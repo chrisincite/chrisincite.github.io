@@ -1,6 +1,6 @@
 {
   "note": "全部座數的名稱／所在地索引，由私有 repo publicArch 的 地點清單.csv 產出（scripts/make_registry.py）。企業美術館・商業藝廊等邊界案例不列入。座標逐篇撰稿時補齊，是官方所在地，不是照片 EXIF 的拍攝點。",
-  "count": 153,
+  "count": 152,
   "places": [
     {
       "no": "k001",
@@ -1026,76 +1026,81 @@
       "lng": 131.3932892
     },
     {
-      "no": "k124",
-      "slug": "k124",
-      "title": "阿蘇山火口展望公園",
-      "type": "展望設施",
-      "prefecture": "熊本県",
-      "city": "",
-      "visited": "2025-04"
-    },
-    {
       "no": "k126",
-      "slug": "k126",
-      "title": "霧島アートの森",
+      "slug": "k126-kirishima-open-air-museum",
+      "title": "霧島藝術之森",
       "type": "美術館",
       "prefecture": "鹿児島県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "姶良郡湧水町",
+      "visited": "2025-04",
+      "lat": 31.93971,
+      "lng": 130.778698
     },
     {
       "no": "k127",
-      "slug": "k127",
-      "title": "青井の杜 國寶記念館",
+      "slug": "k127-aoi-no-mori-national-treasure-memorial-hall",
+      "title": "青井之杜國寶紀念館",
       "type": "記念館",
       "prefecture": "熊本県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "人吉市",
+      "visited": "2025-04",
+      "lat": 32.2133395,
+      "lng": 130.7529185
     },
     {
       "no": "k128",
-      "slug": "k128",
-      "title": "ひみつ基地ミュージアム",
-      "type": "博物館",
+      "slug": "k128-hitoyoshi-naval-air-base-museum",
+      "title": "人吉海軍航空基地資料館",
+      "type": "資料館",
       "prefecture": "熊本県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "球磨郡錦町",
+      "visited": "2025-04",
+      "lat": 32.2207627,
+      "lng": 130.8170417
     },
     {
       "no": "k129",
-      "slug": "k129",
+      "slug": "k129-shiranuhi-museum-library",
       "title": "不知火美術館・圖書館",
-      "type": "複合",
+      "type": "複合文化設施",
       "prefecture": "熊本県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "宇城市",
+      "visited": "2025-04",
+      "lat": 32.6468184,
+      "lng": 130.6689009
     },
     {
       "no": "k130",
-      "slug": "k130",
-      "title": "熊本縣立装飾古墳館",
+      "slug": "k130-kumamoto-decorated-tumulus-museum",
+      "title": "熊本縣立裝飾古墳館",
       "type": "博物館",
       "prefecture": "熊本県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "山鹿市",
+      "visited": "2025-04",
+      "lat": 32.993722,
+      "lng": 130.669767
     },
     {
       "no": "k131",
-      "slug": "k131",
-      "title": "九州芸文館",
-      "type": "複合",
+      "slug": "k131-kyushu-geibunkan",
+      "title": "九州藝文館",
+      "type": "交流設施",
       "prefecture": "福岡県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "筑後市",
+      "visited": "2025-04",
+      "lat": 33.1786987,
+      "lng": 130.4932069
     },
     {
       "no": "k132",
-      "slug": "k132",
+      "slug": "k132-takeo-city-library",
       "title": "武雄市圖書館",
       "type": "圖書館",
       "prefecture": "佐賀県",
-      "city": "",
-      "visited": "2025-04"
+      "city": "武雄市",
+      "visited": "2025-04",
+      "lat": 33.189033,
+      "lng": 130.023695
     },
     {
       "no": "k134",

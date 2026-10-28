@@ -186,10 +186,17 @@
 
 ## 公共建築見學
 
-在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 153 座，已發佈 141 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
+在日本旅行時見學過的博物館・美術館・圖書館等公共建築，一座一篇（規劃 152 座，已發佈 148 篇）。主軸是空間：怎麼進、怎麼被引導、光與材料在哪裡變；事實只採日文一次資料。
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（設立緣由）、`#site`（立地）、`#architecture`（空間序列）、`#material`（構法與材料）、`#amenity`（附設商店與餐飲）、`#community`（與地方的關係）、`#walk`（周邊散步路線）。
 
+- [武雄市圖書館](https://chrisincite.github.io/kengaku/k132-takeo-city-library.md)：深色的屋頂沿著一道弧線低低展開，屋脊上浮著一座玻璃的天窗。（佐賀縣・武雄市）
+- [九州藝文館](https://chrisincite.github.io/kengaku/k131-kyushu-geibunkan.md)：從車站走出來，草坪邊緣是一片被折起的屋頂。（福岡縣・筑後市）
+- [熊本縣立裝飾古墳館](https://chrisincite.github.io/kengaku/k130-kumamoto-decorated-tumulus-museum.md)：草坪上一道寬闊的石階向上延伸，兩側各立著一座方形的混凝土塔，塔頂是一只玻璃盒。（熊本縣・山鹿市）
+- [不知火美術館・圖書館](https://chrisincite.github.io/kengaku/k129-shiranuhi-museum-library.md)：停車場的另一側，是一道長約 95 公尺的白色立面。（熊本縣・宇城市）
+- [人吉海軍航空基地資料館](https://chrisincite.github.io/kengaku/k128-hitoyoshi-naval-air-base-museum.md)：一座鋼骨的大棚架之下，一架漆成橙黃色的雙翼機停在灰色的水泥地上，機翼兩端幾乎碰到兩側的牆。（熊本縣・球磨郡錦町）
+- [青井之杜國寶紀念館](https://chrisincite.github.io/kengaku/k127-aoi-no-mori-national-treasure-memorial-hall.md)：鋪著碎石的境內，一邊是四百年前的茅葺社殿，另一邊是一座屋頂同樣陡峭、同樣蓬鬆的新建築。（熊本縣・人吉市）
+- [霧島藝術之森](https://chrisincite.github.io/kengaku/k126-kirishima-open-air-museum.md)：午後的陽光從頭頂斜射下來，穿過一層白色的鋼構桁架，在灰色的地面上落成一格一格的影子。（鹿兒島縣・姶良郡湧水町）
 - [德島縣立博物館](https://chrisincite.github.io/kengaku/k197-tokushima-prefectural-museum.md)：挑簷的陰影之下，是一片開闊的鋪面廣場。（德島縣・德島市八萬町）
 - [德島縣立鳥居龍藏紀念博物館](https://chrisincite.github.io/kengaku/k196-torii-ryuzo-museum.md)：受付櫃台後方是一面灰色的牆，牆上掛著一張黑白肖像，館名以細小的字刻在肖像下方。（德島縣・德島市八萬町）
 - [舊竹田莊](https://chrisincite.github.io/kengaku/k123-kyu-chikudenso.md)：庭園一側的二樓，雨戶全部收起，只剩一道木欄杆橫在開口前。（大分縣・竹田市）
@@ -362,7 +369,7 @@
 - [散策索引 JSON](https://chrisincite.github.io/shrine/index.json)：已發佈的篇章與座標
 - [全 149 座名錄 JSON](https://chrisincite.github.io/shrine/registry.json)：含未發佈的規劃清單
 - [見學索引 JSON](https://chrisincite.github.io/kengaku/index.json)：已發佈的篇章與座標
-- [全 153 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
+- [全 152 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
 - [溫泉索引 JSON](https://chrisincite.github.io/onsen/index.json)：已發佈的篇章與座標
 - [全文串接](https://chrisincite.github.io/llms-full.txt)：所有內容的完整 markdown，一次取用
 - [網站首頁](https://chrisincite.github.io/)：專案、工具棚與關於頁（單頁式 OS 介面）
