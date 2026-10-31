@@ -349,6 +349,10 @@
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（溫泉地的成立）、`#town`（町並與浴場建築）、`#bath`（泉質與入浴）、`#stay`（宿與飲食）、`#walk`（散策建議）。
 
+- [秋保溫泉](https://chrisincite.github.io/onsen/o009-akiu.md)：清晨六點，站在湯之橋的紅色欄杆邊往下游看，名取川在谷底轉了一個彎，兩岸的樹林已經紅透，遠處的山頭還壓著一層薄霧。（宮城縣・仙台市太白區秋保町湯元）
+- [阿寒湖溫泉](https://chrisincite.github.io/onsen/o008-akan.md)：客室的窗子幾乎占滿一整面牆，窗台下就是阿寒川。（北海道・釧路市阿寒町）
+- [霧島神宮溫泉鄉](https://chrisincite.github.io/onsen/o007-kirishima.md)：清晨七點不到，浴場的露天池面朝一片枯黃的芒草原，池緣是石材，池底鋪著深色的石板，水面映著陰天。（鹿兒島縣・霧島市霧島田口）
+- [由布院溫泉](https://chrisincite.github.io/onsen/o006-yufuin.md)：傍晚六點前後，從由布院站往北的大街筆直延伸，電線桿與路燈排在兩側，街道盡頭正對著一座山頭分成兩峰的山。（大分縣・由布市湯布院町）
 - [南紀勝浦溫泉](https://chrisincite.github.io/onsen/o005-katsuura.md)：早上八點過後，勝浦港的觀光棧橋前，一艘船頭立著大型玩偶造型的小船靠了岸。（和歌山縣・東牟婁郡那智勝浦町）
 - [赤穗溫泉](https://chrisincite.github.io/onsen/o004-ako.md)：清晨七點四十五分，太陽已升到播磨灘的海面上方，光在水面上拉出一條直線。（兵庫縣・赤穗市御崎）
 - [岩井溫泉](https://chrisincite.github.io/onsen/o003-iwai.md)：湯船裡的人頭頂一條手巾，手持柄杓舀起熱湯，從頭上淋下，同時唱著一首數數的歌。（鳥取縣・岩美郡岩美町岩井）
