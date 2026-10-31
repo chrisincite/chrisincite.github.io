@@ -349,6 +349,10 @@
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（溫泉地的成立）、`#town`（町並與浴場建築）、`#bath`（泉質與入浴）、`#stay`（宿與飲食）、`#walk`（散策建議）。
 
+- [城崎溫泉](https://chrisincite.github.io/onsen/o013-kinosaki.md)：早上七點半，王橋上已經有人穿著浴衣走過。（兵庫縣・豐岡市城崎町）
+- [嬉野溫泉](https://chrisincite.github.io/onsen/o012-ureshino.md)：早上八點多的溫泉街還沒醒。（佐賀縣・嬉野市嬉野町）
+- [旭岳溫泉](https://chrisincite.github.io/onsen/o011-asahidake.md)：纜車站前的電子看板顯示氣溫九度。（北海道・上川郡東川町）
+- [蔦溫泉](https://chrisincite.github.io/onsen/o010-tsuta.md)：早上九點，玄關前的車道已經曬得發白。（青森縣・十和田市奧瀨字蔦野湯）
 - [秋保溫泉](https://chrisincite.github.io/onsen/o009-akiu.md)：清晨六點，站在湯之橋的紅色欄杆邊往下游看，名取川在谷底轉了一個彎，兩岸的樹林已經紅透，遠處的山頭還壓著一層薄霧。（宮城縣・仙台市太白區秋保町湯元）
 - [阿寒湖溫泉](https://chrisincite.github.io/onsen/o008-akan.md)：客室的窗子幾乎占滿一整面牆，窗台下就是阿寒川。（北海道・釧路市阿寒町）
 - [霧島神宮溫泉鄉](https://chrisincite.github.io/onsen/o007-kirishima.md)：清晨七點不到，浴場的露天池面朝一片枯黃的芒草原，池緣是石材，池底鋪著深色的石板，水面映著陰天。（鹿兒島縣・霧島市霧島田口）
