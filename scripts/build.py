@@ -1851,7 +1851,7 @@ def write_robots():
         f.write("\n".join(lines))
 
 
-def write_llms(notes, shrines=(), planned=0, guides=(), kengakus=(), kengaku_planned=0, onsens=()):
+def write_llms(notes, shrines=(), planned=0, guides=(), kengakus=(), kengaku_planned=0, onsens=(), onsen_planned=0):
     lines = [
         "# %s" % SITE_NAME,
         "",
@@ -1984,6 +1984,9 @@ def write_llms(notes, shrines=(), planned=0, guides=(), kengakus=(), kengaku_pla
         ]
     if onsens:
         lines.append("- [溫泉索引 JSON](%s/onsen/index.json)：已發佈的篇章與座標" % CANONICAL_BASE)
+        if onsen_planned:
+            lines.append("- [全 %d 處名錄 JSON](%s/onsen/registry.json)：含未發佈的規劃清單"
+                         % (onsen_planned, CANONICAL_BASE))
     lines += [
         "- [全文串接](%s/llms-full.txt)：所有內容的完整 markdown，一次取用" % CANONICAL_BASE,
         "- [網站首頁](%s/)：專案、工具棚與關於頁（單頁式 OS 介面）" % CANONICAL_BASE,
@@ -2202,7 +2205,7 @@ def main():
         save_shrine_shortlinks(onsen_shortlinks, ONSEN_DIR)
     write_sitemap(notes, shrines, guides, kengakus, onsens)
     write_robots()
-    write_llms(notes, shrines, len(registry), guides, kengakus, len(kengaku_registry), onsens)
+    write_llms(notes, shrines, len(registry), guides, kengakus, len(kengaku_registry), onsens, len(onsen_registry))
     write_llms_full(notes, texts, shrine_texts, guide_texts, kengaku_texts, onsen_texts)
     sync_index_analytics()
 

@@ -383,5 +383,6 @@
 - [見學索引 JSON](https://chrisincite.github.io/kengaku/index.json)：已發佈的篇章與座標
 - [全 152 座名錄 JSON](https://chrisincite.github.io/kengaku/registry.json)：含未發佈的規劃清單
 - [溫泉索引 JSON](https://chrisincite.github.io/onsen/index.json)：已發佈的篇章與座標
+- [全 33 處名錄 JSON](https://chrisincite.github.io/onsen/registry.json)：含未發佈的規劃清單
 - [全文串接](https://chrisincite.github.io/llms-full.txt)：所有內容的完整 markdown，一次取用
 - [網站首頁](https://chrisincite.github.io/)：專案、工具棚與關於頁（單頁式 OS 介面）

@@ -1,0 +1,362 @@
+{
+  "note": "全部處數的名稱／所在地索引，由私有專案 onsen 的 地點清單.csv 產出（scripts/make_registry.py）。「實地」來自照片接觸表判讀，「節目」來自 BS 錄影。座標逐篇撰稿時補齊，是官方所在地，不是照片 EXIF。",
+  "count": 33,
+  "places": [
+    {
+      "no": "o001",
+      "slug": "o001-yunotsu",
+      "title": "溫泉津溫泉",
+      "title_ja": "温泉津温泉",
+      "source": "節目",
+      "prefecture": "島根県",
+      "city": "大田市溫泉津町",
+      "visited": "",
+      "lat": 35.096362,
+      "lng": 132.3495657
+    },
+    {
+      "no": "o002",
+      "slug": "o002-kinoe",
+      "title": "木江溫泉",
+      "title_ja": "きのえ温泉（木江温泉）",
+      "source": "節目",
+      "prefecture": "広島県",
+      "city": "豐田郡大崎上島町沖浦",
+      "visited": "",
+      "lat": 34.21496,
+      "lng": 132.91926
+    },
+    {
+      "no": "o003",
+      "slug": "o003-iwai",
+      "title": "岩井溫泉",
+      "title_ja": "岩井温泉",
+      "source": "節目",
+      "prefecture": "鳥取県",
+      "city": "岩美郡岩美町岩井",
+      "visited": "",
+      "lat": 35.5554546,
+      "lng": 134.362327
+    },
+    {
+      "no": "o004",
+      "slug": "o004-ako",
+      "title": "赤穗溫泉",
+      "title_ja": "赤穂温泉（赤穂御崎温泉）",
+      "source": "實地",
+      "prefecture": "兵庫県",
+      "city": "赤穗市御崎",
+      "visited": "2026-02",
+      "lat": 34.7337327,
+      "lng": 134.4156436
+    },
+    {
+      "no": "o005",
+      "slug": "o005-katsuura",
+      "title": "南紀勝浦溫泉",
+      "title_ja": "南紀勝浦温泉",
+      "source": "實地",
+      "prefecture": "和歌山県",
+      "city": "東牟婁郡那智勝浦町",
+      "visited": "2025-10、2026-07",
+      "lat": 33.6279296,
+      "lng": 135.9460601
+    },
+    {
+      "no": "o006",
+      "slug": "o006-yufuin",
+      "title": "由布院溫泉",
+      "title_ja": "由布院温泉",
+      "source": "實地",
+      "prefecture": "大分県",
+      "city": "由布市湯布院町",
+      "visited": "2025-04",
+      "lat": 33.2665,
+      "lng": 131.3614
+    },
+    {
+      "no": "o007",
+      "slug": "o007-kirishima",
+      "title": "霧島神宮溫泉鄉",
+      "title_ja": "霧島神宮温泉郷",
+      "source": "實地",
+      "prefecture": "鹿児島県",
+      "city": "霧島市霧島田口",
+      "visited": "2025-04",
+      "lat": 31.8681,
+      "lng": 130.8716
+    },
+    {
+      "no": "o008",
+      "slug": "o008-akan",
+      "title": "阿寒湖溫泉",
+      "title_ja": "阿寒湖温泉",
+      "source": "實地",
+      "prefecture": "北海道",
+      "city": "釧路市阿寒町",
+      "visited": "2024-10",
+      "lat": 43.4337,
+      "lng": 144.0897
+    },
+    {
+      "no": "o009",
+      "slug": "o009-akiu",
+      "title": "秋保溫泉",
+      "title_ja": "秋保温泉",
+      "source": "實地",
+      "prefecture": "宮城県",
+      "city": "仙台市太白區秋保町湯元",
+      "visited": "2022-11",
+      "lat": 38.2278,
+      "lng": 140.7204
+    },
+    {
+      "no": "o010",
+      "slug": "o010-tsuta",
+      "title": "蔦溫泉",
+      "title_ja": "蔦温泉",
+      "source": "實地",
+      "prefecture": "青森県",
+      "city": "十和田市奧瀨字蔦野湯",
+      "visited": "2024-08",
+      "lat": 40.5968,
+      "lng": 140.9532
+    },
+    {
+      "no": "o011",
+      "slug": "o011-asahidake",
+      "title": "旭岳溫泉",
+      "title_ja": "旭岳温泉",
+      "source": "實地",
+      "prefecture": "北海道",
+      "city": "上川郡東川町",
+      "visited": "2024-10",
+      "lat": 43.6481,
+      "lng": 142.7934
+    },
+    {
+      "no": "o012",
+      "slug": "o012-ureshino",
+      "title": "嬉野溫泉",
+      "title_ja": "嬉野温泉",
+      "source": "實地",
+      "prefecture": "佐賀県",
+      "city": "嬉野市嬉野町",
+      "visited": "2025-04",
+      "lat": 33.0972,
+      "lng": 129.9858
+    },
+    {
+      "no": "o013",
+      "slug": "o013-kinosaki",
+      "title": "城崎溫泉",
+      "title_ja": "城崎温泉",
+      "source": "實地",
+      "prefecture": "兵庫県",
+      "city": "豐岡市城崎町",
+      "visited": "2025-11",
+      "lat": 35.6264,
+      "lng": 134.8104
+    },
+    {
+      "no": "o014",
+      "slug": "o014",
+      "title": "星野溫泉",
+      "title_ja": "星野温泉",
+      "source": "實地",
+      "prefecture": "長野県",
+      "city": "北佐久郡輕井澤町",
+      "visited": "2015-01"
+    },
+    {
+      "no": "o015",
+      "slug": "o015",
+      "title": "田澤湖高原溫泉鄉",
+      "title_ja": "田沢湖高原温泉郷",
+      "source": "實地",
+      "prefecture": "秋田県",
+      "city": "仙北市",
+      "visited": "2015-08"
+    },
+    {
+      "no": "o016",
+      "slug": "o016",
+      "title": "山之神溫泉",
+      "title_ja": "山の神温泉",
+      "source": "實地",
+      "prefecture": "岩手県",
+      "city": "花卷市",
+      "visited": "2015-08"
+    },
+    {
+      "no": "o017",
+      "slug": "o017",
+      "title": "嵐山溫泉",
+      "title_ja": "嵐山温泉",
+      "source": "實地",
+      "prefecture": "京都府",
+      "city": "京都市右京區嵯峨",
+      "visited": "2015-09"
+    },
+    {
+      "no": "o018",
+      "slug": "o018",
+      "title": "越後湯澤溫泉",
+      "title_ja": "越後湯沢温泉",
+      "source": "實地",
+      "prefecture": "新潟県",
+      "city": "南魚沼郡湯澤町",
+      "visited": "2016-02"
+    },
+    {
+      "no": "o019",
+      "slug": "o019",
+      "title": "大澤山溫泉",
+      "title_ja": "大沢山温泉",
+      "source": "實地",
+      "prefecture": "新潟県",
+      "city": "南魚沼市大澤",
+      "visited": "2016-02"
+    },
+    {
+      "no": "o020",
+      "slug": "o020",
+      "title": "春日溫泉",
+      "title_ja": "春日温泉",
+      "source": "實地",
+      "prefecture": "富山県",
+      "city": "富山市春日",
+      "visited": "2016-08"
+    },
+    {
+      "no": "o021",
+      "slug": "o021",
+      "title": "宇奈月溫泉",
+      "title_ja": "宇奈月温泉",
+      "source": "實地",
+      "prefecture": "富山県",
+      "city": "黑部市宇奈月溫泉",
+      "visited": "2017-03"
+    },
+    {
+      "no": "o022",
+      "slug": "o022",
+      "title": "別所溫泉",
+      "title_ja": "別所温泉",
+      "source": "實地",
+      "prefecture": "長野県",
+      "city": "上田市別所溫泉",
+      "visited": "2017-03"
+    },
+    {
+      "no": "o023",
+      "slug": "o023",
+      "title": "修善寺溫泉",
+      "title_ja": "修善寺温泉",
+      "source": "實地",
+      "prefecture": "静岡県",
+      "city": "伊豆市修善寺",
+      "visited": "2024-02"
+    },
+    {
+      "no": "o024",
+      "slug": "o024",
+      "title": "下呂溫泉",
+      "title_ja": "下呂温泉",
+      "source": "實地",
+      "prefecture": "岐阜県",
+      "city": "下呂市湯之島",
+      "visited": "2024-02"
+    },
+    {
+      "no": "o025",
+      "slug": "o025",
+      "title": "鎌先溫泉",
+      "title_ja": "鎌先温泉",
+      "source": "實地",
+      "prefecture": "宮城県",
+      "city": "白石市福岡藏本",
+      "visited": "2024-04"
+    },
+    {
+      "no": "o026",
+      "slug": "o026",
+      "title": "那須溫泉",
+      "title_ja": "那須温泉",
+      "source": "實地",
+      "prefecture": "栃木県",
+      "city": "那須郡那須町湯本",
+      "visited": "2024-04"
+    },
+    {
+      "no": "o027",
+      "slug": "o027",
+      "title": "潮溫泉",
+      "title_ja": "潮温泉",
+      "source": "實地",
+      "prefecture": "島根県",
+      "city": "邑智郡美鄉町潮村",
+      "visited": "2024-10"
+    },
+    {
+      "no": "o028",
+      "slug": "o028",
+      "title": "長湯溫泉",
+      "title_ja": "長湯温泉",
+      "source": "實地",
+      "prefecture": "大分県",
+      "city": "竹田市直入町長湯",
+      "visited": "2025-04"
+    },
+    {
+      "no": "o029",
+      "slug": "o029",
+      "title": "有馬溫泉",
+      "title_ja": "有馬温泉",
+      "source": "實地",
+      "prefecture": "兵庫県",
+      "city": "神戶市北區有馬町",
+      "visited": "2026-02"
+    },
+    {
+      "no": "o030",
+      "slug": "o030",
+      "title": "式根島地鉈溫泉",
+      "title_ja": "地鉈温泉",
+      "source": "節目",
+      "prefecture": "東京都",
+      "city": "新島村式根島",
+      "visited": ""
+    },
+    {
+      "no": "o031",
+      "slug": "o031",
+      "title": "四萬溫泉",
+      "title_ja": "四万温泉",
+      "source": "節目",
+      "prefecture": "群馬県",
+      "city": "吾妻郡中之條町四萬",
+      "visited": ""
+    },
+    {
+      "no": "o032",
+      "slug": "o032",
+      "title": "十津川溫泉鄉",
+      "title_ja": "十津川温泉郷",
+      "source": "節目",
+      "prefecture": "奈良県",
+      "city": "吉野郡十津川村",
+      "visited": ""
+    },
+    {
+      "no": "o033",
+      "slug": "o033",
+      "title": "玉造溫泉",
+      "title_ja": "玉造温泉",
+      "source": "節目",
+      "prefecture": "島根県",
+      "city": "松江市玉湯町",
+      "visited": ""
+    }
+  ]
+}

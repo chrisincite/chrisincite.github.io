@@ -1515,12 +1515,25 @@ a.sh-item .sh-no { color: var(--vermilion); }
     <header class="page-head">
       <div class="ph-mono">07 / ONSEN</div>
       <h1>溫泉街、浴場與湯</h1>
-      <p>看過或去過的日本溫泉地，一處一篇，共 <span class="onsen-count">—</span> 篇。每篇標明來源：「實地」是自己走過、用自己拍的照片；「節目」是從 BS 節目認識的溫泉地，圖片取自當地官方的觀光寫真庫。寫溫泉街的町並與浴場建築、泉質與入浴、宿與飲食，最後是一條周邊散步路線。事實只採日文一次資料。</p>
+      <p>看過或去過的日本溫泉地，一處一篇，規劃 <span class="onsen-planned">—</span> 處、已寫 <span class="onsen-count">—</span> 篇。每篇標明來源：「實地」是自己走過、用自己拍的照片；「節目」是從 BS 節目認識的溫泉地，圖片取自當地官方的觀光寫真庫。寫溫泉街的町並與浴場建築、泉質與入浴、宿與飲食，最後是一條周邊散步路線。事實只採日文一次資料。</p>
     </header>
 
     <div id="onsenList" class="notes-list">
       <p class="notes-empty">載入中…</p>
     </div>
+
+    <section class="sh-roster">
+      <div class="sh-roster-head">
+        <h2>全部 <span class="onsen-planned">—</span> 處</h2>
+        <div class="sh-toggle" id="onsenToggle" role="group" aria-label="分組方式">
+          <button data-group="region" class="active">依地區</button>
+          <button data-group="source">依來源</button>
+        </div>
+      </div>
+      <div id="onsenRoster"></div>
+    </section>
+
+    <p class="hub-note">// 「實地」是照片裡住過或泡過的溫泉地，「節目」是 BS 節目介紹過的。城市裡的天然溫泉設施不列入。編號一經發佈不再變動。</p>
   </div>
 </main>
 
@@ -2324,17 +2337,68 @@ a.sh-item .sh-no { color: var(--vermilion); }
     '</a>';
   }
 
-  fetch('onsen/index.json').then(function(r) { return r.ok ? r.json() : { onsen: [] }; })
-  .then(function(res) {
-    var items = res.onsen || [];
+  function renderOnsenRoster(places, bySlug, groupBy) {
+    var box = document.getElementById('onsenRoster');
+    if (!box) return;
+    var groups = {}, order = [];
+    places.forEach(function(p) {
+      var k = groupBy === 'source' ? (p.source || '其他') : kgRegion((p.prefecture || '').replace('縣', '県'));
+      if (!groups[k]) { groups[k] = []; order.push(k); }
+      groups[k].push(p);
+    });
+    var ref = groupBy === 'source'
+      ? ['實地', '節目', '其他']
+      : KG_REGIONS.map(function(r) { return r[0]; }).concat(['其他']);
+    order.sort(function(a, b) { return ref.indexOf(a) - ref.indexOf(b); });
+    box.innerHTML = order.map(function(k) {
+      var items = groups[k].map(function(p) {
+        var pub = bySlug[p.slug];
+        var inner =
+          '<span class="sh-no">' + esc(p.no) + '</span>' +
+          '<span>' + esc(p.title) + '</span>' +
+          '<span class="sh-place">' + esc(p.prefecture) + '</span>';
+        return pub
+          ? '<a class="sh-item" href="' + esc(pub.url) + '">' + inner + '</a>'
+          : '<span class="sh-item">' + inner + '</span>';
+      }).join('');
+      return '<div class="sh-group">' +
+        '<div class="sh-group-title"><b>' + esc(k) + '</b>　' + groups[k].length + ' 處</div>' +
+        '<div class="sh-items">' + items + '</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  Promise.all([
+    fetch('onsen/index.json').then(function(r) { return r.ok ? r.json() : { onsen: [] }; }),
+    fetch('onsen/registry.json').then(function(r) { return r.ok ? r.json() : { places: [] }; })
+  ]).then(function(res) {
+    var items = res[0].onsen || [];
+    var places = res[1].places || [];
+    var bySlug = {};
+    items.forEach(function(o) { bySlug[o.slug] = o; });
     [].forEach.call(document.querySelectorAll('.onsen-count'), function(el) {
       el.textContent = String(items.length);
+    });
+    [].forEach.call(document.querySelectorAll('.onsen-planned'), function(el) {
+      el.textContent = String(res[1].count || places.length || items.length);
     });
     var list = document.getElementById('onsenList');
     if (list) {
       list.innerHTML = items.length
-        ? items.map(onsenCard).join('')
-        : '<p class="notes-empty">第一篇還在寫。</p>';
+        ? items.slice(0, KENGAKU_LIMIT).map(onsenCard).join('')
+        : '<p class="notes-empty">第一篇還在寫。下方是全部的溫泉地。</p>';
+    }
+    renderOnsenRoster(places, bySlug, 'region');
+    var toggle = document.getElementById('onsenToggle');
+    if (toggle) {
+      toggle.addEventListener('click', function(e) {
+        var btn = e.target.closest('button');
+        if (!btn) return;
+        [].forEach.call(toggle.querySelectorAll('button'), function(b) {
+          b.classList.toggle('active', b === btn);
+        });
+        renderOnsenRoster(places, bySlug, btn.dataset.group);
+      });
     }
   }).catch(function() {
     var list = document.getElementById('onsenList');
