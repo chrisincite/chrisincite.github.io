@@ -160,13 +160,15 @@
     },
     {
       "no": "o014",
-      "slug": "o014",
+      "slug": "o014-hoshino",
       "title": "星野溫泉",
       "title_ja": "星野温泉",
       "source": "實地",
       "prefecture": "長野県",
       "city": "北佐久郡輕井澤町",
-      "visited": "2015-01"
+      "visited": "2015-01",
+      "lat": 36.3628,
+      "lng": 138.5891
     },
     {
       "no": "o015",
