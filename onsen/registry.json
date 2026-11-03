@@ -280,13 +280,15 @@
     },
     {
       "no": "o026",
-      "slug": "o026",
+      "slug": "o026-nasu",
       "title": "那須溫泉",
       "title_ja": "那須温泉",
       "source": "實地",
       "prefecture": "栃木県",
       "city": "那須郡那須町湯本",
-      "visited": "2024-04"
+      "visited": "2024-04",
+      "lat": 37.0983,
+      "lng": 140.0011
     },
     {
       "no": "o027",
