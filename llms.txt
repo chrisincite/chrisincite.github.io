@@ -349,6 +349,7 @@
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（溫泉地的成立）、`#town`（町並與浴場建築）、`#bath`（泉質與入浴）、`#stay`（宿與飲食）、`#walk`（散策建議）。
 
+- [那須溫泉](https://chrisincite.github.io/onsen/o026-nasu.md)：石階兩旁的山櫻正開到滿，枝條越過石燈籠，伸到參道上方。（栃木縣・那須郡那須町湯本）
 - [城崎溫泉](https://chrisincite.github.io/onsen/o013-kinosaki.md)：早上七點半，王橋上已經有人穿著浴衣走過。（兵庫縣・豐岡市城崎町）
 - [嬉野溫泉](https://chrisincite.github.io/onsen/o012-ureshino.md)：早上八點多的溫泉街還沒醒。（佐賀縣・嬉野市嬉野町）
 - [旭岳溫泉](https://chrisincite.github.io/onsen/o011-asahidake.md)：纜車站前的電子看板顯示氣溫九度。（北海道・上川郡東川町）
