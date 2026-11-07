@@ -349,6 +349,13 @@
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（溫泉地的成立）、`#town`（町並與浴場建築）、`#bath`（泉質與入浴）、`#stay`（宿與飲食）、`#walk`（散策建議）。
 
+- [下呂溫泉](https://chrisincite.github.io/onsen/o024-gero.md)：山坡上的合掌造屋頂還留著前一場雪，茅草上長了一層綠苔。（岐阜縣・下呂市湯之島）
+- [修善寺溫泉](https://chrisincite.github.io/onsen/o023-shuzenji.md)：桂川的河床中央，一座小小的四柱亭子罩著一圈石頭。（靜岡縣・伊豆市修善寺）
+- [別所溫泉](https://chrisincite.github.io/onsen/o022-bessho.md)：早上六點五十分，大師湯已經開門。（長野縣・上田市別所溫泉）
+- [宇奈月溫泉](https://chrisincite.github.io/onsen/o021-unazuki.md)：總湯的浴槽底鋪著深色的石頭，水清到看得見每一塊石面的紋理。（富山縣・黑部市宇奈月溫泉）
+- [春日溫泉](https://chrisincite.github.io/onsen/o020-kasuga.md)：早上七點前拉開窗簾，神通川就在底下。（富山縣・富山市春日）
+- [大澤山溫泉](https://chrisincite.github.io/onsen/o019-osawayama.md)：早上七點前，雪停了。（新潟縣・南魚沼市大澤）
+- [越後湯澤溫泉](https://chrisincite.github.io/onsen/o018-echigo-yuzawa.md)：車站高處的窗外，雲壓在山腰上，山頂只露出一截。（新潟縣・南魚沼郡湯澤町）
 - [那須溫泉](https://chrisincite.github.io/onsen/o026-nasu.md)：石階兩旁的山櫻正開到滿，枝條越過石燈籠，伸到參道上方。（栃木縣・那須郡那須町湯本）
 - [星野溫泉](https://chrisincite.github.io/onsen/o014-hoshino.md)：傍晚五點多，泡完湯從蜻蜓之湯的玄關走出來，天色已經轉藍。（長野縣・北佐久郡輕井澤町）
 - [城崎溫泉](https://chrisincite.github.io/onsen/o013-kinosaki.md)：早上七點半，王橋上已經有人穿著浴衣走過。（兵庫縣・豐岡市城崎町）
