@@ -349,6 +349,12 @@
 
 每篇的區塊錨點固定：`#lead`（導言）、`#origin`（溫泉地的成立）、`#town`（町並與浴場建築）、`#bath`（泉質與入浴）、`#stay`（宿與飲食）、`#walk`（散策建議）。
 
+- [十津川溫泉鄉](https://chrisincite.github.io/onsen/o032-totsukawa.md)：平成十六年（二〇〇四年）六月二十八日，十津川村的村長與觀光協會會長到奈良縣廳，宣布村內三處溫泉、二十五家溫泉設施全部「源泉放流」（奈良縣・吉野郡十津川村）
+- [有馬溫泉](https://chrisincite.github.io/onsen/o029-arima.md)：石階的盡頭是一座二重屋頂的本堂，兩側各立一座石燈籠，簷下掛著「溫泉寺」的扁額。（兵庫縣・神戶市北區有馬町）
+- [鎌先溫泉](https://chrisincite.github.io/onsen/o025-kamasaki.md)：窄坡走到盡頭，一棟木造樓房從石垣上立起來。（宮城縣・白石市福岡藏本字鎌先）
+- [嵐山溫泉](https://chrisincite.github.io/onsen/o017-arashiyama.md)：雨一直沒停。（京都府・京都市西京區嵐山・右京區嵯峨）
+- [山之神溫泉](https://chrisincite.github.io/onsen/o016-yamanokami.md)：大廳正中央，一根竹子紮成的三腳架從格天井下垂吊著一只黑色大鐵釜，四周是一圈矮矮的木頭長椅，像一座放大了的地爐。（岩手縣・花卷市下志澤）
+- [田澤湖高原溫泉鄉](https://chrisincite.github.io/onsen/o015-tazawako-kogen.md)：早上六點半的露天風呂，水面是帶藍的乳白色，倒映著天空與木欄杆。（秋田縣・仙北市田澤湖生保內字駒岳）
 - [下呂溫泉](https://chrisincite.github.io/onsen/o024-gero.md)：山坡上的合掌造屋頂還留著前一場雪，茅草上長了一層綠苔。（岐阜縣・下呂市湯之島）
 - [修善寺溫泉](https://chrisincite.github.io/onsen/o023-shuzenji.md)：桂川的河床中央，一座小小的四柱亭子罩著一圈石頭。（靜岡縣・伊豆市修善寺）
 - [別所溫泉](https://chrisincite.github.io/onsen/o022-bessho.md)：早上六點五十分，大師湯已經開門。（長野縣・上田市別所溫泉）
