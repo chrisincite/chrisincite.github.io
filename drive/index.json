@@ -3,7 +3,7 @@
   "description": "自駕——日本自駕旅，一篇一天的路線：景點、停車與必買。",
   "canonical_base": "https://chrisincite.github.io",
   "updated": "2026-11-18",
-  "count": 3,
+  "count": 4,
   "drives": [
     {
       "slug": "tajima-sakyu-izushi-yuhigaura",
@@ -34,6 +34,36 @@
       "url": "drive/tajima-sakyu-izushi-yuhigaura.html",
       "markdown": "drive/tajima-sakyu-izushi-yuhigaura.md",
       "short": "https://os.housearch.net/d/1"
+    },
+    {
+      "slug": "korakuen-tsuyama-hiruzen",
+      "title": "岡山後樂園、吉備高原、津山、蒜山一日：日本三名園、隈研吾的兩件 CLT 建築、美作國一宮中山神社與 Jersey 起司鍋",
+      "date": "2026-11-18",
+      "hook": "從岡山市區出發，先逛日本三名園之一的岡山後樂園，往北到吉備高原看隈研吾的 CLT 建築「Nスクエア」，繞到津山拜中山造本殿的美作國一宮中山神社，在蒜山高原吃 Jersey 牛起司鍋、看從東京晴海整棟搬來的 CLT 展亭 GREENable HIRUZEN，傍晚抵達鳥取大山山腳；附隔天上午大山寺與大神山神社奧宮的走法，每站附停車點、御朱印與必買清單。",
+      "tags": [
+        "自駕",
+        "岡山",
+        "鳥取",
+        "蒜山",
+        "建築",
+        "神社"
+      ],
+      "cover": "",
+      "chapters": [
+        "行程總覽",
+        "一、岡山後樂園",
+        "二、かよう青空市＋吉備高原Nスクエア",
+        "三、美作國一宮 中山神社",
+        "四、午餐：ひるぜんジャージーランド",
+        "五、GREENable HIRUZEN",
+        "延伸：隔天上午的大山寺、大神山神社奧宮與桝水高原",
+        "購物清單總整理",
+        "出發前提醒",
+        "出處"
+      ],
+      "url": "drive/korakuen-tsuyama-hiruzen.html",
+      "markdown": "drive/korakuen-tsuyama-hiruzen.md",
+      "short": "https://os.housearch.net/d/4"
     },
     {
       "slug": "izumo-suga-iu-rokusha-adachi",
