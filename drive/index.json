@@ -3,7 +3,7 @@
   "description": "自駕——日本自駕旅，一篇一天的路線：景點、停車與必買。",
   "canonical_base": "https://chrisincite.github.io",
   "updated": "2026-11-18",
-  "count": 1,
+  "count": 2,
   "drives": [
     {
       "slug": "tajima-sakyu-izushi-yuhigaura",
@@ -34,6 +34,41 @@
       "url": "drive/tajima-sakyu-izushi-yuhigaura.html",
       "markdown": "drive/tajima-sakyu-izushi-yuhigaura.md",
       "short": "https://os.housearch.net/d/1"
+    },
+    {
+      "slug": "izumo-suga-iu-rokusha-adachi",
+      "title": "出雲一日：須我神社、意宇六社巡拜、足立美術館到米子",
+      "date": "2026-11-18",
+      "hook": "從出雲市出發，先拜「日本初之宮」須我神社，再一口氣走完松江南郊的意宇六社，鹽味拉麵午餐後看庭園日本一的足立美術館，經道の駅與大型超市採買，傍晚抵達米子；每站附停車點、御朱印與必買清單。",
+      "tags": [
+        "自駕",
+        "島根",
+        "鳥取",
+        "出雲",
+        "神社"
+      ],
+      "cover": "",
+      "chapters": [
+        "行程總覽",
+        "一、須我神社",
+        "二、意宇六社是什麼",
+        "三、熊野大社（意宇六社①）",
+        "四、八重垣神社（意宇六社②）",
+        "五、神魂神社（意宇六社③）",
+        "六、六所神社（意宇六社④）",
+        "七、眞名井神社（意宇六社⑤）",
+        "八、午餐：ラーメン 友さん",
+        "九、揖夜神社（意宇六社⑥）",
+        "十、足立美術館",
+        "十一、道の駅 あらエッサ",
+        "十二、トライアル 米子大谷店",
+        "購物清單總整理",
+        "出發前提醒",
+        "出處"
+      ],
+      "url": "drive/izumo-suga-iu-rokusha-adachi.html",
+      "markdown": "drive/izumo-suga-iu-rokusha-adachi.md",
+      "short": "https://os.housearch.net/d/2"
     }
   ]
 }
