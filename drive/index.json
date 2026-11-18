@@ -3,7 +3,7 @@
   "description": "自駕——日本自駕旅，一篇一天的路線：景點、停車與必買。",
   "canonical_base": "https://chrisincite.github.io",
   "updated": "2026-11-18",
-  "count": 2,
+  "count": 3,
   "drives": [
     {
       "slug": "tajima-sakyu-izushi-yuhigaura",
@@ -69,6 +69,38 @@
       "url": "drive/izumo-suga-iu-rokusha-adachi.html",
       "markdown": "drive/izumo-suga-iu-rokusha-adachi.md",
       "short": "https://os.housearch.net/d/2"
+    },
+    {
+      "slug": "ako-kurashiki-kibiji",
+      "title": "赤穂・倉敷・吉備路一日：伊和都比賣神社、赤穂義士、倉敷美観地区到吉備津神社與備中國分寺",
+      "date": "2026-11-18",
+      "hook": "從赤穂御崎出發，先拜鳥居面向瀨戶內海的伊和都比賣神社，再看大石神社與赤穂城的赤穂義士史跡，西行到倉敷登阿智神社、吃鰻魚飯、走美観地区，最後進入吉備路，拜國寶「吉備津造」的吉備津神社，在備中國分寺五重塔看夕陽，傍晚抵達岡山市；每站附停車點、御朱印與必買清單。",
+      "tags": [
+        "自駕",
+        "兵庫",
+        "岡山",
+        "倉敷",
+        "神社"
+      ],
+      "cover": "",
+      "chapters": [
+        "行程總覽",
+        "一、伊和都比賣神社",
+        "二、赤穂大石神社＋義士史料館",
+        "三、赤穂城跡 本丸・二之丸庭園",
+        "四、阿智神社",
+        "五、午餐：うな北 倉敷店",
+        "六、倉敷美観地区",
+        "七、UNIQLO 倉敷平田店",
+        "八、吉備津神社",
+        "九、備中國分寺",
+        "購物清單總整理",
+        "出發前提醒",
+        "出處"
+      ],
+      "url": "drive/ako-kurashiki-kibiji.html",
+      "markdown": "drive/ako-kurashiki-kibiji.md",
+      "short": "https://os.housearch.net/d/3"
     }
   ]
 }
