@@ -3,7 +3,7 @@
   "description": "自駕——日本自駕旅，一篇一天的路線：景點、停車與必買。",
   "canonical_base": "https://chrisincite.github.io",
   "updated": "2026-11-18",
-  "count": 4,
+  "count": 5,
   "drives": [
     {
       "slug": "tajima-sakyu-izushi-yuhigaura",
@@ -99,6 +99,37 @@
       "url": "drive/izumo-suga-iu-rokusha-adachi.html",
       "markdown": "drive/izumo-suga-iu-rokusha-adachi.md",
       "short": "https://os.housearch.net/d/2"
+    },
+    {
+      "slug": "daisen-ueda-sakaiminato-mihonoseki",
+      "title": "大山、植田正治寫真美術館、境港、美保關一日：大神山神社奧宮、高松伸的攝影美術館、湯咖哩、境港魚市與ゑびす總本宮美保神社",
+      "date": "2026-11-18",
+      "hook": "從大山山腳出發，上大山寺、走日本最長的自然石參道到權現造的大神山神社奧宮，在桝水高原看大山西面，下山看高松伸設計、映出「逆さ大山」的植田正治寫真美術館，中午在米子吃湯咖哩，逛境港水產物直賣センター，再過境水道大橋到島根半島東端拜美保造本殿的美保神社、走青石疊通；每站附停車點、御朱印與必買清單。",
+      "tags": [
+        "自駕",
+        "鳥取",
+        "島根",
+        "大山",
+        "境港",
+        "神社",
+        "建築"
+      ],
+      "cover": "",
+      "chapters": [
+        "行程總覽",
+        "一、大山寺＋大神山神社奧宮",
+        "二、桝水高原",
+        "三、植田正治寫真美術館",
+        "四、午餐：SOUP CURRY FARM+",
+        "五、境港水產物直賣センター",
+        "六、美保神社＋青石疊通",
+        "購物清單總整理",
+        "出發前提醒",
+        "出處"
+      ],
+      "url": "drive/daisen-ueda-sakaiminato-mihonoseki.html",
+      "markdown": "drive/daisen-ueda-sakaiminato-mihonoseki.md",
+      "short": "https://os.housearch.net/d/5"
     },
     {
       "slug": "ako-kurashiki-kibiji",
