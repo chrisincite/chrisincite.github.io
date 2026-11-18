@@ -1,0 +1,38 @@
+{
+  "site": "CHRIS OS",
+  "description": "自駕——日本自駕旅，一篇一天的路線：景點、停車與必買。",
+  "canonical_base": "https://chrisincite.github.io",
+  "updated": "2026-11-18",
+  "count": 1,
+  "drives": [
+    {
+      "slug": "tajima-sakyu-izushi-yuhigaura",
+      "title": "但馬一日：鳥取砂丘、出石城下町、鸛鳥之鄉到夕日ヶ浦",
+      "date": "2026-11-18",
+      "hook": "從米子沿日本海東行，一天走完鳥取砂丘與砂雕美術館、出石皿蕎麥、豐岡鸛鳥之鄉與皮包街，最後到夕日ヶ浦看日本海落日；每站附停車點與必買清單。",
+      "tags": [
+        "自駕",
+        "鳥取",
+        "兵庫",
+        "京丹後",
+        "新日本風土記"
+      ],
+      "cover": "",
+      "chapters": [
+        "行程總覽",
+        "一、鳥取砂丘",
+        "二、砂の美術館",
+        "三、出石城下町",
+        "四、豐岡市立鸛鳥文化館＋兵庫縣立鸛鳥之鄉公園",
+        "五、皮包街（Toyooka KABAN Artisan Avenue）",
+        "六、夕日ヶ浦海岸",
+        "購物清單總整理",
+        "出發前提醒",
+        "出處"
+      ],
+      "url": "drive/tajima-sakyu-izushi-yuhigaura.html",
+      "markdown": "drive/tajima-sakyu-izushi-yuhigaura.md",
+      "short": "https://os.housearch.net/d/1"
+    }
+  ]
+}

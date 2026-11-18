@@ -1779,7 +1779,7 @@ def write_index_json(notes):
         f.write("\n")
 
 
-def write_sitemap(notes, shrines=(), guides=(), kengakus=(), onsens=()):
+def write_sitemap(notes, shrines=(), guides=(), kengakus=(), onsens=(), drives=()):
     urls = [(CANONICAL_BASE + "/", None, "1.0")]
     for n in notes:
         urls.append(("%s/%s" % (CANONICAL_BASE, n["url"]), n["date"], "0.8"))
@@ -1796,6 +1796,9 @@ def write_sitemap(notes, shrines=(), guides=(), kengakus=(), onsens=()):
         if g.get("eli5", "").endswith(".html"):
             urls.append(("%s/guide/%s" % (CANONICAL_BASE, g["eli5"].lstrip("./")),
                          g["date"], "0.6"))
+    for d in drives:
+        urls.append(("%s/%s" % (CANONICAL_BASE, d["url"]), d["date"], "0.8"))
+        urls.append(("%s/%s" % (CANONICAL_BASE, d["markdown"]), d["date"], "0.5"))
     for k in list(kengakus) + list(onsens):
         urls.append(("%s/%s" % (CANONICAL_BASE, k["url"]), None, "0.8"))
         urls.append(("%s/%s" % (CANONICAL_BASE, k["markdown"]), None, "0.5"))
@@ -2149,6 +2152,202 @@ def sync_index_analytics():
         print("✓ index.html 統計碼：%s" % ("已寫入" if tag else "已移除"))
 
 
+
+# ============================================================
+# 自駕（/drive）：日本自駕旅。一篇＝一天的路線，沿用超入門的渲染器
+# （# 章、## 小標、表格、清單），只換單元名、樣式路徑與短連結前綴 d/。
+# ============================================================
+DRIVE_SRC_DIR = os.path.join(ROOT, "drive", "src")
+DRIVE_DIR = os.path.join(ROOT, "drive")
+
+
+def build_drive(path, short_url=""):
+    slug = os.path.splitext(os.path.basename(path))[0]
+    with open(path, encoding="utf-8") as f:
+        meta, body = parse_front_matter(f.read())
+
+    title = meta.get("title") or slug
+    date = str(meta.get("date", "")).strip()
+    chapters = split_guide_chapters(body)
+    hook = meta.get("hook") or guide_hook(chapters)
+    tags = meta.get("tags") or []
+    if isinstance(tags, str):
+        tags = [tags]
+    elif isinstance(tags, dict):
+        print("  ⚠ %s：tags 請改用行內式 tags: [a, b]" % slug, file=sys.stderr)
+        tags = [k.lstrip("- ").strip() for k in tags]
+
+    os.makedirs(DRIVE_DIR, exist_ok=True)
+
+    images, blocks, toc = [], [], []
+    lead_html = ""
+    n = 0
+    for ch_title, ch_body in chapters:
+        rendered = render_guide_blocks(ch_body, images)
+        if ch_title:
+            n += 1
+            anchor = "ch-%d" % n
+            toc.append((anchor, ch_title))
+            blocks.append(
+                '  <section class="gd-chapter" id="%s">\n'
+                '    <h2>%s</h2>\n%s\n  </section>'
+                % (anchor, guide_inline(ch_title), rendered))
+        else:
+            lead_html = '<section class="gd-lead">\n%s\n  </section>' % rendered
+
+    cover = meta.get("cover") or (images[0] if images else "")
+    cover_url = ""
+    if cover:
+        if os.path.exists(os.path.join(DRIVE_DIR, cover)):
+            cover_url = "%s/drive/%s" % (CANONICAL_BASE, cover)
+        else:
+            print("  ⚠ %s：cover 指向不存在的檔案（%s）" % (slug, cover), file=sys.stderr)
+            cover = ""
+
+    toc_html = ""
+    if len(toc) > 1:
+        items = "".join('<li><a href="#%s">%s</a></li>' % (a, guide_inline(t))
+                        for a, t in toc)
+        toc_html = ('<nav class="gd-toc" aria-label="本文架構">'
+                    '<p class="gd-toc-h">本文架構</p><ol>%s</ol></nav>' % items)
+
+    tags_html = ""
+    if tags:
+        tags_html = '<p class="gd-tags">%s</p>' % "".join(
+            '<span>#%s</span>' % html.escape(str(t)) for t in tags)
+
+    canonical = "%s/drive/%s.html" % (CANONICAL_BASE, slug)
+    md_rel = "./%s.md" % slug
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": title,
+        "description": hook,
+        "inLanguage": "zh-Hant",
+        "url": canonical,
+        "author": {"@type": "Person", "name": AUTHOR_NAME, "url": AUTHOR_URL},
+        "publisher": {"@type": "Person", "name": AUTHOR_NAME},
+        "isAccessibleForFree": True,
+        "about": {"@type": "TouristTrip", "name": title},
+    }
+    if date:
+        ld["datePublished"] = date
+    if cover_url:
+        ld["image"] = cover_url
+        og_image_tag = ('<meta property="og:image" content="%s">\n'
+                        '<meta name="twitter:card" content="summary_large_image">' % cover_url)
+    else:
+        og_image_tag = '<meta name="twitter:card" content="summary">'
+
+    short = ('<p class="note-short">短網址：<a href="%s">%s</a></p>'
+             % (short_url, short_url)) if short_url else ""
+
+    html_out = DRIVE_TEMPLATE.format(
+        title=html.escape(title),
+        title_attr=html.escape(title, quote=True),
+        site_name=SITE_NAME,
+        hook=html.escape(hook, quote=True),
+        canonical=canonical,
+        md_rel=md_rel,
+        og_image_tag=og_image_tag,
+        jsonld=json.dumps(ld, ensure_ascii=False, indent=2),
+        date=date,
+        kicker=date or "自駕",
+        lead=lead_html,
+        toc=toc_html,
+        sections="\n".join(blocks),
+        tags=tags_html,
+        short=short,
+    )
+    with open(os.path.join(DRIVE_DIR, "%s.html" % slug), "w", encoding="utf-8") as f:
+        f.write(inject_analytics(html_out))
+
+    md = ["# %s\n" % title]
+    if date:
+        md.append("> 自駕 · %s\n" % date)
+    md.append(body.strip() + "\n")
+    if short_url:
+        md.append("\n---\n短網址：%s\n" % short_url)
+    with open(os.path.join(DRIVE_DIR, "%s.md" % slug), "w", encoding="utf-8") as f:
+        f.write("\n".join(md))
+
+    return {
+        "slug": slug,
+        "title": title,
+        "date": date,
+        "hook": hook,
+        "tags": tags,
+        "cover": cover,
+        "chapters": [t for _, t in toc],
+        "url": "drive/%s.html" % slug,
+        "markdown": "drive/%s.md" % slug,
+        "short": short_url,
+    }, "\n".join(md)
+
+
+DRIVE_TEMPLATE = GUIDE_TEMPLATE.replace(
+    "— 超入門 · {site_name}", "— 自駕 · {site_name}").replace(
+    "🔰</text>", "🚗</text>").replace(
+    'href="./assets/guide.css"', 'href="../guide/assets/guide.css"').replace(
+    '<a href="../index.html#guide">超入門</a>', '<a href="../index.html#drive">自駕</a>').replace(
+    "🔰 超入門 · ", "🚗 自駕 · ").replace(
+    "    {eli5}\n", "").replace(
+    "CHRIS OS · 超入門系列", "CHRIS OS · 自駕系列")
+
+
+def write_drive_index_json(drives):
+    payload = {
+        "site": SITE_NAME,
+        "description": "自駕——日本自駕旅，一篇一天的路線：景點、停車與必買。",
+        "canonical_base": CANONICAL_BASE,
+        "updated": max((d["date"] for d in drives), default=""),
+        "count": len(drives),
+        "drives": drives,
+    }
+    with open(os.path.join(DRIVE_DIR, "index.json"), "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+
+def write_drive_redirects(drives, mapping):
+    d = os.path.join(ROOT, "d")
+    os.makedirs(d, exist_ok=True)
+    for g in drives:
+        code = mapping[g["slug"]]
+        target = "%s/%s" % (CANONICAL_BASE, g["url"])
+        with open(os.path.join(d, "%s.html" % code), "w", encoding="utf-8") as f:
+            f.write(REDIRECT_TEMPLATE.format(
+                target=target,
+                title=html.escape(g["title"], quote=True),
+                hook=html.escape(g.get("hook", ""), quote=True),
+                og_image='<meta name="twitter:card" content="summary">'))
+
+
+def build_drives():
+    """自駕。沒有 drive/src/ 就整段跳過。"""
+    if not os.path.isdir(DRIVE_SRC_DIR):
+        return [], [], {}
+    mapping = load_shrine_shortlinks(DRIVE_DIR)
+    files = sorted(f for f in os.listdir(DRIVE_SRC_DIR) if is_guide_file(f))
+    drives, texts = [], []
+    for name in files:
+        path = os.path.join(DRIVE_SRC_DIR, name)
+        with open(path, encoding="utf-8") as f:
+            meta, _ = parse_front_matter(f.read())
+        if str(meta.get("status", "")).strip() not in GUIDE_PUBLISH_STATUS:
+            continue
+        slug = os.path.splitext(name)[0]
+        code = assign_short(mapping, slug)
+        short_url = "%s/d/%s%s" % (SHORT_BASE, code, SHORT_SUFFIX)
+        g, text = build_drive(path, short_url)
+        drives.append(g)
+        texts.append(text)
+        print("🚗 %s（%d 章）" % (g["slug"], len(g["chapters"])))
+    paired = sorted(zip(drives, texts),
+                    key=lambda p: (p[0]["date"], p[0]["slug"]), reverse=True)
+    return ([g for g, _ in paired], [t for _, t in paired], mapping)
+
+
 def main():
     if not os.path.isdir(SRC_DIR):
         print("尚無 %s，沒有筆記可處理" % SRC_DIR)
@@ -2183,6 +2382,7 @@ def main():
     guides, guide_texts, guide_shortlinks = build_guides()
     kengakus, kengaku_texts, kengaku_registry, kengaku_shortlinks = build_kengakus()
     onsens, onsen_texts, onsen_registry, onsen_shortlinks = build_onsens()
+    drives, drive_texts, drive_shortlinks = build_drives()
 
     write_redirects(notes, shortlinks)
     save_shortlinks(shortlinks)
@@ -2203,14 +2403,18 @@ def main():
         write_onsen_index_json(onsens, onsen_registry)
         write_shrine_redirects(onsens, onsen_shortlinks, "o", "onsen")
         save_shrine_shortlinks(onsen_shortlinks, ONSEN_DIR)
-    write_sitemap(notes, shrines, guides, kengakus, onsens)
+    if drives:
+        write_drive_index_json(drives)
+        write_drive_redirects(drives, drive_shortlinks)
+        save_shrine_shortlinks(drive_shortlinks, DRIVE_DIR)
+    write_sitemap(notes, shrines, guides, kengakus, onsens, drives)
     write_robots()
     write_llms(notes, shrines, len(registry), guides, kengakus, len(kengaku_registry), onsens, len(onsen_registry))
     write_llms_full(notes, texts, shrine_texts, guide_texts, kengaku_texts, onsen_texts)
     sync_index_analytics()
 
-    print("\n共 %d 則筆記、%d 篇散策、%d 篇超入門、%d 篇見學、%d 篇溫泉"
-          % (len(notes), len(shrines), len(guides), len(kengakus), len(onsens)))
+    print("\n共 %d 則筆記、%d 篇散策、%d 篇超入門、%d 篇見學、%d 篇溫泉、%d 篇自駕"
+          % (len(notes), len(shrines), len(guides), len(kengakus), len(onsens), len(drives)))
     print("已更新：notes/index.json、notes/shortlinks.json、n/*.html、"
           "shrine/index.json、shrine/shortlinks.json、s/*.html、"
           "sitemap.xml、robots.txt、llms.txt、llms-full.txt")
