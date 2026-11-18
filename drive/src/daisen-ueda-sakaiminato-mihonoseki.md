@@ -26,10 +26,10 @@ tags: [自駕, 鳥取, 島根, 大山, 境港, 神社, 建築]
 | 3 | 植田正治寫真美術館（約 12 分） | 1 小時 | 免費（普通車 100 台） |
 | 4 | 午餐：SOUP CURRY FARM+（米子市安倍，約 28 分；備選 海陽亭） | 50 分 | 店家停車場（台數未查到） |
 | 5 | 境港水產物直賣センター（約 23 分） | 30 分 | 直賣センター停車場（約 300 台） |
-| 6 | 美保神社＋青石疊通（約 15 分） | 1 小時 | 美保關觀光無料停車場 |
+| 6 | 美保神社＋青石疊通＋夕御饌祭（約 15 分） | 1 小時 30 分 | 美保關觀光無料停車場 |
 | 7 | 境港・水木しげるロード周邊（約 19 分） | — | — |
 
-全天開車約 74 公里、1 小時 55 分（Google Maps，不含塞車）。早上 8:45 從伯耆町出發、照上表的停留時間走，約 9 點到大山寺、11 點過到植田正治寫真美術館、12 點半過吃午餐、14 點半到美保神社，16 點前回到境港。12 月上旬松江日落 16:55（國立天文台）。
+全天開車約 74 公里、1 小時 55 分（Google Maps，不含塞車）。早上 8:45 從伯耆町出發、照上表的停留時間走，約 9 點到大山寺、11 點過到植田正治寫真美術館、12 點半過吃午餐、14 點半到美保神社、看完 15:30 的夕御饌祭，16 點半前回到境港。12 月上旬松江日落 16:55（國立天文台）。
 
 **大山排在一早**：奧宮授與所 9:00 開、16:00 收，放早上最穩；下午再上山，雪天參道和日落都會壓縮時間。
 
@@ -47,6 +47,8 @@ tags: [自駕, 鳥取, 島根, 大山, 境港, 神社, 建築]
 **排日子要注意的公休**：植田正治寫真美術館**週二休、12/11–2 月底冬季休館**，換展期間也休；境港水產物直賣センター、海陽亭**週二休**。整條路線避開週二。
 
 **時間吃緊的地方**：
+
+- **美保神社夕御饌祭 15:30**：每天 15:30 起約 30 分，有巫女舞的日子在拜殿外就能看；15:25 前領完御朱印、站到拜殿外。
 
 - **奧宮授與所 9:00 開**：先大山寺再上奧宮，到奧宮時已經 9:30 過。
 - **FARM+ 不定休**：2026/10/1 才開幕，店家 Instagram 寫「定休日：無 ※しばらくの間」；出發前看一下 Instagram。
@@ -206,18 +208,28 @@ tags: [自駕, 鳥取, 島根, 大山, 境港, 神社, 建築]
 - **祭神**：左殿（大御前）三穗津姬命、右殿（二御前）事代主神（美保神社官網）。事代主神就是ゑびす樣。
 - **本殿**：兩座大社造之間以「裝束の間」相連，稱「美保造」或「比翼大社造」；木材大多用美保關一帶自生的松，檜皮葺。現本殿**文化 10 年（1813）**重建，國家重要文化財（美保神社官網）。
 
-## 怎麼走（1 小時）
+## 怎麼走（1 小時 30 分）
 
-- 神社境內 30 分：本殿美保造的兩座並排屋頂、拜殿。
-- **青石疊通**：神社前往西的老街，石板路雨天會泛青光（民間資料，島根觀光網站）。來回 20 分。
-- 時間有餘可以開約 5 分鐘到**美保關燈塔**（Google Maps 10:00–16:00），回境港的時間要再加上燈塔停留。
+| 時間 | 地點 | 看點 |
+| --- | --- | --- |
+| 14:36–15:00 | 青石疊通 | 神社前往西的老街，石板路雨天會泛青光（民間資料，島根觀光網站）；來回約 20 分 |
+| 15:00–15:25 | 神社境內 | 本殿美保造兩座並排的屋頂；**先去授與所領御朱印** |
+| 15:30–16:00 | **夕御饌祭** | 在拜殿外看，見下 |
+
+## 夕御饌祭（每天 15:30）
+
+- 美保神社每天早上 8:30「朝御饌祭」、下午 15:30「夕御饌祭」，獻上每日供品、感謝神恩；**在拜殿外自由觀看**（美保神社官網）。
+- 祝詞之後，隨神樂演奏奉納**巫女舞**，全程約 30 分（松江觀光協會）。
+- **不是每天都有巫女舞**：有時只有太鼓、笛的演奏，沒有巫女舞（美保神社官網、松江觀光協會）。
+- 其他祭事會讓開始時間變動（官網），出發前對照官網的祭事表；例如 12 月的特別祭事排在 1、3、7、21、25、28、29、31 日。
+- 美保關燈塔（開車約 5 分，Google Maps 10:00–16:00）時間上排不進去，略過。
 
 ## 實用資訊
 
 | 項目 | 內容 |
 | --- | --- |
 | 地址 | 島根縣松江市美保關町美保關 608 |
-| 時間 | 參拜自由；授與所 8:30 起，御朱印受付到 17:00 左右（民間資料） |
+| 時間 | 參拜自由；授與所 8:30 起，御朱印受付到 17:00 左右（民間資料）；朝御饌祭 8:30、夕御饌祭 15:30 |
 | 電話 | 0852-73-0506 |
 | 御朱印 | 300 円（goshuinmeguri）／500 円（shinbutsu.jp），以現場為準 |
 | 停車 | 美保關觀光無料停車場（美保關町美保關 661-2，Google Maps） |
@@ -261,6 +273,6 @@ tags: [自駕, 鳥取, 島根, 大山, 境港, 神社, 建築]
 - 海陽亭：[kaiyoutei.jp](https://www.kaiyoutei.jp/sakaiminato/food/) ／ [map.yahoo.co.jp（民間資料，價格）](https://map.yahoo.co.jp/v3/place/P4NoZQNlk_g) ／ [autoreserve.com（民間資料，停車）](https://autoreserve.com/en/restaurants/CGXWKScXDkCDFUe1RESR)
 - しんわ・和泉：[sakaiminato.net（境港市觀光協會）](https://sakaiminato.net/magazine/%E3%81%95%E3%81%8B%E3%81%AA%E3%81%AE%E3%81%BE%E3%81%A1%E5%A2%83%E6%B8%AF%E3%81%A7%E5%91%B3%E3%82%8F%E3%81%86%E7%B5%B6%E5%93%81%E6%B5%B7%E9%AE%AE%E4%B8%BC%EF%BC%95%E9%81%B8) ／ [retty.me（民間資料，しんわ價格）](https://retty.me/area/PRE31/ARE288/SUB28801/100001387056/39177475/)
 - 味處まつや：[matsuya.shimane.jp](https://matsuya.shimane.jp/info/) ／ [instagram.com/mihonoseki.matsuya（定休日、排隊）](https://www.instagram.com/mihonoseki.matsuya/)
-- 美保神社：[mihojinja.or.jp（由緒）](http://mihojinja.or.jp/yuisho) ／ [kankou-shimane.com](https://www.kankou-shimane.com/pickup/46617.html) ／ [goshuinmeguri.app（民間資料，御朱印）](https://goshuinmeguri.app/app/shrine/fd788f5f-1a79-43f1-9f25-881e5c2d3a06) ／ [shinbutsu.jp（民間資料，御朱印）](https://shinbutsu.jp/shrines-temples/mihojinja/) ／ [tabi.torisetsu-shimane.com（民間資料，青石疊通）](https://tabi.torisetsu-shimane.com/mihonoseki-moderuko-su/)
+- 美保神社：[mihojinja.or.jp（由緒）](http://mihojinja.or.jp/yuisho) ／ [mihojinja.or.jp（祭事）](http://mihojinja.or.jp/saiji/) ／ [kankou-matsue.jp（松江觀光協會，巫女舞）](https://www.kankou-matsue.jp/kankou/desc/?cat=%E5%AF%BA%E9%99%A2%E7%A5%9E%E7%A4%BE&spot=27763) ／ [kankou-shimane.com](https://www.kankou-shimane.com/pickup/46617.html) ／ [goshuinmeguri.app（民間資料，御朱印）](https://goshuinmeguri.app/app/shrine/fd788f5f-1a79-43f1-9f25-881e5c2d3a06) ／ [shinbutsu.jp（民間資料，御朱印）](https://shinbutsu.jp/shrines-temples/mihojinja/) ／ [tabi.torisetsu-shimane.com（民間資料，青石疊通）](https://tabi.torisetsu-shimane.com/mihonoseki-moderuko-su/)
 - 日落時間：[eco.mtk.nao.ac.jp（國立天文台，松江 2026 年 12 月）](https://eco.mtk.nao.ac.jp/koyomi/dni/2026/s3312.html)
 - 營業時間、電話、評價、車程：Google Maps（Places API、Routes API，2026-11-18 查詢）
