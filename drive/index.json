@@ -3,7 +3,7 @@
   "description": "自駕——日本自駕旅，一篇一天的路線：景點、停車與必買。",
   "canonical_base": "https://chrisincite.github.io",
   "updated": "2026-11-19",
-  "count": 8,
+  "count": 9,
   "drives": [
     {
       "slug": "murotsu-ako-misaki",
@@ -236,6 +236,40 @@
       "url": "drive/tajima-sakyu-izushi-yuhigaura.html",
       "markdown": "drive/tajima-sakyu-izushi-yuhigaura.md",
       "short": "https://os.housearch.net/d/1"
+    },
+    {
+      "slug": "ine-amanohashidate-sasayama",
+      "title": "Day 8｜伊根、天橋立、丹波篠山一日：海に一番近い酒蔵、舟屋、元伊勢籠神社、傘松公園到篠山城大書院",
+      "date": "2026-11-19",
+      "day": 8,
+      "hook": "從夕日ヶ浦沿丹後半島開到伊根，在舟屋街的向井酒造買「京の春」、進公開的舟屋看漁具、上道の駅俯瞰舟屋群，中午在天橋立府中吃海鮮、拜元伊勢籠神社、搭纜車上傘松公園，傍晚趕到丹波篠山看篠山城大書院與河原町妻入商家群；每站附停車點、御朱印與必買清單。",
+      "tags": [
+        "自駕",
+        "京都",
+        "兵庫",
+        "丹後",
+        "丹波篠山",
+        "神社",
+        "酒藏"
+      ],
+      "cover": "",
+      "chapters": [
+        "行程總覽",
+        "一、向井酒造",
+        "二、舟屋見学 幸洋丸",
+        "三、道の駅 舟屋の里伊根",
+        "四、午餐：よし乃や",
+        "五、丹後國一宮 籠神社",
+        "六、天橋立傘松公園",
+        "七、篠山城大書院",
+        "八、河原町妻入商家群",
+        "購物清單總整理",
+        "出發前提醒",
+        "出處"
+      ],
+      "url": "drive/ine-amanohashidate-sasayama.html",
+      "markdown": "drive/ine-amanohashidate-sasayama.md",
+      "short": "https://os.housearch.net/d/9"
     },
     {
       "slug": "sasayama-iwa-himeji",
