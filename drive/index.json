@@ -3,7 +3,7 @@
   "description": "自駕——日本自駕旅，一篇一天的路線：景點、停車與必買。",
   "canonical_base": "https://chrisincite.github.io",
   "updated": "2026-11-19",
-  "count": 7,
+  "count": 8,
   "drives": [
     {
       "slug": "murotsu-ako-misaki",
@@ -135,6 +135,38 @@
       "url": "drive/daisen-ueda-sakaiminato-mihonoseki.html",
       "markdown": "drive/daisen-ueda-sakaiminato-mihonoseki.md",
       "short": "https://os.housearch.net/d/5"
+    },
+    {
+      "slug": "matsue-izumo-taisha",
+      "title": "Day 5｜松江、出雲大社一日：國寶松江城、鹽見繩手的武家屋敷與小泉八雲、荒木屋的出雲蕎麥、古代出雲歷史博物館到稻佐之濱夕陽",
+      "date": "2026-11-19",
+      "day": 5,
+      "hook": "從境港出發，早上走松江城天守與鹽見繩手的武家屋敷、小泉八雲記念館與舊居，中午在出雲大社旁兩百多年的老店荒木屋吃割子蕎麥，下午拜出雲大社、看古代出雲歷史博物館的宇豆柱與銅劍銅鐸，傍晚在稻佐之濱看夕陽；每站附停車點、門票買法、多人座位與御朱印。",
+      "tags": [
+        "自駕",
+        "島根",
+        "松江",
+        "出雲",
+        "神社",
+        "博物館"
+      ],
+      "cover": "",
+      "chapters": [
+        "行程總覽",
+        "一、松江城",
+        "二、武家屋敷",
+        "三、小泉八雲記念館＋小泉八雲舊居",
+        "四、午餐：出雲そば 荒木屋",
+        "五、出雲大社",
+        "六、島根縣立古代出雲歷史博物館",
+        "七、稻佐之濱",
+        "購物清單總整理",
+        "出發前提醒",
+        "出處"
+      ],
+      "url": "drive/matsue-izumo-taisha.html",
+      "markdown": "drive/matsue-izumo-taisha.md",
+      "short": "https://os.housearch.net/d/8"
     },
     {
       "slug": "izumo-suga-iu-rokusha-adachi",
