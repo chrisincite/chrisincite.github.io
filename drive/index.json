@@ -3,8 +3,37 @@
   "description": "自駕——日本自駕旅，一篇一天的路線：景點、停車與必買。",
   "canonical_base": "https://chrisincite.github.io",
   "updated": "2026-11-19",
-  "count": 6,
+  "count": 7,
   "drives": [
+    {
+      "slug": "sasayama-iwa-himeji",
+      "title": "丹波篠山、伊和神社、姬路一日：播磨國一宮、姬路城、播磨國總社到神戶元町的燒鳥",
+      "date": "2026-11-19",
+      "hook": "從丹波篠山往西開到宍粟拜播磨國一宮伊和神社，南下姬路吃手打讃岐烏龍麵、用一小時走姬路城主線，再拜合祀播磨諸神的射楯兵主神社，傍晚進神戶元町吃但馬雞燒鳥；每站附停車點、御朱印與必買清單。",
+      "tags": [
+        "自駕",
+        "兵庫",
+        "播磨",
+        "姬路",
+        "神社",
+        "城"
+      ],
+      "cover": "",
+      "chapters": [
+        "行程總覽",
+        "一、播磨國一宮 伊和神社",
+        "二、午餐：讃岐うどん めんめ",
+        "三、姬路城",
+        "四、播磨國總社 射楯兵主神社",
+        "晚餐：燒鳥 一角",
+        "購物清單總整理",
+        "出發前提醒",
+        "出處"
+      ],
+      "url": "drive/sasayama-iwa-himeji.html",
+      "markdown": "drive/sasayama-iwa-himeji.md",
+      "short": "https://os.housearch.net/d/7"
+    },
     {
       "slug": "murotsu-ako-misaki",
       "title": "室津一日：神戶機場取車、網元漁師的牡蠣午餐、室津海驛館與賀茂神社，傍晚到赤穗御崎泡湯看日落",
