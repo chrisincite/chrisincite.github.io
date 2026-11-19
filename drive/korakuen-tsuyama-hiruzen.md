@@ -320,7 +320,7 @@
 
 ---
 
-# 晚餐：鄉の鮨たむら
+# 晚餐：郷の鮨たむら
 
 - 伯耆町丸山 1800-26（大山ガーデンプレイス內），0859-39-8585；午餐 12:00–15:00、晚餐 17:00–21:00，**週三休**，也可能因漁況或市場休息臨時公休（伯耆町官網）；可刷卡（Google Maps）。
 - 用在地魚做的正統壽司，價格親民，口耳相傳出名；吧台是一整塊木板配樹樁椅。2019 年從伯耆町久古搬到現址。
@@ -380,7 +380,7 @@
 - 博勞座停車場：[navitime（民間資料，滑雪季收費）](https://travel.navitime.com/ja/area/jp/spot/60004-NTPK158150/)
 - 日落時間：[eco.mtk.nao.ac.jp（國立天文台，鳥取 2026 年 12 月）](https://eco.mtk.nao.ac.jp/koyomi/dni/2026/s3212.html) ／ [同，松江](https://eco.mtk.nao.ac.jp/koyomi/dni/2026/s3312.html)
 - 營業時間、電話、評價、車程：Google Maps（Places API、Routes API，2026-11-18 查詢）
-- 鄉の鮨たむら：[houki-town.jp（伯耆町，營業時間）](https://www.houki-town.jp/dgarden2/8/6/) ／ [etorin.jp（民間資料，午餐楓）](https://etorin.jp/gourmet_spot/seibu_satonosushi-tamura/) ／ [uraluz.exblog.jp（民間資料，2025/3 菜單分類與肉鮨）](https://uraluz.exblog.jp/33547235/) ／ [ameblo.jp（民間資料，2024/12 晚間套餐）](https://ameblo.jp/sanninnnohibi/entry-12948759543.html)
+- 郷の鮨たむら：[houki-town.jp（伯耆町，營業時間）](https://www.houki-town.jp/dgarden2/8/6/) ／ [etorin.jp（民間資料，午餐楓）](https://etorin.jp/gourmet_spot/seibu_satonosushi-tamura/) ／ [uraluz.exblog.jp（民間資料，2025/3 菜單分類與肉鮨）](https://uraluz.exblog.jp/33547235/) ／ [ameblo.jp（民間資料，2024/12 晚間套餐）](https://ameblo.jp/sanninnnohibi/entry-12948759543.html)
 
 
 ---
