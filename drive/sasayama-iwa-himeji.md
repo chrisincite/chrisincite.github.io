@@ -16,7 +16,7 @@
 | --- | --- | --- | --- |
 | 0 | 丹波篠山城下町出發 | — | — |
 | 1 | 播磨國一宮 伊和神社（約 84 分） | 30 分 | 神社停車場（180 台） |
-| 2 | 午餐：讃岐うどん めんめ（約 59 分到大手門駐車場，再步行約 7 分；備選 千姬茶屋） | 45 分 | 大手門駐車場（約 555 台，3 小時內 600 円） |
+| 2 | 午餐：讃岐うどん めんめ（約 59 分到大手門駐車場，再步行約 7 分；備選 千姫茶屋） | 45 分 | 大手門駐車場（約 555 台，3 小時內 600 円） |
 | 3 | 姬路城（步行約 10 分到改札口） | 1 小時 | 車留在大手門駐車場 |
 | 4 | 播磨國總社 射楯兵主神社（步行約 19 分） | 20 分 | 同上 |
 | 5 | 神戶元町周邊（大手門駐車場步行約 11 分回車，再開約 67 分） | — | — |
@@ -35,7 +35,7 @@
 
 **時間吃緊的地方**：
 
-- **めんめ 12:00 開門、麵賣完就打烊**：停好車直接走過去，開門就進。排太長就改備選千姬茶屋（L.O. 14:00）。
+- **めんめ 12:00 開門、麵賣完就打烊**：停好車直接走過去，開門就進。排太長就改備選千姫茶屋（L.O. 14:00）。
 - **姬路城 1 小時只夠主線**：大天守每小時限 1,000 人登城，入口排隊久的話，1 小時會被吃掉一大塊；排隊太長就放棄大天守內部，改在備前丸看外觀。
 - **姬路城最終入城 16:00**，照這條路線下午 1 點前就進城，不受影響。
 
@@ -95,7 +95,7 @@
 | 預約 | 不可（Tabelog） |
 | 停車 | 沒有，車停大手門駐車場 |
 
-## 備選：千姬茶屋
+## 備選：千姫茶屋
 
 - イーグレひめじ 1 樓，大手門駐車場旁，姬路城步行可到。
 
@@ -157,7 +157,7 @@
 
 ## 🛍️ 姬路城
 
-- 改札口旁的賣店（官網）：明珍火箸風鈴、姬路はりこ（紙糊玩偶）、姬山人形、姬路陀螺、姬路皮革工藝、書寫塗，和菓子、仙貝。
+- 改札口旁的賣店（官網）：明珍火箸風鈴、姫路はりこ（紙糊玩偶）、姬山人形、姬路陀螺、姬路皮革工藝、書寫塗，和菓子、仙貝。
 - 日本 100 名城印章在城內。
 
 ---
@@ -194,7 +194,7 @@
 
 ---
 
-# 晚餐：燒鳥 一角
+# 晚餐：焼鳥 一角
 
 - 神戶市中央區下山手通 3-3-9，078-201-0066；JR 元町站東口步行約 5 分（官網）。
 - 17:00–隔天 0:00（料理 L.O. 23:30），**週三休**（官網）。
@@ -314,7 +314,7 @@
 | 地點 | 商品 | 備註 |
 | --- | --- | --- |
 | 伊和神社 | 御朱印 | 播磨國一宮 |
-| 姬路城賣店 | 明珍火箸風鈴、姬路はりこ、書寫塗、和菓子 | 改札口旁 |
+| 姬路城賣店 | 明珍火箸風鈴、姫路はりこ、書寫塗、和菓子 | 改札口旁 |
 | 射楯兵主神社 | 御朱印 | 授與所到 17:00（民間資料） |
 
 ---
@@ -325,7 +325,7 @@
 2. **めんめ只收現金**、12:00 開門、麵賣完就收；週三休。
 3. **姬路城只停 1 小時**：大天守入口排隊太長就改看外觀。
 4. **大手門駐車場 3 小時內 600 円**，超過變 900 円。
-5. **燒鳥 一角週三休**、每人小菜費 418 円。
+5. **焼鳥 一角週三休**、每人小菜費 418 円。
 
 ---
 
@@ -335,10 +335,10 @@
 - 姬路城：[city.himeji.lg.jp（入城料、開城時間、付款、休城日）](https://www.city.himeji.lg.jp/castle/0000007671.html) ／ [city.himeji.lg.jp（見學路線、各點說明）](https://www.city.himeji.lg.jp/castle/0000007738.html) ／ [himejicastle.jp（大天守 16:10 前到入口）](https://himejicastle.jp/faq.html) ／ [city.himeji.lg.jp（姬路城公式：年表、城主）](https://www.city.himeji.lg.jp/castle/0000007750.html) ／ [rekihaku.pref.hyogo.lg.jp（兵庫縣立歷史博物館年表）](https://rekihaku.pref.hyogo.lg.jp/castle/himeji-chronology/) ／ [mainichi.jp（2026/3/1 二重價格）](https://mainichi.jp/articles/20260227/k00/00m/040/249000c) ／ [toolassist.co.jp（國寶 8 棟、重文 74 棟，民間資料）](https://toolassist.co.jp/blogbuilding150)
 - 大手門駐車場：[city.himeji.lg.jp（台數、料金）](https://www.city.himeji.lg.jp/faq/faq_detail.php?frmId=1014)
 - めんめ：[tabelog.com（時間、週三休、不可預約，民間資料）](https://tabelog.com/hyogo/A2805/A280501/28005755/) ／ [jalan.net（めんめうどん價格，民間資料）](https://www.jalan.net/gourmet/grm_alikejpB000077862/kuchikomi/)
-- 千姬茶屋：[senhimechaya.owst.jp（菜單、時間、付款、座位）](https://senhimechaya.owst.jp)
+- 千姫茶屋：[senhimechaya.owst.jp（菜單、時間、付款、座位）](https://senhimechaya.owst.jp)
 - 射楯兵主神社：[sohsha.jp（祭神、合祀、御神橋、神殿）](https://www.sohsha.jp/) ／ [sohsha.jp（《神のやま》第 3 號：一ツ山・三ツ山大祭週期）](https://www.sohsha.jp/mcommon/img/kaminoyama_03.pdf) ／ [goshuinmeguri.app（御朱印時間、初穗料，民間資料）](https://goshuinmeguri.app/app/shrine/e38e4204-81eb-4a6d-88fa-fd25c9a9da73) ／ [instagram.com（御朱印帳 1,500 円）](https://www.instagram.com/p/CRs5urPJXte/)
 - 篠山城大書院（週一休館）：[withsasayama.jp](https://withsasayama.jp/osyoin/)
-- 燒鳥 一角：[yakitori-ikkaku.owst.jp（時間、公休、付款、小菜費、食材）](https://yakitori-ikkaku.owst.jp/) ／ [hotpepper.jp（料理菜單）](https://www.hotpepper.jp/strJ003872129/food/) ／ [tabelog.com（席數、開店日、元町コース）](https://s.tabelog.com/hyogo/A2801/A280102/28070477/party/302089179/)
+- 焼鳥 一角：[yakitori-ikkaku.owst.jp（時間、公休、付款、小菜費、食材）](https://yakitori-ikkaku.owst.jp/) ／ [hotpepper.jp（料理菜單）](https://www.hotpepper.jp/strJ003872129/food/) ／ [tabelog.com（席數、開店日、元町コース）](https://s.tabelog.com/hyogo/A2801/A280102/28070477/party/302089179/)
 - 日落：[eco.mtk.nao.ac.jp（國立天文台，神戶 2026 年 12 月）](https://eco.mtk.nao.ac.jp/koyomi/dni/2026/s2912.html)
 - 地址、電話、營業時間、座標、車程與步行時間：Google Maps（Places API、Routes API，2026-11-19 查詢）
 
