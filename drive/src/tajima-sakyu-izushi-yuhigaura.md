@@ -318,6 +318,15 @@ tags: [自駕, 鳥取, 兵庫, 京丹後, 新日本風土記]
 
 ---
 
+# 晚餐：佳松苑 別邸ふうか
+
+- 京丹後市網野町木津 247，0772-74-9009；全 18 室、只收國中生以上的大人宿（官網）。
+- 晚餐在館內專用食事處「風水-FUSUI-」吃創作會席。**晚餐的飲料（含酒）與頂樓 Lounge Terrace「碧-AO-」的飲料都免費**（ドリンクインクルーシブ）。
+- 11 月上旬到 3 月以松葉蟹、ズワイガニ（楚蟹）入菜；松葉蟹每年 11/6 解禁，津居山蟹、柴山蟹等日本海品牌蟹上市（Yahoo!トラベル的住宿介紹）。
+- **官網沒有公開當季的品書**，內容依方案與季節變動。部落格記過的冬季蟹會席是「活松葉蟹付き蟹会席」：2 人 3 隻（掛牌松葉蟹 1 隻＋一般楚蟹 2 隻）。早餐是「美活御膳」（美肌鍋、豆乳熱沾醬、釜炊白飯）。
+
+---
+
 # 購物清單總整理
 
 | 地點 | 商品 | 備註 |
@@ -356,3 +365,4 @@ tags: [自駕, 鳥取, 兵庫, 京丹後, 新日本風土記]
 - 鸛鳥育成農法：[toyooka-kounotori.com](https://toyooka-kounotori.com/yaseihukki/genzai/nougyou/) ／ [city.toyooka.lg.jp](https://www.city.toyooka.lg.jp/sangyo/1021071/1023680/1023748/1023749/1004055.html)
 - 杞柳與皮包：[toyooka-tourism.com](https://toyooka-tourism.com/recommend/tradition/kiryu/) ／ [toyooka-kaban.jp](https://toyooka-kaban.jp/trip/) ／ [toyooka-tourism.com](https://toyooka-tourism.com/recommend/tradition/kaban-artisan/) ／ [colocal.jp](https://colocal.jp/hyogo/20230331_155690.html)
 - 夕日ヶ浦：[kyotango.gr.jp](https://www.kyotango.gr.jp/sightseeing/28884/) ／ [yu-zen.com](https://www.yu-zen.com/menu/spring.html) ／ [kasyouen.com](https://kasyouen.com/news/detail.php?mode=news_detail&news_id=194&cate_id=2)
+- 佳松苑 別邸ふうか：[k-fuka.com（官網，飲料免費、大人宿）](https://www.k-fuka.com/) ／ [travel.yahoo.co.jp（餐食介紹）](https://travel.yahoo.co.jp/00001878/meal/) ／ [ameblo.jp（民間資料，蟹會席）](https://ameblo.jp/dry-fruit/entry-12893612455.html)

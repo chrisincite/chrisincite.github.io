@@ -301,6 +301,56 @@ tags: [自駕, 鳥取, 島根, 大山, 境港, 神社, 建築]
 
 ---
 
+# 晚餐：碧と風（そらとかぜ）
+
+- 境港市榮町 94，0859-42-4000；17:30–24:00（L.O. 23:30），**週一休**（4–10 月週日也休），可用金融卡（Google Maps）。2017 年開業，店主作野敦。
+- 境港地魚、刺身、炸物、烤雞都有；11 月上旬到 3 月有松葉蟹。
+- 價格含稅，取自 Yahoo!地圖的店內菜單照片（年份未標）與 Tabelog（民間資料），**當天推薦與時價品以現場為準**。
+
+<!-- zh-glyphs:off -->
+**本日の一押し（當日推薦，照片中的例子）**
+
+- **もさえび刺身**　1,540 円：藻蝦生魚片（鮮度關係只限當天）
+- **浜ゆで紅ずわいがに**　4,840 円：港邊現煮紅楚蟹
+
+**おまかせ刺身盛合せ（主廚精選生魚片拼盤）**
+
+- **1人前程度**　1,650 円：約 1 人份
+- **2〜3人前程度**　3,850 円：約 2–3 人份
+- **3〜4人前程度**　5,500 円：約 3–4 人份
+- **5〜6人前程度**　8,800 円：約 5–6 人份
+
+**単品刺身（單點生魚片）**
+
+- **白いか**　1,980 円：白魷
+- **炙りいさき**　1,650 円：炙燒伊佐木
+- **炙りさわら**　1,540 円：炙燒鰆魚
+- **平政**　1,430 円：平政（紅甘鰺）
+- **ばい貝**　1,210 円：峨螺
+- **水たこ**　1,100 円：北太平洋巨型章魚
+- **あじ**　990 円：竹筴魚
+- **境港サーモン**　990 円：境港鮭魚
+- **さざえ**　990 円：蠑螺
+
+**逸品（招牌料理）**
+
+- **かにクリームコロッケ（1個）**　770 円：滿滿蟹肉的奶油可樂餅
+- **贅沢なアジフライ 砂丘ラッキョウ入りタルタルソース添え**　時價：奢華炸竹筴魚配砂丘蕗蕎塔塔醬
+- **肉厚炙りチャーシュー**　1,760 円（另一來源記 1,980 円）：厚切炙燒叉燒
+- **特選 炙りチャーシュー**　價格看不清：特選炙燒叉燒
+
+**コース（套餐，需預約）**
+
+- **極み海鮮コース**　18,700 円：極致海鮮套餐
+- **魚メインコース**　13,200 円：以魚為主的套餐
+- **店主お任せコース**　9,900 円：店主精選套餐
+- **グループ宴会コース**　5,500 円：團體宴會套餐
+<!-- zh-glyphs:on -->
+
+- 菜單照片另有「山陰名産」一頁（蜆、蔥、ねばりっこ山藥等，約 385–715 円），字太小辨識不出品名。
+
+---
+
 # 購物清單總整理
 
 | 地點 | 商品 | 備註 |
@@ -337,3 +387,4 @@ tags: [自駕, 鳥取, 島根, 大山, 境港, 神社, 建築]
 - 美保神社：[mihojinja.or.jp（由緒）](http://mihojinja.or.jp/yuisho) ／ [mihojinja.or.jp（祭事）](http://mihojinja.or.jp/saiji/) ／ [kankou-matsue.jp（松江觀光協會，巫女舞）](https://www.kankou-matsue.jp/kankou/desc/?cat=%E5%AF%BA%E9%99%A2%E7%A5%9E%E7%A4%BE&spot=27763) ／ [kankou-shimane.com](https://www.kankou-shimane.com/pickup/46617.html) ／ [goshuinmeguri.app（民間資料，御朱印）](https://goshuinmeguri.app/app/shrine/fd788f5f-1a79-43f1-9f25-881e5c2d3a06) ／ [shinbutsu.jp（民間資料，御朱印）](https://shinbutsu.jp/shrines-temples/mihojinja/) ／ [tabi.torisetsu-shimane.com（民間資料，青石疊通）](https://tabi.torisetsu-shimane.com/mihonoseki-moderuko-su/)
 - 日落時間：[eco.mtk.nao.ac.jp（國立天文台，松江 2026 年 12 月）](https://eco.mtk.nao.ac.jp/koyomi/dni/2026/s3312.html)
 - 營業時間、電話、評價、車程：Google Maps（Places API、Routes API，2026-11-18 查詢）
+- 碧と風：[map.yahoo.co.jp（民間資料，店內菜單照片）](https://map.yahoo.co.jp/v3/place/knd8dcQSvxE/menu) ／ [s.tabelog.com（民間資料，套餐與單品價格）](https://s.tabelog.com/tottori/A3103/A310301/31004900/party/) ／ [sakaiminato.com（境港市商店介紹）](http://www.sakaiminato.com/site/page/shop/people/shop/soratokaze/)
