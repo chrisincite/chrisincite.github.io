@@ -138,15 +138,40 @@
 - 點餐用桌上的 QR code（民間資料，na-na.media）。
 
 <!-- zh-glyphs:off -->
-菜單：
+菜單（官網，含稅）：
 
-- **FARM+ 野菜カレー**　1,350 円：FARM+ 蔬菜湯咖哩
-- **チキンカレー／ミンチカレー／パイカカレー**　1,480 円：雞肉／絞肉／豬軟骨（パイカ）湯咖哩
-- **牛すじカレー**　1,680 円：牛筋湯咖哩
-- **カツカレー**　1,730 円：豬排湯咖哩
-- **ランチセット**　1,980 円：午餐套餐（蔬菜・雞肉・絞肉・豬軟骨擇一，附沙拉、炸雞、飲料；民間資料，na-na.media）
-- **辣度**：0（不辣）～6 以上；3–5 辣 +50 円、6 以上 +100 円；「1.5」約等於一般咖哩塊的辣口
-- **飯量**：大 200 g／特大 300 g +100 円
+- **FARM+ 野菜カレー**　1,350 円：FARM+ 蔬菜湯咖哩（10 種蔬菜＋胡蘿蔔絲、紫高麗菜絲沙拉），店內推薦第一
+- **チキンカレー**　1,480 円：燉雞肉湯咖哩
+- **ミンチカレー**　1,480 円：香料絞肉湯咖哩
+- **パイカカレー**　1,480 円：燉豬五花軟骨（パイカ）湯咖哩
+- **牛すじカレー**　1,680 円：燉牛筋湯咖哩
+- **カツカレー**　1,730 円：炸豬排湯咖哩（要等比較久）
+- **お子様カレー（100g）**　980 円：兒童咖哩（椰奶甜味，附麥茶或蘋果汁）
+
+**辣度（辛さ）**：0（不辣）～6 以上（極辣）；3–5 +50 円、6 以上 +100 円；「1.5」約等於一般咖哩塊的辣口。
+
+**飯量（ごはん）**：小 120 g／中 150 g／大 200 g／特大 300 g +100 円。
+
+**加料（トッピング）**
+
+- **ゆでたまご**　150 円：水煮蛋
+- **3種のきのこ**　200 円：三種菇
+- **4種の彩り野菜**　300 円：四種蔬菜
+- **炙りチーズ**　200 円：炙烤起司
+- **とんかつ**　450 円：炸豬排
+- **ほうれん草ペースト**　200 円：菠菜泥
+
+**套餐飲料（セットドリンク）**　+300 円：ラッシー（優格飲）／ルイボスティー（南非國寶茶）／コーヒー（咖啡，冰或熱）／コーラ（可樂）／ジンジャーエール（薑汁汽水）／レモネジンジャー（檸檬薑汁）
+
+**副餐**
+
+- **野菜サラダ**　350 円：蔬菜沙拉
+- **ゆでたまごサラダ**　450 円：水煮蛋沙拉
+- **ハーブ入り唐揚げ（1個）**　200 円：香草炸雞（1 塊）
+- **ラッシー単品**　450 円：優格飲（單點）
+
+- 不用化學調味料、無麩質，以國產蔬菜為主（官網）。
+- na-na.media 記過「ランチセット」1,980 円（民間資料），官網菜單上沒有這一項。
 <!-- zh-glyphs:on -->
 
 | 項目 | 內容 |
@@ -164,12 +189,44 @@
 - 招牌：「名物 白いかの姿造り」（活白魷生魚片）、松葉蟹、當季鮮魚姿造り；丼飯有境港產本鮪魚、山陰名物「もさエビ」丼，以及 10 種境港鮮魚的「特選 海鮮丼」（直賣センター官網）。
 
 <!-- zh-glyphs:off -->
-菜單（民間資料，Yahoo!地圖）：
+菜單（官網，含稅；丼飯都附湯）：
 
-- **海鮮丼**　2,400 円：海鮮丼
-- **特選海鮮丼**　2,500 円：特選海鮮丼（10 種境港鮮魚）
-- **うにとイクラのダブル丼**　2,530 円：海膽鮭魚卵雙拼丼
-- **まぐろ漬け丼**　1,980 円：醬漬鮪魚丼
+**海鮮丼・定食**
+
+- **特選海鮮丼**　2,800 円：特選海鮮丼
+- **海鮮丼**　2,500 円：海鮮丼（日本海海鮮）
+- **うにとイクラのダブル丼**　2,800 円：海膽鮭魚卵雙拼丼
+- **もさ海老丼**　2,800 円：藻蝦丼（山陰的蝦，官網說比甜蝦更甜、市場少見）
+- **かにたっぷり丼**　2,600 円：滿滿蟹肉丼（**官網寫目前暫停**）
+- **大海老フライ定食**　2,600 円：大炸蝦定食（鳥取賀露本店的人氣菜）
+
+**マグロ料理（鮪魚）**：6–8 月左右用境港鮪魚，其他季節用蓄養鮪魚
+
+- **まぐろトロあぶり丼**　3,630 円：鮪魚腹肉生與炙燒丼
+- **まぐろ山盛り丼**　3,630 円：鮪魚滿盛丼
+- **まぐろ漬け丼**　2,500 円：醬漬鮪魚丼
+- **まぐろ丼**　2,500 円：鮪魚赤身丼
+- **まぐろ握り**　2,420 円：鮪魚各部位握壽司
+
+**活イカ（活魷魚）**
+
+- **鬼太郎活イカ姿造り**　150 g 3,300 円（1–2 人）／200 g 4,400 円（2–3 人）／250 g 5,500 円／300 g 6,600 円，最大 500 g 11,000 円：活白魷整尾生魚片（店內名物；時價變動，旺季 6–9 月）
+
+**活魚（一品料理）**
+
+- **大国主命 白いか刺身**　1,650 円：白魷生魚片
+- **もさえび（刺身or唐揚）**　3 尾 900 円：藻蝦（生食或炸）
+- **活皮はぎ姿造り**　2,420 円：活剝皮魚整尾生魚片
+- **活さざえ姿造り 又は つぼ焼き**　1 個 550 円：活蠑螺生魚片或壺燒
+- **活アジ姿造り**　時價：活竹筴魚整尾生魚片
+- **活あわび刺身**　時價：活鮑魚生魚片（200 g 起）
+- **夏輝**　價格未公布：「夏輝」岩牡蠣
+- **お嬢サバ姿造り**　1 尾 2,200 円：鳥取品牌鯖魚整尾生魚片（3–4 月，**官網寫目前暫停**）
+
+**ふぐ料理（冬季河豚）**：用境港產活虎河豚「鬼太郎ふぐ」，官網沒列品項與價格。
+
+- Yahoo!地圖投稿另有アジフライ（炸竹筴魚）850 円（民間資料）。
+- 投稿價格（海鮮丼 2,400 円、特選 2,500 円）比官網低，以官網為準。
 <!-- zh-glyphs:on -->
 
 | 項目 | 內容 |
@@ -270,7 +327,7 @@
 - 植田正治寫真美術館：[houki-town.jp（利用案內）](https://www.houki-town.jp/ueda/information/) ／ [houki-town.jp（企劃展）](https://www.houki-town.jp/ueda/exhibition/) ／ [houki-town.jp（館介紹）](https://www.houki-town.jp/ueda/) ／ [tobunken.go.jp（東京文化財研究所）](https://www.tobunken.go.jp/materials/nenshi/7694.html) ／ [sanaegogo.exblog.jp（民間資料，映像展示室）](https://sanaegogo.exblog.jp/22797663/)
 - 境港水產物直賣センター：[sanmaki-direct.jp](https://sanmaki-direct.jp/) ／ [sanmaki-direct.jp（海陽亭）](https://sanmaki-direct.jp/shop15.html)
 - SOUP CURRY FARM+：[farm-plus.jp](https://farm-plus.jp/) ／ [tottorimagazine.com（開幕日）](https://tottorimagazine.com/gourmet/soupcurryfarm26/) ／ [instagram.com/p/DeO2XjQk4FV（定休日）](https://www.instagram.com/p/DeO2XjQk4FV/) ／ [tabelog.com（預約）](https://tabelog.com/tottori/A3103/A310301/31007479) ／ [na-na.media（民間資料，ランチセット・停車）](https://na-na.media/20261002_soup_curry_farm/)
-- 海陽亭：[kaiyoutei.jp](https://www.kaiyoutei.jp/sakaiminato/food/) ／ [map.yahoo.co.jp（民間資料，價格）](https://map.yahoo.co.jp/v3/place/P4NoZQNlk_g) ／ [autoreserve.com（民間資料，停車）](https://autoreserve.com/en/restaurants/CGXWKScXDkCDFUe1RESR)
+- 海陽亭：[kaiyoutei.jp](https://www.kaiyoutei.jp/sakaiminato/food/) ／ [kaiyoutei.jp（海鮮丼・定食）](https://www.kaiyoutei.jp/sakaiminato/food/kaisendon/) ／ [kaiyoutei.jp（鮪魚）](https://www.kaiyoutei.jp/sakaiminato/food/maguro/) ／ [kaiyoutei.jp（活魷魚）](https://www.kaiyoutei.jp/sakaiminato/food/katsuika/) ／ [kaiyoutei.jp（活魚）](https://www.kaiyoutei.jp/sakaiminato/food/katsugyo/) ／ [map.yahoo.co.jp（民間資料，價格）](https://map.yahoo.co.jp/v3/place/P4NoZQNlk_g) ／ [autoreserve.com（民間資料，停車）](https://autoreserve.com/en/restaurants/CGXWKScXDkCDFUe1RESR)
 - しんわ・和泉：[sakaiminato.net（境港市觀光協會）](https://sakaiminato.net/magazine/%E3%81%95%E3%81%8B%E3%81%AA%E3%81%AE%E3%81%BE%E3%81%A1%E5%A2%83%E6%B8%AF%E3%81%A7%E5%91%B3%E3%82%8F%E3%81%86%E7%B5%B6%E5%93%81%E6%B5%B7%E9%AE%AE%E4%B8%BC%EF%BC%95%E9%81%B8) ／ [retty.me（民間資料，しんわ價格）](https://retty.me/area/PRE31/ARE288/SUB28801/100001387056/39177475/)
 - 味處まつや：[matsuya.shimane.jp](https://matsuya.shimane.jp/info/) ／ [instagram.com/mihonoseki.matsuya（定休日、排隊）](https://www.instagram.com/mihonoseki.matsuya/)
 - 美保神社：[mihojinja.or.jp（由緒）](http://mihojinja.or.jp/yuisho) ／ [mihojinja.or.jp（祭事）](http://mihojinja.or.jp/saiji/) ／ [kankou-matsue.jp（松江觀光協會，巫女舞）](https://www.kankou-matsue.jp/kankou/desc/?cat=%E5%AF%BA%E9%99%A2%E7%A5%9E%E7%A4%BE&spot=27763) ／ [kankou-shimane.com](https://www.kankou-shimane.com/pickup/46617.html) ／ [goshuinmeguri.app（民間資料，御朱印）](https://goshuinmeguri.app/app/shrine/fd788f5f-1a79-43f1-9f25-881e5c2d3a06) ／ [shinbutsu.jp（民間資料，御朱印）](https://shinbutsu.jp/shrines-temples/mihojinja/) ／ [tabi.torisetsu-shimane.com（民間資料，青石疊通）](https://tabi.torisetsu-shimane.com/mihonoseki-moderuko-su/)

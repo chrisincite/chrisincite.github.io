@@ -147,13 +147,36 @@ tags: [自駕, 岡山, 鳥取, 蒜山, 建築, 神社]
 - 2026 年的 Jersey 牛放牧到 11/10 左右結束，冬天草地上看不到牛；擠奶體驗目前也沒有（官網）。
 
 <!-- zh-glyphs:off -->
-菜單（含稅）：
+菜單（官網，含稅）：
 
-- **ジャージーコース**　2,200 円／人：起司鍋 Jersey 套餐（麵包、沙拉、優格）
-- **蒜山コース**　2,750 円／人：起司鍋蒜山套餐（再加蔬菜、香腸）
-- **プレミアムコース**　3,600 円／人：起司鍋頂級套餐（再加 Jersey 牛腿排 80 g）
-- **ジャージーランドセット**　3,600 円：單人起司鍋套餐（起司填在麵包裡＋牛腿排 80 g、沙拉、優格）
-- **チーズカレー**　1,680 円：起司咖哩（Jersey 牛咖哩加自家高達起司）
+**チーズフォンデュ（起司鍋，2 人份起點）**
+
+- **ジャージーコース**　2,200 円／人：Jersey 套餐（起司鍋用麵包、沙拉、優格）
+- **蒜山コース**　2,750 円／人：蒜山套餐（再加蔬菜、香腸）
+- **プレミアムコース**　3,600 円／人：頂級套餐（再加 Jersey 牛腿排 80 g）
+
+**套餐**
+
+- **ジャージーランドセット**　3,600 円：單人起司鍋套餐（自家高達起司填在麵包裡＋牛腿排 80 g、沙拉、優格）；單品 2,900 円（只有起司鍋與沙拉，不含肉）
+- **ロースステーキハーフセット**　2,900 円：半份 Jersey 牛里肌牛排套餐（附麵包或飯、湯、沙拉、優格）；單品 2,400 円
+- **ロースステーキセット**　4,800 円：Jersey 牛里肌牛排 180 g 套餐；單品 4,300 円
+- **ハンバーグセット（デミグラス・ポン酢・トマトソース）**　1,980 円：Jersey 牛漢堡排 160 g 套餐（多蜜醬、柚子醋或番茄醬三選一）；單品 1,480 円
+- **超大判ステーキセット**　2,900 円：超大片牛排 200 g 套餐（**官網寫目前暫停**）
+
+**單點（アラカルト）**
+
+- **自家製ローストビーフ丼（20食限定）**　2,050 円：自家製烤牛肉丼（每天 20 份，附湯、優格）
+- **ビーフカレー（サラダ付）**　1,480 円：牛肉咖哩（附沙拉，隱味用蒜山葡萄酒）
+- **チーズカレー（サラダ付）**　1,680 円：起司咖哩（附沙拉）
+- **ハッシュドビーフ（サラダ付）**　1,350 円：多蜜醬燴牛肉（附沙拉）
+- **ジャージーソーセージ**　980 円：Jersey 牛肉粗絞香腸
+- **ミートスパゲティ（サラダ付）**　1,150 円：肉醬義大利麵（附沙拉）
+- **カマンベールチーズスパゲティ（サラダ付）**　1,200 円：卡門貝爾起司番茄義大利麵（附沙拉）
+- **お子様ランチ**　980 円：兒童餐（漢堡排＋燴牛肉，附優格、牛奶、零食）
+
+- 餐點 11:00 起才供應；只能在館內吃，露臺座位與外帶都不供應餐點（官網）。
+- 2025/9 起停售カマンベールチーズカレー（卡門貝爾起司咖哩）、クリームブリュレ（烤布蕾）、ヒレステーキランチ（菲力牛排午餐）、ラムステーキ（羊排）（官方 Instagram）。
+- 甜點與飲料官網沒列價格。旅色的舊菜單有レアチーズケーキ（生起司蛋糕）、ヨーグルトアソート（優格拼盤）、プレミアムアイスクリーム（冰淇淋）各 450 円，ひるぜんワイン（蒜山葡萄酒）杯 650 円，Jersey 熱牛奶、冰牛奶等飲料各 350 円（民間資料，價格可能已調整）。
 <!-- zh-glyphs:on -->
 
 - **起司鍋要 2 人份起點**；單人吃點ジャージーランドセット。
@@ -182,11 +205,20 @@ tags: [自駕, 岡山, 鳥取, 蒜山, 建築, 神社]
 - 煮麵用「鹽釜冷泉」的水。可外帶。
 
 <!-- zh-glyphs:off -->
-菜單：
+菜單（官網未公開，以下為民間資料，年份不一，價格以現場為準）：
 
-- **ひるぜんの焼きそば**　610 円：蒜山炒麵（民間資料，部落格，年份不詳）
-- **ひるぜんの焼きそば定食**　810 円：蒜山炒麵定食（同上）
-- **とりの唐揚げ**　未查到現價：日式炸雞
+- **ひるぜんの焼きそば（並）**　840 円：蒜山炒麵（雞肉配味噌甜醬，一般份量）
+- **ひるぜんの焼きそば（大盛）**　1,150 円：蒜山炒麵大份
+- **ひるぜんの焼きそば定食**　900 円：蒜山炒麵定食（較小份炒麵＋飯）
+- **焼きそば特盛**　價格未查到：特大份（另有 2,750 円的「モンスター」超大份）
+- **とりの唐揚げ**　1,020 円：日式炸雞（「げんこつ唐揚げ」，唐揚グランプリ金賞）
+- **唐揚げ定食**　1,000 円起：炸雞定食
+- **カレーライス**　600 円：咖哩飯
+- **鍋焼きうどん**　820 円：鍋燒烏龍麵
+- **焼きそばソース**　380 円：自家炒麵醬（伴手禮）
+
+- 炒麵的並、大盛、定食價格出自 Facebook 社團貼文（年份未查到），其餘出自 Yahoo!地圖投稿；2018 年部落格記 610／810 円，已漲價。
+- **週一休**（真庭觀光局、Google Maps），11:00–15:30。
 <!-- zh-glyphs:on -->
 
 | 項目 | 內容 |
@@ -322,8 +354,8 @@ tags: [自駕, 岡山, 鳥取, 蒜山, 建築, 神社]
 - 吉備高原Nスクエア：[kkaa.co.jp（隈研吾建築都市設計事務所）](https://kkaa.co.jp/project/kibi-kogen-n-square/) ／ [n-square.jp（營業時間）](https://n-square.jp/about/)
 - かよう青空市：[ja-hareoka.or.jp](https://www.ja-hareoka.or.jp/market/kayou.php) ／ [kibichuo-kanko.jp](https://kibichuo-kanko.jp/spot/2744/)
 - 中山神社：[okayama-jinjacho.or.jp（岡山縣神社廳）](https://www.okayama-jinjacho.or.jp/search/16978/) ／ [okayama-kanko.jp（停車）](https://www.okayama-kanko.jp/spot/detail_10532.html) ／ [city.tsuyama.lg.jp（中山造）](https://www.city.tsuyama.lg.jp/index.cfm/22,5208,116,371,html/index.html) ／ [goshuinmeguri.app（民間資料，御朱印）](https://goshuinmeguri.app/app/shrine/2c1e243e-23c2-5cfc-981e-20bfe6ad1f6d) ／ [whatever-jp.com（民間資料，受付時間）](https://whatever-jp.com/?p=15796)
-- ひるぜんジャージーランド：[jerseyland.hiruraku.com（營業案內）](https://jerseyland.hiruraku.com/info/) ／ [jerseyland.hiruraku.com（餐廳菜單）](https://jerseyland.hiruraku.com/food/restaurant/) ／ [jerseyland.hiruraku.com（放牧期間）](https://jerseyland.hiruraku.com/) ／ [retty.me（民間資料，付款）](https://retty.me/area/PRE33/ARE427/SUB42702/LND76733/PUR1) ／ [okayama-chisan-chisho.jp（停車）](https://www.okayama-chisan-chisho.jp/chokubaijo/%E3%81%B2%E3%82%8B%E3%81%9C%E3%82%93%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%B8%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89/)
-- 悠悠：[maniwa.or.jp（真庭觀光局）](https://www.maniwa.or.jp/web/?c=spot-2&pk=3151) ／ [travel.yahoo.co.jp（民間資料，停車）](https://travel.yahoo.co.jp/kanko/spot-00021262/) ／ [kimamanihiguhei.blog.fc2.com（民間資料，價格）](https://kimamanihiguhei.blog.fc2.com/blog-entry-411.html)
+- ひるぜんジャージーランド：[jerseyland.hiruraku.com（營業案內）](https://jerseyland.hiruraku.com/info/) ／ [jerseyland.hiruraku.com（餐廳菜單）](https://jerseyland.hiruraku.com/food/restaurant/) ／ [jerseyland.hiruraku.com（只限館內）](https://jerseyland.hiruraku.com/food/) ／ [instagram.com（2025/9 停售品項）](https://www.instagram.com/p/DOaHDzFE_M7/) ／ [tabiiro.jp（民間資料，舊菜單甜點與飲料）](https://tabiiro.jp/gourmet/s/308121-maniwa-jerseyland/) ／ [jerseyland.hiruraku.com（放牧期間）](https://jerseyland.hiruraku.com/) ／ [retty.me（民間資料，付款）](https://retty.me/area/PRE33/ARE427/SUB42702/LND76733/PUR1) ／ [okayama-chisan-chisho.jp（停車）](https://www.okayama-chisan-chisho.jp/chokubaijo/%E3%81%B2%E3%82%8B%E3%81%9C%E3%82%93%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%B8%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89/)
+- 悠悠：[maniwa.or.jp（真庭觀光局）](https://www.maniwa.or.jp/web/?c=spot-2&pk=3151) ／ [map.yahoo.co.jp（民間資料，菜單）](https://map.yahoo.co.jp/v3/place/r9EkhfWS0y-/menu) ／ [facebook.com（民間資料，炒麵份量與價格）](https://www.facebook.com/groups/970784596300476/posts/25374389982179931/) ／ [travel.yahoo.co.jp（民間資料，停車）](https://travel.yahoo.co.jp/kanko/spot-00021262/) ／ [kimamanihiguhei.blog.fc2.com（民間資料，價格）](https://kimamanihiguhei.blog.fc2.com/blog-entry-411.html)
 - GREENable HIRUZEN：[kkaa.co.jp（隈研吾建築都市設計事務所）](https://kkaa.co.jp/project/greenable-hiruzen/) ／ [greenable-hiruzen.co.jp](https://greenable-hiruzen.co.jp/) ／ [greenable-hiruzen.co.jp（第 17 回展覽會）](https://www.greenable-hiruzen.co.jp/data/298/museum_detail/) ／ [okayama-kanko.jp（門票、停車）](https://okayama-kanko.jp/spot/detail_16167.html) ／ [papersky.jp（民間資料，開館日）](https://papersky.jp/en/greenable-local-voyage)
 - 大山まきば みるくの里：[houki-town.jp（伯耆町）](https://www.houki-town.jp/new2/5/8/10/) ／ [dainyu.or.jp](https://dainyu.or.jp/village-of-milk/)
 - 大神山神社奧宮：[oogamiyama.or.jp（奧宮）](https://www.oogamiyama.or.jp/%E5%A4%A7%E7%A5%9E%E5%B1%B1%E7%A5%9E%E7%A4%BE%E5%A5%A5%E5%AE%AE/) ／ [oogamiyama.or.jp（冬季參拜）](https://www.oogamiyama.or.jp/%E5%A4%A7%E7%A5%9E%E5%B1%B1%E7%A5%9E%E7%A4%BE%E5%A5%A5%E5%AE%AE%E3%80%80%E5%86%AC%E5%AD%A3%E3%81%AE%E5%8F%82%E6%8B%9D%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/) ／ [tottori-jinjacho.jp](https://tottori-jinjacho.jp/pages/375/)

@@ -176,11 +176,64 @@
 - 招牌是ひつまぶし（鰻魚飯三吃）：先吃原味，再加佐料，最後倒高湯做茶泡飯。
 
 <!-- zh-glyphs:off -->
-菜單（含稅）：
+菜單（官網，含稅）：
 
-- **ひつまぶし**　4,300 円：鰻魚飯三吃
-- **博多明太うなぎ丼**　3,400 円：博多明太子鰻魚丼
-- **うな重 特上（三枚）**　5,200 円：特上鰻重（三片鰻魚）
+**うな丼（鰻魚丼）**
+
+- **博多明太うなぎ丼**　3,400 円：博多明太子鰻魚丼（鰻魚、高湯玉子燒、明太子、湯、醬菜、飯）
+- **うな丼 上（四切）**　3,400 円：上等鰻魚丼（四片）
+- **うな丼 並（三切）**　2,500 円：一般鰻魚丼（三片）
+- **ミニうな丼**　2,000 円：迷你鰻魚丼
+- **お子様うな丼**　1,700 円：兒童鰻魚丼（附玉子燒、蛋花湯、飲料、甜點）
+
+**ひつまぶし（鰻魚飯三吃）**
+
+- **ひつまぶし**　4,300 円：鰻魚飯三吃（附高湯與梅干、紫蘇、海苔、山葵）
+
+**うな重（鰻重）**
+
+- **うな重 特上（三枚）**　5,200 円：特上鰻重（三片整片鰻魚）
+- **うな重 上（二枚）**　4,000 円：上等鰻重（兩片），店內人氣第一
+
+**うなぎ御膳（鰻魚御膳）**
+
+- **うなぎ御膳 特上（八切）**　5,200 円：特上鰻魚御膳（八片）
+- **うなぎ御膳 上（六切）**　4,000 円：上等鰻魚御膳（六片）
+
+**其他主餐**
+
+- **せいろ蒸し**　4,200 円：蒸籠蒸鰻魚飯（附玉子燒）
+- **上海老天重（四本）**　2,800 円：上等炸蝦天婦羅重（四尾）
+- **海老天丼（三本）**　2,200 円：炸蝦天丼（三尾）
+
+**一品（單點）**
+
+- **特上蒲焼き（八切）**　4,800 円：特上蒲燒鰻（八片）
+- **蒲焼き（六切）**　3,600 円：蒲燒鰻（六片）
+- **白焼き（六切）**　3,700 円：白燒鰻（不沾醬，六片）
+- **う巻き**　600 円：鰻魚玉子燒
+- **うざく**　900 円：醋拌鰻魚小黃瓜
+- **肝焼き**　650 円：烤鰻魚肝
+- **半助骨唐揚げ**　500 円：炸鰻魚頭骨
+- **明太子**　450 円：明太子
+- **茶碗蒸し**　450 円：茶碗蒸
+- **ご飯（漬物付き）**　400 円：白飯（附醬菜）
+- **肝吸いもの**　200 円：鰻魚肝清湯
+- **吸物**　100 円：清湯
+
+**飲料**
+
+- **生ビール（アサヒ）**　650 円：朝日生啤酒
+- **瓶ビール（キリン・サッポロ）**　各 700 円：麒麟、札幌瓶裝啤酒
+- **独歩 うなぎに合うビール（330ml）**　800 円：獨步黑啤酒（配鰻魚）
+- **レモンサワー／ハイボール**　各 550 円：檸檬沙瓦／威士忌蘇打
+- **黒霧島（芋）／白岳しろ（米）／いいちこ（麦）**　各 500 円：燒酎（地瓜／米／麥）
+- **喜平 うなぎ料理に合う純米酒 300ml**　1,200 円：喜平純米酒（配鰻魚料理特釀）
+- **きびの吟風 山廃純米 桃太郎鬼退治 180ml**　950 円：吉備吟風山廢純米酒（岡山梯田山田錦）
+- **昇平 純米 岡山雄町 180ml**　950 円：昇平純米酒（岡山雄町米）
+- **ノンアルコールビール**　550 円：無酒精啤酒
+- **コーラ**　400 円：可樂
+- **オレンジ／ウーロン茶**　各 350 円：柳橙汁／烏龍茶
 <!-- zh-glyphs:on -->
 
 | 項目 | 內容 |
@@ -195,7 +248,15 @@
 ## 備選：星のヒカリ（義大利麵）
 
 - 岡山城下的義大利名店リストランテ ステリーナ開在倉敷的姊妹店，在美觀地區的「くらしき宵待ちGARDEN」裡，離大原美術館約 130 公尺。
-- 午餐只有兩種：義大利麵午餐（兩款可選），或是午間套餐（前菜兩盤、當日義大利麵、主菜、甜點、飲料）。
+- 午餐只有兩種（旅色，民間資料，年份不明；Tabelog 較舊的照片寫 1,500／2,800 円）：
+
+<!-- zh-glyphs:off -->
+- **2種のパスタランチ**　1,850 円：兩種義大利麵午餐（水果沙拉、自家製佛卡夏、兩種義大利麵、今日甜點、咖啡或紅茶或濃縮咖啡）
+- **ランチコース**　3,300 円：午間套餐（今日前菜、義大利麵、自家製佛卡夏、主菜、今日甜點、咖啡或紅茶或濃縮咖啡）
+<!-- zh-glyphs:on -->
+
+- 義大利麵與主菜每天換，菜單上不固定（部落格記過魩仔魚高麗菜蒜辣麵、烤鴨胸）。
+- **週二休**（Google Maps）。
 
 | 項目 | 內容 |
 | --- | --- |
@@ -345,7 +406,7 @@
 - 赤穗大石神社：[ako-ooishijinjya.or.jp（義士史料館）](https://www.ako-ooishijinjya.or.jp/gishi-material) ／ [ako-ooishijinjya.or.jp（拜觀料改定）](https://www.ako-ooishijinjya.or.jp/category/news) ／ [hyogo-jinjacho.com](https://www.hyogo-jinjacho.com/data/6321050.html)
 - 赤穗城跡：[ako-hyg.ed.jp（赤穗城とは）](https://www.ako-hyg.ed.jp/bunkazai/akojo/shirohistory.html) ／ [ako-kankou.jp](https://ako-kankou.jp/sightseeing/ako-castle.html) ／ [japanheritage.jp](https://japanheritage.jp/ja/hyogo/heritage/former-ako-castle-gardens)
 - 赤穗市立歷史博物館：[city.ako.lg.jp](https://www.city.ako.lg.jp/edu/shougai/shisetsu/bunka/rekishi.html)
-- うな北 倉敷店：[akr0745816760.owst.jp](https://akr0745816760.owst.jp/) ／ [hotpepper.jp](https://www.hotpepper.jp/strJ003560531/)
+- うな北 倉敷店：[akr0745816760.owst.jp](https://akr0745816760.owst.jp/) ／ [akr0745816760.owst.jp（料理）](https://akr0745816760.owst.jp/foods) ／ [akr0745816760.owst.jp（飲料）](https://akr0745816760.owst.jp/drinks) ／ [hotpepper.jp](https://www.hotpepper.jp/strJ003560531/)
 - 星のヒカリ：[kochi-sk.co.jp](https://www.kochi-sk.co.jp/kanko/tours_708.html) ／ [ameblo.jp](https://ameblo.jp/nikog3612/entry-12944016241.html) ／ [tokumori.tv.kct.jp](https://tokumori.tv.kct.jp/gourmet/50516/) ／ [tabiiro.jp](https://tabiiro.jp/gourmet/s/306251-kurashiki-yoimachi-garden/menu/87974/)
 - 阿智神社：[achi.or.jp](https://achi.or.jp/achi) ／ [achi.or.jp（交通）](https://achi.or.jp/access) ／ [achi.or.jp（Q&A）](https://achi.or.jp/question/qaa) ／ [jinja-odekake.com（車道）](https://jinja-odekake.com/kurashiki/achi-shrine/)
 - 倉敷美觀地區：[city.kurashiki.okayama.jp（美觀地區の沿革）](https://www.city.kurashiki.okayama.jp/culture/art/1007596/1007818/1007819/1007820.html) ／ [kurashiki-tabi.jp（週一有開的設施）](https://www.kurashiki-tabi.jp/faq/) ／ [kurawalk.com（停車場）](https://kurawalk.com/parking)
