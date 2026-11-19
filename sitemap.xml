@@ -1441,16 +1441,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://chrisincite.github.io/drive/sasayama-iwa-himeji.html</loc>
-    <lastmod>2026-11-19</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://chrisincite.github.io/drive/sasayama-iwa-himeji.md</loc>
-    <lastmod>2026-11-19</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://chrisincite.github.io/drive/murotsu-ako-misaki.html</loc>
     <lastmod>2026-11-19</lastmod>
     <priority>0.8</priority>
@@ -1461,12 +1451,12 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://chrisincite.github.io/drive/tajima-sakyu-izushi-yuhigaura.html</loc>
+    <loc>https://chrisincite.github.io/drive/ako-kurashiki-kibiji.html</loc>
     <lastmod>2026-11-18</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://chrisincite.github.io/drive/tajima-sakyu-izushi-yuhigaura.md</loc>
+    <loc>https://chrisincite.github.io/drive/ako-kurashiki-kibiji.md</loc>
     <lastmod>2026-11-18</lastmod>
     <priority>0.5</priority>
   </url>
@@ -1481,16 +1471,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://chrisincite.github.io/drive/izumo-suga-iu-rokusha-adachi.html</loc>
-    <lastmod>2026-11-18</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://chrisincite.github.io/drive/izumo-suga-iu-rokusha-adachi.md</loc>
-    <lastmod>2026-11-18</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://chrisincite.github.io/drive/daisen-ueda-sakaiminato-mihonoseki.html</loc>
     <lastmod>2026-11-18</lastmod>
     <priority>0.8</priority>
@@ -1501,13 +1481,33 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://chrisincite.github.io/drive/ako-kurashiki-kibiji.html</loc>
+    <loc>https://chrisincite.github.io/drive/izumo-suga-iu-rokusha-adachi.html</loc>
     <lastmod>2026-11-18</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://chrisincite.github.io/drive/ako-kurashiki-kibiji.md</loc>
+    <loc>https://chrisincite.github.io/drive/izumo-suga-iu-rokusha-adachi.md</loc>
     <lastmod>2026-11-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/drive/tajima-sakyu-izushi-yuhigaura.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/drive/tajima-sakyu-izushi-yuhigaura.md</loc>
+    <lastmod>2026-11-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/drive/sasayama-iwa-himeji.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrisincite.github.io/drive/sasayama-iwa-himeji.md</loc>
+    <lastmod>2026-11-19</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

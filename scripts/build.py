@@ -2167,6 +2167,10 @@ def build_drive(path, short_url=""):
         meta, body = parse_front_matter(f.read())
 
     title = meta.get("title") or slug
+    # day：旅行第幾天。標題前加「Day N｜」，索引依此排序
+    day = str(meta.get("day", "")).strip()
+    if day:
+        title = "Day %s｜%s" % (day, title)
     date = str(meta.get("date", "")).strip()
     chapters = split_guide_chapters(body)
     hook = meta.get("hook") or guide_hook(chapters)
@@ -2275,6 +2279,7 @@ def build_drive(path, short_url=""):
         "slug": slug,
         "title": title,
         "date": date,
+        "day": int(day) if day.isdigit() else None,
         "hook": hook,
         "tags": tags,
         "cover": cover,
@@ -2343,8 +2348,11 @@ def build_drives():
         drives.append(g)
         texts.append(text)
         print("🚗 %s（%d 章）" % (g["slug"], len(g["chapters"])))
-    paired = sorted(zip(drives, texts),
-                    key=lambda p: (p[0]["date"], p[0]["slug"]), reverse=True)
+    # 依旅行順序（day 由小到大）；沒寫 day 的排最後，照上線日新到舊
+    undated = sorted([p for p in zip(drives, texts) if p[0]["day"] is None],
+                     key=lambda p: (p[0]["date"], p[0]["slug"]), reverse=True)
+    paired = sorted([p for p in zip(drives, texts) if p[0]["day"] is not None],
+                    key=lambda p: p[0]["day"]) + undated
     return ([g for g, _ in paired], [t for _, t in paired], mapping)
 
 
